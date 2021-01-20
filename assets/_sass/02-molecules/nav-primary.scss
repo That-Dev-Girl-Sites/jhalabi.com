@@ -6,7 +6,7 @@
 
   li {
     display: inline-block;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
     padding-bottom: 1rem;
     padding-left: 1rem;
@@ -19,7 +19,7 @@
 
     &:hover,
     &:focus {
-      border-bottom: 0.25rem solid $secondary-blue;
+      border-bottom: 0.25rem dotted $nav-primary-link-border;
     }
   }
 

@@ -4,18 +4,21 @@
 
 .site-header {
 
-  margin: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
+  padding: 0 1rem 1rem;
   text-align: center;
 
   @media screen and ( min-width: $md ) {
     display: grid;
     grid-template-columns: 300px 1fr;
 
+    .nameplate {
+      text-align: left;
+    }
+
     nav {
       justify-self: end;
-      margin-right: 1rem;
-      margin-top: 2.8rem;
+      margin-top: 1.75rem;
     }
   }
 

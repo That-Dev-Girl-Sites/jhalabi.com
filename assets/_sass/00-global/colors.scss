@@ -2,11 +2,15 @@
  * Global: Colors
  */
 
-$black:            #222;
-$white:            #fff;
+// Primary & secondary colors.
+$black:      #222;
+$white:      #fff;
+$logo-pink:  #db5461;
+$purple:     #6d4672;
+$silver:     #8f8f8f;
 
-$primary-purple:   #7d2861;
 
-$secondary-purple: #bfb1c1;
-$secondary-silver: #b5bec6;
-$secondary-blue:   #c7dbe6;
+// Component color definitions.
+$link-color:               $logo-pink;
+$nameplate-link-color:     $black;
+$nav-primary-link-border:  $purple;

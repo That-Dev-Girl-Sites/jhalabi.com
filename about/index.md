@@ -1,6 +1,6 @@
 ---
 layout: main
-title: About Me
+title: About
 ---
 
-Hi! I'm Joni and I make websites.
+Hi! I'm **Joni** and I make websites.
