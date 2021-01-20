@@ -1,0 +1,26 @@
+/**
+ * Molecules: Nav, Primary
+ */
+
+.nav-primary {
+
+  li {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  a {
+    padding-bottom: 0.25rem;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      border-bottom: 0.25rem solid $secondary-blue;
+    }
+  }
+
+}

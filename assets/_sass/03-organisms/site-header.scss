@@ -1,0 +1,22 @@
+/**
+ * Organisms: Site Header
+ */
+
+.site-header {
+
+  margin: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+
+  @media screen and ( min-width: $md ) {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+
+    nav {
+      justify-self: end;
+      margin-right: 1rem;
+      margin-top: 2.8rem;
+    }
+  }
+
+}

@@ -1,0 +1,14 @@
+/**
+ * Atoms: Link
+ */
+
+a {
+  color: $primary-purple;
+  text-decoration: underline;
+
+  &:focus,
+  &:hover {
+    color: darken( $primary-purple, 10% );
+    text-decoration: none;
+  }
+}

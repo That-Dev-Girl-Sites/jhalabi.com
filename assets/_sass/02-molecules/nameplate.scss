@@ -1,0 +1,31 @@
+/**
+ * Molecules: Nameplate
+ */
+
+.nameplate {
+
+  // The logo gets added within the link, but before the link text, so it
+  // does not appear in the DOM (it's decorative), but it is still linked.
+  a::before {
+    background: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    display: inline-block;
+    height: 6rem;
+    left: 0.5rem;
+    position: relative;
+    top: 2rem;
+    width: 6rem;
+  }
+
+  a {
+    color: $black;
+    font-size: 2.441rem;
+    left: -0.5rem;
+    position: relative;
+    text-decoration: none;
+    top: -2rem;
+  }
+
+}
