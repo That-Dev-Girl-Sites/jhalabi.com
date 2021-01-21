@@ -3,15 +3,28 @@
  */
 
 // Screen sizes.
-$md: 800px;
+$md:                  800px;
+
 
 // Content width.
-$max-width:  760px;
-$logo-width: 4rem;
+$header-box-width:    4rem;
+$header-strip-height: 3rem;
+
+$logo-height:         1rem;
+$logo-size:           2rem;
+$logo-size-quarter:   $logo-size / 4;
+
+$page-margin-small:   2rem;
+$page-margin-large:   12rem;
+
+$max-width:           760px;
+
 
 // Typography sizes.
-$type-h1: 3.052rem;
-$type-h2: 2.441rem;
-$type-h3: 1.953rem;
-$type-h4: 1.563rem;
-$type-p:  1.15rem;
+$line-height:         1.75;
+
+$type-h1:             3.052rem;
+$type-h2:             2.441rem;
+$type-h3:             1.953rem;
+$type-h4:             1.563rem;
+$type-p:              1.15rem;

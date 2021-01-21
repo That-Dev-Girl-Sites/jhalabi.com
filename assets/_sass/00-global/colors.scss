@@ -2,28 +2,30 @@
  * Global: Colors
  */
 
-// Primary & secondary colors.
+// Neutral colors.
 $black:        #222;
 $white:        #fff;
-$purple:       #7b297d;
+
+
+// Primary color palette.
 $deep-purple:  #2b0549;
+$lavender:     #b38d97;
+
+$green:        #9ABCA7;
+$feldgrau:     #4C6663;
 
 
 // Component color definitions.
-$body-bg:                   $white;
-$body-border:               $deep-purple;
+$header-box-color-1:   $deep-purple;
+$header-box-color-2:   $lavender;
+$header-box-color-3:   $feldgrau;
+$header-box-color-4:   $green;
 
-$image-border:              $deep-purple;
+$heading-color:        darken( $deep-purple, 10% );
 
-$link-color:                $purple;
+$link-color:           darken( $lavender, 20% );
 
-$nameplate-link-color:      $deep-purple;
-$nameplate-link-color-aux:  $purple;
+$nameplate-color:      darken( $deep-purple, 10% );
+$nameplate-logo-bg:    darken( $deep-purple, 10% );
 
-$nav-primary-link:          $black;
-$nav-primary-link-border:   $purple;
-
-$site-header-border:        lighten( $black, 25% );
-
-$tagline-brackets:          $deep-purple;
-$tagline-color:             lighten( $black, 30% );
+$tagline:              lighten( $black, 30% );

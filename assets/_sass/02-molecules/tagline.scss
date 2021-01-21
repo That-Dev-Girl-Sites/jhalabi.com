@@ -1,0 +1,29 @@
+/**
+ * Molecules: Tagline
+ */
+
+.tagline {
+
+  @include monospace;
+  color: $tagline;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0.25rem;
+  text-transform: lowercase;
+
+  @media screen and ( min-width: $md ) {
+    // Add square brackets around the tagline.
+    &::before,
+    &::after {
+      color: $tagline;
+      font-size: $type-h3;
+      font-weight: bold;
+      line-height: 1;
+    }
+
+    &::before { content: '['; margin-right: -0.5rem; }
+    &::after  { content: ']'; margin-left:  -0.5rem; }
+  }
+
+}

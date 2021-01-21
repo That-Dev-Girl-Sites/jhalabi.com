@@ -4,38 +4,36 @@
 
 .nameplate {
 
+  line-height: 1;
   margin-bottom: 0;
+  padding-top: $logo-size * 3; // Move to account for absolutely positioned logo.
+
 
   a {
-    color: $nameplate-link-color;
+    @include monospace;
+    color: $nameplate-color;
     font-size: $type-h1;
     text-decoration: none;
-
-    span {
-      color: $nameplate-link-color-aux;
-    }
 
     // The logo gets added within the link, but before the link text, so it
     // does not appear in the DOM (it's decorative), but it is still linked.
     &::before {
-      background-image: url('../images/logo.gif');
+      background-color: $nameplate-logo-bg;
+      background-image: url('../images/logo-white.gif');
+      background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
       content: '';
-      display: block;
-      height: 4rem;
+      display: inline-block;
+      height: $logo-size * 2;
       left: 0;
-      margin-left: 0.25rem;
-      margin-top: 1.75rem;
+      border-left: 1rem solid $nameplate-logo-bg;
+      border-right: 1rem solid $nameplate-logo-bg;
       position: absolute;
       top: 0;
-      width: $logo-width;
-
-      @media screen and ( min-width: $md ) {
-        background-image: url('../images/logo-white.gif');
-        margin-top: 1.25rem;
-      }
+      width: $logo-size * 2;
     }
+
   }
 
 }

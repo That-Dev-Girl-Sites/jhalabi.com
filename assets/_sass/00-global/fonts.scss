@@ -2,6 +2,7 @@
  * Global: Fonts
  */
 
+// Font definitions.
 @font-face {
   font-family: 'Raleway';
   src: url( '../fonts/Raleway-Regular.ttf' ) format( 'truetype' );
@@ -20,4 +21,22 @@
 @font-face{
   font-family: 'Consolas';
   src: url( '../fonts/Consolas.ttf' ) format( 'truetype' );
+}
+
+
+// Reusable font mixins.
+@mixin sans-regular {
+  font-family: 'Raleway', sans-serif;
+}
+
+@mixin sans-bold {
+  font-family: 'Raleway-Bold', sans-serif;
+}
+
+@mixin sans-italic {
+  font-family: 'Raleway-Italic', sans-serif;
+}
+
+@mixin monospace {
+  font-family: 'Consolas', monospace;
 }

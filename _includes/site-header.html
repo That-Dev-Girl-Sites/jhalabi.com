@@ -13,7 +13,7 @@
 
   <header class="site-header">
     <p class="nameplate">
-      <a href="/"><span>Joni</span> Halabi</a>
+      <a href="/">Joni Halabi</a>
     </p>
 
     <p class="tagline">
@@ -22,6 +22,7 @@
 
     <nav class="nav-primary" aria-label="Main">
       <ul>
+        <li><a href="/" {% if page.dir == '/' %}class="current"{% endif %}>Home</a></li>
         <li><a href="/about" {% if page.url contains '/about' %}class="current"{% endif %}>About</a></li>
         <li><a href="/work" {% if page.url contains '/work' %}class="current"{% endif %}>Work</a></li>
         <li><a href="/speaking" {% if page.url contains '/speaking' %}class="current"{% endif %}>Speaking</a></li>

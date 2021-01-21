@@ -4,12 +4,14 @@
 
 .nav-primary {
 
+  margin: 0.5rem 0 2.5rem 0;
+
   li {
     display: inline-block;
     font-size: 1rem;
-    font-weight: bold;
-    padding-bottom: 1rem;
-    padding-right: 1.5rem;
+    list-style: none;
+    margin: 0 1rem 0 0;
+    text-transform: lowercase;
 
     &::before {
       content: '/';
@@ -17,14 +19,13 @@
   }
 
   a {
-    color: $nav-primary-link;
-    padding-bottom: 0.25rem;
+    @include monospace;
+  }
 
-    &.current {
-      color: $purple;
-      font-family: 'Raleway-Bold', sans-serif;
-      font-weight: bold;
-    }
+  .current {
+    @include sans-bold;
+    font-size: 1.1rem;
+    text-decoration: none;
   }
 
 }

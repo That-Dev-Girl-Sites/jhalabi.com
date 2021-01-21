@@ -4,16 +4,13 @@
 
 .site-header {
 
-  border-bottom: 1px solid $site-header-border;
+  border-bottom: 1px solid lighten( $black, 30% );
   margin-bottom: 4rem;
-  margin-left: auto;
-  padding: 0.5rem 1rem;
-  width: calc( 100% - #{$logo-width} );
+  margin-left: $page-margin-small;
+  margin-right: $page-margin-small;
 
   @media screen and ( min-width: $md ) {
-    margin-left: 10rem;
-    padding-left: 0;
-    width: calc( 100% - 10rem );
+    margin-left: $page-margin-large;
   }
 
 }

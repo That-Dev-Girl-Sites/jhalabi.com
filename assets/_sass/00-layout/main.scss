@@ -4,16 +4,11 @@
 
 main {
 
-  margin: auto;
-  margin-right: 1rem;
-  padding-left: 2rem;
-  padding-right: 1rem;
-  width: calc( 100% - #{$logo-width} );
+  margin: 0 $page-margin-small;
 
   @media screen and ( min-width: $md ) {
-    margin: 0 auto 0 10rem;
+    margin-left: $page-margin-large;
     max-width: $max-width;
-    padding-left: 0;
   }
 
 }
