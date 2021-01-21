@@ -3,29 +3,32 @@
  */
 
 // Neutral colors.
-$black:        #222;
-$white:        #fff;
+$black:   #222;
+$white:   #fff;
 
 
 // Primary color palette.
-$deep-purple:  #2b0549;
-$lavender:     #b38d97;
-
-$green:        #9ABCA7;
-$feldgrau:     #4C6663;
+$purple:  #542344;
+$copper:  #b26e63;
+$green:   #9da9a0;
+$khaki:   #cec075;
 
 
 // Component color definitions.
-$header-box-color-1:   $deep-purple;
-$header-box-color-2:   $lavender;
-$header-box-color-3:   $feldgrau;
+$header-box-color-1:   $purple;
+$header-box-color-2:   $copper;
+$header-box-color-3:   $khaki;
 $header-box-color-4:   $green;
 
-$heading-color:        darken( $deep-purple, 10% );
+$heading-color:        darken( $purple, 10% );
 
-$link-color:           darken( $lavender, 20% );
+$link-color:           darken( $copper, 20% );
 
-$nameplate-color:      darken( $deep-purple, 10% );
-$nameplate-logo-bg:    darken( $deep-purple, 10% );
+$nameplate-color:      darken( $purple, 10% );
+$nameplate-logo-bg:    darken( $purple, 10% );
+
+$section-bg:           lighten( $green, 20% );
 
 $tagline:              lighten( $black, 30% );
+
+$work-example-bg:      lighten( $green, 30% );

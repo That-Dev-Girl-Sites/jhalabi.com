@@ -16,9 +16,12 @@ h2 {
 }
 
 h3 {
-  font-size: $type-h3;
+  @include monospace;
+  font-size: $type-h4;
+  margin-top: 2rem;
 }
 
 h4 {
   font-size: $type-h4;
+  margin-bottom: 0.5rem;
 }

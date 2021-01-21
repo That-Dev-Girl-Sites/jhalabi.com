@@ -1,0 +1,50 @@
+/**
+ * Organisms: Work Examples
+ */
+
+.work-examples {
+
+  margin: 2rem 0;
+
+  @media screen and ( min-width: $md ) {
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+  // Individual example item.
+  div {
+    background-color: $work-example-bg;
+    border-radius: 0.25rem;
+    padding-bottom: 2rem;
+
+    * {
+      padding: 0 1rem;
+
+      &:first-child {
+        padding: 0;
+      }
+    }
+
+    @media screen and ( min-width: $md ) {
+      border: 0 !important;
+      padding-top: 0;
+    }
+  }
+
+
+  img {
+    float: none;
+    margin: 0;
+    max-width: initial;
+    width: 100%;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+
+
+}

@@ -8,6 +8,7 @@
 
 @import '00-layout/body';
 @import '00-layout/main';
+@import '00-layout/section';
 
 @import '01-atoms/headings';
 @import '01-atoms/image';
@@ -20,3 +21,4 @@
 @import '02-molecules/tagline';
 
 @import '03-organisms/site-header';
+@import '03-organisms/work-examples';

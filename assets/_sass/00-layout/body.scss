@@ -4,6 +4,8 @@
 
 body {
 
+  overflow-x: hidden;
+
   // Add a box top-border to the page.
   &::before {
     background-color: $header-box-color-1;

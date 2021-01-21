@@ -1,0 +1,42 @@
+/**
+ * Atoms: Section
+ */
+
+section {
+
+  margin: 1rem 0;
+  padding: 1rem 0;
+  position: relative;
+
+  // Full-bleed background.
+  &.has-background::before {
+    background: $section-bg;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    margin-left: -$page-margin-small;
+    padding-left: $page-margin-small;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+
+    @media screen and ( min-width: $md ) {
+      margin-left: -$page-margin-large;
+      padding-left: $page-margin-large;
+    }
+  }
+
+  &:first-of-type {
+    &.has-background {
+      margin-top: 4rem;
+    }
+  }
+
+
+  // Heading overrides.
+  h2 {
+    margin-top: 2rem;
+  }
+
+}
