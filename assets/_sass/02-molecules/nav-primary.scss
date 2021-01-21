@@ -9,17 +9,21 @@
     font-size: 1rem;
     font-weight: bold;
     padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 1.5rem;
+
+    &::before {
+      content: '/';
+    }
   }
 
   a {
+    color: $nav-primary-link;
     padding-bottom: 0.25rem;
-    text-decoration: none;
 
-    &:hover,
-    &:focus {
-      border-bottom: 0.25rem dotted $nav-primary-link-border;
+    &.current {
+      color: $purple;
+      font-family: 'Raleway-Bold', sans-serif;
+      font-weight: bold;
     }
   }
 

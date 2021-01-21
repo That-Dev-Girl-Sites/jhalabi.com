@@ -1,0 +1,19 @@
+/**
+ * Atoms: Main (basic layout)
+ */
+
+main {
+
+  margin: auto;
+  margin-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  width: calc( 100% - #{$logo-width} );
+
+  @media screen and ( min-width: $md ) {
+    margin: 0 auto 0 10rem;
+    max-width: $max-width;
+    padding-left: 0;
+  }
+
+}

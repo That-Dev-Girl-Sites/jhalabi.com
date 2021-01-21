@@ -5,16 +5,11 @@
 * {
   box-sizing: border-box;
   color: $black;
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 100%;
   font-weight: 400;
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-color: $white;
-  margin: 1rem;
 }
 
 br {
@@ -22,9 +17,11 @@ br {
 }
 
 strong, b {
+  font-family: 'Raleway-Bold', sans-serif;
   font-weight: bold;
 }
 
 em, i {
+  font-family: 'Raleway-Italic', sans-serif;
   font-style: italic;
 }

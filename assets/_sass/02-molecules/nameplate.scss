@@ -4,30 +4,38 @@
 
 .nameplate {
 
-  margin-bottom: 1rem;
-
-  // The logo gets added within the link, but before the link text, so it
-  // does not appear in the DOM (it's decorative), but it is still linked.
-  a::before {
-    background: url('../images/logo.gif');
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: '';
-    display: inline-block;
-    height: 3rem;
-    position: relative;
-    top: 0.75rem;
-    width: 4rem;
-  }
+  margin-bottom: 0;
 
   a {
     color: $nameplate-link-color;
-    font-size: 1.953rem;
+    font-size: $type-h1;
     text-decoration: none;
-  }
 
-  @media screen and ( min-width: $md ) {
+    span {
+      color: $nameplate-link-color-aux;
+    }
 
+    // The logo gets added within the link, but before the link text, so it
+    // does not appear in the DOM (it's decorative), but it is still linked.
+    &::before {
+      background-image: url('../images/logo.gif');
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+      display: block;
+      height: 4rem;
+      left: 0;
+      margin-left: 0.25rem;
+      margin-top: 1.75rem;
+      position: absolute;
+      top: 0;
+      width: $logo-width;
+
+      @media screen and ( min-width: $md ) {
+        background-image: url('../images/logo-white.gif');
+        margin-top: 1.25rem;
+      }
+    }
   }
 
 }

@@ -1,0 +1,14 @@
+/**
+ * Atoms: Image
+ */
+
+img {
+  border: 2px solid $image-border;
+  width: 90%;
+
+  @media screen and ( min-width: $md ) {
+    float: left;
+    margin: 0 2rem 2rem 0;
+    max-width: 300px;
+  }
+}

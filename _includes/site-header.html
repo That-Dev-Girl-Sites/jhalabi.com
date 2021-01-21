@@ -12,16 +12,20 @@
 <body>
 
   <header class="site-header">
-    <h1 class="nameplate">
-      <a href="/">Joni Halabi</a>
-    </h1>
+    <p class="nameplate">
+      <a href="/"><span>Joni</span> Halabi</a>
+    </p>
+
+    <p class="tagline">
+      Web developer, Mom, Runner, Baker, Music lover, Reader, Chaotic neutral
+    </p>
 
     <nav class="nav-primary" aria-label="Main">
       <ul>
-        <li><a href="/about">About</a></li>
-        <li><a href="/work">Work</a></li>
-        <li><a href="/speaking">Speaking</a></li>
-        <li><a href="/writing">Writing</a></li>
+        <li><a href="/about" {% if page.url contains '/about' %}class="current"{% endif %}>About</a></li>
+        <li><a href="/work" {% if page.url contains '/work' %}class="current"{% endif %}>Work</a></li>
+        <li><a href="/speaking" {% if page.url contains '/speaking' %}class="current"{% endif %}>Speaking</a></li>
+        <li><a href="/writing" {% if page.url contains '/writing' %}class="current"{% endif %}>Writing</a></li>
       </ul>
     </nav>
   </header>

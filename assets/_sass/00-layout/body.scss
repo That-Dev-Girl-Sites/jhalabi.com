@@ -1,0 +1,14 @@
+/**
+ * Layout: Body
+ */
+
+body {
+
+  background-color: $body-bg;
+  border-left: 0.5rem solid $body-border;
+
+  @media screen and ( min-width: $md ) {
+    border-left-width: 5rem;
+  }
+
+}

@@ -3,14 +3,27 @@
  */
 
 // Primary & secondary colors.
-$black:      #222;
-$white:      #fff;
-$logo-pink:  #db5461;
-$purple:     #6d4672;
-$silver:     #8f8f8f;
+$black:        #222;
+$white:        #fff;
+$purple:       #7b297d;
+$deep-purple:  #2b0549;
 
 
 // Component color definitions.
-$link-color:               $logo-pink;
-$nameplate-link-color:     $black;
-$nav-primary-link-border:  $purple;
+$body-bg:                   $white;
+$body-border:               $deep-purple;
+
+$image-border:              $deep-purple;
+
+$link-color:                $purple;
+
+$nameplate-link-color:      $deep-purple;
+$nameplate-link-color-aux:  $purple;
+
+$nav-primary-link:          $black;
+$nav-primary-link-border:   $purple;
+
+$site-header-border:        lighten( $black, 25% );
+
+$tagline-brackets:          $deep-purple;
+$tagline-color:             lighten( $black, 30% );

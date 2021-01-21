@@ -4,22 +4,16 @@
 
 .site-header {
 
+  border-bottom: 1px solid $site-header-border;
   margin-bottom: 4rem;
-  padding: 0 1rem 1rem;
-  text-align: center;
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  width: calc( 100% - #{$logo-width} );
 
   @media screen and ( min-width: $md ) {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-
-    .nameplate {
-      text-align: left;
-    }
-
-    nav {
-      justify-self: end;
-      margin-top: 1.75rem;
-    }
+    margin-left: 10rem;
+    padding-left: 0;
+    width: calc( 100% - 10rem );
   }
 
 }
