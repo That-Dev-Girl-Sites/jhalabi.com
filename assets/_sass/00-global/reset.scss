@@ -3,9 +3,9 @@
  */
 
 * {
-  @include sans-regular;
+  @include monospace;
   box-sizing: border-box;
-  color: $black;
+  color: $color;
   font-size: 100%;
   font-weight: 400;
   margin: 0;
@@ -17,9 +17,9 @@ br {
 }
 
 strong, b {
-  @include sans-bold;
+  @include monospace-bold;
 }
 
 em, i {
-  @include sans-italic;
+  @include monospace-italic;
 }

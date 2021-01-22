@@ -6,10 +6,9 @@
 
   @include monospace;
   color: $tagline;
-  font-size: 1.25rem;
   line-height: 1;
-  margin-bottom: 0;
-  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  margin-top: 0.15rem;
   text-transform: lowercase;
 
   @media screen and ( min-width: $md ) {
@@ -17,8 +16,7 @@
     &::before,
     &::after {
       color: $tagline;
-      font-size: $type-h3;
-      font-weight: bold;
+      font-size: $type-h4;
       line-height: 1;
     }
 

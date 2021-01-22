@@ -7,7 +7,7 @@ img {
   width: 75%;
 
   @media screen and ( min-width: $md ) {
-    border: 1px solid $black;
+    border: 1px solid $image-border;
     float: left;
     margin: 0.5rem 2rem 2rem 0;
     max-width: 300px;

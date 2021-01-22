@@ -9,34 +9,34 @@
 }
 
 @font-face {
-  font-family: 'RalewayBold';
-  src: url( '../fonts/Raleway-Bold.ttf' ) format( 'truetype' );
+  font-family: 'Roboto';
+  src: url( '../fonts/RobotoMono-Light.ttf' ) format( 'truetype' );
 }
 
 @font-face {
-  font-family: 'RalewayItalic';
-  src: url( '../fonts/Raleway-Italic.ttf' ) format( 'truetype' );
+  font-family: 'RobotoBold';
+  src: url( '../fonts/RobotoMono-Bold.ttf' ) format( 'truetype' );
 }
 
-@font-face{
-  font-family: 'Consolas';
-  src: url( '../fonts/Consolas.ttf' ) format( 'truetype' );
+@font-face {
+  font-family: 'RobotoItalic';
+  src: url( '../fonts/RobotoMono-LightItalic.ttf' ) format( 'truetype' );
 }
 
 
 // Reusable font mixins.
-@mixin sans-regular {
+@mixin sans {
   font-family: 'Raleway', sans-serif;
 }
 
-@mixin sans-bold {
-  font-family: 'Raleway-Bold', sans-serif;
-}
-
-@mixin sans-italic {
-  font-family: 'Raleway-Italic', sans-serif;
-}
-
 @mixin monospace {
-  font-family: 'Consolas', monospace;
+  font-family: 'Roboto', monospace;
+}
+
+@mixin monospace-bold {
+  font-family: 'RobotoBold', monospace;
+}
+
+@mixin monospace-italic {
+  font-family: 'RobotoItalic', monospace;
 }

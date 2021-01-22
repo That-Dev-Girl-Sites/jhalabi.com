@@ -4,10 +4,10 @@
 
 .site-header {
 
-  border-bottom: 1px solid lighten( $black, 30% );
+  border-bottom: 2px solid $site-header-border;
   margin-bottom: 4rem;
   margin-left: $page-margin-small;
-  margin-right: $page-margin-small;
+  margin-right: 0;
 
   @media screen and ( min-width: $md ) {
     margin-left: $page-margin-large;

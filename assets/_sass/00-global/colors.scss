@@ -15,20 +15,27 @@ $khaki:   #cec075;
 
 
 // Component color definitions.
+$background-color:     $black;
+$color:                $white;
+
 $header-box-color-1:   $purple;
-$header-box-color-2:   $copper;
-$header-box-color-3:   $khaki;
-$header-box-color-4:   $green;
+$header-box-color-2:   $green;
+$header-box-color-3:   $copper;
+$header-box-color-4:   $khaki;
 
-$heading-color:        darken( $purple, 10% );
+$heading-color:        $white;
 
-$link-color:           darken( $copper, 20% );
+$image-border:         $white;
 
-$nameplate-color:      darken( $purple, 10% );
-$nameplate-logo-bg:    darken( $purple, 10% );
+$link-color:           lighten( $copper, 10% );
 
-$section-bg:           lighten( $green, 20% );
+$nameplate-color:      $white;
+$nameplate-logo-bg:    $purple;
 
-$tagline:              lighten( $black, 30% );
+$section-bg:           darken( $green, 35% );
 
-$work-example-bg:      lighten( $green, 30% );
+$site-header-border:   lighten( $black, 30% );
+
+$tagline:              lighten( $black, 60% );
+
+$work-example-bg:      darken( $green, 30% );

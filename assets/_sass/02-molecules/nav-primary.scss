@@ -23,7 +23,7 @@
   }
 
   .current {
-    @include sans-bold;
+    @include monospace-bold;
     font-size: 1.1rem;
     text-decoration: none;
   }
