@@ -72,7 +72,7 @@ I created this site as part of our documentation efforts to encourage Drupal con
 
 October 2015 - present _(occasionally)_
 
-* Founded this startup-of-one where create websites for large and small organizations, specializing in WordPress themes and plugins, as well as Javascript applications.
+This startup-of-one is where I create websites for large and small organizations. I specialize in WordPress themes, plugins, and Javascript applications.
 
 <div markdown="1" class="work-examples">
 

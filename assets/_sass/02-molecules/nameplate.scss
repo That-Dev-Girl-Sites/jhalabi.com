@@ -12,7 +12,7 @@
   a {
     @include sans;
     color: $nameplate-color;
-    font-size: $type-h1;
+    font-size: $type-nameplate;
     text-decoration: none;
 
     // The logo gets added within the link, but before the link text, so it

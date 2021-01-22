@@ -8,10 +8,10 @@ $white:   #fff;
 
 
 // Primary color palette.
-$purple:  #542344;
-$copper:  #b26e63;
-$green:   #9da9a0;
-$khaki:   #cec075;
+$purple:      #542344;
+$copper:      #b26e63;
+$champagne:   #f7e1d7;
+$timberwolf:  #dedbd2;
 
 
 // Component color definitions.
@@ -19,23 +19,26 @@ $background-color:     $black;
 $color:                $white;
 
 $header-box-color-1:   $purple;
-$header-box-color-2:   $green;
+$header-box-color-2:   $champagne;
 $header-box-color-3:   $copper;
-$header-box-color-4:   $khaki;
+$header-box-color-4:   $timberwolf;
 
 $heading-color:        $white;
+$heading-color-h3:     lighten( $copper, 10% );
 
 $image-border:         $white;
 
-$link-color:           lighten( $copper, 10% );
+$link-color:           darken( $timberwolf, 10% );
 
 $nameplate-color:      $white;
 $nameplate-logo-bg:    $purple;
 
-$section-bg:           darken( $green, 35% );
+$nav-primary:          lighten( $copper, 10% );
+
+$section-bg:           darken( $champagne, 60% );
 
 $site-header-border:   lighten( $black, 30% );
 
 $tagline:              lighten( $black, 60% );
 
-$work-example-bg:      darken( $green, 30% );
+$work-example-bg:      darken( $champagne, 30% );

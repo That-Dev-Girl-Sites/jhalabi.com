@@ -18,9 +18,10 @@ h2 {
 
 h3 {
   @include sans;
-  color: $heading-color;
+  color: $heading-color-h3;
   font-size: $type-h4;
   margin-top: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
