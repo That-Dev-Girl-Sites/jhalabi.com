@@ -4,7 +4,7 @@
 
 .work-examples {
 
-  margin: 2rem 0;
+  margin: 2rem 0 3rem;
 
   @media screen and ( min-width: $md ) {
     display: grid;
@@ -44,7 +44,5 @@
   p {
     font-size: 1rem;
   }
-
-
 
 }
