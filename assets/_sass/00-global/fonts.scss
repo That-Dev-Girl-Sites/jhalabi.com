@@ -4,8 +4,18 @@
 
 // Font definitions.
 @font-face {
-  font-family: 'Raleway';
-  src: url( '../fonts/Raleway-Regular.ttf' ) format( 'truetype' );
+  font-family: 'OpenSans';
+  src: url( '../fonts/OpenSans-Regular.ttf' ) format( 'truetype' );
+}
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url( '../fonts/OpenSans-Bold.ttf' ) format( 'truetype' );
+}
+
+@font-face {
+  font-family: 'OpenSansItalic';
+  src: url( '../fonts/OpenSans-Italic.ttf' ) format( 'truetype' );
 }
 
 @font-face {
@@ -18,15 +28,18 @@
   src: url( '../fonts/RobotoMono-Bold.ttf' ) format( 'truetype' );
 }
 
-@font-face {
-  font-family: 'RobotoItalic';
-  src: url( '../fonts/RobotoMono-LightItalic.ttf' ) format( 'truetype' );
-}
-
 
 // Reusable font mixins.
 @mixin sans {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'OpenSans', sans-serif;
+}
+
+@mixin sans-bold {
+  font-family: 'OpenSansBold', sans-serif;
+}
+
+@mixin sans-italic {
+  font-family: 'OpenSansItalic', sans-serif;
 }
 
 @mixin monospace {
@@ -35,8 +48,4 @@
 
 @mixin monospace-bold {
   font-family: 'RobotoBold', monospace;
-}
-
-@mixin monospace-italic {
-  font-family: 'RobotoItalic', monospace;
 }

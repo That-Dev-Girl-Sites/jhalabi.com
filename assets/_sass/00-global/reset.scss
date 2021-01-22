@@ -3,7 +3,7 @@
  */
 
 * {
-  @include monospace;
+  @include sans;
   box-sizing: border-box;
   color: $color;
   font-size: 100%;
@@ -17,9 +17,9 @@ br {
 }
 
 strong, b {
-  @include monospace-bold;
+  @include sans-bold;
 }
 
 em, i {
-  @include monospace-italic;
+  @include sans-italic;
 }

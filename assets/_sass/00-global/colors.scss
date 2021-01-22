@@ -4,7 +4,7 @@
 
 // Neutral colors.
 $black:   #222;
-$white:   #fff;
+$white:   #f0f0f0;
 
 
 // Primary color palette.
@@ -15,30 +15,30 @@ $timberwolf:  #dedbd2;
 
 
 // Component color definitions.
-$background-color:     $black;
-$color:                $white;
+$background-color:     $white;
+$color:                $black;
 
 $header-box-color-1:   $purple;
 $header-box-color-2:   $champagne;
 $header-box-color-3:   $copper;
 $header-box-color-4:   $timberwolf;
 
-$heading-color:        $white;
-$heading-color-h3:     lighten( $copper, 10% );
+$heading-color:        $black;
+$heading-color-h3:     $purple;
 
-$image-border:         $white;
+$image-border:         $black;
 
-$link-color:           darken( $timberwolf, 10% );
+$link-color:           darken( $copper, 10% );
 
-$nameplate-color:      $white;
+$nameplate-color:      $black;
 $nameplate-logo-bg:    $purple;
 
-$nav-primary:          lighten( $copper, 10% );
+$nav-primary:          darken( $copper, 10% );
 
-$section-bg:           darken( $champagne, 60% );
+$section-bg:           darken( $champagne, 15% );
 
 $site-header-border:   lighten( $black, 30% );
 
-$tagline:              lighten( $black, 60% );
+$tagline:              lighten( $black, 20% );
 
-$work-example-bg:      darken( $champagne, 30% );
+$work-example-bg:      $timberwolf;

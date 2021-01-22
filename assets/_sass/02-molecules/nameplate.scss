@@ -6,7 +6,7 @@
 
   line-height: 1;
   margin-bottom: 0;
-  padding-top: $logo-size * 3; // Move to account for absolutely positioned logo.
+  padding-top: $logo-size * 1.5; // Move to account for absolutely positioned logo.
 
 
   a {
@@ -23,15 +23,17 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-      content: '';
-      display: inline-block;
-      height: $logo-size * 2;
-      left: 0;
       border-left: 1rem solid $nameplate-logo-bg;
       border-right: 1rem solid $nameplate-logo-bg;
+      content: '';
+      display: inline-block;
+      height: $logo-size;
+      left: 0;
+      // margin: 0 auto;
       position: absolute;
+      right: 0;
       top: 0;
-      width: $logo-size * 2;
+      width: $logo-size;
     }
 
   }

@@ -7,7 +7,7 @@ Hi there! My name is **Joni** and I make websites.
 
 ## Details, please!
 
-I am a **web developer** and **teacher**. I work for Georgetown University and live just outside of Washington DC. I have been writing code since the mid-1980s. I was 2. _(Kidding, though I know I'm dating myself anyway.)_
+I am a **web developer** and **teacher**. I work for Georgetown University and live just outside of Washington DC. I have been writing code since the mid-1980s. I was 2. _(Kidding. Mostly. Yes, I know I'm dating myself. Shush.)_
 
 I primarily write in **HTML**, **CSS**, and **Javascript**, but I work a lot in WordPress these days, so I spend a lot of time with **PHP** too.
 

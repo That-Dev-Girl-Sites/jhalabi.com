@@ -22,7 +22,7 @@ body {
       $header-box-color-4 0.25rem * 4 );
     content: '';
     display: block;
-    height: $logo-size;
+    height: $logo-size-half;
     position: absolute;
     width: 100%;
     z-index: -1;
