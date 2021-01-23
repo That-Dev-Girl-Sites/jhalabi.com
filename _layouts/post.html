@@ -13,7 +13,11 @@
       <p class="categories">
         <b>Topics:</b>
         {% for category in page.categories %}
-          <a href="/writing/{{category | replace: ' ', '_' }}" class="category">{{ category | replace: "_", " " }}</a>
+          {% assign mainCategory = category %}
+          <a href="/writing/{{category | replace: ' ', '-' }}" class="category">{{ category | replace: "-", " " }}</a>
+        {% endfor %}
+        {% for tag in page.tags %}
+          <a href="/writing/{{ mainCategory }}/{{ tag | replace: ' ', '-' }}" class="category">{{ tag | replace: "-", " "  }}</a>
         {% endfor %}
       </p>
     </div>

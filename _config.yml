@@ -19,3 +19,7 @@ sass:
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 20
+paginate_path: "/writing/page:num/"

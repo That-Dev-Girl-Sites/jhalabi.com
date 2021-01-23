@@ -1,0 +1,25 @@
+<section class="has-background timberwolf pagination" aria-label="Pagination">
+
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="square" aria-label="Previous page">&#171;</a>
+  {% else %}
+    <span class="outline">&#171;</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="current">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="{{ '/writing' | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="square" aria-label="Next page">&#187;</a>
+  {% else %}
+    <span class="outline">&#187;</span>
+  {% endif %}
+
+</section>

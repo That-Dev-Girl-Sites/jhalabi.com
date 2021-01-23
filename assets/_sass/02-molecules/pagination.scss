@@ -1,0 +1,48 @@
+/**
+ * Molecules: Pagination
+ */
+
+.pagination {
+
+  padding: 1rem 0 0;
+
+  // All pagination items, linked or not.
+  a,
+  span {
+    @include monospace;
+    border-radius: 0.1rem;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin: 0 0.4rem 1rem;
+    padding: 0.25rem 0.55rem;
+    text-decoration: none;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a:focus,
+  a:hover {
+    background: $pagination-hover-bg;
+    color: $pagination-hover;
+  }
+
+  // Linked previous or next buttons.
+  .square {
+    background-color: $pagination-square-bg;
+    color: $pagination-square;
+  }
+
+  // Unlinked previous or next buttons.
+  .outline {
+    border: 1px solid $pagination-square-bg;
+  }
+
+  // Current page item.
+  .current {
+    background-color: $pagination-current-bg;
+    color: $pagination-current;
+  }
+
+}

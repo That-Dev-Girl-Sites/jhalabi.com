@@ -1,0 +1,24 @@
+{% include site-header.html %}
+
+<main>
+
+  <h1>
+    I write about...
+    {{ page.category | capitalize | replace: "-", " " | replace: "Wordpress", "WordPress" }}
+  </h1>
+
+  {{ page.content }}
+
+  <section aria-label="List of all articles about {{ page.category }}">
+    {% for post in site.tags[page.category] %}
+      {% include article-snip.html %}
+    {% endfor %}
+  </section>
+
+  <section class="has-background timberwolf" aria-label="Back to all articles">
+    <a href="/writing">All articles</a>
+  </section>
+
+</main>
+
+{% include site-footer.html %}
