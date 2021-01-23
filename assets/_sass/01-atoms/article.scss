@@ -1,0 +1,13 @@
+/**
+ * Atoms: Article
+ */
+
+article {
+
+  margin-top: 4rem;
+
+  &:first-of-type {
+    margin-top: 1rem;
+  }
+
+}

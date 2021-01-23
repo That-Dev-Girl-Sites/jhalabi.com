@@ -10,15 +10,24 @@
 @import '00-layout/main';
 @import '00-layout/section';
 
+@import '01-atoms/article';
+@import '01-atoms/code';
+@import '01-atoms/figure';
 @import '01-atoms/headings';
+@import '01-atoms/highlight';
+@import '01-atoms/hr';
 @import '01-atoms/image';
 @import '01-atoms/link';
 @import '01-atoms/list';
 @import '01-atoms/paragraph';
+@import '01-atoms/table';
 
 @import '02-molecules/nameplate';
 @import '02-molecules/nav-primary';
+@import '02-molecules/post-meta';
 @import '02-molecules/tagline';
 
 @import '03-organisms/site-header';
 @import '03-organisms/work-examples';
+
+@import '04-vendor/colorful';

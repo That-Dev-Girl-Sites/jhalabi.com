@@ -12,4 +12,22 @@ a {
     text-decoration: none;
   }
 
+
+  // Variation: Category
+  &.category {
+    background-color: $link-category-bg;
+    border-radius: 0.15rem;
+    color: $link-category-color;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    padding: 0 1rem;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      background-color: $link-category-bg-hover;
+    }
+  }
+
 }

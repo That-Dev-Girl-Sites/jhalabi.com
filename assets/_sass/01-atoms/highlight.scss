@@ -1,0 +1,21 @@
+/**
+ * Atoms: Code highlighter.
+ */
+
+div.highlight,
+figure.highlight {
+
+  background-color: $figure-bg;
+  box-shadow: 1px 1px 1px $figure-shadow;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+
+  .w {
+    text-decoration: none;
+  }
+
+  pre {
+    background: inherit;
+  }
+
+}

@@ -1,0 +1,15 @@
+<article aria-label="{{ post.title | strip_html }}">
+
+  <p class="title">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </p>
+
+  <p class="date">
+    {{ post.date | date_to_long_string }}
+  </p>
+
+  <p class="excerpt">
+    {{ post.content | strip_html | truncatewords:40 }}
+  </p>
+
+</article>

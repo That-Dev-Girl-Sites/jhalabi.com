@@ -8,25 +8,6 @@ section {
   padding: 1rem 0 2rem;
   position: relative;
 
-  // Full-bleed background.
-  &.has-background::before {
-    background: $section-bg;
-    content: '';
-    display: inline-block;
-    height: 100%;
-    margin-left: -$page-margin-small;
-    padding-left: $page-margin-small;
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    z-index: -1;
-
-    @media screen and ( min-width: $md ) {
-      margin-left: -$page-margin-large;
-      padding-left: $page-margin-large;
-    }
-  }
-
   &:first-of-type {
     &.has-background {
       margin-top: 4rem;
@@ -39,4 +20,30 @@ section {
     margin-top: 2rem;
   }
 
+}
+
+// Full-bleed background.
+.has-background::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  margin-left: -$page-margin-small;
+  padding-left: $page-margin-small;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
+
+  @media screen and ( min-width: $md ) {
+    margin-left: -$page-margin-large;
+    padding-left: $page-margin-large;
+  }
+}
+
+.has-background.champagne::before {
+  background: $section-bg-champagne;
+}
+
+.has-background.timberwolf::before {
+  background: $section-bg-timberwolf;
 }

@@ -8,4 +8,44 @@ p {
   line-height: $line-height;
   margin-bottom: 1.5rem;
 
+
+  // Variation: Date
+  &.date {
+    @include sans-italic;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+
+
+  // Variation: Categories
+  &.categories {
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+  }
+
+
+  // Variation: Title
+  &.title {
+    @include monospace-bold;
+    font-size: $type-h4;
+    margin-bottom: 0.5rem;
+
+    a {
+      color: $link-title-color;
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+
+  // Variation: Excerpt
+  &.excerpt {
+    font-size: 1rem;
+  }
+
 }

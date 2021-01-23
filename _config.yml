@@ -1,6 +1,6 @@
 title: Joni Halabi
 email: joni@jhalabi.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines
   Personal site that includes my resume, work as a web developer, and
   blog articles about tech and life.
 production_url: https://jonihalabi.com
@@ -10,6 +10,8 @@ github_username:  thatdevgirl
 
 icons: '/assets/icons'
 images: '/assets/images'
+
+permalink: /writing/:title
 
 sass:
   sass_dir: '/assets/_sass'

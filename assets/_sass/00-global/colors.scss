@@ -15,30 +15,38 @@ $timberwolf:  #dedbd2;
 
 
 // Component color definitions.
-$background-color:     $white;
-$color:                $black;
+$background-color:        $white;
+$color:                   $black;
 
-$header-box-color-1:   $purple;
-$header-box-color-2:   $champagne;
-$header-box-color-3:   $copper;
-$header-box-color-4:   $timberwolf;
+$figure-bg:               lighten( $background-color, 10% );
+$figure-shadow:           lighten( $black, 50 );
 
-$heading-color:        $black;
-$heading-color-h3:     $purple;
+$header-box-color-1:      $purple;
+$header-box-color-2:      $champagne;
+$header-box-color-3:      $copper;
+$header-box-color-4:      $timberwolf;
 
-$image-border:         $black;
+$heading-color:           $black;
+$heading-color-h3:        $purple;
 
-$link-color:           darken( $copper, 10% );
+$image-border:            $black;
 
-$nameplate-color:      $black;
-$nameplate-logo-bg:    $purple;
+$link-color:              darken( $copper, 10% );
+$link-category-bg:        $purple;
+$link-category-bg-hover:  darken( $champagne, 50% );
+$link-category-color:     $white;
+$link-title-color:        lighten( $purple, 10% );
 
-$nav-primary:          darken( $copper, 10% );
+$nameplate-color:         $black;
+$nameplate-logo-bg:       $purple;
 
-$section-bg:           darken( $champagne, 15% );
+$nav-primary:             darken( $copper, 10% );
 
-$site-header-border:   lighten( $black, 30% );
+$section-bg-champagne:    darken( $champagne, 15% );
+$section-bg-timberwolf:   $timberwolf;
 
-$tagline:              lighten( $black, 20% );
+$site-header-border:      lighten( $black, 30% );
 
-$work-example-bg:      $timberwolf;
+$tagline:                 lighten( $black, 20% );
+
+$work-example-bg:         $timberwolf;

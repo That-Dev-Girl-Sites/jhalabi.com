@@ -7,7 +7,7 @@ Senior web developer in Washington DC with over 20 years of programming experien
 
 
 
-<section markdown="1" class="has-background" aria-label="Technical Skills">
+<section markdown="1" class="has-background champagne" aria-label="Technical Skills">
 
 ## Technical Skills
 

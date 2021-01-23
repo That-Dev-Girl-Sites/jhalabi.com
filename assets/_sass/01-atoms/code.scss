@@ -1,0 +1,17 @@
+/**
+ * Atoms: Code
+ */
+
+code {
+
+  @include monospace;
+  color: inherit;
+  line-height: 1.5;
+  white-space: break-spaces;
+
+  // Make sure HTML tags that might be in a code block has the monospaced font.
+  * {
+    @include monospace;
+  }
+
+}

@@ -1,0 +1,114 @@
+/**
+ * Atoms: Table
+ */
+
+table {
+
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: $type-p;
+  margin: 2rem 0;
+  width: 100%;
+
+  thead {
+    background: $purple;
+    text-align: left;
+  }
+
+  th {
+    color: $white;
+  }
+
+  @media screen and ( max-width: $md ) {
+    border: 1px solid $purple;
+    width: 100%;
+
+    thead, tbody {
+      display: block;
+      width: 100%;
+    }
+
+    thead {
+      margin-bottom: 1rem;
+    }
+
+    tr {
+      display: block;
+      padding: 0.5rem 1rem;
+      white-space: nowrap;
+      width: 100%;
+    }
+
+    th, td {
+      &:first-child {
+        @include sans-bold;
+      }
+
+      &::after {
+        content: ', ';
+      }
+
+      &:last-child::after {
+        content: '';
+      }
+    }
+
+    th {
+      display: block;
+      margin-left: 1rem;
+
+      &:first-child {
+        margin-left: 0;
+
+        &::before {
+          content: 'Browsers: ';
+        }
+
+        &::after {
+          content: '';
+        }
+      }
+    }
+
+    td {
+      display: inline;
+
+      &:first-child {
+        display: block;
+
+        &::after {
+          content: ': ';
+        }
+      }
+
+      &:nth-child(2) {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  @media screen and ( min-width: $md ) {
+    tbody tr {
+      border-bottom: 1px solid $black;
+
+      &:last-child {
+        border: 0;
+      }
+    }
+
+    td, th {
+      font-weight: 300;
+      border-left: 1px solid $black;
+      padding: 0.5rem 1rem;
+
+      &:first-child {
+        border: 0;
+      }
+    }
+
+    th {
+      border-color: $white;
+    }
+  }
+
+}
