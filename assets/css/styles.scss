@@ -22,13 +22,14 @@
 @import '01-atoms/paragraph';
 @import '01-atoms/table';
 
+@import '02-molecules/archive-container';
+@import '02-molecules/category-list';
 @import '02-molecules/nameplate';
 @import '02-molecules/nav-primary';
 @import '02-molecules/pagination';
 @import '02-molecules/post-meta';
+@import '02-molecules/site-header';
 @import '02-molecules/tagline';
+@import '02-molecules/work-examples';
 
-@import '03-organisms/site-header';
-@import '03-organisms/work-examples';
-
-@import '04-vendor/colorful';
+@import '03-vendor/colorful';

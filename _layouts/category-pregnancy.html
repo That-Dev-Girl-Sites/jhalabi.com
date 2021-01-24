@@ -1,0 +1,27 @@
+{% include site-header.html %}
+
+<main>
+
+  <h1>
+    I write about... My Pregnancy Story!
+  </h1>
+
+  <div class="archive-container">
+    <section aria-label="List of all pregnancy-related sub-categories">
+      <p>The story of how Amelia Jade was conceived and born.</p>
+
+      <ul>
+        <li class="pregnancy-tag"><a href="conception/">Conception</a></li>
+        <li class="pregnancy-tag"><a href="first-trimester/">The First Trimester</a></li>
+        <li class="pregnancy-tag"><a href="second-trimester/">The Second Trimester</a></li>
+        <li class="pregnancy-tag"><a href="third-trimester/">The Third Trimester</a></li>
+        <li class="pregnancy-tag"><a href="postpartum/">Postpartum</a></li>
+      </ul>
+    </section>
+
+    {% include category-list.html %}
+  </div>
+
+</main>
+
+{% include site-footer.html %}

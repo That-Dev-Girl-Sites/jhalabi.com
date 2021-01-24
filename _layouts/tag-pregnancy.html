@@ -3,11 +3,14 @@
 <main>
 
   <h1>
-    I write about...
-    {{ page.category | capitalize | replace: "-", " " | replace: "Wordpress", "WordPress" }}
+    My Pregnancy Story:
+    {{ page.category | capitalize | replace: "-", " " }}
   </h1>
 
-  {{ page.content }}
+  <p>
+    {{ page.content }}
+    <i><a href="../">(Or, go back to see all pregnancy articles.)</a></i>
+  </p>
 
   <section aria-label="List of all articles about {{ page.category }}">
     {% for post in site.tags[page.category] %}

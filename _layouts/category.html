@@ -9,15 +9,15 @@
 
   {{ page.content }}
 
-  <section aria-label="List of all articles about {{ page.category }}">
-    {% for post in site.categories[page.category] %}
-      {% include article-snip.html %}
-    {% endfor %}
-  </section>
+  <div class="archive-container">
+    <section aria-label="List of all articles about {{ page.category }}">
+      {% for post in site.categories[page.category] %}
+        {% include article-snip.html %}
+      {% endfor %}
+    </section>
 
-  <section class="has-background timberwolf" aria-label="Back to all articles">
-    <a href="/writing">All articles</a>
-  </section>
+    {% include category-list.html %}
+  </div>
 
 </main>
 

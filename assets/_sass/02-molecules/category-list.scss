@@ -1,0 +1,48 @@
+/**
+ * Molecules: Category list
+ */
+
+.category-list {
+
+  margin-right: 4rem;
+
+  h2 {
+    @include sans-bold
+    font-size: $type-h4;
+    margin-top: 1rem;
+    text-transform: uppercase;
+  }
+
+  li {
+    border-bottom: 1px solid $catlist-border;
+    font-size: 0.9rem;
+    list-style: none;
+    margin: 0;
+  }
+
+  // Link to a category.
+  a {
+    display: block;
+    padding: 0.4rem 0 0.4rem 0.25rem;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      background-color: $catlist-hover-bg
+    }
+
+    &::after {
+      content: '▸';
+      margin-left: 0.5rem;
+    }
+  }
+
+  // Placeholder for the current category.
+  span {
+    background-color: $catlist-current-bg;
+    color: $catlist-current;
+    display: block;
+    padding: 0.4rem 0 0.4rem 0.25rem;
+  }
+
+}

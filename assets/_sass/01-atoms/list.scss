@@ -9,6 +9,28 @@ li {
   margin-bottom: 0.75rem;
   margin-left: 2rem;
 
+
+  // Variation: Pregnancy tag.
+  &.pregnancy-tag {
+    list-style-type: none;
+    margin: 1rem 0;
+
+
+    a {
+      background-color: $pregnancy-tag-bg;
+      color: $pregnancy-tag;
+      display: block;
+      font-size: 1rem;
+      padding: 0.75rem 1rem;
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        background-color: $pregnancy-tag-hover;
+      }
+    }
+  }
+
 }
 
 ul, ol {

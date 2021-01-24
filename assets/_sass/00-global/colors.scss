@@ -18,6 +18,11 @@ $timberwolf:  #dedbd2;
 $background-color:        $white;
 $color:                   $black;
 
+$catlist-border:          $black;
+$catlist-current:         $white;
+$catlist-current-bg:      lighten( $purple, 10% );
+$catlist-hover-bg:        $timberwolf;
+
 $figure-bg:               lighten( $background-color, 10% );
 $figure-shadow:           lighten( $black, 50 );
 
@@ -43,6 +48,10 @@ $pagination-current-bg:   darken( $copper, 10% );
 $pagination-current:      $white;
 $pagination-hover-bg:     $copper;
 $pagination-hover:        $white;
+
+$pregnancy-tag-bg:        $purple;
+$pregnancy-tag-hover:     darken( $copper, 10% );
+$pregnancy-tag:           $white;
 
 $nameplate-color:         $black;
 $nameplate-logo-bg:       $purple;

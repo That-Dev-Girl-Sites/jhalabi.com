@@ -1,0 +1,19 @@
+{% assign categories = site.categories | sort %}
+
+<section class="category-list" aria-label="Category list">
+
+  <h2>All Topics</h2>
+
+  <ul>
+    {% for category in categories %}
+      <li>
+        {% if page.url contains category[0] %}
+          <span>{{ category[0] | replace: '-', ' ' }}</span>
+        {% else %}
+          <a href="/writing/{{ category[0] }}">{{ category[0] | replace: '-', ' ' }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+</section>
