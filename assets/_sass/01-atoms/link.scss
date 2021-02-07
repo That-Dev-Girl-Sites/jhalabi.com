@@ -30,4 +30,21 @@ a {
     }
   }
 
+
+  // Variation: Button
+  &.button {
+    background-color: $link-button-bg;
+    border-radius: 0.25rem;
+    color: $link-button-color;
+    display: inline-block;
+    margin: 1rem 0.5rem 0.5rem 0;
+    padding: 0.25rem 1.5rem !important;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      background-color: $link-button-bg-hover;
+    }
+  }
+
 }
