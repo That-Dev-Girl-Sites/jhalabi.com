@@ -2,7 +2,7 @@
 
 ## WordPress Plugins
 
-<div markdown="1" class="work-examples">
+<div markdown="1" class="work-examples three-columns">
 
 <div markdown="1">
 ![](/assets/images/plugin-besan-block.jpg)

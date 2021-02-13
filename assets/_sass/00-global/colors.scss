@@ -17,6 +17,7 @@ $timberwolf:    #dedbd2;
 $seaweed:       #00798c;
 $blue:          #30638e;
 $indigo:        #003d5b;
+$tart-orange:   #c65050;
 
 
 // Component color definitions.
@@ -73,6 +74,12 @@ $section-bg-blue:         mix( $white, $indigo, 70% );
 $site-header-border:      lighten( $black, 30% );
 
 $tagline:                 lighten( $black, 20% );
+
+$tool-list-bg-css:        $tart-orange;
+$tool-list-bg-js:         mix( $white, $purple, 10% );
+$tool-list-bg-utility:    $seaweed;
+$tool-list-dt:            $white;
+$tool-list-link-bg:       darken( $timberwolf, 60% );
 
 $work-example-bg:         $actual-white;
 $work-example-border:     lighten( $black, 40% );

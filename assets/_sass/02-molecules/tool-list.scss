@@ -1,0 +1,82 @@
+/**
+ * Molecules: Tool list (definition list)
+ */
+
+
+// Mixin helper for row coloring.
+@mixin tool-list-color-row( $color ) {
+  background-color: $color;
+
+  @media screen and ( min-width: $lg ) {
+    & + dd,
+    & + dd + dd {
+      background-color: mix( $white, $color, 90% );
+    }
+
+    & + dd + dd {
+      border-left: 1px solid $white;
+      text-align: center;
+    }
+  }
+}
+
+
+.tool-list {
+
+  dl {
+    @media screen and ( min-width: $lg ) {
+      display: grid;
+      grid-template-columns: 1fr 4fr 10rem;
+      margin-top: 2rem;
+      padding-right: 4rem;
+      width: $archive-width;
+    }
+  }
+
+  // Tool name.
+  dt {
+    color: $tool-list-dt;
+    margin: 2rem 0 0.5rem 0;
+    padding: 0.5rem 1rem;
+
+    @media screen and ( min-width: $lg ) {
+      margin: 0 1px 0.25rem 0;
+      padding: 1rem 0.5rem;
+    }
+
+    &.css     { @include tool-list-color-row( $tool-list-bg-css ); }
+    &.js      { @include tool-list-color-row( $tool-list-bg-js ); }
+    &.utility { @include tool-list-color-row( $tool-list-bg-utility ); }
+  }
+
+  // Tool information.
+  dd {
+    margin-bottom: 0.5rem;
+    padding: 0 1rem;
+
+    @media screen and ( min-width: $lg ) {
+      margin-bottom: 0.25rem;
+      padding: 1rem 0.5rem;
+    }
+  }
+
+  // Links.
+  a {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+
+    @media screen and ( min-width: $lg ) {
+      background-color: rgba( $actual-white, 0.4 );
+      border-radius: 0.25rem;
+      padding: 0.5rem;
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        background-color: rgba( $actual-white, 0.8 );
+      }
+    }
+  }
+
+}
