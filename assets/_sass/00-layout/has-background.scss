@@ -25,38 +25,62 @@
   }
 }
 
-.has-background.copper::before {
+.has-background.copper {
   background: $section-bg-copper;
-  background-image: repeating-linear-gradient(
-    180deg,
-    $section-bg-copper,
-    $section-bg-copper 0.5rem,
-    darken( $section-bg-copper, 3% ) 0.5rem,
-    darken( $section-bg-copper, 3% ) calc( 0.75rem ) );
+
+  &::before {
+    background: $section-bg-copper;
+    background-image: repeating-linear-gradient(
+      180deg,
+      $section-bg-copper,
+      $section-bg-copper 0.5rem,
+      darken( $section-bg-copper, 3% ) 0.5rem,
+      darken( $section-bg-copper, 3% ) calc( 0.75rem ) );
+  }
 }
 
-.has-background.timberwolf::before {
+.has-background.timberwolf {
   background: $section-bg-timberwolf;
-  background-image: repeating-linear-gradient(
-    90deg,
-    $section-bg-timberwolf,
-    $section-bg-timberwolf 0.5rem,
-    darken( $section-bg-timberwolf, 3% ) 0.5rem,
-    darken( $section-bg-timberwolf, 3% ) calc( 1rem ) );
+
+  &::before {
+    background: $section-bg-timberwolf;
+    background-image: repeating-linear-gradient(
+      90deg,
+      $section-bg-timberwolf,
+      $section-bg-timberwolf 0.5rem,
+      darken( $section-bg-timberwolf, 3% ) 0.5rem,
+      darken( $section-bg-timberwolf, 3% ) calc( 1rem ) );
+  }
 }
 
-.has-background.blue::before {
-  background-color: $section-bg-blue;
+.has-background.blue {
+  background: $section-bg-blue;
+
+  &::before {
+    background: $section-bg-blue;
+  }
 }
 
-.has-background.purple::before {
-  background-color: $section-bg-purple;
+.has-background.purple {
+  background: $section-bg-purple;
+
+  &::before {
+    background: $section-bg-purple;
+  }
 }
 
-.has-background.grey::before {
-  background-color: $section-bg-grey;
+.has-background.grey {
+  background: $section-bg-grey;
+
+  &::before {
+    background: $section-bg-grey;
+  }
 }
 
-.has-background.light-grey::before {
-  background-color: $section-bg-light-grey;
+.has-background.light-grey {
+  background: $section-bg-light-grey;
+
+  &::before {
+    background: $section-bg-light-grey;
+  }
 }

@@ -28,6 +28,11 @@
   src: url( '../fonts/RobotoMono-Bold.ttf' ) format( 'truetype' );
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url( '../fonts/icomoon.ttf' ) format( 'truetype' );
+}
+
 
 // Reusable font mixins.
 @mixin sans {
@@ -48,4 +53,8 @@
 
 @mixin monospace-bold {
   font-family: 'RobotoBold', monospace;
+}
+
+@mixin icons {
+  font-family: 'icomoon';
 }

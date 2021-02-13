@@ -1,0 +1,36 @@
+/**
+ * Molecules: Contact Options
+ */
+
+.contact-options {
+
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  margin-bottom: 4rem;
+
+  dt {
+    padding: 1rem 0 1rem 1rem;
+
+    &::before {
+      font-size: 2rem;
+      color: $contact-icon;
+    }
+
+    &:nth-of-type(2n) {
+      background: $contact-row-bg;
+    }
+  }
+
+  dd {
+    padding: 1.25rem 0 1rem 0;
+
+    &:nth-of-type(2n) {
+      background: $contact-row-bg;
+    }
+  }
+
+  a {
+    color: $contact-link;
+  }
+
+}

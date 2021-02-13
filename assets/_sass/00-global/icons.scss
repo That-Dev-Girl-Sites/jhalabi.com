@@ -1,0 +1,29 @@
+/**
+ * Global: Icons
+ */
+
+.icon::before {
+  @include icons;
+}
+
+.icon {
+  &-envelop::before {
+     content: "\e945";
+   }
+
+  &-twitter::before {
+    content: "\ea96";
+  }
+
+  &-github::before {
+    content: "\eab0";
+  }
+
+  &-linkedin::before {
+    content: "\eac9";
+  }
+
+  &-stackoverflow::before {
+    content: "\ead0";
+  }
+}
