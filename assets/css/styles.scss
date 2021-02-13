@@ -7,6 +7,7 @@
 @import '00-global/reset';
 
 @import '00-layout/body';
+@import '00-layout/has-background';
 @import '00-layout/main';
 @import '00-layout/section';
 
@@ -28,6 +29,7 @@
 @import '02-molecules/nav-primary';
 @import '02-molecules/pagination';
 @import '02-molecules/post-meta';
+@import '02-molecules/site-footer';
 @import '02-molecules/site-header';
 @import '02-molecules/tagline';
 @import '02-molecules/tool-list';

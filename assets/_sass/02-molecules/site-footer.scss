@@ -1,0 +1,54 @@
+/**
+ * Molecules: Site Footer
+ */
+
+footer {
+
+  // Layout styles.
+  .footer-code,
+  .footer-copyright {
+    padding: 2rem;
+
+    // Inner div to constrain block text.
+    div {
+      @media screen and ( min-width: $md ) {
+        margin: 0 auto;
+        width: 50%;
+      }
+    }
+  }
+
+
+  // Code block.
+  .footer-code {
+    padding: 2rem;
+
+    // Definition list for JSON effect.
+    dl {
+      display: grid;
+      grid-template-columns: 8rem 1fr;
+      margin-bottom: 0;
+      margin-left: 2rem;
+    }
+
+    // Typography for all children.
+    * {
+      @include monospace;
+      color: $footer-code;
+      margin-bottom: 0.25rem;
+    }
+  }
+
+
+  // Copyright block.
+  .footer-copyright {
+    border-top: 1px solid $footer-border;
+
+    p {
+      color: $footer-copyright;
+      font-size: 0.8rem;
+      margin: 0;
+    }
+  }
+
+}

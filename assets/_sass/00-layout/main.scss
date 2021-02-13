@@ -1,5 +1,5 @@
 /**
- * Atoms: Main (basic layout)
+ * Layout: Main
  */
 
 main {
@@ -9,6 +9,10 @@ main {
   @media screen and ( min-width: $md ) {
     margin-left: $page-margin-large;
     max-width: $max-width;
+  }
+
+  p:last-child {
+    margin-bottom: 4rem;
   }
 
 }

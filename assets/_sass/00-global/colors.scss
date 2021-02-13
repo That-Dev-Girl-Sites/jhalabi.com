@@ -32,6 +32,10 @@ $catlist-hover-bg:        $timberwolf;
 $figure-bg:               lighten( $background-color, 10% );
 $figure-shadow:           lighten( $black, 50 );
 
+$footer-code:             $white;
+$footer-copyright:        $white;
+$footer-border:           $white;
+
 $header-box-color-1:      $purple;
 $header-box-color-2:      $timberwolf;
 $header-box-color-3:      $copper;
@@ -70,6 +74,8 @@ $nav-primary:             darken( $copper, 10% );
 $section-bg-copper:       mix( $white, $copper, 60% );
 $section-bg-timberwolf:   $timberwolf;
 $section-bg-blue:         mix( $white, $indigo, 70% );
+$section-bg-purple:       $purple;
+$section-bg-grey:         lighten( $black, 5% );
 
 $site-header-border:      lighten( $black, 30% );
 

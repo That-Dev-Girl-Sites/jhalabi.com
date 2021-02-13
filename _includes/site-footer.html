@@ -1,20 +1,41 @@
   <footer>
-    <p>Copyright &copy; {{ site.time | date: '%Y' }} Joni Halabi.</p>
+    <div class="footer-code has-background purple">
+      <div>
+        <p>const thatDevGirl = {</p>
+        <dl>
+          <dt>name:</dt>
+          <dd>'Joni Halabi',</dd>
+          <dt>description:</dt>
+          <dd>'Senior web developer and instructor',</dd>
+          <dt>location:</dt>
+          <dd>'Washington DC',</dd>
+          <dt>twitter:</dt>
+          <dd>'<a href="https://twitter.com/jonihalabi">@jonihalabi</a>';</dd>
+          <dt>status:</dt>
+          <dd>'Hunkering down with my very active and curious toddler. OK for chatting.'</dd>
+        </dl>
+        <p>};</p>
+      </div>
+    </div>
 
-    <p>
-      {% capture day %}{{ site.time | date: '%A' }}{% endcapture %}
+    <div class="footer-copyright has-background grey">
+      <div>
+        <p>
+          Copyright &copy; {{ site.time | date: '%Y' }} Joni Halabi.
 
-      {% if day == 'Sunday' %}Happy Sunday! Today is French toast day in our house.{% endif %}
-      {% if day == 'Monday' %}Whelp, it's Monday. Go ahead and have that extra cup of tea.{% endif %}
-      {% if day == 'Tuesday' %}Happy "We survived Monday" day! Otherwise known as Tuesday!{% endif %}
-      {% if day == 'Wednesday' %}It's... nope. Not going to say it. But have a great Wednesday!{% endif %}
-      {% if day == 'Thursday' %}It's Thursday! Almost there!{% endif %}
-      {% if day == 'Friday' %}Happy Friday! We made it!{% endif %}
-      {% if day == 'Saturday' %}It's the weekend. Hooray!{% endif %}
-    </p>
+          {% capture day %}{{ site.time | date: '%A' }}{% endcapture %}
 
+          {% if day == 'Sunday' %}Happy Sunday! Today is French toast day in our house.{% endif %}
+          {% if day == 'Monday' %}Whelp, it's Monday. Go ahead and have that extra cup of tea.{% endif %}
+          {% if day == 'Tuesday' %}Happy "We survived Monday" day! Otherwise known as Tuesday!{% endif %}
+          {% if day == 'Wednesday' %}It's... nope. Not going to say it. But have a great Wednesday!{% endif %}
+          {% if day == 'Thursday' %}It's Thursday! Almost there!{% endif %}
+          {% if day == 'Friday' %}Happy Friday! We made it!{% endif %}
+          {% if day == 'Saturday' %}It's the weekend. Hooray!{% endif %}
+        </p>
+      </div>
+    </div>
   </footer>
 
 </body>
-
 </html>

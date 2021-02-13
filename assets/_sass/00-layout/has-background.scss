@@ -1,0 +1,58 @@
+/**
+ * Layout: Has Background
+ *
+ * Special helpers for layout items that have full-bleed backgrounds.
+ */
+
+.has-background {
+  margin: 0;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    margin-left: -$page-margin-small;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+
+    @media screen and ( min-width: $md ) {
+      margin-left: -$page-margin-large;
+      padding-left: $page-margin-large;
+    }
+  }
+}
+
+.has-background.copper::before {
+  background: $section-bg-copper;
+  background-image: repeating-linear-gradient(
+    180deg,
+    $section-bg-copper,
+    $section-bg-copper 0.5rem,
+    darken( $section-bg-copper, 3% ) 0.5rem,
+    darken( $section-bg-copper, 3% ) calc( 0.75rem ) );
+}
+
+.has-background.timberwolf::before {
+  background: $section-bg-timberwolf;
+  background-image: repeating-linear-gradient(
+    90deg,
+    $section-bg-timberwolf,
+    $section-bg-timberwolf 0.5rem,
+    darken( $section-bg-timberwolf, 3% ) 0.5rem,
+    darken( $section-bg-timberwolf, 3% ) calc( 1rem ) );
+}
+
+.has-background.blue::before {
+  background-color: $section-bg-blue;
+}
+
+.has-background.purple::before {
+  background-color: $section-bg-purple;
+}
+
+.has-background.grey::before {
+  background-color: $section-bg-grey;
+}
