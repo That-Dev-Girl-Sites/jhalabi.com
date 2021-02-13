@@ -40,8 +40,6 @@
 }
 
 .has-background.timberwolf {
-  background: $section-bg-timberwolf;
-
   &::before {
     background: $section-bg-timberwolf;
     background-image: repeating-linear-gradient(
