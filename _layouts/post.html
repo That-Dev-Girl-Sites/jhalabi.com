@@ -4,23 +4,21 @@
 
   <h1>{{ page.title }}</h1>
 
-  <div class="post-meta">
-    <div class="has-background timberwolf">
-      <p class="date">
-        {{ page.date | date_to_long_string }}
-      </p>
+  <div class="post-meta has-background timberwolf">
+    <p class="date">
+      {{ page.date | date_to_long_string }}
+    </p>
 
-      <p class="categories">
-        <b>Topics:</b>
-        {% for category in page.categories %}
-          {% assign mainCategory = category %}
-          <a href="/writing/{{category | replace: ' ', '-' }}" class="category">{{ category | replace: "-", " " }}</a>
-        {% endfor %}
-        {% for tag in page.tags %}
-          <a href="/writing/{{ mainCategory }}/{{ tag | replace: ' ', '-' }}" class="category">{{ tag | replace: "-", " "  }}</a>
-        {% endfor %}
-      </p>
-    </div>
+    <p class="categories">
+      <b>Topics:</b>
+      {% for category in page.categories %}
+        {% assign mainCategory = category %}
+        <a href="/writing/{{category | replace: ' ', '-' }}" class="category">{{ category | replace: "-", " " }}</a>
+      {% endfor %}
+      {% for tag in page.tags %}
+        <a href="/writing/{{ mainCategory }}/{{ tag | replace: ' ', '-' }}" class="category">{{ tag | replace: "-", " "  }}</a>
+      {% endfor %}
+    </p>
   </div>
 
   {{ content }}

@@ -26,4 +26,20 @@
   &-stackoverflow::before {
     content: "\ead0";
   }
+
+  &-play::before {
+    content: "\e912";
+  }
+
+  &-location::before {
+    content: "\e948";
+  }
+
+  &-calendar::before {
+    content: "\e953";
+  }
+
+  &-bubbles::before {
+    content: "\e96c";
+  }
 }

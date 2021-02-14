@@ -26,16 +26,14 @@
 }
 
 .has-background.copper {
-  background: $section-bg-copper;
-
   &::before {
     background: $section-bg-copper;
     background-image: repeating-linear-gradient(
       180deg,
       $section-bg-copper,
-      $section-bg-copper 0.5rem,
-      darken( $section-bg-copper, 3% ) 0.5rem,
-      darken( $section-bg-copper, 3% ) calc( 0.75rem ) );
+      $section-bg-copper 1rem,
+      darken( $section-bg-copper, 2% ) 1rem,
+      darken( $section-bg-copper, 2% ) 2rem );
   }
 }
 
@@ -43,19 +41,11 @@
   &::before {
     background: $section-bg-timberwolf;
     background-image: repeating-linear-gradient(
-      90deg,
+      180deg,
       $section-bg-timberwolf,
-      $section-bg-timberwolf 0.5rem,
-      darken( $section-bg-timberwolf, 3% ) 0.5rem,
-      darken( $section-bg-timberwolf, 3% ) calc( 1rem ) );
-  }
-}
-
-.has-background.blue {
-  background: $section-bg-blue;
-
-  &::before {
-    background: $section-bg-blue;
+      $section-bg-timberwolf 1rem,
+      darken( $section-bg-timberwolf, 2% ) 1rem,
+      darken( $section-bg-timberwolf, 2% ) 2rem );
   }
 }
 

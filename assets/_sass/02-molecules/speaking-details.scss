@@ -1,0 +1,30 @@
+/**
+ * Molecules: Speaking Details
+ */
+
+.speaking-details {
+
+  padding-bottom: 2rem;
+
+  dt {
+    @include sans-bold;
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
+  dd {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+
+    &::before {
+      margin-right: 1rem;
+    }
+  }
+
+  @media screen and ( min-width: $md ) {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}

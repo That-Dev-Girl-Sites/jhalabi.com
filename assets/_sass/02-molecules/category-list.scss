@@ -10,7 +10,7 @@
     @include sans-bold
     font-size: $type-h4;
     margin-top: 1rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 
   li {
