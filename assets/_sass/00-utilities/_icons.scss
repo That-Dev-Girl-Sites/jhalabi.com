@@ -6,6 +6,10 @@
   @include icons;
 }
 
+.icon.button::before {
+  margin-right: 0.5rem;
+}
+
 .icon {
   &-envelop::before {
      content: "\e945";
@@ -45,5 +49,9 @@
 
   &-profile:before {
     content: "\e923";
+  }
+
+  &-mug:before {
+    content: "\e9a2";
   }
 }

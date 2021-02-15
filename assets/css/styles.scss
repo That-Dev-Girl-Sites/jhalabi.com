@@ -29,7 +29,6 @@
 @import '02-molecules/archive-container';
 @import '02-molecules/category-list';
 @import '02-molecules/contact-options';
-@import '02-molecules/home';
 @import '02-molecules/latest-post';
 @import '02-molecules/nameplate';
 @import '02-molecules/nav-primary';
@@ -43,4 +42,7 @@
 @import '02-molecules/work-examples';
 @import '02-molecules/work-links';
 
-@import '03-vendor/colorful';
+@import '03-pages/home';
+@import '03-pages/plugin';
+
+@import '04-vendor/colorful';

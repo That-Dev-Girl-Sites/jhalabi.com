@@ -51,24 +51,20 @@
 
 .has-background.purple {
   background: $section-bg-purple;
-
-  &::before {
-    background: $section-bg-purple;
-  }
+  &::before { background: $section-bg-purple; }
 }
 
 .has-background.grey {
   background: $section-bg-grey;
+  &::before { background: $section-bg-grey; }
+}
 
-  &::before {
-    background: $section-bg-grey;
-  }
+.has-background.seaweed {
+  background: $section-bg-seaweed;
+  &::before { background: $section-bg-seaweed; }
 }
 
 .has-background.light-grey {
   background: $section-bg-light-grey;
-
-  &::before {
-    background: $section-bg-light-grey;
-  }
+  &::before { background: $section-bg-light-grey; }
 }
