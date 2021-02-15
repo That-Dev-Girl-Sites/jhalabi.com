@@ -27,11 +27,9 @@ So... welcome to my **new**, unified, simplified website! If you previously enjo
 <div markdown="1" class="latest-post">
 ### [{{post.title}}]({{ post.url }})
 
-<p class="date">
-<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-</p>
+<p class="date">{{ post.date | date_to_long_string }}</p>
 
-<p>{{ post.content | strip_html | truncate: 275, ' [...]' }}</p>
+<p class="excerpt">{{ post.content | strip_html | truncatewords: 40, '…' }}</p>
 
 <a href="{{ post.url }}" class="button" aria-label="Read more about {{ post.title }}">Read more...</a>
 </div>
