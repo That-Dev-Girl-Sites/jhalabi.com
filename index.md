@@ -29,7 +29,7 @@ So... welcome to my **new**, unified, simplified website! If you previously enjo
 
 <p class="date">{{ post.date | date_to_long_string }}</p>
 
-<p class="excerpt">{{ post.content | strip_html | truncatewords: 40, '…' }}</p>
+<p class="excerpt">{{ post.content | strip_html | truncatewords:50, '…' }}</p>
 
 <a href="{{ post.url }}" class="button" aria-label="Read more about {{ post.title }}">Read more...</a>
 </div>

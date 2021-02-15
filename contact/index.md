@@ -3,9 +3,9 @@ layout: main
 title: Contact
 ---
 
-I love hearing from people and talking tech. However, — and I am being frank here — I have a toddler. And a full time gig. And a toddler. Did I mention the toddler?
+I love hearing from people and talking tech. However — and I am being frank here — I have a toddler. And a full time gig. And a toddler. Did I mention the toddler?
 
-Regardless, please don't let this scare you off from sending me a message. Let's chat!
+Regardless, please don't let this scare you off from sending me a message. Replies might just take a bit longer than expected. Let's chat!
 
 {:.contact-options}
 {:.icon .icon-envelop} <span class="sr-only">E-mail</span>
@@ -19,6 +19,3 @@ Regardless, please don't let this scare you off from sending me a message. Let's
 
 {:.icon .icon-linkedin} <span class="sr-only">LinkedIn</span>
 : [linkedin.com/in/jonihalabi](https://www.linkedin.com/in/jonihalabi/)
-
-{:.icon .icon-stackoverflow} <span class="sr-only">StackOverflow</span>
-: [stackoverflow.com/story/jonihalabi](https://stackoverflow.com/story/jonihalabi)

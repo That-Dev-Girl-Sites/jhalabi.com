@@ -11,7 +11,7 @@ I initially started as purely a front-end developer, but I have been slowly migr
 
 **Senior Javascript Front-End Developer** @ [Georgetown University](https://georgetown.edu)
 
-I work with a team of developers, designers, and product managers to create flexible and responsive themes for the University's school and department websites. These days, most of my work involves building custom WordPress editor (**Gutenberg**) blocks, such as promotional blocks, expandable content, and dynamic news blocks, using ReactJS and the Gutenberg API.
+I work with a team of developers, designers, and product managers to create flexible and responsive themes for the University's school and department websites. These days, most of my work involves building custom WordPress editor (*Gutenberg*) blocks, such as promotional blocks, expandable content, and dynamic news blocks, using ReactJS and the Gutenberg API.
 
 {% include work-sites.md %}
 {% include work-tools.md %}
