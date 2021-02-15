@@ -25,9 +25,15 @@
   </nav>
 
   <header class="site-header">
-    <p class="nameplate">
-      <a href="/">Joni Halabi</a>
-    </p>
+    {% if page.dir == '/' %}
+      <h1 class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </h1>
+    {% else %}
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    {% endif %}
 
     <p class="tagline">
       Web developer, Mom, Runner, Baker, Music lover, Reader, Chaotic neutral
