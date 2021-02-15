@@ -3,15 +3,16 @@
 
 @import '00-global/colors';
 @import '00-global/fonts';
-@import '00-global/icons';
 @import '00-global/sizes';
 @import '00-global/reset';
-@import '00-global/sr-only';
 
 @import '00-layout/body';
-@import '00-layout/has-background';
 @import '00-layout/main';
 @import '00-layout/section';
+
+@import '00-utilities/has-background';
+@import '00-utilities/icons';
+@import '00-utilities/sr-only';
 
 @import '01-atoms/article';
 @import '01-atoms/code';
@@ -28,6 +29,8 @@
 @import '02-molecules/archive-container';
 @import '02-molecules/category-list';
 @import '02-molecules/contact-options';
+@import '02-molecules/home';
+@import '02-molecules/latest-post';
 @import '02-molecules/nameplate';
 @import '02-molecules/nav-primary';
 @import '02-molecules/pagination';

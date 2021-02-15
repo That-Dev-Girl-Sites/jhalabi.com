@@ -3,7 +3,7 @@ layout: main
 title: Contact
 ---
 
-Hi there! I love hearing from people and talking tech. However, — and I am being frank here — I have a toddler. And a full time gig. And a toddler. Did I mention the toddler?
+I love hearing from people and talking tech. However, — and I am being frank here — I have a toddler. And a full time gig. And a toddler. Did I mention the toddler?
 
 Regardless, please don't let this scare you off from sending me a message. Let's chat!
 

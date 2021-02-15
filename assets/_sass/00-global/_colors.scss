@@ -48,7 +48,13 @@ $header-box-color-4:      $champagne;
 $heading-color:           $black;
 $heading-color-h3:        $purple;
 
+$home-first-letter-bg:    $purple;
+$home-first-letter:       $actual-white;
+
 $image-border:            $black;
+
+$latest-post-bg:          $white;
+$latest-post-shadow:      lighten( $black, 40% );
 
 $link-color:              darken( $copper, 20% );
 $link-category-bg:        $purple;

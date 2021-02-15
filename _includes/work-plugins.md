@@ -1,4 +1,4 @@
-<section markdown="1" class="has-background copper" aria-label="WordPress plugins">
+<section markdown="1" class="has-background timberwolf" aria-label="WordPress plugins">
 
 ## WordPress Plugins
 
