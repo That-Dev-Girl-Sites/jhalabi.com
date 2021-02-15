@@ -5,6 +5,11 @@
 .work-links {
   padding: 3rem 0;
 
+  @media screen and ( min-width: $lg ) {
+    padding-right: 4rem;
+    width: $archive-width;
+  }
+
   ul {
     margin: 0;
 
@@ -39,6 +44,7 @@
 
       &::before {
         display: block;
+        font-size: $type-h2;
       }
     }
   }
