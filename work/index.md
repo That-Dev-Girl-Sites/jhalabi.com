@@ -13,6 +13,7 @@ I initially started as purely a front-end developer, but I have been slowly migr
 
 I work with a team of developers, designers, and product managers to create flexible and responsive themes for the University's school and department websites. These days, most of my work involves building custom WordPress editor (**Gutenberg**) blocks, such as promotional blocks, expandable content, and dynamic news blocks, using ReactJS and the Gutenberg API.
 
-{% include projects-sites.md %}
-{% include projects-tools.md %}
-{% include projects-plugins.md %}
+{% include work-sites.md %}
+{% include work-tools.md %}
+{% include work-plugins.md %}
+{% include work-links.md %}

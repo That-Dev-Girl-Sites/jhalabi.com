@@ -1,0 +1,46 @@
+/**
+ * Molecules: Work Links
+ */
+
+.work-links {
+  padding: 3rem 0;
+
+  ul {
+    margin: 0;
+
+    @media screen and ( min-width: $md ) {
+      display: grid;
+      grid-gap: 2rem;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and ( min-width: $lg ) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+  li {
+    background-color: $work-links-bg;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    transition: all 0.3s;
+
+    &:focus,
+    &:hover {
+      background-color: $work-links-bg-hover;
+    }
+
+    a {
+      color: $work-links-color;
+      display: block;
+      padding: 2rem;
+      text-decoration: none;
+
+      &::before {
+        display: block;
+      }
+    }
+  }
+
+}

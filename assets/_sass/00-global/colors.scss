@@ -55,7 +55,7 @@ $link-category-bg:        $purple;
 $link-category-bg-hover:  darken( $champagne, 50% );
 $link-category-color:     $white;
 $link-title-color:        lighten( $purple, 10% );
-$link-button-bg:          $indigo;
+$link-button-bg:          darken( $purple, 10% );
 $link-button-bg-hover:    darken( $copper, 10% );
 $link-button-color:       $white;
 $link-skip-bg:            $purple;
@@ -96,3 +96,7 @@ $tool-list-link-bg:       darken( $timberwolf, 60% );
 
 $work-example-bg:         $actual-white;
 $work-example-border:     lighten( $black, 40% );
+
+$work-links-bg:           darken( $purple, 10% );
+$work-links-bg-hover:     darken( $copper, 10% );
+$work-links-color:        $actual-white;
