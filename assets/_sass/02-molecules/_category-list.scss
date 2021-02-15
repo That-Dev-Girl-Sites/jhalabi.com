@@ -7,7 +7,7 @@
   margin-right: 4rem;
 
   h2 {
-    @include sans-bold
+    @include sans-bold;
     font-size: $type-h4;
     margin-top: 1rem;
     text-transform: capitalize;
