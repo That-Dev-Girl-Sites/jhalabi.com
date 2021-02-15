@@ -22,7 +22,7 @@ So... welcome to my **new**, unified, simplified website! If you previously enjo
 <section markdown="1" class="has-background timberwolf" aria-label="Latest blog post">
 {% assign post = site.posts.first %}
 
-## Latest Post
+## Latest Article
 
 <div markdown="1" class="latest-post">
 ### [{{post.title}}]({{ post.url }})
