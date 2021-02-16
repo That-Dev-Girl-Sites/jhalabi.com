@@ -55,4 +55,17 @@ footer {
     }
   }
 
+
+  // Day of the week messages.
+  #day {
+    &-0, &-1, &-2, &-3, &-4, &-5, &-6,  {
+      display: none;
+      color: $footer-copyright;
+
+      &.show {
+        display: inline;
+      }
+    }
+  }
+
 }

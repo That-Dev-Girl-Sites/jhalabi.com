@@ -21,17 +21,15 @@
     <div class="footer-copyright has-background grey">
       <div>
         <p>
-          Copyright &copy; {{ site.time | date: '%Y' }} Joni Halabi.
+          Copyright &copy; {{ 'now' | date: '%Y' }} Joni Halabi.
 
-          {% capture day %}{{ site.time | date: '%A' }}{% endcapture %}
-
-          {% if day == 'Sunday' %}Happy Sunday! Today is French toast day in our house.{% endif %}
-          {% if day == 'Monday' %}Whelp, it's Monday. Go ahead and have that extra cup of tea.{% endif %}
-          {% if day == 'Tuesday' %}Happy "We survived Monday" day! Otherwise known as Tuesday!{% endif %}
-          {% if day == 'Wednesday' %}It's... nope. Not going to say it. But have a great Wednesday!{% endif %}
-          {% if day == 'Thursday' %}It's Thursday! Almost there!{% endif %}
-          {% if day == 'Friday' %}Happy Friday! We made it!{% endif %}
-          {% if day == 'Saturday' %}It's the weekend. Hooray!{% endif %}
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday!</span>
+          <span id="day-3">It's... nope. Not going to say it. But have a great Wednesday!</span>
+          <span id="day-4">It's Thursday! Almost there!</span>
+          <span id="day-5">Happy Friday! We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
         </p>
       </div>
     </div>
@@ -43,6 +41,9 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-9400057-1');
+  </script>
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
   </script>
 
 </body>
