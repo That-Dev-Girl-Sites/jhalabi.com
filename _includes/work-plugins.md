@@ -11,7 +11,7 @@
 
 WordPress plugin that adds a post editor block to create charts from Google sheets.
 
-<a href="https://threepm.thatdevgirl.com/besan-block/" class="button" aria-label="Besan Block plugin documentation">Docs</a>
+<a href="/work/plugins/besan-block/" class="button" aria-label="Besan Block plugin documentation">Docs</a>
 <a href="https://wordpress.org/plugins/besan-block/" class="button" aria-label="Download the Besan Block plugin">Download
 </div>
 
@@ -22,7 +22,7 @@ WordPress plugin that adds a post editor block to create charts from Google shee
 
 WordPress plugin that adds a Color Palette block to the post editor.
 
-<a href="https://threepm.thatdevgirl.com/color-palette/" class="button" aria-label="Color Palette plugin documentation">Docs</a>
+<a href="/work/plugins/color-palette/" class="button" aria-label="Color Palette plugin documentation">Docs</a>
 <a href="https://wordpress.org/plugins/color-palette/" class="button" aria-label="Download the Color Palette plugin">Download</a>
 </div>
 
@@ -43,7 +43,7 @@ The existing OOTB Autocomplete component in the Gutenberg API is <a href="https:
 
 This WordPress plugin provides site administrators with the ability to turn on and off specific post editor (Gutenberg) content blocks.
 
-<a href="https://threepm.thatdevgirl.com/block-controller/" class="button" aria-label="ThreePM Block Controller plugin documentation">Docs</a>
+<a href="/work/plugins/block-controller/" class="button" aria-label="ThreePM Block Controller plugin documentation">Docs</a>
 <a href="https://wordpress.org/plugins/block-controller/" class="button" aria-label="Download the ThreePM Block Controller plugin">Download</a>
 </div>
 
@@ -54,7 +54,7 @@ This WordPress plugin provides site administrators with the ability to turn on a
 
 This WordPress plugin adds a tiered flat rate shipping option for the WooCommerce plugin.
 
-<a href="https://threepm.thatdevgirl.com/wc-tiered-shipping/" class="button" aria-label="WC Tiered Shipping plugin documentation">Docs</a>
+<a href="/work/plugins/wc-tiered-shipping/" class="button" aria-label="WC Tiered Shipping plugin documentation">Docs</a>
 <a href="https://wordpress.org/plugins/wc-tiered-shipping/" class="button" aria-label="Download the WC Tiered Shipping plugin">Download</a>
 </div>
 

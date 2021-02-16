@@ -3,11 +3,11 @@ layout: main
 title: About
 ---
 
-Hi there! My name is **Joni** and I write code.
+Hi there! My name is **Joni** and I am a _"middle-end"_ web developer who loves to write code, commit often, and make up her own titles.
 
 ## Details, please!
 
-I am a **web developer** and **teacher**. I work for the Web Services department at Georgetown University and live just outside of Washington DC. I have been writing code since the mid-1980s. I was 2. _(Kidding. Mostly. Yes, I know I'm dating myself. Shush.)_
+I work for the Web Services department at Georgetown University as a "Senior Javascript Front-End Developer" and live just outside of Washington DC. I have been writing code since the mid-1980s. I was 2. _(Kidding. Mostly. Yes, I know I'm dating myself. Shush.)_
 
 I primarily write in **HTML**, **CSS**, and **Javascript**, but I work a lot in WordPress these days, so I spend a lot of time with **PHP** too.
 
