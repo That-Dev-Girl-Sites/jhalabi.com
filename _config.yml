@@ -7,6 +7,7 @@ production_url: https://jhalabi.com
 
 twitter_username: jonihalabi
 github_username:  thatdevgirl
+timezone: America/New_York
 
 icons: '/assets/icons'
 images: '/assets/images'
