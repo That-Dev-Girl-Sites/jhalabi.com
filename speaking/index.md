@@ -26,7 +26,7 @@ WPCampus Online 2020
 Javascript for WordPress Conference 2020
 : {:.icon .icon-calendar} July 8-10, 2020
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.thatdevgirl.com/datavis-lightning" aria-label="Data Visualization in WP talk slides">Data Visualization in WP</a>
+: {:.icon .icon-bubbles} <a href="https://talks.thatdevgirl.com/datavis" aria-label="Data Visualization in WP talk slides">Data Visualization in WP</a>
 </div>
 </div>
 
