@@ -5,7 +5,7 @@ title: Work
 
 I am a senior web developer in Washington DC with over 20 years of programming experience. I have expertise in **custom theme creation** for content management systems, **Javascript application** architecture, and **eCommerce solution** development.
 
-I initially started as purely a front-end developer, but I have been slowly migrating further back in the stack. As a result, I now call myself a **"middle-stack" developer** and am working hard to make that term stick.
+I initially started as purely a front-end developer, but I have been slowly migrating further back in the stack. As a result, I now call myself a **"middle-end" developer** and am working hard to make that term stick.
 
 ## Currently @...
 
