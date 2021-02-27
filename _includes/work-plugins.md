@@ -16,6 +16,17 @@ WordPress plugin that adds a post editor block to create charts from Google shee
 </div>
 
 <div markdown="1">
+![](/assets/images/plugin-block-controller.jpg)
+
+### Block Controller
+
+This WordPress plugin provides site administrators with the ability to turn on and off specific post editor (Gutenberg) content blocks.
+
+<a href="/work/plugins/block-controller/" class="button" aria-label="ThreePM Block Controller plugin documentation">Docs</a>
+<a href="https://wordpress.org/plugins/block-controller/" class="button" aria-label="Download the ThreePM Block Controller plugin">Download</a>
+</div>
+
+<div markdown="1">
 ![](/assets/images/plugin-color-palette.jpg)
 
 ### Color Palette Plugin
@@ -34,17 +45,6 @@ WordPress plugin that adds a Color Palette block to the post editor.
 The existing OOTB Autocomplete component in the Gutenberg API is <a href="https://github.com/WordPress/gutenberg/issues/10542">broken</a>. This is a simple substitute.
 
 <a href="https://gist.github.com/thatdevgirl/e20f72d5b985c6eab441bdf491b3edf0" class="button" aria-label="Gutenberg Autocomplete Component Github Gist">Github Gist</a>
-</div>
-
-<div markdown="1">
-![](/assets/images/plugin-block-controller.jpg)
-
-### ThreePM Block Controller
-
-This WordPress plugin provides site administrators with the ability to turn on and off specific post editor (Gutenberg) content blocks.
-
-<a href="/work/plugins/block-controller/" class="button" aria-label="ThreePM Block Controller plugin documentation">Docs</a>
-<a href="https://wordpress.org/plugins/block-controller/" class="button" aria-label="Download the ThreePM Block Controller plugin">Download</a>
 </div>
 
 <div markdown="1">
