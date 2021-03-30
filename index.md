@@ -14,7 +14,7 @@ But, this site is really only about those first two things.
 
 After years of maintaining two different sites — personal and professional — I got tired of the overhead involved in splitting my online self in two.
 
-So... welcome to my **new**, unified, simplified website! If you previously enjoyed `thatdevgirl.com`, all of that content is here _(particularly the [blog](/blog))_. My personal and professional blogs are now combined into a single "me!" blog.
+So... welcome to my **new**, unified, simplified website! If you previously enjoyed `thatdevgirl.com`, all of that content is here _(particularly the [blog](/blog/))_. My personal and professional blogs are now combined into a single "me!" blog.
 
 </section>
 

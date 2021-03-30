@@ -24,7 +24,6 @@ Only time will tell, which means I will probably get back to this post in a year
 
 The following list is in no particular order of relevance. _(I mean, it's alphabetical. Is that relevant?)_ I am also including the month in which the conference has usually occurred in the past, for reference and convenience.
 
-* [ByteConf](https://www.bytesized.xyz/conference)
 * [Developer Week Global](https://www.developerweek.com/global/)
 * [Javascript for WordPress Conference](https://javascriptforwp.com/conference/) (July)
 * [WooSesh](https://woosesh.com/) (October)
