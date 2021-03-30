@@ -11,12 +11,14 @@
 
     <p class="categories">
       <b>Topics:</b>
+
       {% for category in page.categories %}
         {% assign mainCategory = category %}
-        <a href="/blog/{{category | replace: ' ', '-' }}" class="category">{{ category | replace: "-", " " }}</a>
+        <a href="/blog/{{category | replace: ' ', '-' }}/" class="category">{{ category | replace: "-", " " }}</a>
       {% endfor %}
+
       {% for tag in page.tags %}
-        <a href="/blog/{{ mainCategory }}/{{ tag | replace: ' ', '-' }}" class="category">{{ tag | replace: "-", " "  }}</a>
+        <a href="/blog/{{ mainCategory }}/{{ tag | replace: ' ', '-' }}/" class="category">{{ tag | replace: "-", " "  }}</a>
       {% endfor %}
     </p>
   </div>

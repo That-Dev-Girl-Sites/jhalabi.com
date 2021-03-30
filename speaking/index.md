@@ -5,7 +5,7 @@ title: Speaking
 
 I have had the pleasure to present and teach at a number of conferences and classrooms. I love speaking to both present and future developers about a variety of front-end development topics. A list of my previous speaking dates and presentations are below.
 
-Questions? Comments? Want to chat? [Let me know!](/contact)
+Questions? Comments? Want to chat? [Let me know!](/contact/)
 
 <section markdown="1" class="has-background copper" aria-label="Data Visualization in WordPress">
 
@@ -19,7 +19,7 @@ WPCampus Online 2020
 : {:.icon .icon-calendar} July 29-30, 2020
 : {:.icon .icon-location} Online
 : {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/datavis-lightning/" aria-label="Data Visualization in WP lightning talk slides">Data Visualization in WP</a>
-: {:.icon .icon-play} <a href="https://2020.wpcampus.org/schedule/lightning-talks/data-visualization-in-wordpress/#video" aria-label="Data Visualization in WP talk video">Watch Video</a>
+: {:.icon .icon-play} <a href="https://www.youtube.com/watch?v=LBdJstuzEnc" aria-label="Data Visualization in WP talk video">Watch Video</a>
 </div>
 
 <div markdown="1">
@@ -45,7 +45,7 @@ WPCampus Online 2019
 : {:.icon .icon-calendar} January 31, 2019
 : {:.icon .icon-location} Online
 : {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/gutenberg/" aria-label="Customizing Gutenberg talk slides">Customizing Gutenberg</a>
-: {:.icon .icon-play} <a href="https://online.wpcampus.org/schedule/customizing-gutenberg-lessons-learned-at-georgetown//" aria-label="Customizing Gutenberg talk video">Watch Video</a>
+: {:.icon .icon-play} <a href="https://online.wpcampus.org/schedule/customizing-gutenberg-lessons-learned-at-georgetown/" aria-label="Customizing Gutenberg talk video">Watch Video</a>
 </div>
 </div>
 
