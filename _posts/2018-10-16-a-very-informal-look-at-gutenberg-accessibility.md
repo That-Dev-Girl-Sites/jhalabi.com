@@ -18,7 +18,7 @@ However, I say this as a (mostly) fully abled user. _(I mean, I have been having
 
 ## Gutenberg and accessibility
 
-Gutenberg has been controversial from its inception. However, [Rian Rietveld's recent blog post](https://rianrietveld.com/2018/10/09/i-have-resigned-the-wordpress-accessibility-team/) about her resignation from the WordPress accessibility team has brought Gutenberg's accessibility issues into the spotlight. There seems to be a myriad of issues here:
+Gutenberg has been controversial from its inception. However, [Rian Rietveld's recent blog post](https://rianrietveld.com/2018/10/i-have-resigned-the-wordpress-accessibility-team/) about her resignation from the WordPress accessibility team has brought Gutenberg's accessibility issues into the spotlight. There seems to be a myriad of issues here:
 
 * A lack of development education about accessible development.
 * Fundamental flaws in the editor's UI design.

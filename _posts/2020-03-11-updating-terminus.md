@@ -18,7 +18,7 @@ curl -O https://raw.githubusercontent.com/pantheon-systems/terminus-installer/ma
 
 If you are like me, you have run that command, only for it to not work at all. The Terminus installer even has an open (as of this writing) [Github issue](https://github.com/pantheon-systems/terminus-installer/issues/31) about it.
 
-So, what do you do? Pantheon does have a [troubleshooting](https://pantheon.io/docs/terminus/updates) page, but those instructions have never worked for me. If you are in the same boat, here are the steps that _do_ work for me:
+So, what do you do? Pantheon does have a [troubleshooting](https://pantheon.io/docs/terminus/updates/) page, but those instructions have never worked for me. If you are in the same boat, here are the steps that _do_ work for me:
 
 ## Update Terminus by completely blowing it up
 

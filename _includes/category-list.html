@@ -10,7 +10,7 @@
         {% if page.url contains category[0] %}
           <span>{{ category[0] | replace: '-', ' ' }}</span>
         {% else %}
-          <a href="/blog/{{ category[0] }}">{{ category[0] | replace: '-', ' ' }}</a>
+          <a href="/blog/{{ category[0] }}/">{{ category[0] | replace: '-', ' ' }}</a>
         {% endif %}
       </li>
     {% endfor %}

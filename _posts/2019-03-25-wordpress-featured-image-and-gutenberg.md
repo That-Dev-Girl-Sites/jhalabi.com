@@ -89,5 +89,5 @@ add_action( 'init', 'set_featured_image_display' );
 **Check out these great references!**
 
 * [The Gutenberg Migration Guide on the post thumbnail HTML filter](https://github.com/danielbachhuber/gutenberg-migration-guide/blob/master/filter-admin-post-thumbnail-html.md)
-* [Gutenberg Apps: Extending Featured Image Component](https://digitalapps.co/gutenberg-extending-featured-image-component/)
+* [Gutenberg Apps: Extending Featured Image Component](https://digitalapps.com/gutenberg-extending-featured-image-component/)
 * [WordPress code reference for register_meta](https://developer.wordpress.org/reference/functions/register_meta/)

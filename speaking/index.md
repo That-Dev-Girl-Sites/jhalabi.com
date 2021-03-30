@@ -18,7 +18,7 @@ Data visualizations are graphical representations of large and small datasets. U
 WPCampus Online 2020
 : {:.icon .icon-calendar} July 29-30, 2020
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/datavis-lightning" aria-label="Data Visualization in WP lightning talk slides">Data Visualization in WP</a>
+: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/datavis-lightning/" aria-label="Data Visualization in WP lightning talk slides">Data Visualization in WP</a>
 : {:.icon .icon-play} <a href="https://2020.wpcampus.org/schedule/lightning-talks/data-visualization-in-wordpress/#video" aria-label="Data Visualization in WP talk video">Watch Video</a>
 </div>
 
@@ -26,7 +26,7 @@ WPCampus Online 2020
 Javascript for WordPress Conference 2020
 : {:.icon .icon-calendar} July 8-10, 2020
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/datavis" aria-label="Data Visualization in WP talk slides">Data Visualization in WP</a>
+: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/datavis/" aria-label="Data Visualization in WP talk slides">Data Visualization in WP</a>
 </div>
 </div>
 
@@ -44,8 +44,8 @@ The new Gutenberg editor comes with so many great content blocks. However, what 
 WPCampus Online 2019
 : {:.icon .icon-calendar} January 31, 2019
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/gutenberg" aria-label="Customizing Gutenberg talk slides">Customizing Gutenberg</a>
-: {:.icon .icon-play} <a href="https://online.wpcampus.org/schedule/customizing-gutenberg-lessons-learned-at-georgetown/" aria-label="Customizing Gutenberg talk video">Watch Video</a>
+: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/gutenberg/" aria-label="Customizing Gutenberg talk slides">Customizing Gutenberg</a>
+: {:.icon .icon-play} <a href="https://online.wpcampus.org/schedule/customizing-gutenberg-lessons-learned-at-georgetown//" aria-label="Customizing Gutenberg talk video">Watch Video</a>
 </div>
 </div>
 
@@ -63,21 +63,21 @@ We develop websites for everyone to use, so why not make sure that everyone is a
 edUi
 : {:.icon .icon-calendar} September 25-27, 2017
 : {:.icon .icon-location} Charlottesville, VA
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibility-edui" aria-label="Accessible Development talk slides for edUi">Accessible Development</a>
+: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibility-edui/" aria-label="Accessible Development talk slides for edUi">Accessible Development</a>
 </div>
 
 <div markdown="1">
 ConvergeSE
 : {:.icon .icon-calendar} June 14-16, 2017
 : {:.icon .icon-location} Columbia, SC
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibility" aria-label="Accessible Development talk slides">Accessible Development</a>
+: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibility/" aria-label="Accessible Development talk slides">Accessible Development</a>
 </div>
 
 <div markdown="1">
 NoVA CodeCamp
 : {:.icon .icon-calendar} April 1, 2017
 : {:.icon .icon-location} Washington, DC
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibility" aria-label="Accessible Development talk slides">Accessible Development</a>
+: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibility/" aria-label="Accessible Development talk slides">Accessible Development</a>
 </div>
 </div>
 
@@ -94,7 +94,7 @@ In addition to my Accessible Development conference talk, I have also lead a cla
 <div markdown="1">
 Georgetown University
 : {:.icon .icon-location} Online (internal staff course)
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibilityclass" aria-label="Accessible Development Class slides">Slide Deck</a>
+: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibilityclass/" aria-label="Accessible Development Class slides">Slide Deck</a>
 </div>
 </div>
 
@@ -125,7 +125,7 @@ Introduction to SVG
 Design Tools Mini-Course
 : {:.icon .icon-calendar} May 2016
 : {:.icon .icon-location} General Assembly DC
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/designtools" aria-label="Design Tools Mini-Course slides">Slide Deck</a>
+: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/designtools/" aria-label="Design Tools Mini-Course slides">Slide Deck</a>
 </div>
 
 <div markdown="1">
