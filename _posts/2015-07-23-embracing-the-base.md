@@ -18,11 +18,11 @@ It was refreshing to hear such a straightforward question from a job candidate, 
 
 He was surprised. And this surprised me.
 
-Every other recruiter in the room told him to start with [jQuery](http://jquery.com/). Or [Angular](https://angularjs.org/). Or [Node](https://nodejs.org/). Or [Ember](http://emberjs.com/). All of these are libraries or frameworks that extend Javascript to make development easier and give web applications a structure. I was the first person suggest starting with nothing.
+Every other recruiter in the room told him to start with [jQuery](http://jquery.com/). Or [Angular](https://angularjs.org/). Or [Node](https://nodejs.org/). Or [Ember](https://emberjs.com/). All of these are libraries or frameworks that extend Javascript to make development easier and give web applications a structure. I was the first person suggest starting with nothing.
 
 It’s true that Javascript developers no longer write in plain old Javascript. Almost all apps and websites use some sort of library framework — from the ones suggested to my new developer friend to many others.
 
-jQuery is a popular example. It was first [released in 2006](https://jquery.org/history/) and is now used in about [64 percent of all websites](http://w3techs.com/technologies/details/js-jquery/all/all). jQuery has become so synonymous with Javascript and front-end development that a good number of resumes now list jQuery as a technical skill in place of Javascript.
+jQuery is a popular example. It was first [released in 2006](https://jquery.org/history/) and is now used in about [64 percent of all websites](https://w3techs.com/technologies/details/js-jquery). jQuery has become so synonymous with Javascript and front-end development that a good number of resumes now list jQuery as a technical skill in place of Javascript.
 
 There is no doubt that these libraries — including jQuery, Prototype, or YUI — make Javascript development a much easier task today. We can now more easily select elements, create click events, make AJAX calls, and so forth.
 
@@ -42,7 +42,7 @@ is not nearly as slick looking as:
 $(‘div.foo’) // jQuery equivalent
 {% endhighlight %}
 
-The web community is finally discussing how [bloated](http://zurb.com/article/1373/hit-the-weights-and-take-the-bloat-out-of) [jQuery](http://www.sitepoint.com/do-you-really-need-jquery/) and other [frameworks](http://bitworking.org/news/2014/05/zero_framework_manifesto) are. So much so that, for jQuery users, Paul Irish released [bling.js](https://gist.github.com/paulirish/12fb951a8b893a454b32) last month, which is a quick 15 lines of Javascript that provides “the $ of jQuery without the jQuery”.
+The web community is finally discussing how [bloated](https://zurb.com/blog/hit-the-weights-and-take-the-bloat-out-of) [jQuery](https://www.sitepoint.com/do-you-really-need-jquery/) and other [frameworks](https://bitworking.org/news/2014/05/zero_framework_manifesto/) are. So much so that, for jQuery users, Paul Irish released [bling.js](https://gist.github.com/paulirish/12fb951a8b893a454b32) last month, which is a quick 15 lines of Javascript that provides “the $ of jQuery without the jQuery”.
 
 The trend to learn libraries first — or only libraries — puts these new developers on an unsustainable path. All Javascript libraries and frameworks are obviously based in Javascript. But a beginner is not learning vanilla Javascript when they dive into one or more of these libraries. Sure, learning Javascript this way will demonstrate how to write a conditional or a loop. It will demonstrate how to declare variables and to write and call functions. But it will not demonstrate why the code works the way it does.
 

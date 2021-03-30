@@ -7,7 +7,7 @@ categories:
   - accessibility
 ---
 
-Accessibility testing on our websites is a large, large topic.  I am writing about testing with screen readers here, but please keep in mind that accessibility testing != screen reader testing alone.  There is a already great article from Viget about web accessibility testing in general – “[How to do Web Accessibility QA](https://www.viget.com/articles/how-to-do-web-accessibility-qa-part-1)“.  (Be sure to read both parts.)
+Accessibility testing on our websites is a large, large topic.  I am writing about testing with screen readers here, but please keep in mind that accessibility testing != screen reader testing alone.  There is a already great article from Viget about web accessibility testing in general – “[How to do Web Accessibility QA](https://www.viget.com/articles/how-to-do-web-accessibility-qa-part-1/)“.  (Be sure to read both parts.)
 
 ## What is a screen reader?
 

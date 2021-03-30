@@ -14,7 +14,7 @@ Initially, I really hated the new OS.  The upgrade process took forever.  Bot
 
 And then I started tweaking the computer.  I uninstalled a bunch of old applications and upgraded others.  Here are a bunch of lessons learned from this process:
 
-1. **Uninstall the Intel Rapid Storage application.**  You cannot (and really should not) uninstall the _IAStorDataSvc_ driver, but the application has a lot of monitors and settings that are [known to cause high CPU usage](http://answers.microsoft.com/en-us/windows/forum/windows8_1-performance/windows-81-pro-high-cpu-usage-from-intel-process/9d89b9db-498f-4eec-9381-88a6937bd1b6?auth=1\).  I mean really, really high.  Uninstalling this application took my computer from "on fire" to "I can actually sit with my laptop in my lap".
+1. **Uninstall the Intel Rapid Storage application.**  You cannot (and really should not) uninstall the _IAStorDataSvc_ driver, but the application has a lot of monitors and settings that are [known to cause high CPU usage](https://answers.microsoft.com/en-us/windows/forum/windows8_1-performance/windows-81-pro-high-cpu-usage-from-intel-process/9d89b9db-498f-4eec-9381-88a6937bd1b6).  I mean really, really high.  Uninstalling this application took my computer from "on fire" to "I can actually sit with my laptop in my lap".
 
 2. **Uninstall your stash random unused applications.** You should be doing this regardless of upgrading to Windows 10, but upgrade day is always a good day to do this.
 

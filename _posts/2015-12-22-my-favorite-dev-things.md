@@ -27,15 +27,15 @@ There is no single right answer to this question (though there are plenty of wro
 ## Blogs
 
 * [Codrops](http://tympanus.net/codrops/) - A design and development blog.  Great stuff in here.
-* [Konigi](http://konigi.com/blog/) - A blog all about UX design.
-* [Viget’s Extend Blog](https://viget.com/extend) - Viget is a consulting firm based in the DC area.  Their Extend blog is all about code & tech.
+* [Konigi](https://konigi.com/blog/) - A blog all about UX design.
+* [Viget’s Extend Blog](https://www.viget.com/articles/) - Viget is a consulting firm based in the DC area.  Their Extend blog is all about code & tech.
 * [Little Big Details](http://littlebigdetails.com/) - Bite-sized bits of design inspiration
 
 ## E-mail
 
 * [Javascript Weekly](http://javascriptweekly.com/) - I am a Javascript developer. This makes sense.
-* [Responsive Design Weekly](http://responsivedesignweekly.com/) - Weekly e-mail newsletter, all about responsive design.
-* [Smashing Magazine Newsletter](http://www.smashingmagazine.com/the-smashing-newsletter/) - Great tips and tricks for both designers and developers.  News about fonts, design trends, responsive tricks and more.
+* [Responsive Design Weekly](https://responsivedesign.is/newsletter/) - Weekly e-mail newsletter, all about responsive design.
+* [Smashing Magazine Newsletter](https://www.smashingmagazine.com/the-smashing-newsletter/) - Great tips and tricks for both designers and developers.  News about fonts, design trends, responsive tricks and more.
 
 ## Podcasts
 

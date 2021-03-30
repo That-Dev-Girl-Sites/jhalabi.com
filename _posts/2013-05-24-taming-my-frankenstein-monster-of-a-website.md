@@ -7,7 +7,7 @@ categories:
   - wordpress
 ---
 
-It was a disaster. My website, that is. I started my site with good intentions. All I wanted was a simple site with some basic information about me. Maybe my resume, too. After all, any serious web developer needs a website. So, I created my simple, static website and published it using Fastmail's file services. I was already using [Fastmail](http://www.fastmail.fm/) for my e-mail and using a single service for my online needs was completely logical at the time.
+It was a disaster. My website, that is. I started my site with good intentions. All I wanted was a simple site with some basic information about me. Maybe my resume, too. After all, any serious web developer needs a website. So, I created my simple, static website and published it using Fastmail's file services. I was already using [Fastmail](https://www.fastmail.com/) for my e-mail and using a single service for my online needs was completely logical at the time.
 
 ## Then things got complicated...
 
@@ -41,7 +41,7 @@ I liked the design of my existing core website _(where my core pages live)_.  In
 
 This made migrating my CSS from my old site to my new WordPress theme relatively painless.  Yes, I did need to edit the CSS quite a bit to work with the DOM in the WordPress templates, but overall, this was not a bad process at all.
 
-My static pages from the old site became pages in the WordPress site.  I was able to export my blog posts from WordPress.com into my new site easily too.  (There is a great [blog post with instructions](http://www.problogger.net/archives/2009/01/03/how-to-move-from-wordpresscom-to-wordpressorg/).)
+My static pages from the old site became pages in the WordPress site.  I was able to export my blog posts from WordPress.com into my new site easily too.  (There is a great [blog post with instructions](https://problogger.com/how-to-move-from-wordpresscom-to-wordpressorg/).)
 
 The tricky part was my photo gallery.  Photo galleries are not exactly out-of-the-box functionality in WordPress.  After some trial and error with a couple of different plugins, I found the perfect one for my needs – [NextGen Gallery](http://wordpress.org/plugins/nextgen-gallery/).  NextGen gives me a separate area in the WP admin where I can upload photos and organize them into galleries and albums – a paradigm I was using on my existing site.  Photos are placed into galleries and galleries are organized into albums.  This allowed me to organize all of my galleries into albums by year.  Perfect!  And crazy easy to use.
 

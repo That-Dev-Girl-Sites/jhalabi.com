@@ -13,7 +13,7 @@ All of these implementations involve using the `::before` or `::after` CSS pseud
 
 ## Is this even supported?
 
-We should probably start with asking, are CSS counters universally supported by browsers. The answer is yes. Really, with 98.16% support according to [CanIUse.com](https://caniuse.com/#feat=css-counters), this is barely a question.
+We should probably start with asking, are CSS counters universally supported by browsers. The answer is yes. Really, with 98.16% support according to [CanIUse.com](https://caniuse.com/css-counters), this is barely a question.
 
 ## Alrighty then. What about screen readers?
 
@@ -40,7 +40,7 @@ I tried! Firefox does not play well with screen readers. At all. When the browse
   <figcaption>A very "helpful" Firefox dialog that pops up when you are running accessibility software.</figcaption>
 </figure>
 
-The "solution" is to download the [Firefox Extended Support browser](https://www.mozilla.org/en-US/firefox/organizations/). Because, you know, making your base browser compatible with accessibility software is too hard.
+The "solution" is to download the [Firefox Extended Support browser](https://www.mozilla.org/en-US/firefox/enterprise/). Because, you know, making your base browser compatible with accessibility software is too hard.
 
 Except, that did not work. Even with the Extended Support version of the browser, both NVDA and JAWS refused to read anything on any web page. (I did not try to install this on my Mac because now I'm really angry at Mozilla.)
 

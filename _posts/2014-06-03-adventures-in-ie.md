@@ -41,4 +41,4 @@ My current theory is that IE by default prioritizes its compatibility mode over 
 
 ## More info about this tag
 
-[http://webdesign.about.com/od/metataglibraries/p/x-ua-compatible-meta-tag.htm](http://webdesign.about.com/od/metataglibraries/p/x-ua-compatible-meta-tag.htm)
+* [Lifewire: X-UA-Compatible Meta Tag Description and Uses](https://www.lifewire.com/xua-compatible-meta-tag-3469059)

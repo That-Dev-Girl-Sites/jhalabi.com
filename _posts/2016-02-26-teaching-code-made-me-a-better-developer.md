@@ -9,7 +9,7 @@ categories:
   - teaching
 ---
 
-Late last year, the good folks at General Assembly hired me to teach one of their part-time [Front-End Web Development](https://generalassemb.ly/education/front-end-web-development) courses.  I have been coding for years and, more recently, have given a few one-off guest lectures.  However, I was never completely in charge of the education of a group of people for any extended period of time… until now.
+Late last year, the good folks at General Assembly hired me to teach one of their part-time [Front-End Web Development](https://generalassemb.ly/education/front-end-web-development/washington-dc) courses.  I have been coding for years and, more recently, have given a few one-off guest lectures.  However, I was never completely in charge of the education of a group of people for any extended period of time… until now.
 
 Fast forward to late February – 10 weeks later.  My class is fantastic.  My students have learned so much, especially considering they started out as “non-geeks” who had never written a line of code before.  Their final projects look amazing.  But I won’t go into that, nor will I go into the sheer terror I felt on my first day of class or how much better I feel about public speaking.  Those are topics for another article.
 

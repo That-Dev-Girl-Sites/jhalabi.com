@@ -14,11 +14,11 @@ Carousels have become a major web design trend over the last several years. They
 
 ## Carousels are terrible.
 
-From a content perspective, the majority of users only see the first slide. In a [2013 carousel study on Notre Dame’s website](https://erikrunyon.com/2013/01/carousel-stats/), only 1% of users clicked on any call to action on their carousel.
+From a content perspective, the majority of users only see the first slide. In a [2013 carousel study on Notre Dame’s website](https://erikrunyon.com/2013/01/carousel-interaction-stats/), only 1% of users clicked on any call to action on their carousel.
 
 <blockquote>
   <p>Carousels are this decade’s &lt;blink&gt; tag</p>
-  <cite><a href="http://shouldiuseacarousel.com/">shouldiuseacarousel.com</a></cite>
+  <cite><a href="https://shouldiuseacarousel.com/">shouldiuseacarousel.com</a></cite>
 </blockquote>
 
 From an accessibility perspective, carousels are even worse. Screen readers will ignore much of the content in a carousel. Keyboard navigation is difficult at best. Some carousels will simply make it difficult to navigate between slides. Others will make it virtually impossible to navigate past the carousel.

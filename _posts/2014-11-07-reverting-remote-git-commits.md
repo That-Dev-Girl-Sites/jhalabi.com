@@ -59,6 +59,6 @@ Done!  At this point, __my-new-branch__ can be merged back up to master or you c
 
 ## Give credit where credit is due.
 
-I found the solution on Stack Overflow, because that website is awesome.  The specific answer is at [http://stackoverflow.com/questions/4114095/revert-to-a-previous-git-commit](http://stackoverflow.com/questions/4114095/revert-to-a-previous-git-commit)
+I found the [solution on Stack Overflow](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit), because that website is awesome.
 
 There are a few other suggestions on how to revert commits in Git in the answers on that page.  The one I have outlined above was the one that worked best for my situation.  YMMV.  Good luck!
