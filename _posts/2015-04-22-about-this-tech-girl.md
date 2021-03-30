@@ -8,7 +8,7 @@ tags:
   - current-events
 ---
 
-There have been a lot of stories in the news about gender issues in the tech world. The [Ellen Pao case](http://www.slate.com/blogs/moneybox/2015/03/30/ellen_pao_trial_the_lawsuit_brought_awareness_to_workplace_sexism_but_the.html). [Gamergate](http://gawker.com/what-is-gamergate-and-why-an-explainer-for-non-geeks-1642909080). The [dongle joke](http://techcrunch.com/2013/03/21/a-dongle-joke-that-spiraled-way-out-of-control/) at Pycon.  The [gender gap](http://www.usatoday.com/story/tech/2015/03/26/silicon-valley-gender-gap-widening/70444276/) in the tech industry.  The list goes on and on. And now today, an LA Times article came out asking [why women are leaving the tech industry](http://www.latimes.com/business/la-fi-women-tech-20150222-story.html#page=1).
+There have been a lot of stories in the news about gender issues in the tech world. The [Ellen Pao case](https://slate.com/business/2015/03/ellen-pao-trial-the-lawsuit-brought-awareness-to-workplace-sexism-but-the-setbacks-are-gripping.html). [Gamergate](https://gawker.com/what-is-gamergate-and-why-an-explainer-for-non-geeks-1642909080). The [dongle joke](https://techcrunch.com/2013/03/21/a-dongle-joke-that-spiraled-way-out-of-control/) at Pycon.  The [gender gap](http://www.usatoday.com/story/tech/2015/03/26/silicon-valley-gender-gap-widening/70444276/) in the tech industry.  The list goes on and on. And now today, an LA Times article came out asking [why women are leaving the tech industry](https://www.latimes.com/business/la-fi-women-tech-20150222-story.html#page=1).
 
 I am 100% a woman and 100% a programmer.  And I am not going anywhere.
 
@@ -22,7 +22,7 @@ My style is really not.  I have (many, many) days I just want to wear yoga pan
 
 I don't like spending that much time getting ready in the morning because, frankly, I have better things to do.  I don't wear makeup and my hair is always in a ponytail because it is easy.  And while I wear dresses, anyone will tell you that I will happily sit on the floor in that dress as long as I'm pretty sure I won't flash someone.
 
-My first little kid crush was [not even human](http://starwars.wikia.com/wiki/R2-D2).  (That has not [changed much](http://tardis.wikia.com/wiki/Tenth_Doctor) as an adult.) I would rather see a sci-fi movie than a romantic comedy.  Although to be honest, I would rather go to a football game than the movies.  I make crude jokes because, every so often, I have the sense of humor of a 13-year old.  I joke about having gone to a boys school because I basically did.  I am more comfortable around guys than I am around girls because I am blunt and (for the most part) so are they.
+My first little kid crush was [not even human](https://starwars.fandom.com/wiki/R2-D2).  (That has not [changed much](https://tardis.fandom.com/wiki/Tenth_Doctor) as an adult.) I would rather see a sci-fi movie than a romantic comedy.  Although to be honest, I would rather go to a football game than the movies.  I make crude jokes because, every so often, I have the sense of humor of a 13-year old.  I joke about having gone to a boys school because I basically did.  I am more comfortable around guys than I am around girls because I am blunt and (for the most part) so are they.
 
 ## Getting back to coding.
 

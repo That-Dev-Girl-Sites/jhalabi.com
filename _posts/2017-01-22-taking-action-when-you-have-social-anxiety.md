@@ -8,7 +8,7 @@ tags:
   - current-events
 ---
 
-I attended the Women’s March on January 21, 2017. This march that was the [largest inaugural protest in US history](http://www.politicususa.com/2017/01/21/womens-march-biggest-protest-history-estimated-2-4-million-march.html), with over 500,000 people in DC alone.
+I attended the Women’s March on January 21, 2017. This march that was the [largest inaugural protest in US history](https://www.politicususa.com/2017/01/21/womens-march-biggest-protest-history-estimated-2-4-million-march.html), with over 500,000 people in DC alone.
 
 I also have anxiety disorder and my anxiety is strongest when I am around large groups of people.
 
@@ -46,7 +46,7 @@ Phone calls are more effective, but if an email or a letter is all you can muste
 <blockquote>Hello. I am _______, a constituent calling to ask &lt;Name&gt; to put pressure on President Trump to &lt;Specific Thing&gt;. This is important to me because &lt;Reasons&gt;. Please ask the &lt;Name&gt; to &lt;Do Specific Thing&gt;.</blockquote>
 
 * **Create a schedule**. When and how often do you want to make contact? Your choice could be just once for a specific upcoming vote or once a week for ongoing issues.
-* **Find contact information.** There is contact information online for your [Senators](http://www.senate.gov/general/contact_information/senators_cfm.cfm) and [Representative](http://www.house.gov/representatives/). There is also a great website that will [find your Representative](http://www.house.gov/representatives/find/), if you need it.
+* **Find contact information.** There is contact information online for your [Senators](https://www.senate.gov/senators/senators-contact.htm) and [Representative](http://www.house.gov/representatives/). There is also a great website that will [find your Representative](http://www.house.gov/representatives/find/), if you need it.
 * **Make the call. Send the email.** No one is judging you on the other end, but they are listening.
 
 ### #2. Pick one cause and see how you can help out
