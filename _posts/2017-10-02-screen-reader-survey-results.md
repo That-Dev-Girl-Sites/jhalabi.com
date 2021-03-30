@@ -10,7 +10,7 @@ I launched a survey to help me answer some lingering questions I have had about 
 
 ## What is this survey all about?
 
-This question of screen reader user interaction stemmed from the fact that [unique link text](/blog/unique-link-text-is-important) is an important aspect of an accessible website. Among many other reasons, one rationale that I have come across for unique link text is the fact that screen reader users can navigate a page via an alphabetical list of all links.  However, the _(very few)_ screen reader users I know do not alphabetize that list.  I wanted to see if this links list is widely used and _(sadly)_ [WebAIM's screen reader survey](http://webaim.org/projects/screenreadersurvey6/) does not contain this information.
+This question of screen reader user interaction stemmed from the fact that [unique link text](/blog/unique-link-text-is-important) is an important aspect of an accessible website. Among many other reasons, one rationale that I have come across for unique link text is the fact that screen reader users can navigate a page via an alphabetical list of all links.  However, the _(very few)_ screen reader users I know do not alphabetize that list.  I wanted to see if this links list is widely used and _(sadly)_ [WebAIM's screen reader survey](https://webaim.org/projects/screenreadersurvey6/) does not contain this information.
 
 So, I created my own _(very short)_ screen reader survey. The goal is to get a clearer picture around how screen reader users use the navigation features of their readers.  The survey focuses on the links list, the landmarks list, and the headings list.
 
