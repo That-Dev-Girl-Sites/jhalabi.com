@@ -11,13 +11,15 @@ Questions? Comments? Want to chat? [Let me know!](/contact/)
 
 ## Dynamic Blocks FTW!: Customize Gutenberg Without Living in Fear of Validation Errors
 
+_Upcoming Talk!_
+
 Picture this: You write a brand new custom Gutenberg block. Sometime later, you realize that you need to change your block’s markup to either fix a bug or add a new feature. Suddenly, the editor crashes your block. Validation error!  You can fix this with a deprecation object. Or… could there be a better way?
 
 Enter the dynamic block. In this workshop, you will learn about the difference between dynamic and static blocks, how block validation works, and how to write a dynamic block. You will never have to write a deprecation again!
 
 <div markdown="1" class="speaking-details">
 <div markdown="1">
-**Upcoming!** HighEdWeb 2021
+HighEdWeb 2021
 : {:.icon .icon-calendar} October 4-5, 2021
 : {:.icon .icon-location} Online
 : {:.icon .icon-bubbles} <a href="https://events.highedweb.org/heweb21/session/559144/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="Customize Gutenberg session details">Session Details</a>
