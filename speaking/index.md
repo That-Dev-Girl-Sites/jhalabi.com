@@ -7,7 +7,26 @@ I have had the pleasure to present and teach at a number of conferences and clas
 
 Questions? Comments? Want to chat? [Let me know!](/contact/)
 
-<section markdown="1" class="has-background copper" aria-label="Data Visualization in WordPress">
+<section markdown="1" class="has-background copper" aria-label="Customize Gutenberg Without Living in Fear of Validation Errors">
+
+## Dynamic Blocks FTW!: Customize Gutenberg Without Living in Fear of Validation Errors
+
+Picture this: You write a brand new custom Gutenberg block. Sometime later, you realize that you need to change your block’s markup to either fix a bug or add a new feature. Suddenly, the editor crashes your block. Validation error!  You can fix this with a deprecation object. Or… could there be a better way?
+
+Enter the dynamic block. In this workshop, you will learn about the difference between dynamic and static blocks, how block validation works, and how to write a dynamic block. You will never have to write a deprecation again!
+
+<div markdown="1" class="speaking-details">
+<div markdown="1">
+**Upcoming!** HighEdWeb 2021
+: {:.icon .icon-calendar} October 4-5, 2021
+: {:.icon .icon-location} Online
+: {:.icon .icon-bubbles} <a href="https://events.highedweb.org/heweb21/session/559144/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="Customize Gutenberg session details">Session Details</a>
+</div>
+</div>
+
+</section>
+
+<section markdown="1" aria-label="Data Visualization in WordPress">
 
 ## See What I Mean?: Data Visualization in WordPress
 
@@ -33,7 +52,7 @@ Javascript for WordPress Conference 2020
 </section>
 
 
-<section markdown="1" aria-label="Customizing Gutenberg">
+<section markdown="1" class="has-background copper" aria-label="Customizing Gutenberg">
 
 ## Customizing Gutenberg: Lessons Learned at Georgetown
 
@@ -52,7 +71,7 @@ WPCampus Online 2019
 </section>
 
 
-<section markdown="1" class="has-background copper" aria-label="Accessible Web Development">
+<section markdown="1" aria-label="Accessible Web Development">
 
 ## Accessible Web Development
 
@@ -84,7 +103,7 @@ NoVA CodeCamp
 </section>
 
 
-<section markdown="1" aria-label="Accessible Development Class">
+<section markdown="1" class="has-background copper" aria-label="Accessible Development Class">
 
 ## Accessible Development Class
 
