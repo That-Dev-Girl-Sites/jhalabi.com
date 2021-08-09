@@ -8,6 +8,7 @@ Because... you know... books are awesome!
 I like to read books. A lot of books. I also like to keep track of what I have read… partially so that I can refer to them later and partially because I will forget that I have read something before. All of the books that I have read (since 2010, at least) are listed here. 
 
 <nav aria-label="Links to book information by year">
+  <a href="#books-2021">2021</a> |
   <a href="#books-2020">2020</a> |
   <a href="#books-2019">2019</a> |
   <a href="#books-2018">2018</a> |
@@ -20,6 +21,12 @@ I like to read books. A lot of books. I also like to keep track of what I have r
   <a href="#books-2011">2011</a> |
   <a href="#books-2010">2010</a>
 </nav>
+
+## Books Read in 2021 {#books-2021}
+
+Book | Thoughts | Date Read
+---- | ---- | ----
+**The Perks of Being a Wallflower** <br> _Stephen Chbosky_ | Hey books! It's been a while. Again. Honestly, the only reason I have time to read anything recreationally now is because my 3 year old won't sleep alone and I can't fall asleep at 8pm, so I lie down on her floor and read under a blanket. Reminiscent of my teen years, to be honest. Regardless, this book was captivating, relatable, and done in 3 days. (Well, nights.) <span class='fa fa-heart'></span> | August
 
 ## Books Read in 2020 {#books-2020}
 
