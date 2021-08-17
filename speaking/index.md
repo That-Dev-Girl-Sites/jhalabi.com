@@ -19,10 +19,17 @@ Enter the dynamic block. In this workshop, you will learn about the difference b
 
 <div markdown="1" class="speaking-details">
 <div markdown="1">
+WPCampus Online 2021
+: {:.icon .icon-calendar} September 21-22, 2021
+: {:.icon .icon-location} Online
+: {:.icon .icon-bubbles} <a href="https://https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="Customize Gutenberg WP Campus session details">Session Details</a>
+</div>
+
+<div markdown="1">
 HighEdWeb 2021
 : {:.icon .icon-calendar} October 4-5, 2021
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://events.highedweb.org/heweb21/session/559144/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="Customize Gutenberg session details">Session Details</a>
+: {:.icon .icon-bubbles} <a href="https://events.highedweb.org/heweb21/session/559144/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="Customize Gutenberg HighEdWeb session details">Session Details</a>
 </div>
 </div>
 
