@@ -22,7 +22,7 @@ Enter the dynamic block. In this workshop, you will learn about the difference b
 WPCampus Online 2021
 : {:.icon .icon-calendar} September 21-22, 2021
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="Customize Gutenberg WP Campus session details">Session Details</a>
+: {:.icon .icon-bubbles} <a href="https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="Customize Gutenberg WP Campus session details">Session Details</a>
 </div>
 
 <div markdown="1">
