@@ -21,7 +21,7 @@ WPCampus Online 2021
 : {:.icon .icon-calendar} September 21-22, 2021
 : {:.icon .icon-location} Online
 : {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
-: {:.icon .icon-bubbles} <a href="https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="WordPress Dynamic Blocks WP Campus session details">Session Details</a>
+: {:.icon .icon-play} <a href="https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors/demand" aria-label="WordPress Dynamic Blocks WP Campus video">Watch Video</a>
 </div>
 
 <div markdown="1">
