@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WordPress Block Registration, with special guest JSON!"
+title: "WordPress dynamic block registration, with special guest JSON!"
 date: "2021-10-27"
 categories:
   - development
