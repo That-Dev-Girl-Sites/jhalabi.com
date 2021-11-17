@@ -3,18 +3,18 @@ layout: home
 title: Home
 ---
 
-My name is Joni and I am a **web developer**. And a **mother**. And a **runner**. And a **music** lover. And a **ukulele** student. And an eclectic **reader**. And an overzealous **baker**. And a ridiculously slow **knitter**.
+My name is Joni and I am a **web developer**. And a **mother**. And an aspiring #kitlit **writer**. And a **runner**. And a **music** lover. And an occasional **ukulele** student. And an eclectic **reader**. And an overzealous **baker**. And a ridiculously slow **knitter**.
 
-But, this site is really only about those first two things.
+But, this site is mostly about my development life and _(as of late)_ writing life.
 
 
 <section markdown="1" class="has-background copper" aria-label="News">
 
 ## Latest News
 
-After years of maintaining two different sites — personal and professional — I got tired of the overhead involved in splitting my online self in two.
+I am writing a book! I know, cue the "Seriously?" and "Is this a nerd book" imposter-syndrome-style responses. I am just as surprised as you are. But it's true! Check it out in my "coming out" [#amWriting](/blog/am-writing) post and stay tuned to my blog for news about my self-publishing journey.
 
-So... welcome to my **new**, unified, simplified website! If you previously enjoyed `thatdevgirl.com`, all of that content is here _(particularly the [blog](/blog/))_. My personal and professional blogs are now combined into a single "me!" blog.
+<a href="/blog/writing" class="button">Articles about writing</a>
 
 </section>
 

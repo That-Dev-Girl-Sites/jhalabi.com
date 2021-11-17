@@ -5,14 +5,26 @@
   <h2>All Topics</h2>
 
   <ul>
+    <li class="sticky">
+      {% if page.url contains "writing" %}
+        <span>Featured: writing</span>
+      {% else %}
+        <a href="/blog/writing">Featured: writing</a>
+      {% endif %}
+    </li>
+
     {% for category in categories %}
-      <li>
-        {% if page.url contains category[0] %}
-          <span>{{ category[0] | replace: '-', ' ' }}</span>
-        {% else %}
-          <a href="/blog/{{ category[0] }}/">{{ category[0] | replace: '-', ' ' }}</a>
-        {% endif %}
-      </li>
+      {% if category[0] != "writing" %}
+
+        <li>
+          {% if page.url contains category[0] %}
+            <span>{{ category[0] | replace: '-', ' ' }}</span>
+          {% else %}
+            <a href="/blog/{{ category[0] }}/">{{ category[0] | replace: '-', ' ' }}</a>
+          {% endif %}
+        </li>
+
+      {% endif %}
     {% endfor %}
   </ul>
 

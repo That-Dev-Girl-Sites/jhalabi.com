@@ -19,89 +19,95 @@ $tart-orange:   #c65050;
 
 
 // Component color definitions.
-$background-color:        $white;
-$color:                   $black;
+$background-color:             $white;
+$color:                        $black;
 
-$catlist-border:          $black;
-$catlist-current:         $white;
-$catlist-current-bg:      lighten( $purple, 10% );
-$catlist-hover-bg:        $timberwolf;
+$catlist-border:               $black;
+$catlist-current:              $white;
+$catlist-current-bg:           lighten( $purple, 10% );
+$catlist-hover-bg:             $timberwolf;
+$catlist-sticky-bg:            $tart-orange;
+$catlist-sticky-hover-bg:      lighten( $tart-orange, 10% );
+$catlist-sticky-hover-color:   $black;
+$catlist-sticky-color:         $white;
 
-$contact-icon:            lighten( $black, 10% );
-$contact-link:            darken( $copper, 20% );
-$contact-row-bg:          $timberwolf;
+$contact-icon:                 lighten( $black, 10% );
+$contact-link:                 darken( $copper, 20% );
+$contact-row-bg:               $timberwolf;
 
-$figure-bg:               lighten( $background-color, 10% );
-$figure-shadow:           lighten( $black, 50 );
+$figure-bg:                    lighten( $background-color, 10% );
+$figure-shadow:                lighten( $black, 50 );
 
-$footer-code:             $white;
-$footer-copyright:        $white;
-$footer-border:           $white;
+$footer-code:                  $white;
+$footer-copyright:             $white;
+$footer-border:                $white;
 
-$header-box-color-1:      $purple;
-$header-box-color-2:      $timberwolf;
-$header-box-color-3:      $copper;
-$header-box-color-4:      $champagne;
+$header-box-color-1:           $purple;
+$header-box-color-2:           $timberwolf;
+$header-box-color-3:           $copper;
+$header-box-color-4:           $champagne;
 
-$heading-color:           $black;
-$heading-color-h3:        $purple;
+$heading-color:                $black;
+$heading-color-h3:             $purple;
 
-$home-first-letter-bg:    $purple;
-$home-first-letter:       $white;
+$home-first-letter-bg:         $purple;
+$home-first-letter:            $white;
 
-$image-border:            $black;
+$image-border:                 $black;
 
-$latest-post-bg:          $white;
-$latest-post-shadow:      lighten( $black, 40% );
+$latest-post-bg:               $white;
+$latest-post-shadow:           lighten( $black, 40% );
 
-$link-color:              darken( $copper, 20% );
-$link-category-bg:        $purple;
-$link-category-bg-hover:  darken( $champagne, 50% );
-$link-category-color:     $white;
-$link-title-color:        lighten( $purple, 10% );
-$link-button-bg:          darken( $purple, 10% );
-$link-button-bg-hover:    darken( $copper, 10% );
-$link-button-color:       $white;
-$link-skip-bg:            $purple;
-$link-skip-color:         $actual-white;
+$link-color:                   darken( $copper, 20% );
+$link-category-bg:             $purple;
+$link-category-bg-hover:       darken( $champagne, 50% );
+$link-category-color:          $white;
+$link-title-color:             lighten( $purple, 10% );
+$link-button-bg:               darken( $purple, 10% );
+$link-button-bg-hover:         darken( $copper, 10% );
+$link-button-color:            $white;
+$link-skip-bg:                 $purple;
+$link-skip-color:              $actual-white;
 
-$pagination:              darken( $link-color, 10% );
-$pagination-square-bg:    $purple;
-$pagination-square:       $white;
-$pagination-current-bg:   darken( $copper, 10% );
-$pagination-current:      $white;
-$pagination-hover-bg:     $copper;
-$pagination-hover:        $white;
+$nameplate-color:              $black;
+$nameplate-logo-bg:            $purple;
 
-$pregnancy-tag-bg:        $purple;
-$pregnancy-tag-hover:     darken( $copper, 10% );
-$pregnancy-tag:           $white;
+$nav-primary:                  darken( $copper, 10% );
 
-$nameplate-color:         $black;
-$nameplate-logo-bg:       $purple;
+$pagination:                   darken( $link-color, 10% );
+$pagination-square-bg:         $purple;
+$pagination-square:            $white;
+$pagination-current-bg:        darken( $copper, 10% );
+$pagination-current:           $white;
+$pagination-hover-bg:          $copper;
+$pagination-hover:             $white;
 
-$nav-primary:             darken( $copper, 10% );
+$pregnancy-tag-bg:             $purple;
+$pregnancy-tag-hover:          darken( $copper, 10% );
+$pregnancy-tag:                $white;
 
-$section-bg-copper:       lighten( $copper, 40% );
-$section-bg-timberwolf:   $timberwolf;
-$section-bg-purple:       $purple;
-$section-bg-grey:         lighten( $black, 5% );
-$section-bg-light-grey:   lighten( $black, 70% );
-$section-bg-seaweed:      $seaweed;
+$section-bg-copper:            lighten( $copper, 40% );
+$section-bg-timberwolf:        $timberwolf;
+$section-bg-purple:            $purple;
+$section-bg-grey:              lighten( $black, 5% );
+$section-bg-light-grey:        lighten( $black, 70% );
+$section-bg-seaweed:           $seaweed;
 
-$site-header-border:      lighten( $black, 30% );
+$site-header-border:           lighten( $black, 30% );
 
-$tagline:                 lighten( $black, 20% );
+$sup-color:                    darken( $copper, 10% );
 
-$tool-list-bg-css:        darken( $tart-orange, 10% );
-$tool-list-bg-js:         mix( $white, $purple, 10% );
-$tool-list-bg-utility:    darken( $seaweed, 5% );
-$tool-list-dt:            $white;
-$tool-list-link-bg:       darken( $timberwolf, 60% );
+$tagline:                      lighten( $black, 20% );
 
-$work-example-bg:         $actual-white;
-$work-example-border:     lighten( $black, 40% );
+$tool-list-bg-css:             darken( $tart-orange, 10% );
+$tool-list-bg-js:              mix( $white, $purple, 10% );
+$tool-list-bg-utility:         darken( $seaweed, 5% );
+$tool-list-dt:                 $white;
+$tool-list-link-bg:            darken( $timberwolf, 60% );
 
-$work-links-bg:           darken( $purple, 10% );
-$work-links-bg-hover:     darken( $copper, 10% );
-$work-links-color:        $actual-white;
+$work-example-bg:              $actual-white;
+$work-example-border:          lighten( $black, 40% );
+
+$work-links-bg:                darken( $purple, 10% );
+$work-links-bg-hover:          darken( $copper, 10% );
+$work-links-color:             $actual-white;

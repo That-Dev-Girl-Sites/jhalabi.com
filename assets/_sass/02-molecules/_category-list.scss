@@ -23,7 +23,7 @@
   // Link to a category.
   a {
     display: block;
-    padding: 0.4rem 0 0.4rem 0.25rem;
+    padding: 0.4rem 0 0.4rem 0.5rem;
     text-decoration: none;
 
     &:focus,
@@ -42,7 +42,28 @@
     background-color: $catlist-current-bg;
     color: $catlist-current;
     display: block;
-    padding: 0.4rem 0 0.4rem 0.25rem;
+    padding: 0.4rem 0 0.4rem 0.5rem;
+  }
+
+  // Sticky topic.
+  .sticky {
+    border-bottom: 0;
+    margin-bottom: 1rem;
+
+    a {
+      background-color: $catlist-sticky-bg;
+      color: $catlist-sticky-color;
+
+      &:focus,
+      &:hover {
+        background-color: $catlist-sticky-hover-bg;
+        color: $catlist-sticky-hover-color;
+      }
+    }
+
+    span {
+      background-color: $catlist-sticky-bg;
+    }
   }
 
 }
