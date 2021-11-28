@@ -12,9 +12,9 @@ So, why do I feel like I should _still_ be editing?
 
 ## The editing process, to date
 
-Editing has definitely been a journey. Looking back, I wrote my first draft nearly 2 months ago.
+Editing has definitely been a journey. Looking back, I wrote my first draft nearly 3 months ago.
 
-Ok, all of you seasoned writers, please stop laughing. I know that is not that long ago. In my defense, 2 months in pandemic time is roughly 4 1/2 years. I've also seemed to have gotten a lot done.
+Ok, all of you seasoned writers, please stop laughing. I know that is not that long ago. In my defense, 3 months in pandemic time is roughly 4 1/2 years. I've also seemed to have gotten a lot done.
 
 ### Step 1: Research the publishing process
 
