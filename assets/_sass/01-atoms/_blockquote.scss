@@ -1,0 +1,21 @@
+/**
+ * Atoms: Blockquote
+ */
+
+blockquote {
+
+  border-left: 0.5rem solid $blockquote-border;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 1rem 0 1rem 2rem;
+
+  p {
+    @include sans-italic;
+    font-size: 1.25rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    } 
+  }
+
+}
