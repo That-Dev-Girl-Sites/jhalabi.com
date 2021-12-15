@@ -38,7 +38,8 @@ In this spreadsheet, I am recording the book title, author, illustrator, publish
 
 Some interesting insights:
 
-* Amazon does not always list a book's illustrator. I know that this is (very likely) on the author or publisher to include that information, so this is not Amazon's "fault". However, why not list the illustrator? I know these books have illustrators _(because what toddler is going to read an all-text book?)_. So, why not include them? After all, they are a huge part of the book.
+* Amazon does not always list a book's illustrator. I know that this is (very likely) on the author or publisher to include that information, so this is not Amazon's "fault". However, why not list the illustrator? I know these books have illustrators _(because what toddler is going to read an all-text book?)_. So, why not include them? After all, they are a huge part of the book. 
+* Goodreads lists both author and illustrator, which is super helpful. In general, Goodreads is much more useful for finding information about a specific book, but it is easier to find related books (and go down subsequent rabbit holes) on Amazon.
 * I have never heard of half of these publishers. I think many of these are actually self-publishing names, which is great because that is my planned route!
 * _A lot_ of books were published in 2020. Hooray for pandemic writing!
 * A lot of the rest of these books were published in the early-2000s. There seems to be very little in-between here.
