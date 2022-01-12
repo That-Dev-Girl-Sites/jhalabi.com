@@ -3,9 +3,9 @@ layout: home
 title: Home
 ---
 
-My name is Joni and I am a **web developer**. And a **mother**. And an aspiring #kitlit **writer**. And a **runner**. And a **music** lover. And an occasional **ukulele** student. And an eclectic **reader**. And an overzealous **baker**. And a ridiculously slow **knitter**.
+My name is Joni and I am a **web developer**. And a **mother**. And an aspiring kid lit **writer**. And a **runner**. And a **music** lover. And an occasional **ukulele** student. And an eclectic **reader**. And an overzealous **baker**. And a ridiculously slow **knitter**.
 
-But, this site is mostly about my development life and _(as of late)_ writing life.
+Yeah, that's a lot. This site is mostly about my development and _(as of late)_ writing lives.
 
 
 <section markdown="1" class="has-background copper" aria-label="News">

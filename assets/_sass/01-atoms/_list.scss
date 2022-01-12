@@ -36,3 +36,18 @@ li {
 ul, ol {
   margin-bottom: 2rem;
 }
+
+
+// Footnotes on posts.
+
+hr + ol {
+
+  margin-bottom: 4rem;
+
+  li {
+    font-size: $type-p * 0.8;
+    line-height: $line-height * 0.7;
+    margin-left: 1rem;
+  }
+
+}
