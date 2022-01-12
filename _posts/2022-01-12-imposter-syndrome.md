@@ -18,7 +18,7 @@ Over the years, I wrote code. I learned new languages. I re-learned Javascript a
 
 However, through most of my career, I had imposter syndrome. I had it so hard. It was worse early on, when I was working with developers who were clearly more senior. I was expected to produce the same quality code. Mentoring would have been awesome, but my jobs were mostly a learn-as-you-go kind of situation.
 
-Alright, fake it 'til you make it, right? Over time, I got better. I wrote better code. I felt better about my code. Impostor syndrome minimized!<sup>2</sup>
+Alright, fake it 'til you make it, right? Over time, I got better. I wrote better code. I felt better about my code. Imposter syndrome minimized!<sup>2</sup>
 
 ## Oh hey, you're back...
 
