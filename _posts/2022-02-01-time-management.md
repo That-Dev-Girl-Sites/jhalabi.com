@@ -32,7 +32,7 @@ I have no idea how to market anything.
 
 For the last 20 years, I have been working with code. Not working alone, but certainly not getting other people to buy the things I code. That's what the marketing department was for.<sup>1</sup> Now... _I'm_ the marketing department.
 
-Well... that's terrifying. What do I do? Shout into the void?<sup>2</sup> I mean, I'm tweeting more and have 400+ followers now! Yes, I know that's not a giant amount - and a good amount of my followers are fellow techies - but it's certainly more than before. That's a start. Right?
+Well... that's terrifying. What do I do? Shout into the void?<sup>2</sup> I mean, I'm tweeting more and have 400+ followers now! Yes, I know that's not a giant amount - and a good amount of my followers are fellow techies - but it's certainly more than before. I'm pretty excited to have this many. And it's a good start, right?
 
 In reality, I do have a (very large) to do list of marketing ideas that I need to get started on. As soon as I have more time.
 
