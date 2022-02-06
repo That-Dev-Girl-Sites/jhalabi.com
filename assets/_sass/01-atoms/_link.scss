@@ -14,6 +14,13 @@ a {
   }
 
 
+  // Anything inside a link should inherit the properties of the link.
+  * {
+    color: inherit;
+    font-family: inherit;
+  }
+
+
   // Variation: Category
   &.category {
     background-color: $link-category-bg;

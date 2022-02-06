@@ -3,7 +3,13 @@
 
 <head>
   <title>
-    {% if page.dir != '/' %}{{ page.title }} - {% endif %}
+    {% if page.dir != '/' %}
+      {% assign strikedtext = page.title | split: "<strike>" | last | split: "</strike>" | first %}
+      {% assign todelete = '<strike>' | append: strikedtext | append: '</strike>' %}
+      {{ page.title | remove: todelete }}
+      -
+    {% endif %}
+
     {{ site.title }}
     {% if page.dir == '/' %} - Web Developer, Speaker, &amp; Writer{% endif %}
   </title>
