@@ -55,3 +55,13 @@ I also added a new `reregister_block_core_rss()` registration function. This fun
 The core block is conveniently [registered via JSON](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/) (a new feature I _love_, btw), so my new registration function needs to call that core `block.json` file. You can access the WordPress installation directory via the `ABSPATH` constant. The core block code lives in `/wp-includes/blocks`. Put those two together and we have a path to our core RSS block's JSON file.
 
 One more note: this method _(obviously?)_ only works for dynamic blocks _(e.g. blocks whose markup are rendered on the server-side)_.
+
+---
+
+## Update
+
+I have not played around with this yet, but there seems to be a [`register_block_type_args`](https://developer.wordpress.org/reference/hooks/register_block_type_args/) filter that will let you simply declare a new render function (or whatever other arguments you need). Useful if you don't feel like unregistering and re-registering a block.
+
+I have not played around with it yet, but I do wish functions like this were easier to find. I searched for a "real" solution for quite a while before hacking my own and found nothing helpful looking. My google-ability is usually pretty good. I could write _a lot_ about the state of documentation, but I'll just say that I'm glad something easier exists.
+
+Use whatever method you'd like. As I've always told my students _(when I used to teach, that is)_, there are many ways to code something. Some are better than others. Just try not to break anything along the way.
