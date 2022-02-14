@@ -16,19 +16,19 @@
    }
 
   &-twitter::before {
-    content: "\ea96";
+    content: "\ea91";
   }
 
   &-github::before {
-    content: "\eab0";
+    content: "\eab1";
   }
 
   &-linkedin::before {
-    content: "\eac9";
+    content: "\eac8";
   }
 
   &-stackoverflow::before {
-    content: "\ead0";
+    content: "\eacf";
   }
 
   &-play::before {
@@ -36,7 +36,7 @@
   }
 
   &-location::before {
-    content: "\e948";
+    content: "\e947";
   }
 
   &-calendar::before {
@@ -48,10 +48,14 @@
   }
 
   &-profile:before {
-    content: "\e923";
+    content: "\e971";
   }
 
   &-mug:before {
     content: "\e9a2";
+  }
+
+  &-goodreads:before {
+    content: "\e91f";
   }
 }

@@ -14,6 +14,9 @@ Regardless, please don't let this scare you off from sending me a message. Repli
 {:.icon .icon-twitter} <span class="sr-only">Twitter</span>
 : [@jonihalabi](https://twitter.com/jonihalabi)
 
+{:.icon .icon-goodreads} <span class="sr-only">Goodreads</span>
+: [Goodreads](https://www.goodreads.com/jonihalabi)
+
 {:.icon .icon-github} <span class="sr-only">GitHub</span>
 : [@thatdevgirl](https://github.com/thatdevgirl)
 
