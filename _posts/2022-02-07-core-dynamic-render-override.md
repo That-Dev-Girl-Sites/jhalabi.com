@@ -60,8 +60,6 @@ One more note: this method _(obviously?)_ only works for dynamic blocks _(e.g. b
 
 ## Update
 
-I have not played around with this yet, but there seems to be a [`register_block_type_args`](https://developer.wordpress.org/reference/hooks/register_block_type_args/) filter that will let you simply declare a new render function (or whatever other arguments you need). Useful if you don't feel like unregistering and re-registering a block.
+There is a [`register_block_type_args`](https://developer.wordpress.org/reference/hooks/register_block_type_args/) hook that allows you to filter the registration arguments of a block. However, making changes to those arguments does not seem to be a part of that hook. In my testing, the original `render_callback` was still being used, so it looks like you would still need to register or reregister the block.
 
-I have not played around with it yet, but I do wish functions like this were easier to find. I searched for a "real" solution for quite a while before hacking my own and found nothing helpful looking. My google-ability is usually pretty good. I could write _a lot_ about the state of documentation, but I'll just say that I'm glad something easier exists.
-
-Use whatever method you'd like. As I've always told my students _(when I used to teach, that is)_, there are many ways to code something. Some are better than others. Just try not to break anything along the way.
+I tend to work almost exclusively with dynamic blocks these days, but if you have a need to overwrite the render function of a static block, the [`render_block` hook](https://developer.wordpress.org/reference/hooks/render_block/) looks to be your best bet.
