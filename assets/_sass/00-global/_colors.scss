@@ -17,12 +17,19 @@ $timberwolf:    #dedbd2;
 $seaweed:       #00798c;
 $tart-orange:   #c65050;
 
+// Book palette.
+$book-green:    #95ae4a;
+
 
 // Component color definitions.
 $background-color:             $white;
 $color:                        $black;
 
 $blockquote-border:            $purple;
+
+$book-placeholder:             darken( $book-green, 30% );
+$book-placeholder-bg:          lighten( $book-green, 40% );
+$book-placeholder-border:      $book-green;
 
 $catlist-border:               $black;
 $catlist-current:              $white;
@@ -52,13 +59,14 @@ $header-box-color-4:           $champagne;
 $heading-color:                $black;
 $heading-color-h3:             $purple;
 
-$home-first-letter-bg:         $purple;
-$home-first-letter:            $white;
-
 $image-border:                 $black;
 
-$latest-post-bg:               $white;
-$latest-post-shadow:           lighten( $black, 40% );
+$latest-post-cat-a11y:         $champagne;
+$latest-post-cat-default:      $copper;
+$latest-post-cat-dev:          $purple;
+$latest-post-cat-wordpress:    $seaweed;
+$latest-post-cat-writing:      $book-green;
+$latest-post-link:             $black;
 
 $link-color:                   darken( $copper, 20% );
 $link-category-bg:             $purple;

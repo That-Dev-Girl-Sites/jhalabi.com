@@ -4,7 +4,7 @@
 
 .pagination {
 
-  padding: 2rem 0 1rem 0;
+  padding: 1.5rem 0 0.5rem 0;
 
   // All pagination items, linked or not.
   a,
@@ -14,12 +14,13 @@
     color: $pagination;
     display: inline-block;
     font-size: 0.9rem;
-    margin: 0 0.4rem 1rem;
+    margin: 0 0 1rem;
     padding: 0.25rem 0.55rem;
     text-decoration: none;
 
     &:first-child {
       margin-left: 0;
+      padding-left: 0;
     }
   }
 
