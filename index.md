@@ -63,6 +63,6 @@ I am a single by choice mother to an **amazing pre-schooler** who constantly kee
 
 **I love to travel.** I have been lucky enough to visit parts of Europe and the Middle East. I have road tripped across a good chunk of the western US and day-hiked in Alaska. I have camped at the Falcon Ridge Folk Festival and the RPI hockey line. _(Camping for college hockey tickets is like real camping, right?)_
 
-**I love books!** I love to read and have books in just about every room of my house. Unfortunately, my reading has dwindled post-baby, but I do [keep track of what I read](/books/reading/), in case you all are interested.
+**I love books!** I love to read and have books in just about every room of my house. Unfortunately, my reading has dwindled post-baby, but I do [keep track of what I read](/book/reading/), in case you all are interested.
 
 </section>

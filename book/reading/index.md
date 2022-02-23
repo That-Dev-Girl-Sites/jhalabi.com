@@ -5,9 +5,12 @@ title: Reading List
 
 Because... you know... books are awesome!
 
-I like to read books. A lot of books. I also like to keep track of what I have read… partially so that I can refer to them later and partially because I will forget that I have read something before. All of the books that I have read (since 2010, at least) are listed here. 
+I like to read books. A lot of books. I also like to keep track of what I have read… partially so that I can refer to them later and partially because I will forget that I have read something before. All of the books that I have read (since 2010, at least) are listed here.
+
+I feel the need to apologize for 2020 and 2021. Reading during a pandemic was ridiculously hard to impossible. I'm hoping to turn the streak around in 2022.
 
 <nav aria-label="Links to book information by year">
+  <a href="#books-2022">2022</a> |
   <a href="#books-2021">2021</a> |
   <a href="#books-2020">2020</a> |
   <a href="#books-2019">2019</a> |
@@ -22,6 +25,12 @@ I like to read books. A lot of books. I also like to keep track of what I have r
   <a href="#books-2010">2010</a>
 </nav>
 
+## Books Read in 2022 {#books-2022}
+
+Book | Thoughts | Date Read
+---- | ---- | ----
+**Cosmic Blackout! (Galaxy Zack #16)** <br> _Ray O'Ryan_ | It has definitely been a rough couple of years for reading, so I eased myself back in with a YA. This was a fun one! | February
+
 ## Books Read in 2021 {#books-2021}
 
 Book | Thoughts | Date Read
@@ -32,7 +41,7 @@ Book | Thoughts | Date Read
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
-**Are You There God? It's Me, Margaret.** <br> _Judy Blume_ | Hey 2020. This is embarassing, but it's been almost a year since I've read a grown up book. I decided to start with an "easy" one. Loved it. I wish I read it sooner. <span class='fa fa-heart'></span> | December
+**Are You There God? It's Me, Margaret.** <br> _Judy Blume_ | Hey 2020. This is embarrassing, but it's been almost a year since I've read a grown up book. I decided to start with an "easy" one. Loved it. I wish I read it sooner. <span class='fa fa-heart'></span> | December
 **Bad Blood: Secrets and Lies in a Silicon Valley Startup** <br> _John Carreyrou_ | This book made me so angry, but I could not put it down. Definitely worth the read if you have any interest in startup culture, healthcare, and what not to do. <span class='fa fa-heart'></span> | January
 
 ## Books Read in 2019 {#books-2019}
