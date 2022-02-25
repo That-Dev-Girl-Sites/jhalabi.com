@@ -3,11 +3,32 @@ layout: main
 title: Speaking
 ---
 
-I have had the pleasure to present and teach at a number of conferences and classrooms. I love speaking to both present and future developers about a variety of front-end development topics. A list of my previous speaking dates and presentations are below.
+I have had the pleasure to speak and teach at a number of conferences, meetups, and classrooms. I love speaking to both present and future developers about a variety of front-end development topics. A list of both my upcoming and previous speaking dates and presentations are below.
 
 Questions? Comments? Want to chat? [Let me know!](/contact/)
 
-<section markdown="1" class="has-background copper" aria-label="Customize Gutenberg Without Living in Fear of Validation Errors">
+<section markdown="1" class="has-background copper" aria-label="Gutenberg Developer Hours">
+
+## Gutenberg Developer Hours
+
+This new meetup series from the [WordPress Social Learning Meetup](https://www.meetup.com/wordpress-social-learning/) invites attendees to ask a panel of WordPress developers about the block, plugins, theme development, or any other WordPress editor topic. I am very excited to have been asked to be a part of the panels for 2 of the 4 inaugural sessions.
+
+<div markdown="1" class="speaking-details">
+<div markdown="1">
+March 22, 2022
+: {:.icon .icon-location} Meetup
+</div>
+
+<div markdown="1">
+February 22, 2022
+: {:.icon .icon-location} <a href="https://www.meetup.com/wordpress-social-learning/events/283720638/" aria-label="February 22 meetup details">Meetup</a>
+: {:.icon .icon-play} <a href="https://youtu.be/VGkvVvlIWEM" aria-label="February 22 meetup recording">Watch Recording</a>
+</div>
+</div>
+
+</section>
+
+<section markdown="1" aria-label="Customize Gutenberg Without Living in Fear of Validation Errors">
 
 ## Dynamic Blocks FTW!: Customize Gutenberg Without Living in Fear of Validation Errors
 
@@ -17,25 +38,25 @@ Enter the dynamic block. In this workshop, you will learn about the difference b
 
 <div markdown="1" class="speaking-details">
 <div markdown="1">
-WPCampus Online 2021
-: {:.icon .icon-calendar} September 21-22, 2021
-: {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
-: {:.icon .icon-play} <a href="https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors/demand" aria-label="WordPress Dynamic Blocks WP Campus video">Watch Video</a>
-</div>
-
-<div markdown="1">
 HighEdWeb 2021
 : {:.icon .icon-calendar} October 4-5, 2021
 : {:.icon .icon-location} Online
 : {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
 : {:.icon .icon-bubbles} <a href="https://events.highedweb.org/heweb21/session/559144/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="WordPress Dynamic Blocks HighEdWeb session details">Session Details</a>
 </div>
+
+<div markdown="1">
+WPCampus Online 2021
+: {:.icon .icon-calendar} September 21-22, 2021
+: {:.icon .icon-location} Online
+: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
+: {:.icon .icon-play} <a href="https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors/demand" aria-label="WordPress Dynamic Blocks WP Campus video">Watch Video</a>
+</div>
 </div>
 
 </section>
 
-<section markdown="1" aria-label="Data Visualization in WordPress">
+<section markdown="1" class="has-background copper" aria-label="Data Visualization in WordPress">
 
 ## See What I Mean?: Data Visualization in WordPress
 
@@ -61,7 +82,7 @@ Javascript for WordPress Conference 2020
 </section>
 
 
-<section markdown="1" class="has-background copper" aria-label="Customizing Gutenberg">
+<section markdown="1" aria-label="Customizing Gutenberg">
 
 ## Customizing Gutenberg: Lessons Learned at Georgetown
 
@@ -80,7 +101,7 @@ WPCampus Online 2019
 </section>
 
 
-<section markdown="1" aria-label="Accessible Web Development">
+<section markdown="1" class="has-background copper" aria-label="Accessible Web Development">
 
 ## Accessible Web Development
 
@@ -112,7 +133,7 @@ NoVA CodeCamp
 </section>
 
 
-<section markdown="1" class="has-background copper" aria-label="Accessible Development Class">
+<section markdown="1" aria-label="Accessible Development Class">
 
 ## Accessible Development Class
 

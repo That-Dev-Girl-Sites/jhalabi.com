@@ -5,13 +5,13 @@
 <div markdown="1" class="work-examples">
 
 <div markdown="1">
-![Screenshot of the Georgetown College homepage](/assets/images/work-gu-college.jpg)
+![Screenshot of the Georgetown College homepage](/assets/images/work-gu-humanities.jpg)
 
-### [Georgetown College](https://college.georgetown.edu)
+### [Georgetown Humanities Initiative](https://humanities.georgetown.edu)
 
-**WordPress, ReactJS, Sass, HTML**
+**WordPress, PHP, ReactJS, Gutenberg API, SCSS, HTML**
 
-This site is one of 300+ that our team develops and maintains. I wrote a number of custom Gutenberg blocks for these sites. This theme was launched in 2018.
+This site is one of 350+ that our team develops and maintains. I am part of a small development team that created the themes and plugins that provide specialized functionality for our university sites. Additionally, I developed many of custom blocks for the WordPress editor (Gutenberg) specifically designed for our sites.
 </div>
 
 <div markdown="1">
