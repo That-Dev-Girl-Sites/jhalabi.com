@@ -17,7 +17,7 @@ _[insert exasperated sigh here]_
 
 So, for all of you clients who want a carousel on your site, this post is for you.
 
-## No one wants to see your f-ing carousel.
+## No one wants to see your f-ing carousel
 
 I'm serious. The only person who wants a carousel on your site is you. That's it. It's a self-serving vanity project so that you can showcase all of your babies at the same time without telling the world which one is your favorite.
 
