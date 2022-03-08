@@ -13,7 +13,7 @@ I know carousels have not magically disappeared in the last 5 years, but they ha
 
 Now, guess who wants carousels? You guessed it. _Everyone._
 
-_<insert exasperated sigh here>_
+_[insert exasperated sigh here]_
 
 So, for all of you clients who want a carousel on your site, this post is for you.
 
@@ -50,7 +50,7 @@ It is remarkably difficult to make a carousel accessible to everyone, even with 
 1. __Current slide position:__ How do you present which slide the user is currently on? For visual users, you can use bubbles or numbers. For non-visual users, you can announce the slide and its position as it is displayed on the screen. 
 2. __Slide controls:__ How does the user get from one slide to the next? Are there forward and back buttons? Where are they visually? Can you tab to one and then the other easily, if you are not a mouse user? Are these buttons announced if you are not a visual user? Also, for non-visual users, how will you know that these buttons exist in the first place?
 3. __Handling auto-rotation:__ For starters, never, ever, ever auto-rotate anything. But, if you insist, is there a pause button? Is the pause button obvious? Is the pause button obvious for a non-visual user? How much time does a user get to read a single slide? Is the rotation speed too fast? Too fast means that your user may not have enough time to read the slide. Or interact with it. Or, they do interact with it but they accidentally go to another page because they clicked on the slide as it was rotating. Or the animation is so fast that even someone who is trying to ignore the carousel can't because it is way too distracting. Seriously, never auto-rotate. Ever.
-4. __Reading the current slide:__ What is the on the current slide? Is it an image? If so, is that image described adequately for non-visual users? If you have an auto-rotator, is the new image announced to your non-visual users? Is that announcement annoying because the carousel is auto-rotating too fast and a new slide is announced to non-visual users every 10 seconds. _(Yet another reason to __never autorotate__.)_
+4. __Reading the current slide:__ What is the on the current slide? Is it an image? If so, is that image described adequately for non-visual users? If you have an auto-rotator, is the new image announced to your non-visual users? Is that announcement annoying because the carousel is auto-rotating too fast and a new slide is announced to non-visual users every 10 seconds. _(Yet another reason to __never auto-rotate__.)_
 
 That's just the list that I could think of while I am writing this post. There are almost certainly more considerations. If you get any of these things wrong, you'll likely lose your site visitor. 
 
@@ -60,10 +60,12 @@ And, perhaps worse, if you suggest adding a carousel to your site, you'll likely
 
 If you're still with me here, I would like to suggest an easy alternative to adding a carousel to your page.
 
-Are your ready?
+Are you ready?
 
 __Think about the content on your page.__ 
 
 Carousels are a desperate attempt to give the same level of importance to multiple pieces of content. If everything is important, nothing is important. So, think about what is actually important for your users to see. What would thrill you to see your users click on or read? 
 
-When you decide, make _that_ the highlight of your page.
+When you decide, make _that_ the focus of your page.
+
+Your users _(and developers)_ will thank you.
