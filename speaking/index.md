@@ -16,7 +16,7 @@ This new meetup series from the [WordPress Social Learning Meetup](https://www.m
 <div markdown="1" class="speaking-details">
 <div markdown="1">
 March 22, 2022
-: {:.icon .icon-location} Meetup
+: {:.icon .icon-location} <a href="https://www.meetup.com/wordpress-social-learning/events/284434154/" aria-label="March 22 meetup details">Meetup</a>
 </div>
 
 <div markdown="1">
