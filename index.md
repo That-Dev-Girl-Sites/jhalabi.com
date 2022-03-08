@@ -17,7 +17,7 @@ I am surprised as you are that I wrote a book, but it's true! Check out my "comi
 
 
 
-<section markdown="1" class="has-background copper" aria-label="Articles">
+<section markdown="1" class="has-background timberwolf" aria-label="Articles">
 
 ## Latest News
 
@@ -45,7 +45,7 @@ I am surprised as you are that I wrote a book, but it's true! Check out my "comi
 
 
 
-<section markdown="1" class="has-background timberwolf" aria-label="Biography">
+<section markdown="1" aria-label="Biography">
 
 ## About Joni
 
