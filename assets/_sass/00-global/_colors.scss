@@ -17,6 +17,11 @@ $timberwolf:    #dedbd2;
 $seaweed:       #00798c;
 $tart-orange:   #c65050;
 
+// Secondary colors.
+$indigo:        #003d5b;
+$tuscan-red:    #834954;
+$cadet-blue:    #6faaaf;
+
 // Book palette.
 $book-green:    #95ae4a;
 
@@ -34,6 +39,7 @@ $book-placeholder-border:      $book-green;
 $catlist-border:               $black;
 $catlist-current:              $white;
 $catlist-current-bg:           lighten( $purple, 10% );
+$catlist-heading:              $black;
 $catlist-hover-bg:             $timberwolf;
 $catlist-sticky-bg:            $tart-orange;
 $catlist-sticky-hover-bg:      lighten( $tart-orange, 10% );
@@ -61,11 +67,6 @@ $heading-color-h3:             $purple;
 
 $image-border:                 $black;
 
-$latest-post-cat-a11y:         $champagne;
-$latest-post-cat-default:      $copper;
-$latest-post-cat-dev:          $purple;
-$latest-post-cat-wordpress:    $seaweed;
-$latest-post-cat-writing:      $book-green;
 $latest-post-link:             $black;
 
 $link-color:                   darken( $copper, 20% );
@@ -91,6 +92,17 @@ $pagination-current-bg:        darken( $copper, 10% );
 $pagination-current:           $white;
 $pagination-hover-bg:          $copper;
 $pagination-hover:             $white;
+
+$post-cat-default:             $copper;
+$post-cat-default-hover:       $black;
+
+$post-cat-a11y:                $tart-orange;
+$post-cat-dev:                 $purple;
+$post-cat-life:                $post-cat-default;
+$post-cat-pregnancy:           $tuscan-red;
+$post-cat-user-experience:     $indigo;
+$post-cat-wordpress:           $seaweed;
+$post-cat-writing:             darken( $book-green, 10% );
 
 $pregnancy-tag-bg:             $purple;
 $pregnancy-tag-hover:          darken( $copper, 10% );

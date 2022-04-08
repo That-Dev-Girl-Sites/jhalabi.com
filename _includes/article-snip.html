@@ -1,4 +1,11 @@
-<article aria-label="{{ post.title | strip_html }}">
+<article class="article-snip" aria-label="{{ post.title | strip_html }}">
+
+  <p class="categories">
+    {% for category in post.categories %}
+      {% assign mainCategory = category %}
+      <a href="/blog/{{category | replace: '_', '-' }}/" class="category {{category | replace: '_', '-' }}">{{ category | replace: "_", " " }}</a>
+    {% endfor %}
+  </p>
 
   <p class="title">
     <a href="{{ post.url }}">{{ post.title }}</a>

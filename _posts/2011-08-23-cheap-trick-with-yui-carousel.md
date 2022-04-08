@@ -4,7 +4,6 @@ title: "Cheap Trick with YUI Carousel"
 date: "2011-08-23"
 categories:
   - development
-  - javascript
 ---
 
 This is just another example of why Internet Explorer 7 (and earlier) needs to die. I have been working on a project where a group of images needs to be displayed on a page, four at a time in a carousel. The site uses YUI 2.7, so naturally, I am using YUI Carousel to implement this.

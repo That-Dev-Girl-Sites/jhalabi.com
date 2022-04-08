@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #14"
 date: "2013-02-14"
 categories:
-  - photography
+  - life
 ---
 
 Well, assuming I have a following here, you have been following my photo-a-day journey for just about 2 whole weeks.  That is amazing - that both I am still taking pictures and you are still looking at them.  So... thank you!

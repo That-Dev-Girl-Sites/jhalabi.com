@@ -4,7 +4,6 @@ title: "A Very Informal Look at Gutenberg Accessibility"
 date: "2018-10-16"
 categories:
   - accessibility
-  - user-experience
   - wordpress
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #18"
 date: "2013-02-18"
 categories:
-  - photography
+  - life
 ---
 
 I had a fantastic weekend.  So fantastic, that I just found the time to work on yesterday's photo of the day.  Typical I know.

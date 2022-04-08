@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #11"
 date: "2013-02-11"
 categories:
-  - photography
+  - life
 ---
 
 Today's photo subject is "entrance".  Now, I really did not want to take a picture of a door, because that felt really boring and obvious.  However, how else do you really enter a space?  It is through a door or an archway or some other separator.

@@ -5,17 +5,20 @@
 .latest-post {
 
   border-left: 2rem solid;
-  border-color: $latest-post-cat-default;
+  border-color: $post-cat-default;
   margin: 3rem 0;
   padding-bottom: 2rem;
   padding-left: 1.5rem;
   padding-top: 1rem;
 
   // Side border colors.
-  &.accessibility { border-color: $latest-post-cat-a11y; }
-  &.development   { border-color: $latest-post-cat-dev; }
-  &.wordpress     { border-color: $latest-post-cat-wordpress; }
-  &.writing       { border-color: $latest-post-cat-writing; }
+  &.accessibility   { border-color: $post-cat-a11y; }
+  &.development     { border-color: $post-cat-dev; }
+  &.life            { border-color: $post-cat-life; }
+  &.pregnancy       { border-color: $post-cat-pregnancy; }
+  &.user-experience { border-color: $post-cat-user-experience; }
+  &.wordpress       { border-color: $post-cat-wordpress; }
+  &.writing         { border-color: $post-cat-writing; }
 
 
   // Post meta information (categories and date).

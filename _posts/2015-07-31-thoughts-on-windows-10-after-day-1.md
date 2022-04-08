@@ -3,7 +3,7 @@ layout: post
 title: "Living Dangerously: 12 Thoughts on Windows 10 After Day 1"
 date: "2015-07-31"
 categories:
-  - tech-tips
+  - life
 ---
 
 I like to live dangerously - at least in terms of upgrading my technology.  Call it reckless.  Call it crazy.  I just like playing with new things.  This is exactly why I decided to upgrade my 3-year old Windows 7 machine to Windows 10 [the day it came out](https://lifehacker.com/how-to-skip-the-line-and-upgrade-to-windows-10-now-1720854489)

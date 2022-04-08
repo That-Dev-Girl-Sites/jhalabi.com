@@ -4,7 +4,6 @@ title: "Adventures in IE: A story of Javascript dependencies"
 date: "2014-06-03"
 categories:
   - development
-  - javascript
 ---
 
 I have never really been one for developing in IE. To be honest, I usually exclusively develop using Chrome and save my cross-browser testing for the end of the project. This is very likely a debatable practice, and I may write a blog article about that in the future, but that is not why I am writing now.

@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #8"
 date: "2013-02-08"
 categories:
-  - photography
+  - life
 ---
 
 Today's photo was really hard... at least at first.

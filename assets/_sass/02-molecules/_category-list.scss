@@ -9,8 +9,29 @@
   h2 {
     @include sans-bold;
     font-size: $type-h4;
+    margin-bottom: 0.5rem;
     margin-top: 1rem;
     text-transform: capitalize;
+
+    a {
+      color: $catlist-heading;
+      text-decoration: none;
+      transition: none;
+
+      &::after {
+        content: '▸';
+        margin-left: 0.5rem;
+      }
+
+      &:focus,
+      &:hover {
+        border-bottom: 1px solid $catlist-border;
+      }
+    }
+  }
+
+  ul {
+    margin-bottom: 3rem;
   }
 
   li {
@@ -21,7 +42,7 @@
   }
 
   // Link to a category.
-  a {
+  &-link {
     display: block;
     padding: 0.4rem 0 0.4rem 0.5rem;
     text-decoration: none;
@@ -43,27 +64,6 @@
     color: $catlist-current;
     display: block;
     padding: 0.4rem 0 0.4rem 0.5rem;
-  }
-
-  // Sticky topic.
-  .sticky {
-    border-bottom: 0;
-    margin-bottom: 1rem;
-
-    a {
-      background-color: $catlist-sticky-bg;
-      color: $catlist-sticky-color;
-
-      &:focus,
-      &:hover {
-        background-color: $catlist-sticky-hover-bg;
-        color: $catlist-sticky-hover-color;
-      }
-    }
-
-    span {
-      background-color: $catlist-sticky-bg;
-    }
   }
 
 }

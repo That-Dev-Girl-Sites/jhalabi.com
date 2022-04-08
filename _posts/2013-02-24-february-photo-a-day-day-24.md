@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #24"
 date: "2013-02-24"
 categories:
-  - photography
+  - life
 ---
 
 First, another apology.  Today's photo subject was "cloud".  All I could think of when I saw this subject was a photo I took in Chicago several years ago.  I was out there for a family reunion.  It was an absolutely gorgeous August day and we all went for a walk.  I really can't remember exactly where we were - it was in one of the western suburbs - and we were walking along a trail when we came upon a lake.  This is where I took the photo that I am posting for today's "photo-a-day".

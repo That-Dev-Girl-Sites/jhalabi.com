@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #1"
 date: "2013-02-01"
 categories:
-  - photography
+  - life
 ---
 
 I decided to try something different with my blog _(or... do something with my blog)._ I found a blog post about a [photo-a-day challenge for February](https://fatmumslim.com.au/category/photo-a-day-2/) and decided to give it a shot.  OK, I am a day late starting this, but here it goes.

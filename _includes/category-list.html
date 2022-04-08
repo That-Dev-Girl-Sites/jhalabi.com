@@ -2,37 +2,29 @@
 
 <section class="category-list" aria-label="Category list">
 
-  <h2>All Topics</h2>
+  <h2>
+    <a href="/blog">All Topics</a>
+  </h2>
 
   <ul>
-    <li class="sticky">
-      {% if page.url contains "writing" %}
-        <span>Featured: writing</span>
-      {% else %}
-        <a href="/blog/writing">Featured: writing</a>
-      {% endif %}
-    </li>
-
     {% for category in categories %}
-      {% if category[0] != "writing" %}
 
-        <li>
-          {% if page.url contains category[0] %}
-            <span>{{ category[0] | replace: '-', ' ' }}</span>
-          {% else %}
-            <a href="/blog/{{ category[0] }}/">{{ category[0] | replace: '-', ' ' }}</a>
-          {% endif %}
-        </li>
+      <li>
+        {% if page.url contains category[0] %}
+          <span>{{ category[0] | replace: '-', ' ' }}</span>
+        {% else %}
+          <a href="/blog/{{ category[0] }}/" class="category-list-link">{{ category[0] | replace: '-', ' ' }}</a>
+        {% endif %}
+      </li>
 
-      {% endif %}
     {% endfor %}
   </ul>
 
   <h2>Follow Me</h2>
 
   <ul>
-    <li><a href="/feed.xml">rss feed</a></li>
-    <li><a href="https://twitter.com/jonihalabi">twitter @jonihalabi</a></li>
+    <li><a href="/feed.xml" class="category-list-link">rss feed</a></li>
+    <li><a href="https://twitter.com/jonihalabi" class="category-list-link">twitter @jonihalabi</a></li>
   </ul>
 
 </section>

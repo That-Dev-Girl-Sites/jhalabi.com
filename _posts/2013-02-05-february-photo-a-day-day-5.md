@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #5"
 date: "2013-02-05"
 categories:
-  - photography
+  - life
 ---
 
 OK, this story is a little gross.  Day 5's photo subject was "something you smelled".  I woke up this morning thinking of different possibilities: Burning a candle.  Baking cookies.  Finding some girly hand lotion.

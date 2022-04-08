@@ -4,8 +4,6 @@ title: "Complicated and loving it"
 date: "2016-01-01"
 categories:
   - life
-tags:
-  - business
 ---
 
 2015 was a strange, strange year.

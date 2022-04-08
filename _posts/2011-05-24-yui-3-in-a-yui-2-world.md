@@ -4,7 +4,6 @@ title: "YUI 3 in a YUI 2 world"
 date: "2011-05-24"
 categories:
   - development
-  - javascript
 ---
 
 I know what you are probably thinking.  You want to use YUI 3 inside YUI 2?  Really?  Why not just upgrade to YUI 3 altogether?

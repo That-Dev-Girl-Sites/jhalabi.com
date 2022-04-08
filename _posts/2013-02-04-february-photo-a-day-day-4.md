@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #4"
 date: "2013-02-04"
 categories:
-  - photography
+  - life
 ---
 
 Day four.  It has been a busy month _(yes, already)_ and I have not had as much time as I would have liked lately to go to the gym.  For those of you who know me, I am a little addicted _(and fully admit it!)_.  This  month will hopefully be one where I get back on track and start training for my _(second!)_ half marathon, coming up in June!

@@ -23,7 +23,7 @@ a {
 
   // Variation: Category
   &.category {
-    background-color: $link-category-bg;
+    background-color: $post-cat-default;
     border-radius: 0.15rem;
     color: $link-category-color;
     display: inline-block;
@@ -34,8 +34,17 @@ a {
 
     &:focus,
     &:hover {
-      background-color: $link-category-bg-hover;
+      background-color: $post-cat-default-hover !important;
     }
+
+    // Special category colors.
+    &.accessibility   { background-color: $post-cat-a11y; }
+    &.development     { background-color: $post-cat-dev; }
+    &.life            { background-color: $post-cat-life; }
+    &.pregnancy       { background-color: $post-cat-pregnancy; }
+    &.user-experience { background-color: $post-cat-user-experience; }
+    &.wordpress       { background-color: $post-cat-wordpress; }
+    &.writing         { background-color: $post-cat-writing; }
   }
 
 

@@ -4,8 +4,6 @@ title: "Embracing the base: A little advice that developers might find surprisin
 date: "2015-07-23"
 categories:
   - development
-  - javascript
-  - hiring
 ---
 
 A few weeks ago, I spent some time interacting with candidates for a development job and peppering them with questions at a recruiting event. One candidate who had just started to learn to code finally asked me a question, which isn’t exactly common.

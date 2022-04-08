@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #16"
 date: "2013-02-16"
 categories:
-  - photography
+  - life
 ---
 
 As you probably read a couple of days ago, I have started to take some liberties with this photo-a-day challenge.  Today _(or, rather yesterday at this point)_ is another one of those liberties.  Don't worry - I did take a picture this time.  But there's a (long) story to go with it.

@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #22"
 date: "2013-02-22"
 categories:
-  - photography
+  - life
 ---
 
 Work has been hard lately.  I mean seriously, frustratingly hard.  I am learning a new piece of tech these days, which is pretty awesome, but, at the same time, obnoxiously crazy and seemingly impossible.  The learning curve is getting better, but it has been a long time coming.

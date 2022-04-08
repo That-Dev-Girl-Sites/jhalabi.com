@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #21"
 date: "2013-02-21"
 categories:
-  - photography
+  - life
 ---
 
 Today's photo subject was "full".  Today was also a crazy busy day at work _(from home)_, so I needed to find something "full" around my apartment.

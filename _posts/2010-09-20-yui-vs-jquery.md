@@ -4,7 +4,6 @@ title: "YUI vs. jQuery"
 date: "2010-09-20"
 categories:
   - development
-  - javascript
 ---
 
 Ever since I started my consulting gig, I have been learning so many new _(or, rather, new to me)_ technologies.  Most of my learning experiences have centered around Javascript libraries – namely jQuery and YUI.  In light of the fact that I’ve only been consulting for about 9 months now, I’m going to preface this entire post with the fact that I definitely do not consider myself an expert in either of these libraries.

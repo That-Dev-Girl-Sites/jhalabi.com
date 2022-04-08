@@ -14,7 +14,6 @@
 @import '00-utilities/icons';
 @import '00-utilities/sr-only';
 
-@import '01-atoms/article';
 @import '01-atoms/blockquote';
 @import '01-atoms/code';
 @import '01-atoms/figure';
@@ -29,6 +28,7 @@
 @import '01-atoms/table';
 
 @import '02-molecules/archive-container';
+@import '02-molecules/article-snip';
 @import '02-molecules/book-cover';
 @import '02-molecules/category-list';
 @import '02-molecules/contact-options';

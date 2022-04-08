@@ -4,7 +4,6 @@ title: "When Git ignore doesn't"
 date: "2016-09-01"
 categories:
   - development
-  - git
 ---
 
 Imagine this: You have a file in your Git repository that you need to modify. Perhaps it is a settings file for your CMS. The settings file works perfectly for your QA or production environment, but you need to modify it for your local environment to run off of a different port or to enable developer logging or to do whatever else.  These local changes are critical to your local environment, but they will not work on production. No matter what, you __must not__ commit these changes.

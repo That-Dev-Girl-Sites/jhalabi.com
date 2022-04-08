@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #23"
 date: "2013-02-23"
 categories:
-  - photography
+  - life
 ---
 
 A little behind again, but hey - it was a weekend.  Saturday's photo subject was "word".   So, I spent all day with my camera, taking pictures of words wherever I went.  Which was weird.  I did take other pictures too!  But going from taking a photo of a gorgeous landscape - I was in the middle of VA wine country on Saturday - to taking a picture of a single word on a sign is... well... a little strange.

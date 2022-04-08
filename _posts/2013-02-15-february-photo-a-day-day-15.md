@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #15"
 date: "2013-02-15"
 categories:
-  - photography
+  - life
 ---
 
 And we're back!  Today's photo subject is "inside your fridge".

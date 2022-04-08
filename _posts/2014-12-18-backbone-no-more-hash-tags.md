@@ -4,7 +4,6 @@ title: "Backbone: No more hash tags!"
 date: "2014-12-18"
 categories:
   - development
-  - javascript
 ---
 
 Is one of your Backbone.js pet-peeves the fact that all of your routes have to start with a hash tag? It was mine!

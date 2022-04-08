@@ -3,7 +3,7 @@ layout: post
 title: "February Photo a Day #7"
 date: "2013-02-07"
 categories:
-  - photography
+  - life
 ---
 
 Welcome to day 7!  I have been doing this photo-a-day thing for a whole week... can you believe it?

@@ -4,7 +4,6 @@ title: "The Case of the Disappearing Gutenberg"
 date: "2020-06-20"
 categories:
   - development
-  - tech-tips
   - wordpress
 ---
 
