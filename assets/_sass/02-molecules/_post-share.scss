@@ -1,0 +1,15 @@
+/**
+ * Molecules: Post Share
+ */
+
+.post-share {
+
+  margin-top: 4rem;
+  padding: 2rem 0;
+  position: relative;
+
+  &::before {
+    border-top: 1px solid $purple;
+  }
+
+}

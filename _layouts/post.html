@@ -2,9 +2,9 @@
 
 <main id="main">
 
-  <h1>{{ page.title }}</h1>
-
   <div class="post-meta has-background timberwolf">
+    <h1>{{ page.title }}</h1>
+
     <p class="date">
       {{ page.date | date_to_long_string }}
     </p>
@@ -14,7 +14,7 @@
 
       {% for category in page.categories %}
         {% assign mainCategory = category %}
-        <a href="/blog/{{category | replace: ' ', '-' }}/" class="category">{{ category | replace: "-", " " }}</a>
+        <a href="/blog/{{category | replace: ' ', '-' }}/" class="category {{category | replace: '_', '-' }}">{{ category | replace: "-", " " }}</a>
       {% endfor %}
 
       {% for tag in page.tags %}
@@ -24,6 +24,11 @@
   </div>
 
   {{ content }}
+
+  <div class="post-share has-background copper">
+    <strong>Share:</strong>
+    <a href="https://twitter.com/intent/tweet?text=Check out '{{ page.title }}' by @jonihalabi&url={{ site.url }}{{ page.url }}">Share To Twitter</a>
+  </div>
 
 </main>
 
