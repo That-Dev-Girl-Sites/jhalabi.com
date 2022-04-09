@@ -25,9 +25,16 @@
 
   {{ content }}
 
-  <div class="post-share has-background copper">
-    <strong>Share:</strong>
-    <a href="https://twitter.com/intent/tweet?text=Check out '{{ page.title }}' by @jonihalabi&url={{ site.url }}{{ page.url }}">Share To Twitter</a>
+  <div class="post-share has-background timberwolf">
+    <a class="post-share-link" target="_blank" href="https://twitter.com/intent/tweet?text=Check out '{{ page.title }}' by @jonihalabi&url={{ site.url }}{{ page.url }}">
+      Share on
+      <span class="icon icon-twitter"><span class="sr-only">Twitter</span></span>
+    </a>
+
+    <a class="post-share-link" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}">
+      Share on
+      <span class="icon icon-linkedin"><span class="sr-only">LinkedIn</span></span>
+    </a>
   </div>
 
 </main>

@@ -8,8 +8,25 @@
   padding: 2rem 0;
   position: relative;
 
-  &::before {
-    border-top: 1px solid $purple;
+  &-link {
+    background-color: $post-share-bg;
+    border-radius: 0.25rem;
+    color: $post-share-link;
+    font-size: 0.9rem;
+    margin-right: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      background-color: $post-share-bg-hover;
+    }
+  }
+
+  .icon {
+    margin-left: 3px;
+    position: relative;
+    top: 2px;
   }
 
 }
