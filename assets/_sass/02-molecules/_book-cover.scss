@@ -2,29 +2,18 @@
  * Molecules: Book cover
  */
 
-.book-cover-placeholder {
+.book-cover {
 
-  background: $book-placeholder-bg;
-  border: 0.25rem solid $book-placeholder-border;
-  color: $book-placeholder;
-  font-size: $type-h4;
-  font-style: italic;
-  line-height: 1.25;
-  margin-bottom: 2rem;
-  padding: 2rem;
-  text-align: center;
-
-  &-float {
-    @media screen and ( min-width: $md ) {
-      float: left;
-      margin-right: 2rem;
-      padding: 6rem 2rem;
-      width: 25%;
-    }
+  p:first-of-type {
+    margin: 0;
   }
 
-  &-full {
-    margin: 2rem 0;
+  &-buttons {
+    clear: both;
+
+    a {
+      @extend .button;
+    }
   }
 
 }

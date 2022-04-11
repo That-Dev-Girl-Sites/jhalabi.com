@@ -7,7 +7,7 @@ Because... you know... books are awesome!
 
 I like to read books. A lot of books. I also like to keep track of what I have read… partially so that I can refer to them later and partially because I will forget that I have read something before. All of the books that I have read (since 2010, at least) are listed here.
 
-I feel the need to apologize for 2020 and 2021. Reading during a pandemic was ridiculously hard to impossible. I'm hoping to turn the streak around in 2022.
+I feel the need to apologize for 2020 and 2021. Reading grown up books during a pandemic ranged from ridiculously hard to impossible. I'm hoping to turn the streak around in 2022. That being said, I have been reading a huge amount of picture books and kid lit. (Having a preschooler in the house helps with that!) I am not logging any of that, because that would be exhausting.
 
 <nav aria-label="Links to book information by year">
   <a href="#books-2022">2022</a> |

@@ -5,15 +5,15 @@ title: Home
 
 ## Sweet Little You
 
-<div class="book-cover-placeholder book-cover-placeholder-float">
-  Illustrations coming soon!
+[![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)](/book)
+
+*Sweet Little You*, written by me and illustrated by [Lisa Wee](https://www.lisawee12.com/), is a love letter, told by a new mother who chose to have a child on her own. She welcomes her baby to the world and, using age-appropriate language, introduces baby to the fact that they were conceived with the help of an anonymous donor. She promises to love, nurture, and support her child in their new family. __Coming summer 2022!__
+
+I am surprised as you are that I wrote a book, but it's true! I am self-publishing my debut picture book. Follow me for the latest updates about this journey.
+
+<div class="book-cover-buttons" markdown="1">
+[Follow me @jonihalabi](https://twitter.com/jonihalabi) [Follow Lisa @lisawee1970](https://twitter.com/lisawee1970) [Writing blog](/blog/writing)
 </div>
-
-*Sweet Little You* is a welcome baby story, specifically for little ones born to single-by-choice parents. It is a rhyming welcome from their parent, introducing their family structure and (very basically) how they came to be. __Coming summer 2022!__
-
-I am surprised as you are that I wrote a book, but it's true! Check out my "coming out" [#amWriting post](/blog/am-writing) and follow me to for news about my self-publishing journey.
-
-<a href="https://twitter.com/jonihalabi" class="button">Follow me @jonihalabi</a> <a href="/blog/writing" class="button">Writing blog</a>
 
 
 

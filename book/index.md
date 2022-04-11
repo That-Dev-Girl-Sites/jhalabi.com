@@ -3,13 +3,20 @@ layout: main
 title: Sweet Little You
 ---
 
-<div class="book-cover-placeholder book-cover-placeholder-full">
-  Illustrations coming soon!
-</div>
+<section markdown="1" class="book-cover" aria-label="Introduction">
+
+![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)
 
 Hello world! I am self-publishing my first kid lit book, _Sweet Little You_, coming **summer 2022**.
 
-<a href="https://twitter.com/jonihalabi" class="button">Follow me @jonihalabi</a> <a href="/blog/writing" class="button">Writing blog</a>
+*Sweet Little You*, written by me and illustrated by [Lisa Wee](https://www.lisawee12.com/), is a love letter, told by a new mother who chose to have a child on her own. She welcomes her baby to the world and, using age-appropriate language, introduces baby to the fact that they were conceived with the help of an anonymous donor. She promises to love, nurture, and support her child in their new family.
+
+<div class="book-cover-buttons" markdown="1">
+[Follow me @jonihalabi](https://twitter.com/jonihalabi) [Follow Lisa @lisawee1970](https://twitter.com/lisawee1970) [Writing blog](/blog/writing)
+</div>
+
+</section>
+
 
 
 <section markdown="1" class="has-background timberwolf" aria-label="Background">

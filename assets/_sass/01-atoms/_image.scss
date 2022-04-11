@@ -13,4 +13,13 @@ img {
     max-width: 300px;
   }
 
+  .post & {
+    width: 100%;
+
+    @media screen and ( min-width: $md ) {
+      float: none;
+      max-width: unset;
+    }
+  }
+
 }
