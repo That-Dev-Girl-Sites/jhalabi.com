@@ -11,6 +11,7 @@
     grid-template-areas:
       "title title"
       "cover text"
+      "more more"
       "buttons buttons";
     grid-template-columns: 18.75rem 1fr;
   }
@@ -46,6 +47,25 @@
   // Text area.
   &-text {
     grid-area: text;
+  }
+
+
+  // Intro text area.
+  &-intro {
+    grid-area: text;
+
+    p,
+    p:first-of-type {
+      font-size: $type-h4;
+      margin-bottom: 2rem;
+    }
+  }
+
+
+  // More text area.
+  &-text-more {
+    grid-area: more;
+    margin-top: 2rem;
   }
 
 

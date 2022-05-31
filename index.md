@@ -24,7 +24,9 @@ A heartwarming story for single mothers by choice and their families.
 </div>
 
 <div class="book-section-buttons" markdown="1">
+
 [Pre-order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Pre-order on Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you)
+
 </div>
 
 </section>

@@ -3,16 +3,38 @@ layout: main
 title: Sweet Little You
 ---
 
-<section markdown="1" class="book-cover" aria-label="Introduction">
+<section markdown="1" class="book-section remove-top-margin" aria-label="Introduction">
 
-![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)
+<div markdown="1" class="book-section-cover">
 
-Hello world! I am self-publishing my first kid lit book, _Sweet Little You_, coming **summer 2022**.
+[![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)](/book)
 
-*Sweet Little You*, written by me and illustrated by [Lisa Wee](https://www.lisawee12.com/), is a love letter, told by a new mother who chose to have a child on her own. She welcomes her baby to the world and, using age-appropriate language, introduces baby to the fact that they were conceived with the help of an anonymous donor. She promises to love, nurture, and support her child in their new family.
+</div>
 
-<div class="book-cover-buttons" markdown="1">
-[Follow me @jonihalabi](https://twitter.com/jonihalabi) [Follow Lisa @lisawee1970](https://twitter.com/lisawee1970) [Writing blog](/blog/writing)
+<div markdown="1" class="book-section-intro">
+
+An endearing new picture book lovingly shares a unique story of a mother with a dream of having a child who makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations, _Sweet Little You_ is a loving and unique story about a different path to becoming a family.
+
+</div>
+
+<div markdown="1" class="book-section-text-more">
+
+In this tender affirmation, the story’s new mother pens a love letter to her baby of how her child came to be and how she cherishes their little family of two. A precious and rhyming text shares the mother’s promise to help them dream, explore, and find adventure in life.
+
+
+> Two pieces are needed <br>
+> to help create you. <br>
+> I had only one, <br>
+> so now what should I do? <br>
+
+Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunny_, and _Love You Forever_ yet with a contemporary and diverse variation, _Sweet Little You_ is for all of the intentional single parents who haven’t seen their own type of chosen family represented in a picture book that they can share with their child. The poignant story’s stirring and loving message is perfect as an affirming everyday read-aloud and also as a thoughtful and heartfelt gift for special occasions and milestones such as baby showers, new baby, birthdays, Mother’s Day, and Valentine’s Day.
+
+</div>
+
+<div class="book-section-buttons" markdown="1">
+
+[Pre-order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Pre-order on Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you)
+
 </div>
 
 </section>
