@@ -64,6 +64,11 @@ a {
     }
   }
 
+  // Sections where links should be buttons.
+  .button-links & {
+    @extend .button;
+  }
+
 
   // Variation: Skip link
   &.skip-link {

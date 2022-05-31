@@ -3,21 +3,45 @@ layout: home
 title: Home
 ---
 
+<section markdown="1" class="book-section has-background book-green remove-top-margin" aria-label="Book">
+
 ## Sweet Little You
+
+<div markdown="1" class="book-section-cover">
 
 [![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)](/book)
 
-*Sweet Little You*, written by me and illustrated by [Lisa Wee](https://www.lisawee12.com/), is a love letter, told by a new mother who chose to have a child on her own. She welcomes her baby to the world and, using age-appropriate language, introduces baby to the fact that they were conceived with the help of an anonymous donor. She promises to love, nurture, and support her child in their new family. __Coming summer 2022!__
-
-I am surprised as you are that I wrote a book, but it's true! I am self-publishing my debut picture book. Follow me for the latest updates about this journey.
-
-<div class="book-cover-buttons" markdown="1">
-[Follow me @jonihalabi](https://twitter.com/jonihalabi) [Follow Lisa @lisawee1970](https://twitter.com/lisawee1970) [Writing blog](/blog/writing)
 </div>
 
+<div markdown="1" class="book-section-text">
+
+A mother with a dream of having a child makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations, Sweet Little You is a loving and unique story about a different path to becoming a family, showing that creating a cherished family doesn’t always involve two parents.
+
+A heartwarming story for single mothers by choice and their families.
+
+*Sweet Little You*, written by me and illustrated by [Lisa Wee](https://www.lisawee12.com/), will be released on **August 1** and is available for pre-order now!
+
+</div>
+
+<div class="book-section-buttons" markdown="1">
+[Pre-order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Pre-order on Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you)
+</div>
+
+</section>
 
 
-<section markdown="1" class="has-background timberwolf" aria-label="Articles">
+<section markdown="1" class="has-background copper-dark button-links" aria-label="Speaking">
+
+## In developer news...
+
+I will be speaking at HighEdWeb 2022 this fall! While I am unable to be in Little Rock in person, I will be virtually giving a poster presentation on WordPress block transforms.
+
+[Presto Chango!: The magic of block transforms](https://events.highedweb.org/heweb22/session/901722/presto-chango-the-magic-of-block-transforms)
+
+</section>
+
+
+<section markdown="1" aria-label="Articles">
 
 ## Latest News
 
@@ -45,7 +69,7 @@ I am surprised as you are that I wrote a book, but it's true! I am self-publishi
 
 
 
-<section markdown="1" aria-label="Biography">
+<section markdown="1" class="has-background timberwolf" aria-label="Biography">
 
 ## About Joni
 

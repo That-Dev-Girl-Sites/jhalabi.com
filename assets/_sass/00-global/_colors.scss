@@ -72,6 +72,7 @@ $link-category-color:          $white;
 $link-title-color:             lighten( $purple, 10% );
 $link-button-bg:               darken( $purple, 10% );
 $link-button-bg-hover:         darken( $copper, 10% );
+$link-button-bg-book:          darken( $book-green, 30% );
 $link-button-color:            $white;
 $link-skip-bg:                 $purple;
 $link-skip-color:              $actual-white;
@@ -108,12 +109,14 @@ $pregnancy-tag-bg:             $purple;
 $pregnancy-tag-hover:          darken( $copper, 10% );
 $pregnancy-tag:                $white;
 
+$section-bg-book-green:        lighten( $book-green, 40% );
 $section-bg-copper:            lighten( $copper, 40% );
+$section-bg-copper-dark:       lighten( $copper, 10% );
 $section-bg-timberwolf:        $timberwolf;
 $section-bg-purple:            $purple;
 $section-bg-grey:              lighten( $black, 5% );
 $section-bg-light-grey:        lighten( $black, 70% );
-$section-bg-seaweed:           $seaweed;
+$section-bg-seaweed:           darken( $seaweed, 5% );
 
 $site-header-border:           lighten( $black, 30% );
 

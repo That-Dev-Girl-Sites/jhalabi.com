@@ -1,0 +1,63 @@
+/**
+ * Molecules: Book section
+ */
+
+.book-section {
+
+  display: grid;
+  gap: 1rem 3rem;
+
+  @media screen and ( min-width: $md ) {
+    grid-template-areas:
+      "title title"
+      "cover text"
+      "buttons buttons";
+    grid-template-columns: 18.75rem 1fr;
+  }
+
+
+  // General styles.
+  p:first-of-type {
+    margin: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 1rem;
+  }
+
+
+  // Section title.
+  h2 {
+    grid-area: title;
+  }
+
+
+  // Cover image and link.
+  &-cover {
+    grid-area: cover;
+
+    img {
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+
+  // Text area.
+  &-text {
+    grid-area: text;
+  }
+
+
+  // Buttons row.
+  &-buttons {
+    clear: both;
+    grid-area: buttons;
+
+    a {
+      @extend .button;
+      background-color: $link-button-bg-book;
+    }
+  }
+
+}
