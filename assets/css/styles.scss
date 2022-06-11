@@ -10,6 +10,8 @@
 @import '00-layout/main';
 @import '00-layout/section';
 
+@import '00-utilities/make-full-width';
+
 @import '00-utilities/has-background';
 @import '00-utilities/icons';
 @import '00-utilities/sr-only';
@@ -46,6 +48,7 @@
 @import '02-molecules/work-examples';
 @import '02-molecules/work-links';
 
+@import '03-pages/book';
 @import '03-pages/plugin';
 
 @import '04-vendor/colorful';

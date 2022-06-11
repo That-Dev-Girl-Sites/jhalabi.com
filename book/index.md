@@ -1,9 +1,9 @@
 ---
-layout: main
+layout: book
 title: Sweet Little You
 ---
 
-<section markdown="1" class="book-section remove-top-margin" aria-label="Introduction">
+<section markdown="1" class="book-section" aria-label="Introduction">
 
 <div markdown="1" class="book-section-cover">
 
@@ -21,7 +21,6 @@ An endearing new picture book lovingly shares a unique story of a mother with a 
 
 In this tender affirmation, the story’s new mother pens a love letter to her baby of how her child came to be and how she cherishes their little family of two. A precious and rhyming text shares the mother’s promise to help them dream, explore, and find adventure in life.
 
-
 > Two pieces are needed <br>
 > to help create you. <br>
 > I had only one, <br>
@@ -31,19 +30,27 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 
 </div>
 
-<div class="book-section-buttons" markdown="1">
+</section>
 
-[Pre-order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Pre-order on Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you)
 
+<section markdown="1" class="has-background light-grey book-section-order-info" aria-label="Order information">
+
+## Official release date: August 1, 2022
+
+_Sweet Little You_ is available for preorder at a number of online retailers. Reserve your copy today!
+
+<div class="book-section-buttons">
+<a href="https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/">Amazon</a>
+<a href="#">Stores&nbsp;&nbsp;▾</a>
+<a href="https://www.goodreads.com/book/show/61153715-sweet-little-you">View on GoodReads</a>
 </div>
 
 </section>
 
 
+<section markdown="1" class="has-background book-green" aria-label="Background">
 
-<section markdown="1" class="has-background timberwolf" aria-label="Background">
-
-## Background
+## _Sweet Little You:_ An origin story
 
 I am a single-mother-by-choice to a donor-conceived child. I am very open with my daughter about her origin story, because I want her to feel confident about our family structure.
 

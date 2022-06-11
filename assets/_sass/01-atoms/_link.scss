@@ -54,8 +54,9 @@ a {
     border-radius: 0.25rem;
     color: $link-button-color;
     display: inline-block;
-    margin: 1rem 0.5rem 0.5rem 0;
-    padding: 0.5rem 1.5rem !important;
+    font-size: 90%;
+    margin: 1rem 1rem 0.5rem 0;
+    padding: 0.6rem 2rem !important;
     text-decoration: none;
 
     &:focus,

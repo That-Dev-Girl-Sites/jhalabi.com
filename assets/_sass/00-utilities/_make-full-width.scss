@@ -1,0 +1,25 @@
+/**
+ * Utilities: Make Full Width
+ */
+
+@mixin make-full-width {
+
+  position: relative;
+
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    margin-left: -$page-margin-small;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+
+    @media screen and ( min-width: $md ) {
+      margin-left: -$page-margin-large;
+      padding-left: $page-margin-large;
+    }
+  }
+
+}

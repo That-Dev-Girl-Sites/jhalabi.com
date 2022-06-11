@@ -1,0 +1,36 @@
+/***
+ * Book
+ */
+
+.book-page {
+
+  &-featured-image {
+    @include make-full-width;
+    height: 20vw;
+    margin-top: -4rem;
+
+    &::before {
+      background-image: url( '/assets/images/sweet-little-you-featured.jpg' );
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+
+
+  &-title {
+    @include make-full-width;
+    height: 100%;
+
+    &::before {
+      background-color: rgba( $black, 0.75 );
+    }
+
+    h1 {
+      bottom: 0;
+      color: $white;
+      position: absolute;
+    }
+  }
+
+}

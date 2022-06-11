@@ -32,6 +32,10 @@ $color:                        $black;
 
 $blockquote-border:            $purple;
 
+$book-section-order-btn-1:     $tart-orange;
+$book-section-order-btn-2:     $purple;
+$book-section-order-btn-3:     $seaweed;
+
 $catlist-border:               $black;
 $catlist-current:              $white;
 $catlist-current-bg:           lighten( $purple, 10% );
@@ -72,7 +76,7 @@ $link-category-color:          $white;
 $link-title-color:             lighten( $purple, 10% );
 $link-button-bg:               darken( $purple, 10% );
 $link-button-bg-hover:         darken( $copper, 10% );
-$link-button-bg-book:          darken( $book-green, 30% );
+$link-button-bg-book:          $purple;
 $link-button-color:            $white;
 $link-skip-bg:                 $purple;
 $link-skip-color:              $actual-white;
