@@ -111,12 +111,15 @@ $pregnancy-tag:                $white;
 
 $section-bg-book-green:        lighten( $book-green, 40% );
 $section-bg-copper:            lighten( $copper, 40% );
-$section-bg-copper-dark:       lighten( $copper, 10% );
 $section-bg-timberwolf:        $timberwolf;
 $section-bg-purple:            $purple;
 $section-bg-grey:              lighten( $black, 5% );
 $section-bg-light-grey:        lighten( $black, 70% );
 $section-bg-seaweed:           darken( $seaweed, 5% );
+
+$section-bg-purple-link-bg:    $timberwolf;
+$section-bg-purple-link-hover: lighten( $copper, 30% );
+$section-bg-purple-link:       $black;
 
 $site-header-border:           lighten( $black, 30% );
 

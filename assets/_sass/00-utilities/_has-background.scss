@@ -66,6 +66,17 @@
   * {
     color: $white;
   }
+
+  // Change the button color in this section.
+  &.button-links a {
+    background: $section-bg-purple-link-bg;
+    color: $section-bg-purple-link;
+
+    &:focus,
+    &:hover {
+      background: $section-bg-purple-link-hover;
+    }
+  }
 }
 
 .has-background.grey {
@@ -80,11 +91,6 @@
   * {
     color: $white;
   }
-}
-
-.has-background.copper-dark {
-  background: $section-bg-copper-dark;
-  &::before { background: $section-bg-copper-dark; }
 }
 
 .has-background.light-grey {

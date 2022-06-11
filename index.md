@@ -32,7 +32,7 @@ A heartwarming story for single mothers by choice and their families.
 </section>
 
 
-<section markdown="1" class="has-background copper-dark button-links" aria-label="Speaking">
+<section markdown="1" class="has-background purple button-links" aria-label="Speaking">
 
 ## In developer news...
 
