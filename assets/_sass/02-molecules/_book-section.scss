@@ -4,10 +4,9 @@
 
 .book-section {
 
-  display: grid;
-  gap: 1rem 3rem;
-
   @media screen and ( min-width: $md ) {
+    display: grid;
+    gap: 1rem 3rem;
     grid-template-areas:
       "title title"
       "cover text"
