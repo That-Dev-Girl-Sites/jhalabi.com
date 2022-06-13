@@ -3,30 +3,11 @@ layout: book
 title: Sweet Little You
 ---
 
-<section markdown="1" class="book-page-about" aria-label="Introduction">
+<section markdown="1" class="book-page-intro" aria-label="Introduction">
 
-## About _Sweet Little You_
-
-<div markdown="1" class="book-page-about-cover">
+An endearing new picture book lovingly shares a unique story of a mother with a dream of having a child who makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations by <a href="https://www.lisawee12.com/">Lisa Wee</a>, <i>Sweet Little You</i> is a loving and unique story about a different path to becoming a family.
 
 [![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-book-pic.jpg)](/book)
-
-</div>
-
-<p class="book-page-about-intro">
-  An endearing new picture book lovingly shares a unique story of a mother with a dream of having a child who makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations by <a href="https://www.lisawee12.com/">Lisa Wee</a>, <i>Sweet Little You</i> is a loving and unique story about a different path to becoming a family.
-</p>
-
-<div markdown="1" class="book-page-about-more">
-
-In this tender affirmation, the story’s new mother pens a love letter to her baby of how her child came to be and how she cherishes their little family of two. A precious and rhyming text shares the mother’s promise to help them dream, explore, and find adventure in life.
-
-> Two pieces are needed to help create you. <br>
-> I had only one, so now what should I do?
-
-Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunny_, and _Love You Forever_ yet with a contemporary and diverse variation, _Sweet Little You_ is for all of the intentional single parents who haven’t seen their own type of chosen family represented in a picture book that they can share with their child. The poignant story’s stirring and loving message is perfect as an affirming everyday read-aloud and also as a thoughtful and heartfelt gift for special occasions and milestones such as baby showers, new baby, birthdays, Mother’s Day, and Valentine’s Day.
-
-</div>
 
 </section>
 
@@ -51,7 +32,23 @@ On sale August 1, 2022
 </section>
 
 
-<section markdown="1" class="has-background book-green" aria-label="Background">
+
+<section markdown="1" aria-label="About the book">
+
+## About _Sweet Little You_
+
+In this tender affirmation, the story’s new mother pens a love letter to her baby of how her child came to be and how she cherishes their little family of two. A precious and rhyming text shares the mother’s promise to help them dream, explore, and find adventure in life.
+
+> Two pieces are needed to help create you. <br>
+> I had only one, so now what should I do?
+
+Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunny_, and _Love You Forever_ yet with a contemporary and diverse variation, _Sweet Little You_ is for all of the intentional single parents who haven’t seen their own type of chosen family represented in a picture book that they can share with their child. The poignant story’s stirring and loving message is perfect as an affirming everyday read-aloud and also as a thoughtful and heartfelt gift for special occasions and milestones such as baby showers, new baby, birthdays, Mother’s Day, and Valentine’s Day.
+
+</section>
+
+
+
+<section markdown="1" class="has-background book-green" aria-label="Origin story">
 
 ## _Sweet Little You:_ An origin story
 
