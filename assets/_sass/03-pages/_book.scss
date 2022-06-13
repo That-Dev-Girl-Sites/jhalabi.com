@@ -81,12 +81,14 @@
       grid-template-columns: 20rem 1fr;
     }
 
-    h2, p {
+    p {
       margin: 0 !important;
     }
 
     h2 {
       @include monospace-bold;
+      margin-top: 0;
+      margin-bottom: 3rem;
     }
 
     &-buttons {
