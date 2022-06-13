@@ -15,17 +15,17 @@ title: Home
 
 <div markdown="1" class="book-section-text">
 
-A mother with a dream of having a child makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations, Sweet Little You is a loving and unique story about a different path to becoming a family, showing that creating a cherished family doesn’t always involve two parents.
+A mother with a dream of having a child makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations by [Lisa Wee](https://www.lisawee12.com/), _Sweet Little You_ is a loving and unique story about a different path to becoming a family, showing that creating a cherished family doesn’t always involve two parents.
 
 A heartwarming story for single mothers by choice and their families.
 
-*Sweet Little You*, written by me and illustrated by [Lisa Wee](https://www.lisawee12.com/), will be released on **August 1** and is available for pre-order now!
+*Sweet Little You* will be released on **August 1** and is available for pre-order now!
 
 </div>
 
 <div class="book-section-buttons" markdown="1">
 
-[Pre-order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Pre-order on Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you)
+[Preorder on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you) [More about _Sweet Little You_](/book)
 
 </div>
 

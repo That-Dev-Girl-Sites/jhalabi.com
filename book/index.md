@@ -3,28 +3,26 @@ layout: book
 title: Sweet Little You
 ---
 
-<section markdown="1" class="book-section" aria-label="Introduction">
+<section markdown="1" class="book-page-about" aria-label="Introduction">
 
-<div markdown="1" class="book-section-cover">
+## About _Sweet Little You_
 
-[![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)](/book)
+<div markdown="1" class="book-page-about-cover">
 
-</div>
-
-<div markdown="1" class="book-section-intro">
-
-An endearing new picture book lovingly shares a unique story of a mother with a dream of having a child who makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations, _Sweet Little You_ is a loving and unique story about a different path to becoming a family.
+[![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-book-pic.jpg)](/book)
 
 </div>
 
-<div markdown="1" class="book-section-text-more">
+<p class="book-page-about-intro">
+  An endearing new picture book lovingly shares a unique story of a mother with a dream of having a child who makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations, <i>Sweet Little You</i> is a loving and unique story about a different path to becoming a family.
+</p>
+
+<div markdown="1" class="book-page-about-more">
 
 In this tender affirmation, the story’s new mother pens a love letter to her baby of how her child came to be and how she cherishes their little family of two. A precious and rhyming text shares the mother’s promise to help them dream, explore, and find adventure in life.
 
-> Two pieces are needed <br>
-> to help create you. <br>
-> I had only one, <br>
-> so now what should I do? <br>
+> Two pieces are needed to help create you. <br>
+> I had only one, so now what should I do?
 
 Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunny_, and _Love You Forever_ yet with a contemporary and diverse variation, _Sweet Little You_ is for all of the intentional single parents who haven’t seen their own type of chosen family represented in a picture book that they can share with their child. The poignant story’s stirring and loving message is perfect as an affirming everyday read-aloud and also as a thoughtful and heartfelt gift for special occasions and milestones such as baby showers, new baby, birthdays, Mother’s Day, and Valentine’s Day.
 
@@ -33,16 +31,21 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 </section>
 
 
-<section markdown="1" class="has-background light-grey book-section-order-info" aria-label="Order information">
 
-## Official release date: August 1, 2022
+<section markdown="1" class="has-background purple book-page-order" aria-label="Order information">
 
-_Sweet Little You_ is available for preorder at a number of online retailers. Reserve your copy today!
+<div markdown="1">
 
-<div class="book-section-buttons">
-<a href="https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/">Amazon</a>
-<a href="#">Stores&nbsp;&nbsp;▾</a>
-<a href="https://www.goodreads.com/book/show/61153715-sweet-little-you">View on GoodReads</a>
+On sale August 1, 2022
+
+## Preorder your copy today!
+
+</div>
+
+<div markdown="1" class="book-page-order-buttons">
+
+[Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961) [IndiBound](https://www.indiebound.org/book/9780578392165) [AbeBooks](https://www.abebooks.com/servlet/BookDetailsPL?bi=31212005551) [Better World Books](https://www.betterworldbooks.com/product/detail/Sweet-Little-You-9780578392165) [Book Depository](https://www.bookdepository.com/Sweet-Little-You-Joni-Halabi-Lisa-Wee/9780578392165)
+
 </div>
 
 </section>

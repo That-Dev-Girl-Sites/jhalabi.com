@@ -32,9 +32,12 @@ $color:                        $black;
 
 $blockquote-border:            $purple;
 
-$book-section-order-btn-1:     $tart-orange;
-$book-section-order-btn-2:     $purple;
-$book-section-order-btn-3:     $seaweed;
+$book-page-title-bg:           $purple;
+$book-page-title:              $white;
+$book-page-intro:              darken( $tart-orange, 10% );
+
+$book-section-order-btn:       $tart-orange;
+$book-section-view-btn:        $purple;
 
 $catlist-border:               $black;
 $catlist-current:              $white;
