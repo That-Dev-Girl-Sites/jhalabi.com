@@ -5,7 +5,7 @@ title: Sweet Little You
 
 <section markdown="1" class="book-page-intro" aria-label="Introduction">
 
-An endearing new picture book lovingly shares a unique story of a mother with a dream of having a child who makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations by <a href="https://www.lisawee12.com/">Lisa Wee</a>, <i>Sweet Little You</i> is a loving and unique story about a different path to becoming a family.
+A mother with a dream of having a child makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations by [Lisa Wee](https://www.lisawee12.com/), _Sweet Little You_ is a loving and unique story about a different path to becoming a family, showing that creating a cherished family doesn’t always involve two parents.
 
 [![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-book-pic.jpg)](/book)
 

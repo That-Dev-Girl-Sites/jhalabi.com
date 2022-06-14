@@ -1,0 +1,80 @@
+/***
+ * Book Media Kit
+ */
+
+.book-media {
+
+  // Media contact section.
+  &-contact {
+    margin-top: -4rem !important;
+
+    h2, p {
+      text-align: center;
+
+      &:last-child {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .button.media-kit {
+      background: $book-page-media-kit-btn;
+      font-size: $type-h4;
+
+      &:focus,
+      &:hover {
+        background: darken( $book-page-media-kit-btn, 10% );
+      }
+    }
+  }
+
+
+  // Text section.
+  &-section {
+    p:last-child {
+      margin-bottom: 0 !important;
+    }
+
+    @media screen and ( min-width: $md ) {
+      grid-template-columns: 12rem 1fr;
+    }
+  }
+
+
+  // Documents and people
+  &-docs,
+  &-people {
+    @media screen and ( min-width: $md ) {
+      display: grid;
+      gap: 8rem;
+      grid-template-columns: repeat( 2, 1fr );
+    }
+  }
+
+  &-people {
+    h2 {
+      @include monospace-bold;
+      margin-bottom: 0;
+
+      // Subtitle.
+      & + p {
+        margin-bottom: 0;
+      }
+    }
+
+    img {
+      margin-bottom: 1rem;
+      max-width: 200px;
+    }
+  }
+
+
+  // Social media icons for people.
+  &-people-social {
+    a {
+      color: $book-page-social-icons;
+      margin-right: 0.5rem;
+      text-decoration: none;
+    }
+  }
+
+}
