@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Marketing"
+title: "On Book Marketing"
 date: "2022-06-16"
 categories:
   - writing
