@@ -6,7 +6,7 @@
 
   // Media contact section.
   &-contact {
-    margin-top: 0;
+    margin-top: 0 !important;
 
     @media screen and ( min-width: $md ) {
       margin-top: -4rem !important;
