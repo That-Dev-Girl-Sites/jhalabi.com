@@ -6,7 +6,9 @@
 
   // Media contact section.
   &-contact {
-    margin-top: -4rem !important;
+    @media screen and ( min-width: $md ) {
+      margin-top: -4rem !important;
+    }
 
     h2, p {
       text-align: center;
