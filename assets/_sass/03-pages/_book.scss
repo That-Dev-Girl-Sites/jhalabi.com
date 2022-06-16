@@ -26,7 +26,11 @@
   // Featured image.
   &-featured-image {
     @include make-full-width;
-    height: 22vw;
+    height: 40vw;
+    
+    @media screen and ( min-width: $md ) {
+      height: 22vw;
+    }
 
     &::before {
       background-image: url( '/assets/images/sweet-little-you-featured.jpg' );
