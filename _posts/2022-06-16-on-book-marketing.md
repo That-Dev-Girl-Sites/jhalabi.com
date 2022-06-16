@@ -34,6 +34,6 @@ Scary for someone who's spent 20 years bossing computers around. Wish me luck!
 
 P.S. Please [buy my book](/book)!
 
---
+---
 
 1. Computers are weird. They really will do exactly what you tell them to. Even if _exactly_ doesn't match your intent. And then there's AI. Don't get me started on AI.
