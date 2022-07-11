@@ -1,0 +1,44 @@
+<section
+  class="newsletter-signup has-background
+    {% if include.home %}green-dark{% else %}purple-light slim{% endif %}"
+  aria-label="Newsletter signup">
+
+  <!-- Begin ButtonDown signup Form -->
+  <h2>Sign up for news!</h2>
+
+  {% if include.home %}
+    <p>
+      I will be launching my newsletter, <i>The Blinking Cursor</i>, soon
+      <em>(for varying definitions of "soon")</em>, with news about web 
+      development, launching <i>Sweet Little You</i> out into the world, and
+      possibly a cookie recipe or two.
+    </p>
+    
+    <p>
+      <strong>Subscribe today!</strong> I pinky-swear promise to use this list 
+      for good.
+    </p>
+  {% else %}
+    <p>
+      Subscribe to <i>The Blinking Cursor</i> for web development news, book
+      updates, and other fun randomness.
+    </p>
+  {% endif %}
+
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/joni.halabi"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/joni.halabi', 'popupwindow')"
+    class="newsletter-signup-form"
+  >
+    <label for="bd-email" class="sr-only">Enter your email</label>
+
+    <div class="newsletter-signup-fields">
+      <input type="email" name="email" id="bd-email" placeholder="Enter your email">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+  <!--End ButtonDown -->
+
+</section>

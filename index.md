@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<section markdown="1" class="book-section has-background book-green remove-top-margin" aria-label="Book">
+<section markdown="1" class="book-section has-background green remove-top-margin" aria-label="Book">
 
 ## Sweet Little You
 
@@ -32,15 +32,7 @@ A heartwarming story for single mothers by choice and their families.
 </section>
 
 
-<section markdown="1" class="has-background purple button-links" aria-label="Speaking">
-
-## In developer news...
-
-I will be speaking at HighEdWeb 2022 this fall! While I am unable to be in Little Rock in person, I will be virtually giving a poster presentation on WordPress block transforms.
-
-[Presto Chango!: The magic of block transforms](https://events.highedweb.org/heweb22/session/901722/presto-chango-the-magic-of-block-transforms)
-
-</section>
+{% include newsletter-signup.html home=true %}
 
 
 <section markdown="1" aria-label="Articles">
@@ -68,7 +60,6 @@ I will be speaking at HighEdWeb 2022 this fall! While I am unable to be in Littl
 {% endfor %}
 
 </section>
-
 
 
 <section markdown="1" class="has-background timberwolf" aria-label="Biography">

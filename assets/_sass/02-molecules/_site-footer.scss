@@ -38,7 +38,6 @@ footer {
     // Typography for all children.
     * {
       @include monospace;
-      color: $footer-code;
       margin-bottom: 0.25rem;
     }
   }
@@ -49,7 +48,6 @@ footer {
     border-top: 1px solid $footer-border;
 
     p {
-      color: $footer-copyright;
       font-size: 0.8rem;
       margin: 0;
     }
@@ -60,7 +58,6 @@ footer {
   #day {
     &-0, &-1, &-2, &-3, &-4, &-5, &-6,  {
       display: none;
-      color: $footer-copyright;
 
       &.show {
         display: inline;

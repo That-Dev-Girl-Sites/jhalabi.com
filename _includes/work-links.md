@@ -1,4 +1,4 @@
-<section markdown="1" class="work-links has-background light-grey" aria-label="Professional links">
+<section markdown="1" class="work-links has-background grey-light" aria-label="Professional links">
 
 * [GitHub](https://github.com/thatdevgirl){:.icon .icon-github}
 * [LinkedIn](https://www.linkedin.com/in/jonihalabi/){:.icon .icon-linkedin}

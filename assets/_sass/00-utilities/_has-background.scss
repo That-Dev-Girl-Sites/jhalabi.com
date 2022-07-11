@@ -5,92 +5,65 @@
  */
 
 
-// Baseline styles.
+/*
+ * Mixin to create all the backgrounds, plain or striped.
+ */
+
+@mixin create-background( $bg, $is_striped: 0, $is_dark_bg: 0 ) {
+  // For plain backgrounds.
+  @if $is_striped == 0 {
+    &, &::before {
+      background: $bg;
+    }
+  }
+
+  // Create stripes if we want them.
+  @if $is_striped != 0 {
+    &::before {
+      background: $bg;
+      background-image: repeating-linear-gradient(
+        180deg,
+        $bg,
+        $bg 1rem,
+        darken( $bg, 3% ) 1rem,
+        darken( $bg, 3% ) 2rem );
+    }
+  }
+
+  // Set the color to white if this is a dark background.
+  @if $is_dark_bg != 0 {
+    * { color: $white; }
+  }
+}
+
+
+
+/*
+ * Background class.
+ */
+
 .has-background {
+  // Base styles.
   clear: both;
   margin: 0;
 
+  // Full width.
   @include make-full-width;
 
+  // For sections that should not have a top margin.
   &.remove-top-margin {
     margin-top: -4rem !important;
   }
-}
 
-
-// Color options.
-
-.has-background.copper {
-  &::before {
-    background: $section-bg-copper;
-    background-image: repeating-linear-gradient(
-      180deg,
-      $section-bg-copper,
-      $section-bg-copper 1rem,
-      darken( $section-bg-copper, 2% ) 1rem,
-      darken( $section-bg-copper, 2% ) 2rem );
-  }
-}
-
-.has-background.timberwolf {
-  &::before {
-    background: $section-bg-timberwolf;
-    background-image: repeating-linear-gradient(
-      180deg,
-      $section-bg-timberwolf,
-      $section-bg-timberwolf 1rem,
-      darken( $section-bg-timberwolf, 2% ) 1rem,
-      darken( $section-bg-timberwolf, 2% ) 2rem );
-  }
-}
-
-.has-background.purple {
-  background: $section-bg-purple;
-  &::before { background: $section-bg-purple; }
-
-  * {
-    color: $white;
-  }
-
-  // Change the button color in this section.
-  &.button-links a {
-    background: $section-bg-purple-link-bg;
-    color: $section-bg-purple-link;
-
-    &:focus,
-    &:hover {
-      background: $section-bg-purple-link-hover;
-    }
-  }
-}
-
-.has-background.grey {
-  background: $section-bg-grey;
-  &::before { background: $section-bg-grey; }
-}
-
-.has-background.seaweed {
-  background: $section-bg-seaweed;
-  &::before { background: $section-bg-seaweed; }
-
-  * {
-    color: $white;
-  }
-}
-
-.has-background.light-grey {
-  background: $section-bg-light-grey;
-  &::before { background: $section-bg-light-grey; }
-}
-
-.has-background.book-green {
-  &::before {
-    background: $section-bg-book-green;
-    background-image: repeating-linear-gradient(
-      180deg,
-      $section-bg-book-green,
-      $section-bg-book-green 1rem,
-      darken( $section-bg-book-green, 3% ) 1rem,
-      darken( $section-bg-book-green, 3% ) 2rem );
-  }
+  // Color options.
+  &.copper       { @include create-background( $section-bg-copper,       1, 0 ) };
+  &.green        { @include create-background( $section-bg-green,        1, 0 ) };
+  &.green-dark   { @include create-background( $section-bg-green-dark,   0, 1 ) };
+  &.grey         { @include create-background( $section-bg-grey,         0, 1 ) };
+  &.grey-light   { @include create-background( $section-bg-grey-light    0, 0 ) };
+  &.orange       { @include create-background( $section-bg-orange,       0, 1 ) };
+  &.purple       { @include create-background( $section-bg-purple,       0, 1 ); }
+  &.purple-light { @include create-background( $section-bg-purple-light, 0, 1 ); }
+  &.seaweed      { @include create-background( $section-bg-seaweed,      0, 1 ); }
+  &.timberwolf   { @include create-background( $section-bg-timberwolf,   1, 0 ); }
 }

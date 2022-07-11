@@ -57,7 +57,7 @@ _Click on the image to view a full copy._
 
 
 
-<section markdown="1" class="has-background book-green book-media-people" aria-label="People">
+<section markdown="1" class="has-background green book-media-people" aria-label="People">
 
 <div markdown="1">
 
@@ -114,7 +114,7 @@ As an illustrator, she has the privilege to have worked with Celebrity Top Chef 
 </section>
 
 
-<section markdown="1" class="has-background light-grey book-media-docs" aria-label="Documents">
+<section markdown="1" class="has-background grey-light book-media-docs" aria-label="Documents">
 
 <div markdown="1">
 

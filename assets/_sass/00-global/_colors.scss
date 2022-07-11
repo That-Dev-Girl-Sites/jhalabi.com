@@ -21,9 +21,7 @@ $tart-orange:   #c65050;
 $indigo:        #003d5b;
 $tuscan-red:    #834954;
 $cadet-blue:    #6faaaf;
-
-// Book palette.
-$book-green:    #95ae4a;
+$green:         #95ae4a;
 
 
 // Component color definitions.
@@ -58,8 +56,6 @@ $contact-row-bg:               $timberwolf;
 $figure-bg:                    lighten( $background-color, 10% );
 $figure-shadow:                lighten( $black, 50 );
 
-$footer-code:                  $white;
-$footer-copyright:             $white;
 $footer-border:                $white;
 
 $header-box-color-1:           $purple;
@@ -71,6 +67,9 @@ $heading-color:                $black;
 $heading-color-h3:             $purple;
 
 $image-border:                 $black;
+
+$input-submit-bg:              $timberwolf;
+$input-submit-bg-hover:        darken( $timberwolf, 10% );
 
 $latest-post-link:             $black;
 
@@ -108,7 +107,7 @@ $post-cat-life:                $post-cat-default;
 $post-cat-pregnancy:           $tuscan-red;
 $post-cat-user-experience:     $indigo;
 $post-cat-wordpress:           $seaweed;
-$post-cat-writing:             darken( $book-green, 10% );
+$post-cat-writing:             darken( $green, 10% );
 
 $post-share-bg:                $purple;
 $post-share-bg-hover:          darken( $copper, 10% );
@@ -118,13 +117,16 @@ $pregnancy-tag-bg:             $purple;
 $pregnancy-tag-hover:          darken( $copper, 10% );
 $pregnancy-tag:                $white;
 
-$section-bg-book-green:        lighten( $book-green, 40% );
 $section-bg-copper:            lighten( $copper, 40% );
-$section-bg-timberwolf:        $timberwolf;
-$section-bg-purple:            $purple;
+$section-bg-green:             lighten( $green, 40% );
+$section-bg-green-dark:        darken( $green, 20% );
 $section-bg-grey:              lighten( $black, 5% );
-$section-bg-light-grey:        lighten( $black, 70% );
+$section-bg-grey-light:        lighten( $black, 70% );
+$section-bg-orange:            $tart-orange;
+$section-bg-purple:            $purple;
+$section-bg-purple-light:      lighten( $purple, 12% );
 $section-bg-seaweed:           darken( $seaweed, 5% );
+$section-bg-timberwolf:        $timberwolf;
 
 $section-bg-purple-link-bg:    $timberwolf;
 $section-bg-purple-link-hover: lighten( $copper, 30% );

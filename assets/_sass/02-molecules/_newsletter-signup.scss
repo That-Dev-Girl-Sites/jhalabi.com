@@ -1,0 +1,27 @@
+/**
+ * MOLECULES: Newsletter signup
+ */
+
+// Special override to remove the top margin.
+section.newsletter-signup.has-background {
+  margin-top: 0;
+}
+
+.newsletter-signup {
+
+  // For slim styles only.
+  &.slim {
+    border-bottom: 1px solid $white;
+    border-top: 1px solid $white;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  // Input and submit fields container.
+  &-fields {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 10rem;
+  }
+
+}
