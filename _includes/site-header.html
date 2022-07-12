@@ -4,14 +4,18 @@
 <head>
   <title>
     {% if page.dir != '/' %}
-      {% assign strikedtext = page.title | split: "<strike>" | last | split: "</strike>" | first %}
-      {% assign todelete = '<strike>' | append: strikedtext | append: '</strike>' %}
-      {{ page.title | remove: todelete }}
+      {% assign strike_text = page.title | split: "<strike>" | last | split: "</strike>" | first %}
+      {% assign delete_strike = '<strike>' | append: strike_text | append: '</strike>' %}
+
+      {% assign italics_text = page.title | split: "<i>" | last | split: "</i>" | first %}
+      {% assign delete_italics = '<i>' | append: italics_text | append: '</i>' %}
+
+      {{ page.title | remove: delete_strike | replace: delete_italics, italics_text }}
       -
     {% endif %}
 
     {{ site.title }}
-    {% if page.dir == '/' %} - Web Developer, Speaker, &amp; Writer{% endif %}
+    {% if page.dir == '/' %} - Web Developer, Teacher, &amp; Author{% endif %}
   </title>
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/styles.css?v=20220616">
