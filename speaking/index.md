@@ -7,6 +7,27 @@ I have had the pleasure to speak and teach at a number of conferences, meetups, 
 
 Questions? Comments? Want to chat? [Let me know!](/contact/)
 
+
+<section markdown="1" class="has-background purple" aria-label="The magic of block transforms">
+
+## _Upcoming talk!_ Presto Chango: The magic of block transforms
+
+WordPress block transforms provide content editors with an easy way to migrate content from one block to another. The core editor already includes many transforms from one core block to another. Turn a paragraph block into a heading. Turn an image block into a cover. 
+
+But, did you know that you can up your post editor game by writing your own transforms? Turn a core block into your own custom block! Give your content editors the ability to easily switch between two blocks and create custom shortcuts that will automatically populate a custom block.
+
+<div markdown="1" class="speaking-details">
+<div markdown="1">
+HighEdWeb 2022
+: {:.icon .icon-calendar} October 4, 2022
+: {:.icon .icon-location} Online
+: {:.icon .icon-bubbles} <a href="https://events.highedweb.org/heweb22/session/901722/presto-chango-the-magic-of-block-transforms" aria-label="The magic of block transforms HighEdWeb session details">Session Details</a>
+</div>
+</div>
+
+</section>
+
+
 <section markdown="1" class="has-background copper" aria-label="Gutenberg Developer Hours">
 
 ## Gutenberg Developer Hours

@@ -1,0 +1,31 @@
+/**
+ * Molecules: Review
+ */
+
+.review {
+
+  &-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat( auto-fit, minmax( 15rem, 1fr ) );
+    margin-top: 2rem;
+  }
+
+
+  &-quote {
+    background: $review-bg;
+    border: 2px solid $review-border;
+    margin: 0;
+    padding: 2rem;
+
+    p {
+      @include sans;
+      font-size: 0.9rem;
+    }
+
+    cite {
+      font-size: 0.9rem;
+    }
+  }
+
+}

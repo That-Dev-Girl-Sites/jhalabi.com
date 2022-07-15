@@ -48,7 +48,38 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 
 
 
-<section markdown="1" class="has-background green" aria-label="Origin story">
+<section markdown="1" class="has-background green" aria-label="Reviews">
+
+## People are talking!
+
+<div class="review-container">
+  <blockquote class="review-quote">
+    <p>
+      Creating a story about a child's origins for a very young picture book audience may feel like a stretch, but Joni Halabi's focus on a loving mother's enthusiasm about her child's potential and growth drives the information, which is provided in a gentle way that emphasizes this acceptance and love over the circumstances of the child's conception.
+    </p>
+
+    <cite markdown="1">
+      D. Donovan, Senior Reviewer, _Midwest Book Review_
+    </cite>
+  </blockquote>
+
+  <blockquote class="review-quote">
+    <p>
+      <strong>Must read.</strong> <br>
+      The little bundle of joy was precious from their head down to their tippy toes.
+    </p>
+
+    <cite markdown="1">
+      Kameron Brook, _Reedsy Discovery_
+    </cite>
+  </blockquote>
+</div>
+
+</section>
+
+
+
+<section markdown="1" aria-label="Origin story">
 
 ## _Sweet Little You:_ An origin story
 
