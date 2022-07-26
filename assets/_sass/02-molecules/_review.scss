@@ -31,12 +31,13 @@
     }
 
     p {
-      @include sans;
+      @include sans-italic;
       font-size: 0.9rem;
     }
 
     cite {
       font-size: 0.9rem;
+      font-style: normal;
     }
   }
 

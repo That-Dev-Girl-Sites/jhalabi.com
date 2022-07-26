@@ -55,22 +55,33 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 <div class="review-container">
   <blockquote class="review-quote">
     <p>
+      This is a sweet love story from a single mother to her child.  I love books that explain to children why things are different.  Probably less of an issue these days with so many different family types, but still a loving way to explain their family of two.  With beautiful illustrations and the perfect colors, it was a joy to look at the pictures as I read the story, which to be honest is what a little one will be doing.
+    </p>
+
+    <cite markdown="1">
+      **Sherry**, The Book Review Crew
+    </cite>
+
+  </blockquote>
+
+  <blockquote class="review-quote">
+    <p>
       Creating a story about a child's origins for a very young picture book audience may feel like a stretch, but Joni Halabi's focus on a loving mother's enthusiasm about her child's potential and growth drives the information, which is provided in a gentle way that emphasizes this acceptance and love over the circumstances of the child's conception.
     </p>
 
     <cite markdown="1">
-      D. Donovan, Senior Reviewer, _Midwest Book Review_
+      **D. Donovan**, Senior Reviewer, Midwest Book Review
     </cite>
   </blockquote>
 
   <blockquote class="review-quote">
     <p>
-      <strong>Must read.</strong> <br>
+      <strong>Must read!</strong> <br>
       The little bundle of joy was precious from their head down to their tippy toes.
     </p>
 
     <cite markdown="1">
-      Kameron Brook, _Reedsy Discovery_
+      **Kameron Brook**, Reedsy Discovery
     </cite>
   </blockquote>
 </div>
