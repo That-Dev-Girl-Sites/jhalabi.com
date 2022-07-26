@@ -22,7 +22,7 @@
     &::before {
       @extend .icon-bubbles;
       @include icons;
-      color: rgba( $review-quote, 0.5 );
+      color: rgba( $review-quote, 0.25 );
       display: inline;
       font-size: 5rem;
       left: -1rem;
