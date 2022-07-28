@@ -44,6 +44,12 @@ In this tender affirmation, the story’s new mother pens a love letter to her b
 
 Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunny_, and _Love You Forever_ yet with a contemporary and diverse variation, _Sweet Little You_ is for all of the intentional single parents who haven’t seen their own type of chosen family represented in a picture book that they can share with their child. The poignant story’s stirring and loving message is perfect as an affirming everyday read-aloud and also as a thoughtful and heartfelt gift for special occasions and milestones such as baby showers, new baby, birthdays, Mother’s Day, and Valentine’s Day.
 
+<div class="book-section-buttons" markdown="1">
+
+[_Sweet Little You_ on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you) [Media Kit](/book/media-kit)
+
+</div>
+
 </section>
 
 
