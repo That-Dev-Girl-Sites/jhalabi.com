@@ -17,9 +17,9 @@ A mother with a dream of having a child makes her wish come true by having a bab
 
 <div markdown="1">
 
-On sale August 1, 2022
+On sale now!
 
-## Preorder your copy today!
+## Order your copy today!
 
 </div>
 
