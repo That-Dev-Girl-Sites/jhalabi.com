@@ -55,13 +55,22 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 <div class="review-container">
   <blockquote class="review-quote">
     <p>
+      Sweet Little You is an adorable children's book that showcases a different type of family. It's written in an easy to read way, but is also a good way to open conversation with young readers about how some families don't always look the same as others. It's also a wonderful story that will resonate with all mothers, but especially single moms. The illustrations are lovely and really bring the story to life, and I think, overall, it's a story young readers will enjoy and want to talk about, regardless of how they came to be. This is a book I would highly recommend to all parents. 5 stars!
+    </p>
+
+    <cite markdown="1">
+      **Jasmine J.**, [Jazzy Book Reviews](https://www.jazzybookreviews.com/2022/07/sweet-little-you-by-joni-halabi-book.html)
+    </cite>
+  </blockquote>
+
+  <blockquote class="review-quote">
+    <p>
       This is a sweet love story from a single mother to her child.  I love books that explain to children why things are different.  Probably less of an issue these days with so many different family types, but still a loving way to explain their family of two.  With beautiful illustrations and the perfect colors, it was a joy to look at the pictures as I read the story, which to be honest is what a little one will be doing.
     </p>
 
     <cite markdown="1">
-      **Sherry**, The Book Review Crew
+      **Sherry**, [The Book Review Crew](https://thebookreviewcrew.com/blog-tour-review-sweet-little-you/)
     </cite>
-
   </blockquote>
 
   <blockquote class="review-quote">
@@ -81,7 +90,7 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
     </p>
 
     <cite markdown="1">
-      **Kameron Brook**, Reedsy Discovery
+      **Kameron Brook**, [Reedsy Discovery](https://reedsy.com/discovery/book/sweet-little-you-joni-halabi)
     </cite>
   </blockquote>
 </div>
