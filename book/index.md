@@ -25,7 +25,7 @@ On sale August 1, 2022
 
 <div markdown="1" class="book-page-order-buttons">
 
-[Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961) [AbeBooks](https://www.abebooks.com/servlet/BookDetailsPL?bi=31212005551) [Better World Books](https://www.betterworldbooks.com/product/detail/Sweet-Little-You-9780578392165) [Book Depository](https://www.bookdepository.com/Sweet-Little-You-Joni-Halabi-Lisa-Wee/9780578392165) [Bookshop](https://bookshop.org/books/sweet-little-you/9780578392165) [IndiBound](https://www.indiebound.org/book/9780578392165)
+[Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961) [AbeBooks](https://www.abebooks.com/servlet/BookDetailsPL?bi=31212005551) [Better World Books](https://www.betterworldbooks.com/product/detail/Sweet-Little-You-9780578392165) [Book Depository](https://www.bookdepository.com/Sweet-Little-You-Joni-Halabi-Lisa-Wee/9780578392165) [Bookshop](https://bookshop.org/books/sweet-little-you/9780578392165) [IndiBound](https://www.indiebound.org/book/9780578392165) [Target](https://www.target.com/p/sweet-little-you-by-joni-halabi-hardcover/-/A-87090895)
 
 </div>
 
