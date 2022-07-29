@@ -68,11 +68,11 @@
     <nav class="nav-primary" aria-label="Main">
       <ul>
         <li><a href="/" {% if page.dir == '/' %}class="current"{% endif %} aria-label="Home">.{% if page.dir != '/' %}.{% endif %}</a></li>
-        <li><a href="/book/"     {% if page.url contains '/book'     %}class="current"{% endif %}>Book</a></li>
-        <li><a href="/work/"     {% if page.url contains '/work'     %}class="current"{% endif %}>Work</a></li>
-        <li><a href="/speaking/" {% if page.url contains '/speaking' %}class="current"{% endif %}>Speaking</a></li>
-        <li><a href="/blog/"     {% if page.url contains '/blog'     %}class="current"{% endif %}>Blog</a></li>
-        <li><a href="/contact/"  {% if page.url contains '/contact'  %}class="current"{% endif %}>Contact</a></li>
+        <li><a href="/book/"     {% if page.url contains '/book/'     %}class="current"{% endif %}>Book</a></li>
+        <li><a href="/work/"     {% if page.url contains '/work/'     %}class="current"{% endif %}>Work</a></li>
+        <li><a href="/speaking/" {% if page.url contains '/speaking/' %}class="current"{% endif %}>Speaking</a></li>
+        <li><a href="/blog/"     {% if page.url contains '/blog/'     %}class="current"{% endif %}>Blog</a></li>
+        <li><a href="/contact/"  {% if page.url contains '/contact/'  %}class="current"{% endif %}>Contact</a></li>
       </ul>
     </nav>
   </header>
