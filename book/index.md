@@ -61,6 +61,16 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 <div class="review-container">
   <blockquote class="review-quote">
     <p>
+      Joni’s story is one we need in our bookshelves to promote diverse family structures and foster acceptance of single-parent families.
+    </p>
+
+    <cite markdown="1">
+      **Kara Cybanski**, [DC Canada Education Publishing](https://www.dc-canada.ca/blog/review-sweet-little-you-by-joni-halabi/)
+    </cite>
+  </blockquote>
+
+  <blockquote class="review-quote">
+    <p>
       Sweet Little You is an adorable children's book that showcases a different type of family. It's written in an easy to read way, but is also a good way to open conversation with young readers about how some families don't always look the same as others. It's also a wonderful story that will resonate with all mothers, but especially single moms. The illustrations are lovely and really bring the story to life, and I think, overall, it's a story young readers will enjoy and want to talk about, regardless of how they came to be. This is a book I would highly recommend to all parents. 5 stars!
     </p>
 
