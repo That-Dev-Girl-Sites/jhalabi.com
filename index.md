@@ -19,13 +19,13 @@ A mother with a dream of having a child makes her wish come true by having a bab
 
 A heartwarming story for single mothers by choice and their families.
 
-*Sweet Little You* will be released on **August 1** and is available for pre-order now!
+*Sweet Little You* is available now wherever books are sold. Order your copy today!
 
 </div>
 
 <div class="book-section-buttons" markdown="1">
 
-[Preorder on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you) [More about _Sweet Little You_](/book)
+[Order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you) [More about _Sweet Little You_](/book)
 
 </div>
 
