@@ -8,7 +8,7 @@ categories:
 
 Ever since I started my consulting gig, I have been learning so many new _(or, rather, new to me)_ technologies.  Most of my learning experiences have centered around Javascript libraries – namely jQuery and YUI.  In light of the fact that I’ve only been consulting for about 9 months now, I’m going to preface this entire post with the fact that I definitely do not consider myself an expert in either of these libraries.
 
-That being said, it really boggles the mind (or, at least my mind) that YUI requires so much more complexity than jQuery does.  I mean, sure, YUI has neat features like data tables.  (I am sure jQuery does too, but I have not found it just yet.)   However, it seems to be a struggle to even perform basic functions in YUI.
+That being said, it really boggles the mind (or, at least my mind) that YUI requires so much more complexity than jQuery does.  I mean, sure, YUI has neat features like data tables.  (I am sure jQuery does too, but I have not found it just yet.) However, it seems to be a struggle to even perform basic functions in YUI.
 
 Inexperience?  Maybe.  Frustrating?  Oh yes.  This has actually been bothering me since I started learning YUI.
 
