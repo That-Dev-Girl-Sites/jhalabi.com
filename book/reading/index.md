@@ -29,6 +29,7 @@ I feel the need to apologize for 2020 and 2021. Reading grown up books during a 
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**Fortunately, The Milk** <br> _Neil Gaiman_ | A super quick YA read by my favorite author. It's silly, quirky, and so much fun to read. <span class='fa fa-heart'></span> | August
 **Cosmic Blackout! (Galaxy Zack #16)** <br> _Ray O'Ryan_ | It has definitely been a rough couple of years for reading, so I eased myself back in with a YA. This was a fun one! | February
 
 ## Books Read in 2021 {#books-2021}
