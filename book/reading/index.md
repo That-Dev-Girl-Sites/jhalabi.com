@@ -7,7 +7,7 @@ Because... you know... books are awesome!
 
 I like to read books. A lot of books. I also like to keep track of what I have read… partially so that I can refer to them later and partially because I will forget that I have read something before. All of the books that I have read (since 2010, at least) are listed here.
 
-I feel the need to apologize for 2020 and 2021. Reading grown up books during a pandemic ranged from ridiculously hard to impossible. I'm hoping to turn the streak around in 2022. That being said, I have been reading a huge amount of picture books and kid lit. (Having a preschooler in the house helps with that!) I am not logging any of that, because that would be exhausting.
+I feel the need to apologize for 2020 and 2021. Also, the first half of 2022. I could blame a lot of things, but it simply boils down to pure exhaustion. Apparently, pandemic + raising a toddler _(now pre-schooler!)_ + publishing a book + _(oh right)_ my actual full-time job that pays me was too much and something had to give. That being said, I did read and am still reading a huge amount of picture books and kid lit. (Having a preschooler helps with that!) One day, I will log all of those books, but that day is not today. Perhaps when I have more free time. You know, like when my kid is 20.
 
 <nav aria-label="Links to book information by year">
   <a href="#books-2022">2022</a> |
@@ -29,6 +29,7 @@ I feel the need to apologize for 2020 and 2021. Reading grown up books during a 
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**We Are Not Like Them** <br> _Christine Pride & Jo Piazza_ | I am still processing my feelings about this one. I read it in a day. Scratch that. An _evening_. I never binge-read because, frankly, I do not have the time or energy, but this book captivated me. An important must-read. <span class='fa fa-heart'></span> | August
 **Fortunately, The Milk** <br> _Neil Gaiman_ | A super quick YA read by my favorite author. It's silly, quirky, and so much fun to read. <span class='fa fa-heart'></span> | August
 **Cosmic Blackout! (Galaxy Zack #16)** <br> _Ray O'Ryan_ | It has definitely been a rough couple of years for reading, so I eased myself back in with a YA. This was a fun one! | February
 
