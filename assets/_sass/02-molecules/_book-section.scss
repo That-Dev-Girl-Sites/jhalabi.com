@@ -53,11 +53,11 @@
 
       // Order buttons.
       &:nth-of-type( 1n ) {
-        background-color: $book-section-order-btn;
+        background-color: darken( $book-section-order-btn, 10% );
 
         &:focus,
         &:hover {
-          background-color: darken( $book-section-order-btn, 10% );
+          background-color: darken( $book-section-order-btn, 20% );
         }
       }
 

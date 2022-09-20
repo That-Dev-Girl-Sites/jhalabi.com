@@ -22,6 +22,10 @@
 : This color sequencing widget was developed as a proof of concept to reorder large numbers of content blocks inside a YUI dialog box.
 : <a href="https://github.com/thatdevgirl/color-sequencing" aria-label="GitHub for Color Sequencing Dialog">GitHub</a>
 
+{:.utility} Color Swatch Generator
+: Generate a color swatch, including the color's hex, RGB, and CYYK values, for any single color.
+: <a href="https://color.thatdevgirl.com/" aria-label="Live Site of Color Swatch Generator">Live Site</a> <a href="https://github.com/thatdevgirl/color-palette-standalone" aria-label="GitHub for Color Swatch Generator">GitHub</a>
+
 {:.css} CSS Mega Menu
 : This simple mega navigation menu is inspired by the many mega menus on retail and other websites.
 : <a href="https://gist.github.com/thatdevgirl/977f9bb9282841143f88e56143803984" aria-label="GitHub Gist for CSS Mega Menu">GitHub Gist</a>
