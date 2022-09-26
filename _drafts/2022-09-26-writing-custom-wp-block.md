@@ -59,7 +59,7 @@ Here is what my example block's JSON file look like:
   "description": "Present a word and its definition",
 
   "attributes": {
-    "term": {
+    "word": {
       "type": "string",
       "default": ""
     },
@@ -84,7 +84,81 @@ The `edit()` function then uses Gutenberg components to construct an editor inte
 
 The module code, commented with further explanations, is below:
 
-```
+```javascript
+// The JS module is a function, saved to a constant variable.
+const Word = ( props ) => {
+
+  // The `useBlockProps()` function from the block editor library
+  // allows the block to include default classes and components, 
+  // like the block selection toolbar, in the editor UI. The 
+  // block will be unselectable without this.
+  const { useBlockProps } = wp.blockEditor;
+
+  // We run the `useBlockProps()` function to save these classes
+  // and properties as a string, which will will add to the editor
+  // UI markup below.
+  const blockProps = useBlockProps();
+
+  // The `TextControl` component provides us with an input box
+  // that a user can use to add and edit the word and definition
+  // in our block.
+  const { TextControl } = wp.components;
+
+  // `setAttributes` is a function passed by the block properties
+  // which will allow us to save any changes to the block attributes.
+  const { setAttributes } = props;
+
+  // Extract our block's attributes (`word` and `definition`) from
+  // the `attributes` object inside the block properties.
+  const { word, definition } = props.attributes;
+  
+  // Here, we create change event handlers that will run whenever
+  // one of the attributes is edited. The handlers are functions
+  // that call the `setAttributes` function (from our block
+  // properties, above). It sets the given attribute to the
+  // passed-in value.
+  const onChangeWord = ( value ) => { setAttributes( { word: value } ) };
+  const onChangeDefinition = ( value ) => { setAttributes( { definition: value } ) };
+
+  // This edit function is required to return the edit UI 
+  // markup. The markup here is written in JSX.
+  return(
+    <div { ...blockProps }>
+
+      { /* Custom options in the inspector block. */ }
+      <InspectorControls>
+
+        { /* Block Recommendations panel. */}
+        <PanelBody title='Block Recommendations' initialOpen={ true }>
+          <p>
+            This component should be used at the top of a page or section.
+          </p>
+
+          <CharacterCount
+            content={ content }
+            contentDescription='Introduction'
+            recommendedSize={ 350 }
+          />
+        </PanelBody>
+
+      </InspectorControls>
+
+      { /* Editing options displayed in the main editor panel. */ }
+      <RichText
+        value={ content }
+        onChange={ onChangeContent }
+        placeholder="Introductory text"
+        allowedFormats={ [ 'core/bold', 'core/italic', 'core/link' ] }
+        tagName={ 'p' }
+        multiline={ false }
+      />
+
+    </div>
+  );
+
+};
+
+export default GuIntroEdit;
 ```
 
 ## Additional references
@@ -95,3 +169,4 @@ You can learn a ton from the WordPress block API documentation. Many of the modu
 
 * [WordPress Block API Reference](https://developer.wordpress.org/block-editor/reference-guides/block-api/)
 * [Gutenberg Github Repo](https://github.com/WordPress/gutenberg)
+* [JSX](https://reactjs.org/docs/introducing-jsx.html)
