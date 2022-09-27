@@ -11,15 +11,18 @@ This post has been a long time coming. I have talked about custom WordPress bloc
 
 It recently occurred to me that I have yet to write up a complete post about how I write my custom blocks. Every so often, someone asks me about the code I write, so here is a comprehensive overview of how I write a custom block.
 
+
 ## General philosophy
 
 Hot take: I am a big advocate of dynamic blocks. As an overview, a __dynamic block__ is a block whose front-end markup is generated via the WordPress PHP backend, as the page is called. In contrast, a __static block__ is a block whose markup is saved directly to the database. 
 
 There are definite advantages and disadvantages to both. TL;DR - I am a big fan of the dynamic approach because I often receive requests to edit blocks after they are used on live sites. Editing a static block requires writing a deprecation for the block's previous version. My personal goal is to include as few deprecations as possible in my blocks.
 
+
 ## Objective
 
 The purpose of this post is to illustrate how I write a custom Gutenberg block. I want to keep this tutorial as simple as possible. Therefore, the example block here will be one that displays a word and its definition. 
+
 
 ## The anatomy of a custom block
 
@@ -34,6 +37,7 @@ To that end, the block needs 4 pieces (files). I place all of these files in the
   * `index.js`: registers the block on the JS side
 
 Let's dive deeper into each of these files.
+
 
 ## `block.json`: Defining the block
 
@@ -51,6 +55,7 @@ In this example, I want to define the following pieces of information:
 
 Here is what my example block's JSON file look like:
 
+```json
 {% highlight json linenos %}
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
@@ -72,7 +77,7 @@ Here is what my example block's JSON file look like:
     }
   }
 }
-{% endhighlight %}
+```
 
 
 ## `edit.js`: Defining the editor UI
@@ -161,6 +166,7 @@ const WordEdit = ( props ) => {
 
 export default WordEdit;
 ```
+
 
 ## `register.php`: Defining the front-end UI
 
