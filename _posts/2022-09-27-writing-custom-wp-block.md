@@ -56,7 +56,6 @@ In this example, I want to define the following pieces of information:
 Here is what my example block's JSON file look like:
 
 ```json
-{% highlight json linenos %}
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
