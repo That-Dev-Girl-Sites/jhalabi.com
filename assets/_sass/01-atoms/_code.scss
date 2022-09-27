@@ -14,4 +14,9 @@ code {
     @include monospace;
   }
 
+  // If the code block is inside a heading, it should be bold.
+  h2 & {
+    @include monospace-bold;
+  }
+
 }
