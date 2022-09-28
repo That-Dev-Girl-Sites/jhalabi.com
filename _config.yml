@@ -16,6 +16,8 @@ permalink: /blog/:title
 paginate: 20
 paginate_path: "/blog/page:num/"
 
+highlighter: rouge
+
 sass:
   sass_dir: '/assets/_sass'
   style: compressed

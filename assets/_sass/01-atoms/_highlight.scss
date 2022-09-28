@@ -2,21 +2,13 @@
  * Atoms: Code highlighter.
  */
 
-div.highlight,
-figure.highlight {
+pre.highlight {
 
-  background-color: $figure-bg;
-  box-shadow: 1px 1px 1px $figure-shadow;
-  margin-bottom: 2rem;
   padding: 1.5rem;
+  line-height: 1.8;
 
-  .w {
-    text-decoration: none;
+  code span {
+    color: $white;
   }
-
-  pre {
-    background: inherit;
-    line-height: 1.8;
-  }
-
+  
 }
