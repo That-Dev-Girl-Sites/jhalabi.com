@@ -61,6 +61,16 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 <div class="review-container">
   <blockquote class="review-quote">
     <p>
+      This book teaches readers that family is about love and that it only takes a parent willing to love their child to create an adventure that is invigorating and life-transforming.
+    </p>
+
+    <cite markdown="1">
+      **Jane Riley**, [The Book Commentary](https://thebookcommentary.com/review-preview/730/sweet-little-you)
+    </cite>
+  </blockquote>
+
+  <blockquote class="review-quote">
+    <p>
       Joni’s story is one we need in our bookshelves to promote diverse family structures and foster acceptance of single-parent families.
     </p>
 

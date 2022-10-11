@@ -7,7 +7,8 @@
   &-container {
     display: grid;
     gap: 3rem;
-    grid-template-columns: repeat( auto-fit, minmax( 15rem, 1fr ) );
+    grid-template-columns: 1fr;
+    //grid-template-columns: repeat( auto-fit, minmax( 15rem, 1fr ) );
     margin-top: 2rem;
   }
 
@@ -22,7 +23,7 @@
     &::before {
       @extend .icon-bubbles;
       @include icons;
-      color: rgba( $review-quote, 0.15 );
+      color: rgba( $review-quote, 0.1 );
       display: inline;
       font-size: 10rem;
       left: -1rem;
@@ -32,7 +33,7 @@
 
     p {
       @include sans-italic;
-      font-size: 0.9rem;
+      font-size: 1.1rem;
     }
 
     cite {
