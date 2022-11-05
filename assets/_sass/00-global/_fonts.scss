@@ -29,8 +29,8 @@
 }
 
 @font-face {
-  font-family: 'icomoon';
-  src: url( '../fonts/icomoon.ttf' ) format( 'truetype' );
+  font-family: 'fontello';
+  src: url( '../fonts/fontello.ttf' ) format( 'truetype' );
 }
 
 
@@ -56,5 +56,5 @@
 }
 
 @mixin icons {
-  font-family: 'icomoon';
+  font-family: 'fontello';
 }

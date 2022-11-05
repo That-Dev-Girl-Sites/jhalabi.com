@@ -21,7 +21,7 @@
     position: relative;
 
     &::before {
-      @extend .icon-bubbles;
+      @extend .icon-chat;
       @include icons;
       color: rgba( darken($copper, 10), 0.1 );
       display: inline;

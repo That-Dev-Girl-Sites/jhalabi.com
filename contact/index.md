@@ -8,7 +8,7 @@ I love hearing from people and talking tech. However — and I am being frank he
 Regardless, please don't let this scare you off from sending me a message. Replies might just take a bit longer than expected. Let's chat!
 
 {:.contact-options}
-{:.icon .icon-envelop} <span class="sr-only">E-mail</span>
+{:.icon .icon-envelope} <span class="sr-only">E-mail</span>
 : [joni@jhalabi.com](mailto:joni@jhalabi.com)
 
 {:.icon .icon-twitter} <span class="sr-only">Twitter</span>
