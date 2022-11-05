@@ -4,7 +4,7 @@
 
 h1 {
   @include monospace;
-  color: $heading-color;
+  color: var( --black );
   font-size: $type-h1;
   margin-bottom: 1rem;
 }
@@ -12,7 +12,7 @@ h1 {
 h2 {
   @include monospace;
   clear: both;
-  color: $heading-color;
+  color: var( --black );
   font-size: $type-h2;
   margin: 4rem 0 1rem;
 
@@ -23,7 +23,7 @@ h2 {
 
 h3 {
   @include monospace-bold;
-  color: $heading-color-h3;
+  color: var( --purple );
   font-size: $type-h3;
   margin-top: 3rem;
   margin-bottom: 0.5rem;

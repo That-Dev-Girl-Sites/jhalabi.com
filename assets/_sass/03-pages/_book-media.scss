@@ -21,12 +21,12 @@
     }
 
     .button.media-kit {
-      background: $book-page-media-kit-btn;
+      background: var( --tart-orange );
       font-size: $type-h4;
 
       &:focus,
       &:hover {
-        background: darken( $book-page-media-kit-btn, 10% );
+        background: var( --tart-orange-dark-10 );
       }
     }
   }
@@ -75,7 +75,7 @@
   // Social media icons for people.
   &-people-social {
     a {
-      color: $book-page-social-icons;
+      color: var( --tart-orange );
       margin-right: 0.5rem;
       text-decoration: none;
     }

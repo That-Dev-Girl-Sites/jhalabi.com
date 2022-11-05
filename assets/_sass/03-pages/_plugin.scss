@@ -15,11 +15,11 @@
   }
 
   .donate {
-    border-bottom: 1px solid $white;
+    border-bottom: 1px solid var( --white );
     padding-bottom: 1rem;
 
     p {
-      color: $white;
+      color: var( --white );
       margin-bottom: 0;
       text-align: center;
     }

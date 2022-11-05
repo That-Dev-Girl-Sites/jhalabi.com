@@ -11,20 +11,20 @@
 
   a {
     @include sans;
-    color: $nameplate-color;
+    color: var( --black );
     font-size: $type-nameplate;
     text-decoration: none;
 
     // The logo gets added within the link, but before the link text, so it
     // does not appear in the DOM (it's decorative), but it is still linked.
     &::before {
-      background-color: $nameplate-logo-bg;
+      background-color: var( --purple );
       background-image: url('../images/logo-white.gif');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-      border-left: 1rem solid $nameplate-logo-bg;
-      border-right: 1rem solid $nameplate-logo-bg;
+      border-left: 1rem solid var( --purple );
+      border-right: 1rem solid var( --purple );
       content: '';
       display: inline-block;
       height: $logo-size;

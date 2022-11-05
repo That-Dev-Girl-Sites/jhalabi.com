@@ -24,7 +24,7 @@
 
   a {
     @include monospace;
-    color: $nav-primary;
+    color: var( --copper-dark-10 );
   }
 
   .current {

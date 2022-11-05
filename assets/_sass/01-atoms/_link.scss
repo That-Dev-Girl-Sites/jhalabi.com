@@ -4,7 +4,7 @@
 
 a {
 
-  color: $link-color;
+  color: var( --copper-dark-20 );
   font-family: inherit;
   transition: all 0.3s;
 
@@ -23,9 +23,9 @@ a {
 
   // Variation: Category
   &.category {
-    background-color: $post-cat-default;
+    background-color: var( --copper );
     border-radius: 0.15rem;
-    color: $link-category-color;
+    color: var( --white );
     display: inline-block;
     font-size: 0.9rem;
     margin-left: 1rem;
@@ -34,25 +34,25 @@ a {
 
     &:focus,
     &:hover {
-      background-color: $post-cat-default-hover !important;
+      background-color: var( --black ) !important;
     }
 
     // Special category colors.
-    &.accessibility   { background-color: $post-cat-a11y; }
-    &.development     { background-color: $post-cat-dev; }
-    &.life            { background-color: $post-cat-life; }
-    &.pregnancy       { background-color: $post-cat-pregnancy; }
-    &.user-experience { background-color: $post-cat-user-experience; }
-    &.wordpress       { background-color: $post-cat-wordpress; }
-    &.writing         { background-color: $post-cat-writing; }
+    &.accessibility   { background-color: var( --cat-accessibility ); }
+    &.development     { background-color: var( --cat-development ); }
+    &.life            { background-color: var( --cat-life ); }
+    &.pregnancy       { background-color: var( --cat-pregnancy ); }
+    &.user-experience { background-color: var( --cat-user-experience ); }
+    &.wordpress       { background-color: var( --cat-wordpress ); }
+    &.writing         { background-color: var( --cat-writing ); }
   }
 
 
   // Variation: Button
   &.button {
-    background-color: $link-button-bg;
+    background-color: var( --purple-dark-10 );
     border-radius: 0.25rem;
-    color: $link-button-color;
+    color: var( --white );
     display: inline-block;
     font-size: 90%;
     margin: 1rem 1rem 0.5rem 0;
@@ -61,7 +61,7 @@ a {
 
     &:focus,
     &:hover {
-      background-color: $link-button-bg-hover;
+      background-color: var( --copper-dark-10 );
     }
   }
 
@@ -73,8 +73,8 @@ a {
 
   // Variation: Skip link
   &.skip-link {
-    background-color: $link-skip-bg;
-    color: $link-skip-color;
+    background-color: var( --purple );
+    color: var( --actual-white );
     left: 50%;
     padding: 0.5rem 1rem;
     position: absolute;

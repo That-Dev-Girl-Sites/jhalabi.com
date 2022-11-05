@@ -25,7 +25,7 @@
   }
 
   li {
-    background-color: $work-links-bg;
+    background-color: var( --purple-dark-10 );
     list-style-type: none;
     margin: 0;
     text-align: center;
@@ -33,11 +33,11 @@
 
     &:focus,
     &:hover {
-      background-color: $work-links-bg-hover;
+      background-color: var( --copper-dark-10 );
     }
 
     a {
-      color: $work-links-color;
+      color: var( --actual-white );
       display: block;
       padding: 2rem;
       text-decoration: none;

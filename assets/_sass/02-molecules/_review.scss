@@ -14,8 +14,8 @@
 
 
   &-quote {
-    background: $review-bg;
-    border: 2px solid $review-border;
+    background: rgba( #{ var( --white-rgb ) }, 0.85 );
+    border: 2px solid var( --green-dark-20 );
     margin: 0;
     padding: 2rem;
     position: relative;
@@ -23,7 +23,7 @@
     &::before {
       @extend .icon-bubbles;
       @include icons;
-      color: rgba( $review-quote, 0.1 );
+      color: rgba( darken($copper, 10), 0.1 );
       display: inline;
       font-size: 10rem;
       left: -1rem;
@@ -37,7 +37,7 @@
     }
 
     cite {
-      border-top: 1px solid lighten( $black, 20% );
+      border-top: 1px solid var( --black-light-20 );
       display: block;
       font-size: 0.9rem;
       font-style: normal;

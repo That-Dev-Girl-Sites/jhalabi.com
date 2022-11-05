@@ -4,7 +4,7 @@
 
 .site-header {
 
-  border-bottom: 2px solid $site-header-border;
+  border-bottom: 2px solid var( --black-light-30 );
   margin-bottom: 4rem;
   margin-left: $page-margin-small;
   margin-right: 0;
