@@ -10,7 +10,7 @@
   {{ page.content }}
 
   <div class="archive-container">
-    <section aria-label="List of all articles about {{ page.category }}">
+    <section aria-label="All articles about {{ page.category }}">
       {% for post in site.categories[page.category] %}
         {% include article-snip.html %}
       {% endfor %}
