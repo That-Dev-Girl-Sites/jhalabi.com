@@ -13,11 +13,11 @@
 
     &::before {
       font-size: 2rem;
-      color: $contact-icon;
+      color: var( --black-light-10 );
     }
 
     &:nth-of-type(2n) {
-      background: $contact-row-bg;
+      background: var( --timberwolf );
     }
   }
 
@@ -25,12 +25,12 @@
     padding: 1.25rem 0 1rem 0;
 
     &:nth-of-type(2n) {
-      background: $contact-row-bg;
+      background: var( --timberwolf );
     }
   }
 
   a {
-    color: $contact-link;
+    color: var( --copper-dark-20 );
   }
 
 }

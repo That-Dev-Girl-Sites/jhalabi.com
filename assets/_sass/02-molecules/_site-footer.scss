@@ -45,7 +45,7 @@ footer {
 
   // Copyright block.
   .footer-copyright {
-    border-top: 1px solid $footer-border;
+    border-top: 1px solid var( --white );
 
     p {
       font-size: 0.8rem;
@@ -56,7 +56,7 @@ footer {
 
   // Day of the week messages.
   #day {
-    &-0, &-1, &-2, &-3, &-4, &-5, &-6,  {
+    &-0, &-1, &-2, &-3, &-4, &-5, &-6  {
       display: none;
 
       &.show {

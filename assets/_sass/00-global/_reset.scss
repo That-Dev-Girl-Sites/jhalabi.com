@@ -5,7 +5,7 @@
 * {
   @include sans;
   box-sizing: border-box;
-  color: $color;
+  color: var( --black );
   font-size: 100%;
   font-weight: 400;
   margin: 0;

@@ -5,7 +5,7 @@
 .tagline {
 
   @include monospace;
-  color: $tagline;
+  color: var( --black-light-20 );
   font-size: 1rem;
   line-height: 1;
   margin-bottom: 1rem;
@@ -16,7 +16,7 @@
     // Add square brackets around the tagline.
     &::before,
     &::after {
-      color: $tagline;
+      color: var( --black-light-20 );
       font-size: $type-h4;
       line-height: 1;
     }

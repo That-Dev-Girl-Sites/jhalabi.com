@@ -21,9 +21,9 @@
 
   // Individual example item.
   div {
-    background-color: $work-example-bg;
+    background-color: var( --actual-white );
     border-radius: 0.25rem;
-    box-shadow: 0 1px 2px 0 $work-example-border;
+    box-shadow: 0 1px 2px 0 var( --black-light-40 );
     padding-bottom: 2rem;
 
     * {
@@ -42,7 +42,7 @@
 
   img {
     border: 0;
-    border-bottom: 1px solid $work-example-border;
+    border-bottom: 1px solid var( --black-light-40 );
     border-radius: 0.25rem 0.25rem 0 0;
     float: none;
     margin: 0;

@@ -32,7 +32,7 @@ p {
     margin-bottom: 0.5rem;
 
     a {
-      color: $link-title-color;
+      color: var( --purple-light-10 );
       text-decoration: none;
 
       &:focus,
@@ -53,7 +53,7 @@ p {
 
 // Variation: Work title, which is directly after the current work heading.
 #current-work + p {
-  color: $heading-color-h3;
+  color: var( --purple );
   font-size: $type-h3;
   margin-bottom: 0;
 }

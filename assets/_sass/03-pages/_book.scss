@@ -11,14 +11,14 @@
   // Title.
   &-title {
     @include make-full-width;
-    color: $book-page-title;
+    color: var( --white );
     margin-bottom: 0;
     margin-top: -4.15rem;
     padding: 0.5rem 0;
     z-index: 1;
 
     &::before {
-      background-color: $book-page-title-bg;
+      background-color: var( --purple );
     }
   }
 
@@ -56,7 +56,7 @@
 
     // Text.
     p {
-      color: $book-page-intro;
+      color: var( --purple );
       font-size: $type-h4;
       line-height: 1.65;
       margin-bottom: 2rem !important;
@@ -107,15 +107,14 @@
       a {
         @extend .button;
         margin-top: 0;
-        background-color: $book-section-order-btn;
+        background-color: var( --tart-orange );
 
         &:focus,
         &:hover {
-          background-color: darken( $book-section-order-btn, 10% );
+          background-color: var( --tart-orange-dark-10 );
         }
       }
     }
   }
-
 
 }

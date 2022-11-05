@@ -14,7 +14,7 @@
     }
 
     & + dd + dd {
-      border-left: 1px solid $white;
+      border-left: 1px solid var( --white );
       text-align: center;
     }
   }
@@ -35,7 +35,7 @@
 
   // Tool name.
   dt {
-    color: $tool-list-dt;
+    color: var( --white );
     margin: 2rem 0 0.5rem 0;
     padding: 0.5rem 1rem;
 
@@ -44,9 +44,9 @@
       padding: 1rem 0.5rem;
     }
 
-    &.css     { @include tool-list-color-row( $tool-list-bg-css ); }
-    &.js      { @include tool-list-color-row( $tool-list-bg-js ); }
-    &.utility { @include tool-list-color-row( $tool-list-bg-utility ); }
+    &.css     { @include tool-list-color-row( darken( $tart-orange, 10% ) ); }
+    &.js      { @include tool-list-color-row( mix( $white, $purple, 10% ) ); }
+    &.utility { @include tool-list-color-row( darken( $seaweed, 5% ) ); }
   }
 
   // Tool information.
@@ -67,14 +67,14 @@
     margin-bottom: 0.75rem;
 
     @media screen and ( min-width: $lg ) {
-      background-color: rgba( $actual-white, 0.4 );
+      background-color: rgba( #{ var( --actual-white-rgb ) }, 0.4 );
       border-radius: 0.25rem;
       padding: 0.5rem;
       text-decoration: none;
 
       &:focus,
       &:hover {
-        background-color: rgba( $actual-white, 0.8 );
+        background-color: rgba( #{ var( --actual-white-rgb ) }, 0.8 );
       }
     }
   }
