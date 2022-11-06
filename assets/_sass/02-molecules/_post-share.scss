@@ -9,9 +9,10 @@
   position: relative;
 
   &-link {
-    background-color: var( --purple );
-    border-radius: 0.25rem;
-    color: var( --white );
+    --link-bg-color: var( --purple );
+    --link-color: var( --white );
+
+    border-radius: 0.25rem;    
     font-size: 0.9rem;
     margin-right: 1.5rem;
     padding: 0.5rem 1.5rem;
@@ -19,7 +20,7 @@
 
     &:focus,
     &:hover {
-      background-color: var( --copper-dark-10 );
+      --link-bg-color: var( --copper-dark-10 );
     }
   }
 

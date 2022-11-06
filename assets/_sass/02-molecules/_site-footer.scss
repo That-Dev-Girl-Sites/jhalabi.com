@@ -17,7 +17,7 @@ footer {
     // Inner div to constrain block text.
     div {
       @media screen and ( min-width: $md ) {
-        margin-left: $page-margin-large;
+        margin-left: var( --page-padding-inline-large );
         max-width: $max-width;
         width: 50%;
       }

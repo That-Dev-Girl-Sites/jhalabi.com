@@ -5,7 +5,7 @@
 h1 {
   @include monospace;
   color: var( --black );
-  font-size: $type-h1;
+  font-size: var( --type-h1 );
   margin-bottom: 1rem;
 }
 
@@ -13,7 +13,7 @@ h2 {
   @include monospace;
   clear: both;
   color: var( --black );
-  font-size: $type-h2;
+  font-size: var( --type-h2 );
   margin: 4rem 0 1rem;
 
   section & {
@@ -24,12 +24,12 @@ h2 {
 h3 {
   @include monospace-bold;
   color: var( --purple );
-  font-size: $type-h3;
+  font-size: var( --type-h3 );
   margin-top: 3rem;
   margin-bottom: 0.5rem;
 }
 
 h4 {
-  font-size: $type-h4;
+  font-size: var( --type-h4 );
   margin-bottom: 0.5rem;
 }

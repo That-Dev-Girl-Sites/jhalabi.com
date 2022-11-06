@@ -6,18 +6,22 @@
 
   @include monospace;
   color: var( --black-light-20 );
-  font-size: 1rem;
+  font-size: var( --type-small );
+
   line-height: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   margin-top: 0.25rem;
+  text-align: center;
   text-transform: lowercase;
 
   @media screen and ( min-width: $md ) {
+    text-align: left;
+
     // Add square brackets around the tagline.
     &::before,
     &::after {
       color: var( --black-light-20 );
-      font-size: $type-h4;
+      font-size: var( --type-h4 );
       line-height: 1;
     }
 

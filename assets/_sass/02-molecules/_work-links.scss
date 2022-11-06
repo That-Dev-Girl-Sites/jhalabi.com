@@ -44,7 +44,7 @@
 
       &::before {
         display: block;
-        font-size: $type-h2;
+        font-size: var( --type-h2 );
       }
     }
   }

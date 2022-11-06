@@ -52,7 +52,7 @@
 
   h3 {
     @include sans;
-    font-size: $type-h3;
+    font-size: var( --type-h3 );
     margin: 0 0 0.5rem 0;
   }
 

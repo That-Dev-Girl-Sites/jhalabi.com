@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-<section markdown="1" class="book-section has-background green remove-top-margin" aria-label="Book">
+<section markdown="1" class="book-section has-background timberwolf remove-top-margin" aria-label="Book">
 
 ## Sweet Little You
 
@@ -30,9 +30,6 @@ A heartwarming story for single mothers by choice and their families.
 </div>
 
 </section>
-
-
-{% include newsletter-signup.html home=true %}
 
 
 <section markdown="1" aria-label="Articles">

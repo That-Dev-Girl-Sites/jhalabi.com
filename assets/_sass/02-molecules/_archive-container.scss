@@ -6,7 +6,7 @@
 
   @media screen and ( min-width: $md ) {
     display: grid;
-    grid-gap: 6rem;
+    gap: 6rem;
     grid-template-columns: 1fr 20rem;
     width: $archive-width;
   }

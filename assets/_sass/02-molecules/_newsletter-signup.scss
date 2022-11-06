@@ -9,12 +9,14 @@ section.newsletter-signup.has-background {
 
 .newsletter-signup {
 
-  // For slim styles only.
-  &.slim {
-    border-bottom: 1px solid var( --white );
-    border-top: 1px solid var( --white );
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+  border-bottom: 2px solid var( --white );
+  border-top: 2px solid var( --white );
+  padding-block: 1.5rem;
+
+  p {
+    --line-height: 1.3;
+    --type-p: 1rem;
+    margin-bottom: 0.75rem;
   }
 
   // Input and submit fields container.
