@@ -5,14 +5,19 @@
 .nameplate {
 
   line-height: 1;
-  margin-bottom: 0;
-  padding-top: $logo-size * 1.5; // Move to account for absolutely positioned logo.
+  padding-top: $logo-size * 1.25;
+  text-align: center;
+
+  @media screen and ( min-width: $md ) {
+    text-align: left;
+  }
 
 
   a {
     @include sans;
-    color: var( --black );
-    font-size: $type-nameplate;
+    --link-color: var( --black );
+
+    font-size: var( --type-nameplate );
     text-decoration: none;
 
     // The logo gets added within the link, but before the link text, so it
@@ -29,13 +34,16 @@
       display: inline-block;
       height: $logo-size;
       left: 0;
-      // margin: 0 auto;
+      margin: 0 auto;
       position: absolute;
       right: 0;
       top: 0;
       width: $logo-size;
-    }
 
+      @media screen and ( min-width: $md ) {
+        margin: 0;
+      }
+    }
   }
 
 }

@@ -57,8 +57,7 @@
 
   // Color options.
   &.copper       { @include create-background( lighten( $copper, 40% ), 1, 0 ) };
-  &.green        { @include create-background( lighten( $green, 40% ),  1, 0 ) };
-  &.green-dark   { @include create-background( darken( $green, 20% ),   0, 1 ) };
+  &.green        { @include create-background( lighten( $green, 30% ),  0, 0 ) };
   &.grey         { @include create-background( lighten( $black, 5% ),   0, 1 ) };
   &.grey-light   { @include create-background( lighten( $black, 70% )   0, 0 ) };
   &.orange       { @include create-background( $tart-orange,            0, 1 ) };

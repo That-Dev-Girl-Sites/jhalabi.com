@@ -57,7 +57,7 @@
     // Text.
     p {
       color: var( --purple );
-      font-size: $type-h4;
+      font-size: var( --type-h4 );
       line-height: 1.65;
       margin-bottom: 2rem !important;
     }

@@ -3,13 +3,25 @@
  */
 
 blockquote {
-  // @extend .icon;
-  // @extend .icon-bubbles;
 
-  border-left: 0.5rem solid var( --purple );
+  // For the quote mark in the background.
+  @extend .icon;
+  @extend .icon-quote-left;
+
+  &::before {
+    color: var( --tart-orange );
+    font-size: 1.5rem;
+    left: 0.5rem;
+    position: absolute;
+    top: 0;
+    transform: rotate(10deg);
+  }
+
+  border-left: 2px solid var( --tart-orange );
   margin-bottom: 2rem;
   margin-top: 2rem;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
+  position: relative;
 
   p {
     @include sans-italic;

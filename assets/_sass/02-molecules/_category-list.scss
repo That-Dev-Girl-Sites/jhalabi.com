@@ -8,7 +8,7 @@
 
   h2 {
     @include sans-bold;
-    font-size: $type-h4;
+    font-size: var( --type-h4 );
     margin-bottom: 0.5rem;
     margin-top: 1rem;
     text-transform: capitalize;
@@ -60,7 +60,7 @@
 
   // Placeholder for the current category.
   span {
-    background-color: var( --purple-light-10 );
+    background-color: var( --black-light-10 );
     color: var( --white );
     display: block;
     padding: 0.4rem 0 0.4rem 0.5rem;

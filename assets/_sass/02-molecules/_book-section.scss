@@ -53,22 +53,22 @@
 
       // Order buttons.
       &:nth-of-type( 1n ) {
-        background-color: var( --tart-orange-dark-10 );
+        --link-bg-color: var( --tart-orange-dark-10 );
 
         &:focus,
         &:hover {
-          background-color: var( --tart-orange-dark-20 );
+          --link-bg-color: var( --tart-orange-dark-20 );
         }
       }
 
       // View button.
       &:nth-of-type( 2n ),
       &:nth-of-type( 3n ) {
-        background-color: var( --purple );
+        --link-bg-color: var( --purple );
 
         &:focus,
         &:hover {
-          background-color: var( --tart-orange-dark-10 );
+          --link-bg-color: var( --tart-orange-dark-10 );
         }
       }
     }

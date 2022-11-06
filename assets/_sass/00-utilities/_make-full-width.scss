@@ -10,15 +10,15 @@
     content: '';
     display: inline-block;
     height: 100%;
-    margin-left: -$page-margin-small;
+    margin-left: calc( #{ var( --page-padding-inline-small ) } * -1 );
     position: absolute;
     top: 0;
     width: 100vw;
     z-index: -1;
 
     @media screen and ( min-width: $md ) {
-      margin-left: -$page-margin-large;
-      padding-left: $page-margin-large;
+      margin-left: calc( #{ var( --page-padding-inline-large ) } * -1 );
+      padding-left: var( --page-padding-inline-large )
     }
   }
 

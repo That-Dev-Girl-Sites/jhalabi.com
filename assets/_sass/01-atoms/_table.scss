@@ -6,7 +6,7 @@ table {
 
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: $type-p;
+  font-size: var( --type-p );
   margin: 2rem 0;
   width: 100%;
 

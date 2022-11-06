@@ -10,8 +10,9 @@
   a,
   span {
     @include monospace;
+    --link-color: var( --copper-dark-30 );
+
     border-radius: 0.1rem;
-    color: var( --copper-dark-30 );
     display: inline-block;
     font-size: 0.9rem;
     margin: 0 0 1rem;
@@ -24,16 +25,20 @@
     }
   }
 
+  span {
+    color: var( --link-color );
+  }
+
   a:focus,
   a:hover {
-    background: var( --copper );
-    color: var( --white );
+    --link-bg-color: var( --copper );
+    --link-color: var( --white );
   }
 
   // Linked previous or next buttons.
   .square {
-    background-color: var( --purple );
-    color: var( --white );
+    --link-bg-color: var( --purple );
+    --link-color: var( --white );
   }
 
   // Unlinked previous or next buttons.
@@ -41,7 +46,7 @@
     border: 1px solid var( --purple );
   }
 
-  // Current page item.
+  // Current page item (span).
   .current {
     background-color: var( --copper-dark-10 );
     color: var( --white );
