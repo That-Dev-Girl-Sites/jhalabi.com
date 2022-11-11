@@ -18,8 +18,7 @@ blockquote {
   }
 
   border-left: 2px solid var( --tart-orange );
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-block: 2rem;
   padding: 1rem 3rem;
   position: relative;
 
@@ -28,7 +27,7 @@ blockquote {
     font-size: 1.25rem;
 
     &:last-child {
-      margin-bottom: 0;
+      margin-bottom: 0 !important;
     } 
   }
 

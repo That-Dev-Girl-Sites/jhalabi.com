@@ -7,41 +7,59 @@
   &-container {
     display: grid;
     gap: 3rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin-top: 2rem;
+    
+    @media screen and ( min-width: $lg ) {
+      padding-right: 4rem;
+      width: $archive-width;
+    }
   }
 
-
   &-quote {
-    background: rgba( #{ var( --white-rgb ) }, 0.85 );
-    border: 2px solid var( --green-dark-20 );
-    margin: 0;
-    padding: 2rem;
-    position: relative;
+    background: rgba( #{ var( --white-rgb ) }, 0.9 );
+    border: 0;
+    box-shadow: 1px 1px 2px var( --black-light-40 );
+    margin-block: 0;
+    padding-block: 2rem;
 
     &::before {
-      @extend .icon-chat;
-      @include icons;
-      color: rgba( darken($copper, 10), 0.1 );
-      display: inline;
-      font-size: 10rem;
-      left: -1rem;
-      position: absolute;
-      top: -1rem;
+      content: '';
     }
 
     p {
-      @include sans-italic;
-      font-size: 1.1rem;
+      // For the quote mark in the background.
+      @extend .icon;
+      @extend .icon-quote-left;
+
+      // Font override.
+      @include sans;
+
+      font-size: var( --type-p );
+
+      &::before {
+        color: var( --seaweed );
+        display: block;
+        font-size: var( --type-h3 );
+        margin-left: -1rem;
+        margin-top: -0.5rem;
+      }
     }
 
     cite {
-      border-top: 1px solid var( --black-light-20 );
+      @include sans;
       display: block;
-      font-size: 0.9rem;
+      font-size: var( --type-small );
       font-style: normal;
-      margin-top: 3rem;
-      padding-top: 0.5rem;
+      margin-block: 2rem;
+
+      &::before {
+        border-top: 2px solid var(--copper);
+        content: '';    
+        display: block;
+        padding-top: 0.8rem;
+        width: 25%;
+      }
     }
   }
 
