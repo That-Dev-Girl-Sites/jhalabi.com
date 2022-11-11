@@ -37,6 +37,9 @@
 
       --type-size: var( --type-p );
 
+      // I have no idea why this is necessary, but it is.
+      font-size: var( --type-size );
+
       &::before {
         --text-color: var( --seaweed );
         --text-size:  var( --type-h3 );
