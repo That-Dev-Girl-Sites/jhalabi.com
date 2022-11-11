@@ -43,7 +43,7 @@ March 22, 2022
 <div markdown="1">
 February 22, 2022
 : {:.icon .icon-location} <a href="https://www.meetup.com/wordpress-social-learning/events/283720638/" aria-label="February 22 meetup details">Meetup</a>
-: {:.icon .icon-play} <a href="https://youtu.be/VGkvVvlIWEM" aria-label="February 22 meetup recording">Watch Recording</a>
+: {:.icon .icon-play} <a href="https://youtu.be/VGkvVvlIWEM" aria-label="Watch recording of February 22 meetup">Watch Recording</a>
 </div>
 </div>
 
@@ -62,7 +62,7 @@ Enter the dynamic block. In this workshop, you will learn about the difference b
 HighEdWeb 2021
 : {:.icon .icon-calendar} October 4-5, 2021
 : {:.icon .icon-location} Online
-: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="Dynamic Blocks FTW talk slides">Dynamic Blocks FTW</a>
 : {:.icon .icon-chat} <a href="https://events.highedweb.org/heweb21/session/559144/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="WordPress Dynamic Blocks HighEdWeb session details">Session Details</a>
 </div>
 
@@ -70,8 +70,8 @@ HighEdWeb 2021
 WPCampus Online 2021
 : {:.icon .icon-calendar} September 21-22, 2021
 : {:.icon .icon-location} Online
-: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
-: {:.icon .icon-play} <a href="https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors/demand" aria-label="WordPress Dynamic Blocks WP Campus video">Watch Video</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="Dynamic Blocks FTW talk slides">Dynamic Blocks FTW</a>
+: {:.icon .icon-play} <a href="https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors/demand" aria-label="Watch video of WordPress Dynamic Blocks WP Campus talk">Watch Video</a>
 </div>
 </div>
 
@@ -89,7 +89,7 @@ WPCampus Online 2020
 : {:.icon .icon-calendar} July 29-30, 2020
 : {:.icon .icon-location} Online
 : {:.icon .icon-chat} <a href="https://talks.jhalabi.com/datavis-lightning/" aria-label="Data Visualization in WP lightning talk slides">Data Visualization in WP</a>
-: {:.icon .icon-play} <a href="https://www.youtube.com/watch?v=LBdJstuzEnc" aria-label="Data Visualization in WP talk video">Watch Video</a>
+: {:.icon .icon-play} <a href="https://www.youtube.com/watch?v=LBdJstuzEnc" aria-label="Watch video of Data Visualization in WP talk">Watch Video</a>
 </div>
 
 <div markdown="1">
@@ -115,7 +115,7 @@ WPCampus Online 2019
 : {:.icon .icon-calendar} January 31, 2019
 : {:.icon .icon-location} Online
 : {:.icon .icon-chat} <a href="https://talks.jhalabi.com/gutenberg/" aria-label="Customizing Gutenberg talk slides">Customizing Gutenberg</a>
-: {:.icon .icon-play} <a href="https://online.wpcampus.org/schedule/customizing-gutenberg-lessons-learned-at-georgetown/" aria-label="Customizing Gutenberg talk video">Watch Video</a>
+: {:.icon .icon-play} <a href="https://online.wpcampus.org/schedule/customizing-gutenberg-lessons-learned-at-georgetown/" aria-label="Watch video of Customizing Gutenberg talk">Watch Video</a>
 </div>
 </div>
 
@@ -164,7 +164,7 @@ In addition to my Accessible Development conference talk, I have also lead a cla
 <div markdown="1">
 Georgetown University
 : {:.icon .icon-location} Online (internal course)
-: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/accessibilityclass/" aria-label="Accessible Development Class slides">Slide Deck</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/accessibilityclass/" aria-label="Accessible Development Class slide deck">Slide Deck</a>
 </div>
 </div>
 
@@ -188,14 +188,14 @@ Introduction to JavaScript workshop
 Introduction to SVG
 : {:.icon .icon-calendar} November 2015
 : {:.icon .icon-location} Northern Virginia CC
-: {:.icon .icon-chat} <a href="https://github.com/thatdevgirl/svg-intro" aria-label="Introduction to SVG notes">See Notes</a>
+: {:.icon .icon-chat} <a href="https://github.com/thatdevgirl/svg-intro" aria-label="See notes for Introduction to SVG">See Notes</a>
 </div>
 
 <div markdown="1">
 Design Tools Mini-Course
 : {:.icon .icon-calendar} May 2016
 : {:.icon .icon-location} General Assembly DC
-: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/designtools/" aria-label="Design Tools Mini-Course slides">Slide Deck</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/designtools/" aria-label="Design Tools Mini-Course slide deck">Slide Deck</a>
 </div>
 
 <div markdown="1">

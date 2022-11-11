@@ -58,13 +58,13 @@
   }
 
   // Color options.
-  &.copper       { @include create-background( lighten( $copper, 40% ), 1, 0 ) };
-  &.green        { @include create-background( lighten( $green, 30% ),  1, 0 ) };
-  &.grey         { @include create-background( lighten( $black, 5% ),   0, 1 ) };
-  &.grey-light   { @include create-background( lighten( $black, 70% )   0, 0 ) };
-  &.orange       { @include create-background( $tart-orange,            0, 1 ) };
-  &.purple       { @include create-background( $purple,                 0, 1 ); }
-  &.purple-light { @include create-background( lighten( $purple, 12% ), 0, 1 ); }
-  &.seaweed      { @include create-background( darken( $seaweed, 5% ),  0, 1 ); }
-  &.timberwolf   { @include create-background( $timberwolf,             1, 0 ); }
+  &.copper       { @include create-background( lighten( $copper, 40% ),     1, 0 ) };
+  &.green        { @include create-background( lighten( $green, 30% ),      1, 0 ) };
+  &.grey         { @include create-background( lighten( $black, 5% ),       0, 1 ) };
+  &.grey-light   { @include create-background( lighten( $black, 70% )       0, 0 ) };
+  &.orange       { @include create-background( darken( $tart-orange, 5% ),  0, 1 ) };
+  &.purple       { @include create-background( $purple,                     0, 1 ); }
+  &.purple-light { @include create-background( lighten( $purple, 12% ),     0, 1 ); }
+  &.seaweed      { @include create-background( darken( $seaweed, 5% ),      0, 1 ); }
+  &.timberwolf   { @include create-background( $timberwolf,                 1, 0 ); }
 }

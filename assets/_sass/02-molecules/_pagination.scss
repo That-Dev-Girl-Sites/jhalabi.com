@@ -34,7 +34,7 @@
 
   // Current page item (span).
   &-current {
-    --text-color: #{ var( --white ) };
+    --text-color: var( --white ) !important;
 
     background-color: var( --copper-dark-10 );
   }
