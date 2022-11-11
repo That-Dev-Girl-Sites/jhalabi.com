@@ -1,21 +1,17 @@
 /**
- * Molecules: Work Examples
+ * Molecules: Work examples
  */
 
 .work-examples {
 
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   margin: 2rem 0 3rem;
 
   @media screen and ( min-width: $lg ) {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: 1fr 1fr;
     padding-right: 4rem;
     width: $archive-width;
-
-    &.three-columns {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
   }
 
 
@@ -25,7 +21,6 @@
     border-radius: 0.25rem;
     box-shadow: 0 1px 2px 0 var( --black-light-40 );
     padding-bottom: 2rem;
-    text-align: center;
 
     * {
       padding: 0 1rem;
@@ -45,9 +40,10 @@
     border: 0;
     border-radius: 0.25rem 0.25rem 0 0;
     float: none;
-    height: 5rem;
+    height: auto;
     margin: 0;
-    width: auto;
+    max-width: unset;
+    width: 100%;
   }
 
   h3 {
@@ -56,9 +52,10 @@
     margin: 0 0 0.5rem 0;
   }
 
-  p {
+  p,
+  p:last-child {
     font-size: 0.9rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 
 }
