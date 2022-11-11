@@ -8,9 +8,9 @@ I have had the pleasure to speak and teach at a number of conferences, meetups, 
 Questions? Comments? Want to chat? [Let me know!](/contact/)
 
 
-<section markdown="1" class="has-background purple" aria-label="The magic of block transforms">
+<section markdown="1" class="has-background timberwolf" aria-label="The magic of block transforms">
 
-## _Upcoming talk!_ Presto Chango: The magic of block transforms
+## Presto Chango: The magic of block transforms
 
 WordPress block transforms provide content editors with an easy way to migrate content from one block to another. The core editor already includes many transforms from one core block to another. Turn a paragraph block into a heading. Turn an image block into a cover. 
 
@@ -28,7 +28,7 @@ HighEdWeb 2022
 </section>
 
 
-<section markdown="1" class="has-background copper" aria-label="Gutenberg Developer Hours">
+<section markdown="1" aria-label="Gutenberg Developer Hours">
 
 ## Gutenberg Developer Hours
 
@@ -49,7 +49,7 @@ February 22, 2022
 
 </section>
 
-<section markdown="1" aria-label="Customize Gutenberg Without Living in Fear of Validation Errors">
+<section markdown="1" class="has-background timberwolf" aria-label="Customize Gutenberg Without Living in Fear of Validation Errors">
 
 ## Dynamic Blocks FTW!: Customize Gutenberg Without Living in Fear of Validation Errors
 
@@ -77,7 +77,7 @@ WPCampus Online 2021
 
 </section>
 
-<section markdown="1" class="has-background copper" aria-label="Data Visualization in WordPress">
+<section markdown="1" aria-label="Data Visualization in WordPress">
 
 ## See What I Mean?: Data Visualization in WordPress
 
@@ -103,7 +103,7 @@ Javascript for WordPress Conference 2020
 </section>
 
 
-<section markdown="1" aria-label="Customizing Gutenberg">
+<section markdown="1" class="has-background timberwolf" aria-label="Customizing Gutenberg">
 
 ## Customizing Gutenberg: Lessons Learned at Georgetown
 
@@ -122,7 +122,7 @@ WPCampus Online 2019
 </section>
 
 
-<section markdown="1" class="has-background copper" aria-label="Accessible Web Development">
+<section markdown="1" aria-label="Accessible Web Development">
 
 ## Accessible Web Development
 
@@ -154,7 +154,7 @@ NoVA CodeCamp
 </section>
 
 
-<section markdown="1" aria-label="Accessible Development Class">
+<section markdown="1" class="has-background timberwolf" aria-label="Accessible Development Class">
 
 ## Accessible Development Class
 
@@ -163,7 +163,7 @@ In addition to my Accessible Development conference talk, I have also lead a cla
 <div markdown="1" class="speaking-details">
 <div markdown="1">
 Georgetown University
-: {:.icon .icon-location} Online (internal staff course)
+: {:.icon .icon-location} Online (internal course)
 : {:.icon .icon-chat} <a href="https://talks.jhalabi.com/accessibilityclass/" aria-label="Accessible Development Class slides">Slide Deck</a>
 </div>
 </div>
@@ -171,7 +171,7 @@ Georgetown University
 </section>
 
 
-<section markdown="1" class="has-background timberwolf" aria-label="Front-End Development Courses">
+<section markdown="1" class="has-background purple" aria-label="Front-End Development Courses">
 
 ## Front-End Development Courses
 
@@ -199,15 +199,10 @@ Design Tools Mini-Course
 </div>
 
 <div markdown="1">
-Front-End Web Development 10-week class
-: {:.icon .icon-calendar} March 2016 - June 2016
+Front-End Web Development 10-week classes
+: {:.icon .icon-calendar} 2015-2016
 : {:.icon .icon-location} General Assembly DC
 </div>
 
-<div markdown="1">
-Front-End Web Development 10-week class
-: {:.icon .icon-calendar} December 2015 - March 2016
-: {:.icon .icon-location} General Assembly DC
-</div>
 </div>
 </section>

@@ -61,13 +61,13 @@ A heartwarming story for single mothers by choice and their families.
 
 <section markdown="1" class="has-background timberwolf" aria-label="Biography">
 
-## About Joni
+## Hello World!
 
 ![My daughter and me](/assets/images/family.jpg)
 
 My name is **Joni** and I am a **"middle-end" web developer** who loves to write code, commit often, and make up her own job titles. I work for Georgetown University and have been writing code since the mid-1980s. I was 2. _(Kidding. Mostly. I know I'm dating myself. Shush.)_
 
-I have developed in all sorts of languages, but I work a lot in WordPress these says, so I spend a lot of time with **JavaScript** and **PHP**. Click around this site for more information about [my work](/work) and [me speaking about my work](/speaking).
+I have developed in all sorts of languages, but I work a lot in WordPress these says, so I spend a lot of time with **JavaScript** and **PHP**. Click around this site for more information about [my work](/work), [my speaking gigs](/speaking), and [my book](/book).
 
 ### Cool! What else?
 
