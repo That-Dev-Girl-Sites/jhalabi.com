@@ -41,7 +41,7 @@
 
     @media screen and ( min-width: $lg ) {
       margin: 0 1px 0.25rem 0;
-      padding: 1rem 0.5rem;
+      padding: 1rem 0.75rem;
     }
 
     &.css     { @include tool-list-color-row( darken( $tart-orange, 10% ) ); }
@@ -51,6 +51,7 @@
 
   // Tool information.
   dd {
+    font-size: var( --type-small );
     margin-bottom: 0.5rem;
     padding: 0 1rem;
 
@@ -62,8 +63,8 @@
 
   // Links.
   a {
+    --link-type-size: var( --type-small );
     display: block;
-    font-size: 0.9rem;
     margin-bottom: 0.75rem;
 
     @media screen and ( min-width: $lg ) {

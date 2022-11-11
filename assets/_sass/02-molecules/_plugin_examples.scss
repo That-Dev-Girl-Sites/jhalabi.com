@@ -1,21 +1,17 @@
 /**
- * Molecules: Work Examples
+ * Molecules: Plugin Examples
  */
 
-.work-examples {
+.plugin-examples {
 
   margin: 2rem 0 3rem;
 
   @media screen and ( min-width: $lg ) {
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-right: 4rem;
     width: $archive-width;
-
-    &.three-columns {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
   }
 
 

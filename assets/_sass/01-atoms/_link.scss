@@ -6,10 +6,12 @@ a {
 
   --link-bg-color: inherit;
   --link-color: var( --copper-dark-20 );
+  --link-type-size: inherit;
 
   background-color: var( --link-bg-color );
   color: var( --link-color );
   font-family: inherit;
+  font-size: var( --link-type-size );
   transition: all 0.3s;
 
   &:focus,
@@ -27,12 +29,12 @@ a {
 
   // Variation: Category
   &.category {
-    --link-bg-color: var( --copper );
-    --link-color:    var( --white );
+    --link-bg-color:  var( --copper );
+    --link-color:     var( --white );
+    --link-type-size: var( --type-small );
 
     border-radius: 0.15rem;    
     display: inline-block;
-    font-size: 0.9rem;
     margin-left: 1rem;
     padding: 0 1rem;
     text-decoration: none;
@@ -57,12 +59,13 @@ a {
   &.button {
     --link-bg-color: var( --purple-dark-10 );
     --link-color: var( --white );
+    --link-type-size: 90%;
 
     border-radius: 0.25rem;
     display: inline-block;
-    font-size: 90%;
-    margin: 1rem 1rem 0.5rem 0;
-    padding: 0.6rem 2rem !important;
+    margin-block: 1rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem 2rem !important;
     text-decoration: none;
 
     &:focus,
