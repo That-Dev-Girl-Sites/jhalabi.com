@@ -1,31 +1,20 @@
 /**
- * Molecules: Work Links
+ * Molecules: Work links
  */
 
 .work-links {
-  padding: 3rem 0;
-
-  @media screen and ( min-width: $lg ) {
-    padding-right: 4rem;
-    width: $archive-width;
-  }
+  padding-block: 2rem;
 
   ul {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     margin: 0;
-
-    @media screen and ( min-width: $md ) {
-      display: grid;
-      grid-gap: 2rem;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    @media screen and ( min-width: $lg ) {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
   }
 
   li {
-    background-color: $work-links-bg;
+    background-color: var( --purple-dark-10 );
+    border-radius: 0.25rem;
     list-style-type: none;
     margin: 0;
     text-align: center;
@@ -33,18 +22,24 @@
 
     &:focus,
     &:hover {
-      background-color: $work-links-bg-hover;
+      background-color: var( --copper-dark-10 );
     }
 
     a {
-      color: $work-links-color;
+      --link-type-size: var( --type-small );
+      --text-color:     var( --actual-white );
+
       display: block;
-      padding: 2rem;
+      padding: 1rem;
       text-decoration: none;
 
       &::before {
+        --text-size: var( --type-h2 );
+
         display: block;
-        font-size: $type-h2;
+        line-height: 1.2;
+        text-align: center;
+        width: 100%;
       }
     }
   }

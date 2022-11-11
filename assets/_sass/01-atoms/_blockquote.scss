@@ -4,14 +4,28 @@
 
 blockquote {
 
-  border-left: 0.5rem solid $blockquote-border;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  padding: 1rem 2rem;
+  // For the quote mark in the background.
+  @extend .icon;
+  @extend .icon-quote-left;
+
+  &::before {
+    --text-color: var( --tart-orange );
+    --text-size:  var( --type-h3 );
+
+    left: 0.5rem;
+    position: absolute;
+    top: 0;
+    transform: rotate(10deg);
+  }
+
+  border-left: 2px solid var( --tart-orange );
+  margin-block: 2rem;
+  padding: 1rem 3rem;
+  position: relative;
 
   p {
     @include sans-italic;
-    font-size: 1.25rem;
+    --text-size:  var( --type-h4 );
 
     &:last-child {
       margin-bottom: 0;

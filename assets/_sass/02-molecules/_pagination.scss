@@ -4,17 +4,19 @@
 
 .pagination {
 
-  padding: 1.5rem 0 0.5rem 0;
+  padding-block: 1.5rem 0.5rem;
 
   // All pagination items, linked or not.
   a,
   span {
     @include monospace;
-    border-radius: 0.1rem;
-    color: $pagination;
+    --link-bg-color: rgba( #{ var( --white-rgb )}, 0.3 );
+    --text-color:    var( --copper-dark-30 );
+    --text-size:     var( --type-small );
+
     display: inline-block;
-    font-size: 0.9rem;
-    margin: 0 0 1rem;
+    margin-bottom: 1rem;
+    margin-inline: 0.1rem;
     padding: 0.25rem 0.55rem;
     text-decoration: none;
 
@@ -26,25 +28,15 @@
 
   a:focus,
   a:hover {
-    background: $pagination-hover-bg;
-    color: $pagination-hover;
+    --link-bg-color: var( --copper );
+    --text-color:    var( --white );
   }
 
-  // Linked previous or next buttons.
-  .square {
-    background-color: $pagination-square-bg;
-    color: $pagination-square;
-  }
+  // Current page item (span).
+  &-current {
+    --text-color: #{ var( --white ) };
 
-  // Unlinked previous or next buttons.
-  .outline {
-    border: 1px solid $pagination-square-bg;
-  }
-
-  // Current page item.
-  .current {
-    background-color: $pagination-current-bg;
-    color: $pagination-current;
+    background-color: var( --copper-dark-10 );
   }
 
 }

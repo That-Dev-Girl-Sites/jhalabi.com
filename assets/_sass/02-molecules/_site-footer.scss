@@ -1,5 +1,5 @@
 /**
- * Molecules: Site Footer
+ * Molecules: Site footer
  */
 
 footer {
@@ -17,7 +17,7 @@ footer {
     // Inner div to constrain block text.
     div {
       @media screen and ( min-width: $md ) {
-        margin-left: $page-margin-large;
+        margin-left: var( --page-padding-inline-large );
         max-width: $max-width;
         width: 50%;
       }
@@ -45,10 +45,11 @@ footer {
 
   // Copyright block.
   .footer-copyright {
-    border-top: 1px solid $footer-border;
+    border-top: 1px solid var( --white );
 
     p {
-      font-size: 0.8rem;
+      --text-size: 0.8rem;
+
       margin: 0;
     }
   }
@@ -56,7 +57,7 @@ footer {
 
   // Day of the week messages.
   #day {
-    &-0, &-1, &-2, &-3, &-4, &-5, &-6,  {
+    &-0, &-1, &-2, &-3, &-4, &-5, &-6  {
       display: none;
 
       &.show {

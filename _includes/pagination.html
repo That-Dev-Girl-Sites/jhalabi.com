@@ -1,16 +1,16 @@
 <nav class="has-background grey-light pagination" aria-label="Pagination">
 
-  <span>Additional pages:</span>
+  <span>More articles:</span>
 
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}" class="square" aria-label="Previous page">&#10094;</a>
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-advance" aria-label="Previous page">&#10094;</a>
   {% else %}
-    <span class="outline">&#10094;</span>
+    <span class="pagination-inactive">&#10094;</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <span class="current">{{ page }}</span>
+      <span class="pagination-current">{{ page }}</span>
     {% elsif page == 1 %}
       <a href="{{ '/blog/' | relative_url }}">{{ page }}</a>
     {% else %}
@@ -19,9 +19,9 @@
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}" class="square" aria-label="Next page">&#10095;</a>
+    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-advance" aria-label="Next page">&#10095;</a>
   {% else %}
-    <span class="outline">&#10095;</span>
+    <span class="pagination-inactive">&#10095;</span>
   {% endif %}
 
 </nav>

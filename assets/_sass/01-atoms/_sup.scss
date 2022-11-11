@@ -3,7 +3,10 @@
  */
 
 sup {
-  color: $sup-color;
-  font-size: 0.8rem;
+
+  --text-color: var( --copper-dark-10 );
+  --text-size:  0.8rem;
+
   margin-right: 0.2rem;
+
 }

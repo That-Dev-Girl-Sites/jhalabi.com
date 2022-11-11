@@ -1,24 +1,32 @@
 /**
- * ATOMS: Input
+ * Atoms: Input
  */
 
 input {
+
+  --text-size: var( --type-small );
+
   border: 0;
   display: block;
-  color: $black !important;
-  margin-bottom: 1rem;
-  margin-top: 0.5rem;
   padding: 0.75rem;
   width: 100%;
 
+  &[type=text],
+  &[type=email] {
+    --text-color: var( --black ) !important;
+  }
+
   &[type=submit] {
-    background-color: $input-submit-bg;
+    --text-color: var( --white );
+
+    background-color: var( --black-light-20 );    
     cursor: pointer;
     transition: all 1s;
 
     &:focus,
     &:hover {
-      background-color: $input-submit-bg-hover;
+      background-color: var( --purple );
     }
   }
+
 }

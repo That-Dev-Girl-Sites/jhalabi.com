@@ -1,16 +1,15 @@
 /**
- * Molecules: Site Header
+ * Molecules: Site header
  */
 
 .site-header {
 
-  border-bottom: 2px solid $site-header-border;
+  border-bottom: 2px solid var( --black-light-30 );
+  padding: 0 var( --page-padding-inline-small );
   margin-bottom: 4rem;
-  margin-left: $page-margin-small;
-  margin-right: 0;
 
   @media screen and ( min-width: $md ) {
-    margin-left: $page-margin-large;
+    padding-left: var( --page-padding-inline-large );
   }
 
 }

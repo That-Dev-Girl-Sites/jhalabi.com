@@ -9,25 +9,34 @@
 
     @media screen and ( min-width: $md ) {
       display: grid;
-      grid-gap: 2rem;
+      gap: 2rem;
       grid-template-columns: 1fr 1fr;
     }
   }
 
   .donate {
-    border-bottom: 1px solid $white;
+    border-bottom: 1px solid var( --white );
     padding-bottom: 1rem;
 
     p {
-      color: $white;
+      --text-color: var( --white );
+
       margin-bottom: 0;
       text-align: center;
     }
 
     a {
-      font-size: 0.9rem;
-      padding: 0.75rem 3rem !important;
+      --link-bg-color: var( --black-light-50 );
+      --text-color:    var( --black ); 
+      --text-size:     var( --type-small );
+
+      padding: 0.75rem 3rem;
       margin-top: 1rem;
+
+      &:focus,
+      &:hover {
+        --link-bg-color: var( --champagne );
+      }
     }
   }
 

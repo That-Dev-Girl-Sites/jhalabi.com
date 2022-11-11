@@ -1,5 +1,5 @@
 /**
- * Molecules: Post Share
+ * Molecules: Post share
  */
 
 .post-share {
@@ -9,24 +9,29 @@
   position: relative;
 
   &-link {
-    background-color: $post-share-bg;
-    border-radius: 0.25rem;
-    color: $post-share-link;
-    font-size: 0.9rem;
+    --link-bg-color: var( --purple );
+    --text-color:    var( --white );
+    --text-size:     var( --type-small );
+
+    border-radius: 0.25rem;    
     margin-right: 1.5rem;
     padding: 0.5rem 1.5rem;
     text-decoration: none;
 
     &:focus,
     &:hover {
-      background-color: $post-share-bg-hover;
+      --link-bg-color: var( --copper-dark-10 );
     }
   }
 
   .icon {
     margin-left: 3px;
     position: relative;
-    top: 2px;
+    top: 1px;
+
+    &::before {
+      margin-right: 0;
+    }
   }
 
 }

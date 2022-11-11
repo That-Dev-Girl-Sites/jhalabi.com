@@ -5,7 +5,8 @@
 code {
 
   @include monospace;
-  color: inherit;
+  --text-color: inherit;
+
   line-height: 1.5;
   white-space: break-spaces;
 

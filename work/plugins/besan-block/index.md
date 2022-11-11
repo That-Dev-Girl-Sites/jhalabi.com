@@ -9,7 +9,7 @@ This WordPress plugin adds a responsive and accessible **data chart** block to t
 [View on GitHub](https://github.com/thatdevgirl/besan-block){:.button .icon .icon-github}
 
 
-<section markdown="1" class="has-background copper" aria-label="Plugin features">
+<section markdown="1" class="has-background timberwolf" aria-label="Plugin features">
 ## Features
 
 This plugin adds a new ("Gutenberg") post editor block that you can use to create responsive and accessible charts using data from a publicly available Google Sheet. The chart color is also customizable, to fit the style of your site.

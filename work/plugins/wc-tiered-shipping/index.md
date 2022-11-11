@@ -9,7 +9,7 @@ This WordPress plugin adds a tiered flat rate shipping option for the WooCommerc
 [View on GitHub](https://github.com/thatdevgirl/woocommerce-tiered-flat-rate){:.button .icon .icon-github}
 
 
-<section markdown="1" class="has-background copper" aria-label="Plugin features">
+<section markdown="1" class="has-background timberwolf" aria-label="Plugin features">
 ## Features
 
 This WordPress plugin extends the WooCommerce plugin. As a store administrator, you can add an incremental flat rate shipping fee to a user's cart based on the number of items in the cart.

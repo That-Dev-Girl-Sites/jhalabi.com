@@ -3,19 +3,19 @@ layout: main
 title: Contact
 ---
 
-I love hearing from people and talking tech. However — and I am being frank here — I have a very active kiddo. And a full time gig. And a kiddo (who would like you to know that she is definitely not a baby). Did I mention the kiddo?
+I love hearing from people and talking tech. However — to put it bluntly — I have a very active kid. And a full time gig. And a kid (who has attained "big girl" status). And a [book](/book) that I'm promoting. Did I mention my big girl?
 
 Regardless, please don't let this scare you off from sending me a message. Replies might just take a bit longer than expected. Let's chat!
 
 {:.contact-options}
-{:.icon .icon-envelop} <span class="sr-only">E-mail</span>
+{:.icon .icon-envelope} <span class="sr-only">E-mail</span>
 : [joni@jhalabi.com](mailto:joni@jhalabi.com)
 
 {:.icon .icon-twitter} <span class="sr-only">Twitter</span>
 : [@jonihalabi](https://twitter.com/jonihalabi)
 
 {:.icon .icon-goodreads} <span class="sr-only">Goodreads</span>
-: [Goodreads](https://www.goodreads.com/jonihalabi)
+: [goodreads.com/jonihalabi](https://www.goodreads.com/jonihalabi)
 
 {:.icon .icon-github} <span class="sr-only">GitHub</span>
 : [@thatdevgirl](https://github.com/thatdevgirl)

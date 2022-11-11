@@ -4,8 +4,9 @@
 
 li {
 
-  font-size: $type-p;
-  line-height: $line-height * 0.9;
+  --text-size: var( --type-p );
+
+  line-height: calc( #{ var( --line-height ) } * 0.9 );
   margin-bottom: 0.75rem;
   margin-left: 2rem;
 
@@ -15,18 +16,18 @@ li {
     list-style-type: none;
     margin: 1rem 0;
 
-
     a {
-      background-color: $pregnancy-tag-bg;
-      color: $pregnancy-tag;
+      --link-bg-color: var( --purple );
+      --text-color:    var( --white );
+      --text-size:     1rem;
+
       display: block;
-      font-size: 1rem;
       padding: 0.75rem 1rem;
       text-decoration: none;
 
       &:focus,
       &:hover {
-        background-color: $pregnancy-tag-hover;
+        --link-bg-color: var( --copper-dark-10 );
       }
     }
   }
@@ -39,14 +40,13 @@ ul, ol {
 
 
 // Footnotes on posts.
-
 hr + ol {
 
   margin-bottom: 4rem;
 
   li {
-    font-size: $type-p * 0.8;
-    line-height: $line-height * 0.7;
+    --text-size: var( --type-small );
+
     margin-left: 1rem;
   }
 

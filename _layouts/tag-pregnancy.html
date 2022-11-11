@@ -1,6 +1,6 @@
 {% include site-header.html %}
 
-<main id="main">
+<main id="main" class="main">
 
   <h1>
     My Pregnancy Story:
@@ -12,7 +12,7 @@
     <i><a href="../">(Or, go back to see all pregnancy articles.)</a></i>
   </p>
 
-  <section aria-label="List of all articles about {{ page.category }}">
+  <section aria-label="All articles about {{ page.category }}">
     {% for post in site.tags[page.category] %}
       {% include article-snip.html %}
     {% endfor %}

@@ -8,13 +8,15 @@
 
   h2 {
     @include sans-bold;
-    font-size: $type-h4;
+    --text-size: var( --type-h4 );
+
     margin-bottom: 0.5rem;
     margin-top: 1rem;
     text-transform: capitalize;
 
     a {
-      color: $catlist-heading;
+      --text-color: var( --black );
+
       text-decoration: none;
       transition: none;
 
@@ -25,7 +27,7 @@
 
       &:focus,
       &:hover {
-        border-bottom: 1px solid $catlist-border;
+        border-bottom: 1px solid var( --black );
       }
     }
   }
@@ -35,8 +37,9 @@
   }
 
   li {
-    border-bottom: 1px solid $catlist-border;
-    font-size: 0.9rem;
+    --text-size: var( --type-small );
+
+    border-bottom: 1px solid var( --black );    
     list-style: none;
     margin: 0;
   }
@@ -49,7 +52,7 @@
 
     &:focus,
     &:hover {
-      background-color: $catlist-hover-bg
+      background-color: var( --timberwolf );
     }
 
     &::after {
@@ -60,8 +63,9 @@
 
   // Placeholder for the current category.
   span {
-    background-color: $catlist-current-bg;
-    color: $catlist-current;
+    --text-color: var( --white );
+
+    background-color: var( --black-light-10 );
     display: block;
     padding: 0.4rem 0 0.4rem 0.5rem;
   }

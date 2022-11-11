@@ -4,23 +4,24 @@
 
 table {
 
+  --text-size: var( --type-p );
+
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: $type-p;
   margin: 2rem 0;
   width: 100%;
 
   thead {
-    background: $purple;
+    background: var( --purple );
     text-align: left;
   }
 
   th {
-    color: $white;
+    --text-color: var( --white );
   }
 
   @media screen and ( max-width: $md ) {
-    border: 1px solid $purple;
+    border: 1px solid var( --purple );
     width: 100%;
 
     thead, tbody {
@@ -89,7 +90,7 @@ table {
 
   @media screen and ( min-width: $md ) {
     tbody tr {
-      border-bottom: 1px solid $black;
+      border-bottom: 1px solid var( --black );
 
       &:last-child {
         border: 0;
@@ -98,7 +99,7 @@ table {
 
     td, th {
       font-weight: 300;
-      border-left: 1px solid $black;
+      border-left: 1px solid var( --black );
       padding: 0.5rem 1rem;
 
       &:first-child {
@@ -107,7 +108,7 @@ table {
     }
 
     th {
-      border-color: $white;
+      border-color: var( --white );
     }
   }
 

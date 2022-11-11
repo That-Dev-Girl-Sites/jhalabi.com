@@ -8,9 +8,9 @@ I have had the pleasure to speak and teach at a number of conferences, meetups, 
 Questions? Comments? Want to chat? [Let me know!](/contact/)
 
 
-<section markdown="1" class="has-background purple" aria-label="The magic of block transforms">
+<section markdown="1" class="has-background timberwolf" aria-label="The magic of block transforms">
 
-## _Upcoming talk!_ Presto Chango: The magic of block transforms
+## Presto Chango: The magic of block transforms
 
 WordPress block transforms provide content editors with an easy way to migrate content from one block to another. The core editor already includes many transforms from one core block to another. Turn a paragraph block into a heading. Turn an image block into a cover. 
 
@@ -21,14 +21,14 @@ But, did you know that you can up your post editor game by writing your own tran
 HighEdWeb 2022
 : {:.icon .icon-calendar} October 4, 2022
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://events.highedweb.org/heweb22/session/901722/presto-chango-the-magic-of-block-transforms" aria-label="The magic of block transforms HighEdWeb session details">Session Details</a>
+: {:.icon .icon-chat} <a href="https://events.highedweb.org/heweb22/session/901722/presto-chango-the-magic-of-block-transforms" aria-label="The magic of block transforms HighEdWeb session details">Session Details</a>
 </div>
 </div>
 
 </section>
 
 
-<section markdown="1" class="has-background copper" aria-label="Gutenberg Developer Hours">
+<section markdown="1" aria-label="Gutenberg Developer Hours">
 
 ## Gutenberg Developer Hours
 
@@ -49,7 +49,7 @@ February 22, 2022
 
 </section>
 
-<section markdown="1" aria-label="Customize Gutenberg Without Living in Fear of Validation Errors">
+<section markdown="1" class="has-background timberwolf" aria-label="Customize Gutenberg Without Living in Fear of Validation Errors">
 
 ## Dynamic Blocks FTW!: Customize Gutenberg Without Living in Fear of Validation Errors
 
@@ -62,22 +62,22 @@ Enter the dynamic block. In this workshop, you will learn about the difference b
 HighEdWeb 2021
 : {:.icon .icon-calendar} October 4-5, 2021
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
-: {:.icon .icon-bubbles} <a href="https://events.highedweb.org/heweb21/session/559144/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="WordPress Dynamic Blocks HighEdWeb session details">Session Details</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
+: {:.icon .icon-chat} <a href="https://events.highedweb.org/heweb21/session/559144/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors" aria-label="WordPress Dynamic Blocks HighEdWeb session details">Session Details</a>
 </div>
 
 <div markdown="1">
 WPCampus Online 2021
 : {:.icon .icon-calendar} September 21-22, 2021
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/dynamic-blocks" aria-label="WordPress Dynamic Blocks talk slides">Dynamic Blocks FTW</a>
 : {:.icon .icon-play} <a href="https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors/demand" aria-label="WordPress Dynamic Blocks WP Campus video">Watch Video</a>
 </div>
 </div>
 
 </section>
 
-<section markdown="1" class="has-background copper" aria-label="Data Visualization in WordPress">
+<section markdown="1" aria-label="Data Visualization in WordPress">
 
 ## See What I Mean?: Data Visualization in WordPress
 
@@ -88,7 +88,7 @@ Data visualizations are graphical representations of large and small datasets. U
 WPCampus Online 2020
 : {:.icon .icon-calendar} July 29-30, 2020
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/datavis-lightning/" aria-label="Data Visualization in WP lightning talk slides">Data Visualization in WP</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/datavis-lightning/" aria-label="Data Visualization in WP lightning talk slides">Data Visualization in WP</a>
 : {:.icon .icon-play} <a href="https://www.youtube.com/watch?v=LBdJstuzEnc" aria-label="Data Visualization in WP talk video">Watch Video</a>
 </div>
 
@@ -96,14 +96,14 @@ WPCampus Online 2020
 Javascript for WordPress Conference 2020
 : {:.icon .icon-calendar} July 8-10, 2020
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/datavis/" aria-label="Data Visualization in WP talk slides">Data Visualization in WP</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/datavis/" aria-label="Data Visualization in WP talk slides">Data Visualization in WP</a>
 </div>
 </div>
 
 </section>
 
 
-<section markdown="1" aria-label="Customizing Gutenberg">
+<section markdown="1" class="has-background timberwolf" aria-label="Customizing Gutenberg">
 
 ## Customizing Gutenberg: Lessons Learned at Georgetown
 
@@ -114,7 +114,7 @@ The new Gutenberg editor comes with so many great content blocks. However, what 
 WPCampus Online 2019
 : {:.icon .icon-calendar} January 31, 2019
 : {:.icon .icon-location} Online
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/gutenberg/" aria-label="Customizing Gutenberg talk slides">Customizing Gutenberg</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/gutenberg/" aria-label="Customizing Gutenberg talk slides">Customizing Gutenberg</a>
 : {:.icon .icon-play} <a href="https://online.wpcampus.org/schedule/customizing-gutenberg-lessons-learned-at-georgetown/" aria-label="Customizing Gutenberg talk video">Watch Video</a>
 </div>
 </div>
@@ -122,7 +122,7 @@ WPCampus Online 2019
 </section>
 
 
-<section markdown="1" class="has-background copper" aria-label="Accessible Web Development">
+<section markdown="1" aria-label="Accessible Web Development">
 
 ## Accessible Web Development
 
@@ -133,28 +133,28 @@ We develop websites for everyone to use, so why not make sure that everyone is a
 edUi
 : {:.icon .icon-calendar} September 25-27, 2017
 : {:.icon .icon-location} Charlottesville, VA
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibility-edui/" aria-label="Accessible Development talk slides for edUi">Accessible Development</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/accessibility-edui/" aria-label="Accessible Development talk slides for edUi">Accessible Development</a>
 </div>
 
 <div markdown="1">
 ConvergeSE
 : {:.icon .icon-calendar} June 14-16, 2017
 : {:.icon .icon-location} Columbia, SC
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibility/" aria-label="Accessible Development talk slides">Accessible Development</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/accessibility/" aria-label="Accessible Development talk slides">Accessible Development</a>
 </div>
 
 <div markdown="1">
 NoVA CodeCamp
 : {:.icon .icon-calendar} April 1, 2017
 : {:.icon .icon-location} Washington, DC
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibility/" aria-label="Accessible Development talk slides">Accessible Development</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/accessibility/" aria-label="Accessible Development talk slides">Accessible Development</a>
 </div>
 </div>
 
 </section>
 
 
-<section markdown="1" aria-label="Accessible Development Class">
+<section markdown="1" class="has-background timberwolf" aria-label="Accessible Development Class">
 
 ## Accessible Development Class
 
@@ -163,15 +163,15 @@ In addition to my Accessible Development conference talk, I have also lead a cla
 <div markdown="1" class="speaking-details">
 <div markdown="1">
 Georgetown University
-: {:.icon .icon-location} Online (internal staff course)
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/accessibilityclass/" aria-label="Accessible Development Class slides">Slide Deck</a>
+: {:.icon .icon-location} Online (internal course)
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/accessibilityclass/" aria-label="Accessible Development Class slides">Slide Deck</a>
 </div>
 </div>
 
 </section>
 
 
-<section markdown="1" class="has-background timberwolf" aria-label="Front-End Development Courses">
+<section markdown="1" class="has-background purple" aria-label="Front-End Development Courses">
 
 ## Front-End Development Courses
 
@@ -188,26 +188,21 @@ Introduction to JavaScript workshop
 Introduction to SVG
 : {:.icon .icon-calendar} November 2015
 : {:.icon .icon-location} Northern Virginia CC
-: {:.icon .icon-bubbles} <a href="https://github.com/thatdevgirl/svg-intro" aria-label="Introduction to SVG notes">See Notes</a>
+: {:.icon .icon-chat} <a href="https://github.com/thatdevgirl/svg-intro" aria-label="Introduction to SVG notes">See Notes</a>
 </div>
 
 <div markdown="1">
 Design Tools Mini-Course
 : {:.icon .icon-calendar} May 2016
 : {:.icon .icon-location} General Assembly DC
-: {:.icon .icon-bubbles} <a href="https://talks.jhalabi.com/designtools/" aria-label="Design Tools Mini-Course slides">Slide Deck</a>
+: {:.icon .icon-chat} <a href="https://talks.jhalabi.com/designtools/" aria-label="Design Tools Mini-Course slides">Slide Deck</a>
 </div>
 
 <div markdown="1">
-Front-End Web Development 10-week class
-: {:.icon .icon-calendar} March 2016 - June 2016
+Front-End Web Development 10-week classes
+: {:.icon .icon-calendar} 2015-2016
 : {:.icon .icon-location} General Assembly DC
 </div>
 
-<div markdown="1">
-Front-End Web Development 10-week class
-: {:.icon .icon-calendar} December 2015 - March 2016
-: {:.icon .icon-location} General Assembly DC
-</div>
 </div>
 </section>

@@ -4,12 +4,21 @@
 
 * {
   @include sans;
+  --text-color: var( --black );
+  --text-size: 100%;
+
   box-sizing: border-box;
-  color: $color;
-  font-size: 100%;
+  color: var( --text-color );
+  font-size: var( --text-size );
   font-weight: 400;
   margin: 0;
   padding: 0;
+
+  &::before,
+  &::after {
+    color: var( --text-color );
+    font-size: var( --text-size );
+  }
 }
 
 br {

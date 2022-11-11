@@ -1,5 +1,5 @@
 /**
- * Utilities: Has Background
+ * Utilities: Has background
  *
  * Special helpers for layout items that have full-bleed backgrounds.
  */
@@ -32,7 +32,9 @@
 
   // Set the color to white if this is a dark background.
   @if $is_dark_bg != 0 {
-    * { color: $white; }
+    * { 
+      --text-color: var( --white );
+    }
   }
 }
 
@@ -56,14 +58,13 @@
   }
 
   // Color options.
-  &.copper       { @include create-background( $section-bg-copper,       1, 0 ) };
-  &.green        { @include create-background( $section-bg-green,        1, 0 ) };
-  &.green-dark   { @include create-background( $section-bg-green-dark,   0, 1 ) };
-  &.grey         { @include create-background( $section-bg-grey,         0, 1 ) };
-  &.grey-light   { @include create-background( $section-bg-grey-light    0, 0 ) };
-  &.orange       { @include create-background( $section-bg-orange,       0, 1 ) };
-  &.purple       { @include create-background( $section-bg-purple,       0, 1 ); }
-  &.purple-light { @include create-background( $section-bg-purple-light, 0, 1 ); }
-  &.seaweed      { @include create-background( $section-bg-seaweed,      0, 1 ); }
-  &.timberwolf   { @include create-background( $section-bg-timberwolf,   1, 0 ); }
+  &.copper       { @include create-background( lighten( $copper, 40% ), 1, 0 ) };
+  &.green        { @include create-background( lighten( $green, 30% ),  1, 0 ) };
+  &.grey         { @include create-background( lighten( $black, 5% ),   0, 1 ) };
+  &.grey-light   { @include create-background( lighten( $black, 70% )   0, 0 ) };
+  &.orange       { @include create-background( $tart-orange,            0, 1 ) };
+  &.purple       { @include create-background( $purple,                 0, 1 ); }
+  &.purple-light { @include create-background( lighten( $purple, 12% ), 0, 1 ); }
+  &.seaweed      { @include create-background( darken( $seaweed, 5% ),  0, 1 ); }
+  &.timberwolf   { @include create-background( $timberwolf,             1, 0 ); }
 }
