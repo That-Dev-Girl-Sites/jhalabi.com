@@ -4,9 +4,10 @@
 
 table {
 
+  --text-size: var( --type-p );
+
   border-collapse: collapse;
   border-spacing: 0;
-  font-size: var( --type-p );
   margin: 2rem 0;
   width: 100%;
 
@@ -16,7 +17,7 @@ table {
   }
 
   th {
-    color: $white;
+    --text-color: var( --white );
   }
 
   @media screen and ( max-width: $md ) {

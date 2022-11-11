@@ -9,7 +9,7 @@ This WordPress plugin provides site administrators with the ability to turn on a
 [View on GitHub](https://github.com/thatdevgirl/block-controller){:.button .icon .icon-github}
 
 
-<section markdown="1" class="has-background copper" aria-label="Plugin features">
+<section markdown="1" class="has-background timberwolf" aria-label="Plugin features">
 ## Features
 
 This plugin allows a content editor to turn on and off any post editor ("Gutenberg") block. An editor can only disable a block that is not currently in use. Blocks that exist on at least one post or page are not eligible to be turned off.

@@ -11,10 +11,10 @@
   span {
     @include monospace;
     --link-bg-color: rgba( #{ var( --white-rgb )}, 0.3 );
-    --link-color: var( --copper-dark-30 );
+    --text-color:    var( --copper-dark-30 );
+    --text-size:     var( --type-small );
 
     display: inline-block;
-    font-size: var( --type-small );
     margin-bottom: 1rem;
     margin-inline: 0.1rem;
     padding: 0.25rem 0.55rem;
@@ -29,13 +29,14 @@
   a:focus,
   a:hover {
     --link-bg-color: var( --copper );
-    --link-color: var( --white );
+    --text-color:    var( --white );
   }
 
   // Current page item (span).
   &-current {
+    --text-color: #{ var( --white ) };
+
     background-color: var( --copper-dark-10 );
-    color: var( --white );
   }
 
 }

@@ -9,8 +9,9 @@ blockquote {
   @extend .icon-quote-left;
 
   &::before {
-    color: var( --tart-orange );
-    font-size: 1.5rem;
+    --text-color: var( --tart-orange );
+    --text-size:  var( --type-h3 );
+
     left: 0.5rem;
     position: absolute;
     top: 0;
@@ -24,10 +25,10 @@ blockquote {
 
   p {
     @include sans-italic;
-    font-size: 1.25rem;
+    --text-size:  var( --type-h4 );
 
     &:last-child {
-      margin-bottom: 0 !important;
+      margin-bottom: 0;
     } 
   }
 

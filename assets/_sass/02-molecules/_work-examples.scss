@@ -48,13 +48,14 @@
 
   h3 {
     @include sans;
-    font-size: var( --type-h3 );
+    --text-size: var( --type-h3 );
+
     margin: 0 0 0.5rem 0;
   }
 
-  p,
-  p:last-child {
-    font-size: 0.9rem;
+  p {
+    --text-size: var( --type-small );
+
     margin-bottom: 1rem;
   }
 

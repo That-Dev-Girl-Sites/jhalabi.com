@@ -9,7 +9,7 @@ This WordPress plugin adds a Color Palette block to the post editor, so content 
 [View on GitHub](https://github.com/thatdevgirl/wordpress-color-palette){:.button .icon .icon-github}
 
 
-<section markdown="1" class="has-background copper" aria-label="Plugin features">
+<section markdown="1" class="has-background timberwolf" aria-label="Plugin features">
 ## Features
 
 The Color Palette block displays a group of colors on your page. The block starts with 3 individual Color blocks, but you can add additional blocks or remove excess blocks as needed.

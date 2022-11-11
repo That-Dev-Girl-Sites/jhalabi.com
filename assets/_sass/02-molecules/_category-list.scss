@@ -8,13 +8,15 @@
 
   h2 {
     @include sans-bold;
-    font-size: var( --type-h4 );
+    --text-size: var( --type-h4 );
+
     margin-bottom: 0.5rem;
     margin-top: 1rem;
     text-transform: capitalize;
 
     a {
-      color: var( --black );
+      --text-color: var( --black );
+
       text-decoration: none;
       transition: none;
 
@@ -35,8 +37,9 @@
   }
 
   li {
-    border-bottom: 1px solid var( --black );
-    font-size: 0.9rem;
+    --text-size: var( --type-small );
+
+    border-bottom: 1px solid var( --black );    
     list-style: none;
     margin: 0;
   }
@@ -60,8 +63,9 @@
 
   // Placeholder for the current category.
   span {
+    --text-color: var( --white );
+
     background-color: var( --black-light-10 );
-    color: var( --white );
     display: block;
     padding: 0.4rem 0 0.4rem 0.5rem;
   }

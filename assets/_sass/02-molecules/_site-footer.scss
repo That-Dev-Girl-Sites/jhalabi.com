@@ -1,5 +1,5 @@
 /**
- * Molecules: Site Footer
+ * Molecules: Site footer
  */
 
 footer {
@@ -48,7 +48,8 @@ footer {
     border-top: 1px solid var( --white );
 
     p {
-      font-size: 0.8rem;
+      --text-size: 0.8rem;
+
       margin: 0;
     }
   }

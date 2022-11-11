@@ -35,7 +35,8 @@
 
   // Tool name.
   dt {
-    color: var( --white );
+    --text-color: var( --white );
+
     margin: 2rem 0 0.5rem 0;
     padding: 0.5rem 1rem;
 
@@ -51,7 +52,8 @@
 
   // Tool information.
   dd {
-    font-size: var( --type-small );
+    --text-size: var( --type-small );
+
     margin-bottom: 0.5rem;
     padding: 0 1rem;
 

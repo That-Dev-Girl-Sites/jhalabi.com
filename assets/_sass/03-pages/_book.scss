@@ -1,5 +1,5 @@
 /***
- * Book
+ * Pages: Book
  */
 
 .book-page {
@@ -11,7 +11,8 @@
   // Title.
   &-title {
     @include make-full-width;
-    color: var( --white );
+    --text-color: var( --white );
+
     margin-bottom: 0;
     margin-top: -4.15rem;
     padding: 0.5rem 0;
@@ -56,8 +57,9 @@
 
     // Text.
     p {
-      color: var( --purple );
-      font-size: var( --type-h4 );
+      --text-color: var( --purple );
+      --text-size: var( --type-h4 );
+
       line-height: 1.65;
       margin-bottom: 2rem !important;
     }
@@ -97,10 +99,11 @@
 
     &-buttons {
       p {
+        --text-size: var( --type-small );
+
         display: grid;
         gap: 0.5rem;
         grid-template-columns: 1fr 1fr;
-        font-size: 0.9rem;
         text-align: center;
       }
 

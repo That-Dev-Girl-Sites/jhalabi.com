@@ -5,13 +5,11 @@
 a {
 
   --link-bg-color: inherit;
-  --link-color: var( --copper-dark-20 );
-  --link-type-size: inherit;
+  --text-color:    var( --copper-dark-20 );
+  --text-size:     inherit;
 
   background-color: var( --link-bg-color );
-  color: var( --link-color );
   font-family: inherit;
-  font-size: var( --link-type-size );
   transition: all 0.3s;
 
   &:focus,
@@ -22,16 +20,17 @@ a {
 
   // Anything inside a link should inherit the properties of the link.
   * {
-    color: inherit;
+    --text-color: inherit;
+  
     font-family: inherit;
   }
 
 
   // Variation: Category
   &.category {
-    --link-bg-color:  var( --copper );
-    --link-color:     var( --white );
-    --link-type-size: var( --type-small );
+    --link-bg-color: var( --copper );
+    --text-color:    var( --white );
+    --text-size:     var( --type-small );
 
     border-radius: 0.15rem;    
     display: inline-block;
@@ -58,14 +57,14 @@ a {
   // Variation: Button
   &.button {
     --link-bg-color: var( --purple-dark-10 );
-    --link-color: var( --white );
-    --link-type-size: 90%;
+    --text-color:    var( --white );
+    --text-size:     90%;
 
     border-radius: 0.25rem;
     display: inline-block;
     margin-block: 1rem;
     margin-right: 0.5rem;
-    padding: 0.5rem 2rem !important;
+    padding: 0.5rem 2rem;
     text-decoration: none;
 
     &:focus,
@@ -83,7 +82,7 @@ a {
   // Variation: Skip link
   &.skip-link {
     --link-bg-color: var( --purple );
-    --link-color: var( --actual-white );
+    --text-color:    var( --actual-white );
 
     left: 50%;
     padding: 0.5rem 1rem;

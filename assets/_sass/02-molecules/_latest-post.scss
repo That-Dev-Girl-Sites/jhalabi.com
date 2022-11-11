@@ -1,5 +1,5 @@
 /**
- * Molecules: Latest Post
+ * Molecules: Latest post
  */
 
 .latest-post {
@@ -23,14 +23,16 @@
 
   // Post meta information (categories and date).
   &-meta {
-    font-size: 0.9rem;
+    --text-size: var( --type-small );
+
     margin-bottom: 0 !important;
 
     span {
       &::after {
+        --text-size: 0.75rem;
+
         content: '&&';
         display: inline-block;
-        font-size: 0.75rem;
         margin: 0 0.1rem 0 0.35rem;
       }
 
@@ -48,7 +50,7 @@
     margin-top: 0;
 
     a {
-      --link-color: var( --black );
+      --text-color: var( --black );
     }
   }
 

@@ -1,5 +1,5 @@
 /**
- * Molecules: Nav, Primary
+ * Molecules: Nav, primary
  */
 
 .nav-primary {
@@ -12,8 +12,9 @@
   }
 
   li {
+    --text-size: var( --type-small );
+
     display: inline-block;
-    font-size: var( --type-small );
     list-style: none;
     margin: 0 1.5rem 0.5rem 0;
     text-transform: lowercase;
@@ -25,7 +26,7 @@
 
   a {
     @include monospace;
-    --link-color: var( --copper-dark-10 );
+    --text-color: var( --copper-dark-10 );
   }
 
   .current {

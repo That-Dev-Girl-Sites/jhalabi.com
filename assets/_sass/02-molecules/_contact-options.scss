@@ -1,5 +1,5 @@
 /**
- * Molecules: Contact Options
+ * Molecules: Contact options
  */
 
 .contact-options {
@@ -12,8 +12,8 @@
     padding: 1rem 0 1rem 1rem;
 
     &::before {
-      font-size: 2rem;
-      color: var( --black-light-10 );
+      --text-color: var( --black-light-10 );
+      --text-size:  var( --type-h2 );
     }
 
     &:nth-of-type(2n) {
@@ -30,7 +30,7 @@
   }
 
   a {
-    --link-color: var( --copper-dark-20 );
+    --text-color: var( --copper-dark-20 );
   }
 
 }

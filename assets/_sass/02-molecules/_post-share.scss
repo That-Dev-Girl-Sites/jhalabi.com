@@ -1,5 +1,5 @@
 /**
- * Molecules: Post Share
+ * Molecules: Post share
  */
 
 .post-share {
@@ -10,10 +10,10 @@
 
   &-link {
     --link-bg-color: var( --purple );
-    --link-color: var( --white );
+    --text-color:    var( --white );
+    --text-size:     var( --type-small );
 
     border-radius: 0.25rem;    
-    font-size: 0.9rem;
     margin-right: 1.5rem;
     padding: 0.5rem 1.5rem;
     text-decoration: none;

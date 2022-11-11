@@ -15,7 +15,7 @@ figure {
 
   figcaption {
     @include sans-italic;
-    font-size: 0.9rem;
+    --text-size: var( --type-small );
   }
 
 }

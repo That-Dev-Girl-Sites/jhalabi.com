@@ -1,5 +1,5 @@
 /**
- * Atoms: Code highlighter.
+ * Atoms: Code highlighter
  */
 
 pre.highlight {
@@ -9,7 +9,7 @@ pre.highlight {
   padding: 1.5rem;
 
   code span {
-    color: var( --white );
+    --text-color: var( --white );
   }
   
 }

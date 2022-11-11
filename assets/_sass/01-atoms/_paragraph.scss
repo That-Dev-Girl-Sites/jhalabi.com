@@ -4,7 +4,8 @@
 
 p {
 
-  font-size: var( --type-p );
+  --text-size: var( --type-p );
+
   line-height: var( --line-height );
   margin-bottom: 1.5rem;
 
@@ -12,13 +13,14 @@ p {
   // Variation: Date
   &.date {
     @include sans-italic;
-    font-size: var( --type-small );
+    --text-size: var( --type-small );
   }
 
 
   // Variation: Categories
   &.categories {
-    font-size: var( --type-small );
+    --text-size: var( --type-small );
+
     margin-bottom: 0 !important;
     margin-top: 0.5rem;
   }
@@ -27,11 +29,13 @@ p {
   // Variation: Title
   &.title {
     @include monospace-bold;
-    font-size: var( --type-h4 );
+    --text-size: var( --type-h4 );
+
     margin-bottom: 0.5rem;
 
     a {
-      color: var( --purple-light-10 );
+      --text-color: var( --purple-light-10 );
+
       text-decoration: none;
 
       &:focus,
@@ -44,7 +48,7 @@ p {
 
   // Variation: Excerpt
   &.excerpt {
-    font-size: var( --type-small );
+    --text-size: var( --type-small );
   }
 
 }
@@ -52,7 +56,8 @@ p {
 
 // Variation: Work title, which is directly after the current work heading.
 #current-work + p {
-  color: var( --purple );
-  font-size: var( --type-h3 );
+  --text-color: var( --purple );
+  --text-size:  var( --type-h3 );
+
   margin-bottom: 0;
 }

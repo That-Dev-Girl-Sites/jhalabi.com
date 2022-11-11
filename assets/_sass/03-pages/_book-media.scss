@@ -1,5 +1,5 @@
 /***
- * Book Media Kit
+ * Pages: Book media kit
  */
 
 .book-media {
@@ -21,8 +21,9 @@
     }
 
     .button.media-kit {
+      --text-size: var( --type-h4 );
+
       background: var( --tart-orange );
-      font-size: var( --type-h4 );
 
       &:focus,
       &:hover {
@@ -75,7 +76,8 @@
   // Social media icons for people.
   &-people-social {
     a {
-      color: var( --tart-orange );
+      --text-color: var( --tart-orange );
+
       margin-right: 0.5rem;
       text-decoration: none;
     }

@@ -1,5 +1,5 @@
 /**
- * Utilities: Has Background
+ * Utilities: Has background
  *
  * Special helpers for layout items that have full-bleed backgrounds.
  */
@@ -32,7 +32,9 @@
 
   // Set the color to white if this is a dark background.
   @if $is_dark_bg != 0 {
-    * { color: var( --white ); }
+    * { 
+      --text-color: var( --white );
+    }
   }
 }
 

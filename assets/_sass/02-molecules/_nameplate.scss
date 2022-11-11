@@ -16,9 +16,9 @@
 
   a {
     @include sans;
-    --link-color: var( --black );
+    --text-color: var( --black );
+    --text-size:  var( --type-nameplate );
 
-    font-size: var( --type-nameplate );
     text-decoration: none;
 
     // The logo gets added within the link, but before the link text, so it

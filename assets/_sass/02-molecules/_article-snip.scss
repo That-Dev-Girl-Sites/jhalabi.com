@@ -19,7 +19,8 @@
   }
 
   .title {
-    font-size: var( --type-h3 );
+    --text-size: var( --type-h3 );
+
     line-height: 1.5;
     margin-bottom: 0;
     margin-top: 0.5rem;

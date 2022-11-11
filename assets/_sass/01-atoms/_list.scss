@@ -4,7 +4,8 @@
 
 li {
 
-  font-size: var( --type-p );
+  --text-size: var( --type-p );
+
   line-height: calc( #{ var( --line-height ) } * 0.9 );
   margin-bottom: 0.75rem;
   margin-left: 2rem;
@@ -17,10 +18,10 @@ li {
 
     a {
       --link-bg-color: var( --purple );
-      --link-color: var( --white );
+      --text-color:    var( --white );
+      --text-size:     1rem;
 
       display: block;
-      font-size: 1rem;
       padding: 0.75rem 1rem;
       text-decoration: none;
 
@@ -44,7 +45,8 @@ hr + ol {
   margin-bottom: 4rem;
 
   li {
-    font-size: calc( #{ var( --type-p ) } * 0.8 );
+    --text-size: var( --type-small );
+
     margin-left: 1rem;
   }
 
