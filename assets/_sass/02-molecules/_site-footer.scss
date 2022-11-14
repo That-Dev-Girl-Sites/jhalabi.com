@@ -40,6 +40,19 @@ footer {
       @include monospace;
       margin-bottom: 0.25rem;
     }
+
+    // Social icons.
+    .icon {
+      &::before {
+        --text-size: var( --type-p );
+        margin-inline: 0.25rem;
+      }
+      
+      &:focus,
+      &:hover {
+        border-bottom: 2px solid var( --white );
+      }
+    }
   }
 
 
