@@ -171,7 +171,7 @@ Georgetown University
 </section>
 
 
-<section markdown="1" class="has-background purple" aria-label="Front-End Development Courses">
+<section markdown="1" class="has-background timberwolf-dark add-top-border" aria-label="Front-End Development Courses">
 
 ## Front-End Development Courses
 
