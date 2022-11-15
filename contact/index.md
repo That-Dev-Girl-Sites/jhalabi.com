@@ -15,7 +15,7 @@ Regardless, please don't let this scare you off from sending me a message. Repli
 : [@jonihalabi](https://twitter.com/jonihalabi)
 
 {:.icon .icon-mastodon} <span class="sr-only">Mastodon</span>
-: [@jonihalabi@techhub.social](https://techhub.social/@jonihalabi)
+: [@jonihalabi@higheredweb.social](https://higheredweb.social/@jonihalabi)
 
 {:.icon .icon-goodreads} <span class="sr-only">Goodreads</span>
 : [goodreads.com/jonihalabi](https://www.goodreads.com/jonihalabi)
