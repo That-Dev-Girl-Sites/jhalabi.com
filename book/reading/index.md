@@ -26,13 +26,22 @@ I feel the need to apologize for 2020. And 2021. And... also 2022. I could blame
   <a href="#books-2010">2010</a>
 </nav>
 
+<hr class="books">
+
 ## Books Read in 2023 {#books-2023}
+
+(Total: 1)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
 **Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things** <br> _Josh Clark & Chuck Bryant_ | This book is interesting, informative, and funny, just like the SYSK podcast, except, you know, in book form. There were even many (many) parts of the book where I could hear Josh or Chuck's voice as I was reading. <span class='fa fa-heart'></span> | January
 
+
+<hr class="books">
+
 ## Books Read in 2022 {#books-2022}
+
+(Total: 3)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -40,20 +49,35 @@ Book | Thoughts | Date Read
 **Fortunately, The Milk** <br> _Neil Gaiman_ | A super quick YA read by my favorite author. It's silly, quirky, and so much fun to read. <span class='fa fa-heart'></span> | August
 **Cosmic Blackout! (Galaxy Zack #16)** <br> _Ray O'Ryan_ | It has definitely been a rough couple of years for reading, so I eased myself back in with a YA. This was a fun one! | February
 
+
+<hr class="books">
+
 ## Books Read in 2021 {#books-2021}
+
+(Total: 1)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
 **The Perks of Being a Wallflower** <br> _Stephen Chbosky_ | Hey books! It's been a while. Again. Honestly, the only reason I have time to read anything recreationally now is because my 3 year old won't sleep alone and I can't fall asleep at 8pm, so I lie down on her floor and read under a blanket. Reminiscent of my teen years, to be honest. Regardless, this book was captivating, relatable, and done in 3 days. (Well, nights.) <span class='fa fa-heart'></span> | August
 
+
+<hr class="books">
+
 ## Books Read in 2020 {#books-2020}
+
+(Total: 2)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
 **Are You There God? It's Me, Margaret.** <br> _Judy Blume_ | Hey 2020. This is embarrassing, but it's been almost a year since I've read a grown up book. I decided to start with an "easy" one. Loved it. I wish I read it sooner. <span class='fa fa-heart'></span> | December
 **Bad Blood: Secrets and Lies in a Silicon Valley Startup** <br> _John Carreyrou_ | This book made me so angry, but I could not put it down. Definitely worth the read if you have any interest in startup culture, healthcare, and what not to do. <span class='fa fa-heart'></span> | January
 
+
+<hr class="books">
+
 ## Books Read in 2019 {#books-2019}
+
+(Total: 10)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -68,7 +92,12 @@ Book | Thoughts | Date Read
 **Encyclopedia of an Ordinary Life** <br> _Amy Krouse Rosenthal_ | Yup. It's been a while. #kids This book was a great dive back into reading a whole book because it is such short snippets at a time. Great bedtime reading. | June
 **Notorious RBG: The Life and Times of Ruth Bader Ginsburg** <br> _Irin Carmon & Shana Knizhnik_ | Thank you to my book club for finally motivating me into reading again. I actually read this out loud to my baby (after her books, that is) at night (and this put her to sleep). But, it did not put _me_ to sleep. RBG is truly amazing! <span class='fa fa-heart'></span> | March
 
+
+<hr class="books">
+
 ## Books Read in 2018  {#books-2018}
+
+(Total: 10)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -83,7 +112,12 @@ Book | Thoughts | Date Read
 **Never Have Your Dog Stuffed** <br> _Alan Alda_ | I love biographies and Alan Alda is amazing. <span class='fa fa-heart'></span> | April
 **The Girlfriend's Guide to Pregnancy** <br> _Vicki Iovine_ | Several friends recommended this book to me after I announced my pregnancy. Great advice about all aspects of pregnancy - and way more interesting to read than typical pregnancy books. <span class='fa fa-heart'></span> | January
 
+
+<hr class="books">
+
 ## Books Read in 2017 {#books-2017}
+
+(Total: 25)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -113,7 +147,12 @@ Book | Thoughts | Date Read
 **How To Make Sense Of Any Mess** <br> _Abby Covert_ | Very basic book on information architecture. Great for beginners. | February
 **The Gemini Effect** <br> _Chuck Grossart_ | Creepy, messed up, and really compelling. | January
 
+
+<hr class="books">
+
 ## Books Read in 2016 {#books-2016}
+
+(Total: 13)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -131,7 +170,12 @@ Book | Thoughts | Date Read
 **Kitchen Confidential** <br> _Anthony Bourdain_ | Finally got back into reading after a very chaotic few months.  Interesting (and very opinionated) read about the restaurant business and food in general. | May
 **The Name of the Wind** <br> _Patrick Rothfuss_ | My friends have been trying to get me into Patrick Rothfuss for years now.  They finally succeeded.  So good. Starting the next book in 3... 2... 1.... Loved it! <span class='fa fa-heart'></span> | January
 
+
+<hr class="books">
+
 ## Books Read in 2015 {#books-2015}
+
+(Total: 25)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -161,7 +205,12 @@ Book | Thoughts | Date Read
 **Lean UX: Applying Lean Principles to Improve User Experience** <br> _Jeff Gothelf_ | Yes. Yes. Yes. Just yes. If you are in UX, you should read this now. | January
 **Someone** <br> _Alice McDermott_ | I love stories about people. This reads like a biography (sort of), but it is fiction. I really enjoyed it. | January
 
+
+<hr class="books">
+
 ## Books Read in 2014 {#books-2014}
+
+(Total: 21)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -187,7 +236,12 @@ Book | Thoughts | Date Read
 **Old Man's War** <br> _John Scalzi_ | Classic sci-fi novel that was recommended to me by way too many friends. Totally worth it. This book is a fascinating story about second chances. Loved it!	<span class='fa fa-heart'></span> | January
 **Aria** <br> _Nassim Assefi_ | This book broke my heart. That is all. Loved it! <span class='fa fa-heart'></span> | January
 
+
+<hr class="books">
+
 ## Books Read in 2013 {#books-2013}
+
+(Total: 19)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -211,7 +265,12 @@ Book | Thoughts | Date Read
 **Holidays on Ice** <br> _David Sedaris_ | Yes, I read a holiday book after the holidays. That is weird. The book was weird. But good weird. | January
 **Learning Javascript Design Patterns** <br> _Addy Osmani_ | After a 1 month + reading hiatus, I started off the new year with a tech book. Why not? This book was hard to read as a narrative, but will be a fantastic resource. | January
 
+
+<hr class="books">
+
 ## Books Read in 2012 {#books-2012}
+
+(Total: 26)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -242,7 +301,12 @@ Book | Thoughts | Date Read
 **Comfort Food** <br> _Kate Jacobs_ | A good read, but kind of predictable. I liked "Friday Night Knitting Club" better. | January
 **The Paris Wife** <br> _Paula McLain_ | Hemingway got around... I had no idea. This is fiction, but based on fact and a great read. | January
 
+
+<hr class="books">
+
 ## Books Read in 2011 {#books-2011}
+
+(Total: 32)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -279,7 +343,12 @@ Book | Thoughts | Date Read
 **Pride and Prejudice and Zombies** <br> _Jane Austen & Seth Grahame-Smith_ | I did not care for the original, but really enjoyed this version. Zombies make the story better. | January
 **Martin's Big Words: The Life of Dr. Martin Luther King, Jr.** <br> _Doreen Rappaport_ | An In2Books pen-pal book for the biography unit. | January
 
+
+<hr class="books">
+
 ## Books Read in 2010 {#books-2010}
+
+(Total: 10)
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
