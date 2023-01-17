@@ -30,7 +30,7 @@ I feel the need to apologize for 2020. And 2021. And... also 2022. I could blame
 
 ## Books Read in 2023 {#books-2023}
 
-(Total: 1)
+<p class="book-count">(Total: 1)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -41,7 +41,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2022 {#books-2022}
 
-(Total: 3)
+<p class="book-count">(Total: 3)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -54,7 +54,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2021 {#books-2021}
 
-(Total: 1)
+<p class="book-count">(Total: 1)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -65,7 +65,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2020 {#books-2020}
 
-(Total: 2)
+<p class="book-count">(Total: 2)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -77,7 +77,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2019 {#books-2019}
 
-(Total: 10)
+<p class="book-count">(Total: 10)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -97,7 +97,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2018  {#books-2018}
 
-(Total: 10)
+<p class="book-count">(Total: 10)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -117,7 +117,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2017 {#books-2017}
 
-(Total: 25)
+<p class="book-count">(Total: 25)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -152,7 +152,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2016 {#books-2016}
 
-(Total: 13)
+<p class="book-count">(Total: 13)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -175,7 +175,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2015 {#books-2015}
 
-(Total: 25)
+<p class="book-count">(Total: 25)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -210,7 +210,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2014 {#books-2014}
 
-(Total: 21)
+<p class="book-count">(Total: 21)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -241,7 +241,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2013 {#books-2013}
 
-(Total: 19)
+<p class="book-count">(Total: 19)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -270,7 +270,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2012 {#books-2012}
 
-(Total: 26)
+<p class="book-count">(Total: 26)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -306,7 +306,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2011 {#books-2011}
 
-(Total: 32)
+<p class="book-count">(Total: 32)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -348,7 +348,7 @@ Book | Thoughts | Date Read
 
 ## Books Read in 2010 {#books-2010}
 
-(Total: 10)
+<p class="book-count">(Total: 10)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
