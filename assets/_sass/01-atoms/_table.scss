@@ -107,12 +107,18 @@ table {
       }
 
       td {
-        margin: 1rem 0 !important;
+        display: block;
+        margin: 1rem 0;
+
+        &:first-child::after {
+          content: '';
+        }
 
         &:nth-child(3)::before {
+          @include sans-bold;
           content: 'Read: ';
           display: inline-block;
-          font-weight: bold;
+          padding-right: 0.5rem;
         }
       }
     }
