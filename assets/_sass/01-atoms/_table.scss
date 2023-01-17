@@ -110,8 +110,8 @@ table {
         display: block;
         margin: 1rem 0;
 
-        &:first-child::after {
-          content: '';
+        &::after {
+          content: '' !important;
         }
 
         &:nth-child(3)::before {
