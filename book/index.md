@@ -61,6 +61,16 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 <div class="review-container">
   <blockquote class="review-quote">
     <p>
+      Sweet Little You by Joni Halabi is an inspirational children’s picture book about a mother sharing her journey of donor-assisted reproduction in a way that a child might be able to understand. [...] There is a happiness that washes over you as you read this story and you find yourself in awe of this family of two.
+    </p>
+
+    <cite markdown="1">
+      **Erin Nicole Cochran**, [Readers' Favorite](https://readersfavorite.com/book-review/sweet-little-you)
+    </cite>
+  </blockquote>
+
+  <blockquote class="review-quote">
+    <p>
       This book teaches readers that family is about love and that it only takes a parent willing to love their child to create an adventure that is invigorating and life-transforming.
     </p>
 
@@ -91,21 +101,11 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 
   <blockquote class="review-quote">
     <p>
-      This is a sweet love story from a single mother to her child.  I love books that explain to children why things are different.  Probably less of an issue these days with so many different family types, but still a loving way to explain their family of two.  With beautiful illustrations and the perfect colors, it was a joy to look at the pictures as I read the story, which to be honest is what a little one will be doing.
+      With beautiful illustrations and the perfect colors, it was a joy to look at the pictures as I read the story, which to be honest is what a little one will be doing.
     </p>
 
     <cite markdown="1">
       **Sherry**, [The Book Review Crew](https://thebookreviewcrew.com/blog-tour-review-sweet-little-you/)
-    </cite>
-  </blockquote>
-
-  <blockquote class="review-quote">
-    <p>
-      Creating a story about a child's origins for a very young picture book audience may feel like a stretch, but Joni Halabi's focus on a loving mother's enthusiasm about her child's potential and growth drives the information, which is provided in a gentle way that emphasizes this acceptance and love over the circumstances of the child's conception.
-    </p>
-
-    <cite markdown="1">
-      **D. Donovan**, Senior Reviewer, Midwest Book Review
     </cite>
   </blockquote>
 
