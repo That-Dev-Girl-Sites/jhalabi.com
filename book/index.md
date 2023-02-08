@@ -71,6 +71,16 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 
   <blockquote class="review-quote">
     <p>
+      Sweet Little You is an adorable children's book that showcases a different type of family. It's written in an easy to read way, but is also a good way to open conversation with young readers about how some families don't always look the same as others. [...] This is a book I would highly recommend to all parents. 5 stars!
+    </p>
+
+    <cite markdown="1">
+      **Jasmine J.**, [Jazzy Book Reviews](https://www.jazzybookreviews.com/2022/07/sweet-little-you-by-joni-halabi-book.html)
+    </cite>
+  </blockquote>
+
+  <blockquote class="review-quote">
+    <p>
       This book teaches readers that family is about love and that it only takes a parent willing to love their child to create an adventure that is invigorating and life-transforming.
     </p>
 
@@ -86,16 +96,6 @@ Evocative of beloved classics such as _Guess How Much I Love You_, _Pat the Bunn
 
     <cite markdown="1">
       **Kara Cybanski**, [DC Canada Education Publishing](https://www.dc-canada.ca/blog/review-sweet-little-you-by-joni-halabi/)
-    </cite>
-  </blockquote>
-
-  <blockquote class="review-quote">
-    <p>
-      Sweet Little You is an adorable children's book that showcases a different type of family. It's written in an easy to read way, but is also a good way to open conversation with young readers about how some families don't always look the same as others. [...] This is a book I would highly recommend to all parents. 5 stars!
-    </p>
-
-    <cite markdown="1">
-      **Jasmine J.**, [Jazzy Book Reviews](https://www.jazzybookreviews.com/2022/07/sweet-little-you-by-joni-halabi-book.html)
     </cite>
   </blockquote>
 
