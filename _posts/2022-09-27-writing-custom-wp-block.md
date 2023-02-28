@@ -7,7 +7,7 @@ categories:
   - development
 ---
 
-This post has been a long time coming. I have talked about custom WordPress block creation for several years now, from blogging about converting a [custom static block to a dynamic one](https://jhalabi.com/blog/wordpress-block-json) to speaking at various conferences about why [dynamic blocks are awesome](https://talks.jhalabi.com/dynamic-blocks/). 
+This post has been a long time coming. I have talked about custom WordPress block creation for several years now, from blogging about [registering dynamic blocks with `block.json`](https://jhalabi.com/blog/wordpress-block-json) to speaking at various conferences about why [dynamic blocks are awesome](https://talks.jhalabi.com/dynamic-blocks/).
 
 It recently occurred to me that I have yet to write up a complete post about how I write my custom blocks. Every so often, someone asks me about the code I write, so here is a comprehensive overview of how I write a custom block.
 
