@@ -44,7 +44,7 @@ My solution was to write a one-off script in PHP to handle the migration. For il
 
 The static version of the block is saved with the HTML for the paragraph enclosed in Gutenberg block indicator comments. For example:
 
-```html
+```php
 <!-- wp:paragraph -->
 <p>And the seasons they go round and round</p>
 <!-- /wp:paragraph -->
@@ -52,7 +52,7 @@ The static version of the block is saved with the HTML for the paragraph enclose
 
 The goal of the migration is to re-save this block in the post content, so that the markup is removed and all content is saved as meta data inside the block indicators. For example:
 
-```html
+```php
 <!-- wp:my/new-paragraph 
 {"content": "And the seasons they go round and round"} 
 /-->
