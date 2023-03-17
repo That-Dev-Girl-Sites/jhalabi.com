@@ -44,7 +44,7 @@ My solution was to write a one-off script in PHP to handle the migration. For il
 
 The static version of the block is saved with the HTML for the paragraph enclosed in Gutenberg block indicator comments. For example:
 
-```
+```html
 <!-- wp:paragraph -->
 <p>And the seasons they go round and round</p>
 <!-- /wp:paragraph -->
@@ -52,7 +52,7 @@ The static version of the block is saved with the HTML for the paragraph enclose
 
 The goal of the migration is to re-save this block in the post content, so that the markup is removed and all content is saved as meta data inside the block indicators. For example:
 
-```
+```html
 <!-- wp:my/new-paragraph 
 {"content": "And the seasons they go round and round"} 
 /-->
@@ -62,7 +62,7 @@ The goal of the migration is to re-save this block in the post content, so that 
 
 My goal was to auto-migrate all Paragraph content at once. I am going to present the entire script first, then explain it further below.
 
-```
+```php
 class MigrateParagraph {
 
   private const OLD_P_REGEX = 
@@ -159,7 +159,7 @@ Alright, that was a lot. Details time.
 
 The beginning of the script defines the regular expression used to find all existing static Paragraph blocks in the post content:
 
-```
+```php
 private const OLD_P_REGEX = 
   '/<!-- wp:paragraph --><p>(.*)</p><!-- \/wp:paragraph -->/sU';
 ```
@@ -181,7 +181,7 @@ This is the tricky part. Once the loop finds at least one static Paragraph block
 
 In the context of the example above, the array will look like this:
 
-```
+```php
 [
   [0] => [
     [0] => "<!-- wp:paragraph -->
@@ -202,14 +202,14 @@ Now that we have a list of all blocks to be migrated, we can convert them into t
 
 First, we create the code for the new block, using the content in array index `[1]`:
 
-```
+```php
 $new_paragraph = '<!-- wp:my/new-paragraph 
   {"content":' . $matches[1][$i] . '"} /-->';
 ```
 
 Next, we use the string replacement PHP function to replace the corresponding match text from array index `[0]` with the code for the new block:
 
-```
+```php
 $post->post_content = str_replace(
   $matches[0][$i], 
   $new_paragraph,
