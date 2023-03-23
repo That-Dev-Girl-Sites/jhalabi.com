@@ -72,7 +72,7 @@ class MigrateParagraph {
    * __construct()
    */
   public function __construct() {
-    add_action( 'init', [ $this, 'migrate_all' ] );
+    add_action( 'init', [ $this, 'migrate' ] );
   }
 
 
