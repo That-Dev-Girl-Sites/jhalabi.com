@@ -67,11 +67,11 @@ A heartwarming story for single mothers by choice and their families.
 
 My name is **Joni** and I am a **"middle-end" web developer** who loves to write code, commit often, and make up her own job titles. I work for Georgetown University and have been writing code since the mid-1980s. I was 2. _(Kidding. Mostly. I know I'm dating myself. Shush.)_
 
-I have developed in all sorts of languages, but I work a lot in WordPress these says, so I spend a lot of time with **JavaScript** and **PHP**. Click around this site for more information about [my work](/work), [my speaking gigs](/speaking), and [my book](/book).
+I have developed in all sorts of languages, but I work a lot in WordPress these says, so I spend a lot of time with **JavaScript** and **PHP**. Click around this site for more information about [my work](/coding), [my speaking gigs](/speaking), and [my book](/book).
 
 ### Cool! What else?
 
-I am a single by choice mother to an **amazing pre-schooler** who constantly keeps me on my toes. She and her collection of stuffed animals are going to take over the world.
+I am a single mother by choice to an **amazing kid** who constantly keeps me on my toes. She and her collection of stuffed animals are going to take over the world.
 
 **I have hobbies.** Stop laughing. I'm serious. I both run and bake, because life is all about balance. I love live music and try to get as many shows as time and babysitters allow. I pretend to knit, by which I mean that I have been working on the same shawl for about 5 years now. I am also learning to play the ukulele, but only when my daughter can't hear me. My skills are not quite up to her standards _(yet?)_. Just wait until I take up the bongos.
 

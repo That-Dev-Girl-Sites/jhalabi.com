@@ -4,7 +4,8 @@
 
 li {
 
-  --text-size: var( --type-p );
+  --text-size: 1rem;
+  --padding-inline: 1rem;
 
   line-height: calc( #{ var( --line-height ) } * 0.9 );
   margin-bottom: 0.75rem;
@@ -14,21 +15,34 @@ li {
   // Variation: Pregnancy tag.
   &.pregnancy-tag {
     list-style-type: none;
-    margin: 1rem 0;
+    margin: 2rem 0 3rem;
 
     a {
       --link-bg-color: var( --purple );
       --text-color:    var( --white );
-      --text-size:     1rem;
+      --text-size:     var( --type-h4 );
 
       display: block;
-      padding: 0.75rem 1rem;
+      padding: 0.75rem var( --padding-inline );
       text-decoration: none;
 
       &:focus,
       &:hover {
         --link-bg-color: var( --copper-dark-10 );
       }
+
+      &::after {
+        content: '▸';
+        display: inline-block;
+        position: absolute;
+        right: var( --padding-inline );
+      }
+    }
+
+    span {
+      --text-size: 1rem;
+      display: block;
+      padding: 0.5rem var( --padding-inline );
     }
   }
 
@@ -47,7 +61,7 @@ hr + ol {
   li {
     --text-size: var( --type-small );
 
-    margin-left: 1rem;
+    margin-left: var( --padding-inline );
   }
 
 }
