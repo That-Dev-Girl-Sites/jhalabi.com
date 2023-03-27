@@ -3,6 +3,6 @@
 * [GitHub](https://github.com/thatdevgirl){:.icon .icon-github}
 * [LinkedIn](https://www.linkedin.com/in/jonihalabi/){:.icon .icon-linkedin}
 * [StackOverflow](https://stackoverflow.com/users/1628544/joni-h){:.icon .icon-stackoverflow}
-* [Resume](/work/joni-halabi-resume.pdf){:.icon .icon-profile}
+* [Resume](/coding/joni-halabi-resume.pdf){:.icon .icon-profile}
 
 </section>
