@@ -42,7 +42,7 @@ A heartwarming story for single mothers by choice and their families.
 
 ### [{{post.title}}]({{ post.url }})
 
-<p class="excerpt">{{ post.content | replace:'<sup>1</sup>', '' | strip_html | truncatewords:35, '…' }}</p>
+<p class="excerpt">{{ post.excerpt | strip_html }}</p>
 
 <p class="latest-post-meta">
   {% for cat in post.categories %}
