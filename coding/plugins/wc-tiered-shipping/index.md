@@ -1,6 +1,8 @@
 ---
 layout: plugin
 title: WC Tiered Shipping
+redirect_from:
+  - /work/wc-tiered-shipping/
 ---
 
 This WordPress plugin adds a tiered flat rate shipping option for the WooCommerce plugin.

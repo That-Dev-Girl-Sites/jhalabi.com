@@ -1,6 +1,8 @@
 ---
 layout: main
-title: Work
+title: Coding
+redirect_from:
+  - /work/
 ---
 
 I am a senior web developer in Washington DC with over 20 years of programming experience. I have expertise in **custom theme creation** for content management systems, **Javascript application** architecture, and **eCommerce solution** development.

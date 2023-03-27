@@ -1,6 +1,8 @@
 ---
 layout: plugin
 title: Besan Block
+redirect_from:
+  - /work/besan-block/
 ---
 
 This WordPress plugin adds a responsive and accessible **data chart** block to the post editor. The chart feeds off of data from a publicly viewable Google sheet.

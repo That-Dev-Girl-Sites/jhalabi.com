@@ -15,13 +15,13 @@
     {% endif %}
 
     {{ site.title }}
-    {% if page.dir == '/' %} - Web Developer, Speaker, &amp; Author{% endif %}
+    {% if page.dir == '/' %} - Web Developer, Writer, &amp Speaker{% endif %}
   </title>
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/styles.css?v=20220928">
 
-  <meta name="description" content="Joni Halabi, a web developer at Georgetown University, instructor, speaker, and author of Sweet Little You, based in the Washington DC metro area.">
-  <meta name="keywords" content="web developer, wordpress, author, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mom, single mother by choice">
+  <meta name="description" content="Joni Halabi is a web developer at Georgetown University, writer, speaker, and author of Sweet Little You.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
 
@@ -62,16 +62,16 @@
     {% endif %}
 
     <p class="tagline">
-      Web developer, Single mom, Author, Reader, Baker, Music lover, Chaotic neutral
+      Web developer, Writer, Speaker, Single mom, Baker, Music lover, Chaotic neutral
     </p>
 
     <nav class="nav-primary" aria-label="Main">
       <ul>
         <li><a href="/" {% if page.dir == '/' %}class="current"{% endif %} aria-label="Home">.{% if page.dir != '/' %}.{% endif %}</a></li>
         <li><a href="/book/"     {% if page.url contains '/book/'     %}class="current"{% endif %}>Book</a></li>
-        <li><a href="/work/"     {% if page.url contains '/work/'     %}class="current"{% endif %}>Work</a></li>
-        <li><a href="/speaking/" {% if page.url contains '/speaking/' %}class="current"{% endif %}>Speaking</a></li>
         <li><a href="/blog/"     {% if page.url contains '/blog/'     %}class="current"{% endif %}>Blog</a></li>
+        <li><a href="/speaking/" {% if page.url contains '/speaking/' %}class="current"{% endif %}>Speaking</a></li>
+        <li><a href="/coding/"   {% if page.url contains '/coding/'   %}class="current"{% endif %}>Coding</a></li>
         <li><a href="/contact/"  {% if page.url contains '/contact/'  %}class="current"{% endif %}>Contact</a></li>
       </ul>
     </nav>

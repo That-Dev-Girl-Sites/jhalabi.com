@@ -21,7 +21,7 @@ I am a part of the Georgetown University Web Services team, who develops and mai
 
 **WordPress, HTML, Twig, SCSS**
 
-I have been working with the ADF since 2016. Initially, I simply maintained their existing site on WordPress. More recently, I developed a new theme to support a complete site overhaul, which included a new look and more streamlined content strategy. This WordPress theme integrates with MailChimp for newsletter subscriptions and PayPal for donations. The site launched in April 2022.
+I have been working with the ADF since 2016. Initially, I simply maintained their existing site on WordPress. More recently, I developed a new theme to support a complete site overhaul, which included a new look and more streamlined content strategy. This WordPress theme integrates with MailChimp for newsletter subscriptions and PayPal for donations. The updated site launched in April 2022.
 </div>
 
 <div markdown="1">

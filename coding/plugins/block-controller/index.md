@@ -1,6 +1,8 @@
 ---
 layout: plugin
 title: Block Controller
+redirect_from:
+  - /work/block-controller/
 ---
 
 This WordPress plugin provides site administrators with the ability to turn on and off specific post editor (Gutenberg) content blocks.

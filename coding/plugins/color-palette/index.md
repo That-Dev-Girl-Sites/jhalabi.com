@@ -1,6 +1,8 @@
 ---
 layout: plugin
 title: Color Palette
+redirect_from:
+  - /work/color-palette/
 ---
 
 This WordPress plugin adds a Color Palette block to the post editor, so content editors can easily list colors on branding and style guide pages.
