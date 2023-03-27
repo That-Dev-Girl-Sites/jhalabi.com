@@ -16,13 +16,13 @@ I thought I would have to write something custom… and then I discovered Backbo
 
 You can use the standard Backbone router:
 
-{% highlight javascript %}
+```javascript
 var myRouter = Backbone.Router.extend({
   routes: {
     "page-one": "openPageOne"
   }
 });
-{% endhighlight %}
+```
 
 ## 2. Update the instantiation of your Backbone History.
 
@@ -32,9 +32,9 @@ Also (and this bit is important!), make sure that you do not include your domain
 
 The other parameter you need to add is the _pushState_ parameter.  This parameter needs to be set to _true_.
 
-{% highlight javascript %}
+```javascript
 Backbone.history.start({pushState: true, root: '/myapp/'});
-{% endhighlight %}
+```
 
 ## 3. Test!
 

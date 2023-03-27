@@ -12,12 +12,12 @@ I had a “git” of a problem this week.  _(Ha... see what I did there?)_ I com
 
 This is basically what my git log looked like.
 
-{% highlight powershell %}
+```powershell
 383a84a (me) Bad commit 3
 f9e5973 (me) Bad commit 2
 ac971af (me) Bad commit 1
 fe4366a (me) Commit I want to revert back to
-{% endhighlight %}
+```
 
 Obviously, the plan was to revert back to __fe4366a__, a.k.a. “Commit I want to revert back to”.
 
@@ -31,28 +31,28 @@ Git checkout to the rescue!  Seriously.  Here’s what I did:
 
 __Step 1:__ Create a new branch (based off of master) for my reversion.
 
-{% highlight powershell %}
+```powershell
 git checkout -b my-new-branch
-{% endhighlight %}
+```
 
 __Step 2:__ Checkout my last good commit to the new branch.
 
-{% highlight powershell %}
+```powershell
 git checkout fe4366a .
-{% endhighlight %}
+```
 
 __Step 3:__ At this point, all of the files that were modified in the 3 bad commits have been modified again locally, to match the version in the “Commit I want to revert back to”.  Sanity check this just to be sure.
 
-{% highlight powershell %}
+```powershell
 git status
 git diff
-{% endhighlight %}
+```
 
 __Step 4:__ After confirming that the reverted changes look OK, commit the changes to the branch.
 
-{% highlight powershell %}
+```powershell
 git commit -m "Reverting changes!"
-{% endhighlight %}
+```
 
 Done!  At this point, __my-new-branch__ can be merged back up to master or you can do whatever you want with it.
 

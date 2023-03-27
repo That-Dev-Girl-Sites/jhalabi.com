@@ -21,9 +21,9 @@ You need Git to ignore changes you make to this committed file locally, but Git 
 1. __Delete the file from the repository, then ignore it.__  Great idea if you do not need the file to exist for other users or environments.  Probably not so great for our settings file that production probably needs.
 2. __Tell Git to assume that the file never changes.__  Git has a command called update-index that is pretty powerful.  For our purposes, we can use it to tell Git to pretend that we will never change this file, regardless of whether or not this is actually true.
 
-{% highlight powershell %}
+```powershell
 git update-index --assume-unchanged FILE
-{% endhighlight %}
+```
 
 Now, you can make whatever changes you want to your file.  The original file still exists as-is on the repository and Git will look the other way about your changes.  Win-win.
 

@@ -28,7 +28,7 @@ I used the code from several of those plugins as a resource. (The Apple Maps blo
 
 The following example is the structure I used for my Color Palette block. Feel free to also take a look at my [real `block.json`](https://github.com/thatdevgirl/wordpress-color-palette/blob/main/color-palette/source/blocks/colors/block.json) file.
 
-{% highlight json %}
+```json
 {
   "name": "my-namespace/my-block",
   "title": "NAME OF MY BLOCK",
@@ -50,7 +50,7 @@ The following example is the structure I used for my Color Palette block. Feel f
   "editorStyle": "file:relative/path/to/editor-styles.css",
   "style": "file:relative/path/to/front-end-styles.css"
 }
-{% endhighlight %}
+```
 
 ## Key takeaways
 

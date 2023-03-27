@@ -30,15 +30,15 @@ Although more complex web applications might be suited for something like jQuery
 
 It’s true that vanilla Javascript is not as sexy as jQuery. For example:
 
-{% highlight javascript %}
+```javascript
 document.querySelectorAll(‘div.foo’) // native JS
-{% endhighlight %}
+```
 
 is not nearly as slick looking as:
 
-{% highlight javascript %}
+```javascript
 $(‘div.foo’) // jQuery equivalent
-{% endhighlight %}
+```
 
 The web community is finally discussing how [bloated](https://zurb.com/blog/hit-the-weights-and-take-the-bloat-out-of) [jQuery](https://www.sitepoint.com/do-you-really-need-jquery/) and other [frameworks](https://bitworking.org/news/2014/05/zero_framework_manifesto/) are. So much so that, for jQuery users, Paul Irish released [bling.js](https://gist.github.com/paulirish/12fb951a8b893a454b32) last month, which is a quick 15 lines of Javascript that provides “the $ of jQuery without the jQuery”.
 

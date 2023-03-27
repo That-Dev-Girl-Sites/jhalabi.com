@@ -20,9 +20,9 @@ All of this works in Chrome.  It works in Firefox.  However, IE?  JSON is undefi
 
 At first I thought that I was having a load issue in IE and that I needed to be more specific about dependencies in my Require file.  I thought I was being fairly complete, but hey, you never know.  After experimenting with my Require file, I hit up Google and discovered this:
 
-{% highlight html %}
+```html
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-{% endhighlight %}
+```
 
 I added it to the top of my HTML file and voila!  Problem solved.
 

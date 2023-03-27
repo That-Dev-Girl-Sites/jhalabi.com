@@ -34,7 +34,7 @@ This is just part of the links list, but we can already see that there are three
 
 Every screen reader generates a links list from all of the `<a>` tags in the HTML for the page.  The links list shows these links in order and, by default, labels them according to their link text.  So, for example, if the HTML looks like this:
 
-{% highlight html %}
+```html
 <p>My first article</p>
 <a href="/article1">Read More</a>
 
@@ -43,15 +43,15 @@ Every screen reader generates a links list from all of the `<a>` tags in the HTM
 
 <p>My third article</p>
 <a href="/article3">Read More</a>
-{% endhighlight %}
+```
 
 Then the screen reader's links list will look like this:
 
-{% highlight text %}
+```text
 Read More
 Read More
 Read More
-{% endhighlight %}
+```
 
 Helpful, right?
 
@@ -59,7 +59,7 @@ Helpful, right?
 
 Alternatively, I can add the `aria-label` attribute to these links to give screen readers more specific information about each link.  So, the previous example can be fixed like this:
 
-{% highlight html %}
+```html
 <p>My first article</p>
 <a href="/article1" aria-label="Read more about my first article">Read More</a>
 
@@ -68,15 +68,15 @@ Alternatively, I can add the `aria-label` attribute to these links to give scree
 
 <p>My third article</p>
 <a href="/article3" aria-label="Read more about my third article">Read More</a>
-{% endhighlight %}
+```
 
 As a result, the new and improved links list will look like this:
 
-{% highlight text %}
+```text
 Read more about my first article
 Read more about my second article
 Read more about my third article
-{% endhighlight %}
+```
 
 ## Need more information?
 

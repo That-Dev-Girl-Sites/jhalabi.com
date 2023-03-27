@@ -19,9 +19,9 @@ In another example, a screen reader will read “703.555.1212” as “seven hun
 
 The most obvious solution should be to add your phone number as a “tel” link and hope that screen readers are smart enough to know how to read the numbers inside the link:
 
-{% highlight html %}
+```html
 <a href="tel:7035551212">(703) 555-1212</a>
-{% endhighlight %}
+```
 
 Readers are not that smart.  However, in their defense, links can include any content, from a phone number to regular text, such as “Click here to call our department.”
 
@@ -31,9 +31,9 @@ From a usability perspective, I advocate for using the “tel” link as a parti
 
 In my Google searching travels, I did come across an idea to separate the phone number into pronounceable chunks with span tags. Given how screen readers read larger numbers, I would imagine that would look something like this:
 
-{% highlight html %}
+```html
 <span>7</span> <span>0</span> <span>3</span> <span>5</span> <span>5</span> <span>5</span> - <span>1</span> <span>2</span> <span>1</span> <span>2</span>
-{% endhighlight %}
+```
 
 Perhaps it’s just me, but that looks terrible.
 
@@ -47,9 +47,9 @@ Once upon a time, there was also a specification proposal for a reader media typ
 
 The best solution I came across is to use an ARIA label to specify how the screen reader should read a particular piece of text. ARIA labels are designed to tell screen readers how to read things, which is exactly our issue here. Combining the ARIA label with our “tel” link recommendation for above, we arrive at the following code:
 
-{% highlight html %}
+```html
 <a href="tel:7035551212" aria-label="7 0 3. 5 5 5. 1 2 1 2.">(703) 555-1212</a>
-{% endhighlight %}
+```
 
 Note the spaces and periods in the label. The spaces in the label tell the screen reader to read each digit individually. The period after the area code and the exchange tell the screen reader to pause (like at the end of a sentence).
 

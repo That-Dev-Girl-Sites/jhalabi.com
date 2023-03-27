@@ -101,7 +101,7 @@ The first step to using landmarks effectively is identifying the major sections 
 
 Once you have identified all of your landmarks, contain that section using the appropriate HTML landmark tag. You can nest landmarks, too. In the above example, the site navigation is inside the site header. Therefore the &lt;nav&gt; tag is nested inside the &lt;header&gt; tag.
 
-{% highlight html %}
+```html
 <header>
   <h1>Landmarks and why they rock</h1>
   <nav>
@@ -113,7 +113,7 @@ Once you have identified all of your landmarks, contain that section using the a
 <section>
   All the things about landmarks.
 </section>
-{% endhighlight %}
+```
 
 <h2>Landmarks and labels</h2>
 
@@ -123,7 +123,7 @@ A landmark's role is one way that users can tell the difference between landmark
 
 However, what happens when there is more than one landmark of a particular role on the page? For example:
 
-{% highlight html %}
+```html
 <section>
   <p>All of the incarnations of the Doctor.</p>
 </section>
@@ -131,7 +131,7 @@ However, what happens when there is more than one landmark of a particular role 
 <section>
   <p>All of the Doctor's companions.</p>
 </section>
-{% endhighlight %}
+```
 
 Users will not be able to tell the difference right away between these two sections. A screen reader will see both sections, but the only piece of information it will initially give to the user is that there are two landmarks with the role of “region”. It’s like saying that there are two buildings in my city. This can be a problem if a user is only interested in one section, but not the other.
 
@@ -139,7 +139,7 @@ This is where __labels__ come in. You can give your landmarks unique labels usin
 
 Labels are __required__ for landmarks with redundant roles on the page. They are optional for any landmarks that are the only role of its kind. For example:
 
-{% highlight html %}
+```html
 <header>
   <h1>Doctor Who!</h1>
 </header>
@@ -151,7 +151,7 @@ Labels are __required__ for landmarks with redundant roles on the page. They are
 <section aria-label="The Doctor's companions">
   <p>All of the Doctor's companions.</p>
 </section>
-{% endhighlight %}
+```
 
 <h2>Anything else I need to know?</h2>
 

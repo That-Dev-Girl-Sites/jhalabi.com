@@ -17,27 +17,27 @@ However, this is wrong. All four of these tags have different semantic meanings 
 
 Let’s start with the &lt;strong&gt; and &lt;b&gt; tags. The &lt;strong&gt; tag should be used for phrases that you want to emphasize. For example:
 
-{% highlight html %}
+```html
 <p>I <strong>do not</strong> want to see a mess in my kitchen!</p>
-{% endhighlight %}
+```
 
 In contrast, the &lt;b&gt; tag should be used for phrases that do not require emphasis, but should visually be bold. For example:
 
-{% highlight html %}
+```html
 <p>I like <b>cookies</b> and <b>cakes</b>, but not pies.</p>
-{% endhighlight %}
+```
 
 There are similar differences between the &lt;em&gt; and &lt;i&gt; tags. The &lt;em&gt; tag should be used for phrases that you want to emphasize. For example:
 
-{% highlight html %}
+```html
 <p>I am <em>extremely</em> excited about the Superbowl.</p>
-{% endhighlight %}
+```
 
 In contrast, the &lt;i&gt; tag should be used for phrases that do not require emphasis, but should be visually italicized. The &lt;i&gt; tag is often used when referencing book titles or foreign words. For example:
 
-{% highlight html %}
+```html
 <p>I think <i>Make Way For Ducklings</i> is a classic piece of literature that all children should read.</p>
-{% endhighlight %}
+```
 
 In short, pay attention to your content.  How should it look?  How would it sound if you were to read it out loud? Should there be an emphasis on a particular word to drive your point?  The answers to these questions will guide which tag to use to support your content.  
 

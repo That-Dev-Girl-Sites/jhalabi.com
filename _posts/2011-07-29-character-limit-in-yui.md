@@ -34,7 +34,7 @@ The Javascript part of this POC contains 3 major functions:
 
 This function is called as soon as the page loads and then each time a key is pressed _(on the keyup event)_ to update the number of characters used in the character limit message to the user.  Also, if the user has entered more characters than allowed by the limit, the truncate text area function is called.
 
-{% highlight javascript %}
+```javascript
 function updateTextAreaAlert() {
   var text = Dom.get("yui-textarea").value;
   var charsUsed = text.length || 0;
@@ -53,13 +53,13 @@ function updateTextAreaAlert() {
 
   Dom.get("yui-textarea-chars").innerHTML = charsUsed;
 }
-{% endhighlight %}
+```
 
 ### Function to check the text area limit.
 
 This function checks to see if the value of the text area field is longer than the set character limit.  If so, the function to truncate the text area’s contents is called.  This function is called each time a key is pressed on the key down event.  This is to avoid issues with the text “jumping” – the text area contents are actually updated after the key down event is called – so we call this function on key down so that we have a chance to suppress the content update if the user is over the character limit.
 
-{% highlight javascript %}
+```javascript
 function checkTextAreaLimit(e) {
   var text = Dom.get("yui-textarea").value;
 
@@ -72,13 +72,13 @@ function checkTextAreaLimit(e) {
      truncateTextArea();
    }
 }
-{% endhighlight %}
+```
 
 ### Function to truncate the contents of the text area.
 
 This function truncates the text in the text area field if the user is over the character limit.  This function is called by the two functions listed above.
 
-{% highlight javascript %}
+```javascript
 function truncateTextArea() {
   var text = Dom.get("yui-textarea").value;
 
@@ -87,4 +87,4 @@ function truncateTextArea() {
      Dom.get("yui-textarea-chars").innerHTML = Dom.get("yui-textarea").value.length;
   }
 }
-{% endhighlight %}
+```

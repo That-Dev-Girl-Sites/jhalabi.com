@@ -16,7 +16,7 @@ Long story short, clicking on an element in a YUI carousel causes that element t
 
 The fix? A hack!  Basically, the YUI Carousel comes with a “beforeSelectedItemChange” event, on which if you return false, the default behavior is negated.  This works for both Firefox and IE.
 
-{% highlight javascript %}
+```javascript
 changePrimary = true;
 
 imageCarousel.on("beforeSelectedItemChange", function() {
@@ -25,4 +25,4 @@ imageCarousel.on("beforeSelectedItemChange", function() {
     return false;
   }
 });
-{% endhighlight %}
+```

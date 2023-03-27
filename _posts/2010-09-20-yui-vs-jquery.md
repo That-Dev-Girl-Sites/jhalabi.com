@@ -16,19 +16,19 @@ For example, take a look at DOM selectors in both.  In jQuery, you can use the s
 
 As an exercise for a project at work, I created an example to illustrate my point regarding DOM selection between YUI and jQuery.  The example is simple – all it does is replace the text in a paragraph tag when a link is clicked.   The example DOM is minimal:
 
-{% highlight html %}
+```html
 <div id="block" class="container-block">
   <h2>YUI Example</h2>
   <p>This is my original text.</p>
   <a href="<a>#</a>">Click here to change the text above.</a>
 </div>
-{% endhighlight %}
+```
 
 I implemented the solution in both jQuery and YUI.
 
 Here is my jQuery implementation:
 
-{% highlight html %}
+```html
 <script src="/js/jQuery.min.js"></script>
 
 <script type="text/javascript">
@@ -37,11 +37,11 @@ Here is my jQuery implementation:
        $("#jQuery-block p").html("This text was updated via jQuery.");
   });
 </script>
-{% endhighlight %}
+```
 
 And here is my YUI implementation:
 
-{% highlight html %}
+```html
 <script src="/yui/yahoo-min.js"></script>
 <script src="/yui/dom-min.js"></script>
 <script src="/yui/event-min.js" ></script>
@@ -58,7 +58,7 @@ And here is my YUI implementation:
     });
   }
 </script>
-{% endhighlight %}
+```
 
 In both cases, I am grabbing the base libraries required for what I need to do here.  YUI requires 3 server calls for 3 different library files, but the 1 library file for jQuery is almost twice as large than the sum of the YUI files.  (The jQuery file is 24.1KB, whereas the sum of the 3 YUI files is 13.5KB.) So, I’m going to call that a wash.
 

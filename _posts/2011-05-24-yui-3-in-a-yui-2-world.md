@@ -24,7 +24,7 @@ You can check out the full version of this [proof of concept on GitHub](https://
 
 The code to create a dialog is basic YUI 2 code:
 
-{% highlight javascript %}
+```javascript
 openDialog: function() {
   if (COLORWAY.test.dialog == null) {
     COLORWAY.test.dialog = new YAHOO.widget.Dialog("colorway-dialog-box", {
@@ -37,7 +37,7 @@ openDialog: function() {
 
   COLORWAY.test.dialog.show();
 }
-{% endhighlight %}
+```
 
 ## Step 2: Selecting elements.
 
@@ -45,7 +45,7 @@ As I mentioned earlier, this proof of concept was created to test dragging and d
 
 My code is simple – and still using YUI 2.  If the user selects an element, add a “selected” class to that element.  If the user is pressing the shift key, do not remove the “selected” class from any other element that may be selected.  If the user is not pressing the shift key, unselect everything else.
 
-{% highlight javascript %}
+```javascript
 // If the shift key is not pressed, unselect all, then select that item.
 if (!COLORWAY.test.shift) {
   var selected = Selector.query("div.selected", wrapper);
@@ -64,7 +64,7 @@ else if (Dom.hasClass(target, "selected")) {
 else {
     Dom.addClass(target, "selected");
 }
-{% endhighlight %}
+```
 
 ## Step 3: Dragging element(s) to their new location.
 
@@ -72,17 +72,17 @@ Here comes the fun part – dragging and dropping the selected elements.  This e
 
 First, we need to set up the node that is being dragged.  This happens in the __Y.DD.DDM.on(‘drag:start’, function(e) {}__ event function.  Here, we change the dragged node’ style, change the style of all of the other selected nodes (if they exist) using the e.target.get; so, for example:
 
-{% highlight javascript %}
+```javascript
 e.target.get('dragNode').addClass('selected');
 
 e.target.get('dragNode').setStyles({
     backgroundColor: e.target.get('node').getStyle('backgroundColor')
 });
-{% endhighlight %}
+```
 
 Next, we need to make sure we know which elements are being dropped into place, and determine if we are dropping 1 or multiple elements.  This is where the “selected” class comes in; all of this code is included in the __Y.DD.DDM.on(‘drop:over’, function(e) {}__ event function:
 
-{% highlight javascript %}
+```javascript
 // Add node(s) to this list.
 var selected = Selector.query("#colorway-main-container div.selected");
 
@@ -93,18 +93,18 @@ if (selected.length > 1) {
 } else {
   e.drop.get('node').get('parentNode').insertBefore(drag, drop);
 }
-{% endhighlight %}
+```
 
 During the drag, all of the YUI 3 magic happens to animate the dragged node from its old location to a new location in the __Y.DD.DDM.on(‘drag:drag’, function(e) {}__ event function.  To be honest, I just copied the basic YUI 3 implementation into my code, but it worked exactly as I expected:
 
-{% highlight javascript %}
+```javascript
 Y.DD.DDM.on('drag:drag', function(e) {
   var y = e.target.lastXY[1];
   goingUp = (y < lastY) ? true : false;
   lastY = y;
   Y.DD.DDM.syncActiveShims(true);
 });
-{% endhighlight %}
+```
 
 Finally, once the node has been dragged to its final location, we reset the styles of the dragged node in the __Y.DD.DDM.on(‘drag:end’, function(e) {}__ event function, again using e.target.get.
 
