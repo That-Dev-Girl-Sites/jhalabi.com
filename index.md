@@ -34,7 +34,7 @@ A heartwarming story for single mothers by choice and their families.
 
 <section markdown="1" aria-label="Articles">
 
-## Latest News
+## Recent Articles
 
 {% for post in site.posts limit:5 %}
 
@@ -65,9 +65,12 @@ A heartwarming story for single mothers by choice and their families.
 
 ![My daughter and me](/assets/images/family.jpg)
 
-My name is **Joni** and I am a **"middle-end" web developer** who loves to write code, commit often, and make up her own job titles. I work for Georgetown University and have been writing code since the mid-1980s. I was 2. _(Kidding. Mostly. I know I'm dating myself. Shush.)_
+My name is **Joni** and I am a **"middle-end" web developer** who loves to write code, commit often, and make up her own job titles. I work for Georgetown University and have been [writing code](/coding) since the mid-1980s. I was 2. _(Kidding. Mostly. I know I'm dating myself. Shush.)_
 
-I have developed in all sorts of languages, but I work a lot in WordPress these says, so I spend a lot of time with **JavaScript** and **PHP**. Click around this site for more information about [my work](/coding), [my speaking gigs](/speaking), and [my book](/book).
+Over the years, I have coded in all sorts of languages. My more recent work focuses around WordPress, so I spend a lot of time with **JavaScript** and **PHP**. I also write quite a bit about my experiences and projects; most of [my recent articles](/blog) are on this site.
+
+You can also explore this site to learn more about my book, [_Sweet Little You_](/book) or find out [where I am speaking next](/speaking).
+
 
 ### Cool! What else?
 
