@@ -7,7 +7,9 @@ title: Sweet Little You
 
 A mother with a dream of having a child makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations by [Lisa Wee](https://www.lisawee12.com/), _Sweet Little You_ is a loving and unique story about a different path to becoming a family, showing that creating a cherished family doesn’t always involve two parents.
 
-[![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)](/book)
+<a href="https://www.book2look.com/book/3BgavuAtA8" alt="View sample pages of Sweet Little You" class="book-page-intro-sample" target="_blank">
+  <img src="/assets/images/sweet-little-you-cover.jpg" alt="Book cover of Sweet Little You featuring a mom and baby flying over a field in a paper airplane">
+</a>
 
 </section>
 
