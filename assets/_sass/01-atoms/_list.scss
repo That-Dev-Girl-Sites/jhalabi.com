@@ -7,7 +7,7 @@ li {
   --text-size: 1rem;
   --padding-inline: 1rem;
 
-  line-height: calc( #{ var( --line-height ) } * 0.9 );
+  line-height: var( --line-height );
   margin-bottom: 0.75rem;
   margin-left: 2rem;
 
