@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Be careful out there"
+title: "Be careful out there: A phishing story"
 date: "2023-05-01"
 categories:
   - life
@@ -28,7 +28,7 @@ This morning, I received an email from Ann<sup>1</sup> with the subject line "Fi
 
 Given my conversation last week with the adjuster, my first thought was that We Make Roofs LLC was trying to bill me for the aforementioned tarping work. Annoyed _(especially since I thought my side of the financials was done)_, I clicked the link to figure this out.<sup>2</sup>
 
-**Red flag #1:** The link took me to a page that redirected me to another page. The second page immediately asked for a user name and password. I never created an account with Roofer-R-Us and our previous shared files never required passwords.
+**Red flag #1:** The link took me to a page that redirected me to another page. The second page immediately asked for a user name and password. I never created an account with We Make Roofs LLC and our previous shared files never required passwords.
 
 I replied to the email, which went to `ann@wemakeroofs.com`<sup>3</sup>, to ask what was going on.
 
