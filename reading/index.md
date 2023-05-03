@@ -30,10 +30,11 @@ I feel the need to apologize for 2020. And 2021. And... also 2022. I could blame
 
 ## Books Read in 2023 {#books-2023}
 
-<p class="book-count">(Total: 1)</p>
+<p class="book-count">(Total: 2)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**The Last Confessions of Sylvia P.** <br> _Lee Kravetz_ | Finally got back to reading and I chose a doozie! I don't know much about Plath's work (and this has inspired me to _finally_ read _The Bell Jar_), but this book was certainly captivating. No spoilers here, but I have some feels about the ending. I get it, but... feels. Still worth the read. | April
 **Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things** <br> _Josh Clark & Chuck Bryant_ | This book is interesting, informative, and funny, just like the SYSK podcast, except, you know, in book form. There were even many (many) parts of the book where I could hear Josh or Chuck's voice as I was reading. <span class='fa fa-heart'></span> | January
 
 
