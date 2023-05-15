@@ -51,19 +51,6 @@ p {
     --text-size: var( --type-small );
   }
 
-
-  // Variation: Book count
-  &.book-count {
-    --text-size: var( --type-small );
-    margin-bottom: 0.5rem;
-    text-align: right;
-
-    // Push up the table element directly after the book counter.
-    & + table {
-      margin-top: 0;
-    }
-  }
-
 }
 
 

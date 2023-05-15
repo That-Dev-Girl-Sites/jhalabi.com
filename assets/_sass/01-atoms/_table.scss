@@ -88,40 +88,6 @@ table {
         margin-left: 1rem;
       }
     }
-
-    // Variation: Book page.
-    .book-count + & {
-      border: 0;
-
-      thead {
-        display: none;
-      }
-
-      tr {
-        border-top: 1px solid var(--black);
-        white-space: normal;
-
-        &:first-child {
-          border-top: 0;
-        }
-      }
-
-      td {
-        display: block;
-        margin: 1rem 0;
-
-        &::after {
-          content: '' !important;
-        }
-
-        &:nth-child(3)::before {
-          @include sans-bold;
-          content: 'Read: ';
-          display: inline-block;
-          padding-right: 0.5rem;
-        }
-      }
-    }
   }
 
 
