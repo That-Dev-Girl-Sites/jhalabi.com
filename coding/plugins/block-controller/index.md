@@ -5,7 +5,7 @@ redirect_from:
   - /work/block-controller/
 ---
 
-This WordPress plugin provides site administrators with the ability to turn on and off specific post editor (Gutenberg) content blocks.
+This WordPress plugin allows site administrators to control editor access to content blocks.
 
 [Download from WordPress](https://wordpress.org/plugins/block-controller/){:.button}
 [View on GitHub](https://github.com/thatdevgirl/block-controller){:.button .icon .icon-github}
@@ -25,12 +25,22 @@ In addition, this plugin generates a list of all blocks in use by the site. A co
 <div class="plugin-screenshots">
   <figure>
     <img src="/assets/images/block-controller-screenshot-1.jpg" alt="">
-    <figcaption>Screenshot of the Block Controller admin screen where an editor can turn on and off post editor blocks.</figcaption>
+    <figcaption>The main settings page, where site administrators can enable and disable blocks. This page highlights blocks that are already in use.</figcaption>
   </figure>
 
   <figure>
     <img src="/assets/images/block-controller-screenshot-2.jpg" alt="">
-    <figcaption>Screenshot of the Block Controller admin screen where an editor can see a list of posts used by each block.</figcaption>
+    <figcaption>The block usage summary page, which displays a quick view of the blocks used on the site. This page enumerates the number of instances of each block throughout the site and the number of pages each block is used on.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/images/block-controller-screenshot-3.jpg" alt="">
+    <figcaption>The block usage details page for all blocks. This page display all blocks used throughout the site and a linked list of the pages each block is used on.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/assets/images/block-controller-screenshot-4.jpg" alt="">
+    <figcaption>The block usage details page for a single block. This page is similar to the details page for all blocks, but includes only the information for a single block.</figcaption>
   </figure>
 </div>
 </section>
