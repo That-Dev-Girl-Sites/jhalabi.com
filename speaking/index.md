@@ -22,7 +22,7 @@ This talk is a case study that demonstrates our WordPress block theme. We will d
 <div markdown="1">
 WPCampus 2023
 : {:.icon .icon-calendar} July 12-14, 2023
-: {:.icon .icon-location} Tulane University, New Orleans LA
+: {:.icon .icon-location} Tulane University
 : {:.icon .icon-chat} <a href="https://talks.jhalabi.com/blocktheme" aria-label="Integrating Twig templates with your WordPress block theme talk slides">Slide Deck</a>
 : {:.icon .icon-chat} <a href="https://2023.wpcampus.org/schedule/make-it-your-own-integrating-twig-templates-with-your-wordpress-block-theme/" aria-label="Integrating Twig templates with your WordPress block theme WPCampus session details">Session Details</a>
 </div>
@@ -196,7 +196,7 @@ Georgetown University
 </section>
 
 
-<section markdown="1" class="has-background timberwolf-dark add-top-border" aria-label="Front-End Development Courses">
+<section markdown="1" class="has-background timberwolf" aria-label="Front-End Development Courses">
 
 ## Front-End Development Courses
 
