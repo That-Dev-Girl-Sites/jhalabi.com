@@ -13,8 +13,8 @@
     @include make-full-width;
     --text-color: var( --white );
 
-    margin-bottom: 0;
-    margin-top: -4.15rem;
+    margin-block-end: 0;
+    margin-block-start: -4.15rem;
     padding: 0.5rem 0;
     z-index: 1;
 
@@ -47,7 +47,7 @@
    * Content: Page intro.
    */
   &-intro {
-    margin-top: 2rem;
+    margin-block-start: 2rem;
 
     @media screen and ( min-width: $md ) {
       display: grid;
@@ -61,7 +61,7 @@
       --text-size: var( --type-h4 );
 
       line-height: 1.65;
-      margin-bottom: 2rem !important;
+      margin-block-end: 2rem !important;
     }
 
     // Cover image sample link.
@@ -120,8 +120,8 @@
    * Order information section.
    */
   &-order {
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-block-end: 3rem;
+    padding-block-start: 3rem;
 
     @media screen and ( min-width: $md ) {
       display: grid;
@@ -135,8 +135,8 @@
 
     h2 {
       @include monospace-bold;
-      margin-top: 0;
-      margin-bottom: 3rem;
+      margin-block-start: 0;
+      margin-block-end: 3rem;
     }
 
     &-buttons {
@@ -152,8 +152,9 @@
       a {
         @extend .button;
         --text-size: 100%;
-        margin-top: 0;
-        background-color: var( --tart-orange );
+        box-shadow: 1px 1px 0 var( --white );
+        margin-block-start: 0;
+        background-color: var( --tart-orange-dark-5 );
 
         &:focus,
         &:hover {

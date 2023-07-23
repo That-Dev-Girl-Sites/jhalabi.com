@@ -6,10 +6,10 @@
 
   border-bottom: 2px solid var( --black-light-30 );
   padding: 0 var( --page-padding-inline-small );
-  margin-bottom: 4rem;
+  margin-block-end: 4rem;
 
   @media screen and ( min-width: $md ) {
-    padding-left: var( --page-padding-inline-large );
+    padding-inline-start: var( --page-padding-inline-large );
   }
 
 }

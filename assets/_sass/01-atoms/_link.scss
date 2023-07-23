@@ -34,7 +34,7 @@ a {
 
     border-radius: 0.15rem;    
     display: inline-block;
-    margin-left: 1rem;
+    margin-inline-start: 1rem;
     padding: 0 1rem;
     text-decoration: none;
 
@@ -63,13 +63,13 @@ a {
     border-radius: 0.25rem;
     display: inline-block;
     margin-block: 1rem;
-    margin-right: 0.5rem;
+    margin-inline-end: 0.5rem;
     padding: 0.5rem 2rem !important;
     text-decoration: none;
 
     &:focus,
     &:hover {
-      --link-bg-color: var( --copper-dark-10 );
+      --link-bg-color: var( --copper-dark-15 );
     }
   }
 

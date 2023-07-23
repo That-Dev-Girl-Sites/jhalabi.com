@@ -15,14 +15,14 @@
     --text-size:     var( --type-small );
 
     display: inline-block;
-    margin-bottom: 1rem;
+    margin-block-end: 1rem;
     margin-inline: 0.1rem;
     padding: 0.25rem 0.55rem;
     text-decoration: none;
 
     &:first-child {
-      margin-left: 0;
-      padding-left: 0;
+      margin-inline-start: 0;
+      padding-inline-start: 0;
     }
   }
 
@@ -36,7 +36,7 @@
   &-current {
     --text-color: var( --white ) !important;
 
-    background-color: var( --copper-dark-10 );
+    background-color: var( --copper-dark-15 );
   }
 
 }

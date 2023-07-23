@@ -5,14 +5,15 @@
 .review {
 
   &-container {
+    @include make-full-width-right;
+
     display: grid;
     gap: 3rem;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    margin-top: 2rem;
+    margin-block-start: 2rem;
     
     @media screen and ( min-width: $lg ) {
-      padding-right: 4rem;
-      width: $archive-width;
+      padding-inline-end: 4rem;
     }
   }
 
@@ -41,12 +42,12 @@
       font-size: var( --type-size );
 
       &::before {
-        --text-color: var( --seaweed );
+        --text-color: var( --blue );
         --text-size:  var( --type-h3 );
 
         display: block;
-        margin-left: -1rem;
-        margin-top: -0.5rem;
+        margin-inline-start: -1rem;
+        margin-block-start: -0.5rem;
       }
     }
 
@@ -62,7 +63,7 @@
         border-top: 2px solid var(--copper);
         content: '';    
         display: block;
-        padding-top: 0.8rem;
+        padding-block-start: 0.8rem;
         width: 25%;
       }
     }

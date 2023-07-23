@@ -7,7 +7,7 @@
   margin: 0 var( --page-padding-inline-small );
 
   @media screen and ( min-width: $md ) {
-    margin-left: var( --page-padding-inline-large );
+    margin-inline-start: var( --page-padding-inline-large );
     max-width: $max-width;
   }
 

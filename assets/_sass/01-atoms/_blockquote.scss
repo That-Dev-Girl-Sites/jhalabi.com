@@ -28,7 +28,7 @@ blockquote {
     --text-size: var( --type-h4 );
 
     &:last-child {
-      margin-bottom: 0;
+      margin-block-end: 0;
     } 
   }
 

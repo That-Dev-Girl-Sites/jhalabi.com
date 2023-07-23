@@ -4,8 +4,7 @@
 
 .post-share {
 
-  margin-top: 4rem;
-  padding: 2rem 0;
+  --text-size: var( --type-small );
   position: relative;
 
   &-link {
@@ -14,23 +13,23 @@
     --text-size:     var( --type-small );
 
     border-radius: 0.25rem;    
-    margin-right: 1.5rem;
-    padding: 0.5rem 1.5rem;
+    margin-inline-start: 1rem;
+    padding: 0.25rem 0.75rem;
     text-decoration: none;
 
     &:focus,
     &:hover {
-      --link-bg-color: var( --copper-dark-10 );
+      --link-bg-color: var( --copper-dark-15 );
     }
   }
 
   .icon {
-    margin-left: 3px;
+    margin-inline-start: 3px;
     position: relative;
     top: 1px;
 
     &::before {
-      margin-right: 0;
+      margin-inline-end: 0;
     }
   }
 

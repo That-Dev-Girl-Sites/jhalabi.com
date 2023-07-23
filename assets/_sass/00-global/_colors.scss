@@ -7,20 +7,24 @@ $black:        #222;
 $white:        #f0f0f0;
 $actual-white: #fff;
 
-// Primary colors.
-// https://coolors.co/542344-b26e63-f7e1d7-dedbd2-00798c-30638e-003d5b
-$champagne:    #f7e1d7;
-$copper:       #b26e63;
-$purple:       #542344;
-$seaweed:      #00798c;
-$tart-orange:  #c65050;
-$timberwolf:   #dedbd2;
 
-// Secondary colors.
-$cadet-blue:   #6faaaf;
-$green:        #95ae4a;
+// Primary colors.
+// https://coolors.co/542344-c97064-e5e2dc-30638e-60992d
+$purple:       #542344;
+$copper:       #c97064;
+$timberwolf:   #e5e2dc;
+$blue:         #30638e;
+
+
+// Auxiliary colors (for additional blog tags).
 $indigo:       #003d5b;
 $tuscan-red:   #834954;
+
+
+// Book colors.
+$green:        #60992d;
+$tart-orange:  #c65050;
+
 
 
 :root,
@@ -34,19 +38,20 @@ $tuscan-red:   #834954;
 
 
   // Primary colors.
-  --champagne:   #{$champagne};
-  --copper:      #{$copper};
   --purple:      #{$purple};
-  --seaweed:     #{$seaweed};
-  --tart-orange: #{$tart-orange};
+  --copper:      #{$copper};
   --timberwolf:  #{$timberwolf};
+  --blue:        #{$blue};
+  
 
-
-  // Secondary colors.
+  // Auxiliary colors.
   --indigo:      #{$indigo};
   --tuscan-red:  #{$tuscan-red};
-  --cadet-blue:  #{$cadet-blue};
+
+
+  // Book colors.
   --green:       #{$green};
+  --tart-orange: #{$tart-orange};
 
 
   // RGB versions of colors for opacity making.
@@ -56,7 +61,7 @@ $tuscan-red:   #834954;
 
 
   // Darker tints
-  --copper-dark-10:      #{ darken( $copper, 10% ) };
+  --copper-dark-15:      #{ darken( $copper, 15% ) };
   --copper-dark-20:      #{ darken( $copper, 20% ) };
   --copper-dark-30:      #{ darken( $copper, 30% ) };
 
@@ -64,6 +69,7 @@ $tuscan-red:   #834954;
 
   --purple-dark-10:      #{ darken( $purple, 10% ) };
 
+  --tart-orange-dark-5: #{ darken( $tart-orange, 5% ) };
   --tart-orange-dark-10: #{ darken( $tart-orange, 10% ) };
   --tart-orange-dark-20: #{ darken( $tart-orange, 20% ) };
 
@@ -75,16 +81,16 @@ $tuscan-red:   #834954;
   --black-light-40:      #{ lighten( $black, 40% ) };
   --black-light-50:      #{ lighten( $black, 50% ) };
 
-  --purple-light-10:     #{ lighten( $purple, 10% ) };
+  --purple-light-10:      #{ lighten( $purple, 10% ) };
 
 
   // Reusable category colors.
-  --cat-accessibility:   var( --tart-orange );
+  --cat-accessibility:   var( --tart-orange-dark-5 );
   --cat-development:     var( --purple );
-  --cat-life:            var( --copper );
+  --cat-life:            var( --copper-dark-15 );
   --cat-pregnancy:       var( --tuscan-red );
   --cat-user-experience: var( --indigo );
-  --cat-wordpress:       var( --seaweed );
+  --cat-wordpress:       var( --blue );
   --cat-writing:         var( --green-dark-10 );
 
 }

@@ -24,12 +24,13 @@
 .tool-list {
 
   dl {
+    @include make-full-width-right;
+
     @media screen and ( min-width: $lg ) {
       display: grid;
       grid-template-columns: 1fr 4fr 10rem;
-      margin-top: 2rem;
-      padding-right: 4rem;
-      width: $archive-width;
+      margin-block-start: 2rem;
+      padding-inline-end: 4rem;
     }
   }
 
@@ -45,20 +46,20 @@
       padding: 1rem 0.75rem;
     }
 
-    &.css     { @include tool-list-color-row( darken( $tart-orange, 10% ) ); }
-    &.js      { @include tool-list-color-row( mix( $white, $purple, 10% ) ); }
-    &.utility { @include tool-list-color-row( darken( $seaweed, 5% ) ); }
+    &.css     { @include tool-list-color-row( darken( $copper, 15% ) ); }
+    &.js      { @include tool-list-color-row( lighten( $purple, 10% ) ); }
+    &.utility { @include tool-list-color-row( darken( $blue, 5% ) ); }
   }
 
   // Tool information.
   dd {
     --text-size: var( --type-small );
 
-    margin-bottom: 0.5rem;
+    margin-block-end: 0.5rem;
     padding: 0 1rem;
 
     @media screen and ( min-width: $lg ) {
-      margin-bottom: 0.25rem;
+      margin-block-end: 0.25rem;
       padding: 1rem 0.5rem;
     }
   }
@@ -67,7 +68,7 @@
   a {
     --link-type-size: var( --type-small );
     display: block;
-    margin-bottom: 0.75rem;
+    margin-block-end: 0.75rem;
 
     @media screen and ( min-width: $lg ) {
       background-color: rgba( #{ var( --actual-white-rgb ) }, 0.4 );

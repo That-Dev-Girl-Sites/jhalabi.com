@@ -6,17 +6,16 @@ hr {
 
   margin: 5rem 0;
 
-
   &.books {
 
     border-bottom: 0;
     border-top: 1px solid var(--black);
-    margin-left: calc( var(--page-padding-inline-small) * -1 );
+    margin-inline-start: calc( var(--page-padding-inline-small) * -1 );
     width: 100vw;
     
 
     @media screen and ( min-width: $md ) {
-      margin-left: calc( var(--page-padding-inline-large) * -1 );
+      margin-inline-start: calc( var(--page-padding-inline-large) * -1 );
     }
 
   }

@@ -5,8 +5,8 @@
 .nameplate {
 
   line-height: 1;
-  margin-bottom: 0.5rem;
-  padding-top: $logo-size * 1.25;
+  margin-block-end: 0.5rem;
+  padding-block-start: $logo-size * 1.25;
   text-align: center;
 
   @media screen and ( min-width: $md ) {

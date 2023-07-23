@@ -33,7 +33,7 @@ You can select the "Color block style" inside the Color Palette block by using t
 * **Circle:** Each color is displayed as a circle of color, with the name and color values centered underneath the circle of color.
 </section>
 
-<section markdown="1" class="has-background copper" aria-label="Color code options">
+<section markdown="1" class="has-background timberwolf" aria-label="Color code options">
 ## Color code options
 
 Inside the Color Palette block, you can select which color codes (Hex, RGB, or CMYK) should be hidden on the page. These options are in the Inspector Panel and apply to all color blocks inside the palette.

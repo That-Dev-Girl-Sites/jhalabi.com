@@ -13,13 +13,18 @@ body {
     background-image: repeating-linear-gradient(
       180deg,
       var( --purple ),
-      var( --purple )     0.25rem,
-      var( --timberwolf ) 0.25rem,
-      var( --timberwolf ) 0.25rem * 2,
-      var( --copper )     0.25rem * 2,
-      var( --copper )     0.25rem * 3,
-      var( --champagne )  0.25rem * 3,
-      var( --champagne )  0.25rem * 4 );
+      var( --purple )      0.25rem,
+      var( --timberwolf )  0.25rem * 2,
+      var( --timberwolf )  0.25rem * 3,
+      var( --copper )      0.25rem * 3,
+      var( --copper )      0.25rem * 4,
+      var( --timberwolf )  0.25rem * 4,
+      var( --timberwolf )  0.25rem * 5,
+      var( --blue )        0.25rem * 5,
+      var( --blue )        0.25rem * 6,
+      var( --timberwolf )  0.25rem * 6,
+      var( --timberwolf )  0.25rem * 7
+    );
     content: '';
     display: block;
     height: $logo-size-half;

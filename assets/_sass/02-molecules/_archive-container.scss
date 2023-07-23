@@ -4,16 +4,17 @@
 
 .archive-container {
 
-  @media screen and ( min-width: $md ) {
+  @include make-full-width-right;
+
+  @media screen and ( min-width: $lg ) {
     display: grid;
     gap: 6rem;
     grid-template-columns: 1fr 20rem;
-    width: $archive-width;
   }
 
   section {
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-block-end: 0;
+    padding-block-end: 0;
   }
 
 }

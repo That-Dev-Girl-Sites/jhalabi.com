@@ -4,28 +4,45 @@
 
 .speaking-details {
 
-  padding-bottom: 2rem;
+  // Past speaking engagements.
+  &-past {
 
-  dt {
-    @include sans-bold;
-    line-height: 1.2;
-    margin-bottom: 0.75rem;
-  }
+    @include make-full-width-right;
 
-  dd {
-    --text-size: var( --type-small );
-
-    margin-bottom: 0.25rem;
-
-    &::before {
-      margin-right: 1rem;
-    }
-  }
-
-  @media screen and ( min-width: $md ) {
     display: grid;
     gap: 4rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat( auto-fit, minmax( 300px, 1fr ) );
+    margin-block-start: 3rem;
+    padding-inline-end: 4rem;
+
+    li {
+      list-style-type: none;
+      margin: 0;
+
+      &::before {
+        background-color: var( --purple-light-10 );
+        color: var( --white );
+        content: counter(deets);
+        counter-increment: deets -1;
+        padding: 0.35rem;
+        position: relative;
+        top: 0.6rem;
+      }
+    }
+
+    p {
+      --text-size: var( --type-small );
+    }
+    
+    strong {
+      --text-size: var( --type-p );
+      border-top: 0.25rem solid var( --purple-light-10 );
+      display: inline-block;
+      margin-block-start: 0.5rem;
+      padding-block-start: 0.75rem;
+      width: 100%;
+    }
+
   }
 
 }

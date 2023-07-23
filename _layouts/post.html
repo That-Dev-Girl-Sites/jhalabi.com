@@ -3,15 +3,7 @@
 <main id="main" class="main post">
 
   <div class="post-meta has-background timberwolf">
-    <h1>{{ page.title }}</h1>
-
-    <p class="date">
-      {{ page.date | date_to_long_string }}
-    </p>
-
     <p class="categories">
-      <b>Topics:</b>
-
       {% for category in page.categories %}
         {% assign mainCategory = category %}
         <a href="/blog/{{category | replace: ' ', '-' }}/" class="category {{category | replace: '_', '-' }}">{{ category | replace: "-", " " }}</a>
@@ -21,21 +13,30 @@
         <a href="/blog/{{ mainCategory }}/{{ tag | replace: ' ', '-' }}/" class="category">{{ tag | replace: "-", " "  }}</a>
       {% endfor %}
     </p>
+
+    <h1>{{ page.title }}</h1>
+
+    <p class="date">
+      {{ page.date | date_to_long_string }}
+    </p>
+
+
+    <div class="post-share">
+      Share via: 
+
+      <a class="post-share-link" target="_blank" href="https://twitter.com/intent/tweet?text=Check out '{{ page.title }}' by @jonihalabi&url={{ site.url }}{{ page.url }}">
+        <span class="icon icon-twitter"><span class="sr-only">Twitter</span></span>
+      </a>
+  
+      <a class="post-share-link" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}">
+        <span class="icon icon-linkedin"><span class="sr-only">LinkedIn</span></span>
+      </a>
+    </div>
+    
   </div>
+
 
   {{ content }}
-
-  <div class="post-share has-background timberwolf">
-    <a class="post-share-link" target="_blank" href="https://twitter.com/intent/tweet?text=Check out '{{ page.title }}' by @jonihalabi&url={{ site.url }}{{ page.url }}">
-      Share on
-      <span class="icon icon-twitter"><span class="sr-only">Twitter</span></span>
-    </a>
-
-    <a class="post-share-link" target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}">
-      Share on
-      <span class="icon icon-linkedin"><span class="sr-only">LinkedIn</span></span>
-    </a>
-  </div>
 
 </main>
 

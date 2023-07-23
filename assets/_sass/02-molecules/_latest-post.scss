@@ -7,9 +7,9 @@
   border-left: 2rem solid;
   border-color: var( --copper );
   margin: 3rem 0;
-  padding-bottom: 2rem;
-  padding-left: 1.5rem;
-  padding-top: 1rem;
+  padding-block-end: 2rem;
+  padding-inline-start: 1.5rem;
+  padding-block-start: 1rem;
 
   // Side border colors.
   &.accessibility   { border-color: var( --cat-accessibility ); }
@@ -25,7 +25,7 @@
   &-meta {
     --text-size: var( --type-small );
 
-    margin-bottom: 0 !important;
+    margin-block-end: 0 !important;
 
     span {
       &::after {
@@ -46,8 +46,8 @@
   // Post title.
   h3 {
     @include monospace;
-    margin-bottom: 1rem;
-    margin-top: 0;
+    margin-block-end: 1rem;
+    margin-block-start: 0;
 
     a {
       --text-color: var( --black );

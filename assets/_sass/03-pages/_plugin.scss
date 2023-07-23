@@ -5,7 +5,7 @@
 .plugin {
 
   .plugin-screenshots {
-    margin-bottom: 2rem;
+    margin-block-end: 2rem;
 
     @media screen and ( min-width: $md ) {
       display: grid;
@@ -16,12 +16,12 @@
 
   .donate {
     border-bottom: 1px solid var( --white );
-    padding-bottom: 1rem;
+    padding-block-end: 1rem;
 
     p {
       --text-color: var( --white );
 
-      margin-bottom: 0;
+      margin-block-end: 0;
       text-align: center;
     }
 
@@ -31,11 +31,11 @@
       --text-size:     var( --type-small );
 
       padding: 0.75rem 3rem;
-      margin-top: 1rem;
+      margin-block-start: 1rem;
 
       &:focus,
       &:hover {
-        --link-bg-color: var( --champagne );
+        --link-bg-color: var( --timberwolf );
       }
     }
   }

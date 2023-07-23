@@ -4,14 +4,15 @@
 
 .work-examples {
 
+  @include make-full-width-right;
+
   display: grid;
-  gap: 1.5rem;
+  gap: 3rem;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin: 2rem 0 3rem;
+  margin-block: 2rem;
 
   @media screen and ( min-width: $lg ) {
-    padding-right: 4rem;
-    width: $archive-width;
+    padding-inline-end: 4rem;
   }
 
 
@@ -20,10 +21,10 @@
     background-color: var( --actual-white );
     border-radius: 0.25rem;
     box-shadow: 0 1px 2px 0 var( --black-light-40 );
-    padding-bottom: 2rem;
+    padding-block-end: 2rem;
 
     * {
-      padding: 0 1rem;
+      padding: 0 1.5rem;
 
       &:first-child {
         padding: 0;
@@ -32,7 +33,7 @@
 
     @media screen and ( min-width: $md ) {
       border: 0 !important;
-      padding-top: 0;
+      padding-block-start: 0;
     }
   }
 
@@ -56,7 +57,7 @@
   p {
     --text-size: var( --type-small );
 
-    margin-bottom: 1rem;
+    margin-block-end: 1rem;
   }
 
 }

@@ -6,28 +6,28 @@
 
   border-top: 1px solid var( --black );
   margin: 2.5rem 0;
-  padding-top: 2.5rem;
+  padding-block-start: 2.5rem;
 
   &:first-of-type {
     border-top: 0;
-    margin-top: 1rem;
-    padding-top: 0;
+    margin-block-start: 1rem;
+    padding-block-start: 0;
   }
 
   .categories .category:first-child {
-    margin-left: 0;
+    margin-inline-start: 0;
   }
 
   .title {
     --text-size: var( --type-h3 );
 
     line-height: 1.5;
-    margin-bottom: 0;
-    margin-top: 0.5rem;
+    margin-block-end: 0;
+    margin-block-start: 0.5rem;
   }
 
   .excerpt {
-    margin-bottom: 0;
+    margin-block-end: 0;
   }
 
 }
