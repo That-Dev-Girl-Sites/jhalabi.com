@@ -30,10 +30,12 @@ I feel the need to apologize for 2020. And 2021. And... also 2022. I could blame
 
 ## Books Read in 2023 {#books-2023}
 
-<p class="book-count">(Total: 4)</p>
+<p class="book-count">(Total: 6)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**Before the Coffee Gets Cold** <br> Toshikazu Kawaguchi, Geoffrey Trousselot _(Translator)_ | This was such a capitvating story. I had a bit of a slow start with it. There were so many characters and I had a hard time figuring out how they all related to each other. But the end was worth it. | <span class='fa fa-heart'></span> August
+**Stella Díaz Never Gives Up** <br> Angela Dominguez | I originally borrowed this book from the library to read to my daughter, but she became disinterested half-way through. _(Perhaps a chapter book on ocean conservation is a bit too much for 5 year-olds?)_ I finished it on my own and it was great. Maybe we'll try again in a year or two. | August
 **Daisy Jones & The Six** <br> Taylor Jenkins Reid | I am a bit ashamed to admit this, but I did not realize this band was fictional until about half-way through the book. I am clearly not up on my 1970s rock bands. I'll just say that this is how engaging and real-seeming all the characters were. <span class='fa fa-heart'></span> | May
 **The Bell Jar** <br> _Sylvia Plath_ | Inspired to read this after my previous read and I loved it. It definitely took at turn half-way through that I should have expected, but did not. <span class='fa fa-heart'></span> | May 
 **The Last Confessions of Sylvia P.** <br> _Lee Kravetz_ | Finally got back to reading and I chose a doozie! I don't know much about Plath's work (and this has inspired me to _finally_ read _The Bell Jar_), but this book was certainly captivating. No spoilers here, but I have some feels about the ending. I get it, but... feels. Still worth the read. | April
