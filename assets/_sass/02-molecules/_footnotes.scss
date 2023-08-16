@@ -8,7 +8,10 @@
   margin-block-start: 4rem;
   padding-block: 1rem;
 
-  li {
+  // Yes, a `<p>` inside a `<li>` because that is how kramdown
+  // writes out footnotes. I don't like it either, but here
+  // we are.
+  li p {
     --text-size: var( --type-small );
   }
 
