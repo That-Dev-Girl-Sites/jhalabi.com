@@ -41,7 +41,7 @@ So far, I have a good handle on the logistics of the editing process _(more on t
 
 ### Step 3: Actually editing
 
-Throughout steps 1 and 2, I started the editing process because, frankly, my first draft was the book equivalent of pseudocode.<sup>1</sup><sup>2</sup>
+Throughout steps 1 and 2, I started the editing process because, frankly, my first draft was the book equivalent of pseudocode.[^1][^2]
 
 Ok, my first draft was a little better than pseudocode, but it needed some changes.
 
@@ -49,13 +49,13 @@ As I was editing, I joined [Reedsy](https://reedsy.com/), where is both where I 
 
 In the meantime, I also joined the [Society of Children's Book Writers and Illustrators (SCBWI)](https://www.scbwi.org/) and posted my draft manuscript there for feedback as well. _(The more, the merrier, right?)_
 
-I got quite a bit of feedback there, mostly about the rhythm of my verses. _(The book is essentially a poem)_ To be honest, I couldn't hear the issues. It was like having some code that you _know_ is good, but your browser keeps complaining that it can't read it. You just know there is a missing semi-colon somewhere, but you have absolutely no idea where because you've been staring at it for _way_ too long.<sup>3</sup>
+I got quite a bit of feedback there, mostly about the rhythm of my verses. _(The book is essentially a poem)_ To be honest, I couldn't hear the issues. It was like having some code that you _know_ is good, but your browser keeps complaining that it can't read it. You just know there is a missing semi-colon somewhere, but you have absolutely no idea where because you've been staring at it for _way_ too long.[^3]
 
-I put the book down for a few weeks, picked it back up, made some edits, then posted the edits. Still more rhythm issues. I. Could. Not. Hear. Them. Frustrated, I decided to rubber-ducky method this problem.<sup>4</sup>
+I put the book down for a few weeks, picked it back up, made some edits, then posted the edits. Still more rhythm issues. I. Could. Not. Hear. Them. Frustrated, I decided to rubber-ducky method this problem.[^4]
 
-However, instead of talking about my problem to the rubber ducky, I decided to sing to my rubber ducky. I made up a tune and sang each book verse to that same tune.<sup>5</sup> If I had a hard time fitting the words to the tune, then I would know where my rhythm issues are.
+However, instead of talking about my problem to the rubber ducky, I decided to sing to my rubber ducky. I made up a tune and sang each book verse to that same tune.[^5] If I had a hard time fitting the words to the tune, then I would know where my rhythm issues are.
 
-Wow, did I find issues that way! Where the rhythm worked - and where it didn't - became glaringly obvious. I rewrote about half the book after that exercise and, I think, came out with a much stronger book. In my truly unexperienced opinion, I highly recommend trying this if you're stuck, even if you make up a Gregorian chant for your verses.<sup>6</sup>
+Wow, did I find issues that way! Where the rhythm worked - and where it didn't - became glaringly obvious. I rewrote about half the book after that exercise and, I think, came out with a much stronger book. In my truly unexperienced opinion, I highly recommend trying this if you're stuck, even if you make up a Gregorian chant for your verses.[^6]
 
 ## Current status
 
@@ -65,11 +65,11 @@ So, that's where I am now. I feel like the text is done - or at least done enoug
 
 Stay tuned for my next post, where I talk about using spreadsheets to search for the perfect illustrator! _(If you think I'm kidding, just wait.)_
 
----
 
-1. __Pseudocode__ is computer-speak for when you write out what you want your function to do before you actually write your computer code.
-2. It occurs to me that, for the first time possibly ever, my blog will be read by non-technical people. If you have been to literally any other part of my website, you have probably realized that I am a professional nerd. So, welcome non-computer people! I can't promise that I will not make comparisons between book writing and programming, but I can promise that I will try to explain any nerdisms here.
-3. Punctuation is ridiculously important in most programming languages - more important than you'd think. This is not true for all of them, but it is in the ones I tend to write in.
-4. The "rubber ducky method" is a strategy that programmers use to solve problems, where we talk to a rubber ducky. Yes, really. We tell a rubber ducky our problem and, in the course of actually verbalizing the problem, we start talking out a solution. It really does work.
-5. No, I will not sing it for you. It is truly terrible. Just don't ask.
-6. [Gregorian chant example](https://www.youtube.com/watch?v=WhP4DS2WURU)
+
+[^1]: __Pseudocode__ is computer-speak for when you write out what you want your function to do before you actually write your computer code.
+[^2]: It occurs to me that, for the first time possibly ever, my blog will be read by non-technical people. If you have been to literally any other part of my website, you have probably realized that I am a professional nerd. So, welcome non-computer people! I can't promise that I will not make comparisons between book writing and programming, but I can promise that I will try to explain any nerdisms here.
+[^3]: Punctuation is ridiculously important in most programming languages - more important than you'd think. This is not true for all of them, but it is in the ones I tend to write in.
+[^4]: The "rubber ducky method" is a strategy that programmers use to solve problems, where we talk to a rubber ducky. Yes, really. We tell a rubber ducky our problem and, in the course of actually verbalizing the problem, we start talking out a solution. It really does work.
+[^5]: No, I will not sing it for you. It is truly terrible. Just don't ask.
+[^6]: [Gregorian chant example](https://www.youtube.com/watch?v=WhP4DS2WURU)

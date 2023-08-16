@@ -51,17 +51,3 @@ li {
 ul, ol {
   margin-block-end: 2rem;
 }
-
-
-// Footnotes on posts.
-hr + ol {
-
-  margin-block-end: 4rem;
-
-  li {
-    --text-size: var( --type-small );
-
-    margin-inline-start: var( --padding-inline );
-  }
-
-}

@@ -22,7 +22,7 @@ So, _Sweet Little You_ was born.
 
 ## Marketing a book is scarier
 
-I am a life-long programmer. I wrote my first line of code when I was 7. After some fits and starts, I made programming my career. It's logical. Computers make sense (for the most part). You tell a computer what to do and it (usually) does it.<sup>1</sup>
+I am a life-long programmer. I wrote my first line of code when I was 7. After some fits and starts, I made programming my career. It's logical. Computers make sense (for the most part). You tell a computer what to do and it (usually) does it.[^1]
 
 People are not computers. I am trying to sell my book. To people. 
 
@@ -34,6 +34,6 @@ Scary for someone who's spent 20 years bossing computers around. Wish me luck!
 
 P.S. Please [buy my book](/book)!
 
----
 
-1. Computers are weird. They really will do exactly what you tell them to. Even if _exactly_ doesn't match your intent. And then there's AI. Don't get me started on AI.
+
+[^1]: Computers are weird. They really will do exactly what you tell them to. Even if _exactly_ doesn't match your intent. And then there's AI. Don't get me started on AI.

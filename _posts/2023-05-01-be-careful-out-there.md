@@ -24,13 +24,13 @@ None of this is directly related to the phishing attempt. However, it does serve
 
 ## The phish
 
-This morning, I received an email from Ann<sup>1</sup> with the subject line "Find attachment from We Make Roofs LLC". The email contents said that Ann shared a document with me, via Adobe, and included a link for me to access the file. This was not unusual for them. During the roof replacement process, I received a lot of documents this way - contracts, receipts, etc.
+This morning, I received an email from Ann[^1] with the subject line "Find attachment from We Make Roofs LLC". The email contents said that Ann shared a document with me, via Adobe, and included a link for me to access the file. This was not unusual for them. During the roof replacement process, I received a lot of documents this way - contracts, receipts, etc.
 
-Given my conversation last week with the adjuster, my first thought was that We Make Roofs LLC was trying to bill me for the aforementioned tarping work. Annoyed _(especially since I thought my side of the financials was done)_, I clicked the link to figure this out.<sup>2</sup>
+Given my conversation last week with the adjuster, my first thought was that We Make Roofs LLC was trying to bill me for the aforementioned tarping work. Annoyed _(especially since I thought my side of the financials was done)_, I clicked the link to figure this out.[^2]
 
 **Red flag #1:** The link took me to a page that redirected me to another page. The second page immediately asked for a user name and password. I never created an account with We Make Roofs LLC and our previous shared files never required passwords.
 
-I replied to the email, which went to `ann@wemakeroofs.com`<sup>3</sup>, to ask what was going on.
+I replied to the email, which went to `ann@wemakeroofs.com`[^3], to ask what was going on.
 
 **Red flag #2:** A few minutes later, I got a second email from We Make Roofs LLC. This time it was from Patricia, with the subject line "Urgent_ImportantDocs 05-01-2023". This email didn't go to me directly, but to "Undisclosed Recipients". This email practically screamed "I'm a phish!"
 
@@ -50,14 +50,13 @@ In conclusion:
 
 1. Never click on anything.
 2. No really. _Never_ click on _anything_.
-3. If an email feels suspect at all, especially if it is from a company that you have worked with, just call them<sup>4</sup>.
+3. If an email feels suspect at all, especially if it is from a company that you have worked with, just call them.[^4]
 
 Stay safe out there.
 
 
----
 
-1. Names of both people and companies have been changed.
-2. Yes, I know. Bad. Bad. Bad. Bad. Bad. Never click on links in an email, but the context, timing, and my annoyed state made me think this was real. My deepest apologies to every security person I know.
-3. Again, I changed all the names. _This_ is not a real email, but the email I replied to was a legit email for the real company.
-4. I know, I hate making phone calls too, but sometimes it's good for you. Trust me.
+[^1]: Names of both people and companies have been changed.
+[^2]: Yes, I know. Bad. Bad. Bad. Bad. Bad. Never click on links in an email, but the context, timing, and my annoyed state made me think this was real. My deepest apologies to every security person I know.
+[^3]: Again, I changed all the names. _This_ is not a real email, but the email I replied to was a legit email for the real company.
+[^4]: I know, I hate making phone calls too, but sometimes it's good for you. Trust me.

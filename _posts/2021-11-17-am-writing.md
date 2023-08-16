@@ -20,9 +20,9 @@ We read _a lot_ in this house. I have shelves and shelves of books. Mini-me now 
 
 One of my goals as a single mother by choice is for my child to never experience a big reveal moment, where she learns about who her biological father is. In fact, she was only a few days old when I first told her about her bio-dad. Not that she remembers that, of course.
 
-In a more recent effort to explain the topic to her, I bought and read to her a bunch of single mother by choice books that are specifically tailored for kids.<sup>1</sup> However, they _did_ feel like a bit too much for mini-me when she was younger. Nothing she could have grasped when she was a baby or even a toddler, for sure. She's just starting to get it now as a preschooler.
+In a more recent effort to explain the topic to her, I bought and read to her a bunch of single mother by choice books that are specifically tailored for kids.[^1] However, they _did_ feel like a bit too much for mini-me when she was younger. Nothing she could have grasped when she was a baby or even a toddler, for sure. She's just starting to get it now as a preschooler.
 
-Then I thought about all of the "welcome baby" books that we were gifted, mostly during my baby shower.<sup>2</sup> We love those too, but they are all written from that perspective of a 2-parent (usually heterosexual) household. While beautiful, they are mildly awkward for us.
+Then I thought about all of the "welcome baby" books that we were gifted, mostly during my baby shower.[^2] We love those too, but they are all written from that perspective of a 2-parent (usually heterosexual) household. While beautiful, they are mildly awkward for us.
 
 ## _Do something!,_ whispers my brain.
 
@@ -40,7 +40,7 @@ Right now, I'm in the process of looking for an illustrator, which is more anxie
 
 Stay tuned!
 
----
 
-1. In particular, we enjoy reading [For Mommy So Loved You](https://www.goodreads.com/en/book/show/38671815) and [Mommy and Me How I Came to Be](https://www.goodreads.com/book/show/53524014-mommy-and-me---how-i-came-to-be).
-2. I really love [Welcome Little One](https://www.goodreads.com/book/show/26457275-welcome-little-one), despite the "we's".
+
+[^1]: In particular, we enjoy reading [For Mommy So Loved You](https://www.goodreads.com/en/book/show/38671815) and [Mommy and Me How I Came to Be](https://www.goodreads.com/book/show/53524014-mommy-and-me---how-i-came-to-be).
+[^2]: I really love [Welcome Little One](https://www.goodreads.com/book/show/26457275-welcome-little-one), despite the "we's".

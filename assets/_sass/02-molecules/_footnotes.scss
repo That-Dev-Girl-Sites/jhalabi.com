@@ -1,0 +1,15 @@
+/**
+ * Molecules: Footnotes
+ */
+
+.footnotes {
+
+  border-block-start: 1px solid var( --black );
+  margin-block-start: 4rem;
+  padding-block: 1rem;
+
+  li {
+    --text-size: var( --type-small );
+  }
+
+}

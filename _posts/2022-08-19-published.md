@@ -22,11 +22,11 @@ Like I said, I have been writing for a while. Most of the things I have written 
 
 I speak at conferences too. I 100% count this as a form of writing, since it involves much of the same process. Think of a topic. Outline the shape of topic's story. Write in the details. Speaking simply adds another step: Say the words out loud. 
 
-Over time, I have discovered that most of my writing that has been more popular<sup>1</sup> was born out of some amount of frustration or otherwise had an emotional drive. My pregnancy story was quite the complicated ride<sup>2</sup>. Website carousels are the bane of my professional existence. Most of my conference talks are almost always born out of whatever new hottness I am working on in any given year.
+Over time, I have discovered that most of my writing that has been more popular[^1] was born out of some amount of frustration or otherwise had an emotional drive. My pregnancy story was quite the complicated ride.[^2] Website carousels are the bane of my professional existence. Most of my conference talks are almost always born out of whatever new hottness I am working on in any given year.
 
 ## And now?
 
-[_Sweet Little You_](/book) is no different. This book was born out of both love and frustration. I love my daughter and we love reading together. We have a ton of books. There are books in every room of our house<sup>3</sup>.
+[_Sweet Little You_](/book) is no different. This book was born out of both love and frustration. I love my daughter and we love reading together. We have a ton of books. There are books in every room of our house.[^3]
 
 Among our collection are "welcome baby" books. They are cute and I love them. In fact, [_Welcome Little One_](https://www.goodreads.com/en/book/show/26457275-welcome-little-one) is the first book I ever read to my daughter and is still one of our favorites. However, just about all of these "welcome" books use plural pronouns. We. Us. Our. The messages are beautiful, but slightly awkward for a single-parent family.
 
@@ -40,12 +40,11 @@ So, [_Sweet Little You_](/book) was born. It is a book where a mother welcomes h
 
 [_Sweet Little You_](/book) is the book I wanted to exist when my daughter was born and I am so excited to share it with anyone else who may be craving the same.
 
-So, shameless plug here. Please spread the word. And, if you have read the book and are so inclined, please leave an [Amazon review](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X). Even if you are not a fan of Amazon<sup>4</sup>, it helps with rankings and such.
+So, shameless plug here. Please spread the word. And, if you have read the book and are so inclined, please leave an [Amazon review](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X). Even if you are not a fan of Amazon[^4], it helps with rankings and such.
 
 
----
 
-1. That is, more than 1 person has read it.
-2. Thanks, in no small part, to hormones, but going it solo definitely helped to feed the fire.
-3. Except the bathrooms. I don't want to yuck anyone's yum, but bathroom books are not for us.
-4. Fun fact that I just learned, you do not need to buy a book on Amazon to review it. You can support your local bookstore or borrow a book from a library and still leave a review on Amazon. For better or worse, Amazon is great for exposure, especially for those of us who self-publish, and ratings help with Amazon rankings and recommendations.
+[^1]: That is, more than 1 person has read it.
+[^2]: Thanks, in no small part, to hormones, but going it solo definitely helped to feed the fire.
+[^3]: Except the bathrooms. I don't want to yuck anyone's yum, but bathroom books are not for us.
+[^4]: Fun fact that I just learned, you do not need to buy a book on Amazon to review it. You can support your local bookstore or borrow a book from a library and still leave a review on Amazon. For better or worse, Amazon is great for exposure, especially for those of us who self-publish, and ratings help with Amazon rankings and recommendations.

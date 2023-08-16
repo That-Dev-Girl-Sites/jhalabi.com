@@ -11,7 +11,7 @@ I started working with custom Gutenberg blocks sometime in late 2017. Or, perhap
 
 Regardless, it has been a while. Gutenberg was still in development and significantly changing with every new _(alpha)_ release. Meanwhile, our team at work was planning to migrate our 300+ sites from Drupal to WordPress. We knew that Gutenberg had to be part of that plan.
 
-I wrote a lot of blocks in those early days <sup>1</sup>. _All_ of them were static blocks. I did not know dynamic blocks were a possibility until we needed to write our own custom "Latest News" block. 
+I wrote a lot of blocks in those early days.[^1] _All_ of them were static blocks. I did not know dynamic blocks were a possibility until we needed to write our own custom "Latest News" block. 
 
 As an agile team, we tweaked those original blocks multiple times. This is what fueled my [dislike of static blocks](https://talks.jhalabi.com/dynamic-blocks/#/).
 
@@ -40,7 +40,7 @@ This migration step is more complex, but very important, part of the process. Th
 
 ### An example
 
-My solution was to write a one-off script in PHP to handle the migration. For illustrative purposes, let's pretend that we want to replace the existing core Paragraph (static) block with a new dynamic Paragraph block<sup>2</sup>.
+My solution was to write a one-off script in PHP to handle the migration. For illustrative purposes, let's pretend that we want to replace the existing core Paragraph (static) block with a new dynamic Paragraph block.[^2]
 
 The static version of the block is saved with the HTML for the paragraph enclosed in Gutenberg block indicator comments. For example:
 
@@ -168,7 +168,7 @@ This regular expression locates the block by its block indicator comments and is
 
 ### The loop
 
-The next part of the script gets all posts across all relevant post types, so that we can loop through each post to look for the Paragraph block. In this example, we want to collect a list of all posts, pages, and `wp_blocks`, which is the post type used for reusable blocks<sup>3</sup>.
+The next part of the script gets all posts across all relevant post types, so that we can loop through each post to look for the Paragraph block. In this example, we want to collect a list of all posts, pages, and `wp_blocks`, which is the post type used for reusable blocks.[^3]
 
 The script then loops through all posts and checks to see if the static Paragraph block exists in that post. If at least one Paragraph block is found, the migration continues. Otherwise, the script moves on to the next post in the loop.
 
@@ -227,8 +227,8 @@ The Paragraph example above is a _very_ basic overview of how I have been writin
 
 There is no concrete formula for a migration like this because we are 100% in edge-case territory. Ideally, you will need to do very, very few of these types of migrations, if any at all. My hope for this article is to give you an idea of what you are in for if you happen to need to perform a similar migration. YMMV. Good luck!
 
----
 
-1. I'm going to tell you a dirty secret. I did not know React when I was writing those early blocks. As a matter of fact, I _still_ don't know React. My "React" skillset is extremely limited to the Gutenberg API. So, now you know. React experience is not actually a requirement to work with custom blocks. You're welcome?
-2. This is a terrible idea to do in reality. Please do not replace the core Paragraph block on your own site. Not only is it an extremely useful and solid block, it is also the default block used by the WordPress. If a content editor just starts typing in the post editor, that content automatically goes into a Paragraph block. Removing and replacing this block will really mess up the editor. 
-3. Do not forget about reusable blocks! Reusable blocks are saved as references in the post content of a page or post. Their content is not directly saved to a page or post. (If a reusable block is updated, that update is applied to all pages and posts on which it appears. This is _exactly_ why a reusable block is saved by reference.) Therefore, we _also_ need to include reusable blocks as a post type for these types of content migrations.
+
+[^1]: I'm going to tell you a dirty secret. I did not know React when I was writing those early blocks. As a matter of fact, I _still_ don't know React. My "React" skillset is extremely limited to the Gutenberg API. So, now you know. React experience is not actually a requirement to work with custom blocks. You're welcome?
+[^2]: This is a terrible idea to do in reality. Please do not replace the core Paragraph block on your own site. Not only is it an extremely useful and solid block, it is also the default block used by the WordPress. If a content editor just starts typing in the post editor, that content automatically goes into a Paragraph block. Removing and replacing this block will really mess up the editor. 
+[^3]: Do not forget about reusable blocks! Reusable blocks are saved as references in the post content of a page or post. Their content is not directly saved to a page or post. (If a reusable block is updated, that update is applied to all pages and posts on which it appears. This is _exactly_ why a reusable block is saved by reference.) Therefore, we _also_ need to include reusable blocks as a post type for these types of content migrations.
