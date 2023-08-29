@@ -30,10 +30,11 @@ I feel the need to apologize for 2020. And 2021. And... also 2022. I could blame
 
 ## Books Read in 2023 {#books-2023}
 
-<p class="book-count">(Total: 6)</p>
+<p class="book-count">(Total: 7)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**Tomorrow and Tomorrow and Tomorrow** <br> Gabrielle Zevin | I am not a gamer. I have no idea how I ended up putting this book on my library request list, but I am glad I did. I had some issues with the book (that I will not go into here because spoilers), but despite that, I did not want to put the book down. | August
 **Before the Coffee Gets Cold** <br> Toshikazu Kawaguchi, Geoffrey Trousselot _(Translator)_ | This was such a capitvating story. I had a bit of a slow start with it. There were so many characters and I had a hard time figuring out how they all related to each other. But the end was worth it. | <span class='fa fa-heart'></span> August
 **Stella Díaz Never Gives Up** <br> Angela Dominguez | I originally borrowed this book from the library to read to my daughter, but she became disinterested half-way through. _(Perhaps a chapter book on ocean conservation is a bit too much for 5 year-olds?)_ I finished it on my own and it was great. Maybe we'll try again in a year or two. | August
 **Daisy Jones & The Six** <br> Taylor Jenkins Reid | I am a bit ashamed to admit this, but I did not realize this band was fictional until about half-way through the book. I am clearly not up on my 1970s rock bands. I'll just say that this is how engaging and real-seeming all the characters were. <span class='fa fa-heart'></span> | May
