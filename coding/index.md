@@ -5,9 +5,9 @@ redirect_from:
   - /work/
 ---
 
-I am a senior web developer and author in Washington DC with over 20 years of programming experience. I specialize in content management system **theme development**, custom **WordPress block** creation, and **Javascript application** architecture.
+I am a senior web developer, author, and speaker in Washington DC with over 20 years of programming experience. I specialize in content management system **theme development**, custom **WordPress block** creation, and technical **writing and instruction**.
 
-I started as purely a front-end developer, but I have been slowly migrating further back in the stack. As a result, I now call myself a **"middle-end" developer** and am working hard to make that term stick.
+I started as purely a front-end developer, but have been slowly migrating further back in the stack. As a result, I now call myself a **"middle-end" developer** and am working hard to make that term stick.
 
 ## Currently @...
 
