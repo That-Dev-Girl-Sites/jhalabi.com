@@ -13,7 +13,9 @@
   }
 
   li {
-    background-color: var( --purple-dark-10 );
+    --work-links-bg: var( --purple-dark-10 );
+    --work-links-hover: var( --copper-dark-15 );
+    background-color: var( --work-links-bg );
     border-radius: 0.25rem;
     list-style-type: none;
     margin: 0;
@@ -22,7 +24,12 @@
 
     &:focus,
     &:hover {
-      background-color: var( --copper-dark-15 );
+      background-color: var( --work-links-hover );
+    }
+
+    &:first-of-type {
+      --work-links-bg: var( --copper-dark-15 );
+      --work-links-hover: var( --blue );
     }
 
     a {
