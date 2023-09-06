@@ -20,4 +20,6 @@ My brain is failing to grasp the fact that I have not had time to even write a _
 
 The answer is clear: I either need to tell my brain to stop thinking entirely, or quit my job and spend the next 6 months writing.[^1]
 
+
+
 [^1]: This is a terrible idea. I do not need to do this because full-time-grown-up-job-that-pays-the-bills, well, pays the bills.
