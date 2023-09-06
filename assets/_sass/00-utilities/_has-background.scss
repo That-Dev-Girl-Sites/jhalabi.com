@@ -63,7 +63,7 @@
 
   // Color options.
   &.copper      { @include create-background( darken( $copper, 15% ),  0, 1 ) };
-  &.grey        { @include create-background( lighten( $black, 5% ),   0, 1 ) };
+  &.grey        { @include create-background( lighten( $black, 10% ),  0, 1 ) };
   &.grey-light  { @include create-background( lighten( $black, 70% )   0, 0 ) };
   &.purple      { @include create-background( $purple,                 0, 1 ) };
   &.timberwolf  { @include create-background( $timberwolf,             1, 0 ) };

@@ -61,6 +61,7 @@ $tart-orange:  #c65050;
 
 
   // Darker tints
+  --copper-dark-10:      #{ darken( $copper, 10% ) };
   --copper-dark-15:      #{ darken( $copper, 15% ) };
   --copper-dark-20:      #{ darken( $copper, 20% ) };
   --copper-dark-30:      #{ darken( $copper, 30% ) };

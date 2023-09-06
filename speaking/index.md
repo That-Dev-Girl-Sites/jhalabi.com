@@ -8,11 +8,17 @@ I have had the pleasure to speak and teach at a number of conferences, meetups, 
 Interested in having me speak at your event? Questions about a past presentation? Just want to chat? [Let's get in touch!](/contact/)
 
 
-<section markdown="1" class="has-background copper" aria-label="Integrating Twig templates with your WordPress block theme">
+<section markdown="1" class="has-background grey" aria-label="Integrating Twig templates with your WordPress block theme">
 
-## Upcoming events
+## **Upcoming event** -- Plot a course!: Creating Accessible SVG Charts in WordPress
 
-I have some more events coming up soon, so watch this space!
+WordPress Accessibility Day 2023 <br>
+September 28, 2023 @ 02:00 UTC
+
+Graphs and charts visualize complex data, making patterns inside datasets easier to understand. An important part of creating data visualizations is ensuring that they are accessible and responsive, so that they may be understood by as many people, using as many kinds of devices as possible.
+
+<a href="https://2023.wpaccessibility.day/sessions/plot-a-course-creating-accessible-svg-charts-in-wordpress/" alt="Learn more about this session" class="button button-copper">Learn more</a>
+
 
 </section>
 
