@@ -28,7 +28,7 @@ I have no upcoming talks or events just yet, but watch this space. I am always l
 
 <li markdown="1">
 **WordPress A11y Day 2023**
-[Plot a course!: Creating accessible SVG charts in WordPress](https://2023.wpaccessibility.day/sessions/plot-a-course-creating-accessible-svg-charts-in-wordpress/)
+[Plot a course!: Creating accessible SVG charts in WordPress](https://2023.wpaccessibility.day/sessions/plot-a-course-creating-accessible-svg-charts-in-wordpress/)  
 <span class="icon icon-calendar">September 28, 2023</span>  
 <span class="icon icon-location">Online</span>  
 <span class="icon icon-chat"><a href="https://talks.jhalabi.com/svg-in-wordpress" aria-label="View slides of Creating accessible SVG charts in WordPress">View slides</a></span>  
