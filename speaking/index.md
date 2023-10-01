@@ -38,7 +38,7 @@ I have no upcoming talks or events just yet, but watch this space. I am always l
 **Gutenberg Times Live Q&A**  
 Design systems & theme.json  
 <span class="icon icon-calendar">July 21, 2023</span>  
-<span class="icon icon-location">Online</span>
+<span class="icon icon-location">Online</span>  
 <span class="icon icon-play"><a href="https://www.youtube.com/watch?v=6-Epjq3FYSs" aria-label="Watch recording of Design systems and theme.json">Watch recording</a></span>  
 </li>
 
