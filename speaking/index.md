@@ -27,13 +27,21 @@ Graphs and charts visualize complex data, making patterns inside datasets easier
 
 ## Past events & courses
 
-<ol markdown="1" class="speaking-details-past" reversed style="counter-reset: deets 19;">
+<ol markdown="1" class="speaking-details-past" reversed style="counter-reset: deets 20;">
+
+<li markdown="1">
+**WordPress A11y Day 2023**
+[Plot a course!: Creating accessible SVG charts in WordPress](https://2023.wpaccessibility.day/sessions/plot-a-course-creating-accessible-svg-charts-in-wordpress/)
+<span class="icon icon-calendar">September 28, 2023</span>  
+<span class="icon icon-location">Online</span>  
+<span class="icon icon-chat"><a href="https://talks.jhalabi.com/svg-in-wordpress" aria-label="View slides of Creating accessible SVG charts in WordPress">View slides</a></span>  
+</li>
 
 <li markdown="1">
 **Gutenberg Times Live Q&A**  
 Design systems & theme.json  
 <span class="icon icon-calendar">July 21, 2023</span>  
-<span class="icon icon-location">Online</span>  
+<span class="icon icon-location">Online</span>
 <span class="icon icon-play"><a href="https://www.youtube.com/watch?v=6-Epjq3FYSs" aria-label="Watch recording of Design systems and theme.json">Watch recording</a></span>  
 </li>
 
