@@ -30,10 +30,11 @@ I feel the need to apologize for 2020. And 2021. And... also 2022. I could blame
 
 ## Books Read in 2023 {#books-2023}
 
-<p class="book-count">(Total: 8)</p>
+<p class="book-count">(Total: 9)</p>
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**The Midnight Library** <br> Matt Haig | I liked the overall story, but the pace ebbed and flowed. Without spoilers, I actually got bored in the middle, but kept reading because I wanted to know how this story would end. The ending was satisfying, maddening, and depressing. I had a lot of feels iwth this one. | October
 **Agent to the Stars** <br> John Scalzi | This was a great, quick, and highly amusing read. Parts of the book stylistically reminded me of Neil Gaiman (which is always a plus in my book) | September
 **Tomorrow and Tomorrow and Tomorrow** <br> Gabrielle Zevin | I am not a gamer. I have no idea how I ended up putting this book on my library request list, but I am glad I did. I had some issues with the book (that I will not go into here because spoilers), but despite that, I did not want to put the book down. | August
 **Before the Coffee Gets Cold** <br> Toshikazu Kawaguchi, Geoffrey Trousselot _(Translator)_ | This was such a capitvating story. I had a bit of a slow start with it. There were so many characters and I had a hard time figuring out how they all related to each other. But the end was worth it. | <span class='fa fa-heart'></span> August
