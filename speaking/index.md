@@ -20,9 +20,9 @@ I have no upcoming talks or events just yet, but watch this space. I am always l
 </section>
 
 
-<section markdown="1" aria-label="Past events and courses">
+<section markdown="1" aria-label="Previous events and courses">
 
-## Past events & courses
+## Previous events & courses
 
 <ol markdown="1" class="speaking-details-past" reversed style="counter-reset: deets 21;">
 
