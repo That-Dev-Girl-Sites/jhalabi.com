@@ -30,7 +30,7 @@ I have no upcoming talks or events just yet, but watch this space. I am always l
 **Gutenberg Changelog #91**
 Guest speaker on this episode about what's new in WordPress 6.4, Gutenberg 16.8, and beyond.
 <span class="icon icon-calendar">October 19, 2023</span>
-<span class="icon icon-chat"><a href="https://gutenbergtimes.com/podcast/gutenberg-changelog-91-wordpress-6-4-gutenberg-16-8-and-whats-discussed/" aria-label="Listen to the podcast episode of Gutenberg Changelog">Listen</a></span>
+<span class="icon icon-chat"><a href="https://gutenbergtimes.com/podcast/gutenberg-changelog-91-wordpress-6-4-gutenberg-16-8-and-whats-discussed/" aria-label="Listen to the podcast episode of Gutenberg Changelog">Listen to the podcast</a></span>
 </li>
 
 <li markdown="1">
