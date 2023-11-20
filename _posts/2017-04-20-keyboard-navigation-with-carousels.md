@@ -3,8 +3,8 @@ layout: post
 title: "Keyboard navigation when carousels block your way"
 date: "2017-04-20"
 categories:
-  - development
   - accessibility
+  - development
 ---
 
 Oh... carousels.

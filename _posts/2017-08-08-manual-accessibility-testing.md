@@ -3,8 +3,8 @@ layout: post
 title: "Manual accessibility testing is your new BFF"
 date: "2017-08-08"
 categories:
-  - development
   - accessibility
+  - development
 ---
 
 Testing your websites to ensure they are fully accessible is a lot of work.  There are a bunch of tools out there to help you thoroughly test your sites - [Siteimprove](https://siteimprove.com/) or [Tenon](https://tenon.io/), for example.

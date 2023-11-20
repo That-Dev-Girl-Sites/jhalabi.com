@@ -3,8 +3,8 @@ layout: post
 title: "Accessibility and phone number formatting"
 date: "2016-11-02"
 categories:
-  - development
   - accessibility
+  - development
 ---
 
 Accessible phone numbers on the web is a more complicated topic than you would think.  Screen readers are remarkably inconsistent in the way they handle phone numbers.  This is a huge issue from an accessibility point of view.

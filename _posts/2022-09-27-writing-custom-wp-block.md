@@ -3,8 +3,8 @@ layout: post
 title: "Writing a Custom WordPress Block"
 date: "2022-09-27"
 categories:
-  - wordpress
   - development
+  - wordpress
 ---
 
 This post has been a long time coming. I have talked about custom WordPress block creation for several years now, from blogging about [registering dynamic blocks with `block.json`](https://jhalabi.com/blog/wordpress-block-json) to speaking at various conferences about why [dynamic blocks are awesome](https://talks.jhalabi.com/dynamic-blocks/).
