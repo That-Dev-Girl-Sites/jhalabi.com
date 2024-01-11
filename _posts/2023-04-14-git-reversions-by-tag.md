@@ -79,7 +79,7 @@ A `git status` command also tells me that my local branch is behind its remote c
 git revert BuggyCommit
 ```
 
-This will create a reversion commit for everything that was part of the commit tagged `BuggyCommit`. In order to get this all into `main`, we need to force oa push of this reversion.
+This will create a reversion commit for everything that was part of the commit tagged `BuggyCommit`. In order to get this all into `main`, we need to force a push of this reversion.
 
 ```
 git push origin +main
