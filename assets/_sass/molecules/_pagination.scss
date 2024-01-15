@@ -1,0 +1,41 @@
+/**
+ * Molecules: Pagination
+ */
+
+.pagination {
+
+  padding-block: 1.5rem 0.5rem;
+
+  // All pagination items, linked or not.
+  a,
+  span {
+    --link-bg-color: rgba( #{ var( --white-rgb )}, 0.3 );
+    --text-color:    var( --copper-dark-30 );
+    --text-size:     var( --type-small );
+
+    display: inline-block;
+    margin-block-end: 1rem;
+    margin-inline: 0.1rem;
+    padding: 0.25rem 0.55rem;
+    text-decoration: none;
+
+    &:first-child {
+      margin-inline-start: 0;
+      padding-inline-start: 0;
+    }
+  }
+
+  a:focus,
+  a:hover {
+    --link-bg-color: var( --copper );
+    --text-color:    var( --white );
+  }
+
+  // Current page item (span).
+  &-current {
+    --text-color: var( --white ) !important;
+
+    background-color: var( --copper-dark-15 );
+  }
+
+}

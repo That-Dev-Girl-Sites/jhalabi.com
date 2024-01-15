@@ -1,0 +1,27 @@
+/**
+ * Components: Footnotes
+ */
+
+.footnotes {
+
+  border-block-start: 1px solid var(--black);
+  margin-block-start: 4rem;
+  padding-block-start: 2rem;
+
+  ol {
+    margin-inline-start: 2rem;
+  }
+
+  li {
+    --font-size: var(--type-small);
+  }
+
+  // Markdown-generated footnotes include a `<p>` tag inside list items, 
+  // which is utterly ridiculous. We need to style these separately.
+  li p {
+    --font-size: var(--type-small);
+
+    margin-block-end: 0;
+  }
+
+}

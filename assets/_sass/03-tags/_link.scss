@@ -1,0 +1,15 @@
+/**
+ * Tags: Link
+ */
+
+a {
+
+  --font-size: inherit;
+  --text-color: var( --coral-red-dark-20 );
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+
+}

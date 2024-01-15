@@ -1,0 +1,70 @@
+/**
+ * Molecules: Review
+ */
+
+.review {
+
+  &-container {
+    @include make-full-width-right;
+
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-block-start: 2rem;
+    
+    @media screen and ( min-width: $lg ) {
+      padding-inline-end: 4rem;
+    }
+  }
+
+  &-quote {
+    background: rgba( #{ var( --white-rgb ) }, 0.9 );
+    border: 0;
+    box-shadow: 1px 1px 2px var( --black-light-40 );
+    margin-block: 0;
+    padding-block: 2rem;
+
+    &::before {
+      content: '';
+    }
+
+    p {
+      // For the quote mark in the background.
+      @extend .icon;
+      @extend .icon-quote-left;
+
+      // Font override.
+
+      --type-size: var( --type-p );
+
+      // I have no idea why this is necessary, but it is.
+      font-size: var( --type-size );
+
+      &::before {
+        --text-color: var( --blue );
+        --text-size:  var( --type-h3 );
+
+        display: block;
+        margin-inline-start: -1rem;
+        margin-block-start: -0.5rem;
+      }
+    }
+
+    cite {
+      --text-size: var( --type-small );
+
+      display: block;
+      font-style: normal;
+      margin-block: 2rem;
+
+      &::before {
+        border-top: 2px solid var(--copper);
+        content: '';    
+        display: block;
+        padding-block-start: 0.8rem;
+        width: 25%;
+      }
+    }
+  }
+
+}

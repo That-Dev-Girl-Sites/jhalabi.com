@@ -1,0 +1,31 @@
+/**
+ * Components: Post meta
+ *
+ * Used on an individual post (article) page and includes the post title,
+ * taxonomy terms, date, and social sharing icons.
+ */
+
+.post-meta {
+
+  background-color: var( --silver );
+  background-image: repeating-linear-gradient(
+    180deg,
+    var( --battleship-gray-light-30 ),
+    var( --battleship-gray-light-30 )  1.2rem,
+    var( --battleship-gray-light-35 )  1.2rem,
+    var( --battleship-gray-light-35 )  1.2rem * 2
+  );
+  padding-block: 2rem;
+  padding-inline: $page-padding-inline-small;
+
+  @media screen and ( min-width: $screen-md ) {
+    padding-inline: $page-padding-inline-large;
+  }
+
+
+  // Publication date.
+  .post-date {
+    --font-size: var( --type-small );
+  }
+
+}

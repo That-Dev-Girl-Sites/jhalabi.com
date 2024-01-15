@@ -1,0 +1,81 @@
+/**
+ * Base: Colors
+ *
+ */
+
+// Neutral colors.
+$black:           #1f271b;
+$white:           #fff;
+
+
+// Primary colors.
+// https://coolors.co/3a182e-c5c5c5-829191-e85f5c-1f271b
+$dark-purple:     #3a182e;
+$silver:          #c5c5c5;
+$battleship-gray: #829191;
+$coral-red:       #e85f5c;
+
+
+// Secondary colors.
+// (Mostly for taxonomies)
+// https://coolors.co/3a182e-c5c5c5-829191-e85f5c-92112b-2d4739-3c4367-746907-004166-6a2e35
+$burgundy:        #92112b;
+$brunswick-green: #2d4739;
+$delft-blue:      #3c4367;
+$indigo-dye:      #004166;
+$olive:           #746907;
+$wine:            #6a2e35;
+
+
+// Color property definitions.
+:root,
+::after,
+::before {
+
+  /* ***
+   * Neutral colors.
+   */
+
+  --black:                     #{$black};
+  --white:                     #{$white};
+
+  // Neutral colors: shades.
+  --black-light-20:            #{lighten( $black, 20% )};
+
+
+
+  /* ***
+   * Primary colors.
+   */
+
+  --dark-purple:               #{$dark-purple};
+  --silver:                    #{$silver};
+  --battleship-gray:           #{$battleship-gray};
+  --coral-red:                 #{$coral-red};
+
+  // Primary colors: shades.
+  --dark-purple-light-2:       #{lighten( $dark-purple, 3% )};
+
+  --silver-light-5:            #{lighten( $silver, 5% )};
+  --silver-light-10:           #{lighten( $silver, 10% )};
+
+  --battleship-gray-light-30:  #{lighten( $battleship-gray, 30% )};
+  --battleship-gray-light-35:  #{lighten( $battleship-gray, 35% )};
+
+  --coral-red-dark-20:         #{darken( $coral-red, 20% )};
+
+
+
+  /* ***
+   * Category colors.
+   */
+
+  --cat-accessibility:         #{$delft-blue};
+  --cat-development:           #{lighten( $dark-purple, 10% )};
+  --cat-life:                  #{$wine};
+  --cat-pregnancy:             #{$burgundy};
+  --cat-user-experience:       #{$olive};
+  --cat-wordpress:             #{$indigo-dye};
+  --cat-writing:               #{$brunswick-green};
+
+}

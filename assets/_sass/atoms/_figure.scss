@@ -1,0 +1,21 @@
+/**
+ * Atoms: Figure
+ */
+
+figure {
+
+  display: inline-block;
+  margin-block-end: 2rem;
+
+  img {
+    margin-block-end: 0.5rem;
+    max-width: none;
+    width: 100%;
+  }
+
+  figcaption {
+    --text-size: var( --type-small );
+    font-style: italic;
+  }
+
+}

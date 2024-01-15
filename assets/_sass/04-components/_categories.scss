@@ -1,0 +1,37 @@
+/**
+ * Components: Categories
+ *
+ * Category links that exist on the blog archive and individual article pages.
+ */
+
+.categories {
+
+  // Common class for all category links.
+  .category {
+    --category-bg: var(--black);
+    --font-size: var(--type-small);
+
+    background-color: var(--category-bg);
+    color: var(--white);
+    display: inline-block;
+    padding-inline: 1rem;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+    // Each category gets its own color.
+    &.accessibility   { --category-bg: var(--cat-accessibility); }
+    &.development     { --category-bg: var(--cat-development); }
+    &.life            { --category-bg: var(--cat-life); }
+    &.pregnancy       { --category-bg: var(--cat-pregnancy); }
+    &.user-experience { --category-bg: var(--cat-user-experience); }
+    &.wordpress       { --category-bg: var(--cat-wordpress); }
+    &.writing         { --category-bg: var(--cat-writing); }
+
+    &:hover,
+    &:focus {
+      --category-bg: var(--black);
+    }
+    
+  }
+
+}

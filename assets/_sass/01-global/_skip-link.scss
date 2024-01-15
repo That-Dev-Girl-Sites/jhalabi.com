@@ -1,0 +1,18 @@
+/**
+ * Global: Skip link
+ */
+
+.skip-link {
+  --link-bg-color: var( --purple );
+  --text-color:    var( --actual-white );
+
+  left: 50%;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  transform: translateY( -100% );
+  transition: transform 0.3s;
+
+  &:focus {
+    transform: translateY( 0% );
+  }
+}
