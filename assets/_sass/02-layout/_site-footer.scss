@@ -9,6 +9,8 @@ footer {
 
   // Code block.
   .footer-code {
+    @extend .fixed-width;
+
     --font-size: var( --type-p );
     --text-color: var( --white );
 
@@ -16,16 +18,11 @@ footer {
     background-image: repeating-linear-gradient(
       180deg,
       var( --dark-purple-light-2 ),
-      var( --dark-purple-light-2 )  0.75rem,
-      var( --dark-purple )          0.75rem,
-      var( --dark-purple )          1.5rem * 2
+      var( --dark-purple-light-2 )  2px,
+      var( --dark-purple )          2px,
+      var( --dark-purple )          1rem * 2
     );
-    padding-block: 4rem;
-    padding-inline: $page-padding-inline-small;
-
-    @media screen and ( min-width: $screen-md ) {
-      padding-inline: $page-padding-inline-large;
-    }
+    padding-block: 3rem;
 
     p {
       --font-size: inherit;
@@ -50,13 +47,10 @@ footer {
 
   // Copyright block.
   .footer-copyright {
+    @extend .fixed-width;
+
     background-color: var( --battleship-gray );
     padding-block: 2rem;
-    padding-inline: $page-padding-inline-small;
-
-    @media screen and ( min-width: $screen-md ) {
-      padding-inline: $page-padding-inline-large;
-    }
 
     p {
       --font-size: var( --type-small );

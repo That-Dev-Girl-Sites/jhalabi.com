@@ -1,12 +1,9 @@
 /**
- * Global: Site header
+ * Utility: Fixed Width
  */
 
-.site-header {
+.fixed-width {
 
-  --page-padding-inline: var( --page-padding-inline-small );
-
-  border-bottom: 2px solid var( --black );
   padding-block: 4rem;
   padding-inline: $page-padding-inline-small;
 

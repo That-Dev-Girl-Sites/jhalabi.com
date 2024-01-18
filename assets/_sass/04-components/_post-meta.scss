@@ -7,21 +7,16 @@
 
 .post-meta {
 
+  @extend .fixed-width;
+
   background-color: var( --silver );
   background-image: repeating-linear-gradient(
     180deg,
     var( --battleship-gray-light-30 ),
-    var( --battleship-gray-light-30 )  1.2rem,
-    var( --battleship-gray-light-35 )  1.2rem,
-    var( --battleship-gray-light-35 )  1.2rem * 2
+    var( --battleship-gray-light-30 )  .75rem,
+    var( --battleship-gray-light-35 )  .75rem,
+    var( --battleship-gray-light-35 )  .75rem * 2
   );
-  padding-block: 2rem;
-  padding-inline: $page-padding-inline-small;
-
-  @media screen and ( min-width: $screen-md ) {
-    padding-inline: $page-padding-inline-large;
-  }
-
 
   // Publication date.
   .post-date {

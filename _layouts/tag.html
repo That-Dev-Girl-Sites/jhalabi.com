@@ -11,7 +11,7 @@
 
   <section aria-label="All articles about {{ page.category }}">
     {% for post in site.tags[page.category] %}
-      {% include article-snip.html %}
+      {% include article-exerpt.html %}
     {% endfor %}
   </section>
 

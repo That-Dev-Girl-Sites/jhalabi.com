@@ -1,0 +1,24 @@
+/**
+ * Pages: Blog
+ *
+ * Styles for the blog's main archive page.
+ */
+
+.blog {
+
+  @extend .fixed-width;
+
+  @media screen and ( min-width: $screen-md ) {
+    padding-inline-end: 1rem;
+  }
+  
+
+  &-list {
+   
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: minmax(300px, 1fr) 200px;
+
+  }
+
+}

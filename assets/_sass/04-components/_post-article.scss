@@ -1,14 +1,9 @@
 /**
- * Components: Post article.
+ * Components: Post Article
  */
 
 .post-article {
 
-  padding-block: 4rem;
-  padding-inline: $page-padding-inline-small;
-
-  @media screen and ( min-width: $screen-md ) {
-    padding-inline: $page-padding-inline-large;
-  }
+  @extend .fixed-width;
 
 }

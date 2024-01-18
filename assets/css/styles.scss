@@ -1,27 +1,30 @@
 ---
 ---
 
-// Base styles
+// Base definitions
 @import '00-base/colors';
 @import '00-base/sizes';
 @import '00-base/typography';
 @import '00-base/reset';
 
 
-// Global elements -- e.g. site header and footer components
-@import '01-global/nameplate';
-@import '01-global/nav-primary';
-@import '01-global/site-footer';
-@import '01-global/site-header';
-@import '01-global/skip-link';
-@import '01-global/tagline';
+// Utility classes
+@import '01-utility/fixed-width';
+@import '01-utility/sr-only';
 
 
-// Layout styles
-@import '02-layout/body';
+// Page layout elements
+@import '02-layout/nameplate';
+@import '02-layout/nav-primary';
+@import '02-layout/site-footer';
+@import '02-layout/site-header';
+@import '02-layout/skip-link';
+@import '02-layout/tagline';
 
 
 // HTML tags
+@import '03-tags/body';
+@import '03-tags/code';
 @import '03-tags/headings';
 @import '03-tags/link';
 @import '03-tags/list';
@@ -36,12 +39,12 @@
 @import '04-components/post-share';
 
 
-// Utility classes
-@import '06-utility/sr-only';
+// Pages
+@import '05-pages/blog';
 
 
 // Imported styles for code highlighting.
-@import '07-vendor/dracula';
+@import '06-vendor/dracula';
 
 // Imported styles for the icon font.
-@import '07-vendor/remixicon';
+@import '06-vendor/remixicon';

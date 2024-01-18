@@ -13,7 +13,7 @@ icons: '/assets/icons'
 images: '/assets/images'
 
 permalink: /blog/:year/:month/:day/:title/
-paginate: 20
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 highlighter: rouge
