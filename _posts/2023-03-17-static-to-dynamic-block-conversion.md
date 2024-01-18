@@ -2,6 +2,7 @@
 layout: post
 title: "Converting static blocks to dynamic blocks"
 date: "2023-03-17"
+redirect_from: "/blog/static-to-dynamic-block-conversion"
 categories:
   - development
   - wordpress

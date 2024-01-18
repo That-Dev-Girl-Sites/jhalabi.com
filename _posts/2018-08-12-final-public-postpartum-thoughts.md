@@ -2,6 +2,7 @@
 layout: post
 title: "Final Public Postpartum Thoughts"
 date: "2018-08-12"
+redirect_from: "/blog/final-public-postpartum-thoughts"
 categories:
   - pregnancy
 tags:

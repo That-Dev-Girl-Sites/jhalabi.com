@@ -2,6 +2,7 @@
 layout: post
 title: "Creating block.json for a WordPress block"
 date: "2020-11-12"
+redirect_from: "/blog/gutenberg-block-json"
 categories:
   - development
   - wordpress

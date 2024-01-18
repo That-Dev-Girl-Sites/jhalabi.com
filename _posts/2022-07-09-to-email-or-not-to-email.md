@@ -2,6 +2,7 @@
 layout: post
 title: "To Email or Not To Email"
 date: "2022-07-09"
+redirect_from: "/blog/to-email-or-not-to-email"
 categories:
   - writing
 ---

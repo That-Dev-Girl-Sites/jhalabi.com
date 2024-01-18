@@ -2,6 +2,7 @@
 layout: post
 title: "From zero to viable in 24 weeks"
 date: "2018-04-12"
+redirect_from: "/blog/from-zero-to-viable-in-24-weeks"
 categories:
   - pregnancy
 tags:

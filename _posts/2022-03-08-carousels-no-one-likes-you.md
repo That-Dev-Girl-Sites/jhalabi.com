@@ -2,6 +2,7 @@
 layout: post
 title: "Carousels: No one likes you"
 date: "2022-03-08"
+redirect_from: "/blog/carousels-no-one-likes-you"
 categories:
   - accessibility
   - user-experience

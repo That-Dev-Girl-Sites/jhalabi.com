@@ -2,6 +2,7 @@
 layout: post
 title: "Pre postpartum thoughts"
 date: "2018-07-05"
+redirect_from: "/blog/pre-postpartum-thoughts"
 categories:
   - pregnancy
 tags:

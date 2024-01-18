@@ -2,6 +2,7 @@
 layout: post
 title: "I have breasts now"
 date: "2017-11-27"
+redirect_from: "/blog/i-have-breasts-now"
 categories:
   - pregnancy
 tags:

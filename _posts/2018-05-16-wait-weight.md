@@ -2,6 +2,7 @@
 layout: post
 title: "Wait! Weight?"
 date: "2018-05-16"
+redirect_from: "/blog/wait-weight"
 categories:
   - pregnancy
 tags:

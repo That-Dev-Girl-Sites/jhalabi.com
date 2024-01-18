@@ -2,6 +2,7 @@
 layout: post
 title: "Was my degree a mistake?"
 date: "2022-08-26"
+redirect_from: "/blog/degree-a-mistake"
 categories:
   - development
 ---

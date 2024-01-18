@@ -12,7 +12,7 @@ timezone: America/New_York
 icons: '/assets/icons'
 images: '/assets/images'
 
-permalink: /blog/:title
+permalink: /blog/:year/:month/:day/:title/
 paginate: 20
 paginate_path: "/blog/page:num/"
 

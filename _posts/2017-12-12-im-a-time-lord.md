@@ -2,6 +2,7 @@
 layout: post
 title: "I'm a Time Lord!"
 date: "2017-12-12"
+redirect_from: "/blog/im-a-time-lord"
 categories:
   - pregnancy
 tags:

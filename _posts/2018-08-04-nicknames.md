@@ -2,6 +2,7 @@
 layout: post
 title: "Nicknames"
 date: "2018-08-04"
+redirect_from: "/blog/nicknames"
 categories:
   - pregnancy
 tags:

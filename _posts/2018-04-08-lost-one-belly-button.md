@@ -2,6 +2,7 @@
 layout: post
 title: "Lost: One belly button"
 date: "2018-04-08"
+redirect_from: "/blog/lost-one-belly-button"
 categories:
   - pregnancy
 tags:

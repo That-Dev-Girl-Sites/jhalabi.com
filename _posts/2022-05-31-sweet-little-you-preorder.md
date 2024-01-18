@@ -2,6 +2,7 @@
 layout: post
 title: "Sweet Little You: Available for Pre-order!"
 date: "2022-05-31"
+redirect_from: "/blog/sweet-little-you-preorder"
 categories:
   - writing
 ---

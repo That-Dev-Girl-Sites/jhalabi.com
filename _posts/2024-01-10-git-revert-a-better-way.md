@@ -2,6 +2,7 @@
 layout: post
 title: "Git reversions by tag: a much better way"
 date: "2024-01-10"
+redirect_from: "/blog/git-revert-a-better-way"
 categories:
   - development
 ---

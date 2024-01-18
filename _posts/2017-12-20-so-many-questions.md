@@ -2,6 +2,7 @@
 layout: post
 title: "So. Many. Questions."
 date: "2017-12-20 14:46:00"
+redirect_from: "/blog/so-many-questions"
 categories:
   - pregnancy
 tags:

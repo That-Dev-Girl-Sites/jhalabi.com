@@ -2,6 +2,7 @@
 layout: post
 title: "My new medical condition"
 date: "2018-06-27"
+redirect_from: "/blog/my-new-medical-condition"
 categories:
   - pregnancy
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: "A Very Informal Look at Gutenberg Accessibility"
 date: "2018-10-16"
+redirect_from: "/blog/a-very-informal-look-at-gutenberg-accessibility"
 categories:
   - accessibility
   - wordpress

@@ -2,6 +2,7 @@
 layout: post
 title: "She's growing... hair"
 date: "2018-06-14"
+redirect_from: "/blog/shes-growing-hair"
 categories:
   - pregnancy
 tags:

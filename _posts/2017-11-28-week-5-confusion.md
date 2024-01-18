@@ -2,6 +2,7 @@
 layout: post
 title: "Week 5 confusion"
 date: "2017-11-28"
+redirect_from: "/blog/week-5-confusion"
 categories:
   - pregnancy
 tags:
@@ -15,6 +16,7 @@ I mention this new bottle because today is my first day on progesterone where I 
 There are three words you never want to hear from a medical professional: **"Huh. That's weird."**
 
 ## Umm...
+
 I told my original nurse about the bleeding when it started 2 weeks ago, just after my IUI. _(I now have a new nurse for reasons unknown.)_
 
 Original nurse said the original bleeding was normal and expected.

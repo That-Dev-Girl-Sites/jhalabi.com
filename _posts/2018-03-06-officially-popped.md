@@ -2,6 +2,7 @@
 layout: post
 title: "Officially popped"
 date: "2018-03-06"
+redirect_from: "/blog/officially-popped"
 categories:
   - pregnancy
 tags:

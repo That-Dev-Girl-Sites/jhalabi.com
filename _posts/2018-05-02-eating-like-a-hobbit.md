@@ -2,6 +2,7 @@
 layout: post
 title: "Eating like a hobbit"
 date: "2018-05-02"
+redirect_from: "/blog/eating-like-a-hobbit"
 categories:
   - pregnancy
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: "Fun with names"
 date: "2018-02-12 13:54:00"
+redirect_from: "/blog/fun-with-names"
 categories:
   - pregnancy
 tags:

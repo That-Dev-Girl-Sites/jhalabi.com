@@ -2,6 +2,7 @@
 layout: post
 title: "Thoughts about pain"
 date: "2018-05-31"
+redirect_from: "/blog/thoughts-about-pain"
 categories:
   - pregnancy
 tags:

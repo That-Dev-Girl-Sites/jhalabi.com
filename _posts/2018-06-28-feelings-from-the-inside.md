@@ -2,6 +2,7 @@
 layout: post
 title: "Feelings from the inside"
 date: "2018-06-28"
+redirect_from: "/blog/feelings-from-the-inside"
 categories:
   - pregnancy
 tags:

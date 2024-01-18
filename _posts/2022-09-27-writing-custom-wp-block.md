@@ -2,6 +2,7 @@
 layout: post
 title: "Writing a Custom WordPress Block"
 date: "2022-09-27"
+redirect_from: "/blog/writing-custom-wp-block"
 categories:
   - development
   - wordpress

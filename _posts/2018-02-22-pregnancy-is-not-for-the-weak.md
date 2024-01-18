@@ -2,6 +2,7 @@
 layout: post
 title: "Pregnancy is not for the weak"
 date: "2018-02-22"
+redirect_from: "/blog/pregnancy-is-not-for-the-weak"
 categories:
   - pregnancy
 tags:

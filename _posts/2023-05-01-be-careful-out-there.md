@@ -2,6 +2,7 @@
 layout: post
 title: "Be careful out there: A phishing story"
 date: "2023-05-01"
+redirect_from: "/blog/be-careful-out-there"
 categories:
   - life
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Contractions != Labor"
 date: "2018-06-13"
+redirect_from: "/blog/contractions-labor"
 categories:
   - pregnancy
 tags:

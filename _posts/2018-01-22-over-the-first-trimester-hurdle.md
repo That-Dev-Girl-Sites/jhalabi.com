@@ -2,6 +2,7 @@
 layout: post
 title: "Over the first (trimester) hurdle"
 date: "2018-01-22"
+redirect_from: "/blog/over-the-first-trimester-hurdle"
 categories:
   - pregnancy
 tags:

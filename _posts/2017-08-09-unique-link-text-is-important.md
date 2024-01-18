@@ -2,6 +2,7 @@
 layout: post
 title: "Yes, Virginia. Unique link text really is important."
 date: "2017-08-09"
+redirect_from: "/blog/unique-link-text-is-important"
 categories:
   - accessibility
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Motivation block"
 date: "2021-12-30"
+redirect_from: "/blog/motivation-block"
 categories:
   - writing
 ---

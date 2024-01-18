@@ -2,6 +2,7 @@
 layout: post
 title: "My first IUI rollercoaster"
 date: "2017-07-03"
+redirect_from: "/blog/my-first-iui-rollercoaster"
 categories:
   - pregnancy
 tags:

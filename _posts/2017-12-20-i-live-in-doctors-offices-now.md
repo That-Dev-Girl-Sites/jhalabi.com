@@ -2,6 +2,7 @@
 layout: post
 title: "I live in doctors' offices now"
 date: "2017-12-20 14:38:00"
+redirect_from: "/blog/i-live-in-doctors-offices-now"
 categories:
   - pregnancy
 tags:

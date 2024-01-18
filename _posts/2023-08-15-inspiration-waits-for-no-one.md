@@ -2,6 +2,7 @@
 layout: post
 title: "Inspiration waits for no one"
 date: "2023-08-15"
+redirect_from: "/blog/inspiration-waits-for-no-one"
 categories:
   - writing
 ---

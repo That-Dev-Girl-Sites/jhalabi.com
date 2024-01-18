@@ -2,6 +2,7 @@
 layout: post
 title: "Featured Images, Gutenberg, and You"
 date: "2019-03-25"
+redirect_from: "/blog/wordpress-featured-image-and-gutenberg"
 categories:
   - development
   - wordpress

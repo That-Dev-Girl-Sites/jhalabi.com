@@ -2,6 +2,7 @@
 layout: post
 title: "Pregnancy vs. Postpartum"
 date: "2018-08-07 23:54:00"
+redirect_from: "/blog/pregnancy-vs-postpartum"
 categories:
   - pregnancy
 tags:

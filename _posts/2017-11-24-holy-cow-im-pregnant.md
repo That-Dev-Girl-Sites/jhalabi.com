@@ -2,6 +2,7 @@
 layout: post
 title: "Holy cow... I'm pregnant!!"
 date: "2017-11-24"
+redirect_from: "/blog/holy-cow-im-pregnant"
 categories:
   - pregnancy
 tags:

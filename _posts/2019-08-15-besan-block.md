@@ -2,6 +2,7 @@
 layout: post
 title: "Besan Block: A long time coming"
 date: "2019-08-15"
+redirect_from: "/blog/besan-block"
 categories:
   - development
   - wordpress

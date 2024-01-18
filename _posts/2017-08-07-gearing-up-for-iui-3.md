@@ -2,6 +2,7 @@
 layout: post
 title: "Gearing up for IUI #3"
 date: "2017-08-07"
+redirect_from: "/blog/gearing-up-for-iui-3"
 categories:
   - pregnancy
 tags:

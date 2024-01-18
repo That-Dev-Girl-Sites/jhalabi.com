@@ -2,6 +2,7 @@
 layout: post
 title: "Cycle monitoring update"
 date: "2017-11-01"
+redirect_from: "/blog/cycle-monitoring-update"
 categories:
   - pregnancy
 tags:

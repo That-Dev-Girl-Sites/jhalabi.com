@@ -2,6 +2,7 @@
 layout: post
 title: "I'm lost!: A brief introduction to web landmarks"
 date: "2017-07-20"
+redirect_from: "/blog/brief-intro-to-landmarks"
 categories:
   - accessibility
   - development

@@ -2,6 +2,7 @@
 layout: post
 title: "A typical conversation at work"
 date: "2018-05-07"
+redirect_from: "/blog/a-typical-conversation-at-work"
 categories:
   - pregnancy
 tags:

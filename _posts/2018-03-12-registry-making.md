@@ -2,6 +2,7 @@
 layout: post
 title: "Registry making"
 date: "2018-03-12"
+redirect_from: "/blog/registry-making"
 categories:
   - pregnancy
 tags:

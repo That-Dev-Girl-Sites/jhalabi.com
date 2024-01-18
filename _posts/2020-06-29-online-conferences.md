@@ -2,6 +2,7 @@
 layout: post
 title: "Regularly online developer conferences: An impossible post"
 date: "2020-06-29"
+redirect_from: "/blog/online-conferences"
 categories:
   - development
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Induction Day!"
 date: "2018-07-30"
+redirect_from: "/blog/induction-day"
 categories:
   - pregnancy
 tags:

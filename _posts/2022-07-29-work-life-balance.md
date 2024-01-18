@@ -2,6 +2,7 @@
 layout: post
 title: "Work/Life Balance?"
 date: "2022-07-29"
+redirect_from: "/blog/work-life-balance"
 categories:
   - life
   - writing

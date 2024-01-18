@@ -2,6 +2,7 @@
 layout: post
 title: "A hodgepodge of updates"
 date: "2018-01-23"
+redirect_from: "/blog/a-hodgepodge-of-updates"
 categories:
   - pregnancy
 tags:

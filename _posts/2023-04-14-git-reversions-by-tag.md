@@ -2,6 +2,7 @@
 layout: post
 title: "Git reversions by tag (and why git can be a scary place)"
 date: "2023-04-14"
+redirect_from: "/blog/git-reversions-by-tag"
 categories:
   - development
 ---

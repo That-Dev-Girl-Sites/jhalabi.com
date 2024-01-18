@@ -2,6 +2,7 @@
 layout: post
 title: "Static vs. dynamic blocks: What’s the difference?"
 date: "2023-02-27"
+redirect_from: "/blog/static-vs-dynamic-blocks"
 categories:
   - development
   - wordpress

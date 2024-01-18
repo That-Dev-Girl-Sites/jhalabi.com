@@ -2,6 +2,7 @@
 layout: post
 title: "Overriding WP core: Dynamic blocks edition"
 date: "2022-02-07"
+redirect_from: "/blog/core-dynamic-render-override"
 categories:
   - development
   - wordpress

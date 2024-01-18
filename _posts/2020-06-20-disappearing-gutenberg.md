@@ -2,6 +2,7 @@
 layout: post
 title: "The Case of the Disappearing Gutenberg"
 date: "2020-06-20"
+redirect_from: "/blog/disappearing-gutenberg"
 categories:
   - development
   - wordpress

@@ -2,6 +2,7 @@
 layout: post
 title: "Sweet Little You: Cover Reveal!"
 date: "2022-04-11"
+redirect_from: "/blog/sweet-little-you-cover-reveal"
 categories:
   - writing
 ---

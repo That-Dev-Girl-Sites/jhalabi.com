@@ -2,6 +2,7 @@
 layout: post
 title: "On Book Marketing"
 date: "2022-06-16"
+redirect_from: "/blog/on-book-marketing"
 categories:
   - writing
 ---

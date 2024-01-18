@@ -2,6 +2,7 @@
 layout: post
 title: "Imposter syndrome, the sequel"
 date: "2022-01-12"
+redirect_from: "/blog/imposter-syndrome"
 categories:
   - writing
 ---

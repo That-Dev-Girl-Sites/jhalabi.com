@@ -2,6 +2,7 @@
 layout: post
 title: "IUI #4: The final frontier?"
 date: "2017-11-13"
+redirect_from: "/blog/iui-4-the-final-frontier"
 categories:
   - pregnancy
 tags:

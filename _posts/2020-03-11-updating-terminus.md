@@ -2,6 +2,7 @@
 layout: post
 title: "Updating Terminus: A guide for Pantheon users"
 date: "2020-03-11"
+redirect_from: "/blog/updating-terminus"
 categories:
   - development
 ---

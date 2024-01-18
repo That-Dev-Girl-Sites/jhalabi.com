@@ -2,6 +2,7 @@
 layout: post
 title: "Oh hello, hormones"
 date: "2018-08-06 15:54:00"
+redirect_from: "/blog/oh-hello-hormones"
 categories:
   - pregnancy
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: "Bold and strong are not the same thing"
 date: "2017-07-10"
+redirect_from: "/blog/bold-vs-strong"
 categories:
   - accessibility
   - development

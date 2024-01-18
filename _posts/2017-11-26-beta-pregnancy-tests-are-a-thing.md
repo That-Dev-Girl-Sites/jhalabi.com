@@ -2,6 +2,7 @@
 layout: post
 title: "Beta pregnancy tests are a thing"
 date: "2017-11-26"
+redirect_from: "/blog/beta-pregnancy-tests-are-a-thing"
 categories:
   - pregnancy
 tags:

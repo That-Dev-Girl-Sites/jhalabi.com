@@ -2,6 +2,7 @@
 layout: post
 title: "#amWriting"
 date: "2021-11-17"
+redirect_from: "/blog/am-writing"
 categories:
   - writing
 ---

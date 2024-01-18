@@ -2,6 +2,7 @@
 layout: post
 title: "Editing... done?"
 date: "2021-11-28"
+redirect_from: "/blog/editing-done"
 categories:
   - writing
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "It hasn't even been 2 weeks!"
 date: "2017-11-20"
+redirect_from: "/blog/it-hasnt-even-been-2-weeks"
 categories:
   - pregnancy
 tags:

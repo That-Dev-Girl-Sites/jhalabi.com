@@ -2,6 +2,7 @@
 layout: post
 title: "The <strike>art</strike> chaos of time management"
 date: "2022-02-01"
+redirect_from: "/blog/time-management"
 categories:
   - writing
 ---

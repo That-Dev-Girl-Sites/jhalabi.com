@@ -2,6 +2,7 @@
 layout: post
 title: "Ultrasound research"
 date: "2017-12-05"
+redirect_from: "/blog/ultrasound-research"
 categories:
   - pregnancy
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: "First kick"
 date: "2018-03-21"
+redirect_from: "/blog/first-kick"
 categories:
   - pregnancy
 tags:

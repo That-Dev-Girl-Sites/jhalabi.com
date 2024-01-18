@@ -2,6 +2,7 @@
 layout: post
 title: "WordPress dynamic block registration, with special guest JSON!"
 date: "2021-10-27"
+redirect_from: "/blog/wordpress-block-json"
 categories:
   - development
   - wordpress

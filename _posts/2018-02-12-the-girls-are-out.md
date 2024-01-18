@@ -2,6 +2,7 @@
 layout: post
 title: "The girls are out"
 date: "2018-02-12 13:51:00"
+redirect_from: "/blog/the-girls-are-out"
 categories:
   - pregnancy
 tags:

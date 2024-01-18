@@ -2,6 +2,7 @@
 layout: post
 title: "A complicated story about medication and logistics"
 date: "2017-10-01"
+redirect_from: "/blog/medication-and-logistics"
 categories:
   - pregnancy
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: "The Accessibility of ::before and ::after"
 date: "2017-12-19"
+redirect_from: "/blog/before-after-accessibility"
 categories:
   - accessibility
   - development

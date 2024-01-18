@@ -2,6 +2,7 @@
 layout: post
 title: "Medication: A reality story"
 date: "2017-10-24"
+redirect_from: "/blog/medication-a-reality-story"
 categories:
   - pregnancy
 tags:

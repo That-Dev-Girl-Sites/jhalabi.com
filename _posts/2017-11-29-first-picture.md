@@ -2,6 +2,7 @@
 layout: post
 title: "First picture!"
 date: "2017-11-29"
+redirect_from: "/blog/first-picture"
 categories:
   - pregnancy
 tags:

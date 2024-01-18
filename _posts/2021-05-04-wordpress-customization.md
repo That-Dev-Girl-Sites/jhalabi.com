@@ -2,6 +2,7 @@
 layout: post
 title: "WordPress Customization: Supports and Variations and JSON. Oh my!"
 date: "2021-05-04"
+redirect_from: "/blog/wordpress-customization"
 categories:
   - development
   - wordpress

@@ -2,6 +2,7 @@
 layout: post
 title: "Induction Scheduling"
 date: "2018-07-19"
+redirect_from: "/blog/induction-scheduling"
 categories:
   - pregnancy
 tags:

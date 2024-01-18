@@ -2,6 +2,7 @@
 layout: post
 title: "Research, research, research!"
 date: "2021-12-15"
+redirect_from: "/blog/research-research-research"
 categories:
   - writing
 ---

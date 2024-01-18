@@ -13,6 +13,12 @@
     text-align: left;
   }
 
+  ul {
+    // Override the default list margin to align the nav with the rest
+    // of the header.
+    margin-inline-start: 0;
+  }
+
   li {
     --font-size: var( --type-small );
 

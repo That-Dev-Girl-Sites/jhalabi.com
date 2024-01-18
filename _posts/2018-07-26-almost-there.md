@@ -2,6 +2,7 @@
 layout: post
 title: "Almost There"
 date: "2018-07-26"
+redirect_from: "/blog/almost-there"
 categories:
   - pregnancy
 tags:

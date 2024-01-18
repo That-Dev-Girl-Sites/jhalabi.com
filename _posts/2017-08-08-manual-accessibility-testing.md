@@ -2,6 +2,7 @@
 layout: post
 title: "Manual accessibility testing is your new BFF"
 date: "2017-08-08"
+redirect_from: "/blog/manual-accessibility-testing"
 categories:
   - accessibility
   - development
