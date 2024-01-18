@@ -2,6 +2,7 @@
 layout: post
 title: "Hybris: Create components manually"
 date: "2013-07-09"
+redirect_from: "/blog/hybris-create-components-manually"
 categories:
   - development
 ---

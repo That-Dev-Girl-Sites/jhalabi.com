@@ -2,6 +2,7 @@
 layout: post
 title: "YUI 3 in a YUI 2 world"
 date: "2011-05-24"
+redirect_from: "/blog/yui-3-in-a-yui-2-world"
 categories:
   - development
 ---

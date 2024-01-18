@@ -2,6 +2,7 @@
 layout: post
 title: "Mobile should not be an afterthought"
 date: "2013-07-02"
+redirect_from: "/blog/movile-should-not-be-an-afterthought"
 categories:
   - user-experience
 ---

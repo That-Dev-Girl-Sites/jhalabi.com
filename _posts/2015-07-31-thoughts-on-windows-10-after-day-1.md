@@ -2,6 +2,7 @@
 layout: post
 title: "Living Dangerously: 12 Thoughts on Windows 10 After Day 1"
 date: "2015-07-31"
+redirect_from: "/blog/thoughts-on-windows-10-after-day-1"
 categories:
   - life
 ---

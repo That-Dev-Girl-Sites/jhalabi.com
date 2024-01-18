@@ -2,6 +2,7 @@
 layout: post
 title: "Cheap Trick with YUI Carousel"
 date: "2011-08-23"
+redirect_from: "/blog/cheap-trick-with-yui-carousel"
 categories:
   - development
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Taming my Frankenstein monster of a website"
 date: "2013-05-24"
+redirect_from: "/blog/taming-my-frankenstein-monster-of-a-website"
 categories:
   - development
   - wordpress

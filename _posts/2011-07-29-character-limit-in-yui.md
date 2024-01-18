@@ -2,6 +2,7 @@
 layout: post
 title: "Adding a character limit to a text area using YUI"
 date: "2011-07-29"
+redirect_from: "/blog/character-limit-in-yui"
 categories:
   - development
 ---

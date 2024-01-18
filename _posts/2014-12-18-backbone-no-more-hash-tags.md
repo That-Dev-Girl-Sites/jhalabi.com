@@ -2,6 +2,7 @@
 layout: post
 title: "Backbone: No more hash tags!"
 date: "2014-12-18"
+redirect_from: "/blog/backbone-no-more-hash-tags"
 categories:
   - development
 ---

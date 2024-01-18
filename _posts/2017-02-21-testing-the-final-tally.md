@@ -2,6 +2,7 @@
 layout: post
 title: "Testing, the final tally"
 date: "2017-02-21"
+redirect_from: "/blog/testing-the-final-tally"
 categories:
   - pregnancy
 tags:

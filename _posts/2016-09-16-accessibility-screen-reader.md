@@ -2,6 +2,7 @@
 layout: post
 title: "Accessibility testing: Screen reader edition"
 date: "2016-09-16"
+redirect_from: "/blog/accessibility-screen-reader"
 categories:
   - accessibility
   - development

@@ -2,6 +2,7 @@
 layout: post
 title: "Cleaner Gmail sent folder"
 date: "2015-01-25"
+redirect_from: "/blog/cleaner-gmail-sent-folder"
 categories:
   - life
 ---

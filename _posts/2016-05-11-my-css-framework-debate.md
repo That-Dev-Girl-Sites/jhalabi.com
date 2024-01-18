@@ -2,6 +2,7 @@
 layout: post
 title: "Solving my internal CSS framework debate"
 date: "2016-05-11"
+redirect_from: "/blog/my-css-framework-debate"
 categories:
   - development
 ---

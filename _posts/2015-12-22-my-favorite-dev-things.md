@@ -2,6 +2,7 @@
 layout: post
 title: "A few of my favorite (dev) things"
 date: "2015-12-22"
+redirect_from: "/blog/my-favorite-dev-things"
 categories:
   - development
 ---

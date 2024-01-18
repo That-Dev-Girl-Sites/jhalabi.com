@@ -2,6 +2,7 @@
 layout: post
 title: "February Photo a Day #21"
 date: "2013-02-21"
+redirect_from: "/blog/february-photo-a-day-day-21"
 categories:
   - life
 ---

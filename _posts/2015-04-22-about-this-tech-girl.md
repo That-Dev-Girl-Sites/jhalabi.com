@@ -2,6 +2,7 @@
 layout: post
 title: "About This Tech Girl"
 date: "2015-04-22"
+redirect_from: "/blog/about-this-tech-girl"
 categories:
   - life
 ---

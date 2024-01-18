@@ -2,6 +2,7 @@
 layout: post
 title: "Talking to clients about mobile"
 date: "2014-10-22"
+redirect_from: "/blog/talking-to-clients-about-mobile"
 categories:
   - user-experience
 ---

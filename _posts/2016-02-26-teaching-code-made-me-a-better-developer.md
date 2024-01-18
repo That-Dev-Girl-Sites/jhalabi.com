@@ -2,6 +2,7 @@
 layout: post
 title: "4 ways teaching code made me a better developer"
 date: "2016-05-11"
+redirect_from: "/blog/teaching-code-made-me-a-better-developer"
 categories:
   - development
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Embracing the base: A little advice that developers might find surprising"
 date: "2015-07-23"
+redirect_from: "/blog/embracing-the-base"
 categories:
   - development
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "HSG: The final (testing) frontier"
 date: "2017-02-14"
+redirect_from: "/blog/hsg-the-final-testing-frontier"
 categories:
   - pregnancy
 tags:

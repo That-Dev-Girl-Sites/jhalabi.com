@@ -2,6 +2,7 @@
 layout: post
 title: "When Git ignore doesn't"
 date: "2016-09-01"
+redirect_from: "/blog/when-git-ignore-doesnt"
 categories:
   - development
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "A time-out to think"
 date: "2017-03-15"
+redirect_from: "/blog/a-time-out-to-think"
 categories:
   - pregnancy
 tags:

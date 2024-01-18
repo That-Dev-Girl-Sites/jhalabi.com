@@ -2,6 +2,7 @@
 layout: post
 title: "A complicated tale of research"
 date: "2017-01-10 12:23:00"
+redirect_from: "/blog/a-complicated-tale-of-research"
 categories:
   - pregnancy
 tags:

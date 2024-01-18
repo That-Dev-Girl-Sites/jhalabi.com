@@ -2,6 +2,7 @@
 layout: post
 title: "Complicated and loving it"
 date: "2016-01-01"
+redirect_from: "/blog/complicated-and-loving-it"
 categories:
   - life
 ---

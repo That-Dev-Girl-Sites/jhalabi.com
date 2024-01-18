@@ -2,6 +2,7 @@
 layout: post
 title: "30 Things I Learned After Moving To DC"
 date: "2014-03-20"
+redirect_from: "/blog/things-i-learned-after-moving-to-dc"
 categories:
   - life
 ---

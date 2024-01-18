@@ -2,6 +2,7 @@
 layout: post
 title: "Accessibility and phone number formatting"
 date: "2016-11-02"
+redirect_from: "/blog/accessibility-phone-number-formatting"
 categories:
   - accessibility
   - development

@@ -2,6 +2,7 @@
 layout: post
 title: "A new beginning"
 date: "2017-01-30"
+redirect_from: "/blog/a-new-beginning"
 categories:
   - pregnancy
 tags:

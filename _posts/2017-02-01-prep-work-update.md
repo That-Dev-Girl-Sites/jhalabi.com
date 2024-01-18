@@ -2,6 +2,7 @@
 layout: post
 title: "Prep work update"
 date: "2017-02-01"
+redirect_from: "/blog/prep-work-update"
 categories:
   - pregnancy
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: "I need a job!: 4 tips from a hiring manager"
 date: "2015-07-18"
+redirect_from: "/blog/tips-from-a-hiring-manager"
 categories:
   - life
 ---

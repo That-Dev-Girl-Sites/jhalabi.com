@@ -2,6 +2,7 @@
 layout: post
 title: "Adventures in IE: A story of Javascript dependencies"
 date: "2014-06-03"
+redirect_from: "/blog/adventures-in-ie"
 categories:
   - development
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "How to write code: Kid edition"
 date: "2014-12-03"
+redirect_from: "/blog/how-to-write-code-kid-edition"
 categories:
   - development
 ---

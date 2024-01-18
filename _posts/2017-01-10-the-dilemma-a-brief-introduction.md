@@ -2,6 +2,7 @@
 layout: post
 title: "The dilemma: A brief introduction"
 date: "2017-01-10 12:22:00"
+redirect_from: "/blog/the-dilemma-a-brief-introduction"
 categories:
   - pregnancy
 tags:

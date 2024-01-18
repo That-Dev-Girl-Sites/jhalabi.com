@@ -2,6 +2,7 @@
 layout: post
 title: "Keyboard navigation when carousels block your way"
 date: "2017-04-20"
+redirect_from: "/blog/keyboard-navigation-with-carousels"
 categories:
   - accessibility
   - development

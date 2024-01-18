@@ -2,6 +2,7 @@
 layout: post
 title: "Taking action when you have social anxiety"
 date: "2017-01-22"
+redirect_from: "/blog/taking-action-when-you-have-social-anxiety"
 categories:
   - life
 ---

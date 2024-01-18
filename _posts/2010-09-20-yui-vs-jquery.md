@@ -2,6 +2,7 @@
 layout: post
 title: "YUI vs. jQuery"
 date: "2010-09-20"
+redirect_from: "/blog/yui-vs-jquery"
 categories:
   - development
 ---

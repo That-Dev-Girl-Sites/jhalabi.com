@@ -2,6 +2,7 @@
 layout: post
 title: "Not making new year resolutions"
 date: "2016-12-31"
+redirect_from: "/blog/not-making-new-year-resolutions"
 categories:
   - life
 ---

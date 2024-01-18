@@ -2,6 +2,7 @@
 layout: post
 title: "Reverting remote commits in Git"
 date: "2014-11-07"
+redirect_from: "/blog/reverting-remote-git-commits"
 categories:
   - development
 ---
