@@ -6,7 +6,7 @@
 
     {% if paginator.previous_page %}
       <li>
-        <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-advance pagination-prev">Prev</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-advance pagination-prev">Prev</a>
       </li>
     {% else %}
       <li class="pagination-inactive pagination-prev">Prev</li>
@@ -40,7 +40,7 @@
         </li>
       {% else %}
         <li>
-          <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+          <a href="/blog/page/{{ page }}/">{{ page }}</a>
         </li>
       {% endif %}
     {% endfor %}
@@ -49,14 +49,14 @@
     {% assign max_for_last_page = paginator.total_pages | minus: 2 %}
     {% if last_page <= max_for_last_page %}
       <li>
-        .. <a href="{{ site.paginate_path | relative_url | replace: ':num', paginator.total_pages }}">{{ paginator.total_pages }}</a>
+        .. <a href="/blog/page/{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a>
       </li>
     {% endif %}
 
 
     {% if paginator.next_page %}
       <li>
-        <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-advance pagination-next">Next</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-advance pagination-next">Next</a>
       </li>
     {% else %}
       <li class="pagination-inactive pagination-next">Next</li>
