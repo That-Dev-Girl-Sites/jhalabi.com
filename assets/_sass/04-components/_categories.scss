@@ -6,32 +6,36 @@
 
 .categories {
 
+  // Default category color.
+  --category-color: var(--black);
+
   // Common class for all category links.
   .category {
-    --category-bg: var(--black);
     --font-size: var(--type-small);
 
-    background-color: var(--category-bg);
+    background-color: var(--category-color);
     color: var(--white);
     display: inline-block;
     padding-inline: 1rem;
     text-decoration: none;
     transition: all 0.5s ease;
 
-    // Each category gets its own color.
-    &.accessibility   { --category-bg: var(--cat-accessibility); }
-    &.development     { --category-bg: var(--cat-development); }
-    &.life            { --category-bg: var(--cat-life); }
-    &.pregnancy       { --category-bg: var(--cat-pregnancy); }
-    &.user-experience { --category-bg: var(--cat-user-experience); }
-    &.wordpress       { --category-bg: var(--cat-wordpress); }
-    &.writing         { --category-bg: var(--cat-writing); }
-
     &:hover,
     &:focus {
-      --category-bg: var(--black);
+      --category-color: var(--silver-light-15);
+
+      color: var(--black);
     }
     
   }
+
+  // Each category gets its own color.
+  .accessibility               { --category-color: var(--cat-accessibility); }
+  .development                 { --category-color: var(--cat-development); }
+  .life                        { --category-color: var(--cat-life); }
+  .pregnancy                   { --category-color: var(--cat-pregnancy); }
+  .user-experience             { --category-color: var(--cat-user-experience); }
+  .wordpress                   { --category-color: var(--cat-wordpress); }
+  .writing                     { --category-color: var(--cat-writing); }
 
 }

@@ -54,10 +54,12 @@ $wine:            #6a2e35;
   --coral-red:                 #{$coral-red};
 
   // Primary colors: shades.
-  --dark-purple-light-2:       #{lighten( $dark-purple, 3% )};
+  --dark-purple-light-3:       #{lighten( $dark-purple, 3% )};
+  --dark-purple-light-20:      #{lighten( $dark-purple, 20% )};
 
   --silver-light-5:            #{lighten( $silver, 5% )};
   --silver-light-10:           #{lighten( $silver, 10% )};
+  --silver-light-15:           #{lighten( $silver, 15% )};
 
   --battleship-gray-light-30:  #{lighten( $battleship-gray, 30% )};
   --battleship-gray-light-35:  #{lighten( $battleship-gray, 35% )};

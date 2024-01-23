@@ -1,0 +1,69 @@
+/**
+ * Pages: Post
+ *
+ * A single post / article.
+ */
+
+.post {
+
+  // The top section of a post, containing the title, category terms, date
+  // and social sharing icons.
+  &-meta {
+
+    @extend .fixed-width;
+
+    background-color: var( --silver );
+    background-image: repeating-linear-gradient(
+      180deg,
+      var( --battleship-gray-light-30 ),
+      var( --battleship-gray-light-30 )  .75rem,
+      var( --battleship-gray-light-35 )  .75rem,
+      var( --battleship-gray-light-35 )  .75rem * 2
+    );
+
+    // Publication date.
+    .date {
+      --font-size: var( --type-small );
+    }
+
+    // Social sharing icons.
+    .share {
+
+      --font-size: var( --type-small );
+    
+      a {
+        --background-color: var(--black);
+        --line-height: 1.5;
+        --text-color: var(--white);
+    
+        background-color: var(--background-color);
+        display: inline-block;
+        margin-inline: 0.25rem;
+        padding-inline: 1rem;
+        text-align: center;
+        transition: all 0.5s ease;
+    
+        &::before {
+          --line-height: 1;
+          --text-color: var(--white);  
+        }
+    
+        &:focus,
+        &:hover {
+          --background-color: var(--coral-red-dark-20);
+        }
+      }
+    
+    }
+
+  }
+
+
+  // The article itself.
+  &-article {
+
+    @extend .fixed-width;
+  
+  }
+
+}

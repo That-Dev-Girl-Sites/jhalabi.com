@@ -1,30 +1,23 @@
 {% assign categories = site.categories | sort %}
 
-<section class="category-list" aria-label="Blog categories">
+<section class="category-list" aria-label="All blog categories">
+  <div class="category-list-container">
 
-  <h2>
-    <a href="/blog">All Topics</a>
-  </h2>
+    <p>Categories</p>
 
-  <ul>
-    {% for category in categories %}
+    <ul class="categories">
+      {% for category in categories %}
 
-      <li>
-        {% if page.url contains category[0] %}
-          <span>{{ category[0] | replace: '-', ' ' }}</span>
-        {% else %}
-          <a href="/blog/{{ category[0] }}/" class="category-list-link">{{ category[0] | replace: '-', ' ' }}</a>
-        {% endif %}
-      </li>
+        <li>
+          {% if page.url contains category[0] %}
+            {{ category[0] | replace: '-', ' ' }}
+          {% else %}
+            <a href="/blog/{{ category[0] }}/" class="category {{ category[0] }}">{{ category[0] | replace: '-', ' ' }}</a>
+          {% endif %}
+        </li>
 
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
 
-  <h2>Follow me</h2>
-
-  <ul>
-    <li><a href="/feed.xml" class="category-list-link">rss feed</a></li>
-    <li><a href="https://twitter.com/jonihalabi" class="category-list-link">twitter @jonihalabi</a></li>
-  </ul>
-
+  </div>
 </section>

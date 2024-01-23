@@ -10,14 +10,14 @@
       {% endfor %}
     </p>
 
-    <h1 id="post-title">{{ page.title }}</h1>
+    <h1 id="title">{{ page.title }}</h1>
 
-    <p class="post-date">
+    <p class="date">
       {{ page.date | date_to_long_string }}
     </p>
 
 
-    <div class="post-share">
+    <div class="share">
       Share this article: 
 
       <a class="ri-twitter-x-line" target="_blank" href="https://twitter.com/intent/tweet?text=Check out '{{ page.title }}' by @jonihalabi&url={{ site.url }}{{ page.url }}">

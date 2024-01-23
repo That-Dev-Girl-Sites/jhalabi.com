@@ -15,7 +15,7 @@
   <section aria-label="All articles about {{ page.category }}">
     {% assign pregnancy_posts = site.tags[page.category] | reverse %}
     {% for post in pregnancy_posts %}
-      {% include article-excerpt.html omit_categories="true" %}
+      {% include post-excerpt.html omit_categories="true" %}
     {% endfor %}
   </section>
 

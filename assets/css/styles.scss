@@ -33,14 +33,15 @@
 
 // Components -- e.g. more complex, reusable blocks
 @import '04-components/categories';
+@import '04-components/category-list';
 @import '04-components/footnotes';
-@import '04-components/post-article';
-@import '04-components/post-meta';
-@import '04-components/post-share';
+@import '04-components/pagination';
+@import '04-components/post-excerpt';
 
 
 // Pages
 @import '05-pages/blog';
+@import '05-pages/post';
 
 
 // Imported styles for code highlighting.
