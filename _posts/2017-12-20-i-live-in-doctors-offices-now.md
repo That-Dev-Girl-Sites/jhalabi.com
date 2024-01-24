@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - first trimester
+excerpt: I am now 8 weeks pregnant and just had my first OB appointment today.
 ---
 
 I am now 8 weeks pregnant and just had my first OB appointment today. Everything went smoothly. Pap smear... check! Breast exam... check! Consult with my OB... check! Five vials of blood taken for **all** the tests... check!

@@ -5,6 +5,7 @@ date: "2022-02-01"
 redirect_from: "/blog/time-management"
 categories:
   - writing
+excerpt: Once upon a time, there was a (not exactly) young girl who decided to have a full-time tech job, solo-parent a pre-schooler, and publish a book.
 ---
 
 Once upon a time, there was a (not exactly) young girl who decided to have a full-time tech job, solo-parent a pre-schooler, and publish a book. "I am so organized!" she exclaimed. "I can totally manage my time to get this done."

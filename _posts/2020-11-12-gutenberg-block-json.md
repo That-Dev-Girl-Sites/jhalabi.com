@@ -6,10 +6,10 @@ redirect_from: "/blog/gutenberg-block-json"
 categories:
   - development
   - wordpress
+excerpt: This week, I added my very first block to the WordPress block directory.
 ---
 
-I have been creating custom WordPress blocks since Gutenberg was in beta, though the vast majority are for work.
-But this week, I added my very first block to the WordPress block directory. _(Hooray for my [Color Palette](https://wordpress.org/plugins/color-palette/)!!)_
+I have been creating custom WordPress blocks since Gutenberg was in beta, though the vast majority are for work. But this week, I added my very first block to the WordPress block directory. _(Hooray for my [Color Palette](https://wordpress.org/plugins/color-palette/)!!)_
 
 Anyone can create a plugin that adds a block to your WordPress site. However, developers need to go through a second step to add that block plugin to the [block directory](https://wordpress.org/support/article/block-directory/). The plugin is analyzed to make sure that it meets some basic requirements, one of which is the existence of a file called `block.json`.
 

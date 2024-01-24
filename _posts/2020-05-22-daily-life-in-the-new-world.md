@@ -5,6 +5,7 @@ date: "2020-05-22"
 redirect_from: "/blog/daily-life-in-the-new-world"
 categories:
   - life
+excerpt: March 23, 2020. That date, almost exactly 2 months ago, was the first day of our new normal.
 ---
 
 March 23, 2020.

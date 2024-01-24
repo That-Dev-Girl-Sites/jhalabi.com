@@ -8,12 +8,15 @@
     <ul class="categories">
       {% for category in categories %}
 
-        <li>
-          {% if page.url contains category[0] %}
+        {% if page.url contains category[0] %}
+          <li class="current">
             {{ category[0] | replace: '-', ' ' }}
-          {% else %}
+          </li>
+        {% else %}
+          <li>
             <a href="/blog/{{ category[0] }}/" class="category {{ category[0] }}">{{ category[0] | replace: '-', ' ' }}</a>
-          {% endif %}
+          </li>
+        {% endif %}
         </li>
 
       {% endfor %}

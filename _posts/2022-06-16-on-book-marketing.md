@@ -5,6 +5,7 @@ date: "2022-06-16"
 redirect_from: "/blog/on-book-marketing"
 categories:
   - writing
+excerpt: They say, "try to do something that scares you." They say, "say yes to everything." Who are "they"? 
 ---
 
 They say, "try to do something that scares you." They say, "say yes to everything." Who are _"they"_? And why exactly am I listening to them?

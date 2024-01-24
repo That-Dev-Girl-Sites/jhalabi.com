@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: Today is day 9 of my cycle.
 ---
 
 I have been slacking on my updates. _(I did warn you all about my blogging infrequency.)_ Today is day 9 of my cycle.

@@ -6,6 +6,7 @@ redirect_from: "/blog/wordpress-featured-image-and-gutenberg"
 categories:
   - development
   - wordpress
+excerpt: A very common editor update that us WordPress developers make is to add options to the featured image meta box in the post editor.
 ---
 
 A very common editor update that us WordPress developers make is to add options to the featured image meta box in the post editor. This is usually something like a checkbox to determine whether the featured image should be displayed at the top of a post.

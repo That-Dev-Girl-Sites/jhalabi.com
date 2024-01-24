@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - postpartum
+excerpt: I wanted to update this category in my blog one more time before "signing off".
 ---
 
 I wanted to update this category in my blog one more time before "signing off". I could blog all day and night about Amelia, but I also want to keep most aspects of her life private. That means, off Facebook, off Instagram, off whatever other social media platforms exist that I'm "too old" to use, and off this blog. Sorry folks.

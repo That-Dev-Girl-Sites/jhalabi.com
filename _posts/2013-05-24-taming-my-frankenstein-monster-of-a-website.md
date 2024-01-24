@@ -6,6 +6,7 @@ redirect_from: "/blog/taming-my-frankenstein-monster-of-a-website"
 categories:
   - development
   - wordpress
+excerpt: It was a disaster. My website, that is.
 ---
 
 It was a disaster. My website, that is. I started my site with good intentions. All I wanted was a simple site with some basic information about me. Maybe my resume, too. After all, any serious web developer needs a website. So, I created my simple, static website and published it using Fastmail's file services. I was already using [Fastmail](https://www.fastmail.com/) for my e-mail and using a single service for my online needs was completely logical at the time.

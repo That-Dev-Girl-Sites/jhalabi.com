@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - first trimester
+excerpt: I started a new bottle of progesterone today.
 ---
 
 I started a new bottle of progesterone today. For those of you just tuning in, that's the one that I stick up my vagina twice a day. It makes me bleed for about an hour each time - only a little and that is apparently OK. Maybe.

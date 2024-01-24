@@ -6,6 +6,7 @@ redirect_from: "/blog/a-very-informal-look-at-gutenberg-accessibility"
 categories:
   - accessibility
   - wordpress
+excerpt: The recent updates to the upcoming WordPress 5.0 release, specifically the new Gutenberg editor, appears to have some accessibility issues.
 ---
 
 We have been working all year to replatform our websites at work from Drupal to WordPress. We decided to go with WordPress for many reasons, one of the biggest being its admin UI.  The WordPress edit screen, especially when compared to the Drupal edit screen, has historically been intuitive and preferred by content editors. In fact, many of my clients in the past have asked to switch their websites from Drupal (or similarly complex systems) to WordPress because of WordPress's UI advantages.

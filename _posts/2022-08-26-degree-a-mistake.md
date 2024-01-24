@@ -5,6 +5,7 @@ date: "2022-08-26"
 redirect_from: "/blog/degree-a-mistake"
 categories:
   - development
+excerpt: With the latest news about exponentially-rising tuition costs and student debt forgiveness, I keep asking myself whether college was truly necessary.
 ---
 
 With the latest news about exponentially-rising tuition costs and student debt forgiveness, I keep asking myself whether college was truly necessary. Truth be told, I have been asking that quite a bit over the years.

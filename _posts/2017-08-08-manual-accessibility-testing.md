@@ -6,6 +6,7 @@ redirect_from: "/blog/manual-accessibility-testing"
 categories:
   - accessibility
   - development
+excerpt: Testing your websites to ensure they are fully accessible is a lot of work.
 ---
 
 Testing your websites to ensure they are fully accessible is a lot of work.  There are a bunch of tools out there to help you thoroughly test your sites - [Siteimprove](https://siteimprove.com/) or [Tenon](https://tenon.io/), for example.

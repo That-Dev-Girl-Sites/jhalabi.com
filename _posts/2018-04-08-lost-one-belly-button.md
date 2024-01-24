@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: Last seen in the center of my belly.
 ---
 
 **Lost:** One small "innie" belly button. Round and relatively symmetrical. Last seen in the center of my belly, perhaps a week ago. Just looked down today and suddenly it was gone.

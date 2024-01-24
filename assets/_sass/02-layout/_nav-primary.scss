@@ -36,9 +36,20 @@
     --text-color: var( --coral-red-dark-20 );
   }
 
+
+  // Current navigation item.
   .current {
     font-weight: bold;
-    text-decoration: none;
+
+    &::before { content: '[ '; }
+    &::after  { content: ' ]'; }
+
+    a {
+      --text-color: var(--black);
+
+      cursor: default;
+      text-decoration: none;
+    }
   }
 
 }

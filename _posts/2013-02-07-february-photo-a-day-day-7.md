@@ -5,6 +5,7 @@ date: "2013-02-07"
 redirect_from: "/blog/february-photo-a-day-day-7"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 Welcome to day 7!  I have been doing this photo-a-day thing for a whole week... can you believe it?

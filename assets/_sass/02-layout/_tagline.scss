@@ -20,8 +20,7 @@
     &::before,
     &::after {
       --font-size:  var( --type-p );
-
-      line-height: 1;
+      --line-height: 1;
     }
 
     &::before { content: '['; }

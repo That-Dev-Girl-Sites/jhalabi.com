@@ -6,6 +6,7 @@ redirect_from: "/blog/work-life-balance"
 categories:
   - life
   - writing
+excerpt: Joni is a full time developer. Joni is a single mom with a 4 year old. Joni is a newly (almost) published author.
 ---
 
 Joni is a full time developer. Joni is a single mom with a 4 year old. Joni is a newly _(almost)_ published author. _(T-3 days until launch!)_ Joni is a self-published author, which means Joni is also a PR agent. How does she do it all? We don't know. She’s not sure either. Seriously, it’s amazing everyone is still in one piece and the house didn’t burn down.

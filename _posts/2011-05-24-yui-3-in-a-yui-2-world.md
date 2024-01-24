@@ -5,6 +5,7 @@ date: "2011-05-24"
 redirect_from: "/blog/yui-3-in-a-yui-2-world"
 categories:
   - development
+excerpt: You want to use YUI 3 inside YUI 2? Really?
 ---
 
 I know what you are probably thinking.  You want to use YUI 3 inside YUI 2?  Really?  Why not just upgrade to YUI 3 altogether?

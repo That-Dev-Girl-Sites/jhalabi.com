@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: Going into this pregnancy, I always knew the last trimester would be rough.
 ---
 
 Going into this pregnancy, I always knew the last trimester would be rough. I expected bloating. I expected needing to waddle wherever I go. I expected to hate how my looks.

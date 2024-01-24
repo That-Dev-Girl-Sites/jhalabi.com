@@ -5,6 +5,7 @@ date: "2022-05-31"
 redirect_from: "/blog/sweet-little-you-preorder"
 categories:
   - writing
+excerpt: Please, please do me a huge favor. Pre-order "Sweet Little You".
 ---
 
 Today is my birthday. This is not a marketing ploy. Today is actually my birthday. Being at the end of May, it often overlaps with the Memorial Day holiday weekend, which, to be honest is pretty nice. I get some time off to relax and recharge and catch up on my mile-long to-do list. It is a bonus that my child goes to a Montessori school that is inexplicably, but thankfully, open on almost every holiday, so I get some extra quiet time at home.

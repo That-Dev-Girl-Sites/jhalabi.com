@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I'm going to start out this post by saying everything is fine.
 ---
 
 I'm going to start out this post by saying everything is fine. I am fine. The kiddo is fine. Fine. _(Spoiler alert?)_

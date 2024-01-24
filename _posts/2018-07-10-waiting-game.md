@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: I am 37 weeks today and the wait is killing me.
 ---
 
 I am 37 weeks today and the wait is killing me. I know she's coming out soon and I think my belly is starting to drop, but the kiddo has not made her move yet. It seems she's not even close. I mean, even my Braxton-Hicks contractions have toned themselves down.

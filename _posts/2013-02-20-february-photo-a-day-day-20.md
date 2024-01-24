@@ -5,6 +5,7 @@ date: "2013-02-20"
 redirect_from: "/blog/february-photo-a-day-day-20"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 I have been falling a little behind in my photo taking again, so here I am, working on two photo posts at once.  Yesterday's photo subject was "where I stood".  Since it is tax season and the end of winter, I have been doing a little bit of organizing and cleaning around the apartment _(more-so than usual, that is)_.

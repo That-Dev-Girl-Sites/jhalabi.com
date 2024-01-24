@@ -5,6 +5,7 @@ date: "2023-08-15"
 redirect_from: "/blog/inspiration-waits-for-no-one"
 categories:
   - writing
+excerpt: I am a minimalist at heart. I do not like clutter - physical or digital.
 ---
 
 I am a minimalist at heart. I do not like clutter - physical or digital. The only decor in my house are things that I love or remind me of where I've been. I semi-regularly purge my closets to make space, so clothes I wear don't get lost among the ones that are collecting dust. Bins of my daughter's toys are everywhere, which bothers me to no end, but my house is her house too. I crave inbox zero. _(As of this moment, the 6 emails in my inbox are making me antsy.)_

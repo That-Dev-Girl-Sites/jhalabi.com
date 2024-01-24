@@ -6,6 +6,7 @@ redirect_from: "/blog/before-after-accessibility"
 categories:
   - accessibility
   - development
+excerpt: I was recently reading a tutorial on how to use CSS counters.
 ---
 
 I was recently reading a tutorial on [how to use CSS counters](https://pineco.de/using-css-counters/). They look great! CSS counters are a new feature of CSS that allow us as developers to enumerate elements in the DOM and then do something with that information. There are plenty of practical uses for this - from numbering highlighted blocks in the text to creating complex nested ordered list bullets. _(I mean, we've all read government documents that include bullet point 13.2.4.1.  Right?)_

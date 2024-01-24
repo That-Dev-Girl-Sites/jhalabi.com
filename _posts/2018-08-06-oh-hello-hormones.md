@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - postpartum
+excerpt: Yesterday was an incredibly bad day.
 ---
 
 Yesterday was an incredibly bad day. I have read about postpartum depression. It is something I had been worried about for the majority of my pregnancy because of my history of anxiety. A friend of mine even talked to me about it way before I delivered.

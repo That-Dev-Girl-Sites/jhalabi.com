@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: I check into the hospital at 4pm today to get induced.
 ---
 
 It's Induction Day!

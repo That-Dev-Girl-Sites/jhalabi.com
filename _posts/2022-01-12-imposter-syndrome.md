@@ -5,6 +5,7 @@ date: "2022-01-12"
 redirect_from: "/blog/imposter-syndrome"
 categories:
   - writing
+excerpt: I've been thinking a lot lately about my early career as a developer.
 ---
 
 I've been thinking a lot lately about my early career as a developer. Getting a CS degree was hard - harder than it needed to be. My classes were filled with C++ and _(mid-1990s)_ Java. Those languages were neither easy or pretty. I learned HTML and CSS on my own. _(It was the 90s. Web development degrees didn't exist then.)_ I struggled with (presentational) Javascript.

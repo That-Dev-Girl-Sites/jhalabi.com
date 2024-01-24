@@ -5,6 +5,7 @@ date: "2015-07-23"
 redirect_from: "/blog/embracing-the-base"
 categories:
   - development
+excerpt: If you were to hire me, what is the one thing I should definitely learn?
 ---
 
 A few weeks ago, I spent some time interacting with candidates for a development job and peppering them with questions at a recruiting event. One candidate who had just started to learn to code finally asked me a question, which isn’t exactly common.

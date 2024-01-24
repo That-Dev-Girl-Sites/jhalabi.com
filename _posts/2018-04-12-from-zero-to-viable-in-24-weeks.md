@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I just had my 24-week appointment today. All is still well!
 ---
 
 I just had my 24-week appointment today. All is still well! The kiddo has a heartbeat that is high enough. I have blood pressure that is low enough. I am up 9 pounds from my pre-pregnancy weight. At least it's not 40? _(Yet!)_

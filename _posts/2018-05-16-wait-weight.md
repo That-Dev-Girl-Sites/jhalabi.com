@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: One of my biggest worries about getting pregnant was the inherent weight gain that comes with it.
 ---
 
 One of my biggest worries about getting pregnant was the inherent weight gain that comes with it. Yes, I know that sounds really superficial. Yes, I know that I am growing a _second human_ inside of my body and, of course, she adds to my overall weight.

@@ -5,6 +5,7 @@ date: "2011-07-29"
 redirect_from: "/blog/character-limit-in-yui"
 categories:
   - development
+excerpt: In the UI world, it is a good idea to let the users know about any constraints they have on any form fields. 
 ---
 
 In the UI world, it is a good idea to let the users know about any constraints they have on any form fields.  We all know this.  There are a million ways to do this – through error messages, help text, and so on.  For character limits on input fields, the best way to avoid a user error is to limit the number of characters the user can physically type in the field.

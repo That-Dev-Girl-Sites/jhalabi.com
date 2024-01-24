@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: My last high risk appointment was yesterday and my last OB appointment was today.
 ---
 
 My last high risk appointment was yesterday and my last OB appointment was today. Actually, I should say _appointments_.

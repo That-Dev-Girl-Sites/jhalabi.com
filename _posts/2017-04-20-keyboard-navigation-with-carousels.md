@@ -6,6 +6,7 @@ redirect_from: "/blog/keyboard-navigation-with-carousels"
 categories:
   - accessibility
   - development
+excerpt: Carousels are terrible.
 ---
 
 Oh... carousels.

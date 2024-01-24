@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I will be 13 weeks pregnant tomorrow.
 ---
 
 I will be 13 weeks pregnant tomorrow. This is huge because it means, not only am I super officially out of my first trimester, but I am also at a point where I have been getting a lot of test results back.

@@ -5,6 +5,7 @@ date: "2014-12-03"
 redirect_from: "/blog/how-to-write-code-kid-edition"
 categories:
   - development
+excerpt: I was recently asked to do some research on how to teach an 8-year old about mobile app development.
 ---
 
 I was recently asked to do some research on how to teach an 8-year old about mobile app development.   This made me happy on a bunch of levels.  This kid is interested in something that is pretty complicated for adults.  _And_ she’s a girl.  Not to go into gender issues here, but this fact made me even happier.  Women in STEM are still so grossly under-represented it is ridiculous.

@@ -5,6 +5,7 @@ date: "2022-04-11"
 redirect_from: "/blog/sweet-little-you-cover-reveal"
 categories:
   - writing
+excerpt: Something happened this weekend. Something big.
 ---
 
 Something happened this weekend. Something big. I got the final illustrations for _Sweet Little You_! **OMG OMG OMG!!**

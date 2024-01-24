@@ -5,6 +5,7 @@ date: "2013-02-05"
 redirect_from: "/blog/february-photo-a-day-day-5"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 OK, this story is a little gross.  Day 5's photo subject was "something you smelled".  I woke up this morning thinking of different possibilities: Burning a candle.  Baking cookies.  Finding some girly hand lotion.

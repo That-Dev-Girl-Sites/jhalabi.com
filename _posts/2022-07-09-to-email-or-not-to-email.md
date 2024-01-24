@@ -5,6 +5,7 @@ date: "2022-07-09"
 redirect_from: "/blog/to-email-or-not-to-email"
 categories:
   - writing
+excerpt: I have spent the last several weeks evaluating different email newsletter solutions because, according to my marketing plan, a newsletter is something I should consider starting.
 ---
 
 I have spent the last several weeks _(slowly)_ evaluating different email newsletter solutions because, according to my marketing plan, a newsletter is something I should consider starting. I mean, it _is_ a great way to get the news out about my book and any future writing I may (probably) do. However, I am not 100% convinced I have anything meaningful to say on a pseudo-regular basis. 

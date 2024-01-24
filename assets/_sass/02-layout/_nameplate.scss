@@ -6,6 +6,9 @@
 
 .nameplate {
 
+  --font-size:  var( --type-nameplate );
+  --line-height: 2;
+
   margin-block-end: -1.5rem;
   margin-block-start: 2rem;
   text-align: center;
@@ -15,11 +18,13 @@
     text-align: left;
   }
 
+
+  // Linked logo.
   a {
     $logo-size: 6rem;
 
     --text-color: var( --black );
-    --font-size:  var( --type-nameplate );
+    --font-size:  inherit;
 
     letter-spacing: -4px;
     text-decoration: none;

@@ -5,6 +5,7 @@ date: "2013-02-18"
 redirect_from: "/blog/february-photo-a-day-day-18"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 I had a fantastic weekend.  So fantastic, that I just found the time to work on yesterday's photo of the day.  Typical I know.

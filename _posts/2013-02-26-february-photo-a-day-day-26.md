@@ -5,6 +5,7 @@ date: "2013-02-26"
 redirect_from: "/blog/february-photo-a-day-day-26"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 The photo subject for the today was "quiet".  Taking a picture of actual quiet stumped me at first.  What is quiet?  Especially in my life.  I like background noise.  A lot.  TV, music, podcasts, whatever.  I am a city girl, so.. well.. my neighborhood is not all that quiet.  And I am terrible at meditating.

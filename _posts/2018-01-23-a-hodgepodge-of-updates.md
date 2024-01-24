@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I am officially at 13 weeks and firmly in my second trimester.
 ---
 
 For _(hopefully)_ obvious privacy reasons, I originally kept all of my pregnancy posts private, especially while I was still trying to conceive and during my first trimester. In reality, very few people knew about any of this.

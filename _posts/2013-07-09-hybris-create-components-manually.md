@@ -5,6 +5,7 @@ date: "2013-07-09"
 redirect_from: "/blog/hybris-create-components-manually"
 categories:
   - development
+excerpt: I have spent a large part of this year working in a system called Hybris, which is a Java-based e-commerce platform.
 ---
 
 I have spent a large part of this year working in a system called Hybris, which is a Java-based e-commerce platform.  The Hybris back-end seems to be very robust and includes a decent amount of documentation.  The Hybris front-end also seems to be very robust - but it is not the most user-friendly thing on the planet and includes very little documentation.

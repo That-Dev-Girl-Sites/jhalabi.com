@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: I made the choice to become a single mother after years of debating this.
 ---
 
 For those of you who don't know _(and many people don't)_, I made the choice to become a single mother after years of debating this. My first actual attempt happened on June 17.

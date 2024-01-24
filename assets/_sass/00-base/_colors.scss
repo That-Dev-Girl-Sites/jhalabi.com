@@ -13,7 +13,8 @@ $white:           #fff;
 $dark-purple:     #3a182e;
 $silver:          #c5c5c5;
 $battleship-gray: #829191;
-$coral-red:       #e85f5c;
+$coral-red:       #c95d63;
+$tangerine:       #f08700;
 
 
 // Secondary colors.
@@ -52,6 +53,7 @@ $wine:            #6a2e35;
   --silver:                    #{$silver};
   --battleship-gray:           #{$battleship-gray};
   --coral-red:                 #{$coral-red};
+  --tangerine:                 #{$tangerine};
 
   // Primary colors: shades.
   --dark-purple-light-3:       #{lighten( $dark-purple, 3% )};
@@ -65,6 +67,7 @@ $wine:            #6a2e35;
   --battleship-gray-light-35:  #{lighten( $battleship-gray, 35% )};
 
   --coral-red-dark-20:         #{darken( $coral-red, 20% )};
+  --coral-red-light-25:        #{lighten( $coral-red, 25% )};
 
 
 
@@ -73,8 +76,8 @@ $wine:            #6a2e35;
    */
 
   --cat-accessibility:         #{$delft-blue};
-  --cat-development:           #{$dark-purple};
-  --cat-life:                  #{$wine};
+  --cat-development:           #{$wine};
+  --cat-life:                  #{darken( $tangerine, 10% )};
   --cat-pregnancy:             #{$burgundy};
   --cat-user-experience:       #{$olive};
   --cat-wordpress:             #{$indigo-dye};

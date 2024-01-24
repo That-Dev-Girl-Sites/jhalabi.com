@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: I want a baby.
 ---
 
 I want a baby. I am also a single woman, a fact that does not seem to be changing anytime soon.

@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: This morning, I had an appointment with my high risk doctor for another sonogram.
 ---
 
 ## A true story

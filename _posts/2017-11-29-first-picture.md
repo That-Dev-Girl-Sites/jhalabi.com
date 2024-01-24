@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - first trimester
+excerpt: I went in for my first OB ultrasound this morning.
 ---
 
 I went in for my first OB ultrasound this morning. Remember everything I said about weirdness coming out of me in my last post? It's fine. All of that is _(apparently)_ normal. #thingsTheyDontShareAboutBeingPregnant.

@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerot: My kid kicked me.
 ---
 
 **She kicked me!**

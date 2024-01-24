@@ -5,6 +5,7 @@ date: "2013-02-16"
 redirect_from: "/blog/february-photo-a-day-day-16"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 As you probably read a couple of days ago, I have started to take some liberties with this photo-a-day challenge.  Today _(or, rather yesterday at this point)_ is another one of those liberties.  Don't worry - I did take a picture this time.  But there's a (long) story to go with it.

@@ -6,6 +6,7 @@ redirect_from: "/blog/wordpress-block-json"
 categories:
   - development
   - wordpress
+excerpt: WordPress 5.8 introduced the ability to use a block.json file to register and configure custom blocks.
 ---
 
 My last blog post was about [WordPress theme customization with JSON](/blog/wordpress-customization). It seems only fitting that I follow that up _(nearly 6 months later... yikes!)_ with a new post about custom block registration and, you guessed it, JSON!

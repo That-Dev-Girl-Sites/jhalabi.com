@@ -6,6 +6,7 @@ redirect_from: "/blog/accessibility-phone-number-formatting"
 categories:
   - accessibility
   - development
+excerpt: Accessible phone numbers on the web is a more complicated topic than you would think.
 ---
 
 Accessible phone numbers on the web is a more complicated topic than you would think.  Screen readers are remarkably inconsistent in the way they handle phone numbers.  This is a huge issue from an accessibility point of view.

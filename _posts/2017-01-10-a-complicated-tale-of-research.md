@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: This is a tale of two fertility clinics.
 ---
 
 This is a tale of two fertility clinics. I do not want to use names, so I’ll call them _Clinic Alpha_ and _Clinic Beta_ here.

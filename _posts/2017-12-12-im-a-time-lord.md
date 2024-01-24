@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - first trimester
+excerpt: I am 7 weeks pregnant today. Ultrasound 2 happened this morning.
 ---
 
 I am 7 weeks pregnant today. Ultrasound #2 happened this morning. I was particularly nervous about this one because I have literally felt nothing for the past week. I mean, my breasts hurt and I'm dizzy about 50% of the time, but there has been zero morning sickness. I'm pregnant. I should be throwing up! (Wait a sec. Am I seriously complaining about _not_ throwing up?!)

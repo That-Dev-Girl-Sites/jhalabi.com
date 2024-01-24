@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: As I enter the last month of my pregnancy, I have this recurring and overwhelming thought
 ---
 
 As I enter the last month of my pregnancy, I have this recurring and overwhelming thought:

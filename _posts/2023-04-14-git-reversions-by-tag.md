@@ -5,6 +5,7 @@ date: "2023-04-14"
 redirect_from: "/blog/git-reversions-by-tag"
 categories:
   - development
+excerpt: I have been using git for over a decade and reverting commits still trips me up.
 ---
 
 I have been using git for _(checks watch)_ over a decade and reverting commits _still_ trips me up. 

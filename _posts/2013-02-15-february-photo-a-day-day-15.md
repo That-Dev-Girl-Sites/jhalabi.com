@@ -5,6 +5,7 @@ date: "2013-02-15"
 redirect_from: "/blog/february-photo-a-day-day-15"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 And we're back!  Today's photo subject is "inside your fridge".

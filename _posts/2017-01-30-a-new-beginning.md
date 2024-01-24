@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: I had my initial consultation with Clinic Beta today.
 ---
 
 I had my initial consultation with Clinic Beta today. I had some initial concern that my experience with this new clinic would mimic that of Clinic Alpha. I was pleasantly surprised.

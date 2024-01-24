@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - first trimester
+excerpt: This is the pregnancy test you get after your pregnancy test to make sure you're still pregnant.
 ---
 
 After learning I was pregnant, I went home for Thanksgiving _(as one does?)_ and spent 4 days dodging questions about why I wasn't drinking and why I would chase squirrels any time someone lit up a cigarette.

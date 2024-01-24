@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - first trimester
+excerpt: Insurance in this country is kind of dumb.
 ---
 
 It occurred to me over the weekend that insurance in this country is kind of dumb and, as a result, a limited number of ultrasounds are likely covered under my insurance plan. So this week I decided to do some research.

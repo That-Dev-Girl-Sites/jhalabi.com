@@ -5,6 +5,7 @@ date: "2021-12-15"
 redirect_from: "/blog/research-research-research"
 categories:
   - writing
+excerpt: In an effort to spend more time on Twitter, I came across a tweet with the following advice.
 ---
 
 In an effort to spend more time on Twitter[^1], I came across a [tweet with the following advice](https://twitter.com/literaticat/status/1470448467063492611):

@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - postpartum
+excerpt: Over the course of the last week, since my daughter's birth, I have discovered that I have become very used to being pregnant.
 ---
 
 Over the course of the last week, since my daughter's birth, I have discovered that I have become _very_ used to being pregnant. This realization is becoming more and more apparent as I heal from my c-section and I regain more general mobility.

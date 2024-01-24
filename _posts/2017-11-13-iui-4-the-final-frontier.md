@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: I had my 4th IUI last Tuesday, which means as of today, I am 6 dpiui.
 ---
 
 I am a little bit behind in my blogging here, but I had my 4th IUI last Tuesday, which means as of today, I am 6 dpiui.

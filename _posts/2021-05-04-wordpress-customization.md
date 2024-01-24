@@ -6,6 +6,7 @@ redirect_from: "/blog/wordpress-customization"
 categories:
   - development
   - wordpress
+excerpt: WordPress has come out with so many different ways to customize block editor.
 ---
 
 The new WordPress editor _("Gutenberg")_ has been a part of our lives for [almost 2 1/2 years](https://wordpress.org/support/wordpress-version/version-5-0/). Since that initial launch, WordPress has come out with so many different ways to customize block editor: `theme.json`, block variations, and block supports. These are three distinct features that provide different customization options. Yet, for some reason, I can never remember what controls what (or how much control each feature really has). This blog post aims to clear all that up.

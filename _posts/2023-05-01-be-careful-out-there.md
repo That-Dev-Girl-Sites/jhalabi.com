@@ -5,6 +5,7 @@ date: "2023-05-01"
 redirect_from: "/blog/be-careful-out-there"
 categories:
   - life
+excerpt: I am about to go into "mom mode" for this post.
 ---
 
 I am about to go into "mom mode" for this post, because I recently came across (and _almost_ fell for) the most clever phishing attempt I have seen to date.

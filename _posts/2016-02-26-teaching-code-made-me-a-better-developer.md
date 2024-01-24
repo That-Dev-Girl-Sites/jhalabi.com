@@ -5,6 +5,7 @@ date: "2016-05-11"
 redirect_from: "/blog/teaching-code-made-me-a-better-developer"
 categories:
   - development
+excerpt: Late last year, the good folks at General Assembly hired me to teach.
 ---
 
 Late last year, the good folks at General Assembly hired me to teach one of their part-time [Front-End Web Development](https://generalassemb.ly/education/front-end-web-development/washington-dc) courses.  I have been coding for years and, more recently, have given a few one-off guest lectures.  However, I was never completely in charge of the education of a group of people for any extended period of time… until now.

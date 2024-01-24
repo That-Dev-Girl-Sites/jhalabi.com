@@ -5,6 +5,7 @@ date: "2015-12-22"
 redirect_from: "/blog/my-favorite-dev-things"
 categories:
   - development
+excerpt: I started teaching a web development class and I have been thinking a lot about what happens after class is over.
 ---
 
 I started teaching a web development class and I have been thinking a lot about what happens after class is over.  My students will learn a bunch of HTML and CSS and a bit of Javascript over the course of 10 weeks.  After that, development gets harder.

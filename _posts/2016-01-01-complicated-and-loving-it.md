@@ -5,6 +5,7 @@ date: "2016-01-01"
 redirect_from: "/blog/complicated-and-loving-it"
 categories:
   - life
+excerpt: 2015 was a strange, strange year.
 ---
 
 2015 was a strange, strange year.

@@ -3,9 +3,10 @@
  */
 
 .skip-link {
-  --link-bg-color: var( --purple );
-  --text-color:    var( --actual-white );
 
+  --text-color:    var( --white );
+
+  background-color: var( --dark-purple );
   left: 50%;
   padding: 0.5rem 1rem;
   position: absolute;
@@ -15,4 +16,5 @@
   &:focus {
     transform: translateY( 0% );
   }
+
 }

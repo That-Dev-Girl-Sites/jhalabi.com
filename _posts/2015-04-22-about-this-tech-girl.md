@@ -5,6 +5,7 @@ date: "2015-04-22"
 redirect_from: "/blog/about-this-tech-girl"
 categories:
   - life
+excerpt: There have been a lot of stories in the news about gender issues in the tech world.
 ---
 
 There have been a lot of stories in the news about gender issues in the tech world. The [Ellen Pao case](https://slate.com/business/2015/03/ellen-pao-trial-the-lawsuit-brought-awareness-to-workplace-sexism-but-the-setbacks-are-gripping.html). [Gamergate](https://gawker.com/what-is-gamergate-and-why-an-explainer-for-non-geeks-1642909080). The [dongle joke](https://techcrunch.com/2013/03/21/a-dongle-joke-that-spiraled-way-out-of-control/) at Pycon.  The [gender gap](http://www.usatoday.com/story/tech/2015/03/26/silicon-valley-gender-gap-widening/70444276/) in the tech industry.  The list goes on and on. And now today, an LA Times article came out asking [why women are leaving the tech industry](https://www.latimes.com/business/la-fi-women-tech-20150222-story.html).

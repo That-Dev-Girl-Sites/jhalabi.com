@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I have more conversations with colleagues that center around my growing belly.
 ---
 
 Now that I am quite obviously pregnant, I find that I have more conversations with colleagues that center around my growing belly. This is a conversation that I have with someone at least once per day:

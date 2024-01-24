@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I have finally started working on my baby registry.
 ---
 
 I have finally started working on my baby registry. I have been feeling quite a bit of angst about this whole registry-making process for a number of reasons:

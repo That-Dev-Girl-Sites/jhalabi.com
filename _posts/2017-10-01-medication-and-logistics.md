@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: I am starting to prep for my next attempt.
 ---
 
 I am starting to prep for my next attempt. This one will be medicated, which is terrifying in and of itself. I will be on I'll be on Clomid _(a pill taken orally)_, Prometrium _(a pill taken vaginally, which should be interesting)_, and Ovedril _(a syringe and I just don't want to know yet)_.

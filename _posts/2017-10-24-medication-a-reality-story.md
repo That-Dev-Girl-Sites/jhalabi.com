@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: It is day 1 of my new cycle. I am back from vacation and ready to start trying again.
 ---
 
 It is day 1 of my new cycle. I am back from vacation and ready to start trying again. It seems like a good time to figure out what all of my new medication does, right? Sure!

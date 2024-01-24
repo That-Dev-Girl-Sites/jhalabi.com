@@ -5,6 +5,7 @@ date: "2014-03-20"
 redirect_from: "/blog/things-i-learned-after-moving-to-dc"
 categories:
   - life
+excerpt: I moved from Boston to Washington DC in the summer of 2012.
 ---
 
 I moved from Boston to Washington DC in the summer of 2012. It was somewhat (mostly) random move, but one that was completely necessary for me. I recently came across a blog post by another transplant to DC - [24 Things I've Learned After Moving to Washington DC](http://thoughtcatalog.com/brett-nolan/2014/03/24-things-ive-learned-after-moving-to-washington-dc/) - and was inspired to create a list of my own.

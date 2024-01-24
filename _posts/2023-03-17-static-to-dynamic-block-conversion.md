@@ -6,6 +6,7 @@ redirect_from: "/blog/static-to-dynamic-block-conversion"
 categories:
   - development
   - wordpress
+excerpt: I started working with custom Gutenberg blocks sometime in late 2017. Or, perhaps, it was early 2018.
 ---
 
 I started working with custom Gutenberg blocks sometime in late 2017. Or, perhaps, it was early 2018. To be honest, the timing is a bit fuzzy because I was pregnant at the time and pregnancy brain is real. For those of you keeping track, these timeframes are well before the [WordPress 5 release date of December 6, 2018](https://wordpress.org/documentation/wordpress-version/version-5-0/).

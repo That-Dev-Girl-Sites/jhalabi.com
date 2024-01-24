@@ -5,6 +5,7 @@ date: "2021-11-28"
 redirect_from: "/blog/editing-done"
 categories:
   - writing
+excerpt: Why do I feel like I should _still_ be editing?
 ---
 
 Well, the text is done! After a few rounds of editing _(e.g. many, many, many rounds)_ with both alpha readers and a proper editor, I am feeling quite good about it. I'm happy with the message. I'm happy with the story flow. I'm happy with the rhythm of the verses. I'm happy with the rhymes.

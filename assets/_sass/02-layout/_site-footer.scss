@@ -42,6 +42,15 @@ footer {
       margin-block-end: 0;
       margin-inline-start: 2rem;
     }
+
+    &-social {
+      text-decoration: none;
+
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
 

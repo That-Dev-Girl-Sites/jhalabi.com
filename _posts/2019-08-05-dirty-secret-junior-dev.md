@@ -5,6 +5,7 @@ date: "2019-08-05"
 redirect_from: "/blog/dirty-secret-junior-dev"
 categories:
   - development
+excerpt: I have been a professional developer for 20 years.
 ---
 
 I have been a professional developer for 20 years. Actually, I have been writing code for much, _much_ longer than that, but I have only been getting paid for it for the last 20 years. In recent years - especially the last couple of years - I have noticed my days filling up with other tasks.

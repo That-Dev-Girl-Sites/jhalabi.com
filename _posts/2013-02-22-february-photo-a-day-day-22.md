@@ -5,6 +5,7 @@ date: "2013-02-22"
 redirect_from: "/blog/february-photo-a-day-day-22"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 Work has been hard lately.  I mean seriously, frustratingly hard.  I am learning a new piece of tech these days, which is pretty awesome, but, at the same time, obnoxiously crazy and seemingly impossible.  The learning curve is getting better, but it has been a long time coming.

@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I have heard about women "popping", but I never thought it was a literal description of what happens.
 ---
 
 I have heard about women "popping", but I never thought it was a literal description of what happens. I always figured that the process of showing would be pretty gradual, like a sine wave.

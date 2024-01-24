@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: A hobbit's eating scheduleis also the perfect eating schedule for a pregnant woman.
 ---
 
 It has occurred to me over the last several weeks (months) that a [hobbit's eating schedule](https://scifi.stackexchange.com/questions/105209/what-are-hobbits-daily-eating-schedules) is also the perfect eating schedule for a pregnant woman - or at least _this_ pregnant woman. Allow me to demonstrate.

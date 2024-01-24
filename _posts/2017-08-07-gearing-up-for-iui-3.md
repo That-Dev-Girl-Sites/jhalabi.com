@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: Yes, I apparently skipped writing about IUI #2.
 ---
 
 Yes, I apparently skipped writing about IUI #2. Sorry, folks. I am an inconsistent blogger.

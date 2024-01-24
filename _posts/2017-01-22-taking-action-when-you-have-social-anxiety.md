@@ -5,6 +5,7 @@ date: "2017-01-22"
 redirect_from: "/blog/taking-action-when-you-have-social-anxiety"
 categories:
   - life
+excerpt: I attended the Women’s March on January 21, 2017.
 ---
 
 I attended the Women’s March on January 21, 2017. This march that was the [largest inaugural protest in US history](https://www.politicususa.com/2017/01/21/womens-march-biggest-protest-history-estimated-2-4-million-march.html), with over 500,000 people in DC alone.

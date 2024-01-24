@@ -5,6 +5,7 @@ date: "2013-07-02"
 redirect_from: "/blog/movile-should-not-be-an-afterthought"
 categories:
   - user-experience
+excerpt: We are now in 2013, and this is “sometime in the future”.
 ---
 
 I grew up watching the Jetsons, with their flying cars and video calls, and Star Trek, with their tricorders and communicators.  Looking back at these shows, there is a common theme here.  Sometime in the future, we could have technology that connects people over thousands – or even millions – of miles.  Pretty cool right?

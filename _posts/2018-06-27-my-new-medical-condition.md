@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: I checked out the latest updates to my medical records.
 ---
 
 I logged onto my OB's website today to check out the latest updates to my medical records. I read through a bunch of new test. _(All of them are normal.)_ And then I discovered that I have been diagnosed with a new medical condition.

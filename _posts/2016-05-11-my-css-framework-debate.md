@@ -5,6 +5,7 @@ date: "2016-05-11"
 redirect_from: "/blog/my-css-framework-debate"
 categories:
   - development
+excerpt: I just finished teaching my students about CSS frameworks.
 ---
 
 Just when I finished teaching my students about CSS frameworks, I come across an article telling me that “[You Might Not Need a CSS Framework.](https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/)”

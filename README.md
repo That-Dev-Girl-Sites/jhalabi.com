@@ -14,11 +14,12 @@ Social media and other icons are from a self-hosted icon font pack from [RemixIc
 
 ### Colors
 
-This site's [color palette](https://coolors.co/3a182e-c5c5c5-829191-c95d63-e54b4b) consists of the following colors:
+This site's [color palette](https://coolors.co/3a182e-c5c5c5-829191-c95d63-f08700) consists of the following colors:
 
 * Dark Purple: `#3a182e`
 * Silver: `#c5c5c5`
 * Battleship Gray: `#829191`
-* Coral Red: `#e85f5c`
+* Coral Red: `#c95d63`
+* Tangerine: `#f08700`
 * Black: `#1f271b`
 * White: `#ffffff`

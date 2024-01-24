@@ -5,6 +5,7 @@ date: "2013-02-21"
 redirect_from: "/blog/february-photo-a-day-day-21"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 Today's photo subject was "full".  Today was also a crazy busy day at work _(from home)_, so I needed to find something "full" around my apartment.

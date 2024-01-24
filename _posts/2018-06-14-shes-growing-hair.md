@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: At least now I know that she is truly my kid.
 ---
 
 At yesterday's ultrasound, the tech made a comment about my daughter: "She's growing _(pause for dramatic effect)_... hair."

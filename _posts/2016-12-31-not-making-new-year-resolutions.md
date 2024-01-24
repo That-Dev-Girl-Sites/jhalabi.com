@@ -5,6 +5,7 @@ date: "2016-12-31"
 redirect_from: "/blog/not-making-new-year-resolutions"
 categories:
   - life
+excerpt: At the end of 2015, I had asked for a stranger new year.
 ---
 
 It has been a year. Some of us have had a really rough year, while others had a pretty good year, but feel awkward admitting that 2016 wasn't all that bad.

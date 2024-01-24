@@ -6,6 +6,7 @@ redirect_from: "/blog/carousels-no-one-likes-you"
 categories:
   - accessibility
   - user-experience
+excerpt: For all of you clients who want a carousel on your site, this post is for you.
 ---
 
 Oh carousels. The last time I wrote about carousels, it was 2017 _(seemingly a lifetime ago)_, when I shared a solution for fixing [keyboard navigation in carousels](/blog/keyboard-navigation-with-carousels).

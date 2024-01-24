@@ -7,6 +7,7 @@ categories:
   - pregnancy
 tags:
   - conception
+excerpt: I am finally (gloriously) done with the testing phase.
 ---
 
 I am finally (gloriously) done with the testing phase. I actually finished last week, but have been procrastinating writing about it.
