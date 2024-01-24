@@ -23,10 +23,15 @@
       {% assign last_page = paginator.total_pages %}
     {% endif %}
 
+    {% assign base_path = '/blog/' %}
+    {% if page.category %}
+      {% capture base_path %}/blog/{{ page.category }}/{% endcapture %}
+    {% endif %}
+
 
     {% if first_page >= 3 %}
       <li>
-        <a href="{{ '/blog/' | relative_url }}">1</a> ..
+        <a href="{{ base_path }}">1</a> ..
       </li>
     {% endif %}
 
@@ -36,11 +41,11 @@
         <li class="pagination-current">{{ page }}</li>
       {% elsif page == 1 %}
         <li>
-          <a href="{{ '/blog/' | relative_url }}">{{ page }}</a>
+          <a href="{{ base_path }}">{{ page }}</a>
         </li>
       {% else %}
         <li>
-          <a href="/blog/page/{{ page }}/">{{ page }}</a>
+          <a href="{{ base_path }}page/{{ page }}/">{{ page }}</a>
         </li>
       {% endif %}
     {% endfor %}
@@ -49,7 +54,7 @@
     {% assign max_for_last_page = paginator.total_pages | minus: 2 %}
     {% if last_page <= max_for_last_page %}
       <li>
-        .. <a href="/blog/page/{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a>
+        .. <a href="{{ base_path }}page/{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a>
       </li>
     {% endif %}
 

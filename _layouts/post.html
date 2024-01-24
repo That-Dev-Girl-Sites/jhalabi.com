@@ -34,9 +34,12 @@
   <article class="post-article" aria-labelledby="post-title">
     {{ content }}
 
-    {% for tag in page.tags %}
-      <a href="/blog/{{ mainCategory }}/{{ tag | replace: ' ', '-' }}/" class="category">{{ tag | replace: "-", " "  }}</a>
-    {% endfor %}
+    {% if page.tags != empty %}
+      Tagged:
+      {% for tag in page.tags %}
+        <a href="/blog/{{ mainCategory }}/{{ tag | replace: ' ', '-' }}/" class="category">{{ tag | replace: "-", " "  }}</a>
+      {% endfor %}
+    {% endif %}
   </article>
 
 </main>

@@ -73,7 +73,7 @@ $wine:            #6a2e35;
    */
 
   --cat-accessibility:         #{$delft-blue};
-  --cat-development:           #{lighten( $dark-purple, 10% )};
+  --cat-development:           #{$dark-purple};
   --cat-life:                  #{$wine};
   --cat-pregnancy:             #{$burgundy};
   --cat-user-experience:       #{$olive};

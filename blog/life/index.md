@@ -1,5 +1,8 @@
 ---
 layout: category
-title: Life articles
+title: Life blog
 category: life
+pagination:
+  enabled: true
+  category: life
 ---

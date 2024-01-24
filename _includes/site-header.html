@@ -11,8 +11,8 @@
       {% assign delete_italics = '<i>' | append: italics_text | append: '</i>' %}
 
       {{ page.title | remove: delete_strike | replace: delete_italics, italics_text }}
-      -
-    {%- endif -%}
+      |
+    {% endif -%}
 
     {{ site.title -}}
     {%- if page.dir == '/' -%}: Web developer. Author. Speaker.{%- endif -%}

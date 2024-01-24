@@ -3,14 +3,14 @@
 <main class="blog">
 
   <h1>
-    Category: 
-    {{ page.category | capitalize | replace: "-", " " | replace: "Wordpress", "WordPress" }}
+    Articles about 
+    {{ page.category | replace: "-", " " | replace: "Wordpress", "WordPress" }}
   </h1>
 
   {{ page.content }}
 
   <div class="blog-list">
-    <section aria-label="All articles about {{ page.category }}">
+    <section aria-label="Articles about {{ page.category }}">
       {% for post in site.categories[page.category] %}
         {% include post-excerpt.html %}
       {% endfor %}

@@ -1,5 +1,8 @@
 ---
 layout: category
-title: Development articles
+title: Development blog
 category: development
+pagination:
+  enabled: true
+  category: development
 ---

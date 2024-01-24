@@ -1,5 +1,8 @@
 ---
 layout: category
-title: WordPress articles
+title: WordPress blog
 category: wordpress
+pagination:
+  enabled: true
+  category: wordpress
 ---

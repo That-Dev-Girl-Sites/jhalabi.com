@@ -77,6 +77,5 @@ The world is energized and arguably crazy right now. It will do everyone a world
 
 **Extra information:**
 
-* (http://www.metafilter.com/163525/How-To-Call-Your-Reps-When-You-Have-Social-Anxiety)
-* (http://nymag.com/thecut/2016/11/a-post-election-action-plan-for-anxious-people.html)
-* (http://political-cartoons.us/post/153518796911/how-to-call-your-reps-when-you-have-social-anxiety)
+* [How To Call Your Reps When You Have Social Anxiety](http://www.metafilter.com/163525/How-To-Call-Your-Reps-When-You-Have-Social-Anxiety)
+* [A Post-Election Action Plan for Anxious People](http://nymag.com/thecut/2016/11/a-post-election-action-plan-for-anxious-people.html)

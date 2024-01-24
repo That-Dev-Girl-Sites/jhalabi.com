@@ -1,5 +1,4 @@
 ---
 layout: category-pregnancy
-title: My Pregnancy Story
-id: pregnancy-story
+title: My Solo-By-Choice Pregnancy Story
 ---
