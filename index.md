@@ -15,9 +15,11 @@ title: Home
 
 ## Hello World!
 
-I am “middle-end” web developer who likes to write code, commit often, and make up my own titles. I have spent the last 20 years developing solutions for a wide variety of industries and organizations. I currently specialize in developing CMS themes and WordPress editor customizations. I [enjoy speaking at technical conferences](/speaking), and have also taught continuing education coding classes. 
+I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's basement. Soon after that moment, I wrote my first `GOTO` statement, sending that computer into a fiery fit of sparks and smoke _(or something like that)_.
 
-When I am not writing code, I write [technical articles](/blog) and [creative works](/book) focusing on life as a single mother by choice. I enjoy running, practicing yoga, reading, and seeing live music near my home in the Washington, D.C. area.
+My actual childhood was far less destructive and surrounded by computers --- that Apple iiC, my beloved TI 99/4A, and eventually an IBM ThinkPad. I also spent my childhood among books. My dream was to move into our town library. Piles of journals and old computers crowd my current home office.
+
+Today, I am “middle-end” web developer who likes to write code, commit often, and make up my own titles. I specialize in developing CMS themes and WordPress editor customizations. I also [speak at technical conferences](/speaking), [blog about development](/blog), and [write creative works](/book) focusing on life as a single mother by choice. In the little spare time that remains, I run, travel with my adventurous kid, enjoy live music, and advocate for the Oxford comma.
 
 </div>
 
@@ -53,48 +55,16 @@ A mother with a dream of having a child makes her wish come true by having a bab
 
 
 
-<section markdown="1" class="home-latest" aria-label="Latest article">
+<section markdown="1" class="home-articles" aria-label="Blog articles">
 
-## Latest Article
+## Articles: Past And Present
 
-{% for post in site.posts limit:1 %}
-{% include post-excerpt.html %}
-{% endfor %}
+I have been writing for as long as I can remember. Here is a selection of my latest and favorite articles.
 
-### Plus Favorites Over The Years
-
-I have been writing about programming and technology since 2010. Here are some highlights:
-
+1. [{{ site.posts.first.title }}]({{ site.posts.first.url }})
 1. [Static vs. dynamic blocks: What’s the difference?](https://developer.wordpress.org/news/2023/02/27/static-vs-dynamic-blocks-whats-the-difference/)
 1. [Carousels: No one likes you](/blog/2022/03/08/carousels-no-one-likes-you/)
 1. [Writing a custom WordPress block](/blog/2022/09/27/writing-custom-wp-block/)
-1. [Regularly online developer conferences: An impossible post](/blog/2020/06/29/online-conferences/)
 1. [Manual accessibility testing is your new BFF](/blog/2017/08/08/manual-accessibility-testing/)
-
-</section>
-
-
-
-<section markdown="1" class="home-about" aria-label="More about Joni">
-
-<div markdown="1">
-
-![My daughter and me](/assets/images/family.jpg)
-
-</div>
-
-<div markdown="1">
-
-## About Joni
-
-I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's basement. Soon after that moment, I wrote my first `GOTO` statement, sending that computer into a fiery fit, smoke blasting from its ears.
-
-Or something like that.
-
-In reality, I spent my childhood around computers, be it that Apple iiC, my beloved TI 99/4A, or eventually an IBM ThinkPad. I also spent my childhood among books. My dream was to move into our town library. Piles of journals (and old computers) crowd my home office today.
-
-
-
-</div>
 
 </section>

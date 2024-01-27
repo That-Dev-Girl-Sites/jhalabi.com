@@ -8,7 +8,8 @@
   &-intro,
   &-about {
 
-    padding: 4rem;
+    padding-block: 4rem;
+    padding-inline: 2rem;
 
     h2 {
       margin-block-start: 0;
@@ -99,7 +100,7 @@
 
 
   // Latest article section.
-  &-latest {
+  &-articles {
 
     @extend .fixed-width;
 
@@ -107,8 +108,36 @@
       margin-block-start: 0;
     }
 
-    .post-excerpt {
-      margin-block-end: 2rem;
+    ol {
+      counter-reset: link 0;
+      list-style-type: none;
+      margin-inline: 0;
+
+      li {
+        border-bottom: 1px solid var(--black);
+        margin-block: 0;
+        padding-block: 1rem;
+
+        // Increment our counter before we get to the list item element,
+        // so that we know which number the current article is.
+        &::before {
+          counter-increment: link;
+          content: "⟫ " counter(link) ".";
+        }
+      }
+
+      a {
+        --font-size: var(--type-h4);
+        --text-color: var(--black);
+
+        text-decoration: none;
+        transition: all 0.5s ease;
+
+        &:focus,
+        &:hover {
+          box-shadow: inset 0 -0.75rem 0 var(--coral-red-light-25);
+        }
+      }
     }
 
   }

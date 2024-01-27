@@ -7,4 +7,10 @@ code {
   --font-weight: bold;
   --text-color: var(--delft-blue);
 
+
+  // Variation: Highlight block.
+  .highlight & {
+    --text-color: var(--white);
+  }
+
 }

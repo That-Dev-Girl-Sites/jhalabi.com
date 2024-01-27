@@ -49,7 +49,7 @@ In this example, I want to define the following pieces of information:
 
 * __`name`__: The unique machine name of my block, which the post editor will use to identify the block any time it is used. 
 * __`title`__: The human-readable name of my block.
-* __`category`__: The category that my block will be listed under in the [Block Inserter(https://wordpress.org/support/article/blocks/). For this example, I will use the "Text" out-of-the-box category. You can also [create your own custom category](https://gutenberghub.com/how-to-create-custom-block-category/).
+* __`category`__: The category that my block will be listed under in the [Block Inserter](https://wordpress.org/support/article/blocks/). For this example, I will use the "Text" out-of-the-box category. You can also [create your own custom category](https://gutenberghub.com/how-to-create-custom-block-category/).
 * __`description`__: The human-readable description of my block. It is best to keep this short, maybe tweet length.
 * __`attributes`__: The pieces of content that my block needs to save. In this case, I need to save 2 strings, the dictionary word and the definition. The `attributes` item is an object and each piece of content inside is its own object that defines the content's variable type _(e.g. string, integer, boolean)_ and an optional default value.
 
