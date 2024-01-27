@@ -35,7 +35,7 @@ Do you want your carousel babies to look like annoying banner ads? I'm guessing 
 
 ### No one interacts with carousels
 
-From the study, [How effective are interactive carousels on websites in 2018 – The Stats](https://www.cheapwebdesign.co.uk/blog/how-effective-are-interactive-carousels-on-websites-in-2018-the-stats/), via Cheap Web Design, almost no one is clicking on the links inside carousels. This particular study showed that only 1% of users clicked on the feature and, of those users, an overwhelming majority - 84% - clicked on the first slide.
+From the study, [How effective are interactive carousels on websites in 2018 – The Stats](https://www.cheapwebdesign.co.uk/blog/how-effective-are-interactive-carousels-on-websites-in-2018-the-stats/), via Cheap Web Design, almost no one is clicking on the links inside carousels. This particular study showed that only 1% of users clicked on the feature and, of those users, an overwhelming majority (84%) clicked on the first slide.
 
 So, pretty much everyone is ignoring your carousel and those few who noticed it only see the first slide anyway.
 

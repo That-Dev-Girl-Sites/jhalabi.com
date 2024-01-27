@@ -20,6 +20,6 @@ Coding for kids!  I compiled this list for one person and thought… well… thi
 
 * __[Scratch](http://scratch.mit.edu/)__: This is a really cool, graphic way of creating games and animations.  Sort of like Logo (from the 80s, it was the program with the turtle that you could program to move around the screen and draw things), but more fun and modern looking. You can [get started right away](https://scratch.mit.edu/projects/editor/?tutorial=getStarted); there are tips and instructions on the right-hand side of the page, so you can work through the instructions and create something right away.  They have a number of tutorials on the site too.
 
-* __[Code Avengers](https://www.codeavengers.com/jr)__: This site is great for learning web development (HTML and CSS).  The level 1 courses for HTML/CSS and Javascript are both free, but they do charge for the level 2 and 3 courses.
+* __[Code Avengers](https://www.codeavengers.com/jr)__: This site is great for learning web development (HTML and CSS).  The level 1 courses for HTML/CSS and JavaScript are both free, but they do charge for the level 2 and 3 courses.
 
 * __[Kano](https://kano.me/us)__: This is a kit that you can buy that let’s you assemble a (small, simple) computer yourself.  It uses a Raspberry Pi, so you can expand this pretty easily as well if you want.

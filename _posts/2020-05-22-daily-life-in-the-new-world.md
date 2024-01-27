@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Daily Life in the New World"
+title: "Daily life in the new world"
 date: "2020-05-22"
 redirect_from: "/blog/daily-life-in-the-new-world"
 categories:

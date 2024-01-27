@@ -18,7 +18,7 @@ All of that really means that I need to have roughly 523 more appointments and t
 
 ## Genetic screening
 
-Because of my "high risk" status, genetic screening is medically necessary, to test for things like Downs Syndrome and Trisomy 18. There are 2 different tests that I can take - one at 10 weeks that tests for those conditions plus a host of other things and one at 12-14 weeks that tests for those conditions plus looks at an ultrasound of the kiddo.
+Because of my "high risk" status, genetic screening is medically necessary, to test for things like Downs Syndrome and Trisomy 18. There are 2 different tests that I can take: one at 10 weeks that tests for those conditions plus a host of other things and one at 12-14 weeks that tests for those conditions plus looks at an ultrasound of the kiddo.
 
 Fortunately, both are covered by my insurance because of my "advanced maternal age." Age has its perks, kids!
 

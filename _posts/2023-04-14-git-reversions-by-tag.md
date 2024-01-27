@@ -103,7 +103,7 @@ The other commits after that last known good commit have vanished. Well, that's 
 
 Yes and no. The repository's log has permanently changed to remove those newer commits. However, believe it or not, we were smart earlier. 
 
-Remember step 1 above, where we also created those `LatestCommit` and `BuggyCommit` tags? Those tags - and the changes they contain - _still exist_. The magic of tags. I'm still in shock.
+Remember step 1 above, where we also created those `LatestCommit` and `BuggyCommit` tags? Those tags -- and the changes they contain -- _still exist_. The magic of tags. I'm still in shock.
 
 
 ## Retrospective

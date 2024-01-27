@@ -20,6 +20,6 @@ This is the part where I make resolutions for next year, right?
 
 To be honest, I hate resolutions.  I resolve to run more or save more or read more or ride a unicorn across the country. And then do none of these things. And then feel bad when I look back and the end of the year and realize that I did none of these things.
 
-So, no resolutions here! My plan is to be realistic and do things that are useful or joyful.  Shoot - is that a resolution in disguise?
+So, no resolutions here! My plan is to be realistic and do things that are useful or joyful.  Shoot! Is that a resolution in disguise?
 
 Happy new year everyone!

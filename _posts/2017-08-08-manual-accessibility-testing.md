@@ -9,7 +9,7 @@ categories:
 excerpt: Testing your websites to ensure they are fully accessible is a lot of work.
 ---
 
-Testing your websites to ensure they are fully accessible is a lot of work.  There are a bunch of tools out there to help you thoroughly test your sites - [Siteimprove](https://siteimprove.com/) or [Tenon](https://tenon.io/), for example.
+Testing your websites to ensure they are fully accessible is a lot of work.  There are a bunch of tools out there to help you thoroughly test your sites -- [Siteimprove](https://siteimprove.com/) or [Tenon](https://tenon.io/), for example.
 
 These automated tools do an excellent job at catching issues that are straightforward and programmatic.  However, they are not an end-all-be-all solution to accessibility testing.  Your users, regardless of their abilities or needs, are ultimately human beings. Therefore, part of your testing routine needs to involve humans.
 
@@ -49,7 +49,7 @@ Pull up the list of landmarks in your screen reader and test for the following t
 
 Yes, I am asking you to look at code too.  You can do this by viewing source (Ctrl-U) in your browser or by using your browser's developer tools.  Test for the following things in the page's source code:
 
-1. __All content on the page is inside a landmark role__ <br> All means all - header logo, skip links, off-canvas navigation… everything.
+1. __All content on the page is inside a landmark role__ <br> All means all: header logo, skip links, off-canvas navigation… everything.
 2. __Is there any content that should be put into a new landmark?__ <br> There could be some complementary content inside the main content or a header inside a section.
 3. __Landmarks are using the HTML5 semantic tags, not the role attribute__ <br> While the role attribute works, it is better form to use the HTML5 semantic tags for landmarks because it involves less code.
 
@@ -59,4 +59,4 @@ Pull up the list of links in your screen reader and test for the following thing
 
 1. __Links that go to different locations have unique names__ <br> A bunch of links that go to different URLs but all have the same link text confuse users because they cannot tell the difference between these links.  These links must have unique link text or be given unique ARIA labels.
 
-Ok, I know - this is a long list.  But your users with thank you for all of this work.  I promise.
+Ok, I know. This is a long list.  But your users with thank you for all of this work.  I promise.

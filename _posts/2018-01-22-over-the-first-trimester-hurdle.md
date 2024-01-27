@@ -38,6 +38,6 @@ More good news: **Everything is still normal!**
 
 Since I am over 35 _(and especially since I will be 40 when I deliver)_, I now have a high risk doctor. I met him after today's test. He is great and very data-focused _(an attribute I really appreciate)_.
 
-If I thought I was living at my doctor's office before, I will _really_ be living there once I am at 32 weeks. I will need to go back for weekly screenings to check on the kiddo's development. Depending on how she's doing, there is a chance I may be forced to deliver early - even as early as 37 weeks.
+If I thought I was living at my doctor's office before, I will _really_ be living there once I am at 32 weeks. I will need to go back for weekly screenings to check on the kiddo's development. Depending on how she's doing, there is a chance I may be forced to deliver early -- even as early as 37 weeks.
 
 But, so far, so good!

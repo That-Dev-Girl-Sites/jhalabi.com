@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Induction Scheduling"
+title: "Induction scheduling"
 date: "2018-07-19"
 redirect_from: "/blog/induction-scheduling"
 categories:

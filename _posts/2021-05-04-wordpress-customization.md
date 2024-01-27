@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WordPress Customization: Supports and Variations and JSON. Oh my!"
+title: "WordPress customization: Supports and variations and JSON. Oh my!"
 date: "2021-05-04"
 redirect_from: "/blog/wordpress-customization"
 categories:
@@ -135,7 +135,7 @@ Block supports are the powerhouse of block customizations. This feature includes
 
 For new, custom blocks, these options can be declared in the block registration function. For existing (core) blocks, these options can be overwritten for any number of blocks using the `addFilter('blocks.registerBlockType')` function.
 
-For example, let's say that you want to remove the ability to add custom class names to a bunch of blocks. You can use the following Javascript to accomplish this:
+For example, let's say that you want to remove the ability to add custom class names to a bunch of blocks. You can use the following JavaScript to accomplish this:
 
 ```javascript
 const noClassNames = [

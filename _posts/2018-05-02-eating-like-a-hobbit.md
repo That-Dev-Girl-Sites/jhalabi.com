@@ -10,7 +10,7 @@ tags:
 excerpt: A hobbit's eating scheduleis also the perfect eating schedule for a pregnant woman.
 ---
 
-It has occurred to me over the last several weeks (months) that a [hobbit's eating schedule](https://scifi.stackexchange.com/questions/105209/what-are-hobbits-daily-eating-schedules) is also the perfect eating schedule for a pregnant woman - or at least _this_ pregnant woman. Allow me to demonstrate.
+It has occurred to me over the last several weeks (months) that a [hobbit's eating schedule](https://scifi.stackexchange.com/questions/105209/what-are-hobbits-daily-eating-schedules) is also the perfect eating schedule for a pregnant woman, or at least _this_ pregnant woman. Allow me to demonstrate.
 
 * **Breakfast:** Around 6am. This tends to be something like a small muffin or bagel.
 * **Second breakfast:** Around 9am. This is usually eggs or yogurt... or sometimes both.

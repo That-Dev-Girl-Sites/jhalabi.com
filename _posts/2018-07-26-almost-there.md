@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Almost There"
+title: "Almost there"
 date: "2018-07-26"
 redirect_from: "/blog/almost-there"
 categories:

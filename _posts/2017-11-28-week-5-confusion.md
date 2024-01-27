@@ -10,7 +10,7 @@ tags:
 excerpt: I started a new bottle of progesterone today.
 ---
 
-I started a new bottle of progesterone today. For those of you just tuning in, that's the one that I stick up my vagina twice a day. It makes me bleed for about an hour each time - only a little and that is apparently OK. Maybe.
+I started a new bottle of progesterone today. For those of you just tuning in, that's the one that I stick up my vagina twice a day. It makes me bleed for about an hour each time -- only a little and that is apparently OK. Maybe.
 
 I mention this new bottle because today is my first day on progesterone where I did not bleed. I will spare you all what actually happened, but after speaking with my nurse, the "new thing" that happened is apparently normal and expected. Then I told her about the bleeding from before.
 

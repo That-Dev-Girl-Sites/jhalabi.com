@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pregnancy vs. Postpartum"
+title: "Pregnancy vs. postpartum"
 date: "2018-08-07 23:54:00"
 redirect_from: "/blog/pregnancy-vs-postpartum"
 categories:

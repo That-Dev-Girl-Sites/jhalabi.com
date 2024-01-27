@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Work/Life Balance?"
+title: "Work/life balance?"
 date: "2022-07-29"
 redirect_from: "/blog/work-life-balance"
 categories:

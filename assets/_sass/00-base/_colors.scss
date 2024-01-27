@@ -63,13 +63,17 @@ $wine:            #6a2e35;
   --silver-light-10:           #{lighten( $silver, 10% )};
   --silver-light-15:           #{lighten( $silver, 15% )};
 
+  --battleship-gray-light-10:  #{lighten( $battleship-gray, 10% )};
   --battleship-gray-light-30:  #{lighten( $battleship-gray, 30% )};
   --battleship-gray-light-35:  #{lighten( $battleship-gray, 35% )};
 
   --coral-red-dark-20:         #{darken( $coral-red, 20% )};
+  --coral-red-light-10:        #{lighten( $coral-red, 10% )};
   --coral-red-light-25:        #{lighten( $coral-red, 25% )};
 
+  --delft-blue: #{lighten( $delft-blue, 20% )};
 
+  
 
   /* ***
    * Category colors.

@@ -1,0 +1,116 @@
+/**
+ * Pages: Home
+ */
+
+.home {
+
+  // Introduction and more about me sections.
+  &-intro,
+  &-about {
+
+    padding: 4rem;
+
+    h2 {
+      margin-block-start: 0;
+    }
+
+    // Content should not exceed the mad-width.
+    div {
+      max-width: $max-width;
+    }
+
+    @media screen and ( max-width: $screen-md ) {
+      img {
+        display: block;
+        margin-inline: auto;
+        max-height: 400px;
+        max-width: 90%;
+      }
+    }
+
+    @media screen and ( min-width: $screen-md ) {
+      display: grid;
+      gap: 4rem;
+      grid-template-columns: 1fr 2fr;
+    }
+
+  }
+
+
+  // Just the more about me section.
+  &-about {
+
+    background-color: var(--battleship-gray-light-10);
+
+  }
+
+
+  // Book section.
+  &-book {
+
+    --text-color: var(--white);
+
+    background-color: var(--cat-writing);
+    padding-block: 2rem;
+    padding-inline: 4rem;
+
+    @media screen and ( min-width: $screen-md ) {
+      display: grid;
+      gap: 4rem;
+      grid-template-columns: 2fr 1fr;
+    }
+
+    h2 {
+      margin-block-start: 1rem;
+    }
+
+    a {
+      --text-color: var(--silver);
+    }
+
+    img {
+      box-shadow: 2px 1px 0 var(--black);
+    }
+
+    &-buttons p {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat( auto-fit, minmax( 10rem, max-content));
+
+      a {
+        border: 1px solid var(--white);
+        display: inline-block;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s ease;
+
+        &:focus,
+        &:hover {
+          --text-color: var(--black);
+
+          background-color: var(--coral-red-light-10);
+          border-color: var(--coral-red-light-10);
+        }
+      }
+    }
+
+  }
+
+
+  // Latest article section.
+  &-latest {
+
+    @extend .fixed-width;
+
+    h2 {
+      margin-block-start: 0;
+    }
+
+    .post-excerpt {
+      margin-block-end: 2rem;
+    }
+
+  }
+
+}

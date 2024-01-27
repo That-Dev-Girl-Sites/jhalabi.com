@@ -8,11 +8,11 @@ categories:
 excerpt: In the UI world, it is a good idea to let the users know about any constraints they have on any form fields. 
 ---
 
-In the UI world, it is a good idea to let the users know about any constraints they have on any form fields.  We all know this.  There are a million ways to do this – through error messages, help text, and so on.  For character limits on input fields, the best way to avoid a user error is to limit the number of characters the user can physically type in the field.
+In the UI world, it is a good idea to let the users know about any constraints they have on any form fields.  We all know this.  There are a million ways to do this –- through error messages, help text, and so on.  For character limits on input fields, the best way to avoid a user error is to limit the number of characters the user can physically type in the field.
 
 This is super easy for input boxes.  Simply add the _maxlength_ attribute to the input HTML filed and _voila_!
 
-However, text area fields are a bit trickier.  Character limits are not built into text area fields just yet as they are with input fields, so it is necessary to have a Javascript implementation if you need to limit the text prior to submitting a form.
+However, text area fields are a bit trickier.  Character limits are not built into text area fields just yet as they are with input fields, so it is necessary to have a JavaScript implementation if you need to limit the text prior to submitting a form.
 
 So… I decided to write one.  I sort of ran away with this example, mostly because there are so many things to consider from a user perspective.  If someone is entering in a longer piece of text – for example, an e-mail to a customer service department or a review on a product – is it really better to just cut them off from entering more text before they have finished their thought?  True, the user will not be able to submit the form until their giant essay has been tamed to fit within the character constraints.  From a programmatic perspective, it is better to simply cut the user off.  This ensures a successful form submission.
 
@@ -28,9 +28,9 @@ First, I created a very simple page with 3 elements:
 2. A message letting the user know how many characters they have typed and how many characters they are allowed.
 3. A check box to determine whether or not the text box will allow the user to continue to enter text once they have reached the character limit.
 
-## Step 2: Write the Javascript.
+## Step 2: Write the JavaScript.
 
-The Javascript part of this POC contains 3 major functions:
+The JavaScript part of this POC contains 3 major functions:
 
 ### Function to update the text area alert
 

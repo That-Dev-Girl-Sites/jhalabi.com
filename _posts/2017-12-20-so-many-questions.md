@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "So. Many. Questions."
+title: "So many questions"
 date: "2017-12-20 14:46:00"
 redirect_from: "/blog/so-many-questions"
 categories:

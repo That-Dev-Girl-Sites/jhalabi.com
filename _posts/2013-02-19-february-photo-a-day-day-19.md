@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "February Photo a Day #19"
+title: "February photo a day #19"
 date: "2013-02-19"
 redirect_from: "/blog/february-photo-a-day-day-19"
 categories:

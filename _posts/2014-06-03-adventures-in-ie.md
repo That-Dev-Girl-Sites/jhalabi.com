@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adventures in IE: A story of Javascript dependencies"
+title: "Adventures in IE: A story of JavaScript dependencies"
 date: "2014-06-03"
 redirect_from: "/blog/adventures-in-ie"
 categories:

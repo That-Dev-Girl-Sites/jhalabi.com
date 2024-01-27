@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Writing a Custom WordPress Block"
+title: "Writing a custom WordPress block"
 date: "2022-09-27"
 redirect_from: "/blog/writing-custom-wp-block"
 categories:
@@ -18,7 +18,7 @@ It recently occurred to me that I have yet to write up a complete post about how
 
 Hot take: I am a big advocate of dynamic blocks. As an overview, a __dynamic block__ is a block whose front-end markup is generated via the WordPress PHP backend, as the page is called. In contrast, a __static block__ is a block whose markup is saved directly to the database. 
 
-There are definite advantages and disadvantages to both. TL;DR - I am a big fan of the dynamic approach because I often receive requests to edit blocks after they are used on live sites. Editing a static block requires writing a deprecation for the block's previous version. My personal goal is to include as few deprecations as possible in my blocks.
+There are definite advantages and disadvantages to both. TL;DR: I am a big fan of the dynamic approach because I often receive requests to edit blocks after they are used on live sites. Editing a static block requires writing a deprecation for the block's previous version. My personal goal is to include as few deprecations as possible in my blocks.
 
 
 ## Objective

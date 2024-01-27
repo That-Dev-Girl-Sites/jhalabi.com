@@ -43,7 +43,7 @@ I thought the issue was with the ordering of the elements inside the carousel. I
 
 ## Solution, take 2.
 
-I then disabled Javascript on the page. The carousel HTML looked and acted completely fine. This was because we styled the slides to display as individual cards for non-Javascript users. I was able to tab from card to card with my keyboard. Aha! The issue is obviously in the Javascript.
+I then disabled JavaScript on the page. The carousel HTML looked and acted completely fine. This was because we styled the slides to display as individual cards for non-JavaScript users. I was able to tab from card to card with my keyboard. Aha! The issue is obviously in the JavaScript.
 
 ## Solution, take 3.
 

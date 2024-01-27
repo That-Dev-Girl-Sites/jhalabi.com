@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pre postpartum thoughts"
+title: "Pre-postpartum thoughts"
 date: "2018-07-05"
 redirect_from: "/blog/pre-postpartum-thoughts"
 categories:
@@ -38,4 +38,4 @@ I am starting to get really excited for the kiddo's arrival. Every day, it feels
 
 I mean... she has a face! A real human face!
 
-But seriously, this photo made her more real to me than anything - including all the kicking. I can't wait to meet her in real 3D.
+But seriously, this photo made her more real to me than anything, including all the kicking. I can't wait to meet her in real 3D.

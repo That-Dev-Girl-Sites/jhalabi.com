@@ -34,7 +34,7 @@ Obviously, not all of these are 100% relevant to my exact topic of what is basic
 
 ## Let's get organized!
 
-I created - _say it with me_ - a spreadsheet![^2] I only have 31 books in my list, but this spreadsheet has helped me gather some interesting information about these books so far, even without actually reading most of them just yet. 
+I created -- _say it with me_ -- a spreadsheet![^2] I only have 31 books in my list, but this spreadsheet has helped me gather some interesting information about these books so far, even without actually reading most of them just yet. 
 
 In this spreadsheet, I am recording the book title, author, illustrator, publisher, publication date, and my own random thoughts about the book.
 

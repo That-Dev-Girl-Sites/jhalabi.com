@@ -8,7 +8,7 @@ categories:
 excerpt: I have spent a large part of this year working in a system called Hybris, which is a Java-based e-commerce platform.
 ---
 
-I have spent a large part of this year working in a system called Hybris, which is a Java-based e-commerce platform.  The Hybris back-end seems to be very robust and includes a decent amount of documentation.  The Hybris front-end also seems to be very robust - but it is not the most user-friendly thing on the planet and includes very little documentation.
+I have spent a large part of this year working in a system called Hybris, which is a Java-based e-commerce platform.  The Hybris back-end seems to be very robust and includes a decent amount of documentation.  The Hybris front-end also seems to be very robust, but it is not the most user-friendly thing on the planet and includes very little documentation.
 
 This made me sad.  To be fair, the folks at Hybris are seriously stepping up and working more on the front-end UI and documentation, but, for right now, we are not quite there yet.
 
@@ -16,4 +16,4 @@ One of the big features of Hybris is its use of IMPEX files to add content slots
 
 Clearly, this is a very powerful part of a UX developer's experience in Hybris.  Sadly, it is not very well documented _(at least, as of right now)_.  So, I wrote documentation.  It is linked below in PDF form _(because it is 10+ pages long)_.  Having these notes have helped me learn more about how to deal with IMPEX files and Hybris.  My hope is that it will help other UX developers too.  Enjoy _(and good luck)_!
 
-__Documentation:__ [Hybris - Create components via IMPEX files](/blog/docs/Hybris-Create-components-via-IMPEX-files.pdf)
+__Documentation:__ [Hybris: Create components via IMPEX files](/blog/docs/Hybris-Create-components-via-IMPEX-files.pdf)

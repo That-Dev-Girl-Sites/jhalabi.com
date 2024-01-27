@@ -2,6 +2,15 @@
  * Components: Footnotes
  */
 
+// Individual footnote.
+a.footnote {
+
+  margin-inline-start: 0.25rem;
+
+}
+
+
+// Footnotes section.
 .footnotes {
 
   border-block-start: 1px solid var(--black);

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About This Tech Girl"
+title: "About this tech girl"
 date: "2015-04-22"
 redirect_from: "/blog/about-this-tech-girl"
 categories:
@@ -18,7 +18,7 @@ And it _is_ OK to be girly and be techie... as long as that is who you actually
 
 ## My Un-Style
 
-My style is really not.  I have (many, many) days I just want to wear yoga pants and and a tank top and call it good.  If it weren't for corporate dress codes, that outfit would happen way more often.  I also wear - and even (mostly) like - dresses.  But on those days, I also make jokes about how I'm not wearing any pants.
+My style is really not.  I have (many, many) days I just want to wear yoga pants and and a tank top and call it good.  If it weren't for corporate dress codes, that outfit would happen way more often.  I also wear, and even (mostly) like, dresses.  But on those days, I also make jokes about how I'm not wearing any pants.
 
 I don't like spending that much time getting ready in the morning because, frankly, I have better things to do.  I don't wear makeup and my hair is always in a ponytail because it is easy.  And while I wear dresses, anyone will tell you that I will happily sit on the floor in that dress as long as I'm pretty sure I won't flash someone.
 
@@ -36,6 +36,6 @@ I have pretty much constructed my life and career around what feels right.  Yes
 
 ## So... who am I?
 
-I am a woman.  I am a professional geek.  I am girly and not girly at the same time.  I am who I am - quirks and all - and I own every quirk that I have.  And every other geek/nerd/techie/whatever - female or not - should do the same.
+I am a woman.  I am a professional geek.  I am girly and not girly at the same time.  I am who I am, quirks and all, and I own every quirk that I have.  And every other geek/nerd/techie/whatever -- female or not -- should do the same.
 
 _Cross-posted on Medium @ (https://medium.com/@jonihalabi/about-this-tech-girl-ae941e9ffd91)_

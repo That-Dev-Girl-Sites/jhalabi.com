@@ -18,7 +18,7 @@ Over the last 10 weeks, I noticed that I have become a stronger developer.  I co
 
 2. __I strengthened my core.__  Teaching a beginner programming class means that I have to start explaining code from the very beginning.  _What is a program?  What is the difference between HTML and CSS?_  I have had conversations about parts of programming that I have taken for granted for years.  Being able to articulate programming concepts, like what a variable really is or why jQuery needs so darn much punctuation, has made me more conscientious about the code I write.
 
-3. __I actually write pseudo-code.__ Nine times out of ten, I write code in my head before I actually type it out.  Sometimes I think in code.  Call me weird, but it works and, sometimes, it is faster for me.  YMMV.  The issue comes when I have to comment my code.  _What is this line actually doing?  Why do I have that conditional there?_  I taught my class to write pseudo-code in their Javascript files as comments before they started writing real code.  I now practice what I preach and – voila! – instant comments.
+3. __I actually write pseudo-code.__ Nine times out of ten, I write code in my head before I actually type it out.  Sometimes I think in code.  Call me weird, but it works and, sometimes, it is faster for me.  YMMV.  The issue comes when I have to comment my code.  _What is this line actually doing?  Why do I have that conditional there?_  I taught my class to write pseudo-code in their JavaScript files as comments before they started writing real code.  I now practice what I preach and – voila! – instant comments.
 
 4. __I am now the queen of analogies.__  Explaining complicated, or even simple, coding concepts to people who have never written code before is definitely an art.  It helps to associate new concepts with mental models that people are already familiar with.  It is like explaining the concept of a site wireframe in terms of writing an outline for your high school term paper.  We all had to write term papers – a site wireframe is the boxy-looking, graphical equivalent of our term paper outlines for websites.  I improv analogies a lot in class, especially when see a sea of blank, confused stares after explaining something like a for-loop.
 
@@ -26,4 +26,4 @@ I am sure I have changed in other ways too, like my now-willingness to talk abou
 
 ---
 
-_Speaking of “this”, using the word “this” as a pronoun when you are giving a lecture on the Javascript keyword “this” is both hilarious and frustrating._
+_Speaking of “this”, using the word “this” as a pronoun when you are giving a lecture on the JavaScript keyword “this” is both hilarious and frustrating._

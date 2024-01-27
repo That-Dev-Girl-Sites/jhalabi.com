@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "To Email or Not To Email"
+title: "To e-mail or not to e-mail"
 date: "2022-07-09"
 redirect_from: "/blog/to-email-or-not-to-email"
 categories:

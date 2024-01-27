@@ -42,7 +42,7 @@ As I mentioned above, content needs to be organized based on level of importance
 
 ## Files for mobile sites need to be smaller.
 
-Minify the CSS and Javascript files.  Optimize the HTML.  And please, oh please, do not load giant full sized images.  While you may have a beautiful, hi-res version of a feature photo, mobile users do not care.  Shrink the image down and load a mobile-friendly image via a CSS media query.
+Minify the CSS and JavaScript files.  Optimize the HTML.  And please, oh please, do not load giant full sized images.  While you may have a beautiful, hi-res version of a feature photo, mobile users do not care.  Shrink the image down and load a mobile-friendly image via a CSS media query.
 
 ## Input fields are not created equal.
 

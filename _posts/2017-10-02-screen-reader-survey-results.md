@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Screen Reader Survey Results"
+title: "Screen reader survey results"
 date: "2017-10-02"
 redirect_from: "/blog/screen-reader-survey-results"
 categories:

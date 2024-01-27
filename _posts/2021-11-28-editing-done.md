@@ -29,7 +29,7 @@ First came the research to compare traditional publishing with self-publishing. 
 
 Self-publishing it is! I researched and subsequently spoke with two different self-publishing companies. Both were completely supportive and loved the manuscript, even in it's first-draft form. One even told me that I should publish the book, even if I do not publish it with them. That comment was almost better than a hug.
 
-These self-publishing companies basically guide authors through all of the different steps towards publishing a book - editing, proofreading, illustration, book design, printing, and even warehousing and marketing. Amazing, especially for a first-time author who knows _nothing_.
+These self-publishing companies basically guide authors through all of the different steps towards publishing a book: editing, proofreading, illustration, book design, printing, and even warehousing and marketing. Amazing, especially for a first-time author who knows _nothing_.
 
 Also, _super_ expensive. Prohibitively so, at least for my comfort level.
 
@@ -39,7 +39,7 @@ This step basically involved doing comprehensive research on each step of the pu
 
 To be honest, I am still in this step.
 
-So far, I have a good handle on the logistics of the editing process _(more on that in a bit)_, an OK handle on the illustration and book design process, and a giant pile of "figure out this at some point" tasks that pertain to marketing. _(Starting this series of blog posts is part of that - hi!)_
+So far, I have a good handle on the logistics of the editing process _(more on that in a bit)_, an OK handle on the illustration and book design process, and a giant pile of "figure out this at some point" tasks that pertain to marketing. _(Starting this series of blog posts is part of that -- hi!)_
 
 ### Step 3: Actually editing
 
@@ -57,13 +57,13 @@ I put the book down for a few weeks, picked it back up, made some edits, then po
 
 However, instead of talking about my problem to the rubber ducky, I decided to sing to my rubber ducky. I made up a tune and sang each book verse to that same tune.[^5] If I had a hard time fitting the words to the tune, then I would know where my rhythm issues are.
 
-Wow, did I find issues that way! Where the rhythm worked - and where it didn't - became glaringly obvious. I rewrote about half the book after that exercise and, I think, came out with a much stronger book. In my truly unexperienced opinion, I highly recommend trying this if you're stuck, even if you make up a Gregorian chant for your verses.[^6]
+Wow, did I find issues that way! Where the rhythm worked (and where it didn't) became glaringly obvious. I rewrote about half the book after that exercise and, I think, came out with a much stronger book. In my truly unexperienced opinion, I highly recommend trying this if you're stuck, even if you make up a Gregorian chant for your verses.[^6]
 
 ## Current status
 
 After several _more_ rounds of editing after that, I think I'm done? I mean, I feel like if I continue to edit, I will never be done, which is the classic issue of trying to write an app and waiting to ship it until it is perfect. If you keep tweaking it and tweaking it until you decide it is perfect, you will never actually ship it. Or, at the very least, you will ship it much, much later than you really want to.
 
-So, that's where I am now. I feel like the text is done - or at least done enough. I will likely go through one more round to have someone proofread it, but then I am putting this down to start the illustration process.
+So, that's where I am now. I feel like the text is done, or at least done enough. I will likely go through one more round to have someone proofread it, but then I am putting this down to start the illustration process.
 
 Stay tuned for my next post, where I talk about using spreadsheets to search for the perfect illustrator! _(If you think I'm kidding, just wait.)_
 
@@ -71,7 +71,7 @@ Stay tuned for my next post, where I talk about using spreadsheets to search for
 
 [^1]: __Pseudocode__ is computer-speak for when you write out what you want your function to do before you actually write your computer code.
 [^2]: It occurs to me that, for the first time possibly ever, my blog will be read by non-technical people. If you have been to literally any other part of my website, you have probably realized that I am a professional nerd. So, welcome non-computer people! I can't promise that I will not make comparisons between book writing and programming, but I can promise that I will try to explain any nerdisms here.
-[^3]: Punctuation is ridiculously important in most programming languages - more important than you'd think. This is not true for all of them, but it is in the ones I tend to write in.
+[^3]: Punctuation is ridiculously important in most programming languages -- more important than you'd think. This is not true for all of them, but it is in the ones I tend to write in.
 [^4]: The "rubber ducky method" is a strategy that programmers use to solve problems, where we talk to a rubber ducky. Yes, really. We tell a rubber ducky our problem and, in the course of actually verbalizing the problem, we start talking out a solution. It really does work.
 [^5]: No, I will not sing it for you. It is truly terrible. Just don't ask.
 [^6]: [Gregorian chant example](https://www.youtube.com/watch?v=WhP4DS2WURU)

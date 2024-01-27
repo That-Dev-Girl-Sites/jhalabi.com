@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Published."
+title: "Published"
 date: "2022-08-19"
 redirect_from: "/blog/published"
 categories:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Case of the Disappearing Gutenberg"
+title: "The case of the disappearing Gutenberg"
 date: "2020-06-20"
 redirect_from: "/blog/disappearing-gutenberg"
 categories:
