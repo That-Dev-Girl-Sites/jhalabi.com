@@ -7,7 +7,7 @@ title: Home
 
 <div markdown="1">
 
-![Joni, a white woman with dark curly hair and classes, is sitting with her back to a desk. On the desk is an open laptop. The screen shows blurred out computer code.](/assets/images/head-shot-joni-halabi.jpg)
+![Joni, a white woman with dark curly hair and glasses, is sitting with her back to a desk. On the desk is an open laptop. The screen shows blurred out computer code.](/assets/images/head-shot-joni-halabi.jpg)
 
 </div>
 
