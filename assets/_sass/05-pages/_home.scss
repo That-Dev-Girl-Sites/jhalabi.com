@@ -3,11 +3,9 @@
  */
 
 .home {
-
   // Introduction and more about me sections.
   &-intro,
   &-about {
-
     padding-block: 4rem;
     padding-inline: 2rem;
 
@@ -34,21 +32,17 @@
       gap: 4rem;
       grid-template-columns: 1fr 2fr;
     }
-
   }
 
 
   // Just the more about me section.
   &-about {
-
     background-color: var(--battleship-gray-light-10);
-
   }
 
 
   // Book section.
   &-book {
-
     --text-color: var(--white);
 
     background-color: var(--cat-writing);
@@ -95,13 +89,11 @@
         }
       }
     }
-
   }
 
 
   // Latest article section.
   &-articles {
-
     @extend .fixed-width;
 
     h2 {
@@ -139,7 +131,5 @@
         }
       }
     }
-
   }
-
 }

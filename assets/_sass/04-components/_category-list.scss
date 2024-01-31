@@ -3,13 +3,14 @@
  */
 
 .category-list {
-
   padding-inline-start: 2rem;
+
 
   // Only larger screens get the border.
   @media screen and ( min-width: $screen-md ) {
     border-inline-start: 1px solid var(--battleship-gray-light-30);
   }
+
 
   // The (`div`) container is required in order to make the category list
   // sticky.
@@ -18,6 +19,7 @@
     top: 1.5rem;
   }
   
+
   // Labels.
   p {
     --font-size: var(--type-h4);
@@ -25,9 +27,9 @@
     margin-block-end: 1rem;
   }
 
+
   // The category list.
   .categories {
-
     list-style-type: none;
     margin-block-end: 4rem;
     margin-inline-start: 0;
@@ -41,7 +43,5 @@
         &::after  { content: ']'; }
       }
     }
-
   }
-
 }

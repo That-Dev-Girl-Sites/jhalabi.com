@@ -3,9 +3,7 @@
  */
 
 .site-header {
-
   @extend .fixed-width;
 
-  border-bottom: 2px solid var( --black );
-
+  border-bottom: 2px solid var(--black);
 }

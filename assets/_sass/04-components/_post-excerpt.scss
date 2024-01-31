@@ -5,15 +5,16 @@
  */
 
 .post-excerpt {
-
   border-block-start: 1px solid var(--black);
   margin-block-end: 6rem;
   padding-block-start: 1rem;
+
 
   // Categories.
   .categories {
     margin-block-end: 0.5rem;
   }
+
 
   // Date.
   p {
@@ -21,6 +22,7 @@
 
     margin-block-end: 0;
   }
+
 
   // Title.
   h3 {
@@ -63,5 +65,4 @@
       }
     }
   }
-
 }

@@ -3,7 +3,7 @@ layout: default
 title: Speaking
 ---
 
-<section markdown="1" class="speaking-intro">
+<section markdown="1" class="speaking-intro" aria-label="Introduction">
 
 I love sharing my work in web technology, accessibility, and general development practices with audiences big and small. I have been speaking at conferences, meetups, and classrooms since 2015. Below is a list of my past and upcoming talks.
 

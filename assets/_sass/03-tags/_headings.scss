@@ -3,7 +3,7 @@
  */
 
 h1 {
-  --font-size: var( --type-h1 );
+  --font-size: var(--type-h1);
   --line-height: 1.2;
 
   margin-block-end: 1rem;
@@ -11,7 +11,7 @@ h1 {
 
 
 h2 {
-  --font-size: var( --type-h2 );
+  --font-size: var(--type-h2);
   --line-height: 1.5;
 
   margin-block-end: 2rem;
@@ -20,15 +20,15 @@ h2 {
 
 
 h3 {
-  --text-color: var( --dark-purple );
-  --font-size: var( --type-h3 );
+  --text-color: var(--dark-purple);
+  --font-size: var(--type-h3);
+  --font-weight: bold;
 
-  font-weight: bold;
   margin-block-end: 1rem;
   margin-block-start: 2rem;
 }
 
 
 h4 {
-  --font-size: var( --type-h4 );
+  --font-size: var(--type-h4);
 }

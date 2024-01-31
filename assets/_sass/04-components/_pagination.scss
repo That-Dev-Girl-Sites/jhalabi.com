@@ -3,12 +3,13 @@
  */
 
 .pagination {
-
   margin-block-start: 4rem;
+
 
   // Label.
   p {
-    font-weight: bold;
+    --font-weight: bold;
+
     margin-block-end: 0.5rem;
   }
 
@@ -73,5 +74,4 @@
   &-inactive {
     --text-color: var(--battleship-gray);
   }
-
 }

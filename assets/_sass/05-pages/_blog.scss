@@ -5,7 +5,6 @@
  */
 
 .blog {
-
   @extend .fixed-width;
 
   @media screen and ( min-width: $screen-md ) {
@@ -14,7 +13,6 @@
   
 
   &-list {
-   
     margin-block-start: 4rem;
 
     @media screen and ( min-width: $screen-md ) {
@@ -22,16 +20,13 @@
       gap: 8rem;
       grid-template-columns: minmax(300px, 1fr) 22rem;
     }
-
   }
 
 
   /* **
    * Variation: Pregnancy category page.
    */
-
   &-pregnancy {
-
     ol {
       list-style-type: none;
       margin-inline-start: 0;
@@ -39,7 +34,6 @@
 
     // Each item (tag).
     &-tag {
-
       a {
         --background-color: var(--cat-pregnancy);
         --font-size: var(--type-h4);
@@ -72,7 +66,6 @@
           --text-color: var(--black);
         }
       }
-    
     }
 
     // Make sure all elements align with each other.
@@ -81,5 +74,4 @@
       padding-inline: 1rem;
     }
   }
-
 }

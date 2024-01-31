@@ -5,11 +5,10 @@
  */
 
 .tagline {
+  --font-size: var(--type-small);
+  --line-height: 1;
+  --text-color: var(--black-light-20);
 
-  --font-size:  var( --type-small );
-  --text-color: var( --black-light-20 );
-
-  line-height: 1;
   margin-block-end: 1rem;
   text-align: center;
 
@@ -19,12 +18,11 @@
     // Add square brackets around the tagline.
     &::before,
     &::after {
-      --font-size:  var( --type-p );
+      --font-size:  var(--type-p);
       --line-height: 1;
     }
 
     &::before { content: '['; }
     &::after  { content: ']'; }
   }
-
 }

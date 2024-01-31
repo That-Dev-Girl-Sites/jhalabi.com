@@ -3,11 +3,16 @@ layout: default
 title: Contact
 ---
 
+<section markdown="1" class="contact-intro" aria-label="Introduction">
+
 I love hearing from people and talking tech. However — to put it bluntly — I have a very active kid. And a full time gig. And a kid (who has attained "big girl" status). And a [book](/book) that I'm promoting. Did I mention my big girl?
 
 Regardless, please don't let this scare you off from sending me a message. Replies might just take a bit longer than expected. Let's chat!
 
-{:.contact-options}
+</section>
+
+<section markdown="1" class="contact-methods" aria-label="Contact methods">
+
 {:.icon .icon-envelope} <span class="sr-only">E-mail</span>
 : [joni@jhalabi.com](mailto:joni@jhalabi.com)
 
@@ -25,3 +30,5 @@ Regardless, please don't let this scare you off from sending me a message. Repli
 
 {:.icon .icon-linkedin} <span class="sr-only">LinkedIn</span>
 : [linkedin.com/in/jonihalabi](https://www.linkedin.com/in/jonihalabi/)
+
+</section>

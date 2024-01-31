@@ -3,7 +3,6 @@
  */
 
 code {
-
   --font-weight: bold;
   --text-color: var(--delft-blue-light-20);
 
@@ -12,5 +11,4 @@ code {
   .highlight & {
     --text-color: var(--white);
   }
-
 }

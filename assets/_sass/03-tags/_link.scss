@@ -3,7 +3,6 @@
  */
 
 a {
-
   --font-family: inherit;
   --font-size: inherit;
   --text-color: var( --coral-red-dark-20 );
@@ -13,11 +12,9 @@ a {
     text-decoration: none;
   }
 
-
   
   // Variation: Button
   &.button {
-
     --text-color: var(--white);
 
     background-color: var(--coral-red-dark-5);
@@ -34,7 +31,5 @@ a {
 
       background-color: var(--white);
     }
-
   }
-
 }

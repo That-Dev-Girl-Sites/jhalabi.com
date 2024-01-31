@@ -5,7 +5,6 @@
  */
 
 .nav-primary {
-
   margin-block-start: 0.5rem;
   text-align: center;
 
@@ -20,7 +19,7 @@
   }
 
   li {
-    --font-size: var( --type-small );
+    --font-size: var(--type-small);
 
     display: inline-block;
     list-style: none;
@@ -33,13 +32,13 @@
   }
 
   a {
-    --text-color: var( --coral-red-dark-20 );
+    --text-color: var(--coral-red-dark-20);
   }
 
 
   // Current navigation item.
   .current {
-    font-weight: bold;
+    --font-weight: bold;
 
     &::before { content: '[ '; }
     &::after  { content: ' ]'; }
@@ -51,5 +50,4 @@
       text-decoration: none;
     }
   }
-
 }

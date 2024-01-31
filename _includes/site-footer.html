@@ -1,46 +1,53 @@
-  <footer>
+<footer>
 
-    <div class="footer-code">
+  <div class="footer-top">
+
+    <div class="footer-top-code">
       <p>const me = {</p>
       <dl>
         <dt>name:</dt>
         <dd>'Joni Halabi',</dd>
         <dt>description:</dt>
-        <dd>'Developer / Author / Speaker',</dd>
-        <dt>blog_rss:</dt>
-        <dd>'<a href="/feed.xml">/feed.xml</a>',</dd>
-        <dt>status:</dt>
-        <dd>'Coding, writing, and playing with my kiddo keep me pretty busy, but <a href="/contact/">OK for chatting</a>'</dd>
-        <dt>socials:</dt>
-        <dd>[
-          <a href="https://twitter.com/jonihalabi"         class="footer-code-social ri-twitter-x-line"> Twitter</a>,
-          <a href="https://higheredweb.social/@jonihalabi" class="footer-code-social ri-mastodon-fill" rel="me"> Mastodon</a>,
-          <a href="https://www.instagram.com/jonihalabi/"  class="footer-code-social ri-instagram-line"> Instagram</a>
-        ],</dd>
+        <dd>'Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.'</dd>
       </dl>
       <p>};</p>
     </div>
 
-    <div class="footer-copyright">
-      <div>
-        <p>
-          Copyright &copy; {{ 'now' | date: '%Y' }} Joni Halabi.
+    <div class="footer-top-socials">
+      <p>Follow me</p>
 
-          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
-          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
-          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
-          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
-          <span id="day-4">It's Thursday. Almost there!</span>
-          <span id="day-5">Happy Friday. We made it!</span>
-          <span id="day-6">It's the weekend. Hooray!</span>
-        </p>
-      </div>
+      <ul>
+        <li><a href="/feed.xml">Blog feed</a></li>
+        <li><a href="https://twitter.com/jonihalabi"> Twitter</a></li>
+        <li><a href="https://higheredweb.social/@jonihalabi" rel="me"> Mastodon</a></li>
+        <li><a href="https://www.instagram.com/jonihalabi/"> Instagram</a></li>
+      </ul>
     </div>
-  </footer>
 
-  <script>
-    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
-  </script>
+  </div>
+
+
+
+  <div class="footer-copyright">
+    <div>
+      <p>
+        Copyright &copy; {{ 'now' | date: '%Y' }} Joni Halabi.
+
+        <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+        <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+        <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+        <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+        <span id="day-4">It's Thursday. Almost there!</span>
+        <span id="day-5">Happy Friday. We made it!</span>
+        <span id="day-6">It's the weekend. Hooray!</span>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+</script>
 
 </body>
 </html>

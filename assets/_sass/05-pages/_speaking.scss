@@ -3,27 +3,20 @@
  */
 
 .speaking {
-
   // Introduction section.
   &-intro {
-
-      @extend .fixed-width;
-
-      padding-block: 2rem;
-
+    @extend .fixed-width;
   }
 
 
   // Upcoming events section.
   &-upcoming {
-
     --text-color: var(--white);
 
     background-color: $dark-purple;
 
     // Outer-most container.
     & > div {
-
       @extend .fixed-width;
 
       @media screen and (min-width: $screen-md) {
@@ -41,13 +34,11 @@
         margin-block-end: 0;
       }
     }
-
   }
 
 
   // Past events section.
   &-past {
-
     @extend .fixed-width;
     padding-inline-end: 4rem;
 
@@ -91,8 +82,9 @@
 
       // Numbering before.
       &:before {
+        --text-color: var(--white);
+
         background-color: var(--coral-red-dark-20);
-        color: var(--white);
         content: counter(events);
         counter-increment: events -1;
         padding: 0.35rem;
@@ -100,7 +92,5 @@
         top: 0.2rem;
       }
     }
-
   }
-
 }
