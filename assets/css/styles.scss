@@ -40,10 +40,15 @@
 @import '04-components/post-excerpt';
 
 
-// Pages
+// Pages -- default template first
+@import '05-pages/default';
+
+
+// Pages -- the rest
 @import '05-pages/blog';
 @import '05-pages/home';
 @import '05-pages/post';
+@import '05-pages/speaking';
 
 
 // Imported styles for code highlighting.

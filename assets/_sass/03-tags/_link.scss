@@ -13,4 +13,28 @@ a {
     text-decoration: none;
   }
 
+
+  
+  // Variation: Button
+  &.button {
+
+    --text-color: var(--white);
+
+    background-color: var(--coral-red-dark-5);
+    display: inline-block;
+    margin-block-start: 1rem;
+    padding-block: 1rem;
+    padding-inline: 1.5rem;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+    &:focus,
+    &:hover {
+      --text-color: var(--black);
+
+      background-color: var(--white);
+    }
+
+  }
+
 }
