@@ -12,35 +12,76 @@
     --text-color: var(--white);
  
     background-color: var( --dark-purple );
-    padding: 4rem;
+    padding-block: 4rem;
+    padding-inline: 4rem;
 
     @media screen and (min-width: $screen-md) {
+      align-items: center;
       display: grid;
-      grid-gap: 6rem;
-      grid-template-columns: 1fr 350px;
+      gap: 6rem;
+      grid-template-columns: minmax(600px, 50%) max-content;
+      justify-content: space-between;
     }
 
 
     // Code block.
     &-code {
       p:first-of-type {
-        --font-size: var(--type-h3);
+        --font-size: var(--type-h4);
 
         margin-block-end: 0;
       }
 
       dl {
-        display: grid;
-        grid-template-columns: 8rem 1fr;
         margin-inline-start: 2rem;
+
+        @media screen and (min-width: $screen-md) {
+          display: grid;
+          gap: 0 1rem;
+          grid-template-columns: max-content 1fr;
+        }
       }
     }
 
 
     // Social block.
     &-socials {
-      p {
-        --font-size: var(--type-h3);
+      list-style-type: none;
+      margin-inline: auto;
+
+      @media screen and (min-width: $screen-md) {
+        margin-inline: 4rem;
+      }
+
+      // Links in the social block.
+      a {
+        border: 1px solid transparent;
+        display: inline-block;
+        padding-block: 0.15rem;
+        padding-inline: 1.5rem;
+        width: 10rem;
+
+        // The icons come before the link.
+        &:before {
+          display: inline-block;
+          margin-inline-end: 0.5rem;
+        }
+
+        &:focus,
+        &:hover {
+          border-color: var(--white);
+          text-decoration: none;
+        }
+      }
+
+      li {
+        --font-size: var(--type-small);
+
+        margin-block-end: 0.5rem;
+
+        a {
+          --text-color: var(--white);
+        }
       }
     }
   }
@@ -48,27 +89,34 @@
 
   // Copyright block.
   &-copyright {
-    @extend .fixed-width;
-
     background-color: var(--battleship-gray);
+    background-image: repeating-linear-gradient(
+      180deg,
+      var( --battleship-gray ),
+      var( --battleship-gray )         0.75rem,
+      var( --battleship-gray-light-5 ) 0.75rem,
+      var( --battleship-gray-light-5 ) 0.75rem * 2
+    );
     padding-block: 2rem;
+    padding-inline: 4rem;
 
     p {
       --font-size: var(--type-small);
 
       margin: 0;
     }
-  }
 
+    // Day of the week messages.
+    #day {
+      &-0, &-1, &-2, &-3, &-4, &-5, &-6  {
+        display: none;
+        font-style: italic;
 
-  // Day of the week messages.
-  #day {
-    &-0, &-1, &-2, &-3, &-4, &-5, &-6  {
-      display: none;
-
-      &.show {
-        display: inline;
+        &.show {
+          display: inline;
+        }
       }
     }
   }
+  
 }

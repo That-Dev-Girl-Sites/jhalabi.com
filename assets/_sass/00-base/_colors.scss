@@ -55,25 +55,19 @@ $wine:            #6a2e35;
   --coral-red:                 #{$coral-red};
   --tangerine:                 #{$tangerine};
 
-  // Primary colors: shades.
-  --dark-purple-light-3:       #{lighten( $dark-purple, 3% )};
-  --dark-purple-light-20:      #{lighten( $dark-purple, 20% )};
-  --dark-purple-light-40:      #{lighten( $dark-purple, 40% )};
 
-  --silver-light-5:            #{lighten( $silver, 5% )};
-  --silver-light-10:           #{lighten( $silver, 10% )};
+  // Primary colors: shades.
   --silver-light-15:           #{lighten( $silver, 15% )};
 
-  --battleship-gray-dark-15:   #{darken( $battleship-gray, 15% )};
-  --battleship-gray-light-10:  #{lighten( $battleship-gray, 10% )};
+  --battleship-gray-light-5:   #{lighten( $battleship-gray, 5% )};
+  --battleship-gray-light-20:  #{lighten( $battleship-gray, 20% )};
+  --battleship-gray-light-25:  #{lighten( $battleship-gray, 25% )};
   --battleship-gray-light-30:  #{lighten( $battleship-gray, 30% )};
-  --battleship-gray-light-35:  #{lighten( $battleship-gray, 35% )};
 
   --coral-red-dark-5:          #{darken( $coral-red, 5% )};
   --coral-red-dark-20:         #{darken( $coral-red, 20% )};
   --coral-red-light-10:        #{lighten( $coral-red, 10% )};
   --coral-red-light-25:        #{lighten( $coral-red, 25% )};
-  --coral-red-light-30:        #{lighten( $coral-red, 30% )};
 
 
   // Secondary colors: shades.

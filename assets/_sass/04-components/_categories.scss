@@ -15,6 +15,7 @@
     --text-color: var(--white);
 
     background-color: var(--category-color);
+    border-block: 2px solid var(--category-color);
     display: inline-block;
     padding-inline: 1rem;
     text-decoration: none;
@@ -22,7 +23,8 @@
 
     &:hover,
     &:focus {
-      --category-color: var(--silver-light-15);
+      background-color: transparent;
+      border-block-start: transparent;
       --text-color: var(--black);
     }
   }

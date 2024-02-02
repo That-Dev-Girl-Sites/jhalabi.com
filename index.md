@@ -29,7 +29,7 @@ Today, I am “middle-end” web developer who likes to write code, commit often
 
 <section markdown="1" class="home-book" aria-label="Sweet Little You">
 
-<div markdown="1">
+<div markdown="1" class="home-book-content">
 
 ## Sweet Little You
 
@@ -37,19 +37,13 @@ A mother with a dream of having a child makes her wish come true by having a bab
 
 *Sweet Little You* is available now wherever books are sold. Order your copy today!
 
-<div markdown="1" class="home-book-buttons">
-
-[Order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you) [Book Details](/book)
-
-</div>
+{:.home-book-buttons}
+[Order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Book Details](/book)
 
 </div>
 
-<div markdown="1">
-
-[![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)](/book)
-
-</div>
+{:.home-book-image}
+![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)
 
 </section>
 

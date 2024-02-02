@@ -6,6 +6,8 @@
   // Introduction section.
   &-intro {
     @extend .fixed-width;
+
+    padding-block-start: 2rem;
   }
 
 
@@ -39,8 +41,8 @@
 
   // Past events section.
   &-past {
-    @extend .fixed-width;
-    padding-inline-end: 4rem;
+    padding-block: 4rem;
+    padding-inline: 4rem;
 
     h2 {
       margin-block-start: 0;

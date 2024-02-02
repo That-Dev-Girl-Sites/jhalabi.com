@@ -3,11 +3,7 @@
  */
 
 // Screen sizes
-$screen-md:                  940px;
+$screen-md:                  768px;
 
 // Line length, based on medium screen size.
 $max-width:                  768px;
-
-// Page padding.
-$page-padding-inline-small:  2rem;
-$page-padding-inline-large:  calc( (100vw - #{$screen-md} - 2rem) / 2 );

@@ -3,26 +3,35 @@
   <div class="footer-top">
 
     <div class="footer-top-code">
-      <p>const me = {</p>
+      <p>const joni = {</p>
       <dl>
-        <dt>name:</dt>
-        <dd>'Joni Halabi',</dd>
-        <dt>description:</dt>
+        <dt>'description':</dt>
         <dd>'Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.'</dd>
       </dl>
       <p>};</p>
     </div>
 
-    <div class="footer-top-socials">
-      <p>Follow me</p>
+    <ul class="footer-top-socials">
+      <li>
+        <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+      </li>
 
-      <ul>
-        <li><a href="/feed.xml">Blog feed</a></li>
-        <li><a href="https://twitter.com/jonihalabi"> Twitter</a></li>
-        <li><a href="https://higheredweb.social/@jonihalabi" rel="me"> Mastodon</a></li>
-        <li><a href="https://www.instagram.com/jonihalabi/"> Instagram</a></li>
-      </ul>
-    </div>
+      <li>
+        <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+      </li>
+
+      <li>
+        <a href="https://higheredweb.social/@jonihalabi" class="ri-mastodon-fill" rel="me">Mastodon</a>
+      </li>
+
+      <li>
+        <a href="https://twitter.com/jonihalabi" class="ri-twitter-x-fill">Twitter/X</a>
+      </li>
+    </ul>
 
   </div>
 
@@ -31,7 +40,7 @@
   <div class="footer-copyright">
     <div>
       <p>
-        Copyright &copy; {{ 'now' | date: '%Y' }} Joni Halabi.
+        Copyright &copy; {{ 'now' | date: '%Y' }} Joni Halabi. All rights reserved.
 
         <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
         <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>

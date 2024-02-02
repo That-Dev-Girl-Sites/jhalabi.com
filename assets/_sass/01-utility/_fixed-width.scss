@@ -4,9 +4,9 @@
 
 .fixed-width {
   padding-block: 4rem;
-  padding-inline: $page-padding-inline-small;
+  padding-inline: 2rem;
 
   @media screen and ( min-width: $screen-md ) {
-    padding-inline: $page-padding-inline-large;
+    padding-inline: calc( (100vw - #{$screen-md} - 2rem) / 2 );
   }
 }

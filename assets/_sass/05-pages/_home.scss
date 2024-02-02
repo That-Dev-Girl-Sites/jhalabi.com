@@ -3,9 +3,8 @@
  */
 
 .home {
-  // Introduction and more about me sections.
-  &-intro,
-  &-about {
+  // Introduction section.
+  &-intro {
     padding-block: 4rem;
     padding-inline: 2rem;
 
@@ -21,7 +20,6 @@
     @media screen and ( max-width: $screen-md ) {
       img {
         display: block;
-        margin-inline: auto;
         max-height: 400px;
         max-width: 90%;
       }
@@ -30,14 +28,9 @@
     @media screen and ( min-width: $screen-md ) {
       display: grid;
       gap: 4rem;
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: minmax(33%, 300px) 2fr;
+      padding-inline-start: 0;
     }
-  }
-
-
-  // Just the more about me section.
-  &-about {
-    background-color: var(--battleship-gray-light-10);
   }
 
 
@@ -50,9 +43,10 @@
     padding-inline: 4rem;
 
     @media screen and ( min-width: $screen-md ) {
+      align-items: center;
       display: grid;
-      gap: 4rem;
-      grid-template-columns: 2fr 1fr;
+      gap: 6rem;
+      grid-template-columns: repeat(2, 1fr);
     }
 
     h2 {
@@ -63,11 +57,14 @@
       --text-color: var(--silver);
     }
 
-    img {
-      box-shadow: 2px 1px 0 var(--black);
+    // Image sub-section.
+    &-image {
+      margin-block-end: 0;
+      overflow-y: hidden;
     }
 
-    &-buttons p {
+    // CTA buttons.
+    &-buttons {
       display: grid;
       gap: 2rem;
       grid-template-columns: repeat( auto-fit, minmax( 10rem, max-content));
