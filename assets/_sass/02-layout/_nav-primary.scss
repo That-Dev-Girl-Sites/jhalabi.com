@@ -40,8 +40,10 @@
   .current {
     --font-weight: bold;
 
-    &::before { content: '[ '; }
-    &::after  { content: ' ]'; }
+    &:not(:first-of-type) {
+      &::before { content: '[ '; }
+      &::after  { content: ' ]'; }
+    }
 
     a {
       --text-color: var(--black);
