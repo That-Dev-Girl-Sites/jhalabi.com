@@ -13,6 +13,8 @@ Regardless, please don't let this scare you off from sending me a message. Repli
 
 <section markdown="1" class="contact-methods" aria-label="Contact methods">
 
+* {:.ri-instagram-fill} Instagram
+
 {:.icon .icon-envelope} <span class="sr-only">E-mail</span>
 : [joni@jhalabi.com](mailto:joni@jhalabi.com)
 

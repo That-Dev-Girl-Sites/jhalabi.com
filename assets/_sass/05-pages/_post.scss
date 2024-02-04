@@ -22,13 +22,13 @@
 
     // Publication date.
     .date {
-      --font-size: var( --type-small );
+      --font-size: var( --type-p-smaller );
     }
 
 
     // Social sharing icons.
     .share {
-      --font-size: var( --type-small );
+      --font-size: var( --type-p-smaller );
     
       a {
         --background-color: var(--black);

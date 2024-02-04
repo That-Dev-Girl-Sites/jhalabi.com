@@ -25,6 +25,10 @@ a {
     text-decoration: none;
     transition: all 0.5s ease;
 
+    &::before {
+      padding-inline-end: 0.75rem;
+    }
+
     &:focus,
     &:hover {
       --text-color: var(--black);

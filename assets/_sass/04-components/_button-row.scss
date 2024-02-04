@@ -1,0 +1,42 @@
+/**
+ * Components: Button row.
+ */
+
+.button-row {
+  ul {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
+    list-style-type: none;
+    margin-inline-start: 0;
+  }
+
+  li {
+    margin-block-end: 0;
+    text-align: center;
+
+    a {
+      --font-size: var(--type-p-bigger);
+      --text-color: var(--white);
+
+      background-color: var(--dark-purple);
+      display: block;
+      padding-block: 2rem;
+      padding-inline: 2rem;
+      text-decoration: none;
+
+      // Link icon.
+      &::before {
+        --font-size: var(--type-nameplate);
+        --line-height: 1.2;
+        display: block;
+      }
+
+      // Focus and hover states.
+      &:focus,
+      &:hover {
+        background-color: var(--coral-red-dark-20);
+      }
+    }
+  }
+}

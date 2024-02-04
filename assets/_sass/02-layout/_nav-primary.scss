@@ -19,7 +19,7 @@
   }
 
   li {
-    --font-size: var(--type-small);
+    --font-size: var(--type-p-smaller);
 
     display: inline-block;
     list-style: none;
@@ -45,9 +45,6 @@
 
     a {
       --text-color: var(--black);
-
-      cursor: default;
-      text-decoration: none;
     }
   }
 }

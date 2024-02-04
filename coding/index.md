@@ -1,21 +1,98 @@
 ---
-layout: default
+layout: coding
 title: Coding
 redirect_from:
   - /work/
+
+projects:
+  - title: Besan Block plugin
+    icon: plugin-icon-besan-block.jpg
+    description: Add a responsive, accessible data chart block to the WordPress post editor.
+    links:
+      - url: https://wordpress.org/plugins/besan-block/
+        text: Download
+        aria_label: Download the Besan Block plugin
+      - url: https://github.com/thatdevgirl/besan-block
+        text: Github
+        aria_label: Besan Block Github repo
+
+  - title: Block Controller plugin
+    icon: plugin-icon-block-controller.jpg
+    description: Allow WordPress site administrators to control access to content blocks.
+    links: 
+      - url: https://wordpress.org/plugins/block-controller/
+        text: Download
+        aria_label: Download the Block Controller plugin
+      - url: https://github.com/thatdevgirl/block-controller
+        text: Github
+        aria_label: Block Controller Github repo
+
+  - title: Color Palette plugin
+    icon: plugin-icon-color-palette.jpg
+    description: Add a custom block to the WordPress post editor to display color swatches.
+    links: 
+      - url: https://wordpress.org/plugins/color-palette/
+        text: Download
+        aria_label: Download the Color Palette plugin
+      - url: https://github.com/thatdevgirl/wordpress-color-palette
+        text: Github
+        aria_label: Color Palette Github repo
+
+  - title: Color swatch generator
+    icon: code-icon-color-swatch-generator.jpg
+    description: Generate a downloadable color swatch, including the color's hex, RGB, and CYYK values.
+    links: 
+      - url: https://color.thatdevgirl.com/
+        text: Live site
+        aria_label: Live Site of Color Swatch Generator"
+      - url: https://github.com/thatdevgirl/color-palette-standalone
+        text: Github
+        aria_label: GitHub for Color Swatch Generator
+
+  - title: CSV to JSON converter
+    icon: code-icon-csv-to-json.jpg
+    description: Convert a CSV file to JSON. That’s it!
+    links:
+      - url: https://gist.github.com/thatdevgirl/4566dac603ff9749b3b81e13b34d1eb8
+        text: Github Gist
+        aria_label: Github Gist for the CSV to JSON converter
+
+  - title: Mimeocode
+    icon: code-icon-mimeocode.jpg
+    description: Copy boilerplate code for new projects, cloned from personal GitHub repos using Node.
+    links: 
+      - url: https://github.com/thatdevgirl/mimeocode
+        text: Github
+        aria_label: Github for Mimeocode
+
+  - title: WC Tiered Shipping plugin
+    icon: plugin-icon-wc-tiered-shipping.jpg
+    description: Add a tiered flat rate shipping option to the WooCommerce plugin.
+    links: 
+      - url: https://wordpress.org/plugins/wc-tiered-shipping/
+        text: Download
+        aria_label: Download the WC Tiered Shipping plugin
+      - url: https://github.com/thatdevgirl/woocommerce-tiered-flat-rate
+        text: Github
+        aria_label: WC Tiered Shipping Github repo
+
 ---
 
-I am a senior web developer, author, and speaker in Washington DC with over 20 years of programming experience. I specialize in content management system **theme development**, custom **WordPress block** creation, and technical **writing and instruction**.
+<section markdown="1" class="coding-intro" aria-label="Introduction">
 
-I started as purely a front-end developer, but have been slowly migrating further back in the stack. As a result, I now call myself a **"middle-end" developer** and am working hard to make that term stick.
+I am a “middle-end” web developer who likes to write code, commit often, and make up my own titles. Over the past 20+ years, I have developed solutions for a variety of organization, including those in the gaming, non-profit, and higher education industries. 
 
-## Currently @...
+In my current role at [Georgetown University](https://georgetown.edu), I specialize in developing CMS themes and WordPress editor customizations. I have written over 50 custom WordPress blocks, using ReactJS, PHP, and the Gutenberg API.
 
-**Senior Web Developer** @ [Georgetown University](https://www.georgetown.edu/)
+I also [write technical articles](/blog) about my work, teach introductory development classes, and [speak](/speaking) at technical conferences.
 
-I work with a team of developers, designers, and product managers to create flexible and responsive themes for the University's school and department websites. These days, most of my work involves building custom WordPress editor (*Gutenberg*) blocks, such as promotional blocks, expandable content, and dynamic news blocks, using ReactJS, PHP, and the Gutenberg API.
+</section>
 
-{% include work-sites.md %}
-{% include work-tools.md %}
-{% include work-plugins.md %}
-{% include work-links.md %}
+
+<section markdown="1" class="coding-resume" aria-label="Resume">
+
+* <a href="joni-halabi-resume.pdf" class="ri-list-check-3">View my resume</a>
+* <a href="https://github.com/thatdevgirl" class="ri-github-fill">Checkout GitHub</a>
+* <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-box-fill">Connect on LinkedIn</a>
+
+</section>

@@ -33,6 +33,7 @@
 
 
 // Components -- e.g. more complex, reusable blocks
+@import '04-components/button-row';
 @import '04-components/categories';
 @import '04-components/category-list';
 @import '04-components/footnotes';
@@ -45,8 +46,10 @@
 
 
 // Pages -- the rest
+@import '05-pages/coding';
 @import '05-pages/blog';
 @import '05-pages/home';
+@import '05-pages/plugin';
 @import '05-pages/post';
 @import '05-pages/speaking';
 

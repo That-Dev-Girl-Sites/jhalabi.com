@@ -75,7 +75,7 @@
       }
 
       li {
-        --font-size: var(--type-small);
+        --font-size: var(--type-p-smaller);
 
         margin-block-end: 0.5rem;
 
@@ -101,7 +101,7 @@
     padding-inline: 4rem;
 
     p {
-      --font-size: var(--type-small);
+      --font-size: var(--type-p-smaller);
 
       margin: 0;
     }
