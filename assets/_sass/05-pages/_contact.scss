@@ -1,0 +1,78 @@
+/**
+ * Pages: Contact.
+ */
+
+.contact {
+  // Introduction section.
+  &-intro {
+    @extend .fixed-width;
+
+    padding-block-start: 2rem;
+
+    ul {
+      list-style-type: none;
+      margin-inline-start: 0;
+    }
+
+    .button {
+      @extend .on-white;
+    }
+  }
+
+
+  // If... questions.
+  &-ifs {
+    margin-inline-start: 1rem;
+
+    b, strong {
+      --font-size: var(--type-h4);
+
+      display: block;
+      margin-inline-start: -1rem;
+    }
+  }
+
+
+  // Social media contact links.
+  &-social {
+    @extend .fixed-width;
+
+    background-color: var(--silver);
+    padding-block-start: 2rem;
+
+    ul {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      list-style-type: none;
+      margin-block-start: 3rem;
+      margin-inline-start: 0;
+
+      a {
+        --text-color: var(--white);
+
+        background-color: var(--coral-red);
+        display: block;
+        padding-inline: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s ease;
+
+        &::before {
+          --font-size: var(--type-h4);
+          --text-color: inherit;
+
+          margin-inline-end: 0.5rem;
+        }
+
+        &:focus,
+        &:hover {
+          background-color: var(--coral-red-dark-20);
+        }
+      }
+    }
+  }
+
+  
+
+}

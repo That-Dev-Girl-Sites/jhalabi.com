@@ -29,11 +29,21 @@ a {
       padding-inline-end: 0.75rem;
     }
 
+    // Default focus/hover state.
     &:focus,
     &:hover {
       --text-color: var(--black);
 
       background-color: var(--white);
+    }
+
+    // Focus state for buttons on white backgrounds.
+    &.on-white {
+      &:focus,
+      &:hover {
+        --text-color: var(--white);
+        background-color: var(--coral-red-dark-20);
+      }
     }
   }
 }

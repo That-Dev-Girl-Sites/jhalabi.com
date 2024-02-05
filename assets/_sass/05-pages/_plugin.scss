@@ -23,13 +23,9 @@
 
     // Button style overrides for this page.
     .button {
-      --font-size: var(--type-p-smaller);
+      @extend .on-white;
 
-      &:focus,
-      &:hover {
-        --text-color: var(--white);
-        background-color: var(--coral-red-dark-20);
-      }
+      --font-size: var(--type-p-smaller);
     }
   }
 

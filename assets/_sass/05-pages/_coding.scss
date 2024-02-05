@@ -63,14 +63,10 @@
 
     // Button style overrides for this page.
     .button {
-      margin-block-start: 0;
-      padding-block: 0.5rem;
+      @extend .on-white;
 
-      &:focus,
-      &:hover {
-        --text-color: var(--white);
-        background-color: var(--coral-red-dark-20);
-      }
+      margin-block-start: 0;
+      padding-block: 0.5rem;      
     }
   }
 }
