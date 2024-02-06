@@ -36,6 +36,7 @@
         margin-inline-start: 2rem;
 
         @media screen and (min-width: $screen-md) {
+          align-items: start;
           display: grid;
           gap: 0 1rem;
           grid-template-columns: max-content 1fr;

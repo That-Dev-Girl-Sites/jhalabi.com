@@ -158,15 +158,30 @@
 
   // Reviews section.
   &-reviews {
-    background-color: var(--battleship-gray-light-20);
     padding-block-end: 6rem;
-    padding-block-start: 2rem;
-    padding-inline: 4rem;
+
+    &:before {
+      background-image: url('/assets/images/sweet-little-you-sample.jpg');
+      background-position: center;
+      background-size: cover;
+      content: '';
+      display: block;
+      height: 300px;
+      width: 100%;
+    }
+
+    h2 {
+      padding-inline: 4rem;
+    }
 
     div {
-      display: grid;
+      display: flex;
       gap: 4rem;
-      grid-template-columns: repeat(auto-fit, minmax( 400px, 1fr ));
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-height: 1000px;
+      margin-inline: 4rem;
+      max-width: 100vw;
     }
 
     blockquote {
