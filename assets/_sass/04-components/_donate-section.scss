@@ -5,17 +5,20 @@
 .donate-section {
   @extend .fixed-width;
 
-  align-items: center;
   background-color: var(--battleship-gray-light-25);
-  display: grid;
-  grid-gap: 4rem;
-  grid-template-columns: minmax(200px, 1fr) 2fr;
   margin-block-end: 1px;
   margin-block-start: 4rem;
   padding-block: 2rem;
 
-  p, a {
+  p {
+    --font-size: var(--type-p-smaller);
     --line-height: 1.6;
-    margin: 0;
+
+    margin-block: 0;
+    text-align: center;
+  }
+
+  a {
+    --font-size: var(--type-p);
   }
 }

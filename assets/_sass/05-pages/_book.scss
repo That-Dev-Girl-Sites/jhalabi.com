@@ -243,4 +243,50 @@
       }
     }
   }
+
+
+  // Interviews section.
+  &-interviews {
+    @extend .fixed-width;
+
+    background-color: var(--battleship-gray-light-30);
+
+    h2 {
+      margin-block-start: 0;
+    }
+
+    // List of interviews.
+    ol {
+      list-style-type: none;
+      margin-block-start: 2rem;
+      margin-inline-start: 4rem;
+
+      // Interview item.
+      li {
+        --font-size: var(--type-p-smaller);
+
+        margin-block-end: 2rem;
+        position: relative;
+
+        // Custom numbering.
+        &::before {
+          --font-weight: bold;
+          --text-color: var(--white);
+
+          background-color: var(--dark-purple);
+          content: counter(interviews);
+          counter-increment: interviews -1;
+          display: inline-block;
+          left: -3rem;
+          padding-inline: 0.5rem;
+          position: absolute;
+        }
+      }
+
+      // Link.
+      a {
+        --font-size: var(--type-p-bigger);
+      }
+    }
+  }
 }
