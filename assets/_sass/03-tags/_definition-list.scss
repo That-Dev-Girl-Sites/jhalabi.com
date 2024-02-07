@@ -3,10 +3,15 @@
  */
 
 dl {
-  align-items: center;
-  display: grid;
-  gap: 0.5rem 2rem;
-  grid-template-columns: max-content 1fr;
+
+  // Display the terms and definitions side-by-side, but only for larger
+  // screens.
+  @media screen and ( min-width: $screen-md ) {
+    align-items: center;
+    display: grid;
+    gap: 0.5rem 2rem;
+    grid-template-columns: max-content 1fr;
+  }
 
   dt {
     --font-size: var(--type-p-bigger);
@@ -15,5 +20,11 @@ dl {
 
   dt, dd {
     margin-block-end: 1rem;
+  }
+
+  // On smaller screens, indent the definitions so they stand out under the
+  // terms.
+  dd {
+    margin-inline-start: 2rem;
   }
 }

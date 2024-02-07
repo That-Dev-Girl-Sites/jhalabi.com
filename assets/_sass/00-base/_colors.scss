@@ -59,6 +59,7 @@ $wine:            #6a2e35;
   // Primary colors: shades.
   --silver-light-15:           #{lighten( $silver, 15% )};
 
+  --battleship-gray-dark-10:   #{darken( $battleship-gray, 10% )};
   --battleship-gray-light-5:   #{lighten( $battleship-gray, 5% )};
   --battleship-gray-light-20:  #{lighten( $battleship-gray, 20% )};
   --battleship-gray-light-25:  #{lighten( $battleship-gray, 25% )};
@@ -82,7 +83,7 @@ $wine:            #6a2e35;
 
   --cat-accessibility:         #{$delft-blue};
   --cat-development:           #{$wine};
-  --cat-life:                  #{darken( $tangerine, 10% )};
+  --cat-life:                  #{darken( $tangerine, 14% )};
   --cat-pregnancy:             #{$burgundy};
   --cat-user-experience:       #{$olive};
   --cat-wordpress:             #{$indigo-dye};

@@ -40,21 +40,4 @@
       margin-block-start: 0;
     }
   }
-
-
-  // Donation banner.
-  &-donate {
-    @extend .fixed-width;
-
-    align-items: center;
-    background-color: var(--silver);
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: minmax(200px, 1fr) 2fr;
-    padding-block: 2rem;
-
-    p, a {
-      margin: 0;
-    }
-  }
 }

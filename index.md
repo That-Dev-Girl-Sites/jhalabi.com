@@ -51,7 +51,7 @@ A mother with a dream of having a child makes her wish come true by having a bab
 
 <section markdown="1" class="home-articles" aria-label="Blog articles">
 
-## Articles: Past And Present
+## Articles: Past and present
 
 I have been writing for as long as I can remember. Here is a selection of my latest and favorite articles.
 
