@@ -90,15 +90,11 @@
 
   // Copyright block.
   &-copyright {
-    background-color: var(--battleship-gray);
-    background-image: repeating-linear-gradient(
-      180deg,
-      var( --battleship-gray ),
-      var( --battleship-gray )         0.75rem,
-      var( --battleship-gray-light-5 ) 0.75rem,
-      var( --battleship-gray-light-5 ) 0.75rem * 2
-    );
-    padding-block: 2rem;
+    --text-color: var(--white);
+
+    background-color: var(--black);
+    border-block-start: 1px solid var(--white);
+    padding-block: 1rem;
     padding-inline: 4rem;
 
     p {

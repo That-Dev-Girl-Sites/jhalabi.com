@@ -24,8 +24,10 @@ Tenderly written with beautiful illustrations by [Lisa Wee](https://www.lisawee1
 
 * [Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/)
 * [Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961)
+* [AbeBooks](https://www.abebooks.com/servlet/BookDetailsPL?bi=31212005551)
 * [Better World Books](https://www.betterworldbooks.com/product/detail/Sweet-Little-You-9780578392165) 
 * [Bookshop.org](https://bookshop.org/p/books/sweet-little-you-joni-halabi/18515326)
+* [ThriftBooks](https://www.thriftbooks.com/w/sweet-little-you_lisa-wee_joni-halabi/37042535/#edition=64976932&idiq=56979118)
 
 </section>
 
@@ -63,7 +65,7 @@ I want this book to be a story where my daughter and I can see ourselves in the 
 
 <blockquote markdown="1">
 
-Sweet Little You by Joni Halabi is an inspirational children’s picture book about a mother sharing her journey of donor-assisted reproduction in a way that a child might be able to understand. [...] There is a happiness that washes over you as you read this story and you find yourself in awe of this family of two.
+_Sweet Little You_ by Joni Halabi is an inspirational children’s picture book about a mother sharing her journey of donor-assisted reproduction in a way that a child might be able to understand. [...] There is a happiness that washes over you as you read this story and you find yourself in awe of this family of two.
 
 <cite markdown="1">
 **Erin Nicole Cochran**, [Readers' Favorite](https://readersfavorite.com/book-review/sweet-little-you)
@@ -73,7 +75,7 @@ Sweet Little You by Joni Halabi is an inspirational children’s picture book ab
 
 <blockquote markdown="1">
 
-Sweet Little You is an adorable children's book that showcases a different type of family. It's written in an easy to read way, but is also a good way to open conversation with young readers about how some families don't always look the same as others. [...] This is a book I would highly recommend to all parents. 5 stars!
+_Sweet Little You_ is an adorable children's book that showcases a different type of family. It's written in an easy to read way, but is also a good way to open conversation with young readers about how some families don't always look the same as others. [...] This is a book I would highly recommend to all parents. 5 stars!
 
 <cite markdown="1">
 **Jasmine J.**, [Jazzy Book Reviews](https://www.jazzybookreviews.com/2022/07/sweet-little-you-by-joni-halabi-book.html)

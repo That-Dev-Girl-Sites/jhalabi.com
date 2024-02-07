@@ -35,14 +35,22 @@
     @media screen and ( min-width: $screen-md ) {
       align-items: center;
       display: grid;
-      gap: 4rem;
-      grid-template-columns: 1fr 1fr;
-      // padding-inline-end: 2px;
+      gap: 6rem;
+      grid-template-columns: 2fr minmax(33%, 300px);
+    }
+
+    // Content should not exceed the mad-width.
+    div {
+      max-width: $max-width;
     }
 
     // Description.
     p {
       --font-size: var(--type-p-bigger);
+    }
+
+    em {
+      --font-size: var(--type-h4);
     }
   }
 
@@ -76,7 +84,8 @@
 
   // Order section.
   &-order {
-    @extend .fixed-width;
+    padding-block: 2rem;
+    padding-inline: 4rem;
     
     background-color: var(--battleship-gray-light-20);
     margin-block-end: 2rem;
@@ -85,7 +94,7 @@
     @media screen and ( min-width: $screen-md ) {
       align-items: center;
       display: grid;
-      gap: 4rem;
+      gap: 6rem;
       grid-template-columns: 1fr 2fr;
     }
 
@@ -95,7 +104,7 @@
 
     ul {
       display: grid;
-      gap: 2rem;
+      gap: 1.5rem 2rem;
       grid-template-columns: repeat(auto-fit, minmax( 200px, 1fr));
       list-style-type: none;
       margin-inline-start: 0;
@@ -171,23 +180,58 @@
     }
 
     h2 {
+      margin-block-end: 4rem;
       padding-inline: 4rem;
     }
 
     div {
-      display: flex;
+      display: grid;
       gap: 4rem;
-      flex-direction: column;
-      flex-wrap: wrap;
-      max-height: 1000px;
-      margin-inline: 4rem;
-      max-width: 100vw;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      padding-inline: 4rem;
     }
 
     blockquote {
-      background-color: var(--white);
-      border-inline-start: 6px solid var(--coral-red-dark-5);
-      padding: 2rem;
+      // Add a quote mark icon to the block.
+      @extend .ri-double-quotes-l;
+
+      &:before {
+        // Make sure we use the icon font, because we are extending the icon
+        // class instead of using it directly.
+        --font-family: "remixicon" !important;
+        --font-size: 6rem;
+        --line-height: 0;
+        --text-color: var(--tangerine);
+
+        left: -1rem;
+        position: absolute;
+        top: 0.5rem;
+        z-index: 0;
+      }
+
+      background-color: var(--battleship-gray-light-35);
+      box-shadow: 1px 1px 3px var(--battleship-gray);
+      padding-block: 4rem;
+      padding-inline: 4rem;
+      position: relative;
+
+      p {
+        margin-block-end: 0;
+
+        // Just in case there is overlap between the content and icon.
+        z-index: 1;
+      }
+
+      cite {
+        &::before {
+          content: '';
+          display: block;
+          border-block-start: 4px solid var(--tangerine);
+          margin-block-end: 0.5rem;
+          margin-block-start: 2rem;
+          width: 20%;
+        }
+      }
     }
   }
 }
