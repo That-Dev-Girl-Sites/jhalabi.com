@@ -32,6 +32,10 @@
         margin-block-end: 0;
       }
 
+      a {
+        --text-color: inherit;
+      }
+
       dl {
         margin-inline-start: 2rem;
 

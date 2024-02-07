@@ -11,7 +11,7 @@ Hi there! I love hearing from people, but my days get pretty full between develo
 * {:.contact-ifs} **If you to chat about my book:** [_Sweet Little You_](/book) is available wherever books are sold _(and in several libraries!_). I am always happy to talk about my book and am available for author visits and readings.
 * {:.contact-ifs} **If you have parenting questions:** So do I. 
 
-<a href="mailto:joni@jhalabi.com" class="button">E-mail me directly</a>
+<a href="mailto:joni@jhalabi.com" class="button">Send me an e-mail!</a>
 
 </section>
 

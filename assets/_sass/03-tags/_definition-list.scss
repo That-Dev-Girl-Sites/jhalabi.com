@@ -7,8 +7,13 @@ dl {
   display: grid;
   gap: 0.5rem 2rem;
   grid-template-columns: max-content 1fr;
+
   dt {
     --font-size: var(--type-p-bigger);
     --font-weight: bold
+  }
+
+  dt, dd {
+    margin-block-end: 1rem;
   }
 }

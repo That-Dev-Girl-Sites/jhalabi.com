@@ -38,7 +38,11 @@
     @extend .fixed-width;
 
     background-color: var(--battleship-gray-light-35);
-    padding-block-start: 2rem;
+    padding-block-start: 4rem;
+
+    h2 {
+      margin-block-start: 0;
+    }
 
     ul {
       display: grid;

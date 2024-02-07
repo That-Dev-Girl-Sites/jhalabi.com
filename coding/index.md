@@ -80,7 +80,7 @@ projects:
 
 <section markdown="1" class="coding-intro" aria-label="Introduction">
 
-I am a “middle-end” web developer who likes to write code, commit often, and make up my own titles. Over the past 20+ years, I have developed solutions for a variety of organization, including those in the gaming, non-profit, and higher education industries. 
+I am a “middle-end” web developer who likes to write code, commit often, and make up my own titles. Over the past 20+ years, I have developed solutions for a variety of organizations, including those in the gaming, non-profit, and higher education industries. 
 
 In my current role at [Georgetown University](https://georgetown.edu), I specialize in developing CMS themes and WordPress editor customizations. I have written over 50 custom WordPress blocks, using ReactJS, PHP, and the Gutenberg API.
 
