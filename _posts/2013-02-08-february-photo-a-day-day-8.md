@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "February Photo a Day #8"
+title: "February photo a day #8"
 date: "2013-02-08"
+redirect_from: "/blog/february-photo-a-day-day-8"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 Today's photo was really hard... at least at first.

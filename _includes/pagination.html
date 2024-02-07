@@ -1,27 +1,71 @@
-<nav class="has-background grey-light pagination" aria-label="Pagination">
+<nav class="pagination" aria-label="Pagination">
 
-  <span>More articles:</span>
+  <p>More articles:</p>
 
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-advance" aria-label="Previous page">&#10094;</a>
-  {% else %}
-    <span class="pagination-inactive">&#10094;</span>
-  {% endif %}
+  <ul>
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span class="pagination-current">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a href="{{ '/blog/' | relative_url }}">{{ page }}</a>
+    {% if paginator.previous_page %}
+      <li>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-advance pagination-prev">Prev</a>
+      </li>
     {% else %}
-      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+      <li class="pagination-inactive pagination-prev">Prev</li>
     {% endif %}
-  {% endfor %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-advance" aria-label="Next page">&#10095;</a>
-  {% else %}
-    <span class="pagination-inactive">&#10095;</span>
-  {% endif %}
 
+    {% assign first_page = paginator.page | minus: 2 %}
+    {% if first_page < 1 %}
+      {% assign first_page = 1 %}
+    {% endif %}
+
+    {% assign last_page = paginator.page | plus: 2 %}
+    {% if last_page > paginator.total_pages %}
+      {% assign last_page = paginator.total_pages %}
+    {% endif %}
+
+    {% assign base_path = '/blog/' %}
+    {% if page.category %}
+      {% capture base_path %}/blog/{{ page.category }}/{% endcapture %}
+    {% endif %}
+
+
+    {% if first_page >= 3 %}
+      <li>
+        <a href="{{ base_path }}">1</a> ..
+      </li>
+    {% endif %}
+
+
+    {% for page in (first_page..last_page) %}
+      {% if page == paginator.page %}
+        <li class="pagination-current">{{ page }}</li>
+      {% elsif page == 1 %}
+        <li>
+          <a href="{{ base_path }}">{{ page }}</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ base_path }}page/{{ page }}/">{{ page }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+
+    {% assign max_for_last_page = paginator.total_pages | minus: 2 %}
+    {% if last_page <= max_for_last_page %}
+      <li>
+        .. <a href="{{ base_path }}page/{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a>
+      </li>
+    {% endif %}
+
+
+    {% if paginator.next_page %}
+      <li>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-advance pagination-next">Next</a>
+      </li>
+    {% else %}
+      <li class="pagination-inactive pagination-next">Next</li>
+    {% endif %}
+
+  </ul>
 </nav>

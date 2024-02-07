@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Induction Day!"
+title: "Induction day!"
 date: "2018-07-30"
+redirect_from: "/blog/induction-day"
 categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: I check into the hospital at 4pm today to get induced.
 ---
 
 It's Induction Day!

@@ -1,0 +1,91 @@
+/**
+ * Base: Colors
+ *
+ */
+
+// Neutral colors.
+$black:           #1f271b;
+$white:           #fff;
+
+
+// Primary colors.
+// https://coolors.co/3a182e-c5c5c5-829191-e85f5c-1f271b
+$dark-purple:     #3a182e;
+$silver:          #c5c5c5;
+$battleship-gray: #829191;
+$coral-red:       #c95d63;
+$tangerine:       #f08700;
+
+
+// Secondary colors.
+// (Mostly for taxonomies)
+// https://coolors.co/3a182e-c5c5c5-829191-e85f5c-92112b-2d4739-3c4367-746907-004166-6a2e35
+$burgundy:        #92112b;
+$brunswick-green: #2d4739;
+$delft-blue:      #3c4367;
+$indigo-dye:      #004166;
+$olive:           #746907;
+$wine:            #6a2e35;
+
+
+// Color property definitions.
+:root,
+::after,
+::before {
+
+  /* ***
+   * Neutral colors.
+   */
+
+  --black:                     #{$black};
+  --white:                     #{$white};
+
+  // Neutral colors: shades.
+  --black-light-20:            #{lighten( $black, 20% )};
+
+
+
+  /* ***
+   * Primary colors.
+   */
+
+  --dark-purple:               #{$dark-purple};
+  --silver:                    #{$silver};
+  --battleship-gray:           #{$battleship-gray};
+  --coral-red:                 #{$coral-red};
+  --tangerine:                 #{$tangerine};
+
+
+  // Primary colors: shades.
+  --silver-light-15:           #{lighten( $silver, 15% )};
+
+  --battleship-gray-light-5:   #{lighten( $battleship-gray, 5% )};
+  --battleship-gray-light-20:  #{lighten( $battleship-gray, 20% )};
+  --battleship-gray-light-25:  #{lighten( $battleship-gray, 25% )};
+  --battleship-gray-light-30:  #{lighten( $battleship-gray, 30% )};
+  --battleship-gray-light-35:  #{lighten( $battleship-gray, 35% )};
+
+  --coral-red-dark-5:          #{darken( $coral-red, 5% )};
+  --coral-red-dark-20:         #{darken( $coral-red, 20% )};
+  --coral-red-light-10:        #{lighten( $coral-red, 10% )};
+  --coral-red-light-25:        #{lighten( $coral-red, 25% )};
+
+
+  // Secondary colors: shades.
+  --delft-blue-light-20:       #{lighten( $delft-blue, 20% )};
+
+  
+
+  /* ***
+   * Category colors.
+   */
+
+  --cat-accessibility:         #{$delft-blue};
+  --cat-development:           #{$wine};
+  --cat-life:                  #{darken( $tangerine, 10% )};
+  --cat-pregnancy:             #{$burgundy};
+  --cat-user-experience:       #{$olive};
+  --cat-wordpress:             #{$indigo-dye};
+  --cat-writing:               #{$brunswick-green};
+
+}

@@ -2,10 +2,12 @@
 layout: post
 title: "The girls are out"
 date: "2018-02-12 13:51:00"
+redirect_from: "/blog/the-girls-are-out"
 categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I have to say that, so far, my second trimester has been quite pleasant.
 ---
 
 I have to say that, so far, my second trimester has been quite pleasant. I finally feel less tired. _(Read: I am no longer sleeping 12 hours a day.)_ I am definitely not nauseous. I may almost go as far as saying that I feel like my pre-pregnancy self. Almost.

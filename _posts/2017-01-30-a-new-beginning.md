@@ -2,10 +2,12 @@
 layout: post
 title: "A new beginning"
 date: "2017-01-30"
+redirect_from: "/blog/a-new-beginning"
 categories:
   - pregnancy
 tags:
   - conception
+excerpt: I had my initial consultation with Clinic Beta today.
 ---
 
 I had my initial consultation with Clinic Beta today. I had some initial concern that my experience with this new clinic would mimic that of Clinic Alpha. I was pleasantly surprised.

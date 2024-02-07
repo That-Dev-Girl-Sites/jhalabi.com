@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "February Photo a Day #14"
+title: "February photo a day #14"
 date: "2013-02-14"
+redirect_from: "/blog/february-photo-a-day-day-14"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 Well, assuming I have a following here, you have been following my photo-a-day journey for just about 2 whole weeks.  That is amazing - that both I am still taking pictures and you are still looking at them.  So... thank you!

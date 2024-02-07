@@ -2,10 +2,12 @@
 layout: post
 title: "Holy cow... I'm pregnant!!"
 date: "2017-11-24"
+redirect_from: "/blog/holy-cow-im-pregnant"
 categories:
   - pregnancy
 tags:
   - first trimester
+excerpt: I found out 3 days ago, but could not figure out how to write until today.
 ---
 
 ## I'm pregnant!!!

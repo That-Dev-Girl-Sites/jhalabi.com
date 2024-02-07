@@ -2,10 +2,12 @@
 layout: post
 title: "Prep work update"
 date: "2017-02-01"
+redirect_from: "/blog/prep-work-update"
 categories:
   - pregnancy
 tags:
   - conception
+excerpt: I took a couple baby steps in the last 24 hours to prepare my brain and body for the months ahead.
 ---
 
 I took a couple baby steps in the last 24 hours to prepare my brain and body for the months ahead.

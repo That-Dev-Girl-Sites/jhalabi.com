@@ -2,11 +2,13 @@
 layout: post
 title: "I have a dirty little secret: I want to be a junior dev again"
 date: "2019-08-05"
+redirect_from: "/blog/dirty-secret-junior-dev"
 categories:
   - development
+excerpt: I have been a professional developer for 20 years.
 ---
 
-I have been a professional developer for 20 years. Actually, I have been writing code for much, _much_ longer than that, but I have only been getting paid for it for the last 20 years. In recent years - especially the last couple of years - I have noticed my days filling up with other tasks.
+I have been a professional developer for 20 years. Actually, I have been writing code for much, _much_ longer than that, but I have only been getting paid for it for the last 20 years. In recent years -- especially the last couple of years -- I have noticed my days filling up with other tasks.
 
 I go to work. I review a build plan for a new feature to a new website that is actually being built out by an outside design firm. My employer cites a lack of enough internal resources to handle this big project. I comment on the build plan, pointing out missing pieces of functionality and asking questions about spots where I have been burned before because I have built out this functionality in a past life.
 
@@ -24,7 +26,7 @@ I go to our daily stand-up meeting, listing all of the things I will do that day
 
 I do not write code.
 
-I sit in meetings to discuss workflows and process. I sit in meetings to discuss "the future" - where we see our websites and infrastructure six months from now. A year from now. Five years from now. I hold architecture planning meetings where we talk about how to get from our current state to "the future", all the while just trying to keep our current systems afloat.
+I sit in meetings to discuss workflows and process. I sit in meetings to discuss "the future", where we see our websites and infrastructure six months from now. A year from now. Five years from now. I hold architecture planning meetings where we talk about how to get from our current state to "the future", all the while just trying to keep our current systems afloat.
 
 I do not write code.
 

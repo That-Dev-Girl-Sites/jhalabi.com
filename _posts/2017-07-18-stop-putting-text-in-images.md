@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Stop 👏 putting 👏 text 👏 in 👏 images"
+title: "Stop putting text in images!"
 date: "2017-07-18"
+redirect_from: "/blog/stop-putting-text-in-images"
 categories:
   - accessibility
+excerpt: I can’t believe it is 2017 and I have to say this, but stop putting text in your images!
 ---
 
 I can’t believe it is 2017 and I have to say this, but __stop putting text in your #$@&\*% images!!!__

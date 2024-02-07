@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "WordPress Customization: Supports and Variations and JSON. Oh my!"
+title: "WordPress customization: Supports and variations and JSON. Oh my!"
 date: "2021-05-04"
+redirect_from: "/blog/wordpress-customization"
 categories:
   - development
   - wordpress
+excerpt: WordPress has come out with so many different ways to customize block editor.
 ---
 
 The new WordPress editor _("Gutenberg")_ has been a part of our lives for [almost 2 1/2 years](https://wordpress.org/support/wordpress-version/version-5-0/). Since that initial launch, WordPress has come out with so many different ways to customize block editor: `theme.json`, block variations, and block supports. These are three distinct features that provide different customization options. Yet, for some reason, I can never remember what controls what (or how much control each feature really has). This blog post aims to clear all that up.
@@ -133,7 +135,7 @@ Block supports are the powerhouse of block customizations. This feature includes
 
 For new, custom blocks, these options can be declared in the block registration function. For existing (core) blocks, these options can be overwritten for any number of blocks using the `addFilter('blocks.registerBlockType')` function.
 
-For example, let's say that you want to remove the ability to add custom class names to a bunch of blocks. You can use the following Javascript to accomplish this:
+For example, let's say that you want to remove the ability to add custom class names to a bunch of blocks. You can use the following JavaScript to accomplish this:
 
 ```javascript
 const noClassNames = [

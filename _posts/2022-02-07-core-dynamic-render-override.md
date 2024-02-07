@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Overriding WP core: Dynamic blocks edition"
+title: "Overriding WordPress core: Dynamic blocks edition"
 date: "2022-02-07"
+redirect_from: "/blog/core-dynamic-render-override"
 categories:
   - development
   - wordpress
+excerpt: I was recently given the task of making the WordPress core RSS block look exactly like one of our custom blocks posts block.
 ---
 
 I was recently given the task of making the WordPress core RSS block look exactly like one of our custom blocks posts block. That custom block displays a series of news stories. RSS feeds are series of news stories, so this request totally makes sense.

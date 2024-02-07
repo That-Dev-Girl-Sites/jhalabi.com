@@ -1,8 +1,8 @@
 ---
-layout: tag-pregnancy
-title: My Pregnancy Story - The First Trimester
+layout: tag
+title: 'My Pregnancy Story: Architecture & Design'
 category: first trimester
 main: pregnancy
 ---
 
-Articles about the first trimester of my pregnancy, November through December 2017.
+Stories from the first trimester of my pregnancy, November through December 2017.

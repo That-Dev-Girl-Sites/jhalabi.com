@@ -1,0 +1,237 @@
+/**
+ * Pages: Book
+ */
+
+.book {
+  // Title block.
+  &-title {
+    h1 {
+      --text-color: var(--white);
+
+      @extend .fixed-width;
+
+      background-color: var(--dark-purple);
+      margin-block-end: 0;
+      padding-block: 1rem;
+    }
+
+    &:after {
+      background-image: url('/assets/images/sweet-little-you-banner.jpg');
+      background-position: center;
+      background-size: cover;
+      content: "";
+      display: block;
+      height: 300px;
+      width: 100%;
+    }
+  }
+
+
+  // Introduction section.
+  &-intro {
+    padding-block: 4rem;
+    padding-inline: 4rem;
+
+    @media screen and ( min-width: $screen-md ) {
+      align-items: center;
+      display: grid;
+      gap: 6rem;
+      grid-template-columns: 2fr minmax(33%, 300px);
+    }
+
+    // Content should not exceed the mad-width.
+    div {
+      max-width: $max-width;
+    }
+
+    // Description.
+    p {
+      --font-size: var(--type-p-bigger);
+    }
+
+    em {
+      --font-size: var(--type-h4);
+    }
+  }
+
+
+  // Sample link.
+  &-sample-link {
+    // The link needs to use CSS flex in order to display the sample link
+    // messaging at the bottom.
+    display: flex;
+    position: relative;
+
+    // Sample link messaging.
+    &::after {
+      --text-color: var(--white);
+
+      background-color: rgba(0, 0, 0, 0.75);
+      bottom: 0;
+      content: 'View sample pages ↗';
+      display: block;
+      padding-block: 0.25rem;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+    }
+
+    // Book cover image.
+    img {
+      width: 100%;
+    }   
+  }
+
+  // Order section.
+  &-order {
+    padding-block: 2rem;
+    padding-inline: 4rem;
+    
+    background-color: var(--battleship-gray-light-20);
+    margin-block-end: 2rem;
+    padding-block: 2rem;
+
+    @media screen and ( min-width: $screen-md ) {
+      align-items: center;
+      display: grid;
+      gap: 6rem;
+      grid-template-columns: 1fr 2fr;
+    }
+
+    h2 {
+      margin-block: 0;
+    }
+
+    ul {
+      display: grid;
+      gap: 1.5rem 2rem;
+      grid-template-columns: repeat(auto-fit, minmax( 200px, 1fr));
+      list-style-type: none;
+      margin-inline-start: 0;
+
+      li { 
+        margin-block-end: 0;
+      }
+
+      a {
+        --text-color: var(--white);
+
+        background-color: var(--coral-red-dark-5);
+        box-shadow: 1px 1px 1px var(--black);
+        display: block;
+        padding-block: 0.5rem;
+        padding-inline: 1rem;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s ease;
+
+        &:focus,
+        &:hover {
+          background-color: var(--cat-writing);
+        }
+      }
+    }
+  }
+
+
+  // Origin story section.
+  &-origin {
+    padding-block: 4rem;
+    padding-inline: 2rem;
+
+    h2 {
+      margin-block-start: 0;
+    }
+
+    // Content should not exceed the mad-width.
+    div {
+      max-width: $max-width;
+    }
+
+    @media screen and ( max-width: $screen-md ) {
+      img {
+        display: block;
+        max-height: 400px;
+        max-width: 90%;
+      }
+    }
+
+    @media screen and ( min-width: $screen-md ) {
+      display: grid;
+      gap: 4rem;
+      grid-template-columns: minmax(33%, 300px) 2fr;
+      padding-inline-start: 0;
+    }
+  }
+
+
+  // Reviews section.
+  &-reviews {
+    padding-block-end: 6rem;
+
+    &:before {
+      background-image: url('/assets/images/sweet-little-you-sample.jpg');
+      background-position: center;
+      background-size: cover;
+      content: '';
+      display: block;
+      height: 300px;
+      width: 100%;
+    }
+
+    h2 {
+      margin-block-end: 4rem;
+      padding-inline: 4rem;
+    }
+
+    div {
+      display: grid;
+      gap: 4rem;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      padding-inline: 4rem;
+    }
+
+    blockquote {
+      // Add a quote mark icon to the block.
+      @extend .ri-double-quotes-l;
+
+      &:before {
+        // Make sure we use the icon font, because we are extending the icon
+        // class instead of using it directly.
+        --font-family: "remixicon" !important;
+        --font-size: 6rem;
+        --line-height: 0;
+        --text-color: var(--tangerine);
+
+        left: -1rem;
+        position: absolute;
+        top: 0.5rem;
+        z-index: 0;
+      }
+
+      background-color: var(--battleship-gray-light-35);
+      box-shadow: 1px 1px 3px var(--battleship-gray);
+      padding-block: 4rem;
+      padding-inline: 4rem;
+      position: relative;
+
+      p {
+        margin-block-end: 0;
+
+        // Just in case there is overlap between the content and icon.
+        z-index: 1;
+      }
+
+      cite {
+        &::before {
+          content: '';
+          display: block;
+          border-block-start: 4px solid var(--tangerine);
+          margin-block-end: 0.5rem;
+          margin-block-start: 2rem;
+          width: 20%;
+        }
+      }
+    }
+  }
+}

@@ -1,60 +1,65 @@
 ---
 ---
 
-@import '00-global/colors';
-@import '00-global/fonts';
-@import '00-global/sizes';
-@import '00-global/reset';
+// Base definitions
+@import '00-base/colors';
+@import '00-base/sizes';
+@import '00-base/typography';
+@import '00-base/reset';
 
-@import '00-layout/body';
-@import '00-layout/main';
-@import '00-layout/section';
 
-@import '00-utilities/make-full-width';
+// Utility classes
+@import '01-utility/fixed-width';
+@import '01-utility/sr-only';
 
-@import '00-utilities/has-background';
-@import '00-utilities/icons';
-@import '00-utilities/sr-only';
 
-@import '01-atoms/blockquote';
-@import '01-atoms/code';
-@import '01-atoms/figure';
-@import '01-atoms/headings';
-@import '01-atoms/highlight';
-@import '01-atoms/hr';
-@import '01-atoms/image';
-@import '01-atoms/input';
-@import '01-atoms/link';
-@import '01-atoms/list';
-@import '01-atoms/paragraph';
-@import '01-atoms/sup';
-@import '01-atoms/table';
+// Page layout elements
+@import '02-layout/nameplate';
+@import '02-layout/nav-primary';
+@import '02-layout/site-footer';
+@import '02-layout/site-header';
+@import '02-layout/skip-link';
+@import '02-layout/tagline';
 
-@import '02-molecules/archive-container';
-@import '02-molecules/article-snip';
-@import '02-molecules/book-section';
-@import '02-molecules/category-list';
-@import '02-molecules/contact-options';
-@import '02-molecules/footnotes';
-@import '02-molecules/latest-post';
-@import '02-molecules/nameplate';
-@import '02-molecules/nav-primary';
-@import '02-molecules/pagination';
-@import '02-molecules/plugin-examples';
-@import '02-molecules/post-meta';
-@import '02-molecules/post-share';
-@import '02-molecules/review';
-@import '02-molecules/site-footer';
-@import '02-molecules/site-header';
-@import '02-molecules/speaking-details';
-@import '02-molecules/tagline';
-@import '02-molecules/tool-list';
-@import '02-molecules/work-examples';
-@import '02-molecules/work-links';
 
-@import '03-pages/book';
-@import '03-pages/book-media';
-@import '03-pages/plugin';
-@import '03-pages/reading';
+// HTML tags
+@import '03-tags/body';
+@import '03-tags/code';
+@import '03-tags/definition-list';
+@import '03-tags/headings';
+@import '03-tags/image';
+@import '03-tags/link';
+@import '03-tags/list';
+@import '03-tags/paragraph';
 
-@import '04-vendor/dracula';
+
+// Components -- e.g. more complex, reusable blocks
+@import '04-components/button-row';
+@import '04-components/categories';
+@import '04-components/category-list';
+@import '04-components/footnotes';
+@import '04-components/pagination';
+@import '04-components/post-excerpt';
+
+
+// Pages -- default template first
+@import '05-pages/default';
+
+
+// Pages -- the rest
+@import '05-pages/book';
+@import '05-pages/coding';
+@import '05-pages/contact';
+@import '05-pages/blog';
+@import '05-pages/home';
+@import '05-pages/plugin';
+@import '05-pages/post';
+@import '05-pages/press-kit';
+@import '05-pages/speaking';
+
+
+// Imported styles for code highlighting.
+@import '06-vendor/dracula';
+
+// Imported styles for the icon font.
+@import '06-vendor/remixicon';

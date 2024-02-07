@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "February Photo a Day #12"
+title: "February photo a day #12"
 date: "2013-02-12"
+redirect_from: "/blog/february-photo-a-day-day-12"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 I had a really bad day today.  I had some conversations that verged on the completely ridiculous, which made my day... well... ridiculous.  How do I cope?  I baked!  In my office!  Well... home office.  This telecommuting thing can be kind of awesome sometimes.

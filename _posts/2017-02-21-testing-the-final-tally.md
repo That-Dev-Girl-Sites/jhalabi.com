@@ -2,10 +2,12 @@
 layout: post
 title: "Testing, the final tally"
 date: "2017-02-21"
+redirect_from: "/blog/testing-the-final-tally"
 categories:
   - pregnancy
 tags:
   - conception
+excerpt: I am finally (gloriously) done with the testing phase.
 ---
 
 I am finally (gloriously) done with the testing phase. I actually finished last week, but have been procrastinating writing about it.

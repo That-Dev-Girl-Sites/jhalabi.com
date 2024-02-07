@@ -1,0 +1,72 @@
+/**
+ * Pages: Coding
+ */
+
+.coding {
+  // Introduction section.
+  &-intro {
+    @extend .fixed-width;
+
+    padding-block-start: 2rem;
+  }
+
+
+  // Resume links section.
+  &-resume {
+    @extend .button-row;
+
+    background-color: var(--battleship-gray);
+    padding-block: 4rem;
+    padding-inline: 4rem;
+  }
+
+
+  // Featured projects section.
+  &-featured {
+    padding-block: 2rem;
+    padding-inline: 4rem;
+
+    h2 {
+      margin-block-end: 4rem;
+    }
+
+    // List of projects.
+    ul {
+      display: grid;
+      gap: 1rem 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      list-style-type: none;
+      margin-inline-start: 0;
+    }
+  }
+
+
+  // Individual project block.
+  &-project {
+
+    border: 1px solid var(--black);
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 100px 1fr;
+    padding-block: 1rem;
+    padding-inline: 1.5rem;
+
+    h3 {
+      --line-height: 1.5;
+
+      margin-block-start: 0.5rem;
+    }
+
+    p {
+      --font-size: var(--type-p-smaller);
+    }
+
+    // Button style overrides for this page.
+    .button {
+      @extend .on-white;
+
+      margin-block-start: 0;
+      padding-block: 0.5rem;      
+    }
+  }
+}

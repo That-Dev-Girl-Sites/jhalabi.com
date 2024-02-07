@@ -1,8 +1,8 @@
 ---
-layout: tag-pregnancy
-title: My Pregnancy Story - Conception
+layout: tag
+title: 'My Pregnancy Story: Planning'
 category: conception
 main: pregnancy
 ---
 
-Articles about my solo conception experience via a fertility clinic.
+Stories about my solo conception experience, using an anonymous donor, some amazing doctors, and a fertility clinic.

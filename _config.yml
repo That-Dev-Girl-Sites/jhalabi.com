@@ -12,9 +12,15 @@ timezone: America/New_York
 icons: '/assets/icons'
 images: '/assets/images'
 
-permalink: /blog/:title
-paginate: 20
-paginate_path: "/blog/page:num/"
+permalink: '/blog/:year/:month/:day/:title/'
+
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  sort_reverse: true
+
+excerpt_separator: .
 
 highlighter: rouge
 
@@ -24,5 +30,5 @@ sass:
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-redirect-from

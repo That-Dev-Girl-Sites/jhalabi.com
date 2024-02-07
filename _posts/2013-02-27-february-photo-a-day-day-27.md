@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "February Photo a Day #27"
+title: "February photo a day #27"
 date: "2013-02-27"
+redirect_from: "/blog/february-photo-a-day-day-27"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 The photo subject for the 27th: "playing".  Now, I don't really play that often.  At least, not the way I think of playing.  It has been forever since I jumped rope... or played hopscotch... or tag... or make believe with dolls.  (Ignore the fact that my house is littered with stuffed animals.)

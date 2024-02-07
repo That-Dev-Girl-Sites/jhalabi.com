@@ -2,10 +2,12 @@
 layout: post
 title: "Feelings from the inside"
 date: "2018-06-28"
+redirect_from: "/blog/feelings-from-the-inside"
 categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: I haven't yet written about what it feels like to actually have another human growing inside you.
 ---
 
 It just occurred to me that I haven't written about what it feels like to actually have another human growing inside you. To be honest, I'm not even sure how to describe it.

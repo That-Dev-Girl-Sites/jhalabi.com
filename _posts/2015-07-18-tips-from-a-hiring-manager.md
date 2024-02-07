@@ -2,8 +2,10 @@
 layout: post
 title: "I need a job!: 4 tips from a hiring manager"
 date: "2015-07-18"
+redirect_from: "/blog/tips-from-a-hiring-manager"
 categories:
   - life
+excerpt: I have seen many amazing candidates and many less-than-amazing candidates.
 ---
 
 The job market has been really fantastic for developers, so much so that technical immersion programs, like [General Assembly](https://generalassemb.ly/) and the Iron Yard, have become increasingly popular.  More developers than ever are entering the market, yet unemployment (at least in DC) is near zero (according to several local recruiters I have spoken to).

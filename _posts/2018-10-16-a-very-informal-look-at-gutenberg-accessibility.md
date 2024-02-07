@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "A Very Informal Look at Gutenberg Accessibility"
+title: "A very informal look at Gutenberg accessibility"
 date: "2018-10-16"
+redirect_from: "/blog/a-very-informal-look-at-gutenberg-accessibility"
 categories:
   - accessibility
   - wordpress
+excerpt: The recent updates to the upcoming WordPress 5.0 release, specifically the new Gutenberg editor, appears to have some accessibility issues.
 ---
 
 We have been working all year to replatform our websites at work from Drupal to WordPress. We decided to go with WordPress for many reasons, one of the biggest being its admin UI.  The WordPress edit screen, especially when compared to the Drupal edit screen, has historically been intuitive and preferred by content editors. In fact, many of my clients in the past have asked to switch their websites from Drupal (or similarly complex systems) to WordPress because of WordPress's UI advantages.
@@ -115,7 +117,7 @@ A new paragraph block was created after I pressed `Enter` after my first paragra
 
 So, I decided to try to add the Image block using the regular "Add Block" button. But first, I had to get to that button.
 
-There are actually 2 "Add Block" buttons - one to the left of the currently selected block and one at the very top of the edit screen. I went for the one on the selected block first. I was able to tab to that button, but after tabbing through the "most used" block buttons. That worked, but it was an odd experience, since I expected to tab between elements from left to right, top to bottom.
+There are actually 2 "Add Block" buttons: one to the left of the currently selected block and one at the very top of the edit screen. I went for the one on the selected block first. I was able to tab to that button, but after tabbing through the "most used" block buttons. That worked, but it was an odd experience, since I expected to tab between elements from left to right, top to bottom.
 
 <figure markdown="1">
 ![The add block button next to the paragraph block]({{ site.url }}/assets/images/posts/gutenberg-add-block.jpg)
@@ -141,7 +143,7 @@ After that last block, I was able to tab into the inspector panel, but it was th
 
 I am done with trying to figure out  the options for my image, so I am just going to publish this post. I tabbed out of the last block of my post and discovered a skip link labelled "Open publish panel". Well, now. That is convenient!
 
-I clicked on that skip link and the publish panel opened. The "Publish" button had focus and was highlighted (though, the highlight blended into the button). I pressed enter and - _voila!_ - my post was published!
+I clicked on that skip link and the publish panel opened. The "Publish" button had focus and was highlighted (though, the highlight blended into the button). I pressed enter and -- _voila!_ -- my post was published!
 
 I lost focus after the post was published, but one forward tab took me to the "Close panel" button for the publish panel. I lost focus again when I closed that panel.
 
@@ -161,4 +163,4 @@ It appears the Gutenberg did think about _some_ accessibility features, but it i
 
 The community has also logged a bunch of [Gutenberg accessibility issues](https://github.com/WordPress/gutenberg/issues?q=is%3Aissue+is%3Aopen+tab+label%3AAccessibility) and I suspect this list will grow once (if) an accessibility audit is performed.
 
-Ultimately, I like Gutenberg. Well, really, I like the _idea_ of Gutenberg. There are definitely quirks in the UI for all users and very definitely issues for users with accessibility needs. I hope the editor gets better, but it seems that the fixes will require large systemic changes, which will take a lot of time. I would love it if Gutenberg launched _after_ fixing these issues - at the very least to get the editor to WCAG A compliance before launch.
+Ultimately, I like Gutenberg. Well, really, I like the _idea_ of Gutenberg. There are definitely quirks in the UI for all users and very definitely issues for users with accessibility needs. I hope the editor gets better, but it seems that the fixes will require large systemic changes, which will take a lot of time. I would love it if Gutenberg launched _after_ fixing these issues, at the very least to get the editor to WCAG A compliance before launch.

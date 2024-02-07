@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "So. Many. Questions."
+title: "So many questions"
 date: "2017-12-20 14:46:00"
+redirect_from: "/blog/so-many-questions"
 categories:
   - pregnancy
 tags:
   - first trimester
+excerpt: As I tell more people about my pregnancy as a single mother-to-be, I have gotten a lot of questions.
 ---
 
 As I begin to tell more and more people about my pregnancy as a single mother-to-be, I have gotten a lot of questions. So many, that I decided to keep a list.

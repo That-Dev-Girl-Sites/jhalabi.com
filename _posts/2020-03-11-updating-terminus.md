@@ -2,8 +2,10 @@
 layout: post
 title: "Updating Terminus: A guide for Pantheon users"
 date: "2020-03-11"
+redirect_from: "/blog/updating-terminus"
 categories:
   - development
+excerpt: If you are a developer who hosts your sites on Pantheon, I would be willing to bet that you also use Terminus.
 ---
 
 If you are a developer who hosts your sites on Pantheon, I would be willing to bet that you also use [Terminus](https://pantheon.io/docs/terminus/). For all you Terminus users, a message like this probably looks familiar:

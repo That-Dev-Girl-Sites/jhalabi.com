@@ -2,8 +2,10 @@
 layout: post
 title: "Was my degree a mistake?"
 date: "2022-08-26"
+redirect_from: "/blog/degree-a-mistake"
 categories:
   - development
+excerpt: With the latest news about exponentially-rising tuition costs and student debt forgiveness, I keep asking myself whether college was truly necessary.
 ---
 
 With the latest news about exponentially-rising tuition costs and student debt forgiveness, I keep asking myself whether college was truly necessary. Truth be told, I have been asking that quite a bit over the years.
@@ -12,7 +14,7 @@ I went to college in the late 1990s, starting off as a dual major in computer sc
 
 About a year into the program, I made a life-changing discovery. I cannot stand calculus. As in, I would have rather watched a video upload via a 28k modem[^1] than solved a differential equation. This was a bit of a problem, being a physics major.
 
-I was not a huge fan of the computer science program either. At that point, I had discovered the internet and immediately fell in love. I taught myself HTML, CSS, and a little bit of Javascript outside of my classes. Creating a website was far more rewarding than writing C++ and STL code that took forever to compile and often crashed my computer. These computer science course programs seemed to neither work nor bring me joy.
+I was not a huge fan of the computer science program either. At that point, I had discovered the internet and immediately fell in love. I taught myself HTML, CSS, and a little bit of JavaScript outside of my classes. Creating a website was far more rewarding than writing C++ and STL code that took forever to compile and often crashed my computer. These computer science course programs seemed to neither work nor bring me joy.
 I switched my major, keeping computer science, but adding on electronic media as a second major. I thought the combination of the two could come close to a "web design and development" degree. I know this degree exists now, but there was no such thing back in the 90s, so this was close enough.
 
 ## Fast forward to today.

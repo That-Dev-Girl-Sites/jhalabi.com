@@ -2,8 +2,10 @@
 layout: post
 title: "#amWriting"
 date: "2021-11-17"
+redirect_from: "/blog/am-writing"
 categories:
   - writing
+excerpt: It has been a busy year, and I have a big announcement!
 ---
 
 It has been a busy year! Between running after my newly-minted preschooler, excitedly settling into life as a fully remote worker, and remodeling our kitchen, you would think I would have time for little else.

@@ -2,9 +2,11 @@
 layout: post
 title: "I'm lost!: A brief introduction to web landmarks"
 date: "2017-07-20"
+redirect_from: "/blog/brief-intro-to-landmarks"
 categories:
   - accessibility
   - development
+excerpt: Let’s pretend for a minute that you are a new visitor to Washington DC.
 ---
 
 Let’s pretend for a minute that you are a new visitor to Washington DC. You look around and see a lot of streets, buildings, and other structures. You need to get from one point in the city to another. You ask me, a local, for directions. I could give you directions like this:

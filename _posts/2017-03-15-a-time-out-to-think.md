@@ -2,10 +2,12 @@
 layout: post
 title: "A time-out to think"
 date: "2017-03-15"
+redirect_from: "/blog/a-time-out-to-think"
 categories:
   - pregnancy
 tags:
   - conception
+excerpt: My doctor-imposed 2-month delay on starting my treatment has given me a lot of time to think.
 ---
 
 My doctor-imposed 2-month delay on starting my treatment _(thank you chicken pox immunity woes)_ has given me a lot of time to think. Too much time, really.

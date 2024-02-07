@@ -2,10 +2,12 @@
 layout: post
 title: "I live in doctors' offices now"
 date: "2017-12-20 14:38:00"
+redirect_from: "/blog/i-live-in-doctors-offices-now"
 categories:
   - pregnancy
 tags:
   - first trimester
+excerpt: I am now 8 weeks pregnant and just had my first OB appointment today.
 ---
 
 I am now 8 weeks pregnant and just had my first OB appointment today. Everything went smoothly. Pap smear... check! Breast exam... check! Consult with my OB... check! Five vials of blood taken for **all** the tests... check!
@@ -16,7 +18,7 @@ All of that really means that I need to have roughly 523 more appointments and t
 
 ## Genetic screening
 
-Because of my "high risk" status, genetic screening is medically necessary, to test for things like Downs Syndrome and Trisomy 18. There are 2 different tests that I can take - one at 10 weeks that tests for those conditions plus a host of other things and one at 12-14 weeks that tests for those conditions plus looks at an ultrasound of the kiddo.
+Because of my "high risk" status, genetic screening is medically necessary, to test for things like Downs Syndrome and Trisomy 18. There are 2 different tests that I can take: one at 10 weeks that tests for those conditions plus a host of other things and one at 12-14 weeks that tests for those conditions plus looks at an ultrasound of the kiddo.
 
 Fortunately, both are covered by my insurance because of my "advanced maternal age." Age has its perks, kids!
 

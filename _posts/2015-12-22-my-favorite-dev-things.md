@@ -2,11 +2,13 @@
 layout: post
 title: "A few of my favorite (dev) things"
 date: "2015-12-22"
+redirect_from: "/blog/my-favorite-dev-things"
 categories:
   - development
+excerpt: I started teaching a web development class and I have been thinking a lot about what happens after class is over.
 ---
 
-I started teaching a web development class and I have been thinking a lot about what happens after class is over.  My students will learn a bunch of HTML and CSS and a bit of Javascript over the course of 10 weeks.  After that, development gets harder.
+I started teaching a web development class and I have been thinking a lot about what happens after class is over.  My students will learn a bunch of HTML and CSS and a bit of JavaScript over the course of 10 weeks.  After that, development gets harder.
 
 There are _so many_ options about what languages to learn, platforms to work with, and frameworks to use.  New languages and libraries are released constantly.  New versions of these languages and libraries are released constantly.  There are always new techniques, standards, and tips to play with.
 
@@ -33,7 +35,7 @@ There is no single right answer to this question (though there are plenty of wro
 
 ## E-mail
 
-* [Javascript Weekly](http://javascriptweekly.com/) - I am a Javascript developer. This makes sense.
+* [JavaScript Weekly](http://javascriptweekly.com/) - I am a JavaScript developer. This makes sense.
 * [Responsive Design Weekly](https://responsivedesign.is/newsletter/) - Weekly e-mail newsletter, all about responsive design.
 * [Smashing Magazine Newsletter](https://www.smashingmagazine.com/the-smashing-newsletter/) - Great tips and tricks for both designers and developers.  News about fonts, design trends, responsive tricks and more.
 

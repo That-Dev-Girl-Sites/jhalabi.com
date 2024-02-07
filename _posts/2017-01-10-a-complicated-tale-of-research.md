@@ -2,10 +2,12 @@
 layout: post
 title: "A complicated tale of research"
 date: "2017-01-10 12:23:00"
+redirect_from: "/blog/a-complicated-tale-of-research"
 categories:
   - pregnancy
 tags:
   - conception
+excerpt: This is a tale of two fertility clinics.
 ---
 
 This is a tale of two fertility clinics. I do not want to use names, so I’ll call them _Clinic Alpha_ and _Clinic Beta_ here.

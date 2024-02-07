@@ -1,8 +1,8 @@
 ---
-layout: tag-pregnancy
-title: My Pregnancy Story - Postpartum
+layout: tag
+title: 'My Pregnancy Story: Production Release!'
 category: postpartum
 main: pregnancy
 ---
 
-Articles about what happened after Amelia was born in late July 2018.
+Stories about giving birth and a brief look at my postpartum experience, late July 2018.

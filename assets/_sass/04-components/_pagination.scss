@@ -1,0 +1,77 @@
+/**
+ * Components: Pagination
+ */
+
+.pagination {
+  margin-block-start: 4rem;
+
+
+  // Label.
+  p {
+    --font-weight: bold;
+
+    margin-block-end: 0.5rem;
+  }
+
+
+  // Links, general.
+  ul {
+    list-style-type: none;
+    margin-inline-start: 0;
+
+    li {
+      display: inline-block;
+      text-align: center;
+    }
+
+    // Any links that are page numbers.
+    a:not(.pagination-advance) {
+      --text-color: var(--black);
+
+      border: 1px solid var(--silver);
+      display: inline-block;
+      padding-inline: 0.5rem;
+      text-decoration: none;
+      transition: all 0.5s ease;
+      width: 2.75rem;
+
+      &:focus,
+      &:hover {
+        --text-color: var(--white);
+
+        background-color: var(--coral-red-dark-20);
+        border-color: var(--coral-red-dark-20);
+      }
+    }
+  }
+
+
+  // Current link.
+  &-current {
+    --text-color: var(--white);
+
+    background-color: var(--dark-purple);
+    border: 1px solid var(--dark-purple);
+    display: inline-block;
+    padding-inline: 0.5rem;
+    width: 2.75rem;
+  }
+
+
+  // Previous link.
+  &-prev {
+    padding-inline-end: 1rem;
+  }
+
+
+  // Next link.
+  &-next {
+    padding-inline-start: 1rem;
+  }
+
+
+  // Inactive links.
+  &-inactive {
+    --text-color: var(--battleship-gray);
+  }
+}

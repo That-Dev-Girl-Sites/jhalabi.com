@@ -1,0 +1,25 @@
+<article class="post-excerpt" aria-label="{{ post.title | strip_html }}">
+
+  <p class="date">
+    {{ post.date | date_to_long_string }}
+  </p>
+
+  <h3>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h3>
+
+  {% if post.hide_excerpt != "true" %}
+    <p>
+      {{ post.excerpt }}
+    </p>
+  {% endif %}
+
+  {% if include.omit_categories != "true" %}
+    <p class="categories">
+      {% for category in post.categories %}
+        <a href="/blog/{{category | replace: '_', '-' }}/" class="category {{category | replace: '_', '-' }}">{{ category | replace: "_", " " }}</a>
+      {% endfor %}
+    </p>
+  {% endif %}
+
+</article>

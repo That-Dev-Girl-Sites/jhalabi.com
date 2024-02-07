@@ -2,10 +2,12 @@
 layout: post
 title: "Pregnancy is not for the weak"
 date: "2018-02-22"
+redirect_from: "/blog/pregnancy-is-not-for-the-weak"
 categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I'm going to start out this post by saying everything is fine.
 ---
 
 I'm going to start out this post by saying everything is fine. I am fine. The kiddo is fine. Fine. _(Spoiler alert?)_

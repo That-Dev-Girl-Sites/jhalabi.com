@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Published."
+title: "Published"
 date: "2022-08-19"
+redirect_from: "/blog/published"
 categories:
   - writing
+excerpt: I am a published author.
 ---
 
 I am a published author.

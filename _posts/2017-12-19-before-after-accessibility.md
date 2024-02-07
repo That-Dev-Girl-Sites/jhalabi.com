@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "The Accessibility of ::before and ::after"
+title: "The accessibility of ::before and ::after"
 date: "2017-12-19"
+redirect_from: "/blog/before-after-accessibility"
 categories:
   - accessibility
   - development
+excerpt: I was recently reading a tutorial on how to use CSS counters.
 ---
 
-I was recently reading a tutorial on [how to use CSS counters](https://pineco.de/using-css-counters/). They look great! CSS counters are a new feature of CSS that allow us as developers to enumerate elements in the DOM and then do something with that information. There are plenty of practical uses for this - from numbering highlighted blocks in the text to creating complex nested ordered list bullets. _(I mean, we've all read government documents that include bullet point 13.2.4.1.  Right?)_
+I was recently reading a tutorial on [how to use CSS counters](https://pineco.de/using-css-counters/). They look great! CSS counters are a new feature of CSS that allow us as developers to enumerate elements in the DOM and then do something with that information. There are plenty of practical uses for this -- from numbering highlighted blocks in the text to creating complex nested ordered list bullets. _(I mean, we've all read government documents that include bullet point 13.2.4.1.  Right?)_
 
 All of these implementations involve using the `::before` or `::after` CSS pseudo-selectors in order to display the counter information on the page, before a particular block. With all of my work with accessibility this year, it begged the question: *Is CSS-generated content accessible?*
 

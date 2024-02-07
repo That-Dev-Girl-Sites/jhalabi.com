@@ -2,10 +2,12 @@
 layout: post
 title: "Registry making"
 date: "2018-03-12"
+redirect_from: "/blog/registry-making"
 categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I have finally started working on my baby registry.
 ---
 
 I have finally started working on my baby registry. I have been feeling quite a bit of angst about this whole registry-making process for a number of reasons:

@@ -2,14 +2,16 @@
 layout: post
 title: "WordPress dynamic block registration, with special guest JSON!"
 date: "2021-10-27"
+redirect_from: "/blog/wordpress-block-json"
 categories:
   - development
   - wordpress
+excerpt: WordPress 5.8 introduced the ability to use a block.json file to register and configure custom blocks.
 ---
 
 My last blog post was about [WordPress theme customization with JSON](/blog/wordpress-customization). It seems only fitting that I follow that up _(nearly 6 months later... yikes!)_ with a new post about custom block registration and, you guessed it, JSON!
 
-[WordPress 5.8](https://wordpress.org/support/wordpress-version/version-5-8/) introduced the ability to use a `block.json` file to register and configure custom blocks. This is a huge step towards minimizing (and possibly eliminating) the amount of Javascript needed to create a new block. 
+[WordPress 5.8](https://wordpress.org/support/wordpress-version/version-5-8/) introduced the ability to use a `block.json` file to register and configure custom blocks. This is a huge step towards minimizing (and possibly eliminating) the amount of JavaScript needed to create a new block. 
 
 There is documentation about [block creation](https://developer.wordpress.org/block-editor/getting-started/create-block/block-anatomy/), which now includes information on how JSON fits into this process. There is also documentation about [dynamic block creation](https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/creating-dynamic-blocks/). Personally, I prefer [creating dynamic blocks over static blocks](https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors/demand). There is some [pushback and discusson](https://github.com/WordPress/gutenberg/discussions/35918) about this. However, I'm going to leave that for another blog post.
 
@@ -53,7 +55,7 @@ I started by moving my block meta information, attributes, supports, and example
 }
 ```
 
-Then, I updated my Javascript registration function, so that now it only includes edit and save functions:
+Then, I updated my JavaScript registration function, so that now it only includes edit and save functions:
 
 ```javascript
 const { registerBlockType } = wp.blocks;
@@ -120,9 +122,9 @@ new Book;
 
 Nope.
 
-To be fair, I was not _that_ far off, but this copy-paste-delete approach omits some crucial details. The biggest issue is that neither the Javascript nor the PHP have any way of knowing that `block.json` exists. Oops.
+To be fair, I was not _that_ far off, but this copy-paste-delete approach omits some crucial details. The biggest issue is that neither the JavaScript nor the PHP have any way of knowing that `block.json` exists. Oops.
 
-So, first, let's tell the Javascript about the JSON. This part is pretty easy, involving 2 steps:
+So, first, let's tell the JavaScript about the JSON. This part is pretty easy, involving 2 steps:
 
 1. Import `block.json` into the JS.
 2. Replace the block name with the imported JSON in the registration function.
@@ -198,7 +200,7 @@ And... that's it! For those of you who just want to copy and paste the final ver
 }
 ```
 
-### Javascript
+### JavaScript
 
 ```javascript
 import BookJson from './block.json';

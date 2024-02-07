@@ -2,8 +2,10 @@
 layout: post
 title: "Talking to clients about mobile"
 date: "2014-10-22"
+redirect_from: "/blog/talking-to-clients-about-mobile"
 categories:
   - user-experience
+excerpt: I moderated a discussion with UX designers and developers that focused on “adaptive” vs “responsive” websites.
 ---
 
 I recently moderated a discussion with UX designers and developers that focused on “adaptive” vs “responsive” websites and how to talk to clients about these terms.  We started out by establishing common definitions for each term:

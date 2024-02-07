@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Induction Scheduling"
+title: "Induction scheduling"
 date: "2018-07-19"
+redirect_from: "/blog/induction-scheduling"
 categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: I just left one of my final OB appointments. 
 ---
 
 I just left one of my final OB appointments. This particular appointment involved a cervical exam to see if I am dilated.

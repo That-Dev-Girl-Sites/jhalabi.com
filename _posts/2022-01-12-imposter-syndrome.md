@@ -2,11 +2,13 @@
 layout: post
 title: "Imposter syndrome, the sequel"
 date: "2022-01-12"
+redirect_from: "/blog/imposter-syndrome"
 categories:
   - writing
+excerpt: I've been thinking a lot lately about my early career as a developer.
 ---
 
-I've been thinking a lot lately about my early career as a developer. Getting a CS degree was hard - harder than it needed to be. My classes were filled with C++ and _(mid-1990s)_ Java. Those languages were neither easy or pretty. I learned HTML and CSS on my own. _(It was the 90s. Web development degrees didn't exist then.)_ I struggled with (presentational) Javascript.
+I've been thinking a lot lately about my early career as a developer. Getting a CS degree was hard -- harder than it needed to be. My classes were filled with C++ and _(mid-1990s)_ Java. Those languages were neither easy or pretty. I learned HTML and CSS on my own. _(It was the 90s. Web development degrees didn't exist then.)_ I struggled with (presentational) JavaScript.
 
 ## Early career options
 
@@ -14,7 +16,7 @@ My favorite thing about the web was its immediacy. I could imagine something, wr
 
 For a while, I thought an art degree was more my speed. I got that degree and promptly realized that art was definitely not for me. So, I started working in tech.
 
-Over the years, I wrote code. I learned new languages. I re-learned Javascript alone at least 3 times.[^1] I moved from a purely front-end developer to an application / functionality layer developer.
+Over the years, I wrote code. I learned new languages. I re-learned JavaScript alone at least 3 times.[^1] I moved from a purely front-end developer to an application / functionality layer developer.
 
 However, through most of my career, I had imposter syndrome. I had it so hard. It was worse early on, when I was working with developers who were clearly more senior. I was expected to produce the same quality code. Mentoring would have been awesome, but my jobs were mostly a learn-as-you-go kind of situation.
 
@@ -48,7 +50,7 @@ So, here I am. Advocating for my vision _(to myself and others)_. Researching th
 
 
 
-[^1]: At least, it feels like I have re-learned Javascript 3 times. The language has changed so much, I barely recognize my early code now.
+[^1]: At least, it feels like I have re-learned JavaScript 3 times. The language has changed so much, I barely recognize my early code now.
 [^2]: Let's face it. Imposter syndrome never completely goes away. Minimal imposter is the best case scenario inmy book.
 [^3]: Don't worry. I'm still a code nerd. I _also_ wrote a book.
 [^4]: Yes, I know blogs count as writing. Not where my brain is going right now.

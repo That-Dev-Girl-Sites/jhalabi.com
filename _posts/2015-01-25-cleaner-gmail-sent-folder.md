@@ -2,8 +2,10 @@
 layout: post
 title: "Cleaner Gmail sent folder"
 date: "2015-01-25"
+redirect_from: "/blog/cleaner-gmail-sent-folder"
 categories:
   - life
+excerpt: I just started a new job where all communication is managed via Google
 ---
 
 I just started a new job where all communication is managed via Google – e-mail, calendar, and chat.  This being my first intensive experience with Gmail, I quickly discovered that the sent folder will drive me crazy.

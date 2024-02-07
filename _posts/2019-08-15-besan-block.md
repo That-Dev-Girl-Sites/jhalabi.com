@@ -2,9 +2,11 @@
 layout: post
 title: "Besan Block: A long time coming"
 date: "2019-08-15"
+redirect_from: "/blog/besan-block"
 categories:
   - development
   - wordpress
+excerpt: A few times a year, we hold an internal event at work that we call "Serendipity Day."
 ---
 
 A few times a year, we hold an internal event at work that we call "Serendipity Day." We use this day, inspired by [NPR](https://npr.codes/serendipity-at-npr-5fb185bb5864), to work on projects that are somewhat work related, but have been sitting on our back burners for a while. Sometimes we use this day to research a new topic. More often than not, though, we use this day to build something new.

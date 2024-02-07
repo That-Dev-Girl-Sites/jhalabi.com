@@ -1,27 +1,30 @@
 ---
-layout: main
+layout: default
 title: Contact
 ---
 
-I love hearing from people and talking tech. However — to put it bluntly — I have a very active kid. And a full time gig. And a kid (who has attained "big girl" status). And a [book](/book) that I'm promoting. Did I mention my big girl?
+<section markdown="1" class="contact-intro" aria-label="Introduction">
 
-Regardless, please don't let this scare you off from sending me a message. Replies might just take a bit longer than expected. Let's chat!
+Hi there! I love hearing from people, but my days get pretty full between developing, parenting, and writing. Please reach out anyway, but it may take a few days (or weeks) for me to reply. 😀
 
-{:.contact-options}
-{:.icon .icon-envelope} <span class="sr-only">E-mail</span>
-: [joni@jhalabi.com](mailto:joni@jhalabi.com)
+* {:.contact-ifs} **If you want to chat about development:** I am all ears! I spend most of my time with WordPress, but would love to talk about anything techie.
+* {:.contact-ifs} **If you to chat about my book:** [_Sweet Little You_](/book) is available wherever books are sold _(and in several libraries!_). I am always happy to talk about my book and am available for author visits and readings.
+* {:.contact-ifs} **If you have parenting questions:** So do I. 
 
-{:.icon .icon-twitter} <span class="sr-only">Twitter</span>
-: [@jonihalabi](https://twitter.com/jonihalabi)
+<a href="mailto:joni@jhalabi.com" class="button">E-mail me directly</a>
 
-{:.icon .icon-mastodon} <span class="sr-only">Mastodon</span>
-: [@jonihalabi@higheredweb.social](https://higheredweb.social/@jonihalabi)
+</section>
 
-{:.icon .icon-goodreads} <span class="sr-only">Goodreads</span>
-: [goodreads.com/jonihalabi](https://www.goodreads.com/jonihalabi)
 
-{:.icon .icon-github} <span class="sr-only">GitHub</span>
-: [@thatdevgirl](https://github.com/thatdevgirl)
+<section markdown="1" class="contact-social" aria-label="Social media links">
 
-{:.icon .icon-linkedin} <span class="sr-only">LinkedIn</span>
-: [linkedin.com/in/jonihalabi](https://www.linkedin.com/in/jonihalabi/)
+## Prefer something less direct?
+
+If you would rather connect in a more passive way, let's connect on social media. Here are the networks where I am most active.
+
+* <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+* <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+* <a href="https://higheredweb.social/@jonihalabi" class="ri-mastodon-fill">Mastodon</a>
+* <a href="https://twitter.com/jonihalabi" class="ri-twitter-x-fill">Twitter/X</a>
+
+</section>

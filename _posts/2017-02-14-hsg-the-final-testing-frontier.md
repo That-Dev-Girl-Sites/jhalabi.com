@@ -2,10 +2,12 @@
 layout: post
 title: "HSG: The final (testing) frontier"
 date: "2017-02-14"
+redirect_from: "/blog/hsg-the-final-testing-frontier"
 categories:
   - pregnancy
 tags:
   - conception
+excerpt: This is an intense week of testing due to scheduling and where I am in my cycle.
 ---
 
 This is an intense week of testing due to scheduling and where I am in my cycle. I had my last test today, the HSG, or hysterosalpingogram. _(Say that five times fast.)_

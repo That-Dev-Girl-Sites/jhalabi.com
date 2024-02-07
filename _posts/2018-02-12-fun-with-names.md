@@ -2,10 +2,12 @@
 layout: post
 title: "Fun with names"
 date: "2018-02-12 13:54:00"
+redirect_from: "/blog/fun-with-names"
 categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: Since my pregnancy announcement, I have gotten a lot of name suggestions.
 ---
 
 Since my pregnancy announcement, and especially since my "it's a girl!" announcement, I have gotten _a lot_ of name suggestions. This is despite the fact that I have already decided on the kiddo's name.

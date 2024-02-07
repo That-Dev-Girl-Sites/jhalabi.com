@@ -2,8 +2,10 @@
 layout: post
 title: "Not making new year resolutions"
 date: "2016-12-31"
+redirect_from: "/blog/not-making-new-year-resolutions"
 categories:
   - life
+excerpt: At the end of 2015, I had asked for a stranger new year.
 ---
 
 It has been a year. Some of us have had a really rough year, while others had a pretty good year, but feel awkward admitting that 2016 wasn't all that bad.
@@ -18,6 +20,6 @@ This is the part where I make resolutions for next year, right?
 
 To be honest, I hate resolutions.  I resolve to run more or save more or read more or ride a unicorn across the country. And then do none of these things. And then feel bad when I look back and the end of the year and realize that I did none of these things.
 
-So, no resolutions here! My plan is to be realistic and do things that are useful or joyful.  Shoot - is that a resolution in disguise?
+So, no resolutions here! My plan is to be realistic and do things that are useful or joyful.  Shoot! Is that a resolution in disguise?
 
 Happy new year everyone!

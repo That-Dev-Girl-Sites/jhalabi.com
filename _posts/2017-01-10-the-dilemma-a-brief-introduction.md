@@ -2,10 +2,12 @@
 layout: post
 title: "The dilemma: A brief introduction"
 date: "2017-01-10 12:22:00"
+redirect_from: "/blog/the-dilemma-a-brief-introduction"
 categories:
   - pregnancy
 tags:
   - conception
+excerpt: I want a baby.
 ---
 
 I want a baby. I am also a single woman, a fact that does not seem to be changing anytime soon.

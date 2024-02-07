@@ -1,23 +1,27 @@
 {% include site-header.html %}
 
-<main id="main" class="main">
+<main class="blog" id="main">
 
   <h1>
-    I write about...
+    Articles About 
     {{ page.category | capitalize | replace: "-", " " | replace: "Wordpress", "WordPress" }}
   </h1>
 
   {{ page.content }}
 
-  <div class="archive-container">
-    <section aria-label="All articles about {{ page.category }}">
-      {% for post in site.categories[page.category] %}
-        {% include article-snip.html %}
+  <div class="blog-list">
+    <section aria-label="Articles about {{ page.category }}">
+      {% for post in paginator.posts %}
+        {% include post-excerpt.html %}
       {% endfor %}
     </section>
 
     {% include category-list.html %}
   </div>
+
+  {% if paginator.total_pages > 1 %}
+    {% include pagination.html %}
+  {% endif %}
 
 </main>
 

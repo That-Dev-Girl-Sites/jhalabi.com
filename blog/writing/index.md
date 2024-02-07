@@ -1,5 +1,8 @@
 ---
 layout: category
-title: Writing articles
+title: Writing blog
 category: writing
+pagination:
+  enabled: true
+  category: writing
 ---

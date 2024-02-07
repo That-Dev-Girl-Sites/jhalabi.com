@@ -2,11 +2,13 @@
 layout: post
 title: "YUI vs. jQuery"
 date: "2010-09-20"
+redirect_from: "/blog/yui-vs-jquery"
 categories:
   - development
+excerpt: Ever since I started my consulting gig, I have been learning so many new technologies.
 ---
 
-Ever since I started my consulting gig, I have been learning so many new _(or, rather, new to me)_ technologies.  Most of my learning experiences have centered around Javascript libraries – namely jQuery and YUI.  In light of the fact that I’ve only been consulting for about 9 months now, I’m going to preface this entire post with the fact that I definitely do not consider myself an expert in either of these libraries.
+Ever since I started my consulting gig, I have been learning so many new _(or, rather, new to me)_ technologies.  Most of my learning experiences have centered around JavaScript libraries –- namely jQuery and YUI.  In light of the fact that I’ve only been consulting for about 9 months now, I’m going to preface this entire post with the fact that I definitely do not consider myself an expert in either of these libraries.
 
 That being said, it really boggles the mind (or, at least my mind) that YUI requires so much more complexity than jQuery does.  I mean, sure, YUI has neat features like data tables.  (I am sure jQuery does too, but I have not found it just yet.) However, it seems to be a struggle to even perform basic functions in YUI.
 
@@ -60,7 +62,7 @@ And here is my YUI implementation:
 </script>
 ```
 
-In both cases, I am grabbing the base libraries required for what I need to do here.  YUI requires 3 server calls for 3 different library files, but the 1 library file for jQuery is almost twice as large than the sum of the YUI files.  (The jQuery file is 24.1KB, whereas the sum of the 3 YUI files is 13.5KB.) So, I’m going to call that a wash.
+In both cases, I am grabbing the base libraries required for what I need to do here.  YUI requires 3 server calls for 3 different library files, but the 1 library file for jQuery is almost twice as large than the sum of the YUI files.  (The jQuery file is 24.1KB, whereas the sum of the 3 YUI files is 13.5KB.) So, I am going to call that a wash.
 
 However, my real issue with YUI is that I need to declare 3 variables and include an if statement to update this text, whereas with jQuery, I can accomplish the same task in 1 line.  (I’m not counting the prevent default commands for either case here, since the 2 are basically equivalent.)
 

@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "About This Tech Girl"
+title: "About this tech girl"
 date: "2015-04-22"
+redirect_from: "/blog/about-this-tech-girl"
 categories:
   - life
+excerpt: There have been a lot of stories in the news about gender issues in the tech world.
 ---
 
 There have been a lot of stories in the news about gender issues in the tech world. The [Ellen Pao case](https://slate.com/business/2015/03/ellen-pao-trial-the-lawsuit-brought-awareness-to-workplace-sexism-but-the-setbacks-are-gripping.html). [Gamergate](https://gawker.com/what-is-gamergate-and-why-an-explainer-for-non-geeks-1642909080). The [dongle joke](https://techcrunch.com/2013/03/21/a-dongle-joke-that-spiraled-way-out-of-control/) at Pycon.  The [gender gap](http://www.usatoday.com/story/tech/2015/03/26/silicon-valley-gender-gap-widening/70444276/) in the tech industry.  The list goes on and on. And now today, an LA Times article came out asking [why women are leaving the tech industry](https://www.latimes.com/business/la-fi-women-tech-20150222-story.html).
@@ -16,7 +18,7 @@ And it _is_ OK to be girly and be techie... as long as that is who you actually
 
 ## My Un-Style
 
-My style is really not.  I have (many, many) days I just want to wear yoga pants and and a tank top and call it good.  If it weren't for corporate dress codes, that outfit would happen way more often.  I also wear - and even (mostly) like - dresses.  But on those days, I also make jokes about how I'm not wearing any pants.
+My style is really not.  I have (many, many) days I just want to wear yoga pants and and a tank top and call it good.  If it weren't for corporate dress codes, that outfit would happen way more often.  I also wear, and even (mostly) like, dresses.  But on those days, I also make jokes about how I'm not wearing any pants.
 
 I don't like spending that much time getting ready in the morning because, frankly, I have better things to do.  I don't wear makeup and my hair is always in a ponytail because it is easy.  And while I wear dresses, anyone will tell you that I will happily sit on the floor in that dress as long as I'm pretty sure I won't flash someone.
 
@@ -34,6 +36,6 @@ I have pretty much constructed my life and career around what feels right.  Yes
 
 ## So... who am I?
 
-I am a woman.  I am a professional geek.  I am girly and not girly at the same time.  I am who I am - quirks and all - and I own every quirk that I have.  And every other geek/nerd/techie/whatever - female or not - should do the same.
+I am a woman.  I am a professional geek.  I am girly and not girly at the same time.  I am who I am, quirks and all, and I own every quirk that I have.  And every other geek/nerd/techie/whatever -- female or not -- should do the same.
 
 _Cross-posted on Medium @ (https://medium.com/@jonihalabi/about-this-tech-girl-ae941e9ffd91)_

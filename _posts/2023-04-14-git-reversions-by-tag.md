@@ -2,8 +2,10 @@
 layout: post
 title: "Git reversions by tag (and why git can be a scary place)"
 date: "2023-04-14"
+redirect_from: "/blog/git-reversions-by-tag"
 categories:
   - development
+excerpt: I have been using git for over a decade and reverting commits still trips me up.
 ---
 
 I have been using git for _(checks watch)_ over a decade and reverting commits _still_ trips me up. 
@@ -101,7 +103,7 @@ The other commits after that last known good commit have vanished. Well, that's 
 
 Yes and no. The repository's log has permanently changed to remove those newer commits. However, believe it or not, we were smart earlier. 
 
-Remember step 1 above, where we also created those `LatestCommit` and `BuggyCommit` tags? Those tags - and the changes they contain - _still exist_. The magic of tags. I'm still in shock.
+Remember step 1 above, where we also created those `LatestCommit` and `BuggyCommit` tags? Those tags -- and the changes they contain -- _still exist_. The magic of tags. I'm still in shock.
 
 
 ## Retrospective

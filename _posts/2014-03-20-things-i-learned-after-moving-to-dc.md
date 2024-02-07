@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "30 Things I Learned After Moving To DC"
+title: "30 things I learned after moving to DC"
 date: "2014-03-20"
+redirect_from: "/blog/things-i-learned-after-moving-to-dc"
 categories:
   - life
+excerpt: I moved from Boston to Washington DC in the summer of 2012.
 ---
 
-I moved from Boston to Washington DC in the summer of 2012. It was somewhat (mostly) random move, but one that was completely necessary for me. I recently came across a blog post by another transplant to DC - [24 Things I've Learned After Moving to Washington DC](http://thoughtcatalog.com/brett-nolan/2014/03/24-things-ive-learned-after-moving-to-washington-dc/) - and was inspired to create a list of my own.
+I moved from Boston to Washington DC in the summer of 2012. It was somewhat (mostly) random move, but one that was completely necessary for me. I recently came across a blog post by another transplant to DC -- [24 Things I've Learned After Moving to Washington DC](http://thoughtcatalog.com/brett-nolan/2014/03/24-things-ive-learned-after-moving-to-washington-dc/) -- and was inspired to create a list of my own.
 
 1. DC is more than just DC, especially when you are talking to someone who doesn't live here.  I have literally heard conversations such as, "I'm from DC!".. "Oh, what part of DC?" .. "Falls Church".
-1. Any amount of snow is cause for panic.  Even saying the word snow will cause the area to shut down - government and businesses alike.
+1. Any amount of snow is cause for panic.  Even saying the word snow will cause the area to shut down -- government and businesses alike.
 1. The roads after 2 inches of snow in DC are 10 times worse than the roads after 2 feet of snow in New England.
 1. The humidity of a DC summer is unlike anything I have ever experienced... ever.
 1. DC is under an hour away from some amazing Virginia wineries.  Seriously, the wine is so good, I have actually started to like red wine.
@@ -31,8 +33,8 @@ I moved from Boston to Washington DC in the summer of 2012. It was somewhat (mos
 1. If you are into folk or singer/songwriters, house concerts are a huge thing here.  They are all about an hour away in Maryland, but totally worth the drive.
 1. Traffic happens frequently and randomly.  Even at midnight.
 1. Navigating the Beltway is an art.
-1. Construction - be it road or building - is a norm.
-1. Always - _always_ - look up the Metro status before leaving the house.  Especially on weekends.
+1. Construction, be it road or building, is a norm.
+1. Always, _always_ look up the Metro status before leaving the house.  Especially on weekends.
 1. Speaking of public transportation, every town has its own bus system and, so far, I have yet to find anyone who knows how they work.
 1. Football is _huge_ here.  Fandom in DC could rival that of Boston.  And despite the huge _(obviously)_ Redskins following here, there are a couple of Boston-friendly bars in the area that will show Sox and Pats games.
 1. Finding someone who is actually from DC is rare.  So rare, that lots and lots of meetups and social networking groups exist.

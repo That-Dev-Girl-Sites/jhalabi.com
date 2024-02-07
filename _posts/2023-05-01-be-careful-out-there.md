@@ -2,8 +2,10 @@
 layout: post
 title: "Be careful out there: A phishing story"
 date: "2023-05-01"
+redirect_from: "/blog/be-careful-out-there"
 categories:
   - life
+excerpt: I am about to go into "mom mode" for this post.
 ---
 
 I am about to go into "mom mode" for this post, because I recently came across (and _almost_ fell for) the most clever phishing attempt I have seen to date.
@@ -24,7 +26,7 @@ None of this is directly related to the phishing attempt. However, it does serve
 
 ## The phish
 
-This morning, I received an email from Ann[^1] with the subject line "Find attachment from We Make Roofs LLC". The email contents said that Ann shared a document with me, via Adobe, and included a link for me to access the file. This was not unusual for them. During the roof replacement process, I received a lot of documents this way - contracts, receipts, etc.
+This morning, I received an email from Ann[^1] with the subject line "Find attachment from We Make Roofs LLC". The email contents said that Ann shared a document with me, via Adobe, and included a link for me to access the file. This was not unusual for them. During the roof replacement process, I received a lot of documents this way -- contracts, receipts, etc.
 
 Given my conversation last week with the adjuster, my first thought was that We Make Roofs LLC was trying to bill me for the aforementioned tarping work. Annoyed _(especially since I thought my side of the financials was done)_, I clicked the link to figure this out.[^2]
 

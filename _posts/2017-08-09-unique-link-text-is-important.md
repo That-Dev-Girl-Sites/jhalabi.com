@@ -2,8 +2,10 @@
 layout: post
 title: "Yes, Virginia. Unique link text really is important."
 date: "2017-08-09"
+redirect_from: "/blog/unique-link-text-is-important"
 categories:
   - accessibility
+excerpt: One of my biggest pet peeves these days stems around blog or news sites.
 ---
 
 One of my biggest pet peeves these days stems around blog or news sites. Your typical blog front page will include a bunch of articles.  Each article has a title, a date, maybe an image, and a small bit of "teaser" text from the article itself.  The goal is to get the reader to choose a specific article and click to read the entire article.  To make that goal abundantly clear, each article on this front page includes a link or a button that usually says "Read More" _(or something similar)_.

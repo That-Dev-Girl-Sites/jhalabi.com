@@ -2,8 +2,10 @@
 layout: post
 title: "Regularly online developer conferences: An impossible post"
 date: "2020-06-29"
+redirect_from: "/blog/online-conferences"
 categories:
   - development
+excerpt: I love conferences. Developer conferences are the perfect places for me to stretch my geek-legs.
 ---
 
 This is a post long in the making, even before the days of our global pandemic and quarantines. In fact, I have been attempting to write this post for _so_ long _(6 weeks and counting)_ that I have deemed this post to be "impossible". However, before I go there, let's start with why I wanted to write this post to begin with.
@@ -25,7 +27,7 @@ Only time will tell, which means I will probably get back to this post in a year
 The following list is in no particular order of relevance. _(I mean, it's alphabetical. Is that relevant?)_ I am also including the month in which the conference has usually occurred in the past, for reference and convenience.
 
 * [Developer Week Global](https://www.developerweek.com/global/)
-* [Javascript for WordPress Conference](https://javascriptforwp.com/conference/) (July)
+* [JavaScript for WordPress Conference](https://javascriptforwp.com/conference/) (July)
 * [WooSesh](https://woosesh.com/) (October)
 * [WordSesh](https://wordsesh.com/) (May)
 * [WPCampus Online](https://online.wpcampus.org/) (January)

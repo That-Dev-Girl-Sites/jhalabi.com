@@ -3,7 +3,7 @@
 
 <head>
   <title>
-    {% if page.dir != '/' %}
+    {%- if page.dir != '/' -%}
       {% assign strike_text = page.title | split: "<strike>" | last | split: "</strike>" | first %}
       {% assign delete_strike = '<strike>' | append: strike_text | append: '</strike>' %}
 
@@ -11,16 +11,20 @@
       {% assign delete_italics = '<i>' | append: italics_text | append: '</i>' %}
 
       {{ page.title | remove: delete_strike | replace: delete_italics, italics_text }}
-      -
-    {% endif %}
+      |
+    {% endif -%}
 
-    {{ site.title }}
-    {% if page.dir == '/' %} - Web Developer, Writer, &amp Speaker{% endif %}
+    {{ site.title -}}
+    {%- if page.dir == '/' -%}: Web developer. Author. Speaker.{%- endif -%}
   </title>
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/styles.css?v=20230327">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
 
-  <meta name="description" content="Joni Halabi is a web developer at Georgetown University, writer, speaker, and author of Sweet Little You.">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/styles.css?v=20240114">
+
+  <meta name="description" content="Joni Halabi is a web developer, writer, speaker, and author of Sweet Little You.">
   <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
@@ -45,6 +49,8 @@
   </script>
 </head>
 
+
+
 <body>
   <nav aria-label="Skip link">
     <a href="#main" class="skip-link">Skip to content</a>
@@ -62,17 +68,17 @@
     {% endif %}
 
     <p class="tagline">
-      Web developer, Author, Speaker, Single mom, Baker, Music lover, Chaotic neutral
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
     </p>
 
     <nav class="nav-primary" aria-label="Main">
       <ul>
-        <li><a href="/" {% if page.dir == '/' %}class="current"{% endif %} aria-label="Home">.{% if page.dir != '/' %}.{% endif %}</a></li>
-        <li><a href="/book/"     {% if page.url contains '/book/'     %}class="current"{% endif %}>Book</a></li>
-        <li><a href="/blog/"     {% if page.url contains '/blog/'     %}class="current"{% endif %}>Blog</a></li>
-        <li><a href="/speaking/" {% if page.url contains '/speaking/' %}class="current"{% endif %}>Speaking</a></li>
-        <li><a href="/coding/"   {% if page.url contains '/coding/'   %}class="current"{% endif %}>Coding</a></li>
-        <li><a href="/contact/"  {% if page.url contains '/contact/'  %}class="current"{% endif %}>Contact</a></li>
+        <li {% if page.dir == '/'                %}class="current"{% endif %}><a href="/" aria-label="Home">.{% if page.dir != '/' %}.{% endif %}</a></li>
+        <li {% if page.url contains '/book/'     %}class="current"{% endif %}><a href="/book/"     >Book</a></li>
+        <li {% if page.url contains '/blog/'     %}class="current"{% endif %}><a href="/blog/"     >Blog</a></li>
+        <li {% if page.url contains '/speaking/' %}class="current"{% endif %}><a href="/speaking/" >Speaking</a></li>
+        <li {% if page.url contains '/coding/'   %}class="current"{% endif %}><a href="/coding/"   >Coding</a></li>
+        <li {% if page.url contains '/contact/'  %}class="current"{% endif %}><a href="/contact/"  >Contact</a></li>
       </ul>
     </nav>
   </header>

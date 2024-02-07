@@ -2,8 +2,10 @@
 layout: post
 title: "Git reversions by tag: a much better way"
 date: "2024-01-10"
+redirect_from: "/blog/git-revert-a-better-way"
 categories:
   - development
+excerpt: Almost a year ago, I published an article about what could be described as the worst way to revert tags in git. I regret that article.
 ---
 
 Almost a year ago, I published an article about what could be described as the [worst way to revert tags in git](https://jhalabi.com/blog/git-reversions-by-tag). I regret that article. The process I outlined there was an experiment gone awry. I conclude the post by telling my readers to "use the knowledge here at your own risk." I hope you all listened.

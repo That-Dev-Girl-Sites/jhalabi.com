@@ -2,10 +2,12 @@
 layout: post
 title: "A complicated story about medication and logistics"
 date: "2017-10-01"
+redirect_from: "/blog/medication-and-logistics"
 categories:
   - pregnancy
 tags:
   - conception
+excerpt: I am starting to prep for my next attempt.
 ---
 
 I am starting to prep for my next attempt. This one will be medicated, which is terrifying in and of itself. I will be on I'll be on Clomid _(a pill taken orally)_, Prometrium _(a pill taken vaginally, which should be interesting)_, and Ovedril _(a syringe and I just don't want to know yet)_.
@@ -22,7 +24,7 @@ The entire process of calling and waiting for answers wasted about a week. Thank
 
 ## Hmm... next!
 
-I called my doctor back to ask if there were any other pharmacies I could work with, since the prices of the other original pharmacies were still much higher than Freedom Fertility's price, even after learning the real total cost. Luckily, she was able to call it into another pharmacy - Cornerstone Pharmacy. Their quote for all 3 medications was cheaper than Freedom Fertility's inaccurate quote (for just 2 of the meds). Sold!
+I called my doctor back to ask if there were any other pharmacies I could work with, since the prices of the other original pharmacies were still much higher than Freedom Fertility's price, even after learning the real total cost. Luckily, she was able to call it into another pharmacy: Cornerstone Pharmacy. Their quote for all 3 medications was cheaper than Freedom Fertility's inaccurate quote (for just 2 of the meds). Sold!
 
 Since this was the lowest quote I've gotten to date, I jumped on this. I received the medications the other day and confirmed that they are all correct.
 

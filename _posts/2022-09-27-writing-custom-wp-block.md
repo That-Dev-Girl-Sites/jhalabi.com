@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Writing a Custom WordPress Block"
+title: "Writing a custom WordPress block"
 date: "2022-09-27"
+redirect_from: "/blog/writing-custom-wp-block"
 categories:
   - development
   - wordpress
+excerpt: Every so often, someone asks me about the code I write, so here is a comprehensive overview of how I write a custom block.
 ---
 
 This post has been a long time coming. I have talked about custom WordPress block creation for several years now, from blogging about [registering dynamic blocks with `block.json`](https://jhalabi.com/blog/wordpress-block-json) to speaking at various conferences about why [dynamic blocks are awesome](https://talks.jhalabi.com/dynamic-blocks/).
@@ -16,7 +18,7 @@ It recently occurred to me that I have yet to write up a complete post about how
 
 Hot take: I am a big advocate of dynamic blocks. As an overview, a __dynamic block__ is a block whose front-end markup is generated via the WordPress PHP backend, as the page is called. In contrast, a __static block__ is a block whose markup is saved directly to the database. 
 
-There are definite advantages and disadvantages to both. TL;DR - I am a big fan of the dynamic approach because I often receive requests to edit blocks after they are used on live sites. Editing a static block requires writing a deprecation for the block's previous version. My personal goal is to include as few deprecations as possible in my blocks.
+There are definite advantages and disadvantages to both. TL;DR: I am a big fan of the dynamic approach because I often receive requests to edit blocks after they are used on live sites. Editing a static block requires writing a deprecation for the block's previous version. My personal goal is to include as few deprecations as possible in my blocks.
 
 
 ## Objective
@@ -47,7 +49,7 @@ In this example, I want to define the following pieces of information:
 
 * __`name`__: The unique machine name of my block, which the post editor will use to identify the block any time it is used. 
 * __`title`__: The human-readable name of my block.
-* __`category`__: The category that my block will be listed under in the [Block Inserter(https://wordpress.org/support/article/blocks/). For this example, I will use the "Text" out-of-the-box category. You can also [create your own custom category](https://gutenberghub.com/how-to-create-custom-block-category/).
+* __`category`__: The category that my block will be listed under in the [Block Inserter](https://wordpress.org/support/article/blocks/). For this example, I will use the "Text" out-of-the-box category. You can also [create your own custom category](https://gutenberghub.com/how-to-create-custom-block-category/).
 * __`description`__: The human-readable description of my block. It is best to keep this short, maybe tweet length.
 * __`attributes`__: The pieces of content that my block needs to save. In this case, I need to save 2 strings, the dictionary word and the definition. The `attributes` item is an object and each piece of content inside is its own object that defines the content's variable type _(e.g. string, integer, boolean)_ and an optional default value.
 

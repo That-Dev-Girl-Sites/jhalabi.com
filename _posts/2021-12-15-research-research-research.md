@@ -2,8 +2,10 @@
 layout: post
 title: "Research, research, research!"
 date: "2021-12-15"
+redirect_from: "/blog/research-research-research"
 categories:
   - writing
+excerpt: In an effort to spend more time on Twitter, I came across a tweet with the following advice.
 ---
 
 In an effort to spend more time on Twitter[^1], I came across a [tweet with the following advice](https://twitter.com/literaticat/status/1470448467063492611):
@@ -32,7 +34,7 @@ Obviously, not all of these are 100% relevant to my exact topic of what is basic
 
 ## Let's get organized!
 
-I created - _say it with me_ - a spreadsheet![^2] I only have 31 books in my list, but this spreadsheet has helped me gather some interesting information about these books so far, even without actually reading most of them just yet. 
+I created -- _say it with me_ -- a spreadsheet![^2] I only have 31 books in my list, but this spreadsheet has helped me gather some interesting information about these books so far, even without actually reading most of them just yet. 
 
 In this spreadsheet, I am recording the book title, author, illustrator, publisher, publication date, and my own random thoughts about the book.
 

@@ -3,83 +3,62 @@ layout: home
 title: Home
 ---
 
-<section markdown="1" class="book-section has-background timberwolf remove-top-margin" aria-label="Book">
+<section markdown="1" class="home-intro" aria-label="Introduction">
 
-## Sweet Little You
+<div markdown="1">
 
-<div markdown="1" class="book-section-cover">
-
-[![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)](/book)
+![Joni, a white woman with dark curly hair and glasses, is sitting with her back to a desk. On the desk is an open laptop. The screen shows blurred out computer code.](/assets/images/head-shot-joni-halabi.jpg)
 
 </div>
 
-<div markdown="1" class="book-section-text">
-
-A mother with a dream of having a child makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations by [Lisa Wee](https://www.lisawee12.com/), _Sweet Little You_ is a loving and unique story about a different path to becoming a family, showing that creating a cherished family doesn’t always involve two parents.
-
-A heartwarming story for single mothers by choice and their families.
-
-*Sweet Little You* is available now wherever books are sold. Order your copy today!
-
-</div>
-
-<div class="book-section-buttons" markdown="1">
-
-[Order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [View on GoodReads](https://www.goodreads.com/book/show/61153715-sweet-little-you) [More about _Sweet Little You_](/book)
-
-</div>
-
-</section>
-
-
-<section markdown="1" aria-label="Articles">
-
-## Recent Articles
-
-{% for post in site.posts limit:5 %}
-
-<article markdown="1" class="latest-post {{post.categories.first}}" aria-label="{{post.title}}">
-
-### [{{post.title}}]({{ post.url }})
-
-<p class="excerpt">{{ post.excerpt | strip_html }}</p>
-
-<p class="latest-post-meta">
-  {% for cat in post.categories %}
-    <span>{{ cat | replace: "-", " " }}</span>
-  {% endfor %}
-  |
-  {{ post.date | date_to_long_string }}
-</p>
-
-</article>
-
-{% endfor %}
-
-</section>
-
-
-<section markdown="1" class="has-background timberwolf" aria-label="Biography">
+<div markdown="1">
 
 ## Hello World!
 
-![My daughter and me](/assets/images/family.jpg)
+I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's basement. Soon after that moment, I wrote my first `GOTO` statement, sending that computer into a fiery fit of sparks and smoke _(or something like that)_.
 
-My name is **Joni** and I am a **"middle-end" web developer** who loves to write code, commit often, and make up her own job titles. I work for Georgetown University and have been [writing code](/coding) since the mid-1980s. I was 2. _(Kidding. Mostly. I know I'm dating myself. Shush.)_
+My actual childhood was far less destructive and surrounded by computers --- that Apple iiC, my beloved TI 99/4A, and eventually an IBM ThinkPad. I also spent my childhood among books. My dream was to move into our town library. Piles of journals and old computers crowd my current home office.
 
-Over the years, I have coded in all sorts of languages. My more recent work focuses around WordPress, so I spend a lot of time with **JavaScript** and **PHP**. I also write quite a bit about my experiences and projects; most of [my recent articles](/blog) are on this site.
+Today, I am “middle-end” web developer who likes to write code, commit often, and make up my own titles. I specialize in developing CMS themes and WordPress editor customizations. I also [speak at technical conferences](/speaking), [blog about development](/blog), and [write creative works](/book) focusing on life as a single mother by choice. In the little spare time that remains, I run, travel with my adventurous kid, enjoy live music, and advocate for the Oxford comma.
 
-You can also explore this site to learn more about my book, [_Sweet Little You_](/book) or find out [where I am speaking next](/speaking).
+</div>
+
+</section>
 
 
-### Cool! What else?
 
-I am a single mother by choice to an **amazing kid** who constantly keeps me on my toes. She and her collection of stuffed animals are going to take over the world.
+<section markdown="1" class="home-book" aria-label="Sweet Little You">
 
-**I have hobbies.** Stop laughing. I'm serious. I both run and bake, because life is all about balance. I love live music and try to get as many shows as time and babysitters allow. I pretend to knit, by which I mean that I have been working on the same shawl for about 5 years now. I am also learning to play the ukulele, but only when my daughter can't hear me. My skills are not quite up to her standards _(yet?)_. Just wait until I take up the bongos.
+<div markdown="1" class="home-book-content">
 
-**I love to travel.** I have been lucky enough to visit parts of Europe and the Middle East. I have road tripped across a good chunk of the western US and day-hiked in Alaska. I have camped at the Falcon Ridge Folk Festival and the RPI hockey line. _(Camping for college hockey tickets is like real camping, right?)_
+## Sweet Little You
 
-**I love books!** I love to read and have books in just about every room of my house. Unfortunately, my reading has dwindled post-baby, but I do [keep track of what I read](/reading/), in case you all are interested.
+A mother with a dream of having a child makes her wish come true by having a baby on her own. Tenderly written with beautiful painterly illustrations by [Lisa Wee](https://www.lisawee12.com/), _Sweet Little You_ is a loving and unique story about a different path to becoming a family, showing that creating a cherished family doesn’t always involve two parents.
+
+*Sweet Little You* is available now wherever books are sold. Order your copy today!
+
+{:.home-book-buttons}
+[Order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Book Details](/book)
+
+</div>
+
+{:.home-book-image}
+![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)
+
+</section>
+
+
+
+<section markdown="1" class="home-articles" aria-label="Blog articles">
+
+## Articles: Past And Present
+
+I have been writing for as long as I can remember. Here is a selection of my latest and favorite articles.
+
+1. [{{ site.posts.first.title }}]({{ site.posts.first.url }})
+1. [Static vs. dynamic blocks: What’s the difference?](https://developer.wordpress.org/news/2023/02/27/static-vs-dynamic-blocks-whats-the-difference/)
+1. [Carousels: No one likes you](/blog/2022/03/08/carousels-no-one-likes-you/)
+1. [Writing a custom WordPress block](/blog/2022/09/27/writing-custom-wp-block/)
+1. [Manual accessibility testing is your new BFF](/blog/2017/08/08/manual-accessibility-testing/)
 
 </section>

@@ -2,10 +2,12 @@
 layout: post
 title: "Contractions != Labor"
 date: "2018-06-13"
+redirect_from: "/blog/contractions-labor"
 categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: I am 33 weeks pregnant as of yesterday, which (naturally?) means contractions start.
 ---
 
 I am 33 weeks pregnant as of yesterday, which (naturally?) means contractions start. Seriously. They started. I haven't had many (maybe a couple a day) and they are not painful, nor are they a sign that I am in labor (yet). But they are normal. And weird. Really, really weird.

@@ -2,10 +2,12 @@
 layout: post
 title: "Advice to older mamas-to-be"
 date: "2018-06-05"
+redirect_from: "/blog/advice-to-older-mamas-to-be"
 categories:
   - pregnancy
 tags:
   - third trimester
+excerpt: This morning, I had an appointment with my high risk doctor for another sonogram.
 ---
 
 ## A true story

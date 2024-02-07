@@ -2,10 +2,12 @@
 layout: post
 title: "Over the first (trimester) hurdle"
 date: "2018-01-22"
+redirect_from: "/blog/over-the-first-trimester-hurdle"
 categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I will be 13 weeks pregnant tomorrow.
 ---
 
 I will be 13 weeks pregnant tomorrow. This is huge because it means, not only am I super officially out of my first trimester, but I am also at a point where I have been getting a lot of test results back.
@@ -36,6 +38,6 @@ More good news: **Everything is still normal!**
 
 Since I am over 35 _(and especially since I will be 40 when I deliver)_, I now have a high risk doctor. I met him after today's test. He is great and very data-focused _(an attribute I really appreciate)_.
 
-If I thought I was living at my doctor's office before, I will _really_ be living there once I am at 32 weeks. I will need to go back for weekly screenings to check on the kiddo's development. Depending on how she's doing, there is a chance I may be forced to deliver early - even as early as 37 weeks.
+If I thought I was living at my doctor's office before, I will _really_ be living there once I am at 32 weeks. I will need to go back for weekly screenings to check on the kiddo's development. Depending on how she's doing, there is a chance I may be forced to deliver early -- even as early as 37 weeks.
 
 But, so far, so good!

@@ -2,8 +2,10 @@
 layout: post
 title: "Motivation block"
 date: "2021-12-30"
+redirect_from: "/blog/motivation-block"
 categories:
   - writing
+excerpt: I have been meaning to write more, mostly to have some sort of creative outlet that does not involve code.
 ---
 
 I have been meaning to write more, mostly to have some sort of creative outlet that does not involve code. Don't get me wrong. I love coding and still have about 20 different side projects and ideas that I want to work on. However, writing code for fun after writing code all day for work has not sounded... well... fun these days.

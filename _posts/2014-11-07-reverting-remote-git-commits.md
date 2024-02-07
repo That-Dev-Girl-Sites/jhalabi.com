@@ -2,8 +2,10 @@
 layout: post
 title: "Reverting remote commits in Git"
 date: "2014-11-07"
+redirect_from: "/blog/reverting-remote-git-commits"
 categories:
   - development
+excerpt: I had a “git” of a problem this week.
 ---
 
 I had a “git” of a problem this week.  _(Ha... see what I did there?)_ I committed a bunch of changes to a remote branch, merged them to master, and then needed to back out those changes.  _(Why this need occurred is another story for another time.)_

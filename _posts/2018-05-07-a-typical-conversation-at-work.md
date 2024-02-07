@@ -2,10 +2,12 @@
 layout: post
 title: "A typical conversation at work"
 date: "2018-05-07"
+redirect_from: "/blog/a-typical-conversation-at-work"
 categories:
   - pregnancy
 tags:
   - second trimester
+excerpt: I have more conversations with colleagues that center around my growing belly.
 ---
 
 Now that I am quite obviously pregnant, I find that I have more conversations with colleagues that center around my growing belly. This is a conversation that I have with someone at least once per day:

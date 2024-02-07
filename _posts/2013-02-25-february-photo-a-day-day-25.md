@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "February Photo a Day #25"
+title: "February photo a day #25"
 date: "2013-02-25"
+redirect_from: "/blog/february-photo-a-day-day-25"
 categories:
   - life
+hide_excerpt: "true"
 ---
 
 Who knew this photo-a-day thing would get so personal?  OK- that is somewhat of a no-brainer, right?   Why do I ask?  Because today's photo subject was "on my bedside table".

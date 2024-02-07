@@ -2,8 +2,10 @@
 layout: post
 title: "Complicated and loving it"
 date: "2016-01-01"
+redirect_from: "/blog/complicated-and-loving-it"
 categories:
   - life
+excerpt: 2015 was a strange, strange year.
 ---
 
 2015 was a strange, strange year.
@@ -14,7 +16,7 @@ I started the year with a brand new job that had a ton of potential.  I later d
 
 I mean, why work as a consultant through an agency when I can simply work as a consultant as myself?  Right?
 
-Yes, that is completely crazy.  I mean - agencies exist for a reason and I have *zero* experience in the business world.  I have never had to market myself to anyone.  Not to mention deal with invoicing and contracts and taxes, etc.
+Yes, that is completely crazy.  Agencies exist for a reason and I have *zero* experience in the business world.  I have never had to market myself to anyone.  Not to mention deal with invoicing and contracts and taxes, etc.
 
 It took me about 2 minutes of soul-searching before I hit send on my first batch of "cold-call" marketing messages.
 

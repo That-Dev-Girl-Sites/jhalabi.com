@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "The Case of the Disappearing Gutenberg"
+title: "The case of the disappearing Gutenberg"
 date: "2020-06-20"
+redirect_from: "/blog/disappearing-gutenberg"
 categories:
   - development
   - wordpress
+excerpt: Once upon a time, there was a WordPress post editor that discovered it had turned into a simple HTML editor.
 ---
 
 Once upon a time, there was a WordPress post editor that discovered it had turned into a simple HTML editor....

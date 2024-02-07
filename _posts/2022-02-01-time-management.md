@@ -2,8 +2,10 @@
 layout: post
 title: "The <strike>art</strike> chaos of time management"
 date: "2022-02-01"
+redirect_from: "/blog/time-management"
 categories:
   - writing
+excerpt: Once upon a time, there was a (not exactly) young girl who decided to have a full-time tech job, solo-parent a pre-schooler, and publish a book.
 ---
 
 Once upon a time, there was a (not exactly) young girl who decided to have a full-time tech job, solo-parent a pre-schooler, and publish a book. "I am so organized!" she exclaimed. "I can totally manage my time to get this done."
@@ -20,7 +22,7 @@ _[Spotlight on a really exhausted human.]_
 
 This really exhausted human is also at the beginning stages of having her book illustrated. I found a really amazing illustrator and, upon seeing the first drafts of the start of the book, I. Am. __Excited__!
 
-There is still a ton of work to do, but seeing the main characters - mommy and baby - in real, illustrated life has made this book feel real. It was a real book before, but practically speaking, it was really just a cute poem.
+There is still a ton of work to do, but seeing the main characters -- mommy and baby -- in real, illustrated life has made this book feel real. It was a real book before, but practically speaking, it was really just a cute poem.
 
 I am dying to share more about the illustrations, but I am practicing my patience. I promise a cover reveal will happen when the time is right. Just not quite yet.
 
@@ -32,7 +34,7 @@ I have no idea how to market anything.
 
 For the last 20 years, I have been working with code. Not working alone, but certainly not getting other people to buy the things I code. That's what the marketing department was for.[^1] Now... _I'm_ the marketing department.
 
-Well... that's terrifying. What do I do? Shout into the void?[^2] I mean, I'm tweeting more and have 400+ followers now! Yes, I know that's not a giant amount - and a good amount of my followers are fellow techies - but it's certainly more than before. I'm pretty excited to have this many. And it's a good start, right?
+Well... that's terrifying. What do I do? Shout into the void?[^2] I mean, I'm tweeting more and have 400+ followers now! Yes, I know that's not a giant amount (and a good amount of my followers are fellow techies) but it's certainly more than before. I'm pretty excited to have this many. And it's a good start, right?
 
 In reality, I do have a (very large) to do list of marketing ideas that I need to get started on. As soon as I have more time.
 

@@ -1,13 +1,28 @@
 {% include site-header.html %}
 
-<main id="main" class="main plugin">
+<main class="plugin" id="main">
 
-  <h1>{{ page.title }}</h1>
-  {{ content }}
+  <section class="plugin-intro" aria-label="Introduction">
+    <img src="/assets/images/{{ page.icon }}" alt="" aria-hidden="true">
 
-  <section class="has-background grey donate" aria-label="Donation request">
-    <p>Love this plugin? Please consider supporting my work!</p>
-    <p><a href="https://www.buymeacoffee.com/thatdevgirl" class="icon icon-coffee button">Buy me a coffee (or tea)!</a></p>
+    <div>
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.description}} </p>
+      <p>
+        <a href="{{ page.wordpress_url }}" class="ri-wordpress-fill button">Download from WordPress</a>
+        <a href="{{ page.github_url }}" class="ri-github-fill button">View code on GitHub</a>
+      </p>
+    </div>
+  </section>
+
+
+  <section class="plugin-content" aria-label="Plugin details">
+    {{ content }}
+  </section>
+
+  <section class="plugin-donate" aria-label="Donation request">
+    <p>Love this plugin? Please support my work!</p>
+    <p><a href="https://www.buymeacoffee.com/thatdevgirl" class="ri-cup-fill button">Buy me a coffee (or tea)!</a></p>
   </section>
 
 </main>
