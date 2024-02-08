@@ -15,7 +15,7 @@ title: Home
 
 ## Hello World!
 
-I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's basement. Soon after that moment, I wrote my first `GOTO` statement, sending that computer into a fiery fit of sparks and smoke _(or something like that)_.
+I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's basement. Soon after that moment, I wrote my first GOTO statement, sending that computer into a fiery fit of sparks and smoke _(or something like that)_.
 
 My actual childhood was far less destructive and surrounded by computers --- that Apple iiC, my beloved TI 99/4A, and eventually an IBM ThinkPad. I also spent my childhood among books, [reading anything](/reading/) that struck my interest. _(I had and still have eclectic tastes.)_ My dream was to move into our town library.
 
