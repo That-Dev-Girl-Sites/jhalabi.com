@@ -15,7 +15,12 @@
   &-resume {
     background-color: var(--battleship-gray);
     padding-block: 4rem;
-    padding-inline: 4rem;
+    padding-inline: 2rem;
+
+    // Layout for larger screens.
+    @media screen and ( min-width: $screen-md ) {
+      padding-inline: 4rem;
+    }
   }
 
 
