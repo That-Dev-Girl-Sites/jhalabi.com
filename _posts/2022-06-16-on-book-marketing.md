@@ -34,7 +34,7 @@ It's a bit overwhelming, with a steep learning curve and a very large side of im
 
 Scary for someone who's spent 20 years bossing computers around. Wish me luck!
 
-P.S. Please [buy my book](/book)!
+P.S. Please [buy my book](/book/)!
 
 
 

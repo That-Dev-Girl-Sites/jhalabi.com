@@ -40,7 +40,7 @@ projects:
 
   - title: Color swatch generator
     icon: code-icon-color-swatch-generator.jpg
-    description: Generate a downloadable color swatch, including the color's hex, RGB, and CYYK values.
+    description: Generate a downloadable color swatch, including the color's hex, RGB, and CYMK values.
     links: 
       - url: https://color.thatdevgirl.com/
         text: Live site
@@ -82,9 +82,9 @@ projects:
 
 I am a “middle-end” web developer who likes to write code, commit often, and make up my own titles. Over the past 20+ years, I have developed solutions for a variety of organizations, including those in the gaming, non-profit, and higher education industries. 
 
-In my current role at [Georgetown University](https://georgetown.edu), I specialize in developing CMS themes and WordPress editor customizations. I have written over 50 custom WordPress blocks, using ReactJS, PHP, and the Gutenberg API.
+In my current role at [Georgetown University](https://www.georgetown.edu), I specialize in developing CMS themes and WordPress editor customizations. I have written over 50 custom WordPress blocks, using ReactJS, PHP, and the Gutenberg API.
 
-I also [write technical articles](/blog) about my work, teach introductory development classes, and [speak](/speaking) at technical conferences.
+I also [write technical articles](/blog/) about my work, teach introductory development classes, and [speak](/speaking/) at technical conferences.
 
 </section>
 

@@ -19,7 +19,7 @@ I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's b
 
 My actual childhood was far less destructive and surrounded by computers --- that Apple iiC, my beloved TI 99/4A, and eventually an IBM ThinkPad. I also spent my childhood among books, reading anything that struck my interests. _(I had and still have eclectic tastes.)_ My dream was to move into our town library.
 
-Today, I am “middle-end” web developer who likes to write code, commit often, and make up my own titles. I specialize in developing CMS themes and WordPress editor customizations. I [speak at technical conferences](/speaking), [blog about development](/blog), and [write creative works](/book) focusing on life as a single mother by choice. In the little spare time that remains, I run, travel with my adventurous kid, enjoy live music, and advocate for the Oxford comma.
+Today, I am “middle-end” web developer who likes to write code, commit often, and make up my own titles. I specialize in developing CMS themes and WordPress editor customizations. I [speak at technical conferences](/speaking/), [blog about development](/blog/), and [write creative works](/book/) focusing on life as a single mother by choice. In the little spare time that remains, I run, travel with my adventurous kid, enjoy live music, and advocate for the Oxford comma.
 
 </div>
 
@@ -38,7 +38,7 @@ A mother with a dream of having a child makes her wish come true by having a bab
 *Sweet Little You* is available now wherever books are sold. Order your copy today!
 
 {:.home-book-buttons}
-[Order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Book Details](/book)
+[Order on Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/) [Book Details](/book/)
 
 </div>
 

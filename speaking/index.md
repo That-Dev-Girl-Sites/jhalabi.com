@@ -114,7 +114,7 @@ Panelist
 
 <span class="ri-map-pin-2-fill"></span> Online
 
-<span class="ri-volume-up-fill"></span> [Open-forum discusson on WordPress development](https://www.youtube.com/watch?v=075y395UOaY)
+<span class="ri-volume-up-fill"></span> [Open-forum discussion on WordPress development](https://www.youtube.com/watch?v=075y395UOaY)
 </li>
 
 
@@ -127,7 +127,7 @@ Panelist
 
 <span class="ri-map-pin-2-fill"></span> Online
 
-<span class="ri-volume-up-fill"></span> [Open-forum discusson on WordPress development](https://youtu.be/VGkvVvlIWEM)
+<span class="ri-volume-up-fill"></span> [Open-forum discussion on WordPress development](https://youtu.be/VGkvVvlIWEM)
 </li>
 
 

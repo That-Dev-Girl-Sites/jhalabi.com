@@ -28,7 +28,7 @@ Over time, I have discovered that most of my writing that has been more popular[
 
 ## And now?
 
-[_Sweet Little You_](/book) is no different. This book was born out of both love and frustration. I love my daughter and we love reading together. We have a ton of books. There are books in every room of our house.[^3]
+[_Sweet Little You_](/book/) is no different. This book was born out of both love and frustration. I love my daughter and we love reading together. We have a ton of books. There are books in every room of our house.[^3]
 
 Among our collection are "welcome baby" books. They are cute and I love them. In fact, [_Welcome Little One_](https://www.goodreads.com/en/book/show/26457275-welcome-little-one) is the first book I ever read to my daughter and is still one of our favorites. However, just about all of these "welcome" books use plural pronouns. We. Us. Our. The messages are beautiful, but slightly awkward for a single-parent family.
 
@@ -38,9 +38,9 @@ Right, I know. Way too young for her to understand any of this. However, my phil
 
 To that end, I was craving a "welcome baby" book that is inclusive of single-parent families _(e.g. no plural pronouns!)_ and at the level of a newborn, who is not going to fully grasp the concept of a SMC. 
 
-So, [_Sweet Little You_](/book) was born. It is a book where a mother welcomes her donor-conceived baby into the world. She promises to love them. She acknowledges their origin story without getting into the details.
+So, [_Sweet Little You_](/book/) was born. It is a book where a mother welcomes her donor-conceived baby into the world. She promises to love them. She acknowledges their origin story without getting into the details.
 
-[_Sweet Little You_](/book) is the book I wanted to exist when my daughter was born and I am so excited to share it with anyone else who may be craving the same.
+[_Sweet Little You_](/book/) is the book I wanted to exist when my daughter was born and I am so excited to share it with anyone else who may be craving the same.
 
 So, shameless plug here. Please spread the word. And, if you have read the book and are so inclined, please leave an [Amazon review](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X). Even if you are not a fan of Amazon[^4], it helps with rankings and such.
 

@@ -19,11 +19,11 @@ Really, when did I get so busy? Back in my younger years, I would go to work, co
 
 Obviously, the natural solution to having no free time is to write and publish a book. Because, when you have _(time)_ debt, why not get some more?[^2]
 
-[_Sweet Little You_](/book) is 100% a passion project. In fact, before writing the book, I was actually considering going to grad school to study machine learning.[^3] However, the idea for this book came to me with such a force, I couldn't stop myself from writing it. After that, I had this baby of a book that I just _needed_ to edit and proofread and get reviewed. I found myself looking up illustrators and typing "how to self-publish a children's book" into my browser. 
+[_Sweet Little You_](/book/) is 100% a passion project. In fact, before writing the book, I was actually considering going to grad school to study machine learning.[^3] However, the idea for this book came to me with such a force, I couldn't stop myself from writing it. After that, I had this baby of a book that I just _needed_ to edit and proofread and get reviewed. I found myself looking up illustrators and typing "how to self-publish a children's book" into my browser. 
 
 ## Long story short.
 
-Nearly one year later, here we are. [_Sweet Little You_](/book) will be officially born[^4] on August 1, just 3 short days from when I am writing this.
+Nearly one year later, here we are. [_Sweet Little You_](/book/) will be officially born[^4] on August 1, just 3 short days from when I am writing this.
 
 So now, when I am not working my regular job and when I'm not being a mom, _(though, let's get real, when I am I ever not being a mom??)_, I am the exclusive PR representative for... me. It's not a terrible arrangement so far. PR-rep-me has already lined up book reviews, interviews, and even a little bit of buzz on Instagram. If release day goes well, I may even double her salary. 
 
