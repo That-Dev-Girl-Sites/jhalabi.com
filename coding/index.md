@@ -91,6 +91,7 @@ I also [write technical articles](/blog/) about my work, teach introductory deve
 
 <section markdown="1" class="coding-resume" aria-label="Resume">
 
+{:.button-row}
 * <a href="joni-halabi-resume.pdf" class="ri-list-check-3">View my resume</a>
 * <a href="https://github.com/thatdevgirl" class="ri-github-fill">Checkout GitHub</a>
 * <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-box-fill">Connect on LinkedIn</a>

@@ -21,6 +21,7 @@
     & > div {
       @extend .fixed-width;
 
+      // Layout for larger screens.
       @media screen and (min-width: $screen-md) {
         display: grid;
         gap: 4rem;
@@ -29,6 +30,7 @@
       
       h2 {
         --font-size: var(--type-h1);
+
         margin-block-start: 0;
       }
 

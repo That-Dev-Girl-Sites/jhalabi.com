@@ -11,7 +11,7 @@ Hi there! I love hearing from people, but my days are pretty full between develo
 * {:.contact-ifs} **If you want to chat about my book:** [_Sweet Little You_](/book/) is available wherever books are sold _(and in several libraries!_). I am always happy to talk about my book and am available for author visits and readings.
 * {:.contact-ifs} **If you have parenting questions:** So do I. 
 
-<a href="mailto:joni@jhalabi.com" class="button">Send me an e-mail!</a>
+[Send me an e-mail!](mailto:joni@jhalabi.com){:.button .on-white}
 
 </section>
 
@@ -22,9 +22,9 @@ Hi there! I love hearing from people, but my days are pretty full between develo
 
 If you prefer a more passive method of communication, let's connect on social media. Here are the networks where I am most active:
 
-* <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
-* <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
-* <a href="https://higheredweb.social/@jonihalabi" class="ri-mastodon-fill">Mastodon</a>
-* <a href="https://twitter.com/jonihalabi" class="ri-twitter-x-fill">Twitter/X</a>
+* [Instagram](https://www.instagram.com/jonihalabi/){:.ri-instagram-fill .button .on-white}
+* [LinkedIn](https://www.linkedin.com/in/jonihalabi/){:.ri-linkedin-fill .button .on-white}
+* [Mastodon](https://higheredweb.social/@jonihalabi){:.ri-mastodon-fill .button .on-white}
+* [Twitter/X](https://twitter.com/jonihalabi){:.ri-twitter-x-fill .button .on-white}
 
 </section>

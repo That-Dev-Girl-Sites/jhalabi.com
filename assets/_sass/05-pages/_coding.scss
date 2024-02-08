@@ -13,8 +13,6 @@
 
   // Resume links section.
   &-resume {
-    @extend .button-row;
-
     background-color: var(--battleship-gray);
     padding-block: 4rem;
     padding-inline: 4rem;
@@ -43,7 +41,6 @@
 
   // Individual project block.
   &-project {
-
     border: 1px solid var(--black);
     display: grid;
     gap: 2rem;
@@ -63,8 +60,6 @@
 
     // Button style overrides for this page.
     .button {
-      @extend .on-white;
-
       margin-block-start: 0;
       padding-block: 0.5rem;      
     }

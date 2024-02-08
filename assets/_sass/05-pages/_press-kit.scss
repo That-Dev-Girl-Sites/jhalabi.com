@@ -34,6 +34,7 @@
       border-block-end: 0;
     }
 
+    // Layout for larger screens.
     @media screen and ( min-width: $screen-md ) {
       display: grid;
       gap: 6rem;

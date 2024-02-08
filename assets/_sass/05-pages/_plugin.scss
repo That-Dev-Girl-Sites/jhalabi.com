@@ -7,6 +7,7 @@
   &-intro {
     @extend .fixed-width;
 
+    // Layout for larger screens.
     @media screen and ( min-width: $screen_md ) {
       display: grid;
       gap: 4rem;
@@ -23,8 +24,6 @@
 
     // Button style overrides for this page.
     .button {
-      @extend .on-white;
-
       --font-size: var(--type-p-smaller);
     }
   }

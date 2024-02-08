@@ -7,14 +7,17 @@
 .blog {
   @extend .fixed-width;
 
+  // Layout for larger screens.
   @media screen and ( min-width: $screen-md ) {
     padding-inline-end: 1rem;
   }
   
 
+  // List of post excerpts.
   &-list {
     margin-block-start: 4rem;
 
+    // Layout for larger screens.
     @media screen and ( min-width: $screen-md ) {
       display: grid;
       gap: 8rem;

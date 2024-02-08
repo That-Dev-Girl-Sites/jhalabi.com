@@ -13,10 +13,6 @@
       list-style-type: none;
       margin-inline-start: 0;
     }
-
-    .button {
-      @extend .on-white;
-    }
   }
 
 
@@ -53,30 +49,9 @@
       margin-inline-start: 0;
 
       a {
-        --text-color: var(--white);
-
-        background-color: var(--coral-red-dark-5);
-        display: block;
-        padding-inline: 0.5rem;
-        text-align: center;
-        text-decoration: none;
-        transition: all 0.5s ease;
-
-        &::before {
-          --font-size: var(--type-h4);
-          --text-color: inherit;
-
-          margin-inline-end: 0.5rem;
-        }
-
-        &:focus,
-        &:hover {
-          background-color: var(--coral-red-dark-20);
-        }
+        margin-block-start: 0;
+        padding-block: 0.5rem;
       }
     }
   }
-
-  
-
 }
