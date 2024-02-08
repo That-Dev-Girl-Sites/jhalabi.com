@@ -202,10 +202,11 @@
     div {
       display: grid;
       gap: 4rem;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-      padding-inline: 1rem;
+      grid-template-columns: 1fr;
+      padding-inline: 2rem;
 
       @media screen and ( min-width: $screen-md ) {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         padding-inline: 4rem;
       }
     }

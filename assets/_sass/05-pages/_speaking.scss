@@ -44,7 +44,11 @@
   // Past events section.
   &-past {
     padding-block: 4rem;
-    padding-inline: 4rem;
+    padding-inline: 2rem;
+
+    @media screen and ( min-width: $screen-md ) {
+      padding-inline: 4rem;
+    }
 
     h2 {
       margin-block-start: 0;

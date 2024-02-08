@@ -8,7 +8,7 @@
     @extend .fixed-width;
 
     // Layout for larger screens.
-    @media screen and ( min-width: $screen_md ) {
+    @media screen and ( min-width: $screen-md ) {
       display: grid;
       gap: 4rem;
       grid-template-columns: 1fr 300px;
