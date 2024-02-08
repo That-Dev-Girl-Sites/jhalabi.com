@@ -6,13 +6,16 @@
 
 .nameplate {
   --font-size: var(--type-nameplate);
-  --line-height: 2;
+  --line-height: 1;
+  
 
-  margin-block-end: -1.5rem;
-  margin-block-start: 2rem;
+  margin-block-start: 4rem;
   text-align: center;
 
   @media screen and ( min-width: $screen-md ) {
+    --line-height: 2;
+
+    margin-block-end: -1.5rem;
     margin-block-start: 1rem;
     text-align: left;
   }
