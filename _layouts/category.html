@@ -3,8 +3,8 @@
 <main class="blog" id="main">
 
   <h1>
-    Articles About 
-    {{ page.category | capitalize | replace: "-", " " | replace: "Wordpress", "WordPress" }}
+    Articles about 
+    {{ page.category | replace: "-", " " | replace: "Wordpress", "WordPress" }}
   </h1>
 
   {{ page.content }}

@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: 'My Pregnancy Story: Planning'
+title: 'My pregnancy story: Planning'
 category: conception
 main: pregnancy
 ---

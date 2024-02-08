@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: 'My Pregnancy Story: Development'
+title: 'My pregnancy story: Development'
 category: second trimester
 main: pregnancy
 ---

@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: 'My Pregnancy Story: Production Release!'
+title: 'My pregnancy story: Production release!'
 category: postpartum
 main: pregnancy
 ---

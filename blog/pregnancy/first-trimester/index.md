@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: 'My Pregnancy Story: Architecture & Design'
+title: 'My pregnancy story: Architecture & design'
 category: first trimester
 main: pregnancy
 ---

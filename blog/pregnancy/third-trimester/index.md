@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: 'My Pregnancy Story: Release Candidate'
+title: 'My pregnancy story: Release Candidate'
 category: third trimester
 main: pregnancy
 ---
