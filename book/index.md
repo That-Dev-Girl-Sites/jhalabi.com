@@ -8,7 +8,7 @@ title: Sweet Little You
 <div markdown="1">
 _A mother with a dream of having a child makes her wish come true by having a baby on her own._
 
-Tenderly written with beautiful illustrations by [Lisa Wee](https://www.lisawee12.com/), _Sweet Little You_ is a unique welcome baby book for mothers who make their dream of having a child come true through donor conception.
+Tenderly written with beautiful illustrations by [Lisa Wee](https://www.lisawee12.com/), **Sweet Little You** is a unique welcome baby book for mothers who make their dream of having a child come true through donor conception.
 </div>
 
 <a href="https://www.book2look.com/book/3BgavuAtA8" alt="View sample pages of Sweet Little You" class="book-sample-link" target="_blank">

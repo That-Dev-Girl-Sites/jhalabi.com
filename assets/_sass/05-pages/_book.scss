@@ -53,6 +53,12 @@
     em {
       --font-size: var(--type-h4);
     }
+
+    strong {
+      --font-weight: 400;
+
+      font-style: italic;
+    }
   }
 
 
