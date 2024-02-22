@@ -29,6 +29,6 @@ This was by far the hardest board breaking she has ever experienced and many par
 
 If a 5 year-old can maintain that kind of perseverance, so can an adult. Sometimes, things don’t work out the first time. But, if you don’t give up, eventually, you *will* break that board.
 
-P.S. I am super proud of my kid!
+![A broken board sits on top of a table. The larger part of the board is standing up (propped up). In front of it is a folded, orange taekwondo belt. Leaning on the belt is the much smaller part of the broken board.]({{ site.url }}/assets/images/posts/orange-belt.jpg)
 
-![A broken board sits on top of a table. The larger part of the board is standing up (propped up). In front of it is a folded, orange taekwondo belt. Leaning on the belt is the much smaller part of the broken board.]({{ site.url }}/assets/images/posts/orange-belt.jpg){:width="75%"}
+P.S. I am super proud of my kid!
