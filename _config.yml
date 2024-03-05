@@ -22,7 +22,11 @@ pagination:
 
 excerpt_separator: .
 
-highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 sass:
   sass_dir: '/assets/_sass'
