@@ -37,7 +37,19 @@ I am always looking for new opportunities and venues to speak about my work. Ple
 
 ## Past speaking events
 
-<ol markdown="1" reversed style="counter-reset: events 21;">
+<ol markdown="1" reversed style="counter-reset: events 22;">
+
+<li markdown="1">
+**Gutenberg Changelog #97**
+
+Guest host
+
+<span class="ri-calendar-fill"></span> March 15, 2024
+
+<span class="ri-map-pin-2-fill"></span> Online
+
+<span class="ri-volume-up-fill"></span> [WordPress 6.5, Gutenberg 17.8 and 17.9]https://gutenbergtimes.com/podcast/gutenberg-changelog-97-wordpress-6-5/)
+</li>
 
 
 <li markdown="1">
