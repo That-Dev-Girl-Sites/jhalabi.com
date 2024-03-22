@@ -131,6 +131,6 @@ Right-click on any image to open it at full size in a new window or tab.
 * [![Joni, a white woman with glasses and dark hair that is pulled back, wearing a black top and aqua sweater, is standing in front of an audience seated at tables. She is holding a microphone and speaking to the audience.](/assets/images/press-kit-speaking-edui.jpg)](/assets/images/press-kit-speaking-edui.jpg)
 * [![Book cover of Sweet Little You featuring a mom and baby flying in a paper airplane](/assets/images/sweet-little-you-cover.jpg)](/assets/images/sweet-little-you-cover.jpg)
 * [![A hardcover copy of Sweet Little You is sitting under a holiday tree. The book cover features a mom and baby flying in a paper airplane](/assets/images/press-kit-sweet-little-you-christmas.jpg)](/assets/images/press-kit-sweet-little-you-christmas.jpg)
-* [![Joni, a white woman with dark curly hair and glasses, is standing, wearing a black top and small necklace. She is standing with her hand on her hip in front of a light blue background.](/assets/images/head-shot-joni-halabi.jpg)](/assets/images/head-shot-alt-joni-halabi.jpg)
+* [![Joni, a white woman with dark curly hair and glasses, is standing, wearing a black top and small necklace. She is standing with her hand on her hip in front of a light blue background.](/assets/images/head-shot-alt-joni-halabi.jpg)](/assets/images/head-shot-alt-joni-halabi.jpg)
 
 </section>
