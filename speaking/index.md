@@ -48,7 +48,7 @@ Guest host
 
 <span class="ri-map-pin-2-fill"></span> Online
 
-<span class="ri-volume-up-fill"></span> [WordPress 6.5, Gutenberg 17.8 and 17.9]https://gutenbergtimes.com/podcast/gutenberg-changelog-97-wordpress-6-5/)
+<span class="ri-volume-up-fill"></span> [WordPress 6.5, Gutenberg 17.8 and 17.9](https://gutenbergtimes.com/podcast/gutenberg-changelog-97-wordpress-6-5/)
 </li>
 
 
