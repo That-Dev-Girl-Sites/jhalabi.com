@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Perseverance: An lesson from my 5 year-old"
+title: "Perseverance: A lesson from my 5 year-old"
 date: "2024-02-22"
 categories:
   - life
