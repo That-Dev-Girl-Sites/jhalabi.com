@@ -56,7 +56,7 @@ A mother with a dream of having a child makes her wish come true by having a bab
 I have been writing for as long as I can remember. Here is a selection of my latest and favorite articles.
 
 1. [{{ site.posts.first.title }}]({{ site.posts.first.url }})
-1. [Perseverance: A lesson from my 5 year-old](/blog/2024/02/22/perseverance/)
+{::comment}1. [Perseverance: A lesson from my 5 year-old](/blog/2024/02/22/perseverance/){:/comment}
 1. [Static vs. dynamic blocks: What’s the difference?](https://developer.wordpress.org/news/2023/02/27/static-vs-dynamic-blocks-whats-the-difference/)
 1. [Carousels: No one likes you](/blog/2022/03/08/carousels-no-one-likes-you/)
 1. [Writing a custom WordPress block](/blog/2022/09/27/writing-custom-wp-block/)
