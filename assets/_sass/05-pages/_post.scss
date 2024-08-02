@@ -61,5 +61,15 @@
   // The article itself.
   &-article {
     @extend .fixed-width;
+
+    // Blockquotes, but only used in posts.
+    blockquote {
+      p {
+        background-color: var(--silver-light-15);
+        font-style: italic;
+        padding-block: 0.9rem;
+        padding-inline: 2rem;
+      }
+    }
   }
 }
