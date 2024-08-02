@@ -48,7 +48,7 @@ And what about that human? In many circles, they are called the **content editor
 
 In theory, I could say the following:
 
-> I want the editor to go to the editor and create a page with this template. The page content needs this template with that pattern and that other synced pattern.
+> "I want the editor to go to the editor and create a page with this template. The page content needs this template with that pattern and that other synced pattern."
 
 That sentence has meaning, where each mention of “editor”, "template”, and “pattern” means something different. Fun, right?
 
