@@ -24,7 +24,6 @@ If you prefer a more passive method of communication, let's connect on social me
 
 * [Instagram](https://www.instagram.com/jonihalabi/){:.ri-instagram-fill .button .on-white}
 * [LinkedIn](https://www.linkedin.com/in/jonihalabi/){:.ri-linkedin-fill .button .on-white}
-* [Mastodon](https://higheredweb.social/@jonihalabi){:.ri-mastodon-fill .button .on-white}
 * [Twitter/X](https://twitter.com/jonihalabi){:.ri-twitter-x-fill .button .on-white}
 
 </section>

@@ -27,7 +27,7 @@ Pronouns:
 : she/her
 
 Title:
-: Senior Web Developer
+: Senior Web Manager, Office of the President
 
 Company:
 : Georgetown University
@@ -38,7 +38,7 @@ Location:
 Website:
 : [jhalabi.com](https://jhalabi.com)
 
-Twitter handle:
+Twitter/X handle:
 : [@jonihalabi](https://twitter.com/jonihalabi)
 
 Instagram handle:
@@ -62,7 +62,7 @@ _(This biography is best suited for development-focused conferences and other te
 
 <div markdown="1">
 
-Joni Halabi is a “middle-end” web developer at Georgetown University who likes to write code, commit often, and make up her own titles. She has spent the last 20 years developing solutions for a wide variety of industries and organizations. She currently specializes in developing CMS themes and WordPress editor customizations. Joni has also taught continuing education coding classes and spoken at a number of technical conferences.
+Joni Halabi is a Senior Web Manager with the Office of the President at Georgetown University. As a self-appointed “middle-end” developer, she likes to write code, commit often, and make up her own titles. Joni’s development career has evolved over a wide range of industries, including e-commerce, non-profit, and education. She specializes in WordPress editor customizations, content architecture, and public speaking at a number of technical conferences.
 
 When Joni is not writing code, she is writing technical articles and creative works focusing on life as a single mother by choice. She enjoys running, practicing yoga, reading, and seeing live music near her home in the Washington, D.C. area.
 
@@ -83,7 +83,7 @@ _(This biography is best suited for book-related interviews and other kid lit or
 
 <div markdown="1">
 
-Joni Halabi is a web developer at Georgetown University and conference speaker who writes technical articles as well as a blog focusing on her life and journey to becoming a mother. When she isn’t busy writing poignant stories for families and children, she enjoys running, doing yoga, reading, listening to podcasts, and seeing live music near her home in the Washington, D.C. area. A new pursuit of Joni’s is learning to play the piano. *Sweet Little You* is her debut picture book.
+Joni Halabi is a Senior Web Manager at Georgetown University and conference speaker who writes code and technical articles, as well as a blog focusing on her life and journey to becoming a mother. When she isn’t busy writing poignant stories for families and children, she enjoys running, doing yoga, reading, listening to podcasts, and seeing live music near her home in the Washington, D.C. area. *Sweet Little You* is her debut picture book.
 
 </div>
 
