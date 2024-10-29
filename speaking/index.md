@@ -37,7 +37,19 @@ I am always looking for new opportunities and venues to speak about my work. Ple
 
 ## Past speaking events
 
-<ol markdown="1" reversed style="counter-reset: events 22;">
+<ol markdown="1" reversed style="counter-reset: events 23;">
+
+<li markdown="1">
+**Gutenberg Changelog #110**
+
+Guest host
+
+<span class="ri-calendar-fill"></span> October 27, 2024
+
+<span class="ri-map-pin-2-fill"></span> Online
+
+<span class="ri-volume-up-fill"></span> [Gutenberg Changelog #110 – Gutenberg 19.5, WordPress 6.7, Create Block Theme Plugin and a Thousand Block Themes at the Repository](https://gutenbergtimes.com/podcast/gutenberg-changelog-110-gutenberg-19-5-wordpress-6-7-create-block-theme-plugin/)
+</li>
 
 <li markdown="1">
 **Gutenberg Changelog #97**
