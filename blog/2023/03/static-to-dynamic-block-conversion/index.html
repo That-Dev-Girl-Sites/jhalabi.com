@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Converting static blocks to dynamic blocks | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Converting static blocks to dynamic blocks">
+  <meta property="og:url" content="//jhalabi.com//blog/2023/03/static-to-dynamic-block-conversion/">
+  <meta property="og:description" content="I started working with custom Gutenberg blocks sometime in late 2017. Or, perhaps, it was early 2018.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+        
+          <a href="/blog/wordpress/" class="category wordpress">wordpress</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Converting static blocks to dynamic blocks</h1>
+
+    <p class="date">
+      17 March 2023
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>I started working with custom Gutenberg blocks sometime in late 2017. Or, perhaps, it was early 2018. To be honest, the timing is a bit fuzzy because I was pregnant at the time and pregnancy brain is real. For those of you keeping track, these timeframes are well before the <a href="https://wordpress.org/documentation/wordpress-version/version-5-0/">WordPress 5 release date of December 6, 2018</a>.</p>
+<p>Regardless, it has been a while. Gutenberg was still in development and significantly changing with every new <em>(alpha)</em> release. Meanwhile, our team at work was planning to migrate our 300+ sites from Drupal to WordPress. We knew that Gutenberg had to be part of that plan.</p>
+<p>I wrote a lot of blocks in those early days.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> <em>All</em> of them were static blocks. I did not know dynamic blocks were a possibility until we needed to write our own custom &quot;Latest News&quot; block.</p>
+<p>As an agile team, we tweaked those original blocks multiple times. This is what fueled my <a href="https://talks.jhalabi.com/dynamic-blocks/#/">dislike of static blocks</a>.</p>
+<h2>The ask: Convert our static blocks to dynamic blocks</h2>
+<p>I was not the only person on my team with a dislike of static blocks. We were all tired of the hassles of the deprecation errors that inevitably occurred. Then one day we asked, how can we convert these static blocks to dynamic blocks?</p>
+<p>The answer was two-fold:</p>
+<ol>
+<li>Create a new, dynamic version of the original static block.</li>
+<li>Write a content migration script to replace instances of the static block with its new dynamic version.</li>
+</ol>
+<p>Easy peasy. Right? Right. Let's do this!</p>
+<h2>Step 1: Rewrite the block</h2>
+<p>We can't convert a static block to a dynamic block, so the first step is to create that new dynamic block. This step is relatively straight-forward.</p>
+<p>There are only two required changes: create an additional registration function in PHP and replace the JavaScript <code>save()</code> function with a PHP <code>render()</code> function. The JavaScript side of the block registration, as well as the <code>edit()</code> function can remain the same.</p>
+<p>If you are undertaking a larger block refactor and need some help, I recommend reading through the WordPress how-to guide on <a href="https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/creating-dynamic-blocks/">creating dynamic blocks</a> or my own article about how I <a href="/blog/2022/09/writing-custom-wp-block">write a custom WordPress block</a>.</p>
+<h2>Step 2: Migrate your content</h2>
+<p>This migration step is more complex, but very important, part of the process. There is no reason for both the static and dynamic versions of a block to exist. The end goal is for the dynamic block to completely replace the original static block. Therefore, all instances of the static block need to be transformed into the new dynamic version.</p>
+<h3>An example</h3>
+<p>My solution was to write a one-off script in PHP to handle the migration. For illustrative purposes, let's pretend that we want to replace the existing core Paragraph (static) block with a new dynamic Paragraph block.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+<p>The static version of the block is saved with the HTML for the paragraph enclosed in Gutenberg block indicator comments. For example:</p>
+<pre><code class="language-php">&lt;!-- wp:paragraph --&gt;
+&lt;p&gt;And the seasons they go round and round&lt;/p&gt;
+&lt;!-- /wp:paragraph --&gt;
+</code></pre>
+<p>The goal of the migration is to re-save this block in the post content, so that the markup is removed and all content is saved as meta data inside the block indicators. For example:</p>
+<pre><code class="language-php">&lt;!-- wp:my/new-paragraph 
+{&quot;content&quot;: &quot;And the seasons they go round and round&quot;} 
+/--&gt;
+</code></pre>
+<h3>The script</h3>
+<p>My goal was to auto-migrate all Paragraph content at once. I am going to present the entire script first, then explain it further below.</p>
+<pre><code class="language-php">class MigrateParagraph {
+
+  private const OLD_P_REGEX = 
+    '/&lt;!-- wp:paragraph --&gt;&lt;p&gt;(.*)&lt;/p&gt;&lt;!-- \/wp:paragraph --&gt;/sU';
+
+  /**
+   * __construct()
+   */
+  public function __construct() {
+    add_action( 'init', [ $this, 'migrate' ] );
+  }
+
+
+  /**
+   * migrate()
+   * 
+   * Migrate all posts on the site.
+   * 
+   * @return void
+   */
+  public function migrate(): void {
+    // First, get all posts.
+    $posts = $this-&gt;get_all_posts();
+
+    // Loop through the posts.
+    foreach ( $posts as $post ) {
+      // Get all instances of the old Paragraph block 
+      // in this post.
+      preg_match_all( 
+        self::OLD_P_REGEX, 
+        $post-&gt;post_content, 
+        $matches
+      );
+
+      // The matches are stored in an array with 2 items. 
+      //   * [0]: All matched text (the entire block)
+      //   * [1]: The saved content in the matched text. 
+      //     This is the paragraph content
+      // Check to see if one of the array items has a 
+      // length. If not, there is nothing to migrate. 
+      // Move on.
+      if ( !$matches[1] ) { continue; }
+
+      // Loop through all of the paragraphs by looping 
+      // through the saved content (index 1).
+      for ( $i=0; $i&lt;count($matches[1]); $i++ ) {
+        $new_paragraph = '&lt;!-- wp:my/new-paragraph 
+          {&quot;content&quot;:' . $matches[1][$i] . '&quot;} /--&gt;';
+
+        // Replace the old block (index [0] in the matches 
+        // array) with the new block content.
+        $post-&gt;post_content = str_replace(
+          $matches[0][$i], 
+          $new_paragraph,
+          $post-&gt;post_content
+        );
+      }
+
+      // Update the post with the migrated content.
+      wp_update_post( $post );
+    }
+  }
+
+
+  /**
+   * get_all_posts()
+   *
+   * Get every post, so that we can look through them 
+   * for migratable blocks.
+   *
+   * @return array
+   */
+  private function get_all_posts(): array {
+    // Arguments to get all posts and pages, and 
+    // reusable blocks.
+    $args = [
+      'numberposts' =&gt; -1,
+      'post_status' =&gt; 'any',
+      'post_type'   =&gt; ['post', 'page', 'wp_block']
+    ];
+
+    // Return an array of post objects.
+    return get_posts( $args );
+  }
+
+}
+
+new MigrateParagraph;
+</code></pre>
+<p>Alright, that was a lot. Details time.</p>
+<h3>The regular expression</h3>
+<p>The beginning of the script defines the regular expression used to find all existing static Paragraph blocks in the post content:</p>
+<pre><code class="language-php">private const OLD_P_REGEX = 
+  '/&lt;!-- wp:paragraph --&gt;&lt;p&gt;(.*)&lt;/p&gt;&lt;!-- \/wp:paragraph --&gt;/sU';
+</code></pre>
+<p>This regular expression locates the block by its block indicator comments and isolates the paragraph content <em>(using the <code>(.*)</code> capture)</em>. That paragraph content is saved in the dynamic block's meta data.</p>
+<h3>The loop</h3>
+<p>The next part of the script gets all posts across all relevant post types, so that we can loop through each post to look for the Paragraph block. In this example, we want to collect a list of all posts, pages, and <code>wp_blocks</code>, which is the post type used for reusable blocks.<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
+<p>The script then loops through all posts and checks to see if the static Paragraph block exists in that post. If at least one Paragraph block is found, the migration continues. Otherwise, the script moves on to the next post in the loop.</p>
+<h3>The migration</h3>
+<p>This is the tricky part. Once the loop finds at least one static Paragraph block n the post, that match is saved to an array. This array contains two items:</p>
+<ol>
+<li>An array of all matched text items in the post. This is the the entire Paragraph block code, including block indicator comments.</li>
+<li>An array of all captured paragraph content in the matched text items.</li>
+</ol>
+<p>In the context of the example above, the array will look like this:</p>
+<pre><code class="language-php">[
+  [0] =&gt; [
+    [0] =&gt; &quot;&lt;!-- wp:paragraph --&gt;
+            &lt;p&gt;And the seasons they go round and round&lt;/p&gt;
+            &lt;!-- /wp:paragraph --&gt;&quot;,
+    [1] =&gt; ...
+  ],
+  [1] =&gt; [
+    [0] =&gt; &quot;And the seasons they go round and round&quot;,
+    [1] =&gt; ...
+  ]
+]
+</code></pre>
+<p>The two array items in the array mirror each other. So, the matched text in the first item in array index <code>[0]</code> contains the captured paragraph content in the first item in array index <code>[1]</code>.</p>
+<p>Now that we have a list of all blocks to be migrated, we can convert them into the format used by the dynamic version of our new Paragraph block. We loop through each of these matches and perform the conversion in two steps.</p>
+<p>First, we create the code for the new block, using the content in array index <code>[1]</code>:</p>
+<pre><code class="language-php">$new_paragraph = '&lt;!-- wp:my/new-paragraph 
+  {&quot;content&quot;:' . $matches[1][$i] . '&quot;} /--&gt;';
+</code></pre>
+<p>Next, we use the string replacement PHP function to replace the corresponding match text from array index <code>[0]</code> with the code for the new block:</p>
+<pre><code class="language-php">$post-&gt;post_content = str_replace(
+  $matches[0][$i], 
+  $new_paragraph,
+  $post-&gt;post_content
+);
+</code></pre>
+<h3>The save</h3>
+<p>Once we have finished the migration for a particular post, we use the <code>wp_update_post($post)</code> function to save our changes to the database. This has the added benefit of creating a new revision for the post. This is great as a backup, just in case somethng goes wrong or we need to refer back to the post's pre-migration state.</p>
+<h3>Conclusion</h3>
+<p>The Paragraph example above is a <em>very</em> basic overview of how I have been writing static-to-dynamic block migrations. A migration for a more complex example will naturally be more complex. I have written two of these migrations so far for two very different blocks. Each migration has been different, involving custom development for each.</p>
+<p>There is no concrete formula for a migration like this because we are 100% in edge-case territory. Ideally, you will need to do very, very few of these types of migrations, if any at all. My hope for this article is to give you an idea of what you are in for if you happen to need to perform a similar migration. YMMV. Good luck!</p>
+<section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>I'm going to tell you a dirty secret. I did not know React when I was writing those early blocks. As a matter of fact, I <em>still</em> don't know React. My &quot;React&quot; skillset is extremely limited to the Gutenberg API. So, now you know. React experience is not actually a requirement to work with custom blocks. You're welcome? <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>This is a terrible idea to do in reality. Please do not replace the core Paragraph block on your own site. Not only is it an extremely useful and solid block, it is also the default block used by the WordPress. If a content editor just starts typing in the post editor, that content automatically goes into a Paragraph block. Removing and replacing this block will really mess up the editor. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>Do not forget about reusable blocks! Reusable blocks are saved as references in the post content of a page or post. Their content is not directly saved to a page or post. (If a reusable block is updated, that update is applied to all pages and posts on which it appears. This is <em>exactly</em> why a reusable block is saved by reference.) Therefore, we <em>also</em> need to include reusable blocks as a post type for these types of content migrations. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Converting static blocks to dynamic blocks” by @jonihalabi.bsky.social https://jhalabi.com/blog/2023/03/static-to-dynamic-block-conversion/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2023/03/static-to-dynamic-block-conversion/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

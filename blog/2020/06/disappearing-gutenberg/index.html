@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    The case of the disappearing Gutenberg | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="The case of the disappearing Gutenberg">
+  <meta property="og:url" content="//jhalabi.com//blog/2020/06/disappearing-gutenberg/">
+  <meta property="og:description" content="Once upon a time, there was a WordPress post editor that discovered it had turned into a simple HTML editor.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+        
+          <a href="/blog/wordpress/" class="category wordpress">wordpress</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">The case of the disappearing Gutenberg</h1>
+
+    <p class="date">
+      20 June 2020
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>Once upon a time, there was a WordPress post editor that discovered it had turned into a simple HTML editor....</p>
+<p>(Apologies to Anne Tyler's <em>Back When We Were Grownups</em>.) But in all seriousness, has this happened to you?</p>
+<p>I ask because this just happened to me. Twice. I logged into WordPress to add a new page and discovered that the Gutenberg editor was gone. No, I did not accidentally install the Classic Editor plugin. Gutenberg simply disappeared. The block library icon was there, but not clickable. The editor had been replaced with a text-only HTML editor.</p>
+<figure>
+  <img src="/assets/images/posts/no-gutenberg.jpg" alt="WordPress editor, which includes the 'Add Title' field, followed by a text-only field with a placeholder saying 'Start writing with text or HTML'">
+  <figcaption>What happened to Gutenberg?</figcaption>
+</figure>
+<h2>Did I break Gutenberg?</h2>
+<p>My first thought was that <em>something</em> must be going on with one of my plugins, so I disabled all custom and contributed plugins. Still no Gutenberg.</p>
+<p>Could it be my theme? I activated the core TwentyTwenty theme, instead of my custom theme. Nope. Still no Gutenberg.</p>
+<h2>Umm... is core broken?</h2>
+<p>At this point, the issue was obviously not with any of my custom code or something I installed. Let's see if core is throwing any errors. I did not see any errors in my browser's developer console, but my PHP error log was throwing errors about not being able to allocate memory.</p>
+<p>I checked my <code>php.ini</code> file. I already set my memory limit to 128MB, which is the maximum recommended limit, but just for kicks, I upped it to 512MB.</p>
+<p>Still no Gutenberg. And, adding insult to injury, I was <em>still</em> seeing memory allocation errors in my PHP logs. This memory limit issue was already ludicrous, so I concluded that this was unlikely to be the culprit of my Gutenberg issue. This was another issue for another day.</p>
+<h2>Help me, Obi-Wan Google. You're my only hope.</h2>
+<p>I turned to the Google and found a number of <a href="https://wordpress.org/support/topic/block-editor-no-longer-working-only-shows-html/">support requests</a>, <a href="https://github.com/WordPress/gutenberg/issues/12760">issues</a>, and <a href="https://wordpress.stackexchange.com/questions/126110/visual-editor-missing-server-side-problem-how-would-you-debug-it">questions</a>. Many of these suggested troubleshooting techniques that I had already tried, but there were also some new ideas here.</p>
+<p>I resaved my permalinks, which was admittedly a non-sensical longshot. Still no Gutenberg.</p>
+<p>I cleared my browser cache and cookies. Still no Gutenberg.</p>
+<p>I switched browsers. (I had been working in Google Chrome.) Still no Gutenberg.</p>
+<h2>The (infuriating) eureka moment.</h2>
+<p>I finally came across a <a href="https://wordpress.org/support/topic/block-editor-no-longer-working-only-shows-html/page/3/#post-11093164">support topic that suggested the solution</a>, though it presented itself as a total longshot.</p>
+<p>So, what was this solution? <strong>Make sure your WordPress user profile has a nickname.</strong></p>
+<figure>
+  <img src="/assets/images/posts/profile-with-nickname.jpg" alt="WordPress admin user screen, with the username, first name, last name, and nickname fields. The username and nickname fields are filled out.">
+  <figcaption>Make sure your WordPress user has a nickname. It is apparently important.</figcaption>
+</figure>
+<p>The user nickname is a required field, but, somehow when I created my account, the nickname did not get set. Apparently, being logged in as a user with no nickname causes issues, like <strong>Gutenberg not f$#@$-ing loading</strong>.</p>
+<p>So, remember folks, make sure your WordPress user account has a nickname. Otherwise, WordPress will get angry. You don't want to make WordPress angry.</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “The case of the disappearing Gutenberg” by @jonihalabi.bsky.social https://jhalabi.com/blog/2020/06/disappearing-gutenberg/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2020/06/disappearing-gutenberg/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

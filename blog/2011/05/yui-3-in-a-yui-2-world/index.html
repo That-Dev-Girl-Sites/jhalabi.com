@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    YUI 3 in a YUI 2 world | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="YUI 3 in a YUI 2 world">
+  <meta property="og:url" content="//jhalabi.com//blog/2011/05/yui-3-in-a-yui-2-world/">
+  <meta property="og:description" content="You want to use YUI 3 inside YUI 2? Really?">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">YUI 3 in a YUI 2 world</h1>
+
+    <p class="date">
+      24 May 2011
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>I know what you are probably thinking.  You want to use YUI 3 inside YUI 2?  Really?  Why not just upgrade to YUI 3 altogether?</p>
+<p>The question actually came up in one of my more recent projects, with a client who has been using YUI 2.7 for years now.  Would they like to make the leap to YUI 3?  Probably.  Do they have the time, resources, etc. to actually upgrade their (massive) site to YUI 3?  Not so much.</p>
+<p>YUI 3, for those of you who have not yet checked it out, is a completely re-written library, and, so far, seems to be much slicker and more JQuery-esque than its predecessor.</p>
+<p>YUI 3 still is not quite complete – at least, in terms of additional widgets.  The core library launched in September 2009, and the widgets available in YUI 2 have been in the process of being rewritten for and released into YUI 3.  This process is still ongoing as far as I can tell, but YUI 3 is clever enough to be able to incorporate YUI 2 libraries into its framework.</p>
+<p>However, some of the YUI 3 versions of these widgets are much improved over their YUI 2 counterparts.  So, for my client, the question came up: <strong>Can a YUI 3 widget get along with a core YUI 2 environment?</strong></p>
+<p>Long story short: I conducted a successful experiment using the YUI 3 Drag / Drop library inside a page that is otherwise using YUI 2.7.0 to create a pop-up dialog where users can reorder a group of content blocks by dragging 1 or more blocks to the desired location.</p>
+<p>You can check out the full version of this <a href="https://github.com/thatdevgirl/color-sequencing">proof of concept on GitHub</a>.  There is also a short explanation of the basics below:</p>
+<h2>Step 1: Creating the dialog.</h2>
+<p>The code to create a dialog is basic YUI 2 code:</p>
+<pre><code class="language-javascript">openDialog: function() {
+  if (COLORWAY.test.dialog == null) {
+    COLORWAY.test.dialog = new YAHOO.widget.Dialog(&quot;colorway-dialog-box&quot;, {
+      ... attributes go here ...
+    });
+
+    COLORWAY.test.dialog.setHeader(&quot;Reorder Color Sequence&quot;);
+    COLORWAY.test.dialog.render(&quot;document.body&quot;);
+  }
+
+  COLORWAY.test.dialog.show();
+}
+</code></pre>
+<h2>Step 2: Selecting elements.</h2>
+<p>As I mentioned earlier, this proof of concept was created to test dragging and dropping 1 element or multiple elements, therefore we need a way to determine whether or not the user is trying to select more than one element.  I opted for the user to hold the shift key down while selecting more than 1 element; however you can really use whatever key you want.  Just make sure to tell the user what to do!  <em>(I have instructions listed at the top of my dialog box.)</em></p>
+<p>My code is simple – and still using YUI 2.  If the user selects an element, add a “selected” class to that element.  If the user is pressing the shift key, do not remove the “selected” class from any other element that may be selected.  If the user is not pressing the shift key, unselect everything else.</p>
+<pre><code class="language-javascript">// If the shift key is not pressed, unselect all, then select that item.
+if (!COLORWAY.test.shift) {
+  var selected = Selector.query(&quot;div.selected&quot;, wrapper);
+  for (var i=0; i&lt;selected.length; i++) {
+   Dom.removeClass(selected[i], &quot;selected&quot;);
+  }
+  Dom.addClass(target, &quot;selected&quot;);
+}
+
+// If the shift key is pressed and the item is selected, unselect it.
+else if (Dom.hasClass(target, &quot;selected&quot;)) {
+  Dom.removeClass(target, &quot;selected&quot;);
+}
+
+// If the shift key is pressed and the item is not selected, select it.
+else {
+    Dom.addClass(target, &quot;selected&quot;);
+}
+</code></pre>
+<h2>Step 3: Dragging element(s) to their new location.</h2>
+<p>Here comes the fun part – dragging and dropping the selected elements.  This entire step is the YUI 3 part of the experiment.  A couple of things need to happen in this step.</p>
+<p>First, we need to set up the node that is being dragged.  This happens in the <strong>Y.DD.DDM.on(‘drag:start’, function(e) {}</strong> event function.  Here, we change the dragged node’ style, change the style of all of the other selected nodes (if they exist) using the e.target.get; so, for example:</p>
+<pre><code class="language-javascript">e.target.get('dragNode').addClass('selected');
+
+e.target.get('dragNode').setStyles({
+    backgroundColor: e.target.get('node').getStyle('backgroundColor')
+});
+</code></pre>
+<p>Next, we need to make sure we know which elements are being dropped into place, and determine if we are dropping 1 or multiple elements.  This is where the “selected” class comes in; all of this code is included in the <strong>Y.DD.DDM.on(‘drop:over’, function(e) {}</strong> event function:</p>
+<pre><code class="language-javascript">// Add node(s) to this list.
+var selected = Selector.query(&quot;#colorway-main-container div.selected&quot;);
+
+if (selected.length &gt; 1) {
+  for (var i=0; i&lt;selected.length; i++) {
+    e.drop.get('node').get('parentNode').insertBefore(selected[i], drop);
+  }
+} else {
+  e.drop.get('node').get('parentNode').insertBefore(drag, drop);
+}
+</code></pre>
+<p>During the drag, all of the YUI 3 magic happens to animate the dragged node from its old location to a new location in the <strong>Y.DD.DDM.on(‘drag:drag’, function(e) {}</strong> event function.  To be honest, I just copied the basic YUI 3 implementation into my code, but it worked exactly as I expected:</p>
+<pre><code class="language-javascript">Y.DD.DDM.on('drag:drag', function(e) {
+  var y = e.target.lastXY[1];
+  goingUp = (y &lt; lastY) ? true : false;
+  lastY = y;
+  Y.DD.DDM.syncActiveShims(true);
+});
+</code></pre>
+<p>Finally, once the node has been dragged to its final location, we reset the styles of the dragged node in the <strong>Y.DD.DDM.on(‘drag:end’, function(e) {}</strong> event function, again using e.target.get.</p>
+<p>Of course, there is a little more to the code than just this, but I’m not about to paste my entire source code into this post.  You can check out the completed <a href="https://github.com/thatdevgirl/color-sequencing">proof of concept on GitHub</a>.</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “YUI 3 in a YUI 2 world” by @jonihalabi.bsky.social https://jhalabi.com/blog/2011/05/yui-3-in-a-yui-2-world/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2011/05/yui-3-in-a-yui-2-world/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

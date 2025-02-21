@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Writing a custom WordPress block | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Writing a custom WordPress block">
+  <meta property="og:url" content="//jhalabi.com//blog/2022/09/writing-custom-wp-block/">
+  <meta property="og:description" content="Every so often, someone asks me about the code I write, so here is a comprehensive overview of how I write a custom block.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+        
+          <a href="/blog/wordpress/" class="category wordpress">wordpress</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Writing a custom WordPress block</h1>
+
+    <p class="date">
+      27 September 2022
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>This post has been a long time coming. I have talked about custom WordPress block creation for several years now, from blogging about <a href="blog/2021/10/wordpress-block-json">registering dynamic blocks with <code>block.json</code></a> to speaking at various conferences about why <a href="https://talks.jhalabi.com/dynamic-blocks/">dynamic blocks are awesome</a>.</p>
+<p>It recently occurred to me that I have yet to write up a complete post about how I write my custom blocks. Every so often, someone asks me about the code I write, so here is a comprehensive overview of how I write a custom block.</p>
+<h2>General philosophy</h2>
+<p>Hot take: I am a big advocate of dynamic blocks. As an overview, a <strong>dynamic block</strong> is a block whose front-end markup is generated via the WordPress PHP backend, as the page is called. In contrast, a <strong>static block</strong> is a block whose markup is saved directly to the database.</p>
+<p>There are definite advantages and disadvantages to both. TL;DR: I am a big fan of the dynamic approach because I often receive requests to edit blocks after they are used on live sites. Editing a static block requires writing a deprecation for the block's previous version. My personal goal is to include as few deprecations as possible in my blocks.</p>
+<h2>Objective</h2>
+<p>The purpose of this post is to illustrate how I write a custom Gutenberg block. I want to keep this tutorial as simple as possible. Therefore, the example block here will be one that displays a word and its definition.</p>
+<h2>The anatomy of a custom block</h2>
+<p>A custom dynamic block is written using a combination of JavaScript (JS) and PHP. The JavaScript side handles the post editor experience, while the PHP side handles the front-end experience.</p>
+<p>To that end, the block needs 4 pieces (files). I place all of these files in the same directory in order to simplify the code <em>(since these files need to find and talk to each other)</em>. It also really helps with code organization when I am registering multiple blocks.</p>
+<ul>
+<li><code>BLOCK_DIRECTORY</code>
+<ul>
+<li><code>block.json</code>: defines the block structure</li>
+<li><code>edit.js</code>: a JS module that defines the block's edit functionality</li>
+<li><code>register.php</code>: registers the block on the PHP side and defines how the front-end is rendered</li>
+<li><code>index.js</code>: registers the block on the JS side</li>
+</ul>
+</li>
+</ul>
+<p>Let's dive deeper into each of these files.</p>
+<h2><code>block.json</code>: Defining the block</h2>
+<p>The <code>block.json</code> file defines how the block is structured, what attribute it uses, and what metadata is applicable to the block. This metadata includes information like the block's name, description, keywords, and icon. It is used by both the PHP and JavaScript registration functions.</p>
+<p>In this example, I want to define the following pieces of information:</p>
+<ul>
+<li><strong><code>name</code></strong>: The unique machine name of my block, which the post editor will use to identify the block any time it is used.</li>
+<li><strong><code>title</code></strong>: The human-readable name of my block.</li>
+<li><strong><code>category</code></strong>: The category that my block will be listed under in the <a href="https://wordpress.org/support/article/blocks/">Block Inserter</a>. For this example, I will use the &quot;Text&quot; out-of-the-box category. You can also <a href="https://gutenberghub.com/how-to-create-custom-block-category/">create your own custom category</a>.</li>
+<li><strong><code>description</code></strong>: The human-readable description of my block. It is best to keep this short, maybe tweet length.</li>
+<li><strong><code>attributes</code></strong>: The pieces of content that my block needs to save. In this case, I need to save 2 strings, the dictionary word and the definition. The <code>attributes</code> item is an object and each piece of content inside is its own object that defines the content's variable type <em>(e.g. string, integer, boolean)</em> and an optional default value.</li>
+</ul>
+<p><code>block.json</code> includes more metadata options than are applicable to this example. You can refer to <a href="https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/">WordPress's block API metadata reference guide</a> for a complete list of all available options.</p>
+<p>Here is what my example block's JSON file look like:</p>
+<pre><code class="language-json">{
+  &quot;$schema&quot;: &quot;https://schemas.wp.org/trunk/block.json&quot;,
+  &quot;apiVersion&quot;: 2,
+
+  &quot;name&quot;: &quot;my/word&quot;,
+  &quot;title&quot;: &quot;Dictionary Word&quot;,
+  &quot;category&quot;: &quot;text&quot;,
+  &quot;description&quot;: &quot;Present a word and its definition&quot;,
+
+  &quot;attributes&quot;: {
+    &quot;word&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;default&quot;: &quot;&quot;
+    },
+    &quot;definition&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;default&quot;: &quot;&quot;
+    }
+  }
+}
+</code></pre>
+<h2><code>edit.js</code>: Defining the editor UI</h2>
+<p>The Gutenberg editor is written in ReactJS. Therefore, any customizations to that editor need to also be written in JavaScript. This <code>edit.js</code> file defines a JS module that will create the editor UI for this custom block.</p>
+<p>This module defines a function that will be called in the JS registration for this block. <em>(We will get to the JS registration later on in this article.)</em></p>
+<p>This function accepts a single <code>props</code> parameter, which is an object that is automatically passed to the block edit function by Gutenberg. This object contains all of the information about the block, including, but not limited to, its attributes.</p>
+<p>The <code>edit()</code> function then uses Gutenberg components to construct an editor interface that can be used to add and edit the block's content. In this case, we will use the Gutenberg <a href="https://github.com/WordPress/gutenberg/tree/trunk/packages/components/src/text-control"><code>TextControl</code></a> component to construct the input field for both the word and the definition.</p>
+<p>The module code, commented with further explanations, is below:</p>
+<pre><code class="language-javascript">// The JS module is a function, saved to a constant variable.
+const WordEdit = ( props ) =&gt; {
+
+  // The `useBlockProps()` function from the block editor library
+  // allows the block to include default classes and components, 
+  // like the block selection toolbar, in the editor UI. The 
+  // block will be unselectable without this.
+  const { useBlockProps } = wp.blockEditor;
+
+  // We run the `useBlockProps()` function to save these classes
+  // and properties as a string, which will will add to the 
+  // editor UI markup below.
+  const blockProps = useBlockProps();
+
+  // The `TextControl` component provides us with an input box
+  // that a user can use to add and edit the word and definition
+  // in our block.
+  const { TextControl } = wp.components;
+
+  // `setAttributes` is a function passed by the block properties
+  // which will allow us to save any changes to the block 
+  // attributes.
+  const { setAttributes } = props;
+
+  // Extract our block's attributes (`word` and `definition`) 
+  // from the `attributes` object inside the block properties.
+  const { word, definition } = props.attributes;
+  
+  // Here, we create change event handlers that will run whenever
+  // one of the attributes is edited. The handlers are functions
+  // that call the `setAttributes` function (from our block
+  // properties, above). It sets the given attribute to the
+  // passed-in value.
+  const onChangeWord = ( value ) =&gt; { 
+    setAttributes( { word: value } )
+  };
+  
+  const onChangeDefinition = ( value ) =&gt; { 
+    setAttributes( { definition: value } )
+  };
+
+  // This edit function is required to return the edit UI 
+  // markup. The markup here is written in JSX.
+  return (
+    { /* JSX requires that a single element be returned, so */ }
+    { /* we enclose everything in a `div`. The `blockProps` */ }
+    { /* provides the classes and attributes necessary to */ }
+    { /* render the block properly in the post editor. */ }
+    &lt;div { ...blockProps }&gt;
+
+      { /* The `TextControl` component that provides the */ }
+      { /* input element for the word attribute. */ }
+      &lt;TextControl
+        label='Word'
+        value={ word }
+        onChange={ onChangeWord }
+      /&gt;
+
+      { /* The `TextControl` component that provides the */ }
+      { /* input element for the definition attribute. */ }
+      &lt;TextControl
+        label='Definition'
+        value={ definition }
+        onChange={ onChangeDefinition }
+      /&gt;
+
+    &lt;/div&gt;
+  );
+
+};
+
+export default WordEdit;
+</code></pre>
+<h2><code>register.php</code>: Defining the front-end UI</h2>
+<p>The <code>register.php</code> file is only required because we are creating this block as a dynamic block. This file has 2 jobs:</p>
+<ol>
+<li>Register the block on the PHP side so that we can dynamically construct the block's front-end markup.</li>
+<li>Define a <code>render()</code> function to construct the block's front-end markup. This is done as a callback from the registration function.</li>
+</ol>
+<p>I prefer to create a class for each block. This is not strictly necessary, but I find it makes the code much more readable, especially in cases where I am registering a lot of blocks. <em>(For example, at work, we have a plugin that registers over 40 blocks.)</em></p>
+<p>The PHP code, commented with further explanations, is below:</p>
+<pre><code class="language-php">&lt;?php
+
+// Namespace for my block class.
+namespace My\Blocks;
+
+class Word {
+
+  /**
+   * __construct()
+   * 
+   * This function calls the block's PHP registration function
+   * (below) using the WordPress `init` action.
+   */
+  public function __construct() {
+    add_action( 'init', [ $this, 'register' ] );
+  }
+
+
+  /**
+   * register()
+   * 
+   * This is the function that is called by the above `init`
+   * action. It contains a single call to the WordPress
+   * `register_block_type()` function, which will register the
+   * block. 
+   * 
+   * The first parameter, `__DIR__` specifies the
+   * location of the `block.json` file, which is in the same 
+   * directory as the PHP file for this example.
+   * 
+   * The second parameter is an arguments array. In this case,
+   * we are only including a single argument that defines the
+   * render callback. The render callback is a function that 
+   * defines the block's front-end markup. 
+   *
+   * @return void
+   */
+  public function register(): void {
+    register_block_type( __DIR__, [
+      'render_callback' =&gt; [ $this, 'render' ]
+    ] );
+  }
+
+
+  /**
+   * render()
+   *
+   * This is the function that is called by the `render`
+   * callback in the `register()` function above. It
+   * takes the block attributes and uses that content to
+   * create the block's front-end display.
+   * 
+   * @param array $attributes Block attributes
+   * 
+   * @return string
+   */
+  public function render( $attributes ): string {
+    // Extract whatever block attribute data we need.
+    $word = $attributes['word'] ?? '';
+    $definition = $attributes['definition'] ?? '';
+
+    // Create and return the front-end markup. I find it easier
+    // to use a heredoc for readability purposes.
+    return &lt;&lt;&lt;HTML
+      &lt;dl&gt;
+        &lt;dt&gt;$word&lt;/dt&gt;
+        &lt;dd&gt;$definition&lt;/dd&gt;
+      &lt;/dl&gt;
+HTML;
+  }
+
+}
+
+// Instantiate the class.
+new Word;
+
+</code></pre>
+<h2><code>index.js</code>: Registering the block's JS</h2>
+<p>The <code>index.js</code> file simply registers the block in the JavaScript. Its registration function requires 3 pieces of information:</p>
+<ol>
+<li>The location of the <code>block.json</code> file, which defines the block's name, attributes, etc.</li>
+<li>An <code>edit()</code> function, which defines the block's editor UI. We already wrote this function above in the <code>edit.js</code> file, so all we need to do here is point this edit function to our block edit module.</li>
+<li>A <code>save()</code> function, which defines the block's front-end UI. For a static block, this function would return a string with the block's markup. However, since we are defining a dynamic block, this function is not needed. We tell it to return null, to indicate to the post editor that the markup will be generated by the PHP.</li>
+</ol>
+<p>As with the <code>edit.js</code> file above, I prefer to write this JavaScript registration file as a module, which can be imported elsewhere inside of a larger plugin.</p>
+<p>This JavaScript code, commented with further explanations, is below:</p>
+<pre><code class="language-javascript">// Import the `WordEdit` module, defined above in `edit.js`
+// as simply `Edit` to make reading the code easier.
+import { default as Edit } from './edit.js';
+
+// We also import `block.json` as a module, for use in the
+// registration function below. 
+import { default as Metadata } from './block.json';
+
+const WordEdit = ( () =&gt; {
+
+  // Block registration uses the `registerBlockType` function
+  // from the `wp-blocks` package. I like to extract that here
+  // for reading ease.
+  const { registerBlockType } = wp.blocks;
+
+  // Call the registration function.
+  // The first parameter is the `Metadata` import from above,
+  // which is the `block.json` file.
+  // The second parameter is an arguments object, which contains
+  // the `edit()` and `save()` functions.
+  registerBlockType( Metadata, {
+    // The `edit()` function passes the block properties
+    // (`props`) and returns the `Edit` import from above.
+    edit: ( props ) =&gt; {
+      return ( Edit( props ) );
+    },
+
+    // As stated above, the `save()` function simply returns
+    // `null`, because this is a dynamic block.
+    save: () =&gt; {
+      return null;
+    }
+  });
+
+} )();
+
+export default WordEdit;
+
+</code></pre>
+<h2>References</h2>
+<p>This post is a super-basic overview of how I, a single developer, create custom WordPress blocks. As with most things in programming, there are 86 different <em>(and valid)</em> approaches to a code solution.</p>
+<p>You can learn a ton from the WordPress block API documentation. Many of the modules and components are documented and all core WordPress code is publicly available. <em>(Hooray for open source!)</em></p>
+<p>Below is a list of my favorite resources and links to more information about some of the functions I reference above.</p>
+<ul>
+<li><a href="https://developer.wordpress.org/block-editor/reference-guides/block-api/">WordPress Block API Reference</a></li>
+<li><a href="https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/">WordPress Block API registration documentation</a></li>
+<li><a href="https://github.com/WordPress/gutenberg">Gutenberg Github Repo</a></li>
+<li><a href="https://reactjs.org/docs/introducing-jsx.html">JSX</a></li>
+<li><a href="https://developer.wordpress.org/reference/hooks/init/">WordPress <code>init</code> action</a></li>
+<li><a href="https://developer.wordpress.org/reference/functions/register_block_type/">WordPress <code>register_block_type</code> PHP function</a></li>
+</ul>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Writing a custom WordPress block” by @jonihalabi.bsky.social https://jhalabi.com/blog/2022/09/writing-custom-wp-block/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2022/09/writing-custom-wp-block/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

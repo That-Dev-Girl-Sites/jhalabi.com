@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Git reversions by tag: a much better way | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Git reversions by tag: a much better way">
+  <meta property="og:url" content="//jhalabi.com//blog/2024/01/git-revert-a-better-way/">
+  <meta property="og:description" content="Almost a year ago, I published an article about what could be described as the worst way to revert tags in git. I regret that article.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Git reversions by tag: a much better way</h1>
+
+    <p class="date">
+      10 January 2024
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>Almost a year ago, I published an article about what could be described as the <a href="/blog/2023/04git-reversions-by-tag">worst way to revert tags in git</a>. I regret that article. The process I outlined there was an experiment gone awry. I conclude the post by telling my readers to &quot;use the knowledge here at your own risk.&quot; I hope you all listened.</p>
+<p>I am bringing this up because I was recently put into a situation (<em>again</em>) where I needed to revert a git repository back to a specific tag. This is not a task I do often, so off to the internet I went, entering the keywords &quot;git revert by tag&quot; into the search bar. This unearthed my previous post.<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<h2>This is promising?</h2>
+<p>I completely forgot about this post and, at first, was very excited. That is, until I actually <em>read</em> the entire post. I was disappointed, but determined to find a better way. The other top search results were not the step-by-step tutorial that I was hoping for, but, eventually, I found a method that I am much happier with.</p>
+<h2>The current state of my repo</h2>
+<p>My goal was to revert my repo to a previous tag, but, unlike last year's &quot;solution&quot;, not destroy any commits along the way. The <code>git log</code> looked something like this:</p>
+<pre><code class="language-powershell">11111 (HEAD -&gt; main, tag: LatestTag) Latest commit
+22222 Another fun feature
+33333 Fun feature
+44444 (tag: PreviousTag) More changes
+55555 Random changes
+66666 (tag: MuchOlderTag) Changes
+</code></pre>
+<p>The log starts with the most recent commit and goes backwards in time. My most recent commit was tagged (<code>LatestTag</code>), but I needed to revert this repo back to an older tag -- <code>PreviousTag</code>. This change would revert 3 commits: <code>11111</code>, <code>22222</code>, and <code>33333</code>.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+<h2>Step 1: Revert the repo locally</h2>
+<p>This first step is to revert the repo locally to its state at the <code>PreviousTag</code> tag by rolling each commit back <em>separately</em>.</p>
+<pre><code class="language-powershell">git revert HEAD..PreviousTag
+</code></pre>
+<p>A confirmation of each commit's reversion appears as part of this <code>revert</code> command. Git treats each reversion as its own commit, so you will need to review and save each commit as they pop up on your screen.</p>
+<p>There is a chance that some merge conflicts will arise. I did not encounter that, but if you do, use whatever method you usually use to resolve conflicts.</p>
+<p>Once git has finished rolling back each commit, a <code>git status</code> looks something like this:</p>
+<pre><code class="language-powershell">[main 33333a] Revert &quot;Fun feature&quot;
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[main 22222a] Revert &quot;Another fun feature&quot;
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[main 11111a] Revert &quot;Latest commit&quot;
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+</code></pre>
+<p>Three changes were reverted, resulting in three, separate commits.</p>
+<h2>Step 2: Verify and push</h2>
+<p>Reverting one commit can be daunting. Reverting <em>multiple</em> commits is a big deal. I cannot stress this enough: Test your code before doing anything else!</p>
+<p>Once you have verified that that your code works as expected, push the changes to remote.</p>
+<pre><code class="language-powershell">git push origin main
+</code></pre>
+<h2>Step 3: Goal achieved!</h2>
+<p>Not only has the repo been reverted to its previous commit, but the commit history has been preserved <em>and</em> each reversion is saved as a separate commit <em>(just in case you need to do more &quot;fun&quot; things with git)</em>.</p>
+<p>Now, do yourself a favor and forget about last year's post.<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
+<section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>My post was the third link on the search results page. <em>Third.</em> That is either embarassing or pretty amazing SEO. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>The commit hashes were (obviously) changed to something easier to read, so no one gets lost in a sea of characters. At the very least, this is easier on my eyes. You're welcome. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>One may ask why I don't just delete that old post. I don't really believe in deleting my old content (unless it is truly harmful). That old post is not a great idea, but I also admit that in the post, so I hope readers will take that to heart. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Git reversions by tag: a much better way” by @jonihalabi.bsky.social https://jhalabi.com/blog/2024/01/git-revert-a-better-way/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2024/01/git-revert-a-better-way/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

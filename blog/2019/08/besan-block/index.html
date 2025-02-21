@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Besan Block: A long time coming | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Besan Block: A long time coming">
+  <meta property="og:url" content="//jhalabi.com//blog/2019/08/besan-block/">
+  <meta property="og:description" content="A few times a year, we hold an internal event at work that we call "Serendipity Day."">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+        
+          <a href="/blog/wordpress/" class="category wordpress">wordpress</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Besan Block: A long time coming</h1>
+
+    <p class="date">
+      15 August 2019
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>A few times a year, we hold an internal event at work that we call &quot;Serendipity Day.&quot; We use this day, inspired by <a href="https://npr.codes/serendipity-at-npr-5fb185bb5864">NPR</a>, to work on projects that are somewhat work related, but have been sitting on our back burners for a while. Sometimes we use this day to research a new topic. More often than not, though, we use this day to build something new.</p>
+<h2>Serendipity, take 1</h2>
+<p>Over a year ago, I decided that for that particular Serendipity Day, I wanted to learn <a href="https://d3js.org/">D3.js</a>. I came up with a project to create charts using D3. I intended the project to be an app for developers. A developer could use it to generate SVG code, to be saved and used separately on a site. I was also working with Google's API to get data from spreadsheets there because, well, I needed to get data from <em>somewhere</em>.</p>
+<p>After a full day, I was able to learn both Google's API and D3 well enough to produce a single graph. It was great! I learned so much about SVGs as well, because in the process, I also wanted to make these charts accessible. This involved &quot;getting into the weeds&quot; with both SVG code and D3. However, I became very frustrated with D3. The library, while powerful, felt like a whole lot of overhead just to create SVG code.</p>
+<p>My intention was to keep working on this project after that Serendipity Day and eventually publish it. Then, life happened and my project remained unpublished.</p>
+<h2>Serendipity, take 2</h2>
+<p>Fast-forward to Serendipity Day this year. Between that earlier Serendipity Day and now, WordPress 5 was released with its new &quot;Gutenberg&quot; core editor. I am now very well versed in the new editor. I have written more custom post editor blocks than I can count. And that charting project from last year is still in the back of my mind.</p>
+<p>So, I decided to rewrite my charting project with some major changes. I decided that feeding data from Google was still a good idea. However, I decided to forego D3 and, instead, write the SVG code manually. I also decided that I wanted this project to be a tool anyone could use. I decided to turn this into a custom block for the WordPress editor.</p>
+<p>I created a decent proof of concept in less than a day. My POC was a plugin that added a new post editor block where an editor can enter in a Google Sheets URL and a column of data to chart. WordPress turned that information into a bar chart that was both navigable by keyboard and readable by screen readers. The chart was an SVG created &quot;by hand&quot; in PHP. <em>Success!</em></p>
+<p>This time, I was very determined to publish my project because, gosh darn it, this is cool! I found the time to add a settings page to save the editor's Google API key. I added options to add a chart caption and change the colors of the bars. I cleaned up chart styles. I spent <em>way</em> too much time naming this plugin. (<em>Besan</em>, by the way, is the Vulcan word for &quot;chart&quot;. Live long and prosper.)</p>
+<h2>OMG. It's happening!</h2>
+<p><em>Finally</em>, I submitted my plugin to the WordPress plugin library. <em>And</em> it was accepted! This plugin is officially live.</p>
+<p>But, I am not done. I have plans to expand the plugin to include more graphs, starting with pie charts as soon as I sit down and actually work out the math around it. Also scatter plots. And line graphs.</p>
+<p>In the meantime, check out the <a href="https://wordpress.org/plugins/besan-block/">Besan Block plugin</a> in all its bar chart glory and have fun!</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Besan Block: A long time coming” by @jonihalabi.bsky.social https://jhalabi.com/blog/2019/08/besan-block/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2019/08/besan-block/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

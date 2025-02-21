@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Git reversions by tag (and why git can be a scary place) | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Git reversions by tag (and why git can be a scary place)">
+  <meta property="og:url" content="//jhalabi.com//blog/2023/04/git-reversions-by-tag/">
+  <meta property="og:description" content="I have been using git for over a decade and reverting commits still trips me up.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Git reversions by tag (and why git can be a scary place)</h1>
+
+    <p class="date">
+      14 April 2023
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>I have been using git for <em>(checks watch)</em> over a decade and reverting commits <em>still</em> trips me up.</p>
+<p>I recently came across a bug in our code. This codebase is regularly deployed to production and we know production does not have this bug. This gave us a good idea of when the bug was introduced.</p>
+<p>Very long story short, the decided goal was to revert this repository back to the last known good commit. <em>(Seriously, it's a much longer story, irrelevant to this one.)</em></p>
+<p>To illustrate, here is an example of (basically) what the git log looked like:</p>
+<pre><code class="language-powershell">11111 (HEAD -&gt; master) Latest commit
+22222 Another commit
+33333 Start of the bug
+44444 Last known good commit
+55555 Random good commit
+66666 Another random good commit
+</code></pre>
+<p>The goal is to cleanly revert several commits, back to the &quot;last known good commit.&quot;</p>
+<h2>Step 1: Bookmark the commits</h2>
+<p>The first step is to tag the relevant commits for this reversion. This includes the latest commit, the first buggy commit, and the last known good commit. Bookmarking these commits allows me to find them more easily later.</p>
+<pre><code>git tag -a LatestCommit 11111
+git push origin LatestCommit
+
+git tag -a BuggyCommit 33333
+git push origin BuggyCommit
+
+git tag -a BeforeBuggy 44444
+git push origin BeforeBuggy
+</code></pre>
+<p>I can make sure my tags are in place by running <code>git log --pretty=oneline</code>. My commits should now look like this:</p>
+<pre><code class="language-powershell">11111 (HEAD -&gt; master, tag: LatestCommit) Latest commit
+22222 Another commit
+33333 (tag: BuggyCommit) Start of the bug
+44444 (tag: BeforeBuggy) Last known good commit
+55555 Random good commit
+66666 Another random good commit
+</code></pre>
+<h2>Step 2: Go back in time</h2>
+<p>This is the part that is a bit odd. I am sure there is a better way to accomplish a clean reversion. However, this was the method that worked for me.</p>
+<p>The first part of this step is to revert <code>HEAD</code> to point to the commit where the bug was introduced. I could checkout the tag insead of resetting, but that would put me into a detached head state, which is something I almost always want to avoid.</p>
+<pre><code>git reset --hard BuggyCommit
+</code></pre>
+<p>Locally, this moves <code>HEAD</code> to that <code>BuggyCommit</code> and removes all commits that came before it. My git log now looks like this:</p>
+<pre><code class="language-powershell">44444 (HEAD -&gt; master, tag: BeforeBuggy) Last known good commit
+55555 Random good commit
+66666 Another random good commit
+</code></pre>
+<p>That is a bit scary, but a quick look at the remote branch in GitHub reassures me that the other commits still exist.</p>
+<p>A <code>git status</code> command also tells me that my local branch is behind its remote counterpart by all of the commits that came after this <code>BuggyCommit</code>. This makes sense, given that these commits still exist remotely. I have not actually reverted any changes. In order to officially revert this branch to the last known good commit, we must revert the current buggy commit.</p>
+<pre><code>git revert BuggyCommit
+</code></pre>
+<p>This will create a reversion commit for everything that was part of the commit tagged <code>BuggyCommit</code>. In order to get this all into <code>main</code>, we need to force a push of this reversion.</p>
+<pre><code>git push origin +main
+</code></pre>
+<p>Now, the git log looks like this, both locally and remotely.</p>
+<pre><code class="language-powershell">12345 (HEAD -&gt; master) Revert &quot;Last known good commit&quot;
+44444 (tag: BeforeBuggy) Last known good commit
+55555 Random good commit
+66666 Another random good commit
+</code></pre>
+<p>The other commits after that last known good commit have vanished. Well, that's terrifying.</p>
+<h2>Is it <em>really</em> terrifying?</h2>
+<p>Yes and no. The repository's log has permanently changed to remove those newer commits. However, believe it or not, we were smart earlier.</p>
+<p>Remember step 1 above, where we also created those <code>LatestCommit</code> and <code>BuggyCommit</code> tags? Those tags -- and the changes they contain -- <em>still exist</em>. The magic of tags. I'm still in shock.</p>
+<h2>Retrospective</h2>
+<p>Was this smart? No.</p>
+<p>Was this interesting? Omg, yes!</p>
+<p>That being said, there are definitely some things that could have been done differently here.</p>
+<ol>
+<li><strong>Make a backup copy of the <code>main</code> branch</strong> before starting any of this. If anything, this fun experiment proved that git, in the wrong hands, will wipe away your data forever. At least if you are not careful. The tags I created saved that data. However, a better backup would have been to create a new branch of <code>main</code>, before I started any part of this experiment.</li>
+<li><strong>Use <code>git revert</code> on all of the commits</strong>. With the method above, I only created a revert commit of the first commit after the last known good state. The rest of the commits were never officially reverted. They simply vanished. It would been more thorough to use <code>git revert</code> on all commits individually to create reversion commits for each one. That way, the log history would remain preserved.</li>
+</ol>
+<h2>Conclusion</h2>
+<p>Git is a scary place. I recommend none of the processes in this post <em>(except for maybe the retrospective)</em>, so use the knowledge here at your own risk. I wrote all of this up because I did something ridiculous and found it interesting. Don't be like me. Be like... the opposite of me. Or, at least the opposite of the me who wrote this post. Good luck and good day.</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Git reversions by tag (and why git can be a scary place)” by @jonihalabi.bsky.social https://jhalabi.com/blog/2023/04/git-reversions-by-tag/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2023/04/git-reversions-by-tag/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

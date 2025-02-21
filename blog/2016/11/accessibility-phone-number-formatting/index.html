@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Accessibility and phone number formatting | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Accessibility and phone number formatting">
+  <meta property="og:url" content="//jhalabi.com//blog/2016/11/accessibility-phone-number-formatting/">
+  <meta property="og:description" content="Accessible phone numbers on the web is a more complicated topic than you would think.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/accessibility/" class="category accessibility">accessibility</a>
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Accessibility and phone number formatting</h1>
+
+    <p class="date">
+      02 November 2016
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>Accessible phone numbers on the web is a more complicated topic than you would think.  Screen readers are remarkably inconsistent in the way they handle phone numbers.  This is a huge issue from an accessibility point of view.</p>
+<h2>Highlighting the problem</h2>
+<p>A US phone number is normally written as “(703) 555-1212”. A screen reader will read this number as “seven hundred three <em>(pause)</em> five hundred fifty-five minus one thousand two hundred twelve.” The digits are read as large numbers.  The reader treats the exchange and number as a math equation.</p>
+<p>In another example, a screen reader will read “703.555.1212” as “seven hundred three <em>(pause)</em> five hundred fifty-five <em>(pause)</em> one thousand two hundred twelve.” At least it is no longer a math equation, but the numbers are still read as large singular numbers, not as digits.</p>
+<h2>Using a tel: link</h2>
+<p>The most obvious solution should be to add your phone number as a “tel” link and hope that screen readers are smart enough to know how to read the numbers inside the link:</p>
+<pre><code class="language-html">&lt;a href=&quot;tel:7035551212&quot;&gt;(703) 555-1212&lt;/a&gt;
+</code></pre>
+<p>Readers are not that smart.  However, in their defense, links can include any content, from a phone number to regular text, such as “Click here to call our department.”</p>
+<p>From a usability perspective, I advocate for using the “tel” link as a partial solution. This does not help with our screen reader issue at all.  However, it does make phone numbers more accessible for mobile phone users, since these user can easily place a call by tapping the phone number. <em>(You can always use CSS to make the number look clickable on mobile devices and not clickable on desktop devices.)</em></p>
+<h2>Super clunky HTML solution</h2>
+<p>In my Google searching travels, I did come across an idea to separate the phone number into pronounceable chunks with span tags. Given how screen readers read larger numbers, I would imagine that would look something like this:</p>
+<pre><code class="language-html">&lt;span&gt;7&lt;/span&gt; &lt;span&gt;0&lt;/span&gt; &lt;span&gt;3&lt;/span&gt; &lt;span&gt;5&lt;/span&gt; &lt;span&gt;5&lt;/span&gt; &lt;span&gt;5&lt;/span&gt; - &lt;span&gt;1&lt;/span&gt; &lt;span&gt;2&lt;/span&gt; &lt;span&gt;1&lt;/span&gt; &lt;span&gt;2&lt;/span&gt;
+</code></pre>
+<p>Perhaps it’s just me, but that looks terrible.</p>
+<h2>CSS solution?</h2>
+<p>You could also consider creating a CSS speech media query for your content. I find that clunky because it separates the content between my HTML and CSS. (Whether you consider pronunciation as content or style can be up for debate. I personally think of it as content.)</p>
+<p>Once upon a time, there was also a specification proposal for a reader media type, but that proposal appears to have been scrapped.</p>
+<h2>ARIA labels – a more reasonable solution</h2>
+<p>The best solution I came across is to use an ARIA label to specify how the screen reader should read a particular piece of text. ARIA labels are designed to tell screen readers how to read things, which is exactly our issue here. Combining the ARIA label with our “tel” link recommendation for above, we arrive at the following code:</p>
+<pre><code class="language-html">&lt;a href=&quot;tel:7035551212&quot; aria-label=&quot;7 0 3. 5 5 5. 1 2 1 2.&quot;&gt;(703) 555-1212&lt;/a&gt;
+</code></pre>
+<p>Note the spaces and periods in the label. The spaces in the label tell the screen reader to read each digit individually. The period after the area code and the exchange tell the screen reader to pause (like at the end of a sentence).</p>
+<p>This solution is a bit more complex than our simple “tel” link. However, it is preferable because it keeps our content together (the displayed number and the pronunciation guide).</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Accessibility and phone number formatting” by @jonihalabi.bsky.social https://jhalabi.com/blog/2016/11/accessibility-phone-number-formatting/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2016/11/accessibility-phone-number-formatting/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

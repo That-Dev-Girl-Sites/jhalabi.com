@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    I'm lost!: A brief introduction to web landmarks | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="I'm lost!: A brief introduction to web landmarks">
+  <meta property="og:url" content="//jhalabi.com//blog/2017/07/brief-intro-to-landmarks/">
+  <meta property="og:description" content="Let’s pretend for a minute that you are a new visitor to Washington DC.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/accessibility/" class="category accessibility">accessibility</a>
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">I'm lost!: A brief introduction to web landmarks</h1>
+
+    <p class="date">
+      20 July 2017
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>Let’s pretend for a minute that you are a new visitor to Washington DC. You look around and see a lot of streets, buildings, and other structures. You need to get from one point in the city to another. You ask me, a local, for directions. I could give you directions like this:</p>
+<blockquote>
+  <p>
+    Go straight and then turn left at the thing. Walk along the thing through the thing. Make another left at the thing. Walk straight until you get to the thing!
+  </p>
+</blockquote>
+<p>Obviously, no one in their right mind would give directions like that. Let’s pretend that I can give you some more specific directions, but unfortunately, I don’t know the names of anything in this city. My directions would sound something like this:</p>
+<blockquote>
+  <p>
+    Go straight and then turn left at the memorial. Walk along the pool through the memorial. Make another left at the monument. Walk straight until you get to the building!
+  </p>
+</blockquote>
+<p>That is better. Instead of “things”, we can now navigate the city by memorials, monuments, pools, and buildings. However, this still isn’t great. Like any city, there are multiple of each of these structures. You may be able to figure out where to go through some advanced logic and a really good map, but that makes life harder than it should be.</p>
+<p>Fortunately, everything in DC has a name and we can use these names to give even more specific directions, like this:</p>
+<blockquote>
+  <p>
+    Go straight and then turn left at the Lincoln Memorial. Walk along the Reflecting Pool through the WWII Memorial. Make another left at the Washington Monument. Walk straight until you get to the White House!
+  </p>
+</blockquote>
+<p>Better, right?</p>
+<h2>Navigating a website is no different</h2>
+<p>The concept behind finding your way around a website is just like finding your way around a city. Instead of buildings and monuments, you would use HTML blocks to give your users cues as to what to expect where.</p>
+<p>As a fully-sighted user, a cue can be the site header or footer. It can be a featured video block. It can be a red emergency message box at the top of the page. It can be a sidebar containing an important note. You can make each of these blocks look distinct so that a sighted user can tell the difference between the site header and a sidebar.</p>
+<p>A low- or no-vision user can use these same blocks to find their way around a web page. However, instead of using visual cues, like color or page placement, they use cues in the HTML code. These cues are called landmarks.</p>
+<p>There are specific HTML tags that serve as landmarks for web users. These tags describe major features of a page. They serve the same purpose as major features of a city, such as buildings and monuments.</p>
+<table>
+  <caption class="sr-only">List of HTML 5 landmark tags and their default roles</caption>
+  <thead>
+    <tr>
+      <th>HTML 5 Tag</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>&lt;header&gt;</td>
+      <td>banner</td>
+    </tr>
+    <tr>
+      <td>&lt;nav&gt;</td>
+      <td>navigation</td>
+    </tr>
+    <tr>
+      <td>&lt;main&gt;</td>
+      <td>main</td>
+    </tr>
+    <tr>
+      <td>&lt;aside&gt;</td>
+      <td>complementary</td>
+    </tr>
+    <tr>
+      <td>&lt;section&gt;</td>
+      <td>region</td>
+    </tr>
+    <tr>
+      <td>&lt;article&gt;</td>
+      <td>article</td>
+    </tr>
+    <tr>
+      <td>&lt;footer&gt;</td>
+      <td>contentinfo</td>
+    </tr>
+    <tr>
+      <td>&lt;form&gt;</td>
+      <td>form</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Sweet! How do I use landmark tags?</h2>
+<p>The first step to using landmarks effectively is identifying the major sections of your website. Where are the site header and footer? What can be used as navigation? What major blocks of information exist on the page?</p>
+<figure markdown="1">
+<p><img src="/assets/images/posts/mccourt-annotated.jpg" alt="An example of how we identified landmarks on the McCourt School of Public Policy home page."></p>
+</figure>
+<p>Once you have identified all of your landmarks, contain that section using the appropriate HTML landmark tag. You can nest landmarks, too. In the above example, the site navigation is inside the site header. Therefore the &lt;nav&gt; tag is nested inside the &lt;header&gt; tag.</p>
+<pre><code class="language-html">&lt;header&gt;
+  &lt;h1&gt;Landmarks and why they rock&lt;/h1&gt;
+  &lt;nav&gt;
+    &lt;a href=&quot;#&quot;&gt;Landmarks&lt;/a&gt;
+    &lt;a href=&quot;#&quot;&gt;Rocking&lt;/a&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;section&gt;
+  All the things about landmarks.
+&lt;/section&gt;
+</code></pre>
+<h2>Landmarks and labels</h2>
+<p>A landmark is not very useful if you cannot tell them apart. Remember my first set of directions, where everything was <em>&quot;the thing&quot;</em>. Same concept here.</p>
+<p>A landmark's role is one way that users can tell the difference between landmarks. For example, screen readers will announce the role of a particular landmark. They will say “banner” for &lt;header&gt; tags and &quot;navigation&quot; for &lt;nav&gt; tags, etc.</p>
+<p>However, what happens when there is more than one landmark of a particular role on the page? For example:</p>
+<pre><code class="language-html">&lt;section&gt;
+  &lt;p&gt;All of the incarnations of the Doctor.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;p&gt;All of the Doctor's companions.&lt;/p&gt;
+&lt;/section&gt;
+</code></pre>
+<p>Users will not be able to tell the difference right away between these two sections. A screen reader will see both sections, but the only piece of information it will initially give to the user is that there are two landmarks with the role of “region”. It’s like saying that there are two buildings in my city. This can be a problem if a user is only interested in one section, but not the other.</p>
+<p>This is where <strong>labels</strong> come in. You can give your landmarks unique labels using the aria-label attribute, so that users can distinguish one from another.</p>
+<p>Labels are <strong>required</strong> for landmarks with redundant roles on the page. They are optional for any landmarks that are the only role of its kind. For example:</p>
+<pre><code class="language-html">&lt;header&gt;
+  &lt;h1&gt;Doctor Who!&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section aria-label=&quot;The Doctor&quot;&gt;
+  &lt;p&gt;All of the incarnations of the Doctor.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section aria-label=&quot;The Doctor's companions&quot;&gt;
+  &lt;p&gt;All of the Doctor's companions.&lt;/p&gt;
+&lt;/section&gt;
+</code></pre>
+<h2>Anything else I need to know?</h2>
+<p>There are a couple of additional requirements to know about when using landmarks.</p>
+<ol>
+<li><strong>Every piece of content on your web page is required to be inside of a landmark.</strong> Having content outside of any landmark is like having a couch in the middle of the street — it’s kind of weird and your couch really belongs in a building.</li>
+<li><strong>Always use the appropriate HTML landmark tag to markup your landmarks.</strong> You could use the role attribute to assign a landmark role to another random tag — i.e. &lt;div role=”banner”&gt;. However, that is messy and not recommended. The HTML landmarks tags have their roles built in. Less code = better.</li>
+<li><strong>Make sure your landmark labels make sense to a human.</strong> After all, they will be read by (or rather, to, via a screen reader) a human. So, don’t treat the labels like IDs.</li>
+<li><strong>Make sure your landmark labels are unique.</strong> New York City does not have two Empire State buildings. Similarly, your webpage should not have two “All about the TARDIS” region landmarks.</li>
+</ol>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “I'm lost!: A brief introduction to web landmarks” by @jonihalabi.bsky.social https://jhalabi.com/blog/2017/07/brief-intro-to-landmarks/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2017/07/brief-intro-to-landmarks/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

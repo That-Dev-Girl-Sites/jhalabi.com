@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    WordPress dynamic block registration, with special guest JSON! | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="WordPress dynamic block registration, with special guest JSON!">
+  <meta property="og:url" content="//jhalabi.com//blog/2021/10/wordpress-block-json/">
+  <meta property="og:description" content="WordPress 5.8 introduced the ability to use a block.json file to register and configure custom blocks.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+        
+          <a href="/blog/wordpress/" class="category wordpress">wordpress</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">WordPress dynamic block registration, with special guest JSON!</h1>
+
+    <p class="date">
+      27 October 2021
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>My last blog post was about <a href="/blog/2021/05/wordpress-customization">WordPress theme customization with JSON</a>. It seems only fitting that I follow that up <em>(nearly 6 months later... yikes!)</em> with a new post about custom block registration and, you guessed it, JSON!</p>
+<p><a href="https://wordpress.org/support/wordpress-version/version-5-8/">WordPress 5.8</a> introduced the ability to use a <code>block.json</code> file to register and configure custom blocks. This is a huge step towards minimizing (and possibly eliminating) the amount of JavaScript needed to create a new block.</p>
+<p>There is documentation about <a href="https://developer.wordpress.org/block-editor/getting-started/create-block/block-anatomy/">block creation</a>, which now includes information on how JSON fits into this process. There is also documentation about <a href="https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/creating-dynamic-blocks/">dynamic block creation</a>. Personally, I prefer <a href="https://2021.wpcampus.org/schedule/dynamic-blocks-ftw-customize-gutenberg-without-living-in-fear-of-validation-errors/demand">creating dynamic blocks over static blocks</a>. There is some <a href="https://github.com/WordPress/gutenberg/discussions/35918">pushback and discusson</a> about this. However, I'm going to leave that for another blog post.</p>
+<p>This post is about the journey I just undertook to refactor a custom dynamic block to use <code>block.json</code>.</p>
+<h2>My original thought process</h2>
+<p>There appears to be a one-to-one relationship between attributes in <code>block.json</code> and attributes in the JS and PHP block registration functions. Therefore, I thought it was logical to assume that I could simply move those
+items into <code>block.json</code>, remove them from my JS and PHP, and move on with my day.</p>
+<p>I started by moving my block meta information, attributes, supports, and example into <code>block.json</code>:</p>
+<pre><code class="language-json">{
+  &quot;name&quot;: &quot;my/book&quot;,
+  &quot;title&quot;: &quot;Book Block&quot;,
+  &quot;category&quot;: &quot;text&quot;,
+  &quot;description&quot;: &quot;An example block for a book.&quot;,
+
+  &quot;attributes&quot;: {
+    &quot;title&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;default&quot;: &quot;&quot;
+    },
+    &quot;author&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;default&quot;: &quot;&quot;
+    }
+  },
+
+  &quot;supports&quot;: {
+    &quot;customClassName&quot;: false
+  },
+
+  &quot;example&quot;: {
+    &quot;attributes&quot;: {
+      &quot;title&quot;: &quot;Charlotte's Web&quot;,
+      &quot;author&quot;: &quot;E. B. White&quot;
+    }
+  }
+}
+</code></pre>
+<p>Then, I updated my JavaScript registration function, so that now it only includes edit and save functions:</p>
+<pre><code class="language-javascript">const { registerBlockType } = wp.blocks;
+
+registerBlockType( &quot;my/book&quot;, {
+    edit: ( props ) =&gt; {
+        // Edit UI goes here.
+    },
+
+    save: () =&gt; {
+        // Return null to render in the PHP.
+        return null;
+    }
+} );
+</code></pre>
+<p>And finally, I updated my PHP registration function, so that it only includes a call to my render function:</p>
+<pre><code class="language-php">class Book {
+
+  /**
+   * __construct()
+   */
+  public function __construct() {
+    add_action( 'init', [ $this, 'register' ] );
+  }
+
+
+  /**
+   * register()
+   *
+   * @return void
+   */
+  public function register(): void {
+    register_block_type( 'my/book', [
+      'render_callback' =&gt; [ $this, 'render' ]
+    ] );
+  }
+
+
+  /**
+   * render()
+   *
+   * @param array $attributes Block attributes
+   * @return string
+   */
+  public function render( $attributes ): string {
+    $title = $attributes['title'] ?? '';
+    $author = $attributes['author'] ?? '';
+
+    return &lt;&lt;&lt;HTML
+      &lt;div class=&quot;my-book-block&quot;&gt;
+        &lt;p&gt;$title&lt;/p&gt;
+        &lt;p&gt;$author&lt;/p&gt;
+      &lt;/div&gt;
+HTML;
+  }
+  
+new Book;
+</code></pre>
+<h2>Looks great! I'm all done, right?</h2>
+<p>Nope.</p>
+<p>To be fair, I was not <em>that</em> far off, but this copy-paste-delete approach omits some crucial details. The biggest issue is that neither the JavaScript nor the PHP have any way of knowing that <code>block.json</code> exists. Oops.</p>
+<p>So, first, let's tell the JavaScript about the JSON. This part is pretty easy, involving 2 steps:</p>
+<ol>
+<li>Import <code>block.json</code> into the JS.</li>
+<li>Replace the block name with the imported JSON in the registration function.</li>
+</ol>
+<p>The following illustrates the change, assuming that both the JSON and JS files live in the same directory:</p>
+<pre><code class="language-javascript">import BookJson from './block.json';
+
+registerBlockType( BookJson, {
+    ...
+} );
+</code></pre>
+<p>We need to do the same with the PHP. This part is pretty easy as well, again involving only 2 steps:</p>
+<ol>
+<li>Replace the registration function with a new <code>register_block_type_from_metadata()</code> function.</li>
+<li>Replace the block name with the directory location of the JSON file.</li>
+</ol>
+<p>The following illustrates this change, again, assuming that both the JSON and PHP files live in the same directory:</p>
+<pre><code class="language-php">register_block_type_from_metadata( __DIR__, [
+    'render_callback' =&gt; [ $this, 'render' ]
+] );
+</code></pre>
+<h2>So close!</h2>
+<p>This is looking really good, but the block is still throwing registration errors in the editor. Why?!?! [<em><em>shakes fist</em></em>]</p>
+<p>This is a (personally) irritating, but easy-to-fix issue. We need to tell both the JSON and the JS what version of the API to use. I suspect this is because the original Gutenberg API did not involve any JSON and adding this new <code>block.json</code> functionality is a <strong>major</strong> change. A big deal change like this requires a new major version of the API. Since the API seems to default to using the original version, we have to tell it to use the new version (version 2) instead.</p>
+<p>In the JS, all you need to do is add <code>apiVersion: 2</code> to the object passed as the second parameter of the <code>registerBlockType()</code> function.</p>
+<p>In the JSON, all you need to do is add <code>&quot;apiVersion&quot;: 2</code> anywhere in the file. (I tend to add it to the top.)</p>
+<h2>Final file versions</h2>
+<p>And... that's it! For those of you who just want to copy and paste the final versions of the files, here you go:</p>
+<h3><code>block.json</code></h3>
+<pre><code class="language-json">{
+  &quot;apiVersion&quot;: 2,
+  &quot;name&quot;: &quot;my/book&quot;,
+  &quot;title&quot;: &quot;Book Block&quot;,
+  &quot;category&quot;: &quot;text&quot;,
+  &quot;description&quot;: &quot;An example block for a book.&quot;,
+
+  &quot;attributes&quot;: {
+    &quot;title&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;default&quot;: &quot;&quot;
+    },
+    &quot;author&quot;: {
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;default&quot;: &quot;&quot;
+    }
+  },
+
+  &quot;supports&quot;: {
+    &quot;customClassName&quot;: false
+  },
+
+  &quot;example&quot;: {
+    &quot;attributes&quot;: {
+      &quot;title&quot;: &quot;Charlotte's Web&quot;,
+      &quot;author&quot;: &quot;E. B. White&quot;
+    }
+  }
+}
+</code></pre>
+<h3>JavaScript</h3>
+<pre><code class="language-javascript">import BookJson from './block.json';
+
+const { registerBlockType } = wp.blocks;
+
+registerBlockType( BookJson, {
+    edit: ( props ) =&gt; {
+        // Edit UI goes here.
+    },
+
+    save: () =&gt; {
+        // Return null to render in the PHP.
+        return null;
+    }
+} );
+</code></pre>
+<h3>PHP</h3>
+<pre><code class="language-php">class Book {
+
+  /**
+   * __construct()
+   */
+  public function __construct() {
+    add_action( 'init', [ $this, 'register' ] );
+  }
+
+
+  /**
+   * register()
+   *
+   * @return void
+   */
+  public function register(): void {
+    register_block_type_from_metadata( __DIR__, [
+      'render_callback' =&gt; [ $this, 'render' ]
+    ] );
+  }
+
+
+  /**
+   * render()
+   *
+   * @param array $attributes Block attributes
+   * @return string
+   */
+  public function render( $attributes ): string {
+    $title = $attributes['title'] ?? '';
+    $author = $attributes['author'] ?? '';
+
+    return &lt;&lt;&lt;HTML
+      &lt;div class=&quot;my-book-block&quot;&gt;
+        &lt;p&gt;$title&lt;/p&gt;
+        &lt;p&gt;$author&lt;/p&gt;
+      &lt;/div&gt;
+HTML;
+  }
+  
+new Book;
+</code></pre>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “WordPress dynamic block registration, with special guest JSON!” by @jonihalabi.bsky.social https://jhalabi.com/blog/2021/10/wordpress-block-json/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2021/10/wordpress-block-json/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

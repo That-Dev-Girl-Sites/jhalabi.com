@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Solving my internal CSS framework debate | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Solving my internal CSS framework debate">
+  <meta property="og:url" content="//jhalabi.com//blog/2016/05/my-css-framework-debate/">
+  <meta property="og:description" content="I just finished teaching my students about CSS frameworks.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Solving my internal CSS framework debate</h1>
+
+    <p class="date">
+      11 May 2016
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>Just when I finished teaching my students about CSS frameworks, I come across an article telling me that “<a href="https://hacks.mozilla.org/2016/04/you-might-not-need-a-css-framework/">You Might Not Need a CSS Framework.</a>”</p>
+<p>I am not telling my students yet.  Let’s just say that is too much too soon.  (I teach beginners.)</p>
+<p>That being said, I have been debating this myself for quite a while now.  It generally goes something like this:</p>
+<blockquote>
+  <p>I’m starting a new site.  I need a framework!</p>
+  <p>No you don’t.</p>
+  <p>But it makes development so much easier…</p>
+  <p>… which then your HTML looks terrible</p>
+  <p>And I get a whole host of responsive features for free...</p>
+  <p>... with CSS that is a pain to override because the selectors are hyper-specific</p>
+  <p>But all of these features have been tested and are cross-browser compatible...</p>
+  <p>... but my site’s performance all goes to pot because the framework is so bloated</p>
+</blockquote>
+<p>And so on and so on.  I can keep this debate going forever.</p>
+<p>The bottom line is that is a debate – one which I hope to keep debating.  I will never tell myself that CSS frameworks are useless and a dying breed.  However, I do strongly believe that they have a time and a place.</p>
+<h2>Why CSS frameworks are great</h2>
+<ul>
+<li>Quick prototyping</li>
+<li>Establishing consistent styles throughout a site</li>
+<li>Setting code standards on a site.</li>
+</ul>
+<p>This last point is especially important if you find yourself maintaining a large site with a larger team.  A CSS framework is fixed and <em>(ideally)</em> has documentation that everyone on the team can reference.  There is a high likeliness that new people to the team will already know the framework <em>(or, at least, a framework)</em>, which makes on-boarding so much easier.</p>
+<h2>Why CSS frameworks are terrible</h2>
+<ul>
+<li>Bloated HTML with numerous nested tags (for containers) and a comical number of classes.</li>
+<li>So much overall code, potentially causing a performance hit.</li>
+<li>Overly specific CSS selectors, making it super difficult to override in a custom stylesheet.</li>
+</ul>
+<p>This last point brought in a lot of stress in my class and forced me to teach my students about the <em><strong>!important</strong></em> CSS modifier.  Teaching that brought me some physical pain, but it did also allow me to teach my students about making decisions about their code.  As the saying goes, <em>“with great power, comes great responsibility”</em>.</p>
+<h2>The winner of my debate is...</h2>
+<p>Pfft.  I have no idea.  There really is no winner.  I could side with the frameworks and accept the bloat.  I could side against the frameworks and roll my own grid, features, etc.</p>
+<p>The real “winner” <em>(if you can call it that)</em> is my own ability to weigh my options and figure out what is best for whatever project I am working on.</p>
+<p>Are the cons against using a framework acceptable on a project that is complex and needs to be done quickly?  Great!  Let’s use the framework.  Are the pros of using a framework not enough to justify using it on a project that is hyper-sensitive about performance?  Fine – I will roll my own features and do everything I can towards efficiency.  (Perhaps some day I can even use <a href="https://www.w3.org/TR/css-grid-1/">CSS Grid</a> on a production project.)</p>
+<p>Granted, my decision making process will rarely be this straightforward, but this is a good start. Regardless, I am happy to entertain the debate with every project.  The debate is important.  Having choices is important.  Websites are not one-size-fits-all productions and the process of developing for them should not be either.</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Solving my internal CSS framework debate” by @jonihalabi.bsky.social https://jhalabi.com/blog/2016/05/my-css-framework-debate/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2016/05/my-css-framework-debate/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

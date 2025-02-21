@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Reverting remote commits in Git | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Reverting remote commits in Git">
+  <meta property="og:url" content="//jhalabi.com//blog/2014/11/reverting-remote-git-commits/">
+  <meta property="og:description" content="I had a “git” of a problem this week.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Reverting remote commits in Git</h1>
+
+    <p class="date">
+      07 November 2014
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>I had a “git” of a problem this week.  <em>(Ha... see what I did there?)</em> I committed a bunch of changes to a remote branch, merged them to master, and then needed to back out those changes.  <em>(Why this need occurred is another story for another time.)</em></p>
+<h2>First, my git log</h2>
+<p>This is basically what my git log looked like.</p>
+<pre><code class="language-powershell">383a84a (me) Bad commit 3
+f9e5973 (me) Bad commit 2
+ac971af (me) Bad commit 1
+fe4366a (me) Commit I want to revert back to
+</code></pre>
+<p>Obviously, the plan was to revert back to <strong>fe4366a</strong>, a.k.a. “Commit I want to revert back to”.</p>
+<h2>What do I do now?</h2>
+<p>My first instinct was to use “git reset –hard fe4366a”.  However, the problem with this command is that it only reset my working directory back to that “good” commit.  No changes to the branch were made, so I have nothing to push back up to the remote server.</p>
+<h2>Solution!</h2>
+<p>Git checkout to the rescue!  Seriously.  Here’s what I did:</p>
+<p><strong>Step 1:</strong> Create a new branch (based off of master) for my reversion.</p>
+<pre><code class="language-powershell">git checkout -b my-new-branch
+</code></pre>
+<p><strong>Step 2:</strong> Checkout my last good commit to the new branch.</p>
+<pre><code class="language-powershell">git checkout fe4366a .
+</code></pre>
+<p><strong>Step 3:</strong> At this point, all of the files that were modified in the 3 bad commits have been modified again locally, to match the version in the “Commit I want to revert back to”.  Sanity check this just to be sure.</p>
+<pre><code class="language-powershell">git status
+git diff
+</code></pre>
+<p><strong>Step 4:</strong> After confirming that the reverted changes look OK, commit the changes to the branch.</p>
+<pre><code class="language-powershell">git commit -m &quot;Reverting changes!&quot;
+</code></pre>
+<p>Done!  At this point, <strong>my-new-branch</strong> can be merged back up to master or you can do whatever you want with it.</p>
+<h2>Give credit where credit is due.</h2>
+<p>I found the <a href="https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit">solution on Stack Overflow</a>, because that website is awesome.</p>
+<p>There are a few other suggestions on how to revert commits in Git in the answers on that page.  The one I have outlined above was the one that worked best for my situation.  YMMV.  Good luck!</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Reverting remote commits in Git” by @jonihalabi.bsky.social https://jhalabi.com/blog/2014/11/reverting-remote-git-commits/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2014/11/reverting-remote-git-commits/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

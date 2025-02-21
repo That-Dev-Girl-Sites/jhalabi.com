@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Keyboard navigation when carousels block your way | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Keyboard navigation when carousels block your way">
+  <meta property="og:url" content="//jhalabi.com//blog/2017/04/keyboard-navigation-with-carousels/">
+  <meta property="og:description" content="Carousels are terrible.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/accessibility/" class="category accessibility">accessibility</a>
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Keyboard navigation when carousels block your way</h1>
+
+    <p class="date">
+      20 April 2017
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>Oh... carousels.</p>
+<p>Carousels have become a major web design trend over the last several years. They are everywhere, from home pages to slideshows to product galleries.</p>
+<h2>Carousels are terrible.</h2>
+<p>From a content perspective, the majority of users only see the first slide. In a <a href="https://erikrunyon.com/2013/01/carousel-interaction-stats/">2013 carousel study on Notre Dame’s website</a>, only 1% of users clicked on any call to action on their carousel.</p>
+<blockquote>
+  <p>Carousels are this decade’s &lt;blink&gt; tag</p>
+  <cite><a href="https://shouldiuseacarousel.com/">shouldiuseacarousel.com</a></cite>
+</blockquote>
+<p>From an accessibility perspective, carousels are even worse. Screen readers will ignore much of the content in a carousel. Keyboard navigation is difficult at best. Some carousels will simply make it difficult to navigate between slides. Others will make it virtually impossible to navigate past the carousel.</p>
+<blockquote>
+  <p>...carousels are generally not compliant with accessibility standards.</p>
+  <cite><a href="https://v4-alpha.getbootstrap.com/components/carousel/">Bootstrap 4 alpha documentation</a></cite>
+</blockquote>
+<p>TL;DR: Do not use carousels.</p>
+<h2>But... I need to put this carousel on my page!</h2>
+<p>I feel your pain. I am willing to bet that most developers need to deal with carousels, even if they are a terrible, terrible idea. (See above.)</p>
+<p>I work on a website that uses a Bootstrap 4 carousel on the home page. It works fine for sighted users. It is less fine for sight-impaired users. It is a nightmare for keyboard users. Our carousel allowed a keyboard user to tab into the first focusable element of the carousel. This element was the previous slide navigation button. However, they could not tab to any other element in the carousel. Or tab to the next feature on the page. Or tab backwards to the previous feature on the page. Our keyboard users were stuck.</p>
+<h2>Solution, take 1.</h2>
+<p>I thought the issue was with the ordering of the elements inside the carousel. I checked and rechecked the HTML for the carousel. I reordered the slides and navigation elements a couple of times. My HTML looked valid and semantic, but none of these attempts fixed my keyboard issue.</p>
+<h2>Solution, take 2.</h2>
+<p>I then disabled JavaScript on the page. The carousel HTML looked and acted completely fine. This was because we styled the slides to display as individual cards for non-JavaScript users. I was able to tab from card to card with my keyboard. Aha! The issue is obviously in the JavaScript.</p>
+<h2>Solution, take 3.</h2>
+<p>I decided to tackle the tabbing issue by going through how a user would want to navigate through a carousel. My initial pseudocode looked something like this:</p>
+<pre><code>if (user pressed the tab key)
+  if (user is on the first carousel element and going back)
+    put the focus on the element immediately before the carousel
+  else if (user is on the last carousel element and going forward)
+    put the focus on the element immediately after the carousel
+  else if (user is going back)
+    put the focus on the previous element in the carousel
+  else // user is going forward
+    put the focus on the next element in the carousel
+</code></pre>
+<p>Coding this in practice was actually terrible. The amount of code I was writing was quickly growing and becoming unmanageable. There were too many edge cases to worry about. Even my pseudocode had way too many if statements than I was comfortable with. There had to be a better solution.</p>
+<h2>The final version.</h2>
+<p>After <em>a lot</em> of help from many Google and Stack Overflow pages, I discovered a much better approach. The final pseudocode is now:</p>
+<pre><code>if (user pressed the tab key)
+  if (focus did not change from where it was before)
+    if (user is going back)
+      put the focus on the previous focusable element
+    else
+      put the focus on the next focusable element
+</code></pre>
+<p>Done. I don’t care if there is a carousel or some other horrible keyboard trap on the page. This code will allow keyboard users to tab through anything!</p>
+<h2>Check out and play with the code.</h2>
+<p>You can check out the actual code in my <a href="https://gist.github.com/thatdevgirl/61ad6a7ece83d4a2515f5ce6d2110e00">Handle tab focus Gist</a>.</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Keyboard navigation when carousels block your way” by @jonihalabi.bsky.social https://jhalabi.com/blog/2017/04/keyboard-navigation-with-carousels/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2017/04/keyboard-navigation-with-carousels/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

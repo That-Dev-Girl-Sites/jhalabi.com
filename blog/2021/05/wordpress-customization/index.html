@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    WordPress customization: Supports and variations and JSON. Oh my! | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="WordPress customization: Supports and variations and JSON. Oh my!">
+  <meta property="og:url" content="//jhalabi.com//blog/2021/05/wordpress-customization/">
+  <meta property="og:description" content="WordPress has come out with so many different ways to customize block editor.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+        
+          <a href="/blog/wordpress/" class="category wordpress">wordpress</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">WordPress customization: Supports and variations and JSON. Oh my!</h1>
+
+    <p class="date">
+      04 May 2021
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>The new WordPress editor <em>(&quot;Gutenberg&quot;)</em> has been a part of our lives for <a href="https://wordpress.org/support/wordpress-version/version-5-0/">almost 2 1/2 years</a>. Since that initial launch, WordPress has come out with so many different ways to customize block editor: <code>theme.json</code>, block variations, and block supports. These are three distinct features that provide different customization options. Yet, for some reason, I can never remember what controls what (or how much control each feature really has). This blog post aims to clear all that up.</p>
+<h2><code>theme.json</code></h2>
+<p>The <code>theme.json</code> file is a file that lives at the root of the theme. It allows the theme to control a limited <em>(for now?)</em> set of block options, including color, typography, and spacing. You can customize each of these options for <em>all</em> blocks, using a <code>defaults</code> object, or for a specific block, using that block's machine name <em>(e.g. <code>core/paragraph</code>)</em>.</p>
+<p>The WordPress developer site has a fantastic <a href="https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/">theme.json how-to guide</a> that explains the specifics better than I can without plagiarizing.</p>
+<h3>What's the catch?</h3>
+<p>As of this writing, this feature is still experimental, which means a few things:</p>
+<ol>
+<li>The file must actually be named <code>experimental-theme.json</code></li>
+<li>Experimental features are not merged into core, so the <a href="https://wordpress.org/plugins/gutenberg/">Gutenberg plugin</a> must be installed.</li>
+<li>Functionality can change at any time <em>without needing to be backwards compatible</em>, hence the &quot;experimental&quot; label.</li>
+</ol>
+<h3>But... good news!</h3>
+<p>This feature will not be experimental for very much longer. <code>theme.json</code> is set to be officially, unexperimentally shipped with <a href="https://wptavern.com/themes-set-up-for-a-paradigm-shift-wordpress-5-8-will-unleash-tools-to-make-it-happen">WordPress 5.8</a>, which is set to be released in July 2021.</p>
+<h2>Block variations</h2>
+<p><a href="https://github.com/WordPress/gutenberg/blob/trunk/docs/reference-guides/block-api/block-variations.md">Block variations</a> are copies of an existing block with specific values for their existing attributes or a custom set of child blocks <em>(<code>innerBlocks</code>)</em>. In fact, they were originally named <a href="https://github.com/WordPress/gutenberg/issues/16283">block patterns</a>, which appears to be a better name for what the code actually lets you do, but is probably an overall confusing term.</p>
+<p>You get quite a bit of flexibility in terms of customizing variations when you write the base block yourself. For example, the <a href="https://github.com/WordPress/gutenberg/tree/trunk/packages/block-library/src/embed">Embed block</a> appears to give a lot of flexibility to its variations. (The set of Embed blocks was refactored to be variations of the base Embed block as of WordPress 5.6.) Some of this flexibility includes each variation having a distinct icon and title.</p>
+<p>However, there does not seem to be a way to get the same flexibility if you want to create new variations of an <em>existing</em> core block.</p>
+<h3>But.. what if I want to add a new attribute to my variation?</h3>
+<p>Strictly speaking, nope. Variations are copies with individualized configurations. Think of variations like a block full of Legos. A block with a red Lego and a green Lego can have 2 variations:</p>
+<ol>
+<li>Variation #1 has the red Lego on top and the green Lego on the bottom.</li>
+<li>Variation #2 has the green Lego on top and the red Lego on the bottom.</li>
+</ol>
+<p>You cannot create a third variation that adds a blue Lego to the mix. There is no blue Lego.</p>
+<p>You <em>can</em>, however, separately customize the edit UI and add additional attributes to a block. The edit UI customization can be based on which variation that block falls under (using the <code>addFilter('editor.BlockEdit')</code> function), which requires the addition of a custom attribute; for example:</p>
+<pre><code class="language-javascript">const BLOCK = 'core/gallery';
+
+const VARIATIONS = [
+  {
+    slug:      'grid',
+    title:     'Image Grid',
+    isDefault: true,
+    note:      'The images are in a grid.'
+  },
+  {
+    slug:      'gallery',
+    title:     'Image Gallery',
+    isDefault: false,
+    note:      'The images are in a carousel.'
+  }
+];
+
+// Register the variations.
+VARIATIONS.forEach( ( variation ) =&gt; {
+  registerBlockVariation( BLOCK, {
+    name:       variation.slug,
+    title:      variation.title,
+    attributes: { variationSlug: variation.slug },
+    isDefault:  variation.isDefault
+  } )
+} );
+
+
+// Add this new &quot;variation slug&quot; attribute, but just to this block.
+function addAttributes( settings, name ) {
+  if ( name !== BLOCK ) {
+    return settings;
+  }
+
+  return lodash.assign( {}, settings, {
+    attributes: lodash.assign( {}, settings.attributes, {
+      variationSlug: { type: 'string', default: 'grid' },
+    } )
+  } );
+}
+
+// Update the edit UI based on the current variation.
+const updateEdit = createHigherOrderComponent( ( BlockEdit ) =&gt; {
+  return ( props ) =&gt; {
+    const { variationSlug } = props.attributes;
+
+    // Find the variation of the current block.
+    const variation = VARIATIONS.find( ( variation ) =&gt; {
+      return variation.slug == variationSlug
+    } );
+
+    // Return the updated editor UI.
+    return (
+      &lt;Fragment&gt;
+
+        { /* Only customize the Inspector if we found a variation. */}
+        { variation &amp;&amp; (
+          &lt;InspectorControls&gt;
+            &lt;PanelBody title='Notes'&gt;
+              &lt;p&gt;{ variation.note }&lt;/p&gt;
+            &lt;/PanelBody&gt;
+          &lt;/InspectorControls&gt;
+        ) }
+
+        { /* The original edit UI. */}
+        &lt;BlockEdit { ...props } /&gt;
+
+      &lt;/Fragment&gt;
+    );
+  };
+}, 'withInspectorControl' );
+
+
+// Finally, the filters that call these functions.
+addFilter( 'blocks.registerBlockType', 'custom/gallery-attributes', addAttributes );
+addFilter( 'editor.BlockEdit', 'custom/gallery-edit', updateEdit );
+</code></pre>
+<p>So, to answer the original question, is this possible? Yes. Is this technically still all part of a variation? Not really.</p>
+<h2>Block Supports</h2>
+<p>Block supports are the powerhouse of block customizations. This feature includes an <a href="https://developer.wordpress.org/block-editor/reference-guides/block-api/block-supports/">extensive list of editor options</a> that can be overwritten for one or more <em>(or all!)</em> blocks.</p>
+<p>For new, custom blocks, these options can be declared in the block registration function. For existing (core) blocks, these options can be overwritten for any number of blocks using the <code>addFilter('blocks.registerBlockType')</code> function.</p>
+<p>For example, let's say that you want to remove the ability to add custom class names to a bunch of blocks. You can use the following JavaScript to accomplish this:</p>
+<pre><code class="language-javascript">const noClassNames = [
+  'core/paragraph',
+  'core/image',
+  'my-custom/block'
+];
+
+const remove = (settings, name) =&gt; {
+  // If the current block is in my list, remove class name support.
+  if ( noClassNames.includes(name) ) {
+    return lodash.assign( {}, settings, {
+      supports: lodash.assign( {}, settings.supports, {
+        className: false
+      } )
+    } );
+  }
+
+  // Otherwise, leave it alone.
+  return settings;
+};
+
+// Filter to add this customization to the block registration process.
+addFilter( 'blocks/registerBlockType', 'custom/classSupport', remove );
+</code></pre>
+<h2>Conclusion</h2>
+<p><code>theme.json</code>, block variations, and block supports are very different, but powerful, features that, I think, are going to make theme and editor customization a whole lot of fun. I hope this clears up the differences among them for you <em>(and also for future-me)</em>.</p>
+<p><em>(Author's note: Your interpretation of &quot;fun&quot; may vary.)</em></p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “WordPress customization: Supports and variations and JSON. Oh my!” by @jonihalabi.bsky.social https://jhalabi.com/blog/2021/05/wordpress-customization/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2021/05/wordpress-customization/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

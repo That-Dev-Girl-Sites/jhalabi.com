@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    YUI vs. jQuery | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="YUI vs. jQuery">
+  <meta property="og:url" content="//jhalabi.com//blog/2010/09/yui-vs-jquery/">
+  <meta property="og:description" content="Ever since I started my consulting gig, I have been learning so many new technologies.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">YUI vs. jQuery</h1>
+
+    <p class="date">
+      20 September 2010
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>Ever since I started my consulting gig, I have been learning so many new <em>(or, rather, new to me)</em> technologies.  Most of my learning experiences have centered around JavaScript libraries –- namely jQuery and YUI.  In light of the fact that I’ve only been consulting for about 9 months now, I’m going to preface this entire post with the fact that I definitely do not consider myself an expert in either of these libraries.</p>
+<p>That being said, it really boggles the mind (or, at least my mind) that YUI requires so much more complexity than jQuery does.  I mean, sure, YUI has neat features like data tables.  (I am sure jQuery does too, but I have not found it just yet.) However, it seems to be a struggle to even perform basic functions in YUI.</p>
+<p>Inexperience?  Maybe.  Frustrating?  Oh yes.  This has actually been bothering me since I started learning YUI.</p>
+<p>For example, take a look at DOM selectors in both.  In jQuery, you can use the same syntax to select parts of the DOM by ID, class name, or tag.  You can even nest all of these things easily.  YUI definitely prefers all selection to be done by tag, though there are functions to get an array of elements by class name or tag, and nesting these things is not trivial.</p>
+<p>As an exercise for a project at work, I created an example to illustrate my point regarding DOM selection between YUI and jQuery.  The example is simple – all it does is replace the text in a paragraph tag when a link is clicked.   The example DOM is minimal:</p>
+<pre><code class="language-html">&lt;div id=&quot;block&quot; class=&quot;container-block&quot;&gt;
+  &lt;h2&gt;YUI Example&lt;/h2&gt;
+  &lt;p&gt;This is my original text.&lt;/p&gt;
+  &lt;a href=&quot;&lt;a&gt;#&lt;/a&gt;&quot;&gt;Click here to change the text above.&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>
+<p>I implemented the solution in both jQuery and YUI.</p>
+<p>Here is my jQuery implementation:</p>
+<pre><code class="language-html">&lt;script src=&quot;/js/jQuery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  $(&quot;#jQuery-block a&quot;).click(function(e) {
+  e.preventDefault();
+       $(&quot;#jQuery-block p&quot;).html(&quot;This text was updated via jQuery.&quot;);
+  });
+&lt;/script&gt;
+</code></pre>
+<p>And here is my YUI implementation:</p>
+<pre><code class="language-html">&lt;script src=&quot;/yui/yahoo-min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/yui/dom-min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/yui/event-min.js&quot; &gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  var block = YAHOO.util.Dom.get(&quot;yui-block&quot;);
+  var para = block.getElementsByTagName(&quot;p&quot;);
+  var link = block.getElementsByTagName(&quot;a&quot;);
+
+  if (link) {
+    YAHOO.util.Event.addListener(link, &quot;click&quot;, function(e) {
+    YAHOO.util.Event.preventDefault(e);
+      if (para) { para[0].innerHTML = &quot;This text was updated via YUI.&quot;; }
+    });
+  }
+&lt;/script&gt;
+</code></pre>
+<p>In both cases, I am grabbing the base libraries required for what I need to do here.  YUI requires 3 server calls for 3 different library files, but the 1 library file for jQuery is almost twice as large than the sum of the YUI files.  (The jQuery file is 24.1KB, whereas the sum of the 3 YUI files is 13.5KB.) So, I am going to call that a wash.</p>
+<p>However, my real issue with YUI is that I need to declare 3 variables and include an if statement to update this text, whereas with jQuery, I can accomplish the same task in 1 line.  (I’m not counting the prevent default commands for either case here, since the 2 are basically equivalent.)</p>
+<p>This has been my biggest pet peeve about YUI.  Again, I am not sure if it is due to inexperience, but the more I look at the YUI documentation, the more I think it is not me.</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “YUI vs. jQuery” by @jonihalabi.bsky.social https://jhalabi.com/blog/2010/09/yui-vs-jquery/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2010/09/yui-vs-jquery/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

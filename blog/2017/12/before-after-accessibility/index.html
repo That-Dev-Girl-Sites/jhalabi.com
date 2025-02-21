@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    The accessibility of ::before and ::after | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="The accessibility of ::before and ::after">
+  <meta property="og:url" content="//jhalabi.com//blog/2017/12/before-after-accessibility/">
+  <meta property="og:description" content="I was recently reading a tutorial on how to use CSS counters.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/accessibility/" class="category accessibility">accessibility</a>
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">The accessibility of ::before and ::after</h1>
+
+    <p class="date">
+      19 December 2017
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>I was recently reading a tutorial on <a href="https://pineco.de/using-css-counters/">how to use CSS counters</a>. They look great! CSS counters are a new feature of CSS that allow us as developers to enumerate elements in the DOM and then do something with that information. There are plenty of practical uses for this -- from numbering highlighted blocks in the text to creating complex nested ordered list bullets. <em>(I mean, we've all read government documents that include bullet point 13.2.4.1.  Right?)</em></p>
+<p>All of these implementations involve using the <code>::before</code> or <code>::after</code> CSS pseudo-selectors in order to display the counter information on the page, before a particular block. With all of my work with accessibility this year, it begged the question: <em>Is CSS-generated content accessible?</em></p>
+<h2>Is this even supported?</h2>
+<p>We should probably start with asking, are CSS counters universally supported by browsers. The answer is yes. Really, with 98.16% support according to <a href="https://caniuse.com/css-counters">CanIUse.com</a>, this is barely a question.</p>
+<h2>Alrighty then. What about screen readers?</h2>
+<p>Screen readers are another story and one that, frankly, I was skeptical about. I did a bit of Google research and came across <a href="https://tink.uk/accessibility-support-for-css-generated-content/">an article that showed mixed results</a> in terms of whether the readers read this generated content. The biggest offender was in IE, where neither JAWS nor NVDA read the content.  This is presumably because the content does not reside in the DOM and these readers are reading the DOM, as opposed to the visible content on the screen.</p>
+<p>However, because this article is almost 3 years old, I decided to conduct my own experiment.</p>
+<h2>The test</h2>
+<p>I created a simple example to use in testing that included content using both the <code>::before</code> and <code>::after</code> selectors.</p>
+<p>I tested in as many screen readers and browsers that I have access to. I have access to two operating systems (Mac OS X and Windows 10) and three screen readers (VoiceOver, JAWS, and NVDA). I used the latest versions of all browsers tested.</p>
+<h2>Testing hurdles</h2>
+<p>I came across a couple of issues that made testing... adventurous.</p>
+<h3>Why I did not test in Firefox</h3>
+<p>I tried! Firefox does not play well with screen readers. At all. When the browser sees that you are using a screen reader, it disables the the display of tab content because of &quot;incompatibility&quot;. This incompatibility appears to be universally true since I had this issue with every screen reader on both my Mac and PC.</p>
+<figure>
+  <img src="/assets/images/posts/firefox-tab-content-dialog.jpg" alt="Firefox dialog stating 'Display of tab content is disabled due to incompatibility between Firefox and your accessibility software. Please update your screen reader or switch to Firefox Extended Support Release.'">
+  <figcaption>A very "helpful" Firefox dialog that pops up when you are running accessibility software.</figcaption>
+</figure>
+<p>The &quot;solution&quot; is to download the <a href="https://www.mozilla.org/en-US/firefox/enterprise/">Firefox Extended Support browser</a>. Because, you know, making your base browser compatible with accessibility software is too hard.</p>
+<p>Except, that did not work. Even with the Extended Support version of the browser, both NVDA and JAWS refused to read anything on any web page. (I did not try to install this on my Mac because now I'm really angry at Mozilla.)</p>
+<h3>JAWS and Edge</h3>
+<p>JAWS does not support Microsoft Edge by default. Actually, any sort of Edge support in JAWS is relatively new, as it was introduced in the <a href="https://www.blindbargains.com/bargains.php?m=17801">JAWS 18.0.4321 release</a> in September 2017. In order to get JAWS to read content in Edge, you must both have a recent version of JAWS (always a good idea anyway) and turn the Edge browser support feature on in the Settings Center.</p>
+<h2>Results!</h2>
+<p>Specific results of my testing are in the table below:</p>
+<p>|  | Chrome  | Safari | Edge | Internet Explorer 11
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| VoiceOver | Yes! | Yes! | -- | -- |
+| JAWS | Yes! | -- | Yes! | No |
+| NVDA | Yes! | -- | Yes! | No |</p>
+<p>The good news is that all screen readers read the CSS generated content in Chrome, Safari, and Microsoft Edge. That is actually great news, since these 3 browsers combined account for over 73% of the global browser market share in November 2017 according to <a href="https://www.w3counter.com/globalstats.php?year=2017&amp;month=11">W3Counter Stats</a>.</p>
+<p>However, the bad news is that no screen reader was able to read the CSS generated content in Internet Explorer 11. (The study linked above from 2 years ago found the same results.) While IE 11 only accounts for 3.33% of the global market share (again, for November 2017), 3.33% of the <em>entire world</em> accounts to a fair amount of people.</p>
+<h3>Conclusions</h3>
+<p>You can very likely use CSS generated content without worrying too much about accessibility concerns. I don't want to give you a full pass since, in addition to your IE 11 users <em>(just upgrade to Edge already!)</em>, I did not even try to test on real mobile devices. However it did seem to work when I emulated mobile devices in Chrome using dev tools and tested with VoiceOver as a &quot;quickie&quot; test.</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “The accessibility of ::before and ::after” by @jonihalabi.bsky.social https://jhalabi.com/blog/2017/12/before-after-accessibility/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2017/12/before-after-accessibility/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

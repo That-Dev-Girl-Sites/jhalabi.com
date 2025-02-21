@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Accessibility testing: Screen reader edition | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Accessibility testing: Screen reader edition">
+  <meta property="og:url" content="//jhalabi.com//blog/2016/09/accessibility-screen-reader/">
+  <meta property="og:description" content="Accessibility testing on our websites is a large, large topic.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/accessibility/" class="category accessibility">accessibility</a>
+        
+      
+        
+          <a href="/blog/development/" class="category development">development</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Accessibility testing: Screen reader edition</h1>
+
+    <p class="date">
+      16 September 2016
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>Accessibility testing on our websites is a large, large topic.  I am writing about testing with screen readers here, but please keep in mind that accessibility testing != screen reader testing alone.  There is a already great article from Viget about web accessibility testing in general – “<a href="https://www.viget.com/articles/how-to-do-web-accessibility-qa-part-1/">How to do Web Accessibility QA</a>“.  (Be sure to read both parts.)</p>
+<h2>What is a screen reader?</h2>
+<p>A screen reader is a piece of software installed on your computer that will read everything on your screen, including websites, applications, and the operating system UI in general.  Screen readers are not just for websites.</p>
+<p>There are lots of different screen readers out there – JAWS <em>(Windows, paid)</em>, NVDA <em>(Windows, free)</em>, VoiceOver <em>(Mac)</em>, and plenty more.  To help you find the reader that is right for you, check out this <a href="http://www.itcs.umich.edu/atcs/screenreaders.php">overview of the major screen readers</a> and this <a href="http://accessibilitychatter.com/?p=18">screen reader comparison</a>.</p>
+<h2>Getting started</h2>
+<p>Screen readers will read your website as long as your browser is the active window.</p>
+<ol>
+<li><strong>Open the screen reader.</strong></li>
+<li><strong>Open your web browser of choice.</strong></li>
+<li><strong>Go to the site you are testing.</strong> The first thing the screen reader will generally read is the website title – i.e. anything inside the &lt;title&gt; HTML tags.</li>
+</ol>
+<p>From here, you can start navigating the site using your keyboard.  All navigation commands generally involve a software key. This is simply a key on your keyboard that indicates to the screen reader that you are issuing it a command. This can vary by software and is often customizable. <em>(For example, the default JAWS key is the INSERT key.)</em></p>
+<ol>
+<li><strong>The UP/DOWN arrow keys let you navigate through the page.</strong> You will be navigating the page based on the order of the HTML elements in the DOM.  Navigation has nothing to do with their visual order on the screen.  The down arrow will lead you to the next element on the page.  The up arrow will lead you to the previous element on the page.</li>
+<li><strong>Press ENTER to visit a link.</strong></li>
+</ol>
+<h2>How do I know where I am on the page?</h2>
+<p><strong>Listen!</strong></p>
+<p>The screen reader will read the text on the page <em>(or, ideally, the alt text of images on the page)</em>.  For the most part, you will hear the actual content on the page.  In some cases, the reader will give you context clues about what an element is – particularly if that element is interactive.</p>
+<p>Each reader is slightly different in the way it reads the content and presents these context clues.   The following examples are from the JAWS screen reader.</p>
+<ul>
+<li><strong>Links:</strong> JAWS will read the text of the link, followed by literally the word “link”.
+<ul>
+<li>If you have already visited that link, it will say “visited link” instead.</li>
+<li>If the link goes to another section of the same page you are on, it will say something like “same page link”.</li>
+</ul>
+</li>
+<li><strong>Navigation blocks:</strong> JAWS will preface navigation menus with the word “menu”.</li>
+<li><strong>Lists:</strong> JAWS will say “List of # items” before reading any list items, where “#” is the number of items in the list.  This is true of both &lt;li&gt; and &lt;ol&gt; lists.</li>
+<li><strong>Images:</strong> JAWS will preface any image alt text with the word “graphic”.</li>
+</ul>
+<h2>Actually Testing</h2>
+<p>It does take a bit of practice to get the hang of navigating a site with a screen reader.  Once you are comfortable with the tool, you can start concentrating on the important parts of your testing.  While you are testing your site, keep these questions in mind:</p>
+<ul>
+<li>Is the content being read to me understandable?</li>
+<li>If I close my eyes, would I have any idea how to accomplish my goal?</li>
+<li>If I close my eyes and interact with a page element, is it easy?</li>
+</ul>
+<p>If the answer to any of these questions is no, then you have found an item that needs to be fixed!  Make a note of the difficulties you had.  The fix could be something simple, like adding alt text to an image where it is missing, or something more complicated, like having to retool a form to make it easier to use with a keyboard.</p>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Accessibility testing: Screen reader edition” by @jonihalabi.bsky.social https://jhalabi.com/blog/2016/09/accessibility-screen-reader/">
+      <span class="sr-only">Twitter</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2016/09/accessibility-screen-reader/">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+
