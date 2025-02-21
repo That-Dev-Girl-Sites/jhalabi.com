@@ -115,7 +115,7 @@ _(Right-click on the image to open it at full size in a new window or tab.)_
 * **ISBN:** 978-0-578-39216-5
 * [Press release](docs/sweet-little-you-press-release.pdf) {.ri-download-2-fill} 
 * [Sales sheet](docs/sweet-little-you-sales-sheet.pdf) {.ri-download-2-fill} 
-* [Downloadable media kit](docs/Sweet-Little-You-Media-Kit.pdf) {.ri-download-2-fill} 
+* [Downloadable media kit](docs/Sweet-Little-You-Media-Kit.zip) {.ri-download-2-fill} 
 
 </div>
 
