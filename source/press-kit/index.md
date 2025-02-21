@@ -38,17 +38,26 @@ Location:
 Website:
 : [jhalabi.com](https://jhalabi.com)
 
+Linktree:
+: [linktr.ee/jonihalabi](https://linktr.ee/jonihalabi)
+
 Bluesky handle:
-: [jonihalabi.bsky.social](https://bsky.app/profile/jonihalabi.bsky.social)
+: [@jonihalabi.bsky.social](https://bsky.app/profile/jonihalabi.bsky.social)
+
+Github handle:
+: [thatdevgirl](https://github.com/thatdevgirl)
+
+Goodreads profile:
+: [jonihalabi](https://www.goodreads.com/jonihalabi)
 
 Instagram handle:
 : [@jonihalabi](https://www.instagram.com/jonihalabi/)
 
 LinkedIn handle:
-: [@jonihalabi](https://www.linkedin.com/in/jonihalabi/)
+: [in/jonihalabi](https://www.linkedin.com/in/jonihalabi/)
 
-GitHub handle:
-: [@thatdevgirl](https://github.com/thatdevgirl)
+WordPress profile:
+: [thatdevgirl](https://profiles.wordpress.org/thatdevgirl/)
 
 </section>
 
