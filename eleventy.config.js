@@ -39,6 +39,15 @@ module.exports = function(eleventyConfig) {
   // Press kit documents.
   eleventyConfig.addPassthroughCopy( 'source/press-kit/docs/*' );
 
+  // CNAME.
+  eleventyConfig.addPassthroughCopy( 'source/CNAME' );
+
+  // Robots.
+  eleventyConfig.addPassthroughCopy( 'source/robots.txt' );
+
+  // Favicon.
+  eleventyConfig.addPassthroughCopy( 'source/favicon.ico' );
+
 
   /*
    * Watch CSS files and automatically reload the browser if 
