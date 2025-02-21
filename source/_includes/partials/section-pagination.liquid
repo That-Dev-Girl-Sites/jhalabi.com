@@ -54,7 +54,7 @@
     {% assign max_for_last_page = total_pages | minus: 2 %}
     {% if last <= max_for_last_page %}
       <li>
-        .. <a href="{{ pagination.href.first }}{{ total_pages }}/">{{ total_pages }}</a>
+        .. <a href="{{ pagination.href.first }}{{ total_pages | minus: 1 }}/">{{ total_pages }}</a>
       </li>
     {% endif %}
 

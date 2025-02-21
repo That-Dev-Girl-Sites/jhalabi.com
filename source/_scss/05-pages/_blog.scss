@@ -24,7 +24,7 @@
     // Layout for larger screens.
     @media screen and ( min-width: $screen-md ) {
       display: grid;
-      gap: 8rem;
+      gap: 4rem 8rem;
       grid-template-columns: minmax(300px, 1fr) 22rem;
     }
   }
