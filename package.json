@@ -1,0 +1,26 @@
+{
+  "name": "jhalabi.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-deflist": "^3.0.0",
+    "markdown-it-footnote": "^4.0.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "1.69.*"
+  },
+  "scripts": {
+    "watch:sass": "sass --watch source/_scss:build/css --style=compressed",
+    "build:sass": "sass source/_scss:build/css --style=compressed",
+    "watch:eleventy": "eleventy --serve",
+    "build:eleventy": "eleventy",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*"
+  }
+}

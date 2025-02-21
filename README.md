@@ -2,7 +2,15 @@
 
 This GitHub repository houses my personal website, featuring my web development work, book, and other miscellaneous writing. 
 
-This site is built in Jekyll.
+This site is built in Eleventy.
+
+
+## Local development
+
+`npm start`
+
+That's it!
+
 
 ## Visual Identity
 

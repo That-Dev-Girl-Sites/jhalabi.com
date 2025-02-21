@@ -1,0 +1,27 @@
+{% include "partials/site-header" %}
+
+<main class="plugin" id="main">
+
+  <section class="plugin-intro" aria-label="Introduction">
+    <img src="/assets/images/{{ icon }}" alt="" aria-hidden="true">
+
+    <div>
+      <h1>{{ title }}</h1>
+      <p>{{ description}} </p>
+      <p>
+        <a href="{{ wordpress_url }}" class="ri-wordpress-fill button on-white">Download from WordPress</a>
+        <a href="{{ github_url }}" class="ri-github-fill button on-white">View code on GitHub</a>
+      </p>
+    </div>
+  </section>
+
+
+  <section class="plugin-content" aria-label="Plugin details">
+    {{ content }}
+  </section>
+
+  {% include "partials/section-donate" %}
+
+</main>
+
+{% include "partials/site-footer" %}

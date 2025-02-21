@@ -1,0 +1,126 @@
+/**
+ * Pages: Press Kit
+ */
+
+.press-kit {
+  // Introduction section.
+  &-intro {
+    @extend .fixed-width;
+
+    padding-block-start: 2rem;
+  }
+
+
+  // Details section.
+  &-details {
+    @extend .fixed-width;
+
+    background-color: var(--battleship-gray-light-25);
+
+    h2 {
+      margin-block-start: 0;
+    }
+  }
+
+
+  // Copy resources, such as the technical and book sections.
+  &-copy {
+    border-block-end: 4px solid var(--battleship-gray);
+    padding-block: 4rem;
+    padding-inline: 4rem;
+
+    // We don't want the last of these blocks to have a bottom border.
+    &.last {
+      border-block-end: 0;
+    }
+
+    // Layout for larger screens.
+    @media screen and ( min-width: $screen-md ) {
+      display: grid;
+      gap: 6rem;
+      grid-template-columns: minmax(min-content, 20rem) 1fr;
+    }
+
+    // Content should not exceed the mad-width.
+    div {
+      max-width: $max-width;
+
+      // This is the first `div` in the section, used for a description of 
+      // the copiable content and other meta information.
+      &:first-of-type {
+        h2 {
+          --text-color: var(--dark-purple);
+    
+          margin-block-start: 0;
+        }
+
+        p {
+          margin-block-end: 0;
+        }
+    
+        p em {
+          --font-size: var(--type-p-smaller);
+          --text-color: var(--dark-purple);
+    
+          display: inline-block;
+          margin-block-end: 2rem;
+        }
+
+        // Used for the list of downloadable book press media.
+        ul {
+          list-style-type: none;
+          margin-block-end: 4rem;
+          margin-inline-start: 0;
+
+          li {
+            margin-block-end: 0.5rem;
+
+            &::before {
+              margin-inline-end: 0.5rem;
+            }
+          }
+        }
+
+        // Used for the book cover image.
+        img {
+          width: 90%;
+        }
+      }
+    }    
+  }
+
+
+  // Photos section.
+  &-photos {
+    background-color: var(--black);
+    border-block-end: 1px solid var(--white);
+
+    // Introductory content.
+    h2, p {
+      @extend .fixed-width;
+
+      --text-color: var(--white);
+
+      margin-block: 0;
+    }
+
+    h2 {
+      padding-block-end: 0;
+    }
+
+    p {
+      padding-block-end: 4rem;
+      padding-block-start: 1rem;
+    }
+
+    // List of images.
+    ul {
+      column-count: auto;
+      column-width: 350px;
+      gap: 1rem;
+      list-style-type: none;
+      margin-inline: 4rem;
+      padding-block-end: 4rem;
+    }
+  }
+}

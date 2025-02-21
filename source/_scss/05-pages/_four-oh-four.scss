@@ -1,0 +1,34 @@
+/**
+ * Pages: Error 404
+ */
+
+@use '../00-base/sizes';
+
+.error-404 {
+  padding-inline: 4rem;
+
+  // Layout for larger screens.
+  @media screen and ( min-width: $screen-md ) {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1fr 3fr;
+    margin-block: 4rem;
+  }
+
+  // Content should not exceed the mad-width.
+  div {
+    max-width: $max-width;
+  }
+
+  // Dino image.
+  img {
+    display: block;
+    margin-inline: auto;
+    max-width: 300px;
+  }
+
+  // List of links.
+  ul {
+    margin-block-start: 4rem;
+  }
+}

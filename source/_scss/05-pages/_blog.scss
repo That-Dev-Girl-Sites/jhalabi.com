@@ -1,0 +1,83 @@
+/**
+ * Pages: Blog
+ *
+ * Styles for the blog's main archive page.
+ */
+
+.blog {
+  @extend .fixed-width;
+
+  // Layout for larger screens.
+  @media screen and ( min-width: $screen-md ) {
+    padding-inline-end: 1rem;
+  }
+
+  h1 {
+    margin-block-end: 6rem;
+  }
+  
+
+  // List of post excerpts.
+  &-list {
+    margin-block-start: 4rem;
+
+    // Layout for larger screens.
+    @media screen and ( min-width: $screen-md ) {
+      display: grid;
+      gap: 8rem;
+      grid-template-columns: minmax(300px, 1fr) 22rem;
+    }
+  }
+
+
+  /* **
+   * Variation: Pregnancy category page.
+   */
+  &-pregnancy {
+    ol {
+      list-style-type: none;
+      margin-inline-start: 0;
+    }
+
+    // Each item (tag).
+    &-tag {
+      a {
+        --background-color: var(--cat-pregnancy);
+        --font-size: var(--type-h4);
+        --text-color: var(--white);
+
+        align-items: baseline;
+        background-color: var(--background-color);
+        display: grid;
+        grid-template-columns: 1fr 1rem;
+        margin-block-end: 0.75rem;
+        margin-block-start: 4rem;
+        padding-block: 0.5rem;
+        padding-inline: 1rem;
+        text-decoration: none;
+        transition: all 0.5s ease;
+
+        // Adding an arrow to the right-hand side of the link.
+        &::after {
+          --text-color: inherit;
+
+          content: '➤';
+          display: inline-block;
+          text-align: right;
+        }
+
+        // Hover and focus states.
+        &:focus,
+        &:hover {
+          --background-color: var(--battleship-gray-dark-10);
+        }
+      }
+    }
+
+    // Make sure all elements align with each other.
+    span {
+      display: block;
+      padding-inline: 1rem;
+    }
+  }
+}
