@@ -7,7 +7,7 @@ title: Reading List
 
 I love books. Most of my childhood was spent inside a book _(or three)_. Today, my house has books in _(almost)_ every room. 
 
-I keep track of the books I have read -- mostly as a reference list because my memory fails me every now and then.
+I keep track of the books I have read – mostly as a reference list because my memory fails me every now and then.
 
 You may notice a downturn in the numbers of books read over the last few years. I am only logged the grown-up books I read here. Our family bedtime routine includes reading one _(or sometimes two)_ kid-friendly books. One day, I will log all of those books too, but that day is not today.
 
@@ -20,6 +20,7 @@ In the meantime, enjoy my list below.
 
   Jump to year:
 
+  * [2025](#books-2025)
   * [2023](#books-2023)
   * [2022](#books-2022)
   * [2021](#books-2021)
@@ -40,10 +41,19 @@ In the meantime, enjoy my list below.
 
 <section markdown="1" class="reading-list" aria-label="Book lists by year">
 
+## Books Read in 2025 {#books-2025}
+
+(Total: 1)
+{.book-count}
+
+Book | Thoughts | Date Read
+**ADHD is Awesome: A Guide to (Mostly) Thriving with ADHD** <br> Penn Holderness & Kim Holderness | I finally finished reading a book! You have no idea how hard that was. This book was more helpful than I could have imagined. | <span class='fa fa-heart'></span> March
+
+
 ## Books Read in 2023 {#books-2023}
 
 (Total: 9)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -65,7 +75,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2022 {#books-2022}
 
 (Total: 3)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -81,7 +91,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2021 {#books-2021}
 
 (Total: 1)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -95,7 +105,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2020 {#books-2020}
 
 (Total: 2)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -110,7 +120,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2019 {#books-2019}
 
 (Total: 10)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -133,7 +143,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2018  {#books-2018}
 
 (Total: 10)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -156,7 +166,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2017 {#books-2017}
 
 (Total: 25)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -194,7 +204,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2016 {#books-2016}
 
 (Total: 13)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -220,7 +230,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2015 {#books-2015}
 
 (Total: 25)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -258,7 +268,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2014 {#books-2014}
 
 (Total: 21)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -292,7 +302,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2013 {#books-2013}
 
 (Total: 19)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -324,7 +334,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2012 {#books-2012}
 
 (Total: 26)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -363,7 +373,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2011 {#books-2011}
 
 (Total: 32)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
@@ -408,7 +418,7 @@ Book | Thoughts | Date Read
 ## Books Read in 2010 {#books-2010}
 
 (Total: 10)
-{:.book-count}
+{.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
