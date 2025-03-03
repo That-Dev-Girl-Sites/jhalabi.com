@@ -47,6 +47,7 @@ In the meantime, enjoy my list below.
 {.book-count}
 
 Book | Thoughts | Date Read
+---- | ---- | ----
 **ADHD is Awesome: A Guide to (Mostly) Thriving with ADHD** <br> Penn Holderness & Kim Holderness | I finally finished reading a book! You have no idea how hard that was. This book was more helpful than I could have imagined. | <span class='fa fa-heart'></span> March
 
 
