@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    WordPress image permalinks: Not the cat's meow | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="WordPress image permalinks: Not the cat's meow">
+  <meta property="og:url" content="//jhalabi.com//blog/2025/03/media-library-cleanup/">
+  <meta property="og:description" content="WordPress media files are automatically given permalinks that may mess with sites URLs. Here is how I dealt with that.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      web developer, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/wordpress/" class="category wordpress">wordpress</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">WordPress image permalinks: Not the cat's meow</h1>
+
+    <p class="date">
+      10 March 2025
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>I am in the middle of a big project at work and decided to create a new section of our site for it. I can't talk about the project (yet!), but let's pretend it is about cats <em>(the animal, not the musical)</em>.  I want its URL to be short and simple, so I decided to call it <code>mysite.org/cats</code>.</p>
+<p>I created the main landing page, clicked &quot;Publish&quot;, and went to my new URL: <code>mysite.org/cats-2</code></p>
+<p>Well, that is not what I wanted. What is <code>cats-2</code> all about?</p>
+<p>I was fairly confident <code>mysite.org/cats</code> did not already exist, and to prove it, I went there. And there I went, straight through a redirect that took me to <code>mysite.org/wp-content/uploads/sites/584/2018/12/cats.jpg</code>.</p>
+<p><img src="/assets/images/posts/cats.jpg" alt="A white cat with blue eyes leans over a brown and black spotted furry ledge and looks off into the distance, possibly contemplating the meaning of life." width="75%"></p>
+<p>Awww..! What a cutie.. I mean, how did I end up here?!</p>
+<h2>How can I fix this?</h2>
+<p>I inherited this site and recently did a massive page clean up. Because of that reorganization project, I know this site inside and out. I would swear on my mother's cat<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> that this photo is not used on any pages. Additionally, I theorized that if I remove the photo, that would also automatically remove the redirect, thereby freeing up <code>mysite.org/cats</code> for my project.  But, I needed to prove that <em>before</em> removing the photo, just in case.</p>
+<p>There are plugins that are built to clean up and organize the media library. This article is not about any of those plugins. I have tested none of them.</p>
+<p>Instead, I discovered this neat trick<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> in the WordPress list of posts page in the admin. We have all seen the search box above the list of posts, that will let you search for a page by keyword.</p>
+<p><img src="/assets/images/posts/search-pages.jpg" alt="A text box with a button labelled Search Pages next to it, creating a small search form. This form is directly above a set of pagination buttons for the list of posts page" width="75%"></p>
+<p>But, <strong>did you know</strong> you can also use that form to search for images inside a post? It's simple:</p>
+<ol>
+<li>Type (or paste) the file name of the image you are searching for; e.g. &quot;cats.jpg&quot;.</li>
+<li>Press the &quot;search&quot; button.</li>
+</ol>
+<p>That's it! If that search yields results, that image is being used. If the search yields <em>no results</em>, your image is not being used.</p>
+<h3>Important caveat!</h3>
+<p>This search will <em>(obviously)</em> only search a single post type. You will need to individually search for your image on the list of post pages for posts, pages, and any other custom post types that are defined on your site.</p>
+<p>The good news is that the number of post types on your site is likely a small number.</p>
+<h2>My results</h2>
+<p>In my case, <code>cats.jpg</code> was not being used on any of my pages or posts, so I could safely remove the image. Also, my original theory was correct. Removing the image also removed the redirect. I edited the permalink to my landing page, changing it from <code>cats-2</code> to <code>cats</code>. After saving my page, my URL was as it should be: <code>mysite.org/cats</code>.</p>
+<h2>What if I needed this photo?</h2>
+<p>Every file in the media library is automatically given its own slug, which by default is simply the name of the file (minus extension). That slug is used for the file's permalink, but it can also be edited.</p>
+<ol>
+<li>Find the file in question in the media library and click on it. It will open in a large pop up.</li>
+<li>At the very bottom of that pop-up, click on the &quot;Edit more details link. This will open the file in its own page.</li>
+<li>At the top of this page, you will see the file's permalink, but no way to edit it. The option to edit the permalink is hidden away under &quot;Screen options&quot;.</li>
+<li>Open &quot;Screen options&quot; (at the very top of the page). Under &quot;Screen elements&quot; make sure &quot;Slug&quot; has a checkmark next to it.</li>
+<li>Scroll down to almost the bottom of the page. You will now see a section labeled &quot;Slug&quot;, with the file slug in an editable text field. Change the slug to whatever you want. (This will not change the file name, so links to the file are safe.)</li>
+<li>Scroll back up to the top of the page and click &quot;Update&quot; to save your changes.</li>
+</ol>
+<p>That's it!</p>
+<p>This foray into WordPress media and permalinks has been brought to you by my stubbornness over a URL. May it be as interesting for you as it was for me.</p>
+<section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>Plot twist. My mother does not now, nor has she ever owned a cat. But I was still really, really sure. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>This article is also not one of those &quot;one weird trick&quot; click-bait articles that were <em>everywhere</em> once upon a time. Or, at least, it's not trying to be. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “WordPress image permalinks: Not the cat's meow” by @jonihalabi.bsky.social https://jhalabi.com/blog/2025/03/media-library-cleanup/" rel="noreferrer noopener">
+      <span class="sr-only">Bluesky</span>
+    </a>
+
+    <a class="ri-facebook-fill" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://jhalabi.com/blog/2025/03/media-library-cleanup/" rel="noreferrer noopener">
+      <span class="sr-only">Facebook</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2025/03/media-library-cleanup/" rel="noreferrer noopener">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+
+    <a class="ri-mastodon-fill" target="_blank" href="https://higheredweb.social/share?text=Check out “WordPress image permalinks: Not the cat's meow” by @jonihalabi@higheredweb.social https://jhalabi.com/blog/2025/03/media-library-cleanup/" rel="noreferrer noopener">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Web developer, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

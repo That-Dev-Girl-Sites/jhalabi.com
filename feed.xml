@@ -7,6 +7,54 @@
     <description>A blog about development, wordpress, and life as a single mother by choice.</description>
     <language>en</language>
     <item>
+      <title>WordPress image permalinks: Not the cat&#39;s meow</title>
+      <link>https://jhalabi.com/blog/2025/03/media-library-cleanup/</link>
+      <description>&lt;p&gt;I am in the middle of a big project at work and decided to create a new section of our site for it. I can&#39;t talk about the project (yet!), but let&#39;s pretend it is about cats &lt;em&gt;(the animal, not the musical)&lt;/em&gt;.  I want its URL to be short and simple, so I decided to call it &lt;code&gt;mysite.org/cats&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I created the main landing page, clicked &amp;quot;Publish&amp;quot;, and went to my new URL: &lt;code&gt;mysite.org/cats-2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Well, that is not what I wanted. What is &lt;code&gt;cats-2&lt;/code&gt; all about?&lt;/p&gt;
+&lt;p&gt;I was fairly confident &lt;code&gt;mysite.org/cats&lt;/code&gt; did not already exist, and to prove it, I went there. And there I went, straight through a redirect that took me to &lt;code&gt;mysite.org/wp-content/uploads/sites/584/2018/12/cats.jpg&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jhalabi.com/assets/images/posts/cats.jpg&quot; alt=&quot;A white cat with blue eyes leans over a brown and black spotted furry ledge and looks off into the distance, possibly contemplating the meaning of life.&quot; width=&quot;75%&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Awww..! What a cutie.. I mean, how did I end up here?!&lt;/p&gt;
+&lt;h2&gt;How can I fix this?&lt;/h2&gt;
+&lt;p&gt;I inherited this site and recently did a massive page clean up. Because of that reorganization project, I know this site inside and out. I would swear on my mother&#39;s cat&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://jhalabi.com/blog/2025/03/media-library-cleanup/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; that this photo is not used on any pages. Additionally, I theorized that if I remove the photo, that would also automatically remove the redirect, thereby freeing up &lt;code&gt;mysite.org/cats&lt;/code&gt; for my project.  But, I needed to prove that &lt;em&gt;before&lt;/em&gt; removing the photo, just in case.&lt;/p&gt;
+&lt;p&gt;There are plugins that are built to clean up and organize the media library. This article is not about any of those plugins. I have tested none of them.&lt;/p&gt;
+&lt;p&gt;Instead, I discovered this neat trick&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://jhalabi.com/blog/2025/03/media-library-cleanup/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; in the WordPress list of posts page in the admin. We have all seen the search box above the list of posts, that will let you search for a page by keyword.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jhalabi.com/assets/images/posts/search-pages.jpg&quot; alt=&quot;A text box with a button labelled Search Pages next to it, creating a small search form. This form is directly above a set of pagination buttons for the list of posts page&quot; width=&quot;75%&quot;&gt;&lt;/p&gt;
+&lt;p&gt;But, &lt;strong&gt;did you know&lt;/strong&gt; you can also use that form to search for images inside a post? It&#39;s simple:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Type (or paste) the file name of the image you are searching for; e.g. &amp;quot;cats.jpg&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Press the &amp;quot;search&amp;quot; button.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That&#39;s it! If that search yields results, that image is being used. If the search yields &lt;em&gt;no results&lt;/em&gt;, your image is not being used.&lt;/p&gt;
+&lt;h3&gt;Important caveat!&lt;/h3&gt;
+&lt;p&gt;This search will &lt;em&gt;(obviously)&lt;/em&gt; only search a single post type. You will need to individually search for your image on the list of post pages for posts, pages, and any other custom post types that are defined on your site.&lt;/p&gt;
+&lt;p&gt;The good news is that the number of post types on your site is likely a small number.&lt;/p&gt;
+&lt;h2&gt;My results&lt;/h2&gt;
+&lt;p&gt;In my case, &lt;code&gt;cats.jpg&lt;/code&gt; was not being used on any of my pages or posts, so I could safely remove the image. Also, my original theory was correct. Removing the image also removed the redirect. I edited the permalink to my landing page, changing it from &lt;code&gt;cats-2&lt;/code&gt; to &lt;code&gt;cats&lt;/code&gt;. After saving my page, my URL was as it should be: &lt;code&gt;mysite.org/cats&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;What if I needed this photo?&lt;/h2&gt;
+&lt;p&gt;Every file in the media library is automatically given its own slug, which by default is simply the name of the file (minus extension). That slug is used for the file&#39;s permalink, but it can also be edited.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Find the file in question in the media library and click on it. It will open in a large pop up.&lt;/li&gt;
+&lt;li&gt;At the very bottom of that pop-up, click on the &amp;quot;Edit more details link. This will open the file in its own page.&lt;/li&gt;
+&lt;li&gt;At the top of this page, you will see the file&#39;s permalink, but no way to edit it. The option to edit the permalink is hidden away under &amp;quot;Screen options&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Open &amp;quot;Screen options&amp;quot; (at the very top of the page). Under &amp;quot;Screen elements&amp;quot; make sure &amp;quot;Slug&amp;quot; has a checkmark next to it.&lt;/li&gt;
+&lt;li&gt;Scroll down to almost the bottom of the page. You will now see a section labeled &amp;quot;Slug&amp;quot;, with the file slug in an editable text field. Change the slug to whatever you want. (This will not change the file name, so links to the file are safe.)&lt;/li&gt;
+&lt;li&gt;Scroll back up to the top of the page and click &amp;quot;Update&amp;quot; to save your changes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That&#39;s it!&lt;/p&gt;
+&lt;p&gt;This foray into WordPress media and permalinks has been brought to you by my stubbornness over a URL. May it be as interesting for you as it was for me.&lt;/p&gt;
+&lt;section class=&quot;footnotes&quot;&gt;&lt;ol class=&quot;footnotes-list&quot;&gt;&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Plot twist. My mother does not now, nor has she ever owned a cat. But I was still really, really sure. &lt;a href=&quot;https://jhalabi.com/blog/2025/03/media-library-cleanup/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;This article is also not one of those &amp;quot;one weird trick&amp;quot; click-bait articles that were &lt;em&gt;everywhere&lt;/em&gt; once upon a time. Or, at least, it&#39;s not trying to be. &lt;a href=&quot;https://jhalabi.com/blog/2025/03/media-library-cleanup/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+      <pubDate>Mon, 10 Mar 2025 24:00:00 GMT</pubDate>
+      <dc:creator>Joni Halabi</dc:creator>
+      <guid>https://jhalabi.com/blog/2025/03/media-library-cleanup/</guid>
+    </item>
+    <item>
       <title>Red flag story time</title>
       <link>https://jhalabi.com/blog/2024/12/red-flags/</link>
       <description>&lt;p&gt;Let&#39;s talk about red flags for a moment.&lt;/p&gt;
