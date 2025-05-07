@@ -6,7 +6,7 @@ tags:
   - blog
   - accessibility
   - writing
-excerpt: 
+excerpt: Dear book authors; please exist and not be AI. Sincerely, a book-loving reader.
 ---
 
 I trust books. At least, I used to. I grew up in the pre-internet era of bookshops and libraries. The printed word was the best source of information. Back then, there was an inherent trust that a book earned by default.
