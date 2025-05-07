@@ -21,8 +21,7 @@ Despite examples like this and my near-immediate distrust of a good part of the 
 
 Until today.
 
-I recently read an article from the Guardian titled _[‘Dangerous nonsense’: AI-authored books about ADHD for sale on Amazon.
-](https://www.theguardian.com/technology/2025/may/04/dangerous-nonsense-ai-authored-books-about-adhd-for-sale-on-amazon)_ The title immediately struck a nerve because, for a variety of personal reasons, I happen to be reading more about ADHD. So far, my reading list has been limited to recommendations from a trusted doctor.
+I recently read an article from the Guardian titled _[‘Dangerous nonsense’: AI-authored books about ADHD for sale on Amazon.](https://www.theguardian.com/technology/2025/may/04/dangerous-nonsense-ai-authored-books-about-adhd-for-sale-on-amazon)_ The title immediately struck a nerve because, for a variety of personal reasons, I happen to be reading more about ADHD. So far, my reading list has been limited to recommendations from a trusted doctor.
 
 But now, I need to worry about AI authors?! I did some research into the authors of the books listed in article. One has profile photo; another's photo is obviously AI-generated. No author's bio has any specific information about their credentials or experience. Googling these authors provides no further information. No website. No press releases. No media at all. As a real-live human author, that is unfathomable. 
 
