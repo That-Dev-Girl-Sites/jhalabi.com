@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "WordPress image permalinks: Not the cat's meow"
+title: "Dear book authors: Please exist and not be AI."
 date: 2025-05-07
 tags:
   - blog
   - accessibility
   - writing
-excerpt: Dear book authors; please exist and not be AI. Sincerely, a book-loving reader.
+excerpt: I trust books. At least, I used to. I grew up in the pre-internet era of bookshops and libraries. There was an inherent trust that a book earned by default.
 ---
 
 I trust books. At least, I used to. I grew up in the pre-internet era of bookshops and libraries. The printed word was the best source of information. Back then, there was an inherent trust that a book earned by default.
