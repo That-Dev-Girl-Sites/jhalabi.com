@@ -53,8 +53,10 @@ A mother with a dream of having a child makes her wish come true by having a bab
 
 I have been writing for as long as I can remember. Here is a selection of my latest and favorite articles.
 
-1. [{{ latest_post.data.title }}]({{ latest_post.url }})
-1. [{{ second_latest_post.data.title }}]({{ second_latest_post.url }})
+{% assign latest_posts = collections.blog | reverse %}
+
+1. [{{ latest_posts[0].data.title }}]({{ latest_posts[0].url }})
+1. [{{ latest_posts[1].data.title }}]({{ latest_posts[1].url }})
 1. [Perseverance: A lesson from my 5 year-old](/blog/2024/02/perseverance/)
 1. [Carousels: No one likes you](/blog/2022/03/carousels-no-one-likes-you/)
 1. [Manual accessibility testing is your new BFF](/blog/2017/08/manual-accessibility-testing/)
