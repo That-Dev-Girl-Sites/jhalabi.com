@@ -47,16 +47,17 @@ A mother with a dream of having a child makes her wish come true by having a bab
 </section>
 
 
-
 <section markdown="1" class="home-articles" aria-label="Blog articles">
 
 ## Articles: Past and present
 
 I have been writing for as long as I can remember. Here is a selection of my latest and favorite articles.
 
-1. [{{ collections.blog.last.data.title }}]({{ collections.blog.last.url }})
+{% set latest_posts = collections.blog | reverse %}
+{% for post in latest_posts.slice(0,2) %}
+1. [{{ latest_posts.data.title }}]({{ latest_posts.last.url }})
+{% endfor %}
 1. [Perseverance: A lesson from my 5 year-old](/blog/2024/02/perseverance/)
-1. [Static vs. dynamic blocks: What’s the difference?](https://developer.wordpress.org/news/2023/02/27/static-vs-dynamic-blocks-whats-the-difference/)
 1. [Carousels: No one likes you](/blog/2022/03/carousels-no-one-likes-you/)
 1. [Manual accessibility testing is your new BFF](/blog/2017/08/manual-accessibility-testing/)
 
