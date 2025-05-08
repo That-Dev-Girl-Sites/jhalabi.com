@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "WordPress bans: A story about caring"
-date: "2024-05-08"
-categories:
+date: 2024-05-08
+tags:
   - blog
   - wordpress
   - writing
+excerpt: I got an email from WordPress.org yesterday. I have thoughts about that.
 ---
 
 I got an email from WordPress.org yesterday.
