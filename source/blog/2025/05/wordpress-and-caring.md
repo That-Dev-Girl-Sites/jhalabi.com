@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WordPress bans: A story about caring"
-date: 2024-05-08
+date: 2025-05-08
 tags:
   - blog
   - wordpress
