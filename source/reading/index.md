@@ -43,7 +43,7 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2025 {#books-2025}
 
-(Total: 4)
+(Total: 5)
 {.book-count}
 
 Book | Thoughts | Date Read
