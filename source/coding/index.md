@@ -9,9 +9,6 @@ projects:
     icon: plugin-icon-besan-block.jpg
     description: Add a responsive, accessible data chart block to the WordPress post editor.
     links:
-      - url: https://wordpress.org/plugins/besan-block/
-        text: Download
-        aria_label: Download the Besan Block plugin
       - url: https://github.com/thatdevgirl/besan-block
         text: Github
         aria_label: Besan Block Github repo
@@ -19,10 +16,7 @@ projects:
   - title: Block Controller plugin
     icon: plugin-icon-block-controller.jpg
     description: Allow WordPress site administrators to control access to content blocks.
-    links: 
-      - url: https://wordpress.org/plugins/block-controller/
-        text: Download
-        aria_label: Download the Block Controller plugin
+    links:
       - url: https://github.com/thatdevgirl/block-controller
         text: Github
         aria_label: Block Controller Github repo
@@ -30,10 +24,7 @@ projects:
   - title: Color Palette plugin
     icon: plugin-icon-color-palette.jpg
     description: Add a custom block to the WordPress post editor to display color swatches.
-    links: 
-      - url: https://wordpress.org/plugins/color-palette/
-        text: Download
-        aria_label: Download the Color Palette plugin
+    links:
       - url: https://github.com/thatdevgirl/wordpress-color-palette
         text: Github
         aria_label: Color Palette Github repo
@@ -69,9 +60,6 @@ projects:
     icon: plugin-icon-wc-tiered-shipping.jpg
     description: Add a tiered flat rate shipping option to the WooCommerce plugin.
     links: 
-      - url: https://wordpress.org/plugins/wc-tiered-shipping/
-        text: Download
-        aria_label: Download the WC Tiered Shipping plugin
       - url: https://github.com/thatdevgirl/woocommerce-tiered-flat-rate
         text: Github
         aria_label: WC Tiered Shipping Github repo
@@ -82,9 +70,9 @@ projects:
 
 As a self-appointed “middle-end” developer, I like to write code, commit often, and make up my own titles. My development career has evolved over a wide range of industries, including e-commerce, non-profit, and education. 
 
-In my more recent development projects, I have specialized in content architecture and WordPress editor customizations. As a developer at [Georgetown University](https://georgetown.edu), I wrote over 50 custom WordPress blocks, using ReactJS, PHP, and the Gutenberg API.
+In my more recent development projects, I specialized in content architecture and WordPress editor customizations. As a developer at [Georgetown University](https://georgetown.edu), I wrote over 50 custom WordPress blocks, using ReactJS, PHP, and the Gutenberg API.
 
-I also [write technical articles](/blog/) about my work, teach introductory development classes, and [speak](/speaking/) at technical conferences.
+I recently made the decision to take a step back from full-time coding, in order to make space for other professional and personal priorities. That being said, I still [write technical articles](/blog/) about my work and [speak](/speaking/) at the occasional technical conference or podcast.
 
 </section>
 

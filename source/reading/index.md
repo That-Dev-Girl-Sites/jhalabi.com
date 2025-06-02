@@ -48,6 +48,7 @@ In the meantime, enjoy my list below.
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**Delta-V** <br> Daniel Suarez | Quick read. Love space. Hate capitalism. Great book. | May
 **Seveneves** <br> Neal Stephenson | Another wild ride of a book. Of its 800+ pages, it took roughly 200 pages for me to be fully engaged with the story. But once that happened, I could not put the book down. Loved it. Even my 6 year old took notice and asked for updates. (She got the watered down version.) Definitely not for 6 year olds, but highly recommend for grown-ups. | <span class='fa fa-heart'></span> May
 **Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism** <br> Sarah Wynn-Willams | This book was a wild ride of personal stories that illustrate the cesspool of what being a woman in tech can be. I have been pretty lucky in my experiences, but that is not true of everyone. I am thankful I never worked for "big tech". Highly recommended reading. | <span class='fa fa-heart'></span> May
 **ADHD is Awesome: A Guide to (Mostly) Thriving with ADHD** <br> Penn Holderness & Kim Holderness | I finally finished reading a book! You have no idea how hard that was. This book was more helpful than I could have imagined. | <span class='fa fa-heart'></span> March
