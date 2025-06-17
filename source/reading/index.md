@@ -43,11 +43,12 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2025 {#books-2025}
 
-(Total: 5)
+(Total: 6)
 {.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**Foster** <br> Claire Keegan | Not long enough to be a book-book, but too long to be a short story. Told from the point of view (and vocabulary) of the child main character, this story was captivating from the first page. Apparently, there is also a movie. | <span class='fa fa-heart'></span> June
 **Delta-V** <br> Daniel Suarez | Quick read. Love space. Hate capitalism. Great book. | May
 **Seveneves** <br> Neal Stephenson | Another wild ride of a book. Of its 800+ pages, it took roughly 200 pages for me to be fully engaged with the story. But once that happened, I could not put the book down. Loved it. Even my 6 year old took notice and asked for updates. (She got the watered down version.) Definitely not for 6 year olds, but highly recommend for grown-ups. | <span class='fa fa-heart'></span> May
 **Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism** <br> Sarah Wynn-Willams | This book was a wild ride of personal stories that illustrate the cesspool of what being a woman in tech can be. I have been pretty lucky in my experiences, but that is not true of everyone. I am thankful I never worked for "big tech". Highly recommended reading. | <span class='fa fa-heart'></span> May
