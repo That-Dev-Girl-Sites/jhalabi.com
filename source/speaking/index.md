@@ -42,9 +42,9 @@ I am always looking for new opportunities and venues to speak about my work. Ple
 
 <li markdown="1">
 
-**The State of WordPress in Higher Education**
+**The State of WordPress in Higher Education Research Webinar**
 
-Panelist
+Expert panelist
 
 <span class="ri-calendar-fill"></span> July 24, 2025
 
