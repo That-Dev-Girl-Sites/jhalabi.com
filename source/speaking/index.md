@@ -37,8 +37,22 @@ I am always looking for new opportunities and venues to speak about my work. Ple
 
 ## Past speaking events
 
-<ol markdown="1" reversed style="counter-reset: events 23;">
+<ol markdown="1" reversed style="counter-reset: events 24;">
 
+
+<li markdown="1">
+
+**The State of WordPress in Higher Education**
+
+Panelist
+
+<span class="ri-calendar-fill"></span> July 24, 2025
+
+<span class="ri-map-pin-2-fill"></span> Online
+
+<span class="ri-volume-up-fill"></span> [The State of WordPress in Higher Education: Research and Opportunities with WPCampus and Human Made](https://wpcampus-org.zoom.us/webinar/register/2217514655313/WN_ht0O0y7DSriq4adzzw5BSg#/registration)
+
+</li>
 
 <li markdown="1">
 
