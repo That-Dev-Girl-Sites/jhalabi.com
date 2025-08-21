@@ -19,7 +19,7 @@ I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's b
 
 My actual childhood was far less destructive and surrounded by computers — that Apple iiC, my beloved TI 99/4A, and eventually an IBM ThinkPad. I also spent my childhood among books, [reading anything](/reading/) that struck my interest. _(I had and still have eclectic tastes.)_ My dream was to move into our town library.
 
-Today, I am “middle-end” web developer who likes to write code, commit often, and make up my own titles. I specialize in developing CMS themes and WordPress editor customizations. I [speak at technical conferences](/speaking/), [blog about development](/blog/), and [write creative works](/book/) focusing on life as a single mother by choice. In the little spare time that remains, I run, travel with my adventurous kid, enjoy live music, and advocate for the Oxford comma.
+Today, I am a website creator and “middle-end” developer who likes to create accessible websites, tinker with generative AI, and make up my own titles. I specialize in developing CMS themes and WordPress editor customizations. I [speak at technical conferences](/speaking/), [blog about anything and everything](/blog/), and [write creative works](/book/) focusing on life as a single mother by choice. In the little spare time that remains, I run, travel with my adventurous kid, enjoy live music, and advocate for the Oxford comma.
 
 </div>
 
