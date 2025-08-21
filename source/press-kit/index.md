@@ -74,7 +74,8 @@ _(This biography is best suited for development-focused conferences and other te
 
 <div markdown="1">
 
-Joni Halabi is a Senior Web Manager with the Office of the President at Georgetown University. As a self-appointed “middle-end” developer, she likes to write code, commit often, and make up her own titles. Joni’s development career has evolved over a wide range of industries, including e-commerce, non-profit, and education. She specializes in WordPress editor customizations, content architecture, and public speaking at a number of technical conferences.
+Joni Halabi is a Senior Web Manager with the Office of the President at Georgetown University. 
+As a website creator and self-appointed “middle-end” developer, she enjoys creating accessible web-based narratives, developing custom code to support her storytelling, and making up her own titles. Joni specializes in WordPress editor customizations, content architecture, digital accessibility, and public speaking.
 
 When Joni is not writing code, she is writing technical articles and creative works focusing on life as a single mother by choice. She enjoys running, practicing yoga, reading, and seeing live music near her home in the Washington, D.C. area.
 

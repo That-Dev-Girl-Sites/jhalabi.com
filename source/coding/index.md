@@ -68,7 +68,7 @@ projects:
 
 <section markdown="1" class="coding-intro" aria-label="Introduction">
 
-As a self-appointed “middle-end” developer, I like to write code, commit often, and make up my own titles. My development career has evolved over a wide range of industries, including e-commerce, non-profit, and education. 
+As a website creator and self-appointed “middle-end” developer, I enjoy creating accessible web-based narratives, developing custom code to support my storytelling, and making up my own titles. My development career has evolved over a wide range of industries, including e-commerce, non-profit, and education. 
 
 In my more recent development projects, I specialized in content architecture and WordPress editor customizations. As a developer at [Georgetown University](https://georgetown.edu), I wrote over 50 custom WordPress blocks, using ReactJS, PHP, and the Gutenberg API.
 
