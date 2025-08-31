@@ -43,11 +43,12 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2025 {#books-2025}
 
-(Total: 7)
+(Total: 8)
 {.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**Em** <br> Kim Thúy | Not the genre I normally read, this book was recommended to me by virtue of my new status as a student. I am taking a class at GU and this book was selected for this year's <a href='https://library.georgetown.edu/marino'>Marino workshop</a>. A fast, but powerful and emotional read. Definitely recommend, regardless of your favorite genre. | <span class='fa fa-heart'></span> August
 **The Truth** <br> Terry Pratchett | Quite accidentally, this was my first read from the Discworld series. It was a strange and wild ride and, while I wished I had started with book 1, I really enjoyed it. | August
 **Foster** <br> Claire Keegan | Not long enough to be a book-book, but too long to be a short story. Told from the point of view (and vocabulary) of the child main character, this story was captivating from the first page. Apparently, there is also a movie. | <span class='fa fa-heart'></span> June
 **Delta-V** <br> Daniel Suarez | Quick read. Love space. Hate capitalism. Great book. | May
