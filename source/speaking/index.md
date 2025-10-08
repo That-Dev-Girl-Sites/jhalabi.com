@@ -37,7 +37,21 @@ I am always looking for new opportunities and venues to speak about my work. Ple
 
 ## Past speaking events
 
-<ol markdown="1" reversed style="counter-reset: events 24;">
+<ol markdown="1" reversed style="counter-reset: events 25;">
+
+<li markdown="1">
+
+**Hallway Chats**
+
+Guest
+
+<span class="ri-calendar-fill"></span> October 8, 2025
+
+<span class="ri-map-pin-2-fill"></span> Online
+
+<span class="ri-volume-up-fill"></span> [Hallway Chats: Episode 178 – A Chat With Joni Halabi](https://hallwaychats.com/episodes/episode-178-a-chat-with-joni-halabi/)
+
+</li>
 
 
 <li markdown="1">
