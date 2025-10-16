@@ -37,7 +37,22 @@ I am always looking for new opportunities and venues to speak about my work. Ple
 
 ## Past speaking events
 
-<ol markdown="1" reversed style="counter-reset: events 25;">
+<ol markdown="1" reversed style="counter-reset: events 26;">
+
+<li markdown="1">
+
+**Post Status**
+
+Guest
+
+<span class="ri-calendar-fill"></span> October 15, 2025
+
+<span class="ri-map-pin-2-fill"></span> Online
+
+<span class="ri-volume-up-fill"></span> [Women in WordPress: Joni Halabi](https://www.youtube.com/watch?v=cgEcZ0kU3oU)
+
+</li>
+
 
 <li markdown="1">
 
