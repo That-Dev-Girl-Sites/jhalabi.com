@@ -23,7 +23,7 @@ Tenderly written with beautiful illustrations by [Lisa Wee](https://www.lisawee1
 
 ## Order your copy today!
 
-* [Direct from author](https://shop.ingramspark.com/b/084?params=hqaVfNyiD7IYLOndtXMRB7pe097jzcniQVUvNV2xOJ5)
+* [Direct From Author](https://shop.ingramspark.com/b/084?params=RhF2MA7hBBZ6mAF0gPx1X6cKbon4d2t1z5DxBcqRzpO)
 * [Amazon](https://www.amazon.com/Sweet-Little-You-Joni-Halabi/dp/057839216X/)
 * [Barnes & Noble](https://www.barnesandnoble.com/w/sweet-little-you-joni-halabi/1141494961)
 * [AbeBooks](https://www.abebooks.com/servlet/BookDetailsPL?bi=31212005551)
