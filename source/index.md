@@ -38,7 +38,7 @@ A mother with a dream of having a child makes her wish come true by having a bab
 *Sweet Little You* is available now wherever books are sold. Order your copy today!
 
 
-[Order Your Copy Today!](https://shop.ingramspark.com/b/084?params=RhF2MA7hBBZ6mAF0gPx1X6cKbon4d2t1z5DxBcqRzpO) [Book Details](/book/) {.home-book-buttons}
+[Order Today!](https://shop.ingramspark.com/b/084?params=RhF2MA7hBBZ6mAF0gPx1X6cKbon4d2t1z5DxBcqRzpO) [Book Details](/book/) {.home-book-buttons}
 
 </div>
 
