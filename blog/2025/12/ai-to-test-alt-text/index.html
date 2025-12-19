@@ -18,7 +18,7 @@
 
   <meta property="og:title" content="Can we use AI to test alt text?">
   <meta property="og:url" content="//jhalabi.com//blog/2025/12/ai-to-test-alt-text/">
-  <meta property="og:description" content="WordPress media files are automatically given permalinks that may mess with sites URLs. Here is how I dealt with that.">
+  <meta property="og:description" content="As I read about OpenAI's newest image generation model, a question came to mind. Can a well-crafted image creation prompt also serve as the alt text for that image?">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
@@ -78,7 +78,7 @@
         
       
         
-          <a href="/blog/wordpress/" class="category wordpress">wordpress</a>
+          <a href="/blog/accessibility/" class="category accessibility">accessibility</a>
         
       
     </p>
@@ -98,7 +98,7 @@
 <p>Cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in rainbow-colored field.</p>
 </blockquote>
 <p>ChatGPT created this image in just a couple of minutes:</p>
-<p><img src="assets/images/posts/alicorn.jpg" alt="AI-generated, cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in a field filled with rainbow-colored flowers. There is a rainbow in the bright blue sky above her."></p>
+<p><img src="/assets/images/posts/alicorn.jpg" alt="AI-generated, cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in a field filled with rainbow-colored flowers. There is a rainbow in the bright blue sky above her."></p>
 <p>Alternative text, or alt text, is text that describes the content on an image. It is a substitute, used by people who are unable to see the image itself for any reason. This image definitely describes my prompt<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. Cartoon style. Unicorn with wings and a mermaid tail.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> Rainbow colored field. The field <em>is</em> filled with rainbow-colored flowers, a detail not included in my prompt, but the field is still rainbow. Also, the creature is floating, not standing, because how does one stand when they have a mermaid tail and <em>no legs</em>? I did not think that one through.</p>
 <h2>A new test for alt text?</h2>
 <p>Creating the image above brought up another, related question: <em>Can AI be used to test the veracity of an image’s alt text?</em></p>
@@ -109,7 +109,7 @@
 <p>A festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.</p>
 </blockquote>
 <p>The <a href="https://www.pexels.com/photo/cozy-christmas-living-room-with-decorated-tree-35148259/">original photo</a> vs. the generated photo</p>
-<p><img src="assets/images/posts/test-1.jpg" alt="Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.">. <img src="assets/images/posts/test-1-results.jpg" alt="AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace."></p>
+<p><img src="/assets/images/posts/test-1.jpg" alt="Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.">. <img src="/assets/images/posts/test-1-results.jpg" alt="AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace."></p>
 <p>The images are similar in structure, though not in details. The AI-generated image is far more detailed, festive, and, in my opinion, blows “cozy” out of the water. The original alt text could certainly be better, but it is not awful and gets the job done in the simplest way possible.</p>
 <p><strong>Conclusion:</strong> The original alt text could be better, but it is passable and describes the image in the simplest way possible.<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
 <h3>Test #2: A stock image featuring people</h3>
@@ -118,7 +118,7 @@
 <p>Stylish couple posing confidently at a formal event against a vibrant red backdrop.</p>
 </blockquote>
 <p>The <a href="https://www.pexels.com/photo/elegant-couple-at-formal-event-with-red-backdrop-35217083/">original photo</a> vs. the generated photo:</p>
-<p><img src="assets/images/posts/test-2.jpg" alt="Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.">. <img src="assets/images/posts/test-2-results.jpg" alt="AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop."></p>
+<p><img src="/assets/images/posts/test-2.jpg" alt="Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.">. <img src="/assets/images/posts/test-2-results.jpg" alt="AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop."></p>
 <p>These images are again similar in structure, but are obviously very different people wearing very different clothes. In this case, the alt text is iffy and context-dependent. If this image were to be used on a real site, does race matter? Does gender? Are the clothes relevant? These questions are all opinion based and contextual questions that only a human can answer.</p>
 <p><strong>Conclusion:</strong> This alt text needs further review by a human.</p>
 <h3>Test #3: A real-world image</h3>
@@ -127,7 +127,7 @@
 <p>A stack of books on a windowsill next to a plant.</p>
 </blockquote>
 <p>The original photo vs. the generated photo:</p>
-<p><img src="assets/images/posts/test-3.jpg" alt="Original image of a stack of books on a windowsill next to a plant.">. <img src="assets/images/posts/test-3-results.jpg" alt="AI-generated image of a stack of books on a windowsill next to a plant."></p>
+<p><img src="/assets/images/posts/test-3.jpg" alt="Original image of a stack of books on a windowsill next to a plant.">. <img src="/assets/images/posts/test-3-results.jpg" alt="AI-generated image of a stack of books on a windowsill next to a plant."></p>
 <p>Again, not bad. There are books. There is a plant. Everything is on a windowsill. Even the natural lighting is similar. The AI-generated photo is different in terms of the number of books and the details on the books. The original image includes real books with visible titles, but the generated image does not, because that was not included in the prompt. This could be an issue if the specific titles were relevant to the context, but for this particular article, they are not. The same could be said for the glasses on top of the stack of photos in the AI generated image.</p>
 <p><strong>Conclusion:</strong> This alt text is pretty good!</p>
 <h3>Test #4: An image with what seems to be terrible alt text</h3>
@@ -136,7 +136,7 @@
 <p>Keys for short-term rental.</p>
 </blockquote>
 <p>The original photo<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup> vs. the generated photo:</p>
-<p><img src="assets/images/posts/test-4.jpg" alt="Original image of a person accessing the keys from a lock box on an exterior wall.">. <img src="assets/images/posts/test-4-results.jpg" alt="AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table."></p>
+<p><img src="/assets/images/posts/test-4.jpg" alt="Original image of a person accessing the keys from a lock box on an exterior wall.">. <img src="/assets/images/posts/test-4-results.jpg" alt="AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table."></p>
 <p>Both pictures have keys. That is where the similarities end.</p>
 <p><strong>Conclusion:</strong> The photo is more decorative in context, so more detailed alt text is not strictly necessary. However, if the image content were relevant to the news story, this alt text is not descriptive enough.</p>
 <h2>Final thoughts</h2>
