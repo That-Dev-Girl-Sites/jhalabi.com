@@ -38,7 +38,7 @@ Pexels is a free stock image library that is used by developers and designers fo
 
 The [original photo](https://www.pexels.com/photo/cozy-christmas-living-room-with-decorated-tree-35148259/) vs. the generated photo
 
-![Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1.jpg)<!-- {"width":200} --> ![AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1-results.jpg) <!-- {"width":445} -->
+![Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1.jpg){width="200px"} ![AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1-results.jpg){width="445px"}
 
 The images are similar in structure, though not in details. The AI-generated image is far more detailed, festive, and, in my opinion, blows “cozy” out of the water. The original alt text could certainly be better, but it is not awful and gets the job done in the simplest way possible.
 
@@ -53,7 +53,7 @@ In this test, I was curious to see how a photo with people would fare. Again, I 
 
 The [original photo](https://www.pexels.com/photo/elegant-couple-at-formal-event-with-red-backdrop-35217083/) vs. the generated photo:
 
-![Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2.jpg)<!-- {"width":300} --> ![AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2-results.jpg)<!-- {"width":300} -->
+![Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2.jpg){width="300px"} ![AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2-results.jpg){width="300px"}
 
 These images are again similar in structure, but are obviously very different people wearing very different clothes. In this case, the alt text is iffy and context-dependent. If this image were to be used on a real site, does race matter? Does gender? Are the clothes relevant? These questions are all opinion based and contextual questions that only a human can answer.
 
@@ -68,7 +68,7 @@ This third test is one from a page on a live site, instead of a stock image libr
 
 The original photo vs. the generated photo:
 
-![Original image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3.jpg)<!-- {"width":400} --> ![AI-generated image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3-results.jpg)<!-- {"width":250} -->
+![Original image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3.jpg){width="400px"} ![AI-generated image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3-results.jpg){width="250px"}
 
 Again, not bad. There are books. There is a plant. Everything is on a windowsill. Even the natural lighting is similar. The AI-generated photo is different in terms of the number of books and the details on the books. The original image includes real books with visible titles, but the generated image does not, because that was not included in the prompt. This could be an issue if the specific titles were relevant to the context, but for this particular article, they are not. The same could be said for the glasses on top of the stack of photos in the AI generated image.
 
@@ -83,7 +83,7 @@ For this fourth, and final (for now), test, I decided to test an image whose alt
 
 The original photo[^5] vs. the generated photo:
 
-![Original image of a person accessing the keys from a lock box on an exterior wall.](/assets/images/posts/test-4.jpg)<!-- {"width":355} --> ![AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table.](/assets/images/posts/test-4-results.jpg)<!-- {"width":300} -->
+![Original image of a person accessing the keys from a lock box on an exterior wall.](/assets/images/posts/test-4.jpg){width="355px"} ![AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table.](/assets/images/posts/test-4-results.jpg){width="300px"}
 
 Both pictures have keys. That is where the similarities end. 
 
