@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Can we use AI to test alt text? | Joni Halabi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+  <meta name="description" content="Joni Halabi is a web developer, author of Sweet Little You, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.">
+  <meta name="keywords" content="web developer, wordpress, author, writer, speaker, instructor, teacher, gutenberg, javascript, sweet little you, kid lit, single mother by choice, donor conceived">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <meta property="og:title" content="Can we use AI to test alt text?">
+  <meta property="og:url" content="//jhalabi.com//blog/2025/12/ai-to-test-alt-text/">
+  <meta property="og:description" content="WordPress media files are automatically given permalinks that may mess with sites URLs. Here is how I dealt with that.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#b26e63">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#222222">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#222222">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMXWQM7X1W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-LMXWQM7X1W');
+  </script>
+</head>
+
+
+
+<body>
+  <nav aria-label="Skip link">
+    <a href="#main" class="skip-link">Skip to content</a>
+  </nav>
+
+  <header class="site-header">
+    
+      <p class="nameplate">
+        <a href="/">Joni Halabi</a>
+      </p>
+    
+
+    <p class="tagline">
+      website creator, author, speaker, single mom, runner, music lover, chatty introvert
+    </p>
+
+    <nav class="nav-primary" aria-label="Main">
+      <ul>
+        <li ><a href="/" aria-label="Home">..</a></li>
+        <li ><a href="/book/"     >Book</a></li>
+        <li class="current"><a href="/blog/"     >Blog</a></li>
+        <li ><a href="/speaking/" >Speaking</a></li>
+        <li ><a href="/coding/"   >Coding</a></li>
+        <li ><a href="/contact/"  >Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main id="main">
+
+  <div class="post-meta">
+    <p class="categories">
+      
+        
+      
+        
+          <a href="/blog/wordpress/" class="category wordpress">wordpress</a>
+        
+      
+    </p>
+
+    <h1 id="post-title">Can we use AI to test alt text?</h1>
+
+    <p class="date">
+      19 December 2025
+    </p>
+  </div>
+
+  <article class="post-article" aria-labelledby="post-title">
+    <p>OpenAI announced its <a href="https://openai.com/index/new-chatgpt-images-is-here/">new model for creating images in ChatGPT</a> yesterday. This model promises more accurate, more detailed, and faster image generation, not only for transforming one image into another, but also for creating completely original images.</p>
+<p>I use ChatGPT to create fun images, mostly based on my daughter’s imagination. As I read OpenAI’s announcement, thinking of new images to ask it to create, I couldn’t help but wonder, <em>can a well-crafted image creation prompt also serve as the alt text for that image?</em></p>
+<p>I used ChatGPT’s new image model to create an image based on the following prompt:</p>
+<blockquote>
+<p>Cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in rainbow-colored field.</p>
+</blockquote>
+<p>ChatGPT created this image in just a couple of minutes:</p>
+<p><img src="assets/images/posts/alicorn.jpg" alt="AI-generated, cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in a field filled with rainbow-colored flowers. There is a rainbow in the bright blue sky above her."></p>
+<p>Alternative text, or alt text, is text that describes the content on an image. It is a substitute, used by people who are unable to see the image itself for any reason. This image definitely describes my prompt<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. Cartoon style. Unicorn with wings and a mermaid tail.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> Rainbow colored field. The field <em>is</em> filled with rainbow-colored flowers, a detail not included in my prompt, but the field is still rainbow. Also, the creature is floating, not standing, because how does one stand when they have a mermaid tail and <em>no legs</em>? I did not think that one through.</p>
+<h2>A new test for alt text?</h2>
+<p>Creating the image above brought up another, related question: <em>Can AI be used to test the veracity of an image’s alt text?</em></p>
+<p>I decided to test this question by using alt text as a prompt to create a new image using ChatGPT’s new image model. Would the generated image be similar to the original?</p>
+<h3>Test #1: Christmas-themed image from Pexels</h3>
+<p>Pexels is a free stock image library that is used by developers and designers for a variety of reasons. This first test is of a holiday themed image that was featured on the front page, with the following alt text:</p>
+<blockquote>
+<p>A festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.</p>
+</blockquote>
+<p>The <a href="https://www.pexels.com/photo/cozy-christmas-living-room-with-decorated-tree-35148259/">original photo</a> vs. the generated photo</p>
+<p><img src="assets/images/posts/test-1.jpg" alt="Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.">. <img src="assets/images/posts/test-1-results.jpg" alt="AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace."></p>
+<p>The images are similar in structure, though not in details. The AI-generated image is far more detailed, festive, and, in my opinion, blows “cozy” out of the water. The original alt text could certainly be better, but it is not awful and gets the job done in the simplest way possible.</p>
+<p><strong>Conclusion:</strong> The original alt text could be better, but it is passable and describes the image in the simplest way possible.<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
+<h3>Test #2: A stock image featuring people</h3>
+<p>In this test, I was curious to see how a photo with people would fare. Again, I used a stock image from Pexels, with the following alt text:</p>
+<blockquote>
+<p>Stylish couple posing confidently at a formal event against a vibrant red backdrop.</p>
+</blockquote>
+<p>The <a href="https://www.pexels.com/photo/elegant-couple-at-formal-event-with-red-backdrop-35217083/">original photo</a> vs. the generated photo:</p>
+<p><img src="assets/images/posts/test-2.jpg" alt="Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.">. <img src="assets/images/posts/test-2-results.jpg" alt="AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop."></p>
+<p>These images are again similar in structure, but are obviously very different people wearing very different clothes. In this case, the alt text is iffy and context-dependent. If this image were to be used on a real site, does race matter? Does gender? Are the clothes relevant? These questions are all opinion based and contextual questions that only a human can answer.</p>
+<p><strong>Conclusion:</strong> This alt text needs further review by a human.</p>
+<h3>Test #3: A real-world image</h3>
+<p>This third test is one from a page on a live site, instead of a stock image library. I work for Georgetown and love books, so for this experiment, I chose the featured image for a recent article titled <em><a href="https://www.georgetown.edu/news/12-books-professors-recommend-but-dont-require-you-read-this-winter/">12 Books Professors Recommend (But Don’t Require) You Read This Winter</a></em>.<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup> The image has the following alt text:</p>
+<blockquote>
+<p>A stack of books on a windowsill next to a plant.</p>
+</blockquote>
+<p>The original photo vs. the generated photo:</p>
+<p><img src="assets/images/posts/test-3.jpg" alt="Original image of a stack of books on a windowsill next to a plant.">. <img src="assets/images/posts/test-3-results.jpg" alt="AI-generated image of a stack of books on a windowsill next to a plant."></p>
+<p>Again, not bad. There are books. There is a plant. Everything is on a windowsill. Even the natural lighting is similar. The AI-generated photo is different in terms of the number of books and the details on the books. The original image includes real books with visible titles, but the generated image does not, because that was not included in the prompt. This could be an issue if the specific titles were relevant to the context, but for this particular article, they are not. The same could be said for the glasses on top of the stack of photos in the AI generated image.</p>
+<p><strong>Conclusion:</strong> This alt text is pretty good!</p>
+<h3>Test #4: An image with what seems to be terrible alt text</h3>
+<p>For this fourth, and final (for now), test, I decided to test an image whose alt text does not seem (to me) to properly describe the image. For this experiment, I chose an image from a news article about <a href="https://news.rpi.edu/2025/11/12/five-million-airbnb-reviews-illuminate-guests-crime-and-safety-concerns">Airbnb reviews and safety concerns</a>, published by RPI (my alma mater). The image has the following alt text:</p>
+<blockquote>
+<p>Keys for short-term rental.</p>
+</blockquote>
+<p>The original photo<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup> vs. the generated photo:</p>
+<p><img src="assets/images/posts/test-4.jpg" alt="Original image of a person accessing the keys from a lock box on an exterior wall.">. <img src="assets/images/posts/test-4-results.jpg" alt="AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table."></p>
+<p>Both pictures have keys. That is where the similarities end.</p>
+<p><strong>Conclusion:</strong> The photo is more decorative in context, so more detailed alt text is not strictly necessary. However, if the image content were relevant to the news story, this alt text is not descriptive enough.</p>
+<h2>Final thoughts</h2>
+<p>Well-written alt text is crucial to the users who rely on it. However, the context of how the image is used is an important consideration when writing alt text. The description of the image can be less detailed or focus on a single aspect of the image, depending on the intent of both the image and the page in which it lives.</p>
+<p>Therefore, there is no single test or absolute right answer to the question of alt text for an image. The answer is my least favorite answer: <em>it depends</em>. For questions whose answers rely on judgement calls, AI is not the best tool. Crafting – and testing – alt text is still a fundamentally human job.</p>
+<hr>
+<section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>“Describes my prompt” is an understatement. My kid is going to scream (literally and from joy) when she sees this. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>This creature is called an <em>alumer</em>. The name is a combination of “alicorn”, a winged horse with a horn, and “mermaid.” <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>The generated image is also way better. Sorry / not sorry. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>I will also be making note of these books after I finish the <em>giant</em> pile of books that are currently next to my desk. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p>The original image is credited to Getty Images. <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+  </article>
+
+  <div class="post-share">
+    Share this article: 
+
+    <a class="ri-bluesky-fill" target="_blank" href="https://bsky.app/intent/compose?text=Check out “Can we use AI to test alt text?” by @jonihalabi.bsky.social https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/" rel="noreferrer noopener">
+      <span class="sr-only">Bluesky</span>
+    </a>
+
+    <a class="ri-facebook-fill" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/" rel="noreferrer noopener">
+      <span class="sr-only">Facebook</span>
+    </a>
+
+    <a class="ri-linkedin-box-fill" target="_blank" href="https://www.linkedin.com/shareArticle?url=https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/" rel="noreferrer noopener">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+
+    <a class="ri-mastodon-fill" target="_blank" href="https://higheredweb.social/share?text=Check out “Can we use AI to test alt text?” by @jonihalabi@higheredweb.social https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/" rel="noreferrer noopener">
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  </div>
+
+</main>
+
+<footer>
+
+    <div class="footer-top">
+  
+      <div class="footer-top-code">
+        <p>const joni = {</p>
+        <dl>
+          <dt>"description":</dt>
+          <dd>"Website creator, author, and conference speaker who writes technical articles, as well as creative works that focus on life as a single mother by choice.",</dd>
+          <dt>"press_kit":</dt>
+          <dd>"<a href="/press-kit/">Biographies, book information, and photos for public use</a>"</dd>
+        </dl>
+        <p>};</p>
+      </div>
+  
+      <ul class="footer-top-socials">
+        <li>
+          <a href="/feed.xml" class="ri-rss-fill">Blog feed</a>
+        </li>
+
+        <li>
+          <a href="https://bsky.app/profile/jonihalabi.bsky.social" class="ri-bluesky-fill">Bluesky</a>
+        </li>
+  
+        <li>
+          <a href="https://www.instagram.com/jonihalabi/" class="ri-instagram-fill">Instagram</a>
+        </li>
+  
+        <li>
+          <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-fill">LinkedIn</a>
+        </li>
+      </ul>
+  
+    </div>
+  
+  
+  
+    <div class="footer-copyright">
+      <div>
+        <p>
+          Copyright &copy; 2025 Joni Halabi. All rights reserved.
+  
+          <span id="day-0">Happy Sunday! Today is French toast day in our house.</span>
+          <span id="day-1">Whelp, it's Monday. Go ahead and have that extra cup of tea.</span>
+          <span id="day-2">Happy "We survived Monday" day! Otherwise known as Tuesday.</span>
+          <span id="day-3">Ah... Wednesday. So close, yet so far.</span>
+          <span id="day-4">It's Thursday. Almost there!</span>
+          <span id="day-5">Happy Friday. We made it!</span>
+          <span id="day-6">It's the weekend. Hooray!</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const d=new Date(); const n=d.getDay();document.getElementById('day-'+n).classList.add('show');
+  </script>
+  
+</body>
+</html>
+

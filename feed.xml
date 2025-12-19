@@ -7,6 +7,78 @@
     <description>A blog about development, wordpress, and life as a single mother by choice.</description>
     <language>en</language>
     <item>
+      <title>Can we use AI to test alt text?</title>
+      <link>https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/</link>
+      <description>&lt;p&gt;OpenAI announced its &lt;a href=&quot;https://openai.com/index/new-chatgpt-images-is-here/&quot;&gt;new model for creating images in ChatGPT&lt;/a&gt; yesterday. This model promises more accurate, more detailed, and faster image generation, not only for transforming one image into another, but also for creating completely original images.&lt;/p&gt;
+&lt;p&gt;I use ChatGPT to create fun images, mostly based on my daughter’s imagination. As I read OpenAI’s announcement, thinking of new images to ask it to create, I couldn’t help but wonder, &lt;em&gt;can a well-crafted image creation prompt also serve as the alt text for that image?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I used ChatGPT’s new image model to create an image based on the following prompt:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in rainbow-colored field.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ChatGPT created this image in just a couple of minutes:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/assets/images/posts/alicorn.jpg&quot; alt=&quot;AI-generated, cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in a field filled with rainbow-colored flowers. There is a rainbow in the bright blue sky above her.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Alternative text, or alt text, is text that describes the content on an image. It is a substitute, used by people who are unable to see the image itself for any reason. This image definitely describes my prompt&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;. Cartoon style. Unicorn with wings and a mermaid tail.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; Rainbow colored field. The field &lt;em&gt;is&lt;/em&gt; filled with rainbow-colored flowers, a detail not included in my prompt, but the field is still rainbow. Also, the creature is floating, not standing, because how does one stand when they have a mermaid tail and &lt;em&gt;no legs&lt;/em&gt;? I did not think that one through.&lt;/p&gt;
+&lt;h2&gt;A new test for alt text?&lt;/h2&gt;
+&lt;p&gt;Creating the image above brought up another, related question: &lt;em&gt;Can AI be used to test the veracity of an image’s alt text?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I decided to test this question by using alt text as a prompt to create a new image using ChatGPT’s new image model. Would the generated image be similar to the original?&lt;/p&gt;
+&lt;h3&gt;Test #1: Christmas-themed image from Pexels&lt;/h3&gt;
+&lt;p&gt;Pexels is a free stock image library that is used by developers and designers for a variety of reasons. This first test is of a holiday themed image that was featured on the front page, with the following alt text:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &lt;a href=&quot;https://www.pexels.com/photo/cozy-christmas-living-room-with-decorated-tree-35148259/&quot;&gt;original photo&lt;/a&gt; vs. the generated photo&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/assets/images/posts/test-1.jpg&quot; alt=&quot;Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.&quot;&gt;. &lt;img src=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/assets/images/posts/test-1-results.jpg&quot; alt=&quot;AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;The images are similar in structure, though not in details. The AI-generated image is far more detailed, festive, and, in my opinion, blows “cozy” out of the water. The original alt text could certainly be better, but it is not awful and gets the job done in the simplest way possible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; The original alt text could be better, but it is passable and describes the image in the simplest way possible.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3&gt;Test #2: A stock image featuring people&lt;/h3&gt;
+&lt;p&gt;In this test, I was curious to see how a photo with people would fare. Again, I used a stock image from Pexels, with the following alt text:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Stylish couple posing confidently at a formal event against a vibrant red backdrop.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The &lt;a href=&quot;https://www.pexels.com/photo/elegant-couple-at-formal-event-with-red-backdrop-35217083/&quot;&gt;original photo&lt;/a&gt; vs. the generated photo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/assets/images/posts/test-2.jpg&quot; alt=&quot;Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.&quot;&gt;. &lt;img src=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/assets/images/posts/test-2-results.jpg&quot; alt=&quot;AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;These images are again similar in structure, but are obviously very different people wearing very different clothes. In this case, the alt text is iffy and context-dependent. If this image were to be used on a real site, does race matter? Does gender? Are the clothes relevant? These questions are all opinion based and contextual questions that only a human can answer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; This alt text needs further review by a human.&lt;/p&gt;
+&lt;h3&gt;Test #3: A real-world image&lt;/h3&gt;
+&lt;p&gt;This third test is one from a page on a live site, instead of a stock image library. I work for Georgetown and love books, so for this experiment, I chose the featured image for a recent article titled &lt;em&gt;&lt;a href=&quot;https://www.georgetown.edu/news/12-books-professors-recommend-but-dont-require-you-read-this-winter/&quot;&gt;12 Books Professors Recommend (But Don’t Require) You Read This Winter&lt;/a&gt;&lt;/em&gt;.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fn4&quot; id=&quot;fnref4&quot;&gt;[4]&lt;/a&gt;&lt;/sup&gt; The image has the following alt text:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A stack of books on a windowsill next to a plant.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The original photo vs. the generated photo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/assets/images/posts/test-3.jpg&quot; alt=&quot;Original image of a stack of books on a windowsill next to a plant.&quot;&gt;. &lt;img src=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/assets/images/posts/test-3-results.jpg&quot; alt=&quot;AI-generated image of a stack of books on a windowsill next to a plant.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Again, not bad. There are books. There is a plant. Everything is on a windowsill. Even the natural lighting is similar. The AI-generated photo is different in terms of the number of books and the details on the books. The original image includes real books with visible titles, but the generated image does not, because that was not included in the prompt. This could be an issue if the specific titles were relevant to the context, but for this particular article, they are not. The same could be said for the glasses on top of the stack of photos in the AI generated image.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; This alt text is pretty good!&lt;/p&gt;
+&lt;h3&gt;Test #4: An image with what seems to be terrible alt text&lt;/h3&gt;
+&lt;p&gt;For this fourth, and final (for now), test, I decided to test an image whose alt text does not seem (to me) to properly describe the image. For this experiment, I chose an image from a news article about &lt;a href=&quot;https://news.rpi.edu/2025/11/12/five-million-airbnb-reviews-illuminate-guests-crime-and-safety-concerns&quot;&gt;Airbnb reviews and safety concerns&lt;/a&gt;, published by RPI (my alma mater). The image has the following alt text:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Keys for short-term rental.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The original photo&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fn5&quot; id=&quot;fnref5&quot;&gt;[5]&lt;/a&gt;&lt;/sup&gt; vs. the generated photo:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/assets/images/posts/test-4.jpg&quot; alt=&quot;Original image of a person accessing the keys from a lock box on an exterior wall.&quot;&gt;. &lt;img src=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/assets/images/posts/test-4-results.jpg&quot; alt=&quot;AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Both pictures have keys. That is where the similarities end.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; The photo is more decorative in context, so more detailed alt text is not strictly necessary. However, if the image content were relevant to the news story, this alt text is not descriptive enough.&lt;/p&gt;
+&lt;h2&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;Well-written alt text is crucial to the users who rely on it. However, the context of how the image is used is an important consideration when writing alt text. The description of the image can be less detailed or focus on a single aspect of the image, depending on the intent of both the image and the page in which it lives.&lt;/p&gt;
+&lt;p&gt;Therefore, there is no single test or absolute right answer to the question of alt text for an image. The answer is my least favorite answer: &lt;em&gt;it depends&lt;/em&gt;. For questions whose answers rely on judgement calls, AI is not the best tool. Crafting – and testing – alt text is still a fundamentally human job.&lt;/p&gt;
+&lt;hr&gt;
+&lt;section class=&quot;footnotes&quot;&gt;&lt;ol class=&quot;footnotes-list&quot;&gt;&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;“Describes my prompt” is an understatement. My kid is going to scream (literally and from joy) when she sees this. &lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;This creature is called an &lt;em&gt;alumer&lt;/em&gt;. The name is a combination of “alicorn”, a winged horse with a horn, and “mermaid.” &lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn3&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;The generated image is also way better. Sorry / not sorry. &lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fnref3&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn4&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;I will also be making note of these books after I finish the &lt;em&gt;giant&lt;/em&gt; pile of books that are currently next to my desk. &lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fnref4&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&quot;fn5&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;The original image is credited to Getty Images. &lt;a href=&quot;https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/#fnref5&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+      <pubDate>Fri, 19 Dec 2025 24:00:00 GMT</pubDate>
+      <dc:creator>Joni Halabi</dc:creator>
+      <guid>https://jhalabi.com/blog/2025/12/ai-to-test-alt-text/</guid>
+    </item>
+    <item>
       <title>WordPress bans: A story about caring</title>
       <link>https://jhalabi.com/blog/2025/05/wordpress-and-caring/</link>
       <description>&lt;p&gt;I got an email from &lt;a href=&quot;http://WordPress.org&quot;&gt;WordPress.org&lt;/a&gt; yesterday.&lt;/p&gt;
