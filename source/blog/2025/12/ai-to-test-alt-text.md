@@ -4,8 +4,8 @@ title: "Can we use AI to test alt text?"
 date: 2025-12-19
 tags:
   - blog
-  - wordpress
-excerpt: WordPress media files are automatically given permalinks that may mess with sites URLs. Here is how I dealt with that.
+  - accessibility
+excerpt: As I read about OpenAI's newest image generation model, a question came to mind. Can a well-crafted image creation prompt also serve as the alt text for that image?
 ---
 
 OpenAI announced its [new model for creating images in ChatGPT](https://openai.com/index/new-chatgpt-images-is-here/) yesterday. This model promises more accurate, more detailed, and faster image generation, not only for transforming one image into another, but also for creating completely original images.
@@ -18,7 +18,7 @@ I used ChatGPT’s new image model to create an image based on the following pro
 
 ChatGPT created this image in just a couple of minutes:
 
-![AI-generated, cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in a field filled with rainbow-colored flowers. There is a rainbow in the bright blue sky above her.](assets/images/posts/alicorn.jpg)
+![AI-generated, cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in a field filled with rainbow-colored flowers. There is a rainbow in the bright blue sky above her.](/assets/images/posts/alicorn.jpg)
 
 Alternative text, or alt text, is text that describes the content on an image. It is a substitute, used by people who are unable to see the image itself for any reason. This image definitely describes my prompt[^1]. Cartoon style. Unicorn with wings and a mermaid tail.[^2] Rainbow colored field. The field _is_ filled with rainbow-colored flowers, a detail not included in my prompt, but the field is still rainbow. Also, the creature is floating, not standing, because how does one stand when they have a mermaid tail and *no legs*? I did not think that one through.
 
@@ -36,7 +36,7 @@ Pexels is a free stock image library that is used by developers and designers fo
 
 The [original photo](https://www.pexels.com/photo/cozy-christmas-living-room-with-decorated-tree-35148259/) vs. the generated photo
 
-![Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](assets/images/posts/test-1.jpg). ![AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](assets/images/posts/test-1-results.jpg)
+![Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1.jpg). ![AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1-results.jpg)
 
 The images are similar in structure, though not in details. The AI-generated image is far more detailed, festive, and, in my opinion, blows “cozy” out of the water. The original alt text could certainly be better, but it is not awful and gets the job done in the simplest way possible.
 
@@ -50,7 +50,7 @@ In this test, I was curious to see how a photo with people would fare. Again, I 
 
 The [original photo](https://www.pexels.com/photo/elegant-couple-at-formal-event-with-red-backdrop-35217083/) vs. the generated photo:
 
-![Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](assets/images/posts/test-2.jpg). ![AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](assets/images/posts/test-2-results.jpg)
+![Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2.jpg). ![AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2-results.jpg)
 
 These images are again similar in structure, but are obviously very different people wearing very different clothes. In this case, the alt text is iffy and context-dependent. If this image were to be used on a real site, does race matter? Does gender? Are the clothes relevant? These questions are all opinion based and contextual questions that only a human can answer.
 
@@ -64,7 +64,7 @@ This third test is one from a page on a live site, instead of a stock image libr
 
 The original photo vs. the generated photo:
 
-![Original image of a stack of books on a windowsill next to a plant.](assets/images/posts/test-3.jpg). ![AI-generated image of a stack of books on a windowsill next to a plant.](assets/images/posts/test-3-results.jpg)
+![Original image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3.jpg). ![AI-generated image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3-results.jpg)
 
 Again, not bad. There are books. There is a plant. Everything is on a windowsill. Even the natural lighting is similar. The AI-generated photo is different in terms of the number of books and the details on the books. The original image includes real books with visible titles, but the generated image does not, because that was not included in the prompt. This could be an issue if the specific titles were relevant to the context, but for this particular article, they are not. The same could be said for the glasses on top of the stack of photos in the AI generated image.
 
@@ -78,7 +78,7 @@ For this fourth, and final (for now), test, I decided to test an image whose alt
 
 The original photo[^5] vs. the generated photo:
 
-![Original image of a person accessing the keys from a lock box on an exterior wall.](assets/images/posts/test-4.jpg). ![AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table.](assets/images/posts/test-4-results.jpg)
+![Original image of a person accessing the keys from a lock box on an exterior wall.](/assets/images/posts/test-4.jpg). ![AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table.](/assets/images/posts/test-4-results.jpg)
 
 Both pictures have keys. That is where the similarities end. 
 
