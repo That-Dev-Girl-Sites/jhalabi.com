@@ -18,7 +18,7 @@ I used ChatGPT’s new image model to create an image based on the following pro
 
 ChatGPT created this image in just a couple of minutes:
 
-![AI-generated, cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in a field filled with rainbow-colored flowers. There is a rainbow in the bright blue sky above her.](/assets/images/posts/alicorn.jpg)
+![AI-generated, cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in a field filled with rainbow-colored flowers. There is a rainbow in the bright blue sky above her.](/assets/images/posts/alicorn.jpg){width="400px"}
 
 Alternative text, or alt text, is text that describes the content on an image. It is a substitute, used by people who are unable to see the image itself for any reason. This image definitely describes my prompt[^1]. Cartoon style. Unicorn with wings and a mermaid tail.[^2] Rainbow colored field. The field _is_ filled with rainbow-colored flowers, a detail not included in my prompt, but the field is still rainbow. Also, the creature is floating, not standing, because how does one stand when they have a mermaid tail and *no legs*? I did not think that one through.
 
@@ -97,7 +97,6 @@ Well-written alt text is crucial to the users who rely on it. However, the conte
 Therefore, there is no single test or absolute right answer to the question of alt text for an image. The answer is my least favorite answer: _it depends_. For questions whose answers rely on judgement calls, AI is not the best tool. Crafting – and testing – alt text is still a fundamentally human job.
 
 
----
 
 [^1]: “Describes my prompt” is an understatement. My kid is going to scream (literally and from joy) when she sees this.
 [^2]: This creature is called an _alumer_. The name is a combination of “alicorn”, a winged horse with a horn, and “mermaid.”
