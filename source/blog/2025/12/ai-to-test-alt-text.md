@@ -22,11 +22,13 @@ ChatGPT created this image in just a couple of minutes:
 
 Alternative text, or alt text, is text that describes the content on an image. It is a substitute, used by people who are unable to see the image itself for any reason. This image definitely describes my prompt[^1]. Cartoon style. Unicorn with wings and a mermaid tail.[^2] Rainbow colored field. The field _is_ filled with rainbow-colored flowers, a detail not included in my prompt, but the field is still rainbow. Also, the creature is floating, not standing, because how does one stand when they have a mermaid tail and *no legs*? I did not think that one through.
 
+
 ## A new test for alt text?
 
 Creating the image above brought up another, related question: _Can AI be used to test the veracity of an image’s alt text?_
 
 I decided to test this question by using alt text as a prompt to create a new image using ChatGPT’s new image model. Would the generated image be similar to the original?
+
 
 ### Test #1: Christmas-themed image from Pexels
 
@@ -36,11 +38,12 @@ Pexels is a free stock image library that is used by developers and designers fo
 
 The [original photo](https://www.pexels.com/photo/cozy-christmas-living-room-with-decorated-tree-35148259/) vs. the generated photo
 
-![Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1.jpg). ![AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1-results.jpg)
+![Original image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1.jpg)<!-- {"width":200} --> ![AI-generated image of a festive living room featuring a beautifully decorated Christmas tree and cozy fireplace.](/assets/images/posts/test-1-results.jpg) <!-- {"width":445} -->
 
 The images are similar in structure, though not in details. The AI-generated image is far more detailed, festive, and, in my opinion, blows “cozy” out of the water. The original alt text could certainly be better, but it is not awful and gets the job done in the simplest way possible.
 
 **Conclusion:** The original alt text could be better, but it is passable and describes the image in the simplest way possible.[^3]
+
 
 ### Test #2: A stock image featuring people
 
@@ -50,11 +53,12 @@ In this test, I was curious to see how a photo with people would fare. Again, I 
 
 The [original photo](https://www.pexels.com/photo/elegant-couple-at-formal-event-with-red-backdrop-35217083/) vs. the generated photo:
 
-![Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2.jpg). ![AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2-results.jpg)
+![Original image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2.jpg)<!-- {"width":300} --> ![AI-generated image of a stylish couple posing confidently at a formal event against a vibrant red backdrop.](/assets/images/posts/test-2-results.jpg)<!-- {"width":300} -->
 
 These images are again similar in structure, but are obviously very different people wearing very different clothes. In this case, the alt text is iffy and context-dependent. If this image were to be used on a real site, does race matter? Does gender? Are the clothes relevant? These questions are all opinion based and contextual questions that only a human can answer.
 
 **Conclusion:** This alt text needs further review by a human.
+
 
 ### Test #3: A real-world image
 
@@ -64,11 +68,12 @@ This third test is one from a page on a live site, instead of a stock image libr
 
 The original photo vs. the generated photo:
 
-![Original image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3.jpg). ![AI-generated image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3-results.jpg)
+![Original image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3.jpg)<!-- {"width":400} --> ![AI-generated image of a stack of books on a windowsill next to a plant.](/assets/images/posts/test-3-results.jpg)<!-- {"width":250} -->
 
 Again, not bad. There are books. There is a plant. Everything is on a windowsill. Even the natural lighting is similar. The AI-generated photo is different in terms of the number of books and the details on the books. The original image includes real books with visible titles, but the generated image does not, because that was not included in the prompt. This could be an issue if the specific titles were relevant to the context, but for this particular article, they are not. The same could be said for the glasses on top of the stack of photos in the AI generated image.
 
 **Conclusion:** This alt text is pretty good!
+
 
 ### Test #4: An image with what seems to be terrible alt text
 
@@ -78,11 +83,12 @@ For this fourth, and final (for now), test, I decided to test an image whose alt
 
 The original photo[^5] vs. the generated photo:
 
-![Original image of a person accessing the keys from a lock box on an exterior wall.](/assets/images/posts/test-4.jpg). ![AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table.](/assets/images/posts/test-4-results.jpg)
+![Original image of a person accessing the keys from a lock box on an exterior wall.](/assets/images/posts/test-4.jpg)<!-- {"width":355} --> ![AI-generated image of a set of keys on a key chain that reads short-term rental, sitting on a wooden table.](/assets/images/posts/test-4-results.jpg)<!-- {"width":300} -->
 
 Both pictures have keys. That is where the similarities end. 
 
 **Conclusion:** The photo is more decorative in context, so more detailed alt text is not strictly necessary. However, if the image content were relevant to the news story, this alt text is not descriptive enough.
+
 
 ## Final thoughts
 
@@ -97,4 +103,4 @@ Therefore, there is no single test or absolute right answer to the question of a
 [^2]: This creature is called an _alumer_. The name is a combination of “alicorn”, a winged horse with a horn, and “mermaid.”
 [^3]: The generated image is also way better. Sorry / not sorry.
 [^4]: I will also be making note of these books after I finish the _giant_ pile of books that are currently next to my desk.
-[^5]:  The original image is credited to Getty Images.
+[^5]: The original image is credited to Getty Images.
