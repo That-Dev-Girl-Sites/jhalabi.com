@@ -20,7 +20,9 @@ ChatGPT created this image in just a couple of minutes:
 
 ![AI-generated, cartoon-styled image of a creature who is a unicorn with wings and a mermaid tail, standing in a field filled with rainbow-colored flowers. There is a rainbow in the bright blue sky above her.](/assets/images/posts/alicorn.jpg){width="400px"}
 
-Alternative text, or alt text, is text that describes the content on an image. It is a substitute, used by people who are unable to see the image itself for any reason. This image definitely describes my prompt[^1]. Cartoon style. Unicorn with wings and a mermaid tail.[^2] Rainbow colored field. The field _is_ filled with rainbow-colored flowers, a detail not included in my prompt, but the field is still rainbow. Also, the creature is floating, not standing, because how does one stand when they have a mermaid tail and *no legs*? I did not think that one through.
+Alternative text, or alt text, is text that describes the content on an image. It is a substitute, used by people who are unable to see the image itself for any reason. 
+
+This image definitely describes my prompt[^1]. Cartoon style. Unicorn with wings and a mermaid tail[^2]. Rainbow colored field. The field _is_ filled with rainbow-colored flowers, a detail not included in my prompt, but the field is still rainbow. Also, the creature is floating, not standing, because how does one stand when they have a mermaid tail and *no legs*? I did not think that one through.
 
 
 ## A new test for alt text?
@@ -42,7 +44,7 @@ The [original photo](https://www.pexels.com/photo/cozy-christmas-living-room-wit
 
 The images are similar in structure, though not in details. The AI-generated image is far more detailed, festive, and, in my opinion, blows “cozy” out of the water. The original alt text could certainly be better, but it is not awful and gets the job done in the simplest way possible.
 
-**Conclusion:** The original alt text could be better, but it is passable and describes the image in the simplest way possible.[^3]
+**Conclusion:** The original alt text could be better, but it is passable and describes the image in the simplest way possible[^3].
 
 
 ### Test #2: A stock image featuring people
@@ -62,7 +64,7 @@ These images are again similar in structure, but are obviously very different pe
 
 ### Test #3: A real-world image
 
-This third test is one from a page on a live site, instead of a stock image library. I work for Georgetown and love books, so for this experiment, I chose the featured image for a recent article titled *[12 Books Professors Recommend \(But Don’t Require\) You Read This Winter](https://www.georgetown.edu/news/12-books-professors-recommend-but-dont-require-you-read-this-winter/)*.[^4] The image has the following alt text:
+This third test is one from a page on a live site, instead of a stock image library. I work for Georgetown and love books, so for this experiment, I chose the featured image for a recent article titled *[12 Books Professors Recommend \(But Don’t Require\) You Read This Winter](https://www.georgetown.edu/news/12-books-professors-recommend-but-dont-require-you-read-this-winter/)*[^4]. The image has the following alt text:
 
 > A stack of books on a windowsill next to a plant.
 
