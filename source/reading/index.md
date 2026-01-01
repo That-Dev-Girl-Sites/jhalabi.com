@@ -43,11 +43,12 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2025 {#books-2025}
 
-(Total: 9)
+(Total: 10)
 {.book-count}
 
 Book | Thoughts | Date Read
 ---- | ---- | ----
+**The Uncommon Reader** <br> Alan Bennett | A short novel with a brilliant concept. This was a fun and relatively quick read. | <span class='fa fa-heart'></span> December
 **This Is for Everyone: The Unfinished Story of the World Wide Web** <br> Tim Berners-Lee | Well written, captivating, and absolutely fascinating. I could not put this book down and finished it in 2 days. (Not quite a record for me, but pretty close.) If you live on the internet, like I often do, this is a definite must-read. | <span class='fa fa-heart'></span> December
 **Em** <br> Kim Thúy | Not the genre I normally read, this book was recommended to me by virtue of my new status as a student. I am taking a class at GU and this book was selected for this year's <a href='https://library.georgetown.edu/marino'>Marino workshop</a>. A fast, but powerful and emotional read. Definitely recommend, regardless of your favorite genre. | <span class='fa fa-heart'></span> August
 **The Truth** <br> Terry Pratchett | Quite accidentally, this was my first read from the Discworld series. It was a strange and wild ride and, while I wished I had started with book 1, I really enjoyed it. | August

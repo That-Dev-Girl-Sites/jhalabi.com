@@ -146,5 +146,6 @@ Right-click on any image to open it at full size in a new window or tab.
 * [![A hardcover copy of Sweet Little You is sitting under a holiday tree. The book cover features a mom and baby flying in a paper airplane](/assets/images/press-kit-sweet-little-you-christmas.jpg)](/assets/images/press-kit-sweet-little-you-christmas.jpg)
 * [![Joni, a white woman with dark curly hair and glasses, is standing, wearing a black top and small necklace. She is standing with her hand on her hip in front of a light blue background.](/assets/images/press-kit-headshot-blue.jpg)](/assets/images/press-kit-headshot-blue.jpg)
 * [![A hardcover copy of Sweet Little You is sitting on a table. Behind it and blurred is a framed photo of a mother snuggling with her newborn baby.](/assets/images/press-kit-sweet-little-you-with-photo.jpg)](/assets/images/press-kit-sweet-little-you-with-photo.jpg)
+* [![Joni, a white woman with dark curly hair and glasses, is holding a hardcober copy of Sweet Little You in the children's section of a library.](/assets/images/press-kit-sweet-little-you-library.png)](/assets/images/press-kit-sweet-little-you-library.png)
 
 </section>
