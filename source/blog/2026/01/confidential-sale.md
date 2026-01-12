@@ -14,7 +14,7 @@ Today, I received a unique business opportunity in my inbox. The subject line re
 
 > [Confidential] Ever Considered Selling Georgetown University?
 
-Why no, Mr. Bond[^1], I had not considered selling the university I work for and in no way actually own. However, it *is* important to keep an open mind about such well thought out business opportunities.
+Why no, Mr. Bond[^1], I had not considered selling the university I work for and in no way actually own. However, it *is* important to keep an open mind about such well-thought-out business opportunities.
 
 The biggest question is, should I sell the university as one single entity? Or, should I consider splitting it up to sell in parts? The football team could become its own NFL franchise[^2]. The library has a strong potential to become a vintage bookstore and coffee shop. The Law School could spin off into its own top-tier law firm, emphasizing on-the-job learning. The nursing and medical schools can wholly merge with the hospital as its own succinct entity.
 
