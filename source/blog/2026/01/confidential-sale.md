@@ -20,7 +20,7 @@ The biggest question is, should I sell the university as one single entity? Or, 
 
 However, there are complications to this plan. Alumni get a bit touchy when their alma mater disappears into the ether of capitalism. Students might not revolt against the idea of their beacon of higher education being turned into a series of ad-hoc start ups. Not to mention the issues of identity and name recognition. And, of course, the small detail that I am not the actual owner of this, or any, university.
 
-So, Mr. Bond[^3], while I have considered your kind, and no longer confidential, offer, I fear I must decline it at this time. However, I remain open to other business opportunities, strategic partnerships, and any ideas that begin with the phrase “surprisingly legal ways to….”[^4]
+So, Mr. Bond[^3], while I have given your kind, and no longer confidential, offer serious consideration, I fear I must decline it at this time. However, I remain open to other business opportunities, strategic partnerships, and ideas that begin with the phrase “surprisingly legal ways to….”[^4]
 
 
 
@@ -28,4 +28,4 @@ So, Mr. Bond[^3], while I have considered your kind, and no longer confidential,
 [^1]: Yes, that is the sender’s actual name. Another gem.
 [^2]: I know there is a difference between college and professional football. However, there are no college football teams that are unaffiliated with an institution of higher learning. Therefore, the NFL is the most logical new home. Don’t @ me.
 [^3]: Seriously, I feel like I should be petting a cat every time I type that name.
-[^4]: In case this is not obvious, this entire article is satire and dripping in sarcasm. I cannot believe  I need to write this, but in this day and age, people might actually think this is serious discourse. Hence this disclaimer. If you are one of those people, please turn off your computer and go outside. You need a time out.
+[^4]: In case this is not obvious, this entire article is satire. That is all.
