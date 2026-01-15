@@ -33,7 +33,7 @@ projects:
     icon: code-icon-color-swatch-generator.jpg
     description: Generate a downloadable color swatch, including the color's hex, RGB, and CYMK values.
     links: 
-      - url: https://color.thatdevgirl.com/
+      - url: https://color.jhalabi.com/
         text: Live site
         aria_label: Live Site of Color Swatch Generator"
       - url: https://github.com/thatdevgirl/color-palette-standalone
