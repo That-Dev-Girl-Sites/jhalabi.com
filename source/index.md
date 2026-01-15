@@ -15,11 +15,11 @@ title: Joni Halabi
 
 ## Hello World!
 
-I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's basement. Soon after that moment, I wrote my first GOTO statement, sending that computer into a fiery fit of sparks and smoke _(or something like that)_.
+I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's basement. Soon after that moment, I wrote my first GOTO statement, sending that computer into a fiery fit of sparks and smoke.
 
-My actual childhood was far less destructive and surrounded by computers — that Apple iiC, my beloved TI 99/4A, and eventually an IBM ThinkPad. I also spent my childhood among books, [reading anything](/reading/) that struck my interest. _(I had and still have eclectic tastes.)_ My dream was to move into our town library.
+Ok, that last bit may or may not be true. My actual childhood was far less destructive and surrounded by computers — that Apple iiC, my beloved TI 99/4A, and eventually an IBM ThinkPad. I also spent my childhood among books, [reading anything](/reading/) that struck my interest. _(I had and still have eclectic tastes.)_ My dream was to move into our town library.
 
-Today, I am a website creator and “middle-end” developer who likes to create accessible websites, tinker with generative AI, and make up my own titles. I specialize in developing CMS themes and WordPress editor customizations. I [speak at technical conferences](/speaking/), [blog about anything and everything](/blog/), and [write creative works](/book/) focusing on life as a single mother by choice. In the little spare time that remains, I run, travel with my adventurous kid, enjoy live music, and advocate for the Oxford comma.
+Today, I am a former “middle-end” developer turned website creator, who likes to craft accessible websites, tinker with generative AI, and make up my own titles. I specialize in WordPress site creation and digital accessibility. I [speak at technical conferences](/speaking/), [blog about anything and everything](/blog/), and [write creative works](/book/) focusing on life as a single mother by choice. In the little spare time that remains, I run, travel with my adventurous kid, enjoy live music, and advocate for the Oxford comma.
 
 </div>
 

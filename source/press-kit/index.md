@@ -74,10 +74,9 @@ _(This biography is best suited for development-focused conferences and other te
 
 <div markdown="1">
 
-Joni Halabi is a Senior Web Manager with the Office of the President at Georgetown University. 
-As a website creator and self-appointed “middle-end” developer, she enjoys creating accessible web-based narratives, developing custom code to support her storytelling, and making up her own titles. Joni specializes in WordPress editor customizations, content architecture, digital accessibility, and public speaking.
+Joni Halabi is a Senior Web Manager with the Office of the President at Georgetown University. As a website creator and former self-appointed “middle-end” developer, she enjoys creating accessible web-based narratives, developing custom code to support her storytelling, and making up her own titles. Joni specializes in WordPress site creation, digital accessibility, and creative and technical writing.
 
-When Joni is not writing code, she is writing technical articles and creative works focusing on life as a single mother by choice. She enjoys running, practicing yoga, reading, and seeing live music near her home in the Washington, D.C. area.
+When Joni is not crafting websites, she is writing technology-focused articles and creative works focusing on life as a single mother by choice. She enjoys running, practicing yoga, reading, and seeing live music near her home in the Washington, D.C. area.
 
 </div>
 
@@ -96,7 +95,7 @@ _(This biography is best suited for book-related interviews and other kid lit or
 
 <div markdown="1">
 
-Joni Halabi is a Senior Web Manager at Georgetown University and conference speaker who writes code and technical articles, as well as a blog focusing on her life and journey to becoming a mother. When she isn’t busy writing poignant stories for families and children, she enjoys running, doing yoga, reading, listening to podcasts, and seeing live music near her home in the Washington, D.C. area. *Sweet Little You* is her debut picture book.
+Joni Halabi is a Senior Web Manager at Georgetown University and conference speaker who creates websites and writes technical articles, as well as a blog focusing on her life and journey to becoming a mother. When she isn’t busy writing poignant stories for families and children, she enjoys running, doing yoga, reading, listening to podcasts, and seeing live music near her home in the Washington, D.C. area. *Sweet Little You* is her debut picture book.
 
 </div>
 

@@ -68,20 +68,20 @@ projects:
 
 <section markdown="1" class="coding-intro" aria-label="Introduction">
 
-As a website creator and self-appointed “middle-end” developer, I enjoy creating accessible web-based narratives, developing custom code to support my storytelling, and making up my own titles. My development career has evolved over a wide range of industries, including e-commerce, non-profit, and education. 
+In 2024, I made the decision to take a step back from full-time web developement, in order to make space for other professional and personal priorities. 
 
-In my more recent development projects, I specialized in content architecture and WordPress editor customizations. As a developer at [Georgetown University](https://georgetown.edu), I wrote over 50 custom WordPress blocks, using ReactJS, PHP, and the Gutenberg API.
+Prior to that shift, I worked as a self-appointed "middle-end" developer, specializing in content architecture and WordPress editor customizations. My development career evolved over a wide range of industries, including e-commerce, non-profit, and education. While I was a developer at [Georgetown University](https://georgetown.edu), I wrote numerous WordPress themes and plugins, as well as over 50 custom Gutenberg blocks, using ReactJS, PHP, and the Gutenberg API.
 
-I recently made the decision to take a step back from full-time coding, in order to make space for other professional and personal priorities. That being said, I still [write technical articles](/blog/) about my work and [speak](/speaking/) at the occasional technical conference or podcast.
+Today, I enjoy creating accessible web-based narratives, developing custom code to support my storytelling. I also [write technical articles](/blog/) about my work and [speak](/speaking/) at technical conferences and podcasts.
 
 </section>
 
 
 <section markdown="1" class="coding-resume" aria-label="Resume">
 
+* <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-box-fill">Connect on LinkedIn</a>
 * <a href="joni-halabi-resume.pdf" class="ri-list-check-3">View my resume</a>
 * <a href="https://github.com/thatdevgirl" class="ri-github-fill">Checkout GitHub</a>
-* <a href="https://www.linkedin.com/in/jonihalabi/" class="ri-linkedin-box-fill">Connect on LinkedIn</a>
 {.button-row}
 
 </section>
