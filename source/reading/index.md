@@ -9,7 +9,7 @@ I love books. Most of my childhood was spent inside a book _(or three)_. Today, 
 
 I keep track of the books I have read – mostly as a reference list because my memory fails me every now and then.
 
-You may notice a downturn in the numbers of books read over the last few years. I am only logged the grown-up books I read here. Our family bedtime routine includes reading one _(or sometimes two)_ kid-friendly books. One day, I will log all of those books too, but that day is not today.
+You may notice a downturn in the numbers of books read over the last several years. I am only logged the grown-up books I read here. Our family bedtime routine includes reading one _(or sometimes two)_ kid-friendly books. One day, I will log all of those books too, but that day is not today.
 
 In the meantime, enjoy my list below. 
 
@@ -20,6 +20,7 @@ In the meantime, enjoy my list below.
 
   Jump to year:
 
+  * [2026](#books-2026)
   * [2025](#books-2025)
   * [2023](#books-2023)
   * [2022](#books-2022)
@@ -40,6 +41,17 @@ In the meantime, enjoy my list below.
 
 
 <section markdown="1" class="reading-list" aria-label="Book lists by year">
+
+## Books Read in 2026 {#books-2026}
+
+(Total: 2)
+{.book-count}
+
+Book | Thoughts | Date Read
+---- | ----- | ----
+**The Wild Robot** <br> Peter Brown | My daughter saw the movie (without me!) and loved it. This inspired me to read the book. To be honest, it was a slow start, but an amazing story in the end. I had no idea there is a sequel! I will definitely be reading that soon. | February
+**You Look Like a Thing And I Love You** <br> Janelle Shane | I found this book randomly in the library and needed to read it solely because of the title. No regrets. Informative and hilarious. It is a bit dated now, given it was written 7 years ago, but still worth reading today. | January
+
 
 ## Books Read in 2025 {#books-2025}
 
