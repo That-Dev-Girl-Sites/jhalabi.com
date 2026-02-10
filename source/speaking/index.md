@@ -41,7 +41,7 @@ I am always looking for new opportunities and venues to speak about my work. Ple
 
 <li markdown="1">
 
-**Choosing Chaos: Solo Morherhood by Choice**
+**Choosing Chaos: Solo Motherhood by Choice**
 
 Guest
 
