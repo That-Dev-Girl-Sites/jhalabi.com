@@ -37,7 +37,21 @@ I am always looking for new opportunities and venues to speak about my work. Ple
 
 ## Past speaking events
 
-<ol markdown="1" reversed style="counter-reset: events 26;">
+<ol markdown="1" reversed style="counter-reset: events 27;">
+
+<li markdown="1">
+
+**Choosing Chaos: Solo Morherhood by Choice**
+
+Guest
+
+<span class="ri-calendar-fill"></span> January 26, 2026
+
+<span class="ri-map-pin-2-fill"></span> Online
+
+<span class="ri-volume-up-fill"></span> [So… I Became a Mom: Joni’s Story](https://podcasts.apple.com/us/podcast/so-i-became-a-mom-jonis-story/id1825147838?i=1000746716442)
+
+</li>
 
 <li markdown="1">
 
