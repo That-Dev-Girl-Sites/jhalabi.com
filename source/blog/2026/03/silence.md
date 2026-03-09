@@ -20,5 +20,4 @@ That silence can mean someone does not know the answer. Or they feel threatened.
 
 Silence like this is unhelpful. Even an emoji shrug would be more useful.
 
-All relationships are bi-directional, whether they be personal or professional, between two peers or two people of differing ranks. The choice to remain silent speaks volumes. The intent behind type type of silence is irrelevant. It speaks to a person's character and to their views of the relationship. It loses respect, friendship, and trust – and those things are not easily replaced.
-
+All relationships are bi-directional, whether they be personal or professional, between two peers or two people of differing ranks. The choice to remain silent in any case speaks volumes, and intent is irrelevant. It speaks to a person's character and to their views of the relationship. It loses respect, friendship, and trust – and those things are not easily replaced.

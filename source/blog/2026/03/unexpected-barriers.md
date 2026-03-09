@@ -13,7 +13,7 @@ I find barriers to access all the time. A curb cut buried under a mountain of pl
 
 I never expected to find a barrier within the academic rigor of my child's second grade curriculum.
 
-Without going into detail in a public forum, second grade has been a rough – and illogical – year. My child's grades were drastically different from last year for no obvious reason. Feedback from parent-teacher conferences contradicted issues printed on report cards. I thought these issues lied only with us. I only recently learned I was wrong. A (larger-than-I-expected number) of parents had a meeting, sharing our surprisingly similar experiences. We discovered some systemic issues along the way. Our concerns were sent to the principal. The principal, in turn, invited us to meet in a listening session. Parents talk. Administrators listen.
+Without going into detail in a public forum, second grade has been a rough – and illogical – year. My child's grades were drastically different from last year for no obvious reason. Feedback from parent-teacher conferences contradicted issues printed on report cards. I thought these issues lied only with us. I only recently learned I was wrong. A (larger-than-I-expected) number of parents had a meeting, sharing our surprisingly similar experiences. We discovered some systemic issues along the way. Our concerns were sent to the principal. The principal, in turn, invited us to meet in a listening session. Parents talk. Administrators listen.
 
 This sounds perfect on paper, until the principal shared the required details of the meeting.
 
