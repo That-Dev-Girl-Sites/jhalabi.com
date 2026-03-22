@@ -44,11 +44,13 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2026 {#books-2026}
 
-(Total: 3)
+(Total: 5)
 {.book-count}
 
 Book | Thoughts | Date Read
 ---- | ----- | ----
+**I Got Abducted by Aliens and Now I'm Trapped in a Rom-Com** <br> Kimberly Lemming | It is no secret that I love sci fi, so when I saw this book listed in an email about a local convention, I knew I needed to read it – especially because of the title. It was as weird as I expected it to be. No regrets. | March
+**Atmosphere** <br> Taylor Jenkins Reid | I seriously think she is my new favorite author. Love, love, loved this book. Many feels were had. | <span class='fa fa-heart'></span> March
 **Perfume: The Story of a Murderer** <br> Patrick Süskind | I came across this book because of a scam email (longer and weirder story). It looked interesting enough to check out of the library, despite the fact that I cannot stand horror or murder mysteries. This book was completely unhinged, but enjoyable. | March
 **The Wild Robot** <br> Peter Brown | My daughter saw the movie (without me!) and loved it. This inspired me to read the book. To be honest, it was a slow start, but an amazing story in the end. I had no idea there is a sequel! I will definitely be reading that soon. | February
 **You Look Like a Thing And I Love You** <br> Janelle Shane | I found this book randomly in the library and needed to read it solely because of the title. No regrets. Informative and hilarious. It is a bit dated now, given it was written 7 years ago, but still worth reading today. | January
