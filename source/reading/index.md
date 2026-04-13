@@ -44,11 +44,12 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2026 {#books-2026}
 
-(Total: 6)
+(Total: 7)
 {.book-count}
 
 Book | Thoughts | Date Read
 ---- | ----- | ----
+**Carrie Soto Is Back** <br> Taylor Jenkins Reid | There has bee a definite pattern in my reading lately. As someone who is not the biggest tennis fan, I was not too enthusiastic about this one, but I was also still pretty absorbed in the story | April
 **Malibu Rising** <br> Taylor Jenkins Reid | Both completely unhinged and completely engaging. Her books are the majority of my (rapidly growing) books-to-read stack | <span class='fa fa-heart'></span> April
 **I Got Abducted by Aliens and Now I'm Trapped in a Rom-Com** <br> Kimberly Lemming | It is no secret that I love sci fi, so when I saw this book listed in an email about a local convention, I knew I needed to read it – especially because of the title. It was as weird as I expected it to be. No regrets. | March
 **Atmosphere** <br> Taylor Jenkins Reid | I seriously think she is my new favorite author. Love, love, loved this book. Many feels were had. | <span class='fa fa-heart'></span> March
