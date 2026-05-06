@@ -44,11 +44,12 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2026 {#books-2026}
 
-(Total: 8)
+(Total: 9)
 {.book-count}
 
 Book | Thoughts | Date Read
 ---- | ----- | ----
+**Please Yell At My Kids** <br> Marina Lopes | While a lot of this book focused on kids much younger than mine, there was a lot of useful information for my (completely burnt-out) situation. I love the ideas this book is inspiring me to try. I wish this had been published earlier (during the baby years). | May
 **The Lesbiana's Guide to Catholic School** <br> Sonora Reyes | This book reminded me why I found high school administration completely infuriating. Great read. So many emotions. | April
 **Carrie Soto Is Back** <br> Taylor Jenkins Reid | There has bee a definite pattern in my reading lately. As someone who is not the biggest tennis fan, I was not too enthusiastic about this one, but I was also still pretty absorbed in the story | April
 **Malibu Rising** <br> Taylor Jenkins Reid | Both completely unhinged and completely engaging. Her books are the majority of my (rapidly growing) books-to-read stack | <span class='fa fa-heart'></span> April
