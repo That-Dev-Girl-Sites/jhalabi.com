@@ -44,11 +44,12 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2026 {#books-2026}
 
-(Total: 11)
+(Total: 12)
 {.book-count}
 
 Book | Thoughts | Date Read
 ---- | ----- | ----
+**Escape Velocity** <br> Victor Manibo | I don't know how I feel about this book. Without spoilers, I got the ending I wanted, but I'm still mad about it. | May
 **Maybe In Another Life** <br> Taylor Jenkins Reid | I picked up this book because I both love this author (see below) and the premis reminded me of the musical _If/Then_. Definitely not disappointed. | May
 **A Life Without Rest: Reflections on Three Migrations** <br> Nagib Budejen | A memoir by my mom's uncle. His life is a fascinating and inspiring story. | May
 **Please Yell At My Kids** <br> Marina Lopes | While a lot of this book focused on kids much younger than mine, there was a lot of useful information for my (completely burnt-out) situation. I love the ideas this book is inspiring me to try. I wish this had been published earlier (during the baby years). | May
