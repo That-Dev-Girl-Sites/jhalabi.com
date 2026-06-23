@@ -44,11 +44,12 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2026 {#books-2026}
 
-(Total: 12)
+(Total: 13)
 {.book-count}
 
 Book | Thoughts | Date Read
 ---- | ----- | ----
+**Shut Up And Read: A Memoir from Harriett’s Bookshop** <br> Jeannine A. Cook | I love her vision, drive, and creativity. I wish I had half the energy she does. | June
 **Escape Velocity** <br> Victor Manibo | I don't know how I feel about this book. Without spoilers, I got the ending I wanted, but I'm still mad about it. | May
 **Maybe In Another Life** <br> Taylor Jenkins Reid | I picked up this book because I both love this author (see below) and the premis reminded me of the musical _If/Then_. Definitely not disappointed. | May
 **A Life Without Rest: Reflections on Three Migrations** <br> Nagib Budejen | A memoir by my mom's uncle. His life is a fascinating and inspiring story. | May
