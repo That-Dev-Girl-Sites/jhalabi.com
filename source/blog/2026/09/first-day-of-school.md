@@ -10,10 +10,10 @@ excerpt: Every day is an adventure, but that is especially true today.
 
 I have a sign in my kitchen that says:
 
-| Be **bold**.
-| Be light.
-| Be *italic*.
-| But never regular.
+> Be **bold**.
+> Be light.
+> Be *italic*.
+> But never regular.
 
 If you know me at all, you know that “regular” is not in my vocabulary. This is probably why I am excited to make the following announcement:
 
