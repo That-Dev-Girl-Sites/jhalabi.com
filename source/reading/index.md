@@ -44,11 +44,12 @@ In the meantime, enjoy my list below.
 
 ## Books Read in 2026 {#books-2026}
 
-(Total: 14)
+(Total: 15)
 {.book-count}
 
 Book | Thoughts | Date Read
 ---- | ----- | ----
+**Pocket Bear** <br> Katherine Applegate | My third grader picked it up at the end of our library's summer reading program, but never got around to reading it. I decided to read it quickly before we need to return it. I don't know if it is quite for third graders, but it melted this not-third-grader's heart. Definitely recommend. | October
 **Carole King: She Made the Earth Move** <br> Jane Eisner | I love Carole King's writing and music, but would not consider myself an uber-fan. Regardless, her songs were ear-wormed the entire time I was reading this book (in the best way). It was great learning more about her life and the stories behind her music. | August
 **Shut Up And Read: A Memoir from Harriett’s Bookshop** <br> Jeannine A. Cook | I love her vision, drive, and creativity. I wish I had half the energy she does. | June
 **Escape Velocity** <br> Victor Manibo | I don't know how I feel about this book. Without spoilers, I got the ending I wanted, but I'm still mad about it. | May
