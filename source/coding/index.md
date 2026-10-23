@@ -72,7 +72,7 @@ In 2024, I made the decision to take a step back from full-time web developement
 
 Prior to that shift, I worked as a self-appointed "middle-end" developer, specializing in content architecture and WordPress editor customizations. My development career evolved over a wide range of industries, including e-commerce, non-profit, and education. While I was a developer at [Georgetown University](https://georgetown.edu), I wrote numerous WordPress themes and plugins, as well as over 50 custom Gutenberg blocks, using ReactJS, PHP, and the Gutenberg API.
 
-Today, I enjoy creating accessible web-based narratives, developing custom code to support my storytelling. I also [write technical articles](/blog/) about my work and [speak](/speaking/) at technical conferences and podcasts.
+Today, I enjoy creating accessible websites and stories, and developing custom code to support my works. I also [write articles](/blog/) about my work and life, and [speak](/speaking/) at the occasional conference or podcast.
 
 </section>
 
