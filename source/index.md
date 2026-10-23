@@ -19,7 +19,7 @@ I wrote my first line of code in BASIC on an Apple iiC, sitting in my parent's b
 
 Ok, that last bit may or may not be true. My actual childhood was far less destructive and surrounded by computers — that Apple iiC, my beloved TI 99/4A, and eventually an IBM ThinkPad. I also spent my childhood among books, [reading anything](/reading/) that struck my interest. _(I had and still have eclectic tastes.)_ My dream was to move into our town library.
 
-Today, I am a former “middle-end” developer turned website creator, who likes to craft accessible websites, tinker with generative AI, and make up my own titles. I specialize in WordPress site creation and digital accessibility. I [speak at technical conferences](/speaking/), [blog about anything and everything](/blog/), and [write creative works](/book/) focusing on life as a single mother by choice. In the little spare time that remains, I run, travel with my adventurous kid, enjoy live music, and advocate for the Oxford comma.
+Today, I am a former “middle-end” developer turned website creator, who likes to craft accessible websites, tinker with AI, and make up my own titles. I [speak at technical conferences](/speaking/), [blog about the things I love](/blog/), and [write creative works](/book/) focusing on life as a single mother by choice. I am a single parent to the best kid on the planet, and we love to travel (exclusively on this planet... for now). I am a student in the Doctor of Liberal Studies program at Georgetown, concentrating on the intersection of accessible communication and emerging technologies, because I love both of those fields (and hate sleep). In my spare time, I run, enjoy live music, and advocate for the Oxford comma.
 
 </div>
 
