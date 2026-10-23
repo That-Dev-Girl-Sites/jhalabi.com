@@ -27,7 +27,7 @@ Pronouns:
 : she/her
 
 Title:
-: Senior Web Manager, Office of the President
+: Senior Web Manager, Office of Strategic Communication
 
 Company:
 : Georgetown University
@@ -74,7 +74,7 @@ _(This biography is best suited for development-focused conferences and other te
 
 <div markdown="1">
 
-Joni Halabi is a Senior Web Manager with the Office of the President at Georgetown University. As a website creator and former self-appointed “middle-end” developer, she enjoys creating accessible web-based narratives, developing custom code to support her storytelling, and making up her own titles. Joni specializes in WordPress site creation, digital accessibility, and creative and technical writing.
+Joni Halabi is a Senior Web Manager with the Office of Strategic Communication at Georgetown University. As a website creator and former self-appointed “middle-end” developer, she enjoys creating accessible websites, developing custom code to support her work, and making up her own titles. Joni specializes in WordPress site creation, digital accessibility, and creative and technical writing.
 
 When Joni is not crafting websites, she is writing technology-focused articles and creative works focusing on life as a single mother by choice. She enjoys running, practicing yoga, reading, and seeing live music near her home in the Washington, D.C. area.
 
